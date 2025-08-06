@@ -1,0 +1,239 @@
+{
+  "newer_release": {
+    "tag_name": "v1.4.3",
+    "created_at": "2025-04-16T08:13:05Z",
+    "name": "Runtimes 1.4.3",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [1.4.3] 14.04.2025\n\n### Changed\n\n- Apply patch for stable2409-6 ([polkadot-fellows/runtimes/pull/623](https://github.com/polkadot-fellows/runtimes/pull/623))\n- Disable MBM migrations for all runtimes for check-migrations CI ([polkadot-fellows/runtimes/pull/590](https://github.com/polkadot-fellows/runtimes/pull/590))\n- chain-spec-generator supports conditional building (`--no-default-features --features <runtime>` or `--no-default-features --features all-runtimes` or\n  `--no-default-features --features all-polkadot` or `--no-default-features --features all-kusama`)([polkadot-fellows/runtimes/pull/637](https://github.com/polkadot-fellows/runtimes/pull/637))\n\n# Runtime info\n*These runtimes were built with **rustc 1.84.1 (e71f9a9a9 2025-01-27)** using **[srtool v0.18.2](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"--features=on-chain-release-build\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.78Mi (1863557 bytes)\n\ud83d\udddc Compressed:             Yes: 73.42%\n\ud83d\udd25 Core Version:           polkadot-1004003 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7fbfd44d18596843148d2e6e2e6c80563da4af655ea942f76959dd61f5b67fef\n\ud83d\udce6 IPFS:                   QmfMjTbzh7yoLs4UAtd2nNw5iNpNKnJSxadHHiExGNaNhT\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.02Mi (1061408 bytes)\n\ud83d\udddc Compressed:             Yes: 72.72%\n\ud83d\udd25 Core Version:           people-kusama-1004003 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x25182d177214928db805a85f4c140ccd9835c22eef862d20e51dff1faa8196d9\n\ud83d\udce6 IPFS:                   QmSKNJ1qMvRYaiT5xAgBypmNQSf2cY1pnH8XmMEfQg5FXw\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.89Mi (1974719 bytes)\n\ud83d\udddc Compressed:             Yes: 73.91%\n\ud83d\udd25 Core Version:           kusama-1004003 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc90b285a49145f13660198e4fb5226d70e53fc64142201bdef140fdd157a8226\n\ud83d\udce6 IPFS:                   Qmd6jiUbyRw7rTQPJSJ3WfqimxjJHY8b7wTiFdTJFo7Mhq\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.03Mi (1076531 bytes)\n\ud83d\udddc Compressed:             Yes: 72.64%\n\ud83d\udd25 Core Version:           coretime-polkadot-1004003 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xf2162863af657eebf8bacb6d32c7eb9cd73b94b40add2c8d815e76b612cbadc1\n\ud83d\udce6 IPFS:                   QmX1wDarU17jsidU1QoFL73gW4BrPy1sFWty87BFeB76DH\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.03Mi (1077237 bytes)\n\ud83d\udddc Compressed:             Yes: 72.61%\n\ud83d\udd25 Core Version:           coretime-kusama-1004003 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x90b98b0c2397269d2e529ae5ee01d7bbbcddf37e12112c9d2bea5b1108479a39\n\ud83d\udce6 IPFS:                   QmfUwMmtW4rko26H4km5UjaKS5JxYfGmnyXRkibaDfPvdN\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.19Mi (1243514 bytes)\n\ud83d\udddc Compressed:             Yes: 74.12%\n\ud83d\udd25 Core Version:           collectives-1004003 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x21a6f4e9a031a24aec7baff4c5e2ea597e0c08d103b0d7123c69cbb363a4685c\n\ud83d\udce6 IPFS:                   Qmd2iKBYHvC9LXbyqQCGTj14zVsKKsnyEzbCUhk9NEGG9C\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.37Mi (1431141 bytes)\n\ud83d\udddc Compressed:             Yes: 72.14%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-1004003 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc0f7660487bbe715cca4fa3141a3a171623f76c86bce3a1f44da191004e3dd1f\n\ud83d\udce6 IPFS:                   QmVHVZQ1CD2aMsvZXqK8pqMdcyqtyk5vnwXayQqCs8AnLU\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.10Mi (1151783 bytes)\n\ud83d\udddc Compressed:             Yes: 72.31%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-1004003 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x81c36dc879f667c609f047524692bc01aa60fb62f86d9042ad9e9cb6f29e67ee\n\ud83d\udce6 IPFS:                   QmcX9pfoJYE5FPqzqZMLRsn5CBxfRFKLF6fpfKUvNte7re\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.37Mi (1427145 bytes)\n\ud83d\udddc Compressed:             Yes: 75.24%\n\ud83d\udd25 Core Version:           statemine-1004003 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xa15103f7b71bb23c9602a210c7f1ec34a01208cd4a029d78ac2a7620ddbbd4ce\n\ud83d\udce6 IPFS:                   QmSK5QELopmENot8S2fdqQ59ffwSZVmSpZaCaewnZezLNR\n~~~\n"
+  },
+  "older_release": {
+    "tag_name": "v1.4.2",
+    "created_at": "2025-03-10T11:37:41Z",
+    "name": "Runtimes 1.4.2"
+  },
+  "pr_count": 7,
+  "ai_analysis": "Here's my analysis of the changes between v1.4.2 and v1.4.3:\n\n1. **Executive Summary for Non-Technical Users**\n- Main improvement is preparation for the Ethereum Electra upgrade on May 7th, focusing on the BridgeHub Polkadot parachain\n- Several infrastructure and maintenance improvements to make the development process more efficient\n- No direct user actions required, but bridge users should be aware of the upcoming Ethereum upgrade\n- Includes cleanup of old migration code and improvements to state management\n\n2. **Key Changes Explained**\n- The Ethereum bridge compatibility update is essential to maintain operation after the Electra fork\n- Several CI/testing improvements make the system more reliable and easier to maintain\n- No breaking changes identified that would affect end users\n- Improved state migration controls for Asset Hubs to help manage network storage more efficiently\n\n3. **Technical Summary for Developers**\nMajor changes:\n- Updated BridgeHub Polkadot for Ethereum Electra fork compatibility\n- Introduced feature-gated compilation for chain-spec-generator\n- Removed old migrations up to v1.4.2\n- Updated MigrationMaxKeyLen parameter (increased to 512) and added MigController configuration\n- Bumped to stable2409-6 polkadot-sdk version\n\nMigration requirements:\n- State trie migration parameters updated for Asset Hubs\n- Bridge implementations need to account for Ethereum Electra upgrade\n\n4. **Code Impact Analysis**\nMost affected components:\n- BridgeHub Polkadot (Ethereum bridge updates)\n- CI/Testing infrastructure (significant improvements)\n- Asset Hubs (migration parameter updates)\n- State migration code (cleanup and configuration)\n\nTypes of changes:\n- Feature updates (25%): Ethereum bridge compatibility\n- Infrastructure improvements (40%): CI, testing, build process\n- Maintenance (35%): Migration cleanup, parameter updates\n\nKey metrics:\n- 7 PRs merged\n- Multiple runtime versions updated\n- Significant test infrastructure improvements\n- Cleanup of old migration code\n\nThe changes appear well-tested and focused on maintaining system stability while preparing for the Ethereum upgrade. The release prioritizes infrastructure improvements and necessary maintenance work.",
+  "pr_details": [
+    {
+      "number": 675,
+      "title": "Release 1.4.3",
+      "author": "claravanstaden",
+      "merged_at": "2025-04-16T08:13:05Z",
+      "body": "Release 1.4.3 for:\r\n**- Electra fork upgrade:** The Ethereum Electra upgrade is going live on mainnet on 7 May. The Snowbridge Ethereum client needs to be upgraded before then. The change can be viewed in https://github.com/paritytech/polkadot-sdk/pull/7075.\r\n\r\nThis release only includes BridgeHubPolkadot, since the required change is only related to this system parachain.\r\n\r\nCloses: https://github.com/polkadot-fellows/runtimes/issues/654",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 14,
+      "deletions": 14,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 21
+    },
+    {
+      "number": 637,
+      "title": "Various CI and zombienet smoke test improvements",
+      "author": "bkontur",
+      "merged_at": "2025-03-26T23:54:56Z",
+      "body": "This PR includes:\r\n- Feature-gated compilation for `chain-spec-generator` per runtime. Use `--features <runtime1>,<runtimeN>`, `--features all-runtimes`, `--features all-polkadot`, or `--features all-kusama`.\r\n  - The main motivation here is to save CI time and speed up the process, as we don't need all runtimes at once.\r\n- Various improvements to the `zombienet-smote` test:\r\n   - Fixed nits and made small adjustments to reduce flakiness.\r\n   - CI build speed-up by optimizing `chain-spec-generator`.\r\n   - Dumped Docker and Polkadot/Parachain versions.\r\n   - Improved subxt client usage.\r\n- ~Updated CI to use `ubuntu::latest` everywhere.~",
+      "labels": [],
+      "files_changed": 11,
+      "additions": 229,
+      "deletions": 123,
+      "file_list": [
+        "chain-spec-generator/src/main.rs",
+        "integration-tests/zombienet/src/lib.rs",
+        "integration-tests/zombienet/tests/smoke.rs",
+        "CHANGELOG.md",
+        "chain-spec-generator/src/common.rs",
+        ".github/workflows/test.yml",
+        "chain-spec-generator/src/system_parachains_specs.rs",
+        "integration-tests/bridges/README.md",
+        "integration-tests/zombienet/src/environment.rs",
+        "chain-spec-generator/src/relay_chain_specs.rs",
+        "chain-spec-generator/Cargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 24
+    },
+    {
+      "number": 590,
+      "title": "Remove migrations `..v1.4.2` + disable MBM migrations for all runtimes for check-migrations CI",
+      "author": "bkontur",
+      "merged_at": "2025-04-03T22:50:03Z",
+      "body": "This PR:  \r\n- Removes previously executed migrations based on the v1.4.2 (and older) tag \u2013 [remove-migrations.patch.txt](https://github.com/user-attachments/files/19587122/remove-migrations.patch.txt).  \r\n- Disables MBM migrations for all runtimes in the check-migrations CI.  \r\n  - MBM migrations are not set up for any runtimes, but only Encointer had disabled checks for them.  \r\n  - Related issue: [paritytech/try-runtime-cli#109](https://github.com/paritytech/try-runtime-cli/issues/109).\r\n\r\n",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 30,
+      "deletions": 1330,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/ambassador/mod.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/ambassador/migrations.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/migrations.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        ".github/workflows/runtimes-matrix.json",
+        "CHANGELOG.md",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        ".github/workflows/check-migrations.yml"
+      ],
+      "linked_issues": [
+        {
+          "number": 109,
+          "title": "Fellowship Treasury",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 34
+    },
+    {
+      "number": 623,
+      "title": "Bump to stable2409-6",
+      "author": "bkontur",
+      "merged_at": "2025-04-07T13:35:54Z",
+      "body": "This PR contains:\r\n- bump to stable2409-6\r\n\r\n## TODO: \r\n- [x] fix penpal-runtime compilation https://github.com/polkadot-fellows/runtimes/actions/runs/13853959747/job/38766523729?pr=623\r\n- [x] check electra setup\r\n- [x] confirm that this PR is compatible and doing the same as https://github.com/polkadot-fellows/runtimes/pull/608 (@Ank4n)\r\n",
+      "labels": [],
+      "files_changed": 30,
+      "additions": 770,
+      "deletions": 711,
+      "file_list": [
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/bridge_to_polkadot_config.rs",
+        "integration-tests/emulated/tests/collectives/collectives-polkadot/src/tests/teleport.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "integration-tests/emulated/tests/people/people-polkadot/src/tests/teleport.rs",
+        "integration-tests/emulated/tests/coretime/coretime-kusamsrc/tests/teleport.rs",
+        "integration-tests/emulated/tests/coretime/coretime-polkadot/src/tests/teleport.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/bridge_to_ethereum_config.rs",
+        "integration-tests/emulated/tests/people/people-kusamsrc/tests/teleport.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/xcm_fee_estimation.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "integration-tests/emulated/helpers/src/lib.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/teleport.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/teleport.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/bridge_to_kusama_config.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/teleport.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/xcm_fee_estimation.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/teleport.rs",
+        "Cargo.lock",
+        "Cargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 33
+    },
+    {
+      "number": 616,
+      "title": "Release 1.4.2",
+      "author": "ggwpez",
+      "merged_at": "2025-03-10T11:37:42Z",
+      "body": "Release 1.4.2 for:\r\n- #535 (PAH and KAH)\r\n- #614 (P Collectives)\r\n- #604 (PAH and KAH)",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 5,
+      "deletions": 8,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 604,
+          "title": "State trie migrations ah",
+          "state": "closed"
+        },
+        {
+          "number": 614,
+          "title": "Fix scheduler weight and add test",
+          "state": "closed"
+        },
+        {
+          "number": 535,
+          "title": "Add remote proxy support to AH Kusama",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 4
+    },
+    {
+      "number": 668,
+      "title": "Update value of MigrationMaxKeyLen and and MigController to control migration",
+      "author": "nkpar",
+      "merged_at": "2025-04-09T10:57:22Z",
+      "body": "Update value of MigrationMaxKeyLen to proceed with state trie migration via bot on both KAH and PAH\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 10,
+      "deletions": 6,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 627,
+      "title": "Bridges nits and cleanup",
+      "author": "bkontur",
+      "merged_at": "2025-03-27T01:06:31Z",
+      "body": "This PR contains:\r\n- removed deps (bp-polkadot, bp-kusama) from polkadot-sdk and placed them directly here as a leftover https://github.com/paritytech/parity-bridges-common/issues/2950\r\n- bridges zombienet test nits\r\n\r\n## TODO\r\n- [x] run Bridges tests\r\n- [x] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 16,
+      "additions": 146,
+      "deletions": 90,
+      "file_list": [
+        "system-parachains/bridge-hubs/bridge-hub-kusamprimitives/Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/bridge_to_polkadot_config.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/primitives/Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-kusamprimitives/src/lib.rs",
+        "integration-tests/bridges/tests/0001-polkadot-kusama-asset-transfer/dot-reaches-kusama.zndsl",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "integration-tests/bridges/environments/polkadot-kusambridges_polkadot_kusama.sh",
+        "system-parachains/bridge-hubs/bridge-hub-kusamCargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/primitives/src/lib.rs",
+        "Cargo.lock",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/bridge_to_kusama_config.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/xcm_config.rs",
+        "Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "integration-tests/bridges/tests/0001-polkadot-kusama-asset-transfer/ksm-reaches-polkadot.zndsl"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    }
+  ]
+}

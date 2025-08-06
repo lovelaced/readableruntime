@@ -103,12 +103,6 @@ Desktop.ini
 !docs/
 !docs/**
 
-# But ignore local test data in docs
-docs/data/releases/*.md
-docs/data/releases/*.json
-!docs/data/releases/index.json
-docs/data/releases/index.json
-
 # Scripts directory
 !scripts/
 !scripts/**

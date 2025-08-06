@@ -1,0 +1,188 @@
+{
+  "newer_release": {
+    "tag_name": "v1.4.2",
+    "created_at": "2025-03-10T11:37:41Z",
+    "name": "Runtimes 1.4.2",
+    "body": "# Changelog\r\n\r\nChangelog for the runtimes governed by the Polkadot Fellowship.\r\n\r\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\r\n\r\n## [1.4.2] 07.03.2025\r\n\r\n### Added\r\n\r\n- Adds support for remote proxies on AssetHub Polkadot and AssetHub Kusama. \u203c\ufe0f Builders: Please read the docs and the implications around the lifetime of a proxy on a remote chain. \u203c\ufe0f ([polkadot-fellows/runtimes#535](https://github.com/polkadot-fellows/runtimes/pull/535))\r\n- Enabled state-trie-migration for Kusama and Polkadot Asset Hubs ([polkadot-fellows/runtimes/pull/604](https://github.com/polkadot-fellows/runtimes/pull/604))\r\n\r\n### Fixed\r\n\r\n- Correct weights of the scheduler pallet to avoid failing fellowship proposals ([polkadot-fellows/runtimes#614](https://github.com/polkadot-fellows/runtimes/pull/614))\r\n\r\n# Runtime info\r\n*These runtimes were built with **rustc 1.84.1 (e71f9a9a9 2025-01-27)** using **[srtool v0.18.2](https://github.com/paritytech/srtool)***\r\n\r\nTo replicate the build, use the following command:\r\n```sh\r\nsrtool build\r\n       --root --profile production\r\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\r\n       --build-opts=\"--features=on-chain-release-build\"\r\n```\r\n\r\n## Collectives\r\n~~~\r\n\ud83c\udfcb\ufe0f Runtime Size:           1.20Mi (1249962 bytes)\r\n\ud83d\udddc Compressed:             Yes: 74.01%\r\n\ud83d\udd25 Core Version:           collectives-1004002 collectives-0.tx7.au1\r\n\ud83c\udf81 Metadata version:       V14\r\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x18c4738dfa5f3d43b7e4da1404f09f3e139985bf4f5da111ab464b6c5d75b7b2\r\n\ud83d\udce6 IPFS:                   QmSn6F8Y2zLjuJw1ewBoATwM3qTghcFzH4jYH3e5wkTfZJ\r\n~~~\r\n\r\n## Asset Hub Polkadot (previously Statemint)\r\n~~~\r\n\ud83c\udfcb\ufe0f Runtime Size:           1.37Mi (1432298 bytes)\r\n\ud83d\udddc Compressed:             Yes: 74.87%\r\n\ud83d\udd25 Core Version:           statemint-1004002 statemint-0.tx15.au1\r\n\ud83c\udf81 Metadata version:       V14\r\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb141cfba5f13b3b06362bf62222f585d4bb61fcb1345c716294a097df44d5eb5\r\n\ud83d\udce6 IPFS:                   QmVpMd3Wzruk9yG9BkgbmGiSTtnw9s8xtGc9tKAFQCTm5i\r\n~~~\r\n\r\n## Asset Hub Kusama (previously Statemine)\r\n~~~\r\n\ud83c\udfcb\ufe0f Runtime Size:           1.36Mi (1425912 bytes)\r\n\ud83d\udddc Compressed:             Yes: 75.25%\r\n\ud83d\udd25 Core Version:           statemine-1004002 statemine-0.tx15.au1\r\n\ud83c\udf81 Metadata version:       V14\r\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7521bd184af62ad6b1c0809296f7e16ed675c4f7c165d998550623668f30864b\r\n\ud83d\udce6 IPFS:                   QmaTMqVUQXKDjBnkE7M3kikeUVQL8sxmDVqhRyc7Q9zu7C\r\n~~~\r\n"
+  },
+  "older_release": {
+    "tag_name": "v1.4.1",
+    "created_at": "2025-02-27T13:05:36Z",
+    "name": "Runtimes 1.4.1"
+  },
+  "pr_count": 6,
+  "ai_analysis": "Here's my analysis of the changes between v1.4.1 and v1.4.2:\n\n1. **Executive Summary for Non-Technical Users**\n\nMain improvements:\n- Fixed a critical staking system bug that affected nomination pools\n- Added support for using Relay Chain proxies on Asset Hubs (Polkadot and Kusama)\n- Fixed issues with the scheduler system in the Polkadot Collectives chain\n- Improved storage efficiency on Asset Hubs through state trie migrations\n\nBenefits:\n- More reliable staking and nomination pool operations\n- Easier asset management through proxy accounts\n- More efficient proposal processing in the Fellowship\n- Better chain performance on Asset Hubs\n\nActions needed:\n- Proxy users should review the new documentation about remote proxy lifetimes\n- No immediate action required for regular users\n\n2. **Key Changes Explained**\n\nBreaking changes:\n- None identified in this release\n\nSecurity improvements:\n- Fixed a critical staking bug (details withheld until fully deployed)\n- Remote proxy implementation underwent security review\n\nPerformance improvements:\n- Optimized state storage on Asset Hubs through migrations\n- Fixed scheduler weights to prevent proposal failures\n\nNew features:\n- Remote proxy support allowing Relay Chain proxy accounts to operate on Asset Hubs\n- State trie migration capability on Asset Hubs\n\n3. **Technical Summary for Developers**\n\nMajor API/interface changes:\n- Added remote proxy support infrastructure\n- Updated scheduler weight calculations\n- Implemented state trie migration interfaces\n\nMigration requirements:\n- State trie migrations enabled for Asset Hubs\n- Migration bot code available in polkadot-scripts repository\n\nTechnical improvements:\n- Fixed V1 benchmarking issues related to Rust compiler changes\n- Updated scheduler weight calculations with proper bounds checking\n- Implemented remote proxy mechanisms with relay chain integration\n\n4. **Code Impact Analysis**\n\nMost affected components:\n- Asset Hubs (both Polkadot and Kusama)\n- Collectives chain scheduler\n- Staking system\n- State storage system\n\nTypes of changes:\n- Bug fixes: Staking system, scheduler weights\n- New features: Remote proxy support, state trie migrations\n- Performance improvements: Storage optimizations\n- Infrastructure: Migration support, weight calculations\n\nThe changes appear well-tested and reviewed, with particular attention paid to security-critical components like the remote proxy implementation. The release includes both urgent fixes and planned improvements, with clear documentation requirements for ecosystem participants.",
+  "pr_details": [
+    {
+      "number": 608,
+      "title": "Release 1.4.1",
+      "author": "bkchr",
+      "merged_at": "2025-02-27T13:05:37Z",
+      "body": "There was a bug found in the staking system which needs to be fixed ASAP. This release pulls in changes directly from a custom `Polkadot-SDK` branch. The changes can be reviewed [here](https://github.com/paritytech/polkadot-sdk/compare/stable2409...bkchr-fix-the-thing). \r\n\r\nAfter approval, this will go out as a release immediately. A full disclosure of the impact of this issue will be released after it was applied on chain.",
+      "labels": [],
+      "files_changed": 16,
+      "additions": 663,
+      "deletions": 588,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "Cargo.lock",
+        "CHANGELOG.md",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 614,
+      "title": "Fix scheduler weight and add test",
+      "author": "ggwpez",
+      "merged_at": "2025-03-04T13:03:34Z",
+      "body": "- **Add test to collectives pallet**\r\n- **Manually edit scheduler weight**\r\n\r\n## Investigation\r\n\r\nThe Rust compiler changed how the `stringify!` macro formats paths on [Aug 12th '24](https://github.com/rust-lang/rust/issues/128992#issuecomment-2282908325). I assume that this broke the V1 benchmarking [here](https://github.com/paritytech/polkadot-sdk/blob/7ecf3f757a5d6f622309cea7f788e8a547a5dce8/substrate/frame/benchmarking/src/v1.rs#L1011). We had updated the scheduler pallet to V2 syntax (which is [not affected](https://github.com/paritytech/polkadot-sdk/blob/df99fb9431a579589c1c87832222c9551b5c4f7c/substrate/frame/support/procedural/src/benchmark.rs#L565)) on [Nov 20th '24](https://github.com/paritytech/polkadot-sdk/pull/6292). We did not back-port this since there was no apparent reason for it.  \r\nThe is why it seemingly fixed it self on SDK master but not in the runtimes repo (since that is using V1 scheduler benchmarking).  \r\nAnother indication for this is the fact that it did work on the [whitelist pallet](https://github.com/polkadot-fellows/runtimes/blob/6b85bf6adb427942976648e6d235e0169dfced16/relay/polkadot/src/weights/pallet_whitelist.rs#L85), which is on V2 much longer but used the same [custom pov mode](https://github.com/paritytech/polkadot-sdk/blob/b76e91acc953e682b3ddcfc45ecacaaf26c694a1/substrate/frame/whitelist/src/benchmarking.rs#L68).\r\n\r\nAdding some sanity checks to prevent this in the future here https://github.com/paritytech/polkadot-sdk/pull/7785/\r\n\r\n- [ ] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 93,
+      "deletions": 62,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/weights/pallet_scheduler.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 611,
+      "title": "Correct the Changelog",
+      "author": "bkchr",
+      "merged_at": "2025-03-05T16:31:52Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [ ] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 4,
+      "deletions": 2,
+      "file_list": [
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 535,
+      "title": "Add remote proxy support to AH Kusama",
+      "author": "bkchr",
+      "merged_at": "2025-02-28T14:52:03Z",
+      "body": "This adds remote proxy support to AssetHub on Polkadot and Kusama. Currently it is configured only to support using proxies registered on the relay chain to work on AssetHub. In the future this can be expanded.",
+      "labels": [],
+      "files_changed": 33,
+      "additions": 1937,
+      "deletions": 97,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/xcm_config.rs",
+        "pallets/remote-proxy/src/weight.rs",
+        "relay/polkadot/constants/Cargo.toml",
+        "relay/polkadot/Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/pallet_remote_proxy.rs",
+        "integration-tests/emulated/chains/parachains/testing/penpal/Cargo.toml",
+        "pallets/remote-proxy/src/benchmarking.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamCargo.toml",
+        "relay/polkadot/constants/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/Cargo.toml",
+        "relay/kusamsrc/lib.rs",
+        "relay/kusamconstants/src/lib.rs",
+        "system-parachains/encointer/Cargo.toml",
+        "pallets/remote-proxy/src/lib.rs",
+        "pallets/remote-proxy/Cargo.toml",
+        "pallets/remote-proxy/src/tests.rs",
+        "relay/kusamCargo.toml",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/constants/Cargo.toml",
+        "system-parachains/coretime/coretime-polkadot/Cargo.toml",
+        "CHANGELOG.md",
+        "system-parachains/people/people-kusamCargo.toml",
+        "system-parachains/people/people-polkadot/Cargo.toml",
+        "system-parachains/coretime/coretime-kusamCargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/mod.rs",
+        "system-parachains/gluttons/glutton-kusamCargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamCargo.toml",
+        "Cargo.lock",
+        "Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/Cargo.toml",
+        "relay/kusamconstants/Cargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 58
+    },
+    {
+      "number": 604,
+      "title": "State trie migrations ah",
+      "author": "nkpar",
+      "merged_at": "2025-03-07T12:21:41Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [ ] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 8,
+      "additions": 88,
+      "deletions": 64,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamCargo.toml",
+        ".github/workflows/runtimes-matrix.json",
+        "Cargo.lock",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/Cargo.toml",
+        ".github/workflows/check-migrations.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 35
+    },
+    {
+      "number": 616,
+      "title": "Release 1.4.2",
+      "author": "ggwpez",
+      "merged_at": "2025-03-10T11:37:42Z",
+      "body": "Release 1.4.2 for:\r\n- #535 (PAH and KAH)\r\n- #614 (P Collectives)\r\n- #604 (PAH and KAH)",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 5,
+      "deletions": 8,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 604,
+          "title": "State trie migrations ah",
+          "state": "closed"
+        },
+        {
+          "number": 614,
+          "title": "Fix scheduler weight and add test",
+          "state": "closed"
+        },
+        {
+          "number": 535,
+          "title": "Add remote proxy support to AH Kusama",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 4
+    }
+  ]
+}

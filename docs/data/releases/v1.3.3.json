@@ -1,0 +1,385 @@
+{
+  "newer_release": {
+    "tag_name": "v1.3.3",
+    "created_at": "2024-10-03T10:13:52Z",
+    "name": "Runtimes 1.3.3",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [1.3.3] 01.10.2024\n\n### Changed\n\n- Allow signed origins to send arbitrary XCMs from some system chains ([polkadot-fellows/runtimes#407](https://github.com/polkadot-fellows/runtimes/pull/407))\n- Include the Core and Salary pallets into the Fellowship proxy ([polkadot-fellows/runtimes#454](https://github.com/polkadot-fellows/runtimes/pull/454))\n- Add new community democracy and treasuries pallets to Encointer ([polkadot-fellows/runtimes#456](https://github.com/polkadot-fellows/runtimes/pull/456))\n- Change target block time for Encointer to 6s ([polkadot-fellows/runtimes#462](https://github.com/polkadot-fellows/runtimes/pull/462))\n- Asset Hubs: allow Polkadot, Kusama and Ethereum assets across P<>K bridge ([polkadot-fellows/runtimes#421](https://github.com/polkadot-fellows/runtimes/pull/421)).\n\n### Fixed\n\n- Chain-spec generator: propagate the `on_chain_release_build` feature to the chain-spec generator. Without this the live/genesis chain-specs contain a wrongly-configured WASM blob ([polkadot-fellows/runtimes#450](https://github.com/polkadot-fellows/runtimes/pull/450)).\n- Adds a migration to the Polkadot Coretime chain to fix an issue from the initial Coretime migration. ([polkadot-fellows/runtimes#458](https://github.com/polkadot-fellows/runtimes/pull/458))\n- Adds migrations to restore currupted staking ledgers in Polkadot and Kusama ([polkadot-fellows/runtimes#447](https://github.com/polkadot-fellows/runtimes/pull/447))\n\n### Added\n\n- Polkadot: Make the current inflation formula adjustable ([polkadot-fellows/runtimes#443](https://github.com/polkadot-fellows/runtimes/pull/443))\n\n# Runtime info\n*These runtimes were built with **rustc 1.81.0 (eeb90cda1 2024-09-04)** using **[srtool v0.16.0](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"--features=on-chain-release-build\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.74Mi (1817620 bytes)\n\ud83d\udddc Compressed:             Yes: 73.98%\n\ud83d\udd25 Core Version:           polkadot-1003003 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc000cfe341edabd043558ba647a6a3f2b20fa1f5dc134ed1741d8ae5d7f2792b\n\ud83d\udce6 IPFS:                   QmbCfKbz3oDapNDS5BaP7gEHmXmqeyV2xSxf7ezCYUD3i9\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.01Mi (1053306 bytes)\n\ud83d\udddc Compressed:             Yes: 73.35%\n\ud83d\udd25 Core Version:           people-polkadot-1003003 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd8027b7151f38d9553497ea735f127451454c0121f19e84800c0ef18828eeac1\n\ud83d\udce6 IPFS:                   QmV1v7A1aGosZCEzmR56ZDG9ecreNmsB2QnmHnRV2koWWh\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.01Mi (1055345 bytes)\n\ud83d\udddc Compressed:             Yes: 73.41%\n\ud83d\udd25 Core Version:           people-kusama-1003003 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3ae9f30dc0af351219d4e2caad1931184710de2db05d33a14d3c02b1e9fa3804\n\ud83d\udce6 IPFS:                   QmUSBBHntuWXeEs2LnQUfaT2v4rw5RYmeoTEJustSGdWw3\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.82Mi (1907240 bytes)\n\ud83d\udddc Compressed:             Yes: 74.49%\n\ud83d\udd25 Core Version:           kusama-1003003 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x77a1c4a8c62d312fec50643099b6e50f81d0fe3b04e8312a7b2669a08f76062e\n\ud83d\udce6 IPFS:                   QmeCt3oXfeqyYbP5KYpwc6S7PNPkNPHqNzyRjQ2F55CR59\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           508.72Ki (520924 bytes)\n\ud83d\udddc Compressed:             Yes: 72.32%\n\ud83d\udd25 Core Version:           glutton-1003003 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xfa70b975ea5834ca31bbec2c23d557bf8964c8f74dd648c5827bc06aa8817ebe\n\ud83d\udce6 IPFS:                   QmWr7fpUz1LbHc7aJwce4CPqD6XAJFCEGZAmBjhG12YxRo\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.15Mi (1204636 bytes)\n\ud83d\udddc Compressed:             Yes: 74.24%\n\ud83d\udd25 Core Version:           encointer-parachain-1003003 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6c62b1230265c93aa7bb91eb9d0ac81f2e0a19f69f616cb43276a65f991b8d5b\n\ud83d\udce6 IPFS:                   QmPM8bPWD8c6xx6E4c77FZv4YUgCN1mv4HKXsBUMGZT1cp\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.03Mi (1070301 bytes)\n\ud83d\udddc Compressed:             Yes: 73.26%\n\ud83d\udd25 Core Version:           coretime-polkadot-1003003 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb8f473a3bf462442b7eb7a30d8ad7cc110d77eba61b1987db39a0afb2f940e31\n\ud83d\udce6 IPFS:                   QmcF1wrxXA2N7jcJ5dCLUiqecoEUuhwJKBqqCZSK41xSYx\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.02Mi (1067393 bytes)\n\ud83d\udddc Compressed:             Yes: 73.3%\n\ud83d\udd25 Core Version:           coretime-kusama-1003003 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x32f49fabaf50870a6c8072619445d684091a26e885bb75f3da1d2aa71aed8a6c\n\ud83d\udce6 IPFS:                   QmPkeqTZcWxynSAhU86Q7vDHzVge8XtXhAvZbuYn1oq5nw\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.19Mi (1240545 bytes)\n\ud83d\udddc Compressed:             Yes: 74.7%\n\ud83d\udd25 Core Version:           collectives-1003003 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x76bb3aa5a82a46f5f23f327a332fea065101c35d87243d0d9ba8e9b59fbf17af\n\ud83d\udce6 IPFS:                   QmTSFEAP1q6pUaUrGpWf9rHmohHnT3dsRLgqToonw74epD\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.32Mi (1378600 bytes)\n\ud83d\udddc Compressed:             Yes: 72.77%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-1003003 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4b8e98de41367fc657e48690a14c96dd22d42ddd134b1db3709b005dff78007a\n\ud83d\udce6 IPFS:                   QmZQmZvet9jeZyqteUXr8E7FBXbbAJQMsCU7ggdvc4hmSA\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.07Mi (1115639 bytes)\n\ud83d\udddc Compressed:             Yes: 73.04%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-1003003 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x143e52ec346a54ca0c5c847bea5565c6afb990ba635384b2894a1e5157a6492a\n\ud83d\udce6 IPFS:                   QmazHKtJQDUAchQmwJ6HzLxttri6xd1VHgME33hGgbDoh6\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.34Mi (1399342 bytes)\n\ud83d\udddc Compressed:             Yes: 75.39%\n\ud83d\udd25 Core Version:           statemint-1003003 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xbc10f74c0e542b9c1d78adeb2d99bf5c20e13e3c3282fe90cd1b37cb51fe588a\n\ud83d\udce6 IPFS:                   QmTRkyq1vYPb47cr1QNsZSdRuJvxvRtskRwa6gkTxuwWu7\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.33Mi (1393484 bytes)\n\ud83d\udddc Compressed:             Yes: 75.4%\n\ud83d\udd25 Core Version:           statemine-1003000 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3783f857147f251a34fee477c0e473618b6caaea673653afe285727362d5be8a\n\ud83d\udce6 IPFS:                   QmYFNeMhazEzB3kyq7pPwKzkg1LgezmCzE6bow2C5nWyhm\n~~~\n"
+  },
+  "older_release": {
+    "tag_name": "v1.3.2",
+    "created_at": "2024-08-26T23:43:33Z",
+    "name": "Runtimes 1.3.2"
+  },
+  "pr_count": 16,
+  "ai_analysis": "Here's my analysis of the changes between v1.3.2 and v1.3.3:\n\n1. **Executive Summary for Non-Technical Users**\n\nMain Improvements:\n- Fixed issues with staking accounts that had corrupted data\n- Added democracy and treasury features for Encointer communities\n- Improved asset bridging between Polkadot and Kusama networks\n- Fixed timing issues with Coretime scheduling\n- Made block times faster (6 seconds) for Encointer transactions\n\nBenefits:\n- More reliable staking experience\n- Better governance options for Encointer users\n- Easier movement of assets between networks\n- More accurate scheduling in Coretime\n\nActions Needed:\n- No immediate actions required from most users\n- Encointer users should expect faster transaction confirmations\n- Staking users with affected accounts will have their issues automatically fixed\n\n2. **Key Changes Explained**\n\nBreaking Changes:\n- No major breaking changes identified\n\nSecurity Improvements:\n- Fixed potential issues with staking ledgers that could affect user balances\n- Added proper checks for staking amounts against available balances\n\nPerformance Improvements:\n- Reduced Encointer block time from 12s to 6s for faster transactions\n- Optimized asset transfers between Polkadot and Kusama networks\n\nNew Features:\n- One-person-one-vote democracy system for Encointer communities\n- Community treasury management for Encointer\n- Expanded asset bridging capabilities between Polkadot and Kusama\n- More flexible proxy options for Fellowship members\n\n3. **Technical Summary for Developers**\n\nMajor API/Interface Changes:\n- Added new democracy and treasury pallets for Encointer\n- Extended Fellowship proxy to include Core and Salary pallets\n- Enhanced XCM configuration for cross-chain asset transfers\n\nMigration Requirements:\n- Migration to fix corrupted staking ledgers\n- Coretime state migration to correct lease offset calculations\n- Updated genesis config presets across runtimes\n\nTechnical Improvements:\n- Improved bridge integration testing capabilities\n- Enhanced runtime release process documentation\n- Better handling of asset reserves across networks\n\n4. **Code Impact Analysis**\n\nMost Affected Areas:\n- Staking system (ledger fixes)\n- Cross-chain asset handling\n- Encointer runtime\n- Coretime scheduling\n- Runtime configuration and testing infrastructure\n\nTypes of Changes:\n- Bug Fixes (40%): Staking ledger corruption, Coretime scheduling\n- New Features (35%): Encointer democracy, asset bridging improvements\n- Infrastructure (15%): Release process, testing improvements\n- Refactoring (10%): Genesis config presets, proxy configurations\n\nThe changes show a focus on stability, interoperability, and community governance features, with significant attention to fixing critical issues in staking and scheduling systems.",
+  "pr_details": [
+    {
+      "number": 456,
+      "title": "[encointer] introduce democracy and community treasuries",
+      "author": "brenzi",
+      "merged_at": "2024-09-26T13:51:53Z",
+      "body": "Over the past few months, Encointer has developed a democracy pallet with one-person-one-vote governance for local communities. We think we're ready to experiment with our real communities on mainnet.\r\n\r\nThe governance scope of local democracy is restricted to \r\n\r\n* properties of the local community itself (like amount of [basic community-issued income](https://book.encointer.org/economics-ubi.html))\r\n* spending of its own treasury funds (currently restricted to KSM). see [towards sustainability](https://forum.polkadot.network/t/towards-encointer-self-sustainability/4195)\r\n* petitions (`system.remark`)\r\n\r\nTherefore, no special `Origin` is granted which could affect the KSM token or other parts of Kusama. \r\n\r\nIn contrast to token voting on *OpenGov*, Encointer democracy aims at **one-person-one-vote**, enabled by its sybil-resilient proof-of-personhood protocol. In practice, it will be one-cycle-attendance-one-vote, which is a pretty decent approximation with some additional weight given to those who participate in the protocol more actively\r\n\r\nRelevant pallet code\r\n* https://github.com/encointer/pallets/tree/master/democracy\r\n   * work partially funded by a [w3f grant](https://grants.web3.foundation/applications/democratic-governance-1)\r\n* https://github.com/encointer/pallets/tree/master/treasuries / [initial MVP PR](https://github.com/encointer/pallets/pull/401)\r\n\r\nDesign documents:\r\n* https://book.encointer.org/protocol-democracy.html\r\n* initial forum post introducing the design: https://forum.polkadot.network/t/encointers-grassroots-democracy-prototype/9009\r\n\r\nTesting on Testnet Gesell\r\n* https://book.encointer.org/tutorials-democracy.html\r\n* https://book.encointer.org/tutorials-treasuries.html\r\n\r\nTesting with bot communities (check CI logs)\r\n* https://github.com/encointer/encointer-node/pull/370\r\n\r\n\r\n",
+      "labels": [],
+      "files_changed": 8,
+      "additions": 249,
+      "deletions": 5,
+      "file_list": [
+        "system-parachains/encointer/src/genesis_config_presets.rs",
+        "system-parachains/encointer/src/weights/mod.rs",
+        "system-parachains/encointer/Cargo.toml",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/encointer/src/weights/pallet_encointer_democracy.rs",
+        "Cargo.lock",
+        "CHANGELOG.md",
+        "Cargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 421,
+      "title": "Asset Hubs: allow Polkadot, Kusama and Ethereum assets across P<>K bridge",
+      "author": "acatangiu",
+      "merged_at": "2024-10-02T11:02:21Z",
+      "body": "On Kusama Asset Hub, we allow Polkadot Asset Hub to act as reserve for any asset native to the Polkadot or Ethereum ecosystems (practically providing Kusama access to Ethereum assets through double bridging: K<>P<>Eth).\r\n\r\nOn Polkadot Asset Hub, we allow Kusama Asset Hub to act as reserve for any asset native to the Kusama ecosystem.\r\n\r\nTODO:\r\n\r\n- [x] e2e test: Polkadot Asset Hub can register Polkadot and Ethereum assets on Asset Hub Kusama\r\n- [x] e2e test: Kusama Asset Hub can register Kusama assets on Asset Hub Polkadot\r\n- [x] e2e test: transfer Kusama assets from Kusama to Polkadot and back\r\n- [x] e2e test: transfer Polkadot assets from Polkadot to Kusama and back\r\n- [x] e2e test: transfer Ethereum assets (bridged in through Snowbridge) from Polkadot to Kusama and back",
+      "labels": [],
+      "files_changed": 20,
+      "additions": 1513,
+      "deletions": 748,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/xcm_config.rs",
+        "integration-tests/emulated/chains/parachains/testing/penpal/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/xcm_config.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/send_xcm.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/asset_transfers.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/mod.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/lib.rs",
+        "integration-tests/emulated/networks/kusama-polkadot-system/src/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/asset_transfers.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/send_xcm.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/register_bridged_assets.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/mod.rs",
+        "CHANGELOG.md",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/snowbridge.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/register_bridged_assets.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamCargo.toml",
+        "Cargo.lock"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 447,
+      "title": "Adds migrations to restore currupted staking ledgers in Polkadot and Kusama",
+      "author": "gpestana",
+      "merged_at": "2024-10-02T16:52:52Z",
+      "body": "Note: for more details on the corrupted ledgers issue and recovery steps check https://hackmd.io/m_h9DRutSZaUqCwM9tqZ3g?view.\r\n\r\nThis PR adds a migration in Polkadot and Kusama runtimes to recover the current corrupted ledgers in Polkadot and Kusama. A migration consists of:\r\n\r\n1. Call into `pallet_staking::Pallet::<T>::restore_ledger` for each of the \"whitelisted\" stashes as `Root` origin.\r\n2. Performs a check that ensures the restored ledger's stake does not overflow the current stash's free balance. If that's the case, force unstake the ledger. This check is currently missing in polkadot-sdk/pallet-staking ([PR with patch here](https://github.com/paritytech/polkadot-sdk/pull/5066)).\r\n\r\nThe reason to restore the corrupted ledgers as migrations implemented in the fellowship runtimes is twofold:\r\n\r\n1. The call to `pallet_staking::Pallet::<T>::restore_ledger` and check + `force_unstake` must be done atomically (thus a ledger can't be safely restored with a set of two distinct extrinsic calls, so it's not possible to use referenda to this fx).\r\n2. To speed up the whole process and avoid having to wait for 1. merge and releases of https://github.com/paritytech/polkadot-sdk/pull/5066 and 2. referenda to call into `Call::restore_ledger` for both Polkadot and Kusama.\r\n\r\nAlternatively, we could add a new temporary pallet directly in the fellowship runtime which would expose an extrinsic to restore the ledgers and perform the extra missing check. See this [PR as an example](https://github.com/gpestana/fellowship-runtimes/pull/2).\r\n\r\n---\r\n- [x] on-runtime-upgrade tests against Polkadot and Kusama\r\n- [x] staking try-state checks passing after all migrations.",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 291,
+      "deletions": 0,
+      "file_list": [
+        "CHANGELOG.md",
+        "relay/polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "relay/polkadot/Cargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 22
+    },
+    {
+      "number": 439,
+      "title": "add runtime release guidelines in the README and update the PR template",
+      "author": "anaelleltd",
+      "merged_at": "2024-09-19T20:01:59Z",
+      "body": "This a PR to update the docs for the runtimes repo with:\r\n- guidelines to summarise key steps involved in <del>Major and minor</del> releases\r\n- an updated PR template to ensure that contributors adhere to guidelines\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 41,
+      "deletions": 0,
+      "file_list": [
+        "docs/pull_request_template.md",
+        "README.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 30
+    },
+    {
+      "number": 458,
+      "title": "Add migration to fix coretime state",
+      "author": "seadanda",
+      "merged_at": "2024-10-01T21:43:09Z",
+      "body": "The `LeaseOffset` was not taken into consideration in the [Polkadot migration](https://github.com/polkadot-fellows/runtimes/blob/e6b9132701df4311e7d6331e3a9e051ae8de0104/relay/polkadot/src/lib.rs#L1965) that ran when [ref 1143](https://polkadot.subsquare.io/referenda/1143) enacted and upgraded the relay chain, so the end timeslices of the leases are short by about 64 days.\r\n\r\nThis PR adds a migration to fix the Coretime state, which currently includes end timeslices which are incorrect.\r\n\r\nFull notes and plan here: https://hackmd.io/kurv6rTXTF6yvaUJ9uSNoQ for work to continue while I'm OOO\r\n\r\ntry-runtime tests are included in the PR and the HackMD linked above includes steps to manually test the upgrade with chopsticks.",
+      "labels": [],
+      "files_changed": 6,
+      "additions": 565,
+      "deletions": 2,
+      "file_list": [
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/migrations.rs",
+        "system-parachains/coretime/coretime-polkadot/Cargo.toml",
+        ".github/workflows/runtimes-matrix.json",
+        "Cargo.lock",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 36
+    },
+    {
+      "number": 461,
+      "title": "Update CHANGELOG.md",
+      "author": "ggwpez",
+      "merged_at": "2024-09-26T21:53:53Z",
+      "body": "Also mention https://github.com/paritytech/polkadot-sdk/pull/3844\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 1,
+      "deletions": 0,
+      "file_list": [
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 465,
+      "title": "Trigger 1.3.3 release",
+      "author": "kianenigma",
+      "merged_at": "2024-10-03T10:13:52Z",
+      "body": "Hopefully this is the last patch needed, and relay can then be updated to `spec_version: 1_003_003`.",
+      "labels": [],
+      "files_changed": 13,
+      "additions": 13,
+      "deletions": 13,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 454,
+      "title": "Fellowship Proxy to include more pallets",
+      "author": "ggwpez",
+      "merged_at": "2024-09-12T22:21:02Z",
+      "body": "Changes:\n- Adds the FellowshipCore and Salary pallets to the Fellowship proxy type.\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 3,
+      "deletions": 0,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 462,
+      "title": "[encointer] set target blocktime to 6s",
+      "author": "brenzi",
+      "merged_at": "2024-10-01T15:37:13Z",
+      "body": "Encointer communities could benefit from 6s block time because the network is used for IRL point-of-sale or person-to-person transactions\r\n\r\nEncointer is unaffected by https://github.com/paritytech/polkadot-sdk/issues/3268 as its pallets have since ever based time on block timestamps\r\n\r\nThe parameters are copy-paste from people, as introduced by #308 \r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 42,
+      "deletions": 12,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/encointer/src/lib.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 308,
+          "title": "Enable 6 second block times for `people` chain",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 11
+    },
+    {
+      "number": 443,
+      "title": "Polkadot: Make the current inflation formula adjustable",
+      "author": "kianenigma",
+      "merged_at": "2024-10-01T13:11:41Z",
+      "body": "Counterpart of https://github.com/polkadot-fellows/runtimes/pull/364.\r\n\r\nSimilarly, it has no impact on the inflation as-is, and just exposes the params to the Root track. \r\n\r\n## UI Consideration\r\n\r\nSimilarly, it adds `Inflation_experimental_inflation_info` Runtime API, which can be used by UIs to fetch information about the inflation, without needing to rely on storage items.\r\n\r\n## Example\r\n\r\n- With current parameters: \r\n\r\n```\r\nInflation ==> staking = 402244.054 DOT (4,022,440,540,915,948) / leftover = 4178.285 DOT (41,782,856,835,356)\r\n```\r\n\r\n- With `UseLegacyAuctions = false`, which means we no longer set aside around 15% of tokens for auctions. This makes the difference between actual staked and ideal staking rate (staking inefficiency) grow, and therefore reduce the staking reward and increase the treasury income. \r\n\r\n```\r\nInflation ==> staking = 340780.189 DOT (3,407,801,892,871,273) / leftover = 65642.150 DOT (656,421,504,843,446)\r\n```",
+      "labels": [],
+      "files_changed": 7,
+      "additions": 312,
+      "deletions": 108,
+      "file_list": [
+        "relay/kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "relay/polkadot/Cargo.toml",
+        "relay/polkadot/src/weights/mod.rs",
+        "Cargo.lock",
+        "CHANGELOG.md",
+        "relay/polkadot/src/weights/pallet_parameters.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 19
+    },
+    {
+      "number": 452,
+      "title": "Bridges integration tests: added support for running with different releases",
+      "author": "bkontur",
+      "merged_at": "2024-09-06T11:41:00Z",
+      "body": "This PR introduces a minor update to the bridges testing scripts, enabling the use of different `chain-spec-generator` versions for Polkadot and Kusama environments from various releases. Polkadot and Kusama runtimes are upgraded asynchronously, so this is useful when testing bridging between the Polkadot Bridge Hub (e.g., currently live as v1.2.8) and the Kusama Bridge Hub (upcoming upgrade to v1.3.0).\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [X] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 6,
+      "additions": 26,
+      "deletions": 9,
+      "file_list": [
+        "integration-tests/bridges/environments/polkadot-kusambridge_hub_polkadot_local_network.toml",
+        "integration-tests/bridges/environments/polkadot-kusamgenerate_bh_spec.sh",
+        "integration-tests/bridges/environments/polkadot-kusambridge_hub_kusama_local_network.toml",
+        "integration-tests/bridges/README.md",
+        "integration-tests/bridges/environments/polkadot-kusamgenerate_bhp_spec.sh",
+        "integration-tests/bridges/run-test.sh"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 448,
+      "title": "Fixes for cmd bot",
+      "author": "mordamax",
+      "merged_at": "2024-08-30T11:58:55Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n\r\nthe issue_comment works from the refs/main branch by default, and doesn't bring the PR context anyhow. Since i was testing it from the default branch in paritytech-stg - it was working fine, but from real PR non-default branch it didn't push result to PR branch.  \r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 55,
+      "deletions": 7,
+      "file_list": [
+        ".github/workflows/cmd.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 449,
+      "title": "/cmd -> Set pr outputs correctly",
+      "author": "mordamax",
+      "merged_at": "2024-08-30T22:53:38Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 2,
+      "deletions": 2,
+      "file_list": [
+        ".github/workflows/cmd.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 450,
+      "title": "Clean up genesis config presets for all runtimes",
+      "author": "seadanda",
+      "merged_at": "2024-09-06T13:56:28Z",
+      "body": "This PR does three things related to chain-specs and genesis config presets:\r\n- Refactor `preset_names` to `genesis_config_presets` in all runtimes as suggested for the Polkadot Coretime runtime in #410.\r\n- Make the chain-spec generator use the preset from the WASM directly for each runtime.\r\n- Propagate the `on_chain_release_build` feature to the chain-spec generator. Without this we cannot generate live/genesis chain-specs with the chain-spec generator without having to post-process it to replace the WASM compiled with this flag.",
+      "labels": [],
+      "files_changed": 28,
+      "additions": 115,
+      "deletions": 75,
+      "file_list": [
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/genesis_config_presets.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/genesis_config_presets.rs",
+        "chain-spec-generator/Cargo.toml",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/genesis_config_presets.rs",
+        "relay/kusamsrc/genesis_config_presets.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "chain-spec-generator/src/system_parachains_specs.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/genesis_config_presets.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/genesis_config_presets.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/genesis_config_presets.rs",
+        "relay/polkadot/src/genesis_config_presets.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/genesis_config_presets.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamsrc/genesis_config_presets.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/genesis_config_presets.rs",
+        "system-parachains/coretime/coretime-kusamsrc/genesis_config_presets.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/genesis_config_presets.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 410,
+          "title": "Add the Polkadot Coretime runtime",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 8
+    },
+    {
+      "number": 445,
+      "title": "Keep kusama inflaton as-is.",
+      "author": "kianenigma",
+      "merged_at": "2024-08-26T23:43:33Z",
+      "body": "to be merged as part of 1.3.1 after https://github.com/polkadot-fellows/runtimes/pull/442",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 7,
+      "deletions": 1,
+      "file_list": [
+        "CHANGELOG.md",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 407,
+      "title": "Allow signed origins to send arbitrary XCMs from some system chains",
+      "author": "acatangiu",
+      "merged_at": "2024-09-05T09:52:52Z",
+      "body": "Relaxing the `SendXcmOrigin` filter for some of the System chains:\r\n- Relay Kusama: already open to signed origins and pluralities \u2705\r\n- Relay Polkadot: relax to same level as Kusama ^ \u2705\r\n\r\n- Asset Hubs (P and K): open up to signed origins \u2705\r\n- People (P and K): allow signed origins \u2705\r\n- Encointer: allow signed origins \u2705\r\n\r\n- Collectives Polkadot: **no change**, only Fellows collective allowed \u274c\r\n- Bridge Hubs (P and K): **no change**, no arbitrary XCM sends allowed \u274c\r\n- Coretime (P and K): **no change**, no arbitrary XCM sends allowed \u274c\r\n\r\nWe could allow it on all chains but on some of them there are no usecases afaict, so starting out conservative, opening it up only on chains where it's wanted.",
+      "labels": [],
+      "files_changed": 13,
+      "additions": 69,
+      "deletions": 60,
+      "file_list": [
+        "relay/polkadot/src/xcm_config.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/xcm_config.rs",
+        "system-parachains/collectives/collectives-polkadot/src/xcm_config.rs",
+        "system-parachains/people/people-polkadot/src/xcm_config.rs",
+        "system-parachains/encointer/src/xcm_config.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/xcm_config.rs",
+        "relay/kusamsrc/xcm_config.rs",
+        "system-parachains/coretime/coretime-kusamsrc/xcm_config.rs",
+        "system-parachains/people/people-kusamsrc/xcm_config.rs",
+        "system-parachains/coretime/coretime-polkadot/src/xcm_config.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/xcm_config.rs",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/xcm_config.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 13
+    }
+  ]
+}

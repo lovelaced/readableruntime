@@ -1,0 +1,115 @@
+{
+  "newer_release": {
+    "tag_name": "v1.4.1",
+    "created_at": "2025-02-27T13:05:36Z",
+    "name": "Runtimes 1.4.1",
+    "body": "# Changelog\r\n\r\nChangelog for the runtimes governed by the Polkadot Fellowship.\r\n\r\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\r\n\r\n## [1.4.1] 26.02.2025\r\n\r\n### Fixed\r\n\r\n- Fix an issue related to staking in combination with nomination pools ([polkadot-fellows/runtimes/pull/608](https://github.com/polkadot-fellows/runtimes/pull/608))\r\n\r\n# Runtime info\r\n*These runtimes were built with **rustc 1.84.1 (e71f9a9a9 2025-01-27)** using **[srtool v0.18.2](https://github.com/paritytech/srtool)***\r\n\r\nTo replicate the build, use the following command:\r\n```sh\r\nsrtool build\r\n       --root --profile production\r\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\r\n       --build-opts=\"--features=on-chain-release-build\"\r\n```\r\n\r\n## Polkadot\r\n~~~\r\n\ud83c\udfcb\ufe0f Runtime Size:           1.80Mi (1878467 bytes)\r\n\ud83d\udddc Compressed:             Yes: 73.33%\r\n\ud83d\udd25 Core Version:           polkadot-1004001 parity-polkadot-0.tx26.au0\r\n\ud83c\udf81 Metadata version:       V14\r\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x15826d883aef4291af111e97d6b5623367bfe123f64c5d520d5b6b9a89563aa4\r\n\ud83d\udce6 IPFS:                   QmPY2eHBWTiwmhdXgTZ7q6F4F8WECHjZdg1qTAMNj1vhZj\r\n~~~\r\n\r\n## Kusama\r\n~~~\r\n\ud83c\udfcb\ufe0f Runtime Size:           1.90Mi (1982288 bytes)\r\n\ud83d\udddc Compressed:             Yes: 73.88%\r\n\ud83d\udd25 Core Version:           kusama-1004001 parity-kusama-0.tx26.au2\r\n\ud83c\udf81 Metadata version:       V14\r\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6f2edfee3bf0e8154faa32f0e8d241c9f3a9f079948ae865c6da43770aace3ac\r\n\ud83d\udce6 IPFS:                   QmaEfXrSCSgU67RGLRdSUKfXfYVtMi4QBcuDiMWS7XATct\r\n~~~\r\n"
+  },
+  "older_release": {
+    "tag_name": "v1.4.0",
+    "created_at": "2025-02-10T09:06:33Z",
+    "name": "Runtimes 1.4.0"
+  },
+  "pr_count": 4,
+  "ai_analysis": "I'll analyze the changes between v1.4.0 and v1.4.1 of the Polkadot Fellows Runtimes repository.\n\n1. **Executive Summary for Non-Technical Users**\n- Main Improvements:\n  - An urgent fix for a critical bug in the staking system, particularly affecting nomination pools\n  - Infrastructure and testing improvements that don't directly affect users\n- Benefits:\n  - Increased security and reliability of the staking system\n  - More stable testing environment for future updates\n- Required Actions:\n  - No direct actions required from users, but those using staking or nomination pools should be aware that a critical fix has been implemented\n\n2. **Key Changes Explained**\n- Breaking Changes:\n  - None identified in this release\n- Security Improvements:\n  - Critical staking system bug fix (details pending full disclosure after chain deployment)\n- Performance Improvements:\n  - Development and testing infrastructure improvements, including faster build times\n- New Features:\n  - No new features (this was primarily a bugfix release)\n\n3. **Technical Summary for Developers**\n- Major Changes:\n  - Updated staking system implementation (details in custom Polkadot-SDK branch)\n  - Switched from `ws_port` to `rpc_port` in bridge tests (Zombienet compatibility)\n  - Updated Rust version to 1.84.1 (stable) and 2025-01-30 (nightly)\n  - Changed benchmark builds to use stable Rust compiler instead of nightly\n- Migration Requirements:\n  - Bridge test configurations need to be updated to use `rpc_port` instead of deprecated `ws_port`\n- Technical Improvements:\n  - Build system optimization by switching to production profile\n  - Updated fellows action tool to v1.3.0\n\n4. **Code Impact Analysis**\nMost Affected Components:\n- Staking System: Critical bug fix implementation\n- Testing Infrastructure:\n  - Bridge test configurations\n  - Benchmark execution environment\n  - CI/CD pipeline improvements\n\nChange Types:\n- Bug Fixes: \n  - Critical staking system fix\n- Infrastructure Updates:\n  - Bridge test configuration updates\n  - Build system improvements\n  - CI/CD tool updates\n- Maintenance:\n  - Rust version updates\n  - Dependencies version bumps\n\nThis release appears to be primarily focused on addressing a critical staking system issue, with additional infrastructure improvements to enhance development and testing processes. The urgent nature of the release (1.4.1) suggests the staking fix was a priority change that required immediate deployment.",
+  "pr_details": [
+    {
+      "number": 588,
+      "title": "use rpc_port in bridge tests",
+      "author": "serban300",
+      "merged_at": "2025-02-12T10:05:31Z",
+      "body": "Use `rpc_port` instead of `ws_port` in bridge tests since `ws_port` was deprecated in zombienet `1.3.120`.\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 12,
+      "deletions": 24,
+      "file_list": [
+        "integration-tests/bridges/environments/polkadot-kusambridge_hub_kusama_local_network.toml",
+        "integration-tests/bridges/environments/polkadot-kusambridge_hub_polkadot_local_network.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 586,
+      "title": "Update `get-fellows-action` everywhere",
+      "author": "bkchr",
+      "merged_at": "2025-02-11T13:13:34Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 2,
+      "deletions": 2,
+      "file_list": [
+        ".github/workflows/cmd.yml",
+        ".github/workflows/auto-merge.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 608,
+      "title": "Release 1.4.1",
+      "author": "bkchr",
+      "merged_at": "2025-02-27T13:05:37Z",
+      "body": "There was a bug found in the staking system which needs to be fixed ASAP. This release pulls in changes directly from a custom `Polkadot-SDK` branch. The changes can be reviewed [here](https://github.com/paritytech/polkadot-sdk/compare/stable2409...bkchr-fix-the-thing). \r\n\r\nAfter approval, this will go out as a release immediately. A full disclosure of the impact of this issue will be released after it was applied on chain.",
+      "labels": [],
+      "files_changed": 16,
+      "additions": 663,
+      "deletions": 588,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "Cargo.lock",
+        "CHANGELOG.md",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 574,
+      "title": "Update rust and use stable for benches",
+      "author": "bkchr",
+      "merged_at": "2025-02-14T11:54:15Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n\r\nWe are trying to get the command bot working. However, right now it is timing out when trying to build the runtimes plus the omni bencher after 6 hours. This should not take 6 hours ;) So, one guess is that maybe the nightly is doing something that takes quite long to build. We want to try the stable compiler and see if that fixes the issue.\r\n",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 2830,
+      "deletions": 2989,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        ".github/env",
+        "relay/polkadot/src/lib.rs",
+        ".github/workflows/cmd.yml",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        ".github/scripts/cmd/cmd.py",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/coretime.rs",
+        "system-parachains/coretime/coretime-polkadot/src/coretime.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 10
+    }
+  ]
+}
