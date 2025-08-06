@@ -186,35 +186,59 @@ function renderRelease(data) {
 
 // Parse AI analysis into sections
 function parseAIAnalysis(analysis) {
-    // This is a simple parser - you might need to adjust based on actual format
+    // Split by numbered sections with bold headers
+    const sectionRegex = /^(\d+)\.\s+\*\*(.+?)\*\*$/gm;
     const sections = [];
-    const lines = analysis.split('\n');
-    let currentSection = null;
+    let lastIndex = 0;
+    let match;
     
-    for (const line of lines) {
-        if (line.match(/^\d+\.\s+\*\*(.+)\*\*/)) {
-            if (currentSection) {
-                sections.push(currentSection);
-            }
-            currentSection = {
-                title: line.replace(/^\d+\.\s+\*\*(.+)\*\*/, '$1'),
-                content: []
-            };
-        } else if (currentSection && line.trim()) {
-            currentSection.content.push(line);
-        }
-    }
-    
-    if (currentSection) {
-        sections.push(currentSection);
-    }
-    
-    // If no sections found, treat entire content as one section
-    if (sections.length === 0) {
-        sections.push({
-            title: 'Analysis',
-            content: lines
+    const matches = [];
+    while ((match = sectionRegex.exec(analysis)) !== null) {
+        matches.push({
+            index: match.index,
+            title: match[2],
+            fullMatch: match[0]
         });
+    }
+    
+    // Process each section
+    for (let i = 0; i < matches.length; i++) {
+        const current = matches[i];
+        const nextIndex = i < matches.length - 1 ? matches[i + 1].index : analysis.length;
+        
+        // Get content between this header and the next section (or end)
+        const content = analysis.substring(
+            current.index + current.fullMatch.length,
+            nextIndex
+        ).trim();
+        
+        sections.push({
+            title: current.title,
+            content: content
+        });
+    }
+    
+    // If no sections found, check for other common patterns
+    if (sections.length === 0) {
+        // Try to split by H2 headers (##)
+        const h2Sections = analysis.split(/^##\s+/m).filter(s => s.trim());
+        if (h2Sections.length > 1) {
+            for (const section of h2Sections) {
+                const lines = section.trim().split('\n');
+                if (lines.length > 0) {
+                    sections.push({
+                        title: lines[0].replace(/\*\*/g, ''),
+                        content: lines.slice(1).join('\n').trim()
+                    });
+                }
+            }
+        } else {
+            // Fallback: treat entire content as one section
+            sections.push({
+                title: 'Analysis',
+                content: analysis
+            });
+        }
     }
     
     return sections;
@@ -222,14 +246,21 @@ function parseAIAnalysis(analysis) {
 
 // Render AI analysis sections
 function renderAIAnalysis(sections) {
-    return sections.map(section => `
-        <div class="analysis-section">
-            <h3>${section.title}</h3>
-            <div class="analysis-content markdown-content">
-                ${marked.parse(section.content.join('\n'))}
+    return sections.map(section => {
+        // Ensure content is a string
+        const content = typeof section.content === 'string' 
+            ? section.content 
+            : section.content.join('\n');
+        
+        return `
+            <div class="analysis-section">
+                <h3>${section.title}</h3>
+                <div class="analysis-content markdown-content">
+                    ${marked.parse(content)}
+                </div>
             </div>
-        </div>
-    `).join('');
+        `;
+    }).join('');
 }
 
 // Render PR list

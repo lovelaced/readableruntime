@@ -470,3 +470,40 @@ footer a:hover {
 .markdown-content strong {
     color: var(--primary-color);
 }
+
+/* Fix for nested lists in analysis */
+.analysis-content ul {
+    margin-top: 0.5rem;
+}
+
+.analysis-content ul ul {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.analysis-content p + ul {
+    margin-top: -0.5rem;
+}
+
+.analysis-content li {
+    line-height: 1.8;
+}
+
+/* Better formatting for subsections */
+.analysis-content h4 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+}
+
+.analysis-content p:has(strong:only-child) {
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+/* Fallback for browsers without :has() support */
+.analysis-content p strong:first-child:last-child {
+    display: inline-block;
+    margin-top: 0.5rem;
+}

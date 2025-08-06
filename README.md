@@ -125,8 +125,14 @@ The site will automatically update every 6 hours via GitHub Actions:
 - Updates the site with the analysis
 - Deploys to GitHub Pages
 
-You can also manually trigger an update:
+You can manually trigger workflows:
+
+**To check for new releases:**
 1. Go to Actions → "Update Release Notes"
+2. Click "Run workflow"
+
+**To redeploy the site (after manual changes):**
+1. Go to Actions → "Deploy GitHub Pages"
 2. Click "Run workflow"
 
 ### Site Features

@@ -87,18 +87,5 @@ jobs:
         git add docs/
         git commit -m "Add release notes for ${{ steps.check_releases.outputs.latest_release }}"
         git push
-    
-    - name: Setup Pages
-      if: steps.check_releases.outputs.needs_update == 'true'
-      uses: actions/configure-pages@v4
-    
-    - name: Upload artifact
-      if: steps.check_releases.outputs.needs_update == 'true'
-      uses: actions/upload-pages-artifact@v3
-      with:
-        path: 'docs'
-    
-    - name: Deploy to GitHub Pages
-      if: steps.check_releases.outputs.needs_update == 'true'
-      id: deployment
-      uses: actions/deploy-pages@v4
+        
+        echo "New release notes added. GitHub Pages will be automatically deployed by the deploy-pages workflow."
