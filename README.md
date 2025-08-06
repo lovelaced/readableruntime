@@ -143,4 +143,4 @@ You can manually trigger workflows:
 - **Mobile Responsive**: Works on all devices
 - **Auto-Updated**: Checks for new releases every 6 hours
 
-The site will be available at: `https://[your-username].github.io/readableruntime/`
+The site will be available at: `https://lovelaced.github.io/readableruntime/`
