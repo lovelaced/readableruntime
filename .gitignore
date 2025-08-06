@@ -1,0 +1,114 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# API Keys - NEVER commit these
+*.key
+*_key.txt
+credentials.json
+
+# Local output files (for testing)
+/release_analysis.md
+/release_analysis.json
+/*.md
+/*.json
+!README.md
+!setup_github_token.md
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# Local development
+/temp/
+/tmp/
+/scratch/
+
+# Don't ignore docs directory (GitHub Pages)
+!docs/
+!docs/**
+
+# But ignore local test data in docs
+docs/data/releases/*.md
+docs/data/releases/*.json
+!docs/data/releases/index.json
+docs/data/releases/index.json
+
+# Scripts directory
+!scripts/
+!scripts/**
