@@ -1,0 +1,20 @@
+{
+  "pr_number": "8102",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8102",
+    "title": "Make min_peers_to_start_warp_sync configurable",
+    "author": "tmpolaczyk",
+    "merged_at": "2025-04-15T14:56:03Z",
+    "labels": [
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8102"
+  }
+}

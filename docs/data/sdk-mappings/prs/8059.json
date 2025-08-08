@@ -1,0 +1,21 @@
+{
+  "pr_number": "8059",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8059",
+    "title": "[AHM] Revert v17 migration of pallet-staking in Westend",
+    "author": "Ank4n",
+    "merged_at": "2025-03-27T20:06:28Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8059"
+  }
+}

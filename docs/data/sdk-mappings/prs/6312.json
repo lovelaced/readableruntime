@@ -1,0 +1,31 @@
+{
+  "pr_number": "6312",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "6312",
+    "title": "`DeprecationInfo` propagate `#[allow(deprecated)]` attribute into the generated code.",
+    "author": "pkhry",
+    "merged_at": "2025-04-09T11:03:14Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "D1-medium"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6312"
+  }
+}

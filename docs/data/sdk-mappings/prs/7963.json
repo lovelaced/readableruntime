@@ -1,0 +1,21 @@
+{
+  "pr_number": "7963",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7963",
+    "title": "Improve XCMP weight metering",
+    "author": "serban300",
+    "merged_at": "2025-03-21T12:40:48Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7963"
+  }
+}

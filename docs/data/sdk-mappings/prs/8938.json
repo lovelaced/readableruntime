@@ -1,0 +1,20 @@
+{
+  "pr_number": "8938",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8938",
+    "title": "Make `NoOpPoll` generic over `Moment`",
+    "author": "Doordashcon",
+    "merged_at": "2025-06-25T09:27:10Z",
+    "labels": [
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8938"
+  }
+}

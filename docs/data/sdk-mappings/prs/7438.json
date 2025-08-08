@@ -1,0 +1,21 @@
+{
+  "pr_number": "7438",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7438",
+    "title": "Fix DryRunApi client-facing XCM versions",
+    "author": "mrshiposha",
+    "merged_at": "2025-02-24T16:48:56Z",
+    "labels": [
+      "T6-XCM",
+      "T4-runtime_API"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7438"
+  }
+}

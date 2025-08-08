@@ -1,0 +1,20 @@
+{
+  "pr_number": "7857",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7857",
+    "title": "Add new host APIs set_storage_or_clear and get_storage_or_zero",
+    "author": "castillax",
+    "merged_at": "2025-04-25T16:49:58Z",
+    "labels": [
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7857"
+  }
+}

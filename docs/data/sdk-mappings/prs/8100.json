@@ -1,0 +1,20 @@
+{
+  "pr_number": "8100",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8100",
+    "title": "Remove the redundant FRAME coders substrate rule",
+    "author": "Ank4n",
+    "merged_at": "2025-04-18T12:14:02Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8100"
+  }
+}

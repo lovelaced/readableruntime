@@ -1,0 +1,22 @@
+{
+  "pr_number": "7995",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7995",
+    "title": "Add event to pure proxy deletion",
+    "author": "rockbmb",
+    "merged_at": "2025-04-29T01:41:36Z",
+    "labels": [
+      "T2-pallets",
+      "T10-tests",
+      "T14-system_parachains"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7995"
+  }
+}

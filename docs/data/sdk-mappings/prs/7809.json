@@ -1,0 +1,20 @@
+{
+  "pr_number": "7809",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7809",
+    "title": "[XCM] Add generic location to account converter that also works with external ecosystems for bridge hubs",
+    "author": "x3c41a",
+    "merged_at": "2025-03-06T18:17:48Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7809"
+  }
+}

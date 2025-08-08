@@ -1,0 +1,21 @@
+{
+  "pr_number": "8024",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8024",
+    "title": "Snowbridge - Change the hash of the outbound queue PendingOrders storage item",
+    "author": "yrong",
+    "merged_at": "2025-03-25T17:46:35Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8024"
+  }
+}

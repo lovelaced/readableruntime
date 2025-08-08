@@ -1,0 +1,20 @@
+{
+  "pr_number": "5620",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "5620",
+    "title": " New NFT traits: granular and abstract interface",
+    "author": "mrshiposha",
+    "merged_at": "2025-04-24T09:41:29Z",
+    "labels": [
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/5620"
+  }
+}

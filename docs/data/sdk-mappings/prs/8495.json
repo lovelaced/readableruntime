@@ -1,0 +1,21 @@
+{
+  "pr_number": "8495",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8495",
+    "title": "[pallet-revive] tracing prepare support for future tracing APIS",
+    "author": "pgherveou",
+    "merged_at": "2025-05-15T13:14:01Z",
+    "labels": [
+      "T7-smart_contracts",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8495"
+  }
+}

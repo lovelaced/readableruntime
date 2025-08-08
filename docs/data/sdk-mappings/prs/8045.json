@@ -1,0 +1,21 @@
+{
+  "pr_number": "8045",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8045",
+    "title": "Updated readme and shell script bash version",
+    "author": "antkve",
+    "merged_at": "2025-03-26T14:38:39Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T11-documentation"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8045"
+  }
+}

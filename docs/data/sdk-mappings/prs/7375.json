@@ -1,0 +1,20 @@
+{
+  "pr_number": "7375",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7375",
+    "title": "Refactor the host <-> runtime interface machinery",
+    "author": "s0me0ne-unkn0wn",
+    "merged_at": "2025-04-11T18:56:18Z",
+    "labels": [
+      "T17-primitives"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7375"
+  }
+}

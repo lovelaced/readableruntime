@@ -1,0 +1,22 @@
+{
+  "pr_number": "7616",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7616",
+    "title": "Revert \"[Assets] Implement `pallet-assets-holder` (#4530)\" for stable 2503",
+    "author": "gui1117",
+    "merged_at": "2025-02-20T07:47:23Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A3-backport",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7616"
+  }
+}

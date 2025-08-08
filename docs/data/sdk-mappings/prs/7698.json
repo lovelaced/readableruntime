@@ -1,0 +1,22 @@
+{
+  "pr_number": "7698",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7698",
+    "title": "adding verbose rustdoc to diff between build-spec and chain-spec-builder",
+    "author": "seemantaggarwal",
+    "merged_at": "2025-03-06T18:46:50Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T9-cumulus",
+      "T11-documentation"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7698"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7483",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7483",
+    "title": "Bound some storage items for pallet `staking` and clean up deprecated exposures",
+    "author": "re-gius",
+    "merged_at": "2025-02-10T15:17:29Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7483"
+  }
+}

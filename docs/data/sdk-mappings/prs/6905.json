@@ -1,0 +1,21 @@
+{
+  "pr_number": "6905",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "6905",
+    "title": "Migrate pallet safe mode to umbrella crate",
+    "author": "Krayt78",
+    "merged_at": "2025-05-07T13:44:49Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6905"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7402",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7402",
+    "title": "Snowbridge V2",
+    "author": "vgeddes",
+    "merged_at": "2025-03-24T17:16:36Z",
+    "labels": [
+      "T15-bridges",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7402"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "7976",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7976",
+    "title": "[CI/CD] Refactor backports flow so that it can determine automatically where to do a backport based on labels",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-03-20T12:22:53Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7976"
+  }
+}

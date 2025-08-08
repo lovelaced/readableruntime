@@ -1,0 +1,21 @@
+{
+  "pr_number": "8398",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8398",
+    "title": "[stable2503] Update stable branch with patch stable2503-1",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-05-02T12:38:25Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A5-run-CI"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8398"
+  }
+}

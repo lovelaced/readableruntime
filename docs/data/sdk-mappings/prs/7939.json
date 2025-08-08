@@ -1,0 +1,22 @@
+{
+  "pr_number": "7939",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7939",
+    "title": "[AHM] Revert multi-block election, slashing and staking client pallets",
+    "author": "Ank4n",
+    "merged_at": "2025-03-24T13:59:17Z",
+    "labels": [
+      "I4-refactor",
+      "T2-pallets",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7939"
+  }
+}

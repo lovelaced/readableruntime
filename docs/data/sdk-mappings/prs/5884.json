@@ -1,0 +1,30 @@
+{
+  "pr_number": "5884",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "5884",
+    "title": "Set PoV size limit to 10 Mb",
+    "author": "s0me0ne-unkn0wn",
+    "merged_at": "2025-04-02T19:30:38Z",
+    "labels": [
+      "T17-primitives"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/5884"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "8443",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8443",
+    "title": "Stabilize V16 metadata",
+    "author": "jsdw",
+    "merged_at": "2025-05-14T17:11:51Z",
+    "labels": [
+      "T4-runtime_API",
+      "R1-breaking_change"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8443"
+  }
+}

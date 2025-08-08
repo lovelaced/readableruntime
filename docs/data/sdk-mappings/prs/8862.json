@@ -1,0 +1,21 @@
+{
+  "pr_number": "8862",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8862",
+    "title": "docs: fix XCM docs for AlwaysV4 and AlwaysV5",
+    "author": "andrew-ifrita",
+    "merged_at": "2025-06-16T10:36:57Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T11-documentation"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8862"
+  }
+}

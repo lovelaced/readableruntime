@@ -1,0 +1,18 @@
+{
+  "pr_number": "8920",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8920",
+    "title": "[pallet-revive] fix block-gas-limit",
+    "author": "pgherveou",
+    "merged_at": "2025-06-20T11:13:59Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8920"
+  }
+}

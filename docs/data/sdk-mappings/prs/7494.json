@@ -1,0 +1,20 @@
+{
+  "pr_number": "7494",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7494",
+    "title": "libp2p: Enhance logging targets for granular control ",
+    "author": "lexnv",
+    "merged_at": "2025-02-17T16:04:02Z",
+    "labels": [
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7494"
+  }
+}

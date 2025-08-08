@@ -1,0 +1,21 @@
+{
+  "pr_number": "7658",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7658",
+    "title": "Add `pallet-staking-ah-client` to Westend and use it instead of `pallet-staking`",
+    "author": "tdimitrov",
+    "merged_at": "2025-03-12T12:25:29Z",
+    "labels": [
+      "T8-polkadot",
+      "R1-breaking_change"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7658"
+  }
+}

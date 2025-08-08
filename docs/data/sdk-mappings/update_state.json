@@ -1,0 +1,176 @@
+{
+  "last_update": "2025-08-07T16:11:17.307455Z",
+  "runtime_releases": {
+    "228408879": {
+      "tag_name": "v1.6.1",
+      "published_at": "2025-06-27T15:39:42Z"
+    },
+    "226511664": {
+      "tag_name": "v1.6.0",
+      "published_at": "2025-06-19T18:11:04Z"
+    },
+    "220687802": {
+      "tag_name": "v1.5.1",
+      "published_at": "2025-05-23T16:09:06Z"
+    },
+    "215464760": {
+      "tag_name": "v1.5.0",
+      "published_at": "2025-04-29T12:28:57Z"
+    },
+    "212736762": {
+      "tag_name": "v1.4.3",
+      "published_at": "2025-04-16T08:53:53Z"
+    },
+    "204727598": {
+      "tag_name": "v1.4.2",
+      "published_at": "2025-03-10T12:45:10Z"
+    },
+    "202828727": {
+      "tag_name": "v1.4.1",
+      "published_at": "2025-02-27T15:34:00Z"
+    },
+    "199241922": {
+      "tag_name": "v1.4.0",
+      "published_at": "2025-02-09T11:32:49Z"
+    },
+    "183148863": {
+      "tag_name": "v1.3.4",
+      "published_at": "2024-11-01T18:35:27Z"
+    },
+    "178183991": {
+      "tag_name": "v1.3.3",
+      "published_at": "2024-10-03T11:23:20Z"
+    },
+    "172043687": {
+      "tag_name": "v1.3.2",
+      "published_at": "2024-08-27T00:31:09Z"
+    },
+    "171999642": {
+      "tag_name": "v1.3.1",
+      "published_at": "2024-08-26T18:22:37Z"
+    },
+    "171100575": {
+      "tag_name": "v1.3.0",
+      "published_at": "2024-08-20T15:30:25Z"
+    },
+    "164172729": {
+      "tag_name": "v1.2.8",
+      "published_at": "2024-07-05T14:32:47Z"
+    },
+    "160452311": {
+      "tag_name": "v1.2.7",
+      "published_at": "2024-06-14T09:34:14Z"
+    },
+    "160366072": {
+      "tag_name": "v1.2.6",
+      "published_at": "2024-06-13T19:21:27Z"
+    },
+    "159241780": {
+      "tag_name": "v1.2.5",
+      "published_at": "2024-06-06T17:37:13Z"
+    },
+    "156563997": {
+      "tag_name": "v1.2.4",
+      "published_at": "2024-05-20T18:51:41Z"
+    },
+    "153329783": {
+      "tag_name": "v1.2.3",
+      "published_at": "2024-04-29T18:59:25Z"
+    },
+    "152035697": {
+      "tag_name": "v1.2.2",
+      "published_at": "2024-04-20T08:09:27Z"
+    },
+    "150532395": {
+      "tag_name": "v1.2.1",
+      "published_at": "2024-04-10T08:26:18Z"
+    },
+    "149052893": {
+      "tag_name": "v1.2.0",
+      "published_at": "2024-03-29T19:12:33Z"
+    },
+    "146841966": {
+      "tag_name": "v1.1.3",
+      "published_at": "2024-03-15T19:42:02Z"
+    },
+    "139328300": {
+      "tag_name": "v1.1.2",
+      "published_at": "2024-01-31T14:19:03Z"
+    },
+    "138528154": {
+      "tag_name": "v1.1.1",
+      "published_at": "2024-01-25T14:45:35Z"
+    },
+    "136472908": {
+      "tag_name": "v1.1.0",
+      "published_at": "2024-01-10T11:43:57Z"
+    },
+    "129837868": {
+      "tag_name": "v1.0.1",
+      "published_at": "2023-11-16T20:28:32Z"
+    },
+    "126130675": {
+      "tag_name": "v1.0.0",
+      "published_at": "2023-10-21T23:10:48Z"
+    }
+  },
+  "sdk_branches": {
+    "release-crates-io-v1.1.0": "72dd732e5aebfa97dbb774cd3345d9ed6ee8aaf0",
+    "release-crates-io-v1.2.0": "4986cba4ac5c3f37122a7565f7e60922937b8082",
+    "release-crates-io-v1.3.0": "ecfcb42dfb419ebc7fee0793dbd1f9dbf0089883",
+    "release-crates-io-v1.4.0-staking-patch": "b73bffcf0ab28af63a42bf8ee37d56da0cdc8297",
+    "release-crates-io-v1.4.0": "8821056319ddb4b7db7742e8b41350df6dda9605",
+    "release-crates-io-v1.5.0-staking-patch": "fe657ee1df47d9500274982284716d08765f3318",
+    "release-crates-io-v1.5.0": "27430f98d6d4c6b04d51d99482750574cc4161fe",
+    "release-crates-io-v1.6.0-staking-patch": "6524144cfa1cead63c99f4860e933110e4be90f7",
+    "release-crates-io-v1.6.0-staking-patch-changes": "2f5acdcc8caf0a34d755cff55b8a73a923018d04",
+    "release-crates-io-v1.6.0-staking-patch-final": "2f5acdcc8caf0a34d755cff55b8a73a923018d04",
+    "release-crates-io-v1.6.0": "68ec2767b7778d00434340c0c9e9acb99d24b843",
+    "release-crates-io-v1.7.0-staking-backports": "07a67335d3f87a02a1bb8893d03c1e24a5522562",
+    "release-crates-io-v1.7.0-staking-backports-all": "b5cd792d437976b332fcc51ce787de71786490bb",
+    "release-crates-io-v1.7.0": "69c0bc7b0d5221ffe0c7905b566dfb1bbab853d1",
+    "release-crates-io-v1.8.0-staking-patch": "394fe0fa0824af519ae909faa7fc3f2f3d5f55d2",
+    "release-crates-io-v1.8.0": "6af5b98d235060809f376fb0b40fd93d5314bce2",
+    "release-crates-io-v1.9.0": "6f3618696b2ca4e375dc551548d76cc6e50fd632",
+    "release-crates-io-v1.10.0": "f41976a1994f4dcd61afb7578467e574f8777cf5",
+    "release-crates-io-v1.11.0": "8b223bd6544ec1f91f99fd9f5c1993a66df66474",
+    "release-crates-io-v1.12.0": "0067515973ad1d1e1a89919c4a5bda59becf7cfd",
+    "release-crates-io-v1.13.0": "d3e98d95dcc0659e5af3f0f7334fb2a665c18131",
+    "release-crates-io-v1.14.0": "54aca32da24a0ef9ab1bce44d6f6ea3018001a5f",
+    "release-cumulus-v1.1.0": "783579b4a49a462af89f02f21793ec38cb913d2b",
+    "release-cumulus-v1.2.0": "2cde7725e2d709a7e5f888c793b601491486daf6",
+    "release-cumulus-v1.3.0": "e99007870090e5d09c5526c18d21aa1e1704dac9",
+    "release-docker-v1.1.0": "61be78c621ab2fa390cd3bfc79c8307431d0ea90",
+    "release-polkadot-v1.1.0": "e57fad1b8e70be8942733d58137dbbcf9636bfca",
+    "release-polkadot-v1.2.0": "a682d265f5556d1c974fa53d69764ceabfd1f7dd",
+    "release-polkadot-v1.2.1": "72c453563937c36b895c543bc5e852e213a54f19",
+    "release-polkadot-v1.3.0": "c34bcf7e2bf5cba9cd141c790f4c144959d5a5a9",
+    "release-polkadot-v1.4.0": "fc7bee35f782064d4e926adafd62e49304a89f60",
+    "release-polkadot-v1.5.0": "0edc4fc4e3802490093b568ee2182521b01ff6e7",
+    "release-polkadot-v1.6.0": "e36ffb3da50afff65f8ec99378fbfe14f9d340e7",
+    "release-polkadot-v1.7.0_backport-3639": "3703eab383d6afac46adb482444fc948ec79ad32",
+    "release-polkadot-v1.7.0": "c106e59e46699e4282430cec6518c115bdb36dce",
+    "release-polkadot-v1.7.1": "2a91d5abdc56ed27dab36030db5fa3c9c92e60a9",
+    "release-polkadot-v1.7.2": "ffd22e7d5c856adfce46d27c4582d0d81fc54d84",
+    "release-polkadot-v1.7.3": "bf8632aabae3a973111552df852bb9cc6f25c0c4",
+    "release-polkadot-v1.8.0": "a51b5dd3dd7d00b0c0ae5bdd28650eb13f0ae70c",
+    "release-polkadot-v1.9.0": "5641e185cacd79b0c6ac1263ae28613c9625e6b3",
+    "release-polkadot-v1.10.0": "d6761efca1ad8536c28782685c123c55a481d0fd",
+    "release-polkadot-v1.10.1": "8eb1f5592d15c7c748fbe21c2ea951d3bfe890e2",
+    "release-polkadot-v1.11.0": "581fe47eefe5b5e8681953ed2e7532a4085198dc",
+    "release-polkadot-v1.12.0": "ab7838d82bd043f380a699e0de434df3a4f44e04",
+    "release-polkadot-v1.13.0": "d5160c1d567cc73c7df6c816d41e21aa3adb188d",
+    "release-polkadot-v1.14.0": "778e9d15552ceb66ab47feb8f681030ef6d357d5",
+    "release-polkadot-v1.14.1": "7c4cd60da6de32ddaafc1c213413b612fefc1059",
+    "stable2407": "92be93c7cb34d6a2c30639cd17994f589c3cdc60",
+    "stable2409": "320a99063662312c90830792e4d460739c113b02",
+    "stable2412-litep2p": "287f5b15186fd4df08d483f8c93bd96769c7dcf7",
+    "stable2412": "247f2e4641f8039ceb58827ff2f8a562217f298d",
+    "stable2503-broken": "8d560d7beb3bbbee20b10f1265a2ef4e75f4ab5e",
+    "stable2503": "913bb8b588aeef4daa63c73ea13ee1f3ecd5b5b5",
+    "stable2506": "03e07b69039c399ddc6f5e32f9477e186d0f9779"
+  },
+  "tracked_commits": [
+    "b6a646d1f72dbfb50cb83230bbc0309d2f659357"
+  ]
+}

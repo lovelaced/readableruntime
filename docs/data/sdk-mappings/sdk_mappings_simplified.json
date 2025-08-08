@@ -1,0 +1,2085 @@
+{
+  "metadata": {
+    "last_updated": "2025-08-07T18:03:39.852370Z",
+    "min_runtime_version": "v1.4.0",
+    "min_sdk_version": "stable2409",
+    "total_prs": 117,
+    "runtime_releases_analyzed": 6
+  },
+  "runtime_to_sdk": {
+    "v1.6.1": {
+      "sdk_version": "stable2503-2",
+      "previous_sdk_version": "stable2503-1",
+      "release_date": "2025-06-27T13:31:45Z"
+    },
+    "v1.6.0": {
+      "sdk_version": "stable2503-6",
+      "previous_sdk_version": "stable2412-6",
+      "release_date": "2025-06-19T16:31:48Z"
+    },
+    "v1.5.1": {
+      "sdk_version": "stable2412-6",
+      "previous_sdk_version": "stable2412-6",
+      "release_date": "2025-05-23T14:54:57Z"
+    },
+    "v1.5.0": {
+      "sdk_version": "stable2412-4",
+      "previous_sdk_version": null,
+      "release_date": "2025-04-29T10:42:15Z"
+    },
+    "v1.4.2": {
+      "sdk_version": "stable2409-4",
+      "previous_sdk_version": "stable2409-4",
+      "release_date": "2025-03-10T11:37:41Z"
+    },
+    "v1.4.1": {
+      "sdk_version": "stable2409-4",
+      "previous_sdk_version": "stable2409-4",
+      "release_date": "2025-02-27T13:05:36Z"
+    }
+  },
+  "pr_to_releases": {
+    "6324": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "6931": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "7719": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8240": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8281": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8314": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8376": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8390": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8401": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8405": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8406": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8411": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8427": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8434": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8435": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8437": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8438": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8439": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8440": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8441": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8447": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8448": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "8452": [
+      {
+        "runtime_version": "1.6.1",
+        "sdk_version": "stable2503-2",
+        "sdk_version_from": "stable2503-1"
+      }
+    ],
+    "6010": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "6827": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "7556": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "7592": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "7597": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "7730": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "7762": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8069": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8164": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8230": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8242": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8299": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8345": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8359": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8369": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8382": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8422": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8445": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8461": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8473": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8533": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8535": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8549": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8554": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8576": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8584": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8587": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8590": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8594": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8599": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8600": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8602": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8604": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8606": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8607": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8611": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8612": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8614": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8615": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8617": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8618": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8622": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8623": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8624": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8625": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8626": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8628": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8630": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8632": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8633": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8634": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8635": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8636": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8637": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8643": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8648": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8650": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8652": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8653": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8654": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8656": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8662": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8664": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8665": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8667": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8669": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8674": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8679": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8681": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8683": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8687": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8688": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8690": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8695": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8696": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8697": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8698": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8700": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8702": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8704": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8706": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8708": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8709": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8711": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8713": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8715": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8718": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8724": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8730": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8731": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8734": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8744": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8745": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ],
+    "8749": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_version_from": "stable2412-6"
+      }
+    ]
+  },
+  "pr_details": {
+    "6324": {
+      "number": "6324",
+      "title": "[Tx ext stage 2: 2/4] Introduce `#[pallet::authorize(...)]` macro attribute and `AuthorizeCall` system transaction extension",
+      "author": "gui1117",
+      "merged_at": "2025-05-06T01:57:08Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6324"
+    },
+    "6931": {
+      "number": "6931",
+      "title": "Migrate pallet-paged-list to umbrella crate",
+      "author": "Krayt78",
+      "merged_at": "2025-05-06T15:37:57Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6931"
+    },
+    "7719": {
+      "number": "7719",
+      "title": "adding command export_chain_spec for polkadot-omni node",
+      "author": "seemantaggarwal",
+      "merged_at": "2025-05-06T14:31:36Z",
+      "labels": [
+        "I5-enhancement",
+        "T9-cumulus",
+        "T17-Templates"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7719"
+    },
+    "8240": {
+      "number": "8240",
+      "title": "Snowbridge V2 Audit Fixes",
+      "author": "claravanstaden",
+      "merged_at": "2025-05-05T15:36:28Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8240"
+    },
+    "8281": {
+      "number": "8281",
+      "title": "XcmPaymentApi::query_weight_to_asset_fee simple common impl",
+      "author": "mrshiposha",
+      "merged_at": "2025-05-06T10:58:34Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8281"
+    },
+    "8314": {
+      "number": "8314",
+      "title": "Add methods in the statement store RPCs to get the statements and not just the statement data.",
+      "author": "gui1117",
+      "merged_at": "2025-05-05T04:27:29Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8314"
+    },
+    "8376": {
+      "number": "8376",
+      "title": "Remove TakeFirstAssetTrader from AH Westend and Rococo",
+      "author": "x3c41a",
+      "merged_at": "2025-05-02T17:38:11Z",
+      "labels": [
+        "T6-XCM"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8376"
+    },
+    "8390": {
+      "number": "8390",
+      "title": "docs (DOCUMENTATION_GUIDELINES.md): fix invalid links ",
+      "author": "gap-editor",
+      "merged_at": "2025-05-05T23:45:51Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8390"
+    },
+    "8401": {
+      "number": "8401",
+      "title": "[AHM] Fix Westend indexing for RcPalletsOrigin & RcRuntimeCall ",
+      "author": "PolkadotDom",
+      "merged_at": "2025-05-05T12:05:22Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8401"
+    },
+    "8405": {
+      "number": "8405",
+      "title": "DHT bootnodes: get randomness from the next epoch descriptor",
+      "author": "dmitry-markin",
+      "merged_at": "2025-05-06T13:53:52Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T0-node",
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8405"
+    },
+    "8406": {
+      "number": "8406",
+      "title": "[stable2503] Backport #8400",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-06T10:16:52Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8406"
+    },
+    "8411": {
+      "number": "8411",
+      "title": "[stable2503] Fix macos build",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-02T15:01:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8411"
+    },
+    "8427": {
+      "number": "8427",
+      "title": "BEEFY: adjust equivocation slash fraction",
+      "author": "serban300",
+      "merged_at": "2025-05-06T19:51:41Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8427"
+    },
+    "8434": {
+      "number": "8434",
+      "title": "Properly fix template generation",
+      "author": "nkpar",
+      "merged_at": "2025-05-06T07:22:34Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T17-Templates",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8434"
+    },
+    "8435": {
+      "number": "8435",
+      "title": "[CI] Adjust `check-semver` job so that it uses original PR number to check prdoc for the backports PRs",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-06T08:45:43Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2409",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8435"
+    },
+    "8437": {
+      "number": "8437",
+      "title": "[stable2409] Backport #8435",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-06T10:38:39Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8437"
+    },
+    "8438": {
+      "number": "8438",
+      "title": "[stable2412] Backport #8435",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-06T11:09:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8438"
+    },
+    "8439": {
+      "number": "8439",
+      "title": "[stable2503] Backport #8435",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-06T11:35:51Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8439"
+    },
+    "8440": {
+      "number": "8440",
+      "title": "[stable2503] Backport #8434",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-06T12:27:41Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8440"
+    },
+    "8441": {
+      "number": "8441",
+      "title": "Add all touched crates in #8327 to prdoc to fix release issue",
+      "author": "jsdw",
+      "merged_at": "2025-05-06T16:47:49Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8441"
+    },
+    "8447": {
+      "number": "8447",
+      "title": "Drop useless rep change.",
+      "author": "eskimor",
+      "merged_at": "2025-05-06T18:03:40Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8447"
+    },
+    "8448": {
+      "number": "8448",
+      "title": "[stable2503] Backport #8447",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-07T06:54:16Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8448"
+    },
+    "8452": {
+      "number": "8452",
+      "title": "[stable2503]  stable2503-2 release preparations",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-07T08:17:24Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8452"
+    },
+    "6010": {
+      "number": "6010",
+      "title": "Implement Proof Of Possession capability for all public key crypto types",
+      "author": "drskalman",
+      "merged_at": "2025-05-28T11:18:56Z",
+      "labels": [
+        "I5-enhancement",
+        "T5-host_functions"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6010"
+    },
+    "6827": {
+      "number": "6827",
+      "title": "Introduction of Approval Slashes [Disabling Strategy Stage 4]",
+      "author": "Overkillus",
+      "merged_at": "2025-06-05T15:23:05Z",
+      "labels": [
+        "I1-security",
+        "T8-polkadot",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6827"
+    },
+    "7556": {
+      "number": "7556",
+      "title": "Add trie cache warmup",
+      "author": "AndreiEres",
+      "merged_at": "2025-05-28T08:01:20Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7556"
+    },
+    "7592": {
+      "number": "7592",
+      "title": "Add `Paras` `authorize_code_hash` + `apply_authorized_code` feature",
+      "author": "bkontur",
+      "merged_at": "2025-05-29T11:13:40Z",
+      "labels": [
+        "T14-system_parachains"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7592"
+    },
+    "7597": {
+      "number": "7597",
+      "title": "Introduce CreateBare, deprecated CreateInherent",
+      "author": "gui1117",
+      "merged_at": "2025-05-26T05:47:51Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7597"
+    },
+    "7730": {
+      "number": "7730",
+      "title": "Nest errors in pallet-xcm",
+      "author": "franciscoaguirre",
+      "merged_at": "2025-05-31T22:35:24Z",
+      "labels": [
+        "T6-XCM"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7730"
+    },
+    "7762": {
+      "number": "7762",
+      "title": "ERC20 Asset Transactor",
+      "author": "franciscoaguirre",
+      "merged_at": "2025-05-28T22:29:13Z",
+      "labels": [
+        "T6-XCM",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7762"
+    },
+    "8069": {
+      "number": "8069",
+      "title": "Benchmark storage access on block validation",
+      "author": "AndreiEres",
+      "merged_at": "2025-05-22T17:41:34Z",
+      "labels": [
+        "T12-benchmarks"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8069"
+    },
+    "8164": {
+      "number": "8164",
+      "title": "[PoP] Add personhood tracking pallets",
+      "author": "georgepisaltu",
+      "merged_at": "2025-06-03T12:31:14Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8164"
+    },
+    "8230": {
+      "number": "8230",
+      "title": "collator-protocol: add more collation observability",
+      "author": "sandreim",
+      "merged_at": "2025-05-22T16:26:38Z",
+      "labels": [
+        "T0-node",
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8230"
+    },
+    "8242": {
+      "number": "8242",
+      "title": "collator-protocol-revamp: temporary memory db impl for reputations",
+      "author": "alindima",
+      "merged_at": "2025-05-28T13:49:35Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T8-polkadot"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8242"
+    },
+    "8299": {
+      "number": "8299",
+      "title": "Allow building on older relay parents",
+      "author": "skunert",
+      "merged_at": "2025-05-29T14:58:50Z",
+      "labels": [
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8299"
+    },
+    "8345": {
+      "number": "8345",
+      "title": "tx/metrics: Add metrics for the RPC v2 `transactionWatch_v1_submitAndWatch`",
+      "author": "lexnv",
+      "merged_at": "2025-05-26T13:37:26Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8345"
+    },
+    "8359": {
+      "number": "8359",
+      "title": "asset-hub-westend: use inmemorydb weights",
+      "author": "alexggh",
+      "merged_at": "2025-05-28T08:33:49Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8359"
+    },
+    "8369": {
+      "number": "8369",
+      "title": "Sync xcm related test utils impls with runtimes repo",
+      "author": "karolk91",
+      "merged_at": "2025-05-29T13:19:33Z",
+      "labels": [
+        "T6-XCM",
+        "T10-tests",
+        "T12-benchmarks"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8369"
+    },
+    "8382": {
+      "number": "8382",
+      "title": "add poke_deposit extrinsic to pallet-bounties",
+      "author": "UtkarshBhardwaj007",
+      "merged_at": "2025-05-26T19:50:54Z",
+      "labels": [
+        "T1-FRAME",
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8382"
+    },
+    "8422": {
+      "number": "8422",
+      "title": "[AHM] Staking async fixes for XCM and election planning",
+      "author": "kianenigma",
+      "merged_at": "2025-05-30T16:32:41Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8422"
+    },
+    "8445": {
+      "number": "8445",
+      "title": "sync/fix: Clear gap sync on known imported blocks",
+      "author": "lexnv",
+      "merged_at": "2025-06-04T11:52:14Z",
+      "labels": [
+        "T0-node",
+        "I2-bug"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8445"
+    },
+    "8461": {
+      "number": "8461",
+      "title": "client/net: Use litep2p as the default network backend",
+      "author": "lexnv",
+      "merged_at": "2025-06-03T11:35:18Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8461"
+    },
+    "8473": {
+      "number": "8473",
+      "title": "Snowbridge: Remove asset location check for compatibility",
+      "author": "yrong",
+      "merged_at": "2025-05-27T08:43:54Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8473"
+    },
+    "8533": {
+      "number": "8533",
+      "title": "`fatxpool`: add fallback for ready at light",
+      "author": "iulianbarbu",
+      "merged_at": "2025-05-22T13:34:18Z",
+      "labels": [
+        "I5-enhancement"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8533"
+    },
+    "8535": {
+      "number": "8535",
+      "title": "Make `WeightBounds` return `XcmError` to surface failures",
+      "author": "raymondkfcheung",
+      "merged_at": "2025-05-29T06:45:15Z",
+      "labels": [
+        "T6-XCM",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8535"
+    },
+    "8549": {
+      "number": "8549",
+      "title": "Make `WeightBounds` return `Result<Weight, XcmError>` to surface XCM weight failures",
+      "author": "raymondkfcheung",
+      "merged_at": "2025-05-22T08:23:52Z",
+      "labels": [
+        "T6-XCM"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8549"
+    },
+    "8554": {
+      "number": "8554",
+      "title": "pallet-assets ERC20 precompile",
+      "author": "pgherveou",
+      "merged_at": "2025-05-30T18:15:04Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8554"
+    },
+    "8576": {
+      "number": "8576",
+      "title": "Fix sovereign translation",
+      "author": "ggwpez",
+      "merged_at": "2025-05-22T17:00:55Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8576"
+    },
+    "8584": {
+      "number": "8584",
+      "title": "Remove all XCM dependencies from `pallet-revive`",
+      "author": "tiagobndr",
+      "merged_at": "2025-06-02T15:37:44Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8584"
+    },
+    "8587": {
+      "number": "8587",
+      "title": "[pallet-revive] make subscription task panic on error",
+      "author": "pgherveou",
+      "merged_at": "2025-05-26T14:35:08Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8587"
+    },
+    "8590": {
+      "number": "8590",
+      "title": "[stable2503] Backport #8546",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-21T20:07:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8590"
+    },
+    "8594": {
+      "number": "8594",
+      "title": "omni-node: fix `benchmark pallet` to work with `--runtime`",
+      "author": "iulianbarbu",
+      "merged_at": "2025-06-04T16:49:22Z",
+      "labels": [
+        "I2-bug"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8594"
+    },
+    "8599": {
+      "number": "8599",
+      "title": "Snowbridge: Unpaid execution when bridging to Ethereum",
+      "author": "yrong",
+      "merged_at": "2025-05-29T18:52:35Z",
+      "labels": [
+        "T15-bridges"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8599"
+    },
+    "8600": {
+      "number": "8600",
+      "title": "\ud83d\udd2a flaky and Zombienet tests",
+      "author": "ggwpez",
+      "merged_at": "2025-05-22T23:05:15Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8600"
+    },
+    "8602": {
+      "number": "8602",
+      "title": "[stable2503] Backport #8585",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-22T09:50:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8602"
+    },
+    "8604": {
+      "number": "8604",
+      "title": "[stable2412] Post crates release activities",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-21T19:23:06Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8604"
+    },
+    "8606": {
+      "number": "8606",
+      "title": "Use hashbrown hashmap/hashset in validation context",
+      "author": "alexggh",
+      "merged_at": "2025-05-23T15:29:00Z",
+      "labels": [
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8606"
+    },
+    "8607": {
+      "number": "8607",
+      "title": "Bump memory-db",
+      "author": "alexggh",
+      "merged_at": "2025-05-27T18:33:34Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8607"
+    },
+    "8611": {
+      "number": "8611",
+      "title": "Revert 7934 es/remove tj changes",
+      "author": "pepoviola",
+      "merged_at": "2025-05-22T16:26:38Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8611"
+    },
+    "8612": {
+      "number": "8612",
+      "title": "Bridges: Fix - Improve try-state for pallet-xcm-bridge",
+      "author": "rosarp",
+      "merged_at": "2025-05-22T10:25:47Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T15-bridges"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8612"
+    },
+    "8614": {
+      "number": "8614",
+      "title": "[stable2503] Post crates release stable2503-5",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-22T11:47:57Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8614"
+    },
+    "8615": {
+      "number": "8615",
+      "title": "Bridges: Fix - Improve try-state for pallet-xcm-bridge-hub",
+      "author": "rosarp",
+      "merged_at": "2025-05-26T13:08:24Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8615"
+    },
+    "8617": {
+      "number": "8617",
+      "title": "cumulus: adjust unincluded segment size metric buckets",
+      "author": "sandreim",
+      "merged_at": "2025-05-22T21:46:00Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8617"
+    },
+    "8618": {
+      "number": "8618",
+      "title": "Bridges: Fix - Improve try-state for pallet-xcm-bridge",
+      "author": "rosarp",
+      "merged_at": "2025-05-22T19:57:32Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T15-bridges"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8618"
+    },
+    "8622": {
+      "number": "8622",
+      "title": "ci: rm gitlab config",
+      "author": "alvicsam",
+      "merged_at": "2025-05-23T12:38:04Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8622"
+    },
+    "8623": {
+      "number": "8623",
+      "title": "[stable2412] Push `sp-api-proc-macro` & `frame-executive` for the stable2412",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-23T14:00:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8623"
+    },
+    "8624": {
+      "number": "8624",
+      "title": "[stable2503] Push sp-api-proc-macro & frame-executive for the stable2503",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-23T14:00:31Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8624"
+    },
+    "8625": {
+      "number": "8625",
+      "title": "[stable2407] Backport #7785",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T08:13:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8625"
+    },
+    "8626": {
+      "number": "8626",
+      "title": "[stable2409] Backport #7785",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T08:15:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8626"
+    },
+    "8628": {
+      "number": "8628",
+      "title": "[stable2503] Backport #7785",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T08:03:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8628"
+    },
+    "8630": {
+      "number": "8630",
+      "title": "Broker: Introduce min price + adjust renewals to lower market.",
+      "author": "eskimor",
+      "merged_at": "2025-05-30T16:56:14Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8630"
+    },
+    "8632": {
+      "number": "8632",
+      "title": "CI: Enforce SemVer restrictions on backport PRs with optional override via `validate: false`",
+      "author": "raymondkfcheung",
+      "merged_at": "2025-05-28T13:57:50Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8632"
+    },
+    "8633": {
+      "number": "8633",
+      "title": "Staking (EPMB): update the semantics of elect() and Phase::Extract(N)",
+      "author": "sigurpol",
+      "merged_at": "2025-05-30T07:28:00Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8633"
+    },
+    "8634": {
+      "number": "8634",
+      "title": "[stable2407] Backport #8173",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T08:15:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8634"
+    },
+    "8635": {
+      "number": "8635",
+      "title": "[stable2409] Backport #8173",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-26T14:53:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8635"
+    },
+    "8636": {
+      "number": "8636",
+      "title": "[stable2412] Backport #8173",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-26T07:50:55Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8636"
+    },
+    "8637": {
+      "number": "8637",
+      "title": "[stable2503] Backport #8173",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-26T07:51:33Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8637"
+    },
+    "8643": {
+      "number": "8643",
+      "title": "Docker tags fix",
+      "author": "AndWeHaveAPlan",
+      "merged_at": "2025-05-27T11:18:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A5-run-CI"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8643"
+    },
+    "8648": {
+      "number": "8648",
+      "title": "Charge deposit based on key length",
+      "author": "athei",
+      "merged_at": "2025-05-26T17:02:11Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8648"
+    },
+    "8650": {
+      "number": "8650",
+      "title": "litep2p/peerset: Reject non-reserved peers in the reserved-only mode",
+      "author": "lexnv",
+      "merged_at": "2025-05-26T18:50:24Z",
+      "labels": [
+        "T0-node",
+        "I2-bug",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8650"
+    },
+    "8652": {
+      "number": "8652",
+      "title": "[pallet-revive] impl_revive_api macro",
+      "author": "pgherveou",
+      "merged_at": "2025-05-27T11:41:05Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8652"
+    },
+    "8653": {
+      "number": "8653",
+      "title": "[stable2412] Backport #8615",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T07:23:35Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8653"
+    },
+    "8654": {
+      "number": "8654",
+      "title": "[stable2503] Backport #8615",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T05:46:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8654"
+    },
+    "8656": {
+      "number": "8656",
+      "title": "[stable2503] Backport #8648",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-27T10:48:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8656"
+    },
+    "8662": {
+      "number": "8662",
+      "title": "[pallet-revive] update dry-run logic",
+      "author": "pgherveou",
+      "merged_at": "2025-06-02T12:43:42Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8662"
+    },
+    "8664": {
+      "number": "8664",
+      "title": "[pallet-revive] Fix rpc-types",
+      "author": "pgherveou",
+      "merged_at": "2025-05-27T11:09:07Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8664"
+    },
+    "8665": {
+      "number": "8665",
+      "title": "[stable2503] Backport #8473",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-06-02T09:38:28Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8665"
+    },
+    "8667": {
+      "number": "8667",
+      "title": "revive: Simplify the storage meter",
+      "author": "athei",
+      "merged_at": "2025-05-27T13:52:35Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8667"
+    },
+    "8669": {
+      "number": "8669",
+      "title": "cumulus-aura: Improve equivocation checks",
+      "author": "bkchr",
+      "merged_at": "2025-05-27T16:20:47Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2409",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8669"
+    },
+    "8674": {
+      "number": "8674",
+      "title": "[stable2503] RC4 preparations",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-27T13:38:15Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8674"
+    },
+    "8679": {
+      "number": "8679",
+      "title": "Shared Add ethereum-standards crate",
+      "author": "pgherveou",
+      "merged_at": "2025-05-28T10:55:32Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8679"
+    },
+    "8681": {
+      "number": "8681",
+      "title": "[stable2409] Backport #8669",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-06-04T07:25:03Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8681"
+    },
+    "8683": {
+      "number": "8683",
+      "title": "[stable2503] Backport #8669",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-30T06:28:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8683"
+    },
+    "8687": {
+      "number": "8687",
+      "title": "Staking (EPMB): Add defensive error handling to voter snapshot creation and solution verification",
+      "author": "sigurpol",
+      "merged_at": "2025-05-30T15:56:43Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8687"
+    },
+    "8688": {
+      "number": "8688",
+      "title": "bound trusted local cache to shared limits sizes",
+      "author": "alexggh",
+      "merged_at": "2025-05-29T08:35:16Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8688"
+    },
+    "8690": {
+      "number": "8690",
+      "title": "Fix breaking test",
+      "author": "yrong",
+      "merged_at": "2025-05-28T13:10:21Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8690"
+    },
+    "8695": {
+      "number": "8695",
+      "title": "tests: Ensure tests are started on port 0 for TCP",
+      "author": "lexnv",
+      "merged_at": "2025-05-28T15:32:35Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8695"
+    },
+    "8696": {
+      "number": "8696",
+      "title": "ci: trigger zombienet tests if 'T18-zombienet_tests' label set",
+      "author": "lrubasze",
+      "merged_at": "2025-05-29T07:31:05Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8696"
+    },
+    "8697": {
+      "number": "8697",
+      "title": "[stable2412] Backport #8632",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-29T10:29:05Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8697"
+    },
+    "8698": {
+      "number": "8698",
+      "title": "[stable2503] Backport #8632",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-05-29T10:30:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8698"
+    },
+    "8700": {
+      "number": "8700",
+      "title": "transfer_assets benchmarking and weights for people chains",
+      "author": "karolk91",
+      "merged_at": "2025-05-29T10:33:17Z",
+      "labels": [
+        "T6-XCM",
+        "T12-benchmarks"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8700"
+    },
+    "8702": {
+      "number": "8702",
+      "title": "[AHM] Relax the requirement for RC-Client to receive +1 session reports",
+      "author": "kianenigma",
+      "merged_at": "2025-06-04T23:39:23Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8702"
+    },
+    "8704": {
+      "number": "8704",
+      "title": "[AHM] Report the weights of epmb pallet to expose kusama and polkadot weights",
+      "author": "kianenigma",
+      "merged_at": "2025-06-02T17:53:44Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8704"
+    },
+    "8706": {
+      "number": "8706",
+      "title": "[Backport] Version bumps and prdocs reordering from the stable2503-4 and stable2503-5 releases",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-05-30T10:18:49Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8706"
+    },
+    "8708": {
+      "number": "8708",
+      "title": "feat: add collator peer ID to ParachainInherentData",
+      "author": "sw10pa",
+      "merged_at": "2025-06-02T08:45:05Z",
+      "labels": [
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8708"
+    },
+    "8709": {
+      "number": "8709",
+      "title": "Unflake `returns_status_for_pruned_blocks`",
+      "author": "skunert",
+      "merged_at": "2025-06-02T18:54:34Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8709"
+    },
+    "8711": {
+      "number": "8711",
+      "title": "Docker master image tag fix",
+      "author": "AndWeHaveAPlan",
+      "merged_at": "2025-06-02T14:29:42Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8711"
+    },
+    "8713": {
+      "number": "8713",
+      "title": "[stable2503] Backport #8630",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-06-04T07:23:44Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8713"
+    },
+    "8715": {
+      "number": "8715",
+      "title": "[AHM] Prepare For Westend Cleanup",
+      "author": "ggwpez",
+      "merged_at": "2025-06-05T15:05:41Z",
+      "labels": [
+        "T1-FRAME",
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8715"
+    },
+    "8718": {
+      "number": "8718",
+      "title": "Record ed as part of the storage deposit",
+      "author": "athei",
+      "merged_at": "2025-06-02T14:10:56Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8718"
+    },
+    "8724": {
+      "number": "8724",
+      "title": "Implement detailed logging for XCM failures",
+      "author": "raymondkfcheung",
+      "merged_at": "2025-06-04T14:58:09Z",
+      "labels": [
+        "T6-XCM"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8724"
+    },
+    "8730": {
+      "number": "8730",
+      "title": "[stable2503] Backport #8461: Use litep2p as the default network backend",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-06-05T11:47:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8730"
+    },
+    "8731": {
+      "number": "8731",
+      "title": "Handle and suppress \"New unknown `FromSwarm` libp2p event\" warning",
+      "author": "dmitry-markin",
+      "merged_at": "2025-06-04T16:03:31Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8731"
+    },
+    "8734": {
+      "number": "8734",
+      "title": "[pallet-revive] contract's nonce starts at 1",
+      "author": "pgherveou",
+      "merged_at": "2025-06-04T13:19:38Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8734"
+    },
+    "8744": {
+      "number": "8744",
+      "title": "[stable2503] Backport #8650: litep2p/peerset: Reject non-reserved peers in the reserved-only mode",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-06-05T13:04:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8744"
+    },
+    "8745": {
+      "number": "8745",
+      "title": "Actually use RP offset in YAP parachain",
+      "author": "skunert",
+      "merged_at": "2025-06-05T09:40:41Z",
+      "labels": [
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8745"
+    },
+    "8749": {
+      "number": "8749",
+      "title": "Don't read storage items in logging",
+      "author": "kianenigma",
+      "merged_at": "2025-06-04T22:57:38Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8749"
+    }
+  }
+}

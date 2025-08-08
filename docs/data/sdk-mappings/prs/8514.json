@@ -1,0 +1,23 @@
+{
+  "pr_number": "8514",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8514",
+    "title": "cumulus/fix: Allow block-announce to exist in the background of minimal relay chains",
+    "author": "lexnv",
+    "merged_at": "2025-05-13T18:39:36Z",
+    "labels": [
+      "T0-node",
+      "I2-bug",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8514"
+  }
+}

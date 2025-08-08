@@ -1,0 +1,21 @@
+{
+  "pr_number": "7621",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7621",
+    "title": "ci: change gcs bucket for forklift",
+    "author": "alvicsam",
+    "merged_at": "2025-02-19T18:25:04Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A5-run-CI"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7621"
+  }
+}

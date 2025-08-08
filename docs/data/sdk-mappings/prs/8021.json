@@ -1,0 +1,21 @@
+{
+  "pr_number": "8021",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8021",
+    "title": "XCMP: use batching when enqueuing inbound messages",
+    "author": "serban300",
+    "merged_at": "2025-04-23T16:09:17Z",
+    "labels": [
+      "T6-XCM",
+      "I9-optimisation"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8021"
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "generated_at": "2025-08-08T11:16:55.838582Z",
+  "package_to_tags": {
+    "7.0.0": [
+      "stable1985-rc1",
+      "stable2409-rc1",
+      "stable2412",
+      "stable2412-rc1",
+      "stable2412-rc2",
+      "stable2412-rc3",
+      "stable2412-rc4",
+      "stable2412-rc5",
+      "stable2412-rc6",
+      "stable2503-rc1",
+      "stable2506-rc1",
+      "stable2506-rc2",
+      "stable2506-rc3",
+      "stable2506-rc4",
+      "stable2506-rc5",
+      "stable2506-rc6"
+    ],
+    "15.0.0": [
+      "stable2407",
+      "stable2407-1",
+      "stable2407-2",
+      "stable2407-3",
+      "stable2407-4",
+      "stable2407-5",
+      "stable2407-6",
+      "stable2407-7",
+      "stable2407-8",
+      "stable2407-9"
+    ],
+    "16.0.0": [
+      "stable2409",
+      "stable2409-1",
+      "stable2409-10",
+      "stable2409-2",
+      "stable2409-3",
+      "stable2409-4",
+      "stable2409-5",
+      "stable2409-6",
+      "stable2409-7",
+      "stable2409-9"
+    ],
+    "17.0.0": [
+      "stable2412-1",
+      "stable2412-1-rc1",
+      "stable2412-1-rc2",
+      "stable2412-1-rc3",
+      "stable2412-1-rc4",
+      "stable2412-2",
+      "stable2412-2-rc1",
+      "stable2412-2-rc2",
+      "stable2412-2-with-backport-8040",
+      "stable2412-3",
+      "stable2412-3-rc1"
+    ],
+    "17.1.0": [
+      "stable2412-4",
+      "stable2412-4-rc1",
+      "stable2412-5",
+      "stable2412-5-rc1",
+      "stable2412-6",
+      "stable2412-6-rc1",
+      "stable2412-7",
+      "stable2412-7-rc1",
+      "stable2412-8"
+    ],
+    "18.1.0": [
+      "stable2503",
+      "stable2503-1",
+      "stable2503-1-rc1",
+      "stable2503-1-rc2",
+      "stable2503-2",
+      "stable2503-2-rc1",
+      "stable2503-3",
+      "stable2503-3-rc1",
+      "stable2503-4",
+      "stable2503-4-rc1",
+      "stable2503-4-rc2",
+      "stable2503-5",
+      "stable2503-5-rc1",
+      "stable2503-5-rc2",
+      "stable2503-5-rc3",
+      "stable2503-5-rc4",
+      "stable2503-6",
+      "stable2503-6-rc1",
+      "stable2503-rc2"
+    ],
+    "18.2.0": [
+      "stable2503-7",
+      "stable2503-7-rc1",
+      "stable2503-7-rc2",
+      "stable2503-7-rc3",
+      "stable2503-8",
+      "stable2503-8-rc1"
+    ],
+    "19.0.0": [
+      "stable2506",
+      "stable2506-rc7"
+    ]
+  },
+  "tag_info": {
+    "stable1985-rc1": {
+      "package_version": "7.0.0",
+      "created_at": "2024-11-06T14:22:28Z",
+      "commit_sha": "603969a5d7b4ef758cdefd2f21770d1634d92213"
+    },
+    "stable2407": {
+      "package_version": "15.0.0",
+      "created_at": "2024-07-29T08:45:30Z",
+      "commit_sha": "743dc632fd6115b408376a6e4efe815bd804cd52"
+    },
+    "stable2407-1": {
+      "package_version": "15.0.0",
+      "created_at": "2024-08-15T09:19:53Z",
+      "commit_sha": "16b0fd09d9e9281c20ee0c1d8b87d011e3e3454e"
+    },
+    "stable2407-2": {
+      "package_version": "15.0.0",
+      "created_at": "2024-08-30T08:19:50Z",
+      "commit_sha": "d6f482d5593c3e791d7b3e92e95aa3c734e23794"
+    },
+    "stable2407-3": {
+      "package_version": "15.0.0",
+      "created_at": "2024-10-09T14:35:11Z",
+      "commit_sha": "69c31908042fc5ebdd48814bce823a8b173baa22"
+    },
+    "stable2407-4": {
+      "package_version": "15.0.0",
+      "created_at": "2024-11-07T18:57:18Z",
+      "commit_sha": "b386125f1e8e6da0ce7fe5ffa3ccfcee6d5244f0"
+    },
+    "stable2407-5": {
+      "package_version": "15.0.0",
+      "created_at": "2024-12-09T10:21:02Z",
+      "commit_sha": "ed1932e27fed105c83175a4276d7cfc301e6a3f3"
+    },
+    "stable2407-6": {
+      "package_version": "15.0.0",
+      "created_at": "2025-01-16T15:28:53Z",
+      "commit_sha": "39e71bd58f282508db334a424ca6c2997d94acf5"
+    },
+    "stable2407-7": {
+      "package_version": "15.0.0",
+      "created_at": "2025-02-06T16:13:34Z",
+      "commit_sha": "7642d6b5dea6dd7871ef8bbfcb9d48ba8a8b0f77"
+    },
+    "stable2407-8": {
+      "package_version": "15.0.0",
+      "created_at": "2025-03-06T14:09:15Z",
+      "commit_sha": "a2c48f96f1da700590ed3477736c8a9af16a3030"
+    },
+    "stable2407-9": {
+      "package_version": "15.0.0",
+      "created_at": "2025-04-10T14:15:12Z",
+      "commit_sha": "ee3531f0172f9ae8e557abc0c35f7160f002c642"
+    },
+    "stable2409": {
+      "package_version": "16.0.0",
+      "created_at": "2024-09-26T08:55:32Z",
+      "commit_sha": "87971b3e92721bdf10bf40b410eaae779d494ca0"
+    },
+    "stable2409-1": {
+      "package_version": "16.0.0",
+      "created_at": "2024-10-18T13:54:35Z",
+      "commit_sha": "835e0767fe81355c7559e12802b977f96ca271d8"
+    },
+    "stable2409-10": {
+      "package_version": "16.0.0",
+      "created_at": "2025-07-17T13:28:25Z",
+      "commit_sha": "3a7b9244545943ccb18895afa90b5189ad9f0ff9"
+    },
+    "stable2409-2": {
+      "package_version": "16.0.0",
+      "created_at": "2024-11-14T05:57:26Z",
+      "commit_sha": "dba2dd59101617aad64d167e400b19e2c35052b1"
+    },
+    "stable2409-3": {
+      "package_version": "16.0.0",
+      "created_at": "2024-12-20T06:23:58Z",
+      "commit_sha": "c9211527a90f053f9a58be4c1d6001ccfefbfd5f"
+    },
+    "stable2409-4": {
+      "package_version": "16.0.0",
+      "created_at": "2025-01-23T17:05:51Z",
+      "commit_sha": "c455194a2ae2f613c1c671e00dbf397b83ed8171"
+    },
+    "stable2409-5": {
+      "package_version": "16.0.0",
+      "created_at": "2025-02-13T13:49:53Z",
+      "commit_sha": "ac431bce9d42edd0b04530f7dada02c37c0aa1de"
+    },
+    "stable2409-6": {
+      "package_version": "16.0.0",
+      "created_at": "2025-03-13T16:46:27Z",
+      "commit_sha": "fa856e0bc3aa8be002e2786f6aa77495d282def1"
+    },
+    "stable2409-7": {
+      "package_version": "16.0.0",
+      "created_at": "2025-04-29T09:16:46Z",
+      "commit_sha": "0c9644766f02c872f51e5b72adf1051189fe9126"
+    },
+    "stable2409-9": {
+      "package_version": "16.0.0",
+      "created_at": "2025-06-12T13:14:30Z",
+      "commit_sha": "637c6200bbcbd3b0bcc3783946836e3c7a31e406"
+    },
+    "stable2409-rc1": {
+      "package_version": "7.0.0",
+      "created_at": "2024-09-06T07:57:15Z",
+      "commit_sha": "a427d8fb677b62635dfb78a6e530facdd2c362ec"
+    },
+    "stable2412": {
+      "package_version": "7.0.0",
+      "created_at": "2024-12-16T14:23:07Z",
+      "commit_sha": "967989c5d94cb5d2060083ca7ddc5ac2cc2dd543"
+    },
+    "stable2412-1": {
+      "package_version": "17.0.0",
+      "created_at": "2025-01-29T12:35:31Z",
+      "commit_sha": "ab5882bbc67bcc48464566a2b48171265147acac"
+    },
+    "stable2412-1-rc1": {
+      "package_version": "17.0.0",
+      "created_at": "2025-01-28T07:38:23Z",
+      "commit_sha": "b3a706a14461b4bfc86f75581e8d8f9e9cb1faa0"
+    },
+    "stable2412-1-rc2": {
+      "package_version": "17.0.0",
+      "created_at": "2025-01-28T08:14:44Z",
+      "commit_sha": "4745b2cb7dafd3cf5642ac20a206dd3bc2ac0c77"
+    },
+    "stable2412-1-rc3": {
+      "package_version": "17.0.0",
+      "created_at": "2025-01-29T09:12:58Z",
+      "commit_sha": "3b4867e01b7d4900a71260ad55fad00c6b68d121"
+    },
+    "stable2412-1-rc4": {
+      "package_version": "17.0.0",
+      "created_at": "2025-01-29T12:35:31Z",
+      "commit_sha": "ab5882bbc67bcc48464566a2b48171265147acac"
+    },
+    "stable2412-2": {
+      "package_version": "17.0.0",
+      "created_at": "2025-02-21T13:28:13Z",
+      "commit_sha": "863f353d20749caccfd1ccd548cc0cd85291f3a8"
+    },
+    "stable2412-2-rc1": {
+      "package_version": "17.0.0",
+      "created_at": "2025-02-21T09:42:32Z",
+      "commit_sha": "2357bd1d281f26fc38db7a2bced365e586d63eda"
+    },
+    "stable2412-2-rc2": {
+      "package_version": "17.0.0",
+      "created_at": "2025-02-21T13:28:13Z",
+      "commit_sha": "863f353d20749caccfd1ccd548cc0cd85291f3a8"
+    },
+    "stable2412-2-with-backport-8040": {
+      "package_version": "17.0.0",
+      "created_at": "2025-04-02T10:38:25Z",
+      "commit_sha": "9798a1c987dbb6a70b9a4867ae12a4584f130f4e"
+    },
+    "stable2412-3": {
+      "package_version": "17.0.0",
+      "created_at": "2025-03-11T16:10:33Z",
+      "commit_sha": "06158dd26ba5d75263fbe454a95b73abed6b06d2"
+    },
+    "stable2412-3-rc1": {
+      "package_version": "17.0.0",
+      "created_at": "2025-03-11T16:10:33Z",
+      "commit_sha": "06158dd26ba5d75263fbe454a95b73abed6b06d2"
+    },
+    "stable2412-4": {
+      "package_version": "17.1.0",
+      "created_at": "2025-03-27T23:08:00Z",
+      "commit_sha": "010fd7bd1cd586bbbe4a4c48cd631e2ec263af5e"
+    },
+    "stable2412-4-rc1": {
+      "package_version": "17.1.0",
+      "created_at": "2025-03-27T23:08:00Z",
+      "commit_sha": "010fd7bd1cd586bbbe4a4c48cd631e2ec263af5e"
+    },
+    "stable2412-5": {
+      "package_version": "17.1.0",
+      "created_at": "2025-04-30T12:57:22Z",
+      "commit_sha": "d77b878daef34cf840eb34657d48f644ed9ca197"
+    },
+    "stable2412-5-rc1": {
+      "package_version": "17.1.0",
+      "created_at": "2025-04-30T12:57:22Z",
+      "commit_sha": "d77b878daef34cf840eb34657d48f644ed9ca197"
+    },
+    "stable2412-6": {
+      "package_version": "17.1.0",
+      "created_at": "2025-05-21T19:23:06Z",
+      "commit_sha": "bbc435c7667d3283ba280a8fec44676357392753"
+    },
+    "stable2412-6-rc1": {
+      "package_version": "17.1.0",
+      "created_at": "2025-05-21T19:23:06Z",
+      "commit_sha": "bbc435c7667d3283ba280a8fec44676357392753"
+    },
+    "stable2412-7": {
+      "package_version": "17.1.0",
+      "created_at": "2025-06-24T01:29:39Z",
+      "commit_sha": "47bffc088b7961fbfb31b54084acddc842035531"
+    },
+    "stable2412-7-rc1": {
+      "package_version": "17.1.0",
+      "created_at": "2025-06-24T01:29:39Z",
+      "commit_sha": "47bffc088b7961fbfb31b54084acddc842035531"
+    },
+    "stable2412-8": {
+      "package_version": "17.1.0",
+      "created_at": "2025-07-28T14:23:49Z",
+      "commit_sha": "6d1265189c8ad637ad2fcc12e9203b44d77b508e"
+    },
+    "stable2412-rc1": {
+      "package_version": "7.0.0",
+      "created_at": "2024-11-19T13:10:29Z",
+      "commit_sha": "2435db286c667acd23523cd05fccc6a206667613"
+    },
+    "stable2412-rc2": {
+      "package_version": "7.0.0",
+      "created_at": "2024-11-20T07:06:03Z",
+      "commit_sha": "a86fb861573b31fb35db97d6ffe3eb4ff4a80359"
+    },
+    "stable2412-rc3": {
+      "package_version": "7.0.0",
+      "created_at": "2024-12-12T06:59:11Z",
+      "commit_sha": "2bf2fd069edfcd15c0238eb975860214d989f1a0"
+    },
+    "stable2412-rc4": {
+      "package_version": "7.0.0",
+      "created_at": "2024-12-12T09:54:11Z",
+      "commit_sha": "5ef398e414d094331a37736a84e92f4f41de0e25"
+    },
+    "stable2412-rc5": {
+      "package_version": "7.0.0",
+      "created_at": "2024-12-13T09:58:59Z",
+      "commit_sha": "51f578a3a4efb767890a2c61b28a17a855018531"
+    },
+    "stable2412-rc6": {
+      "package_version": "7.0.0",
+      "created_at": "2024-12-16T14:23:07Z",
+      "commit_sha": "967989c5d94cb5d2060083ca7ddc5ac2cc2dd543"
+    },
+    "stable2503": {
+      "package_version": "18.1.0",
+      "created_at": "2025-04-07T16:20:26Z",
+      "commit_sha": "0c0d4ceba45a70f4e8dc40b1ee0cfae1fd759454"
+    },
+    "stable2503-1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-02T15:01:18Z",
+      "commit_sha": "0bc730c5f59b194ceb11cd993aaa577a811ba32f"
+    },
+    "stable2503-1-rc1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-02T12:38:25Z",
+      "commit_sha": "27675fd7833f09da2ae8b877d2e7b02377702cc1"
+    },
+    "stable2503-1-rc2": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-02T15:01:18Z",
+      "commit_sha": "0bc730c5f59b194ceb11cd993aaa577a811ba32f"
+    },
+    "stable2503-2": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-07T08:17:24Z",
+      "commit_sha": "050919ba3894f96664bbeea61ebd4e1cb8fdb0d3"
+    },
+    "stable2503-2-rc1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-07T08:17:24Z",
+      "commit_sha": "050919ba3894f96664bbeea61ebd4e1cb8fdb0d3"
+    },
+    "stable2503-3": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-10T06:30:40Z",
+      "commit_sha": "f3226bb11fb7b8951de4e9d3e0d8207404af7c73"
+    },
+    "stable2503-3-rc1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-10T06:30:40Z",
+      "commit_sha": "f3226bb11fb7b8951de4e9d3e0d8207404af7c73"
+    },
+    "stable2503-4": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-14T13:41:17Z",
+      "commit_sha": "0548e837980715584bfdea1fb907c9a6b3186bc2"
+    },
+    "stable2503-4-rc1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-13T19:39:39Z",
+      "commit_sha": "c6850f965d546007e8bf2962fb01127ec28490cc"
+    },
+    "stable2503-4-rc2": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-14T13:41:17Z",
+      "commit_sha": "0548e837980715584bfdea1fb907c9a6b3186bc2"
+    },
+    "stable2503-5": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-27T13:38:14Z",
+      "commit_sha": "f4dba53bfac614b054735aa725d2b0c44efda414"
+    },
+    "stable2503-5-rc1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-16T16:16:30Z",
+      "commit_sha": "1756db06b1d7794a23b7d069d76716a64d0524cc"
+    },
+    "stable2503-5-rc2": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-20T15:49:36Z",
+      "commit_sha": "b8c128dcd39ac643bc9443a7c592c0db130ab577"
+    },
+    "stable2503-5-rc3": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-22T11:47:50Z",
+      "commit_sha": "8f2f17c5327a8d7040ef20793be114999c900581"
+    },
+    "stable2503-5-rc4": {
+      "package_version": "18.1.0",
+      "created_at": "2025-05-27T13:38:14Z",
+      "commit_sha": "f4dba53bfac614b054735aa725d2b0c44efda414"
+    },
+    "stable2503-6": {
+      "package_version": "18.1.0",
+      "created_at": "2025-06-05T16:38:10Z",
+      "commit_sha": "598feddb893f5ad3923a62e41a2f179b6e10c30c"
+    },
+    "stable2503-6-rc1": {
+      "package_version": "18.1.0",
+      "created_at": "2025-06-05T16:38:10Z",
+      "commit_sha": "598feddb893f5ad3923a62e41a2f179b6e10c30c"
+    },
+    "stable2503-7": {
+      "package_version": "18.2.0",
+      "created_at": "2025-07-09T09:38:55Z",
+      "commit_sha": "1530a8826416514c3326597338b3511a55040663"
+    },
+    "stable2503-7-rc1": {
+      "package_version": "18.2.0",
+      "created_at": "2025-06-24T15:07:43Z",
+      "commit_sha": "b9ac350397e8cedbd13f659dbcc49dd74308064e"
+    },
+    "stable2503-7-rc2": {
+      "package_version": "18.2.0",
+      "created_at": "2025-06-27T12:37:46Z",
+      "commit_sha": "aff0019168509312a932608868fc6444211f2825"
+    },
+    "stable2503-7-rc3": {
+      "package_version": "18.2.0",
+      "created_at": "2025-07-09T09:38:55Z",
+      "commit_sha": "1530a8826416514c3326597338b3511a55040663"
+    },
+    "stable2503-8": {
+      "package_version": "18.2.0",
+      "created_at": "2025-07-31T16:27:15Z",
+      "commit_sha": "913bb8b588aeef4daa63c73ea13ee1f3ecd5b5b5"
+    },
+    "stable2503-8-rc1": {
+      "package_version": "18.2.0",
+      "created_at": "2025-07-31T16:27:15Z",
+      "commit_sha": "913bb8b588aeef4daa63c73ea13ee1f3ecd5b5b5"
+    },
+    "stable2503-rc1": {
+      "package_version": "7.0.0",
+      "created_at": "2025-04-02T13:15:40Z",
+      "commit_sha": "b135503ad3b8c7d4adc017435cf2c2cf708e11d8"
+    },
+    "stable2503-rc2": {
+      "package_version": "18.1.0",
+      "created_at": "2025-04-07T16:20:26Z",
+      "commit_sha": "0c0d4ceba45a70f4e8dc40b1ee0cfae1fd759454"
+    },
+    "stable2506": {
+      "package_version": "19.0.0",
+      "created_at": "2025-07-24T06:33:01Z",
+      "commit_sha": "6fd693e6d9cfa46cd2acbcb41cd5b0451a62d67c"
+    },
+    "stable2506-rc1": {
+      "package_version": "7.0.0",
+      "created_at": "2025-06-10T08:44:47Z",
+      "commit_sha": "e2af364e6e5ca56ef48135487ad6c76b41d0be7b"
+    },
+    "stable2506-rc2": {
+      "package_version": "7.0.0",
+      "created_at": "2025-06-10T19:30:14Z",
+      "commit_sha": "71628056a06df8cf35026460fe89874001d20df2"
+    },
+    "stable2506-rc3": {
+      "package_version": "7.0.0",
+      "created_at": "2025-06-10T20:07:02Z",
+      "commit_sha": "b807828317cd5fd7c9d41d8156d71d7bd59010d2"
+    },
+    "stable2506-rc4": {
+      "package_version": "7.0.0",
+      "created_at": "2025-06-11T13:59:07Z",
+      "commit_sha": "46dae3e7d3b301fb1744192126b015db622d2fac"
+    },
+    "stable2506-rc5": {
+      "package_version": "7.0.0",
+      "created_at": "2025-07-02T18:17:58Z",
+      "commit_sha": "fa7056a82adb79e65a4011505170871deedc03e2"
+    },
+    "stable2506-rc6": {
+      "package_version": "7.0.0",
+      "created_at": "2025-07-07T05:30:49Z",
+      "commit_sha": "97b232bfdc4c496c1894e5fae60e286d586ece82"
+    },
+    "stable2506-rc7": {
+      "package_version": "19.0.0",
+      "created_at": "2025-07-24T06:33:01Z",
+      "commit_sha": "6fd693e6d9cfa46cd2acbcb41cd5b0451a62d67c"
+    }
+  },
+  "runtime_mapping": {
+    "v1.6.1": {
+      "package_version": "18.2.0",
+      "sdk_tag": "stable2503-7-rc2",
+      "possible_tags": [
+        "stable2503-7",
+        "stable2503-7-rc1",
+        "stable2503-7-rc2",
+        "stable2503-7-rc3",
+        "stable2503-8",
+        "stable2503-8-rc1"
+      ],
+      "runtime_date": "2025-06-27T13:31:45Z"
+    },
+    "v1.6.0": {
+      "package_version": "18.1.0",
+      "sdk_tag": "stable2503-6",
+      "possible_tags": [
+        "stable2503",
+        "stable2503-1",
+        "stable2503-1-rc1",
+        "stable2503-1-rc2",
+        "stable2503-2",
+        "stable2503-2-rc1",
+        "stable2503-3",
+        "stable2503-3-rc1",
+        "stable2503-4",
+        "stable2503-4-rc1",
+        "stable2503-4-rc2",
+        "stable2503-5",
+        "stable2503-5-rc1",
+        "stable2503-5-rc2",
+        "stable2503-5-rc3",
+        "stable2503-5-rc4",
+        "stable2503-6",
+        "stable2503-6-rc1",
+        "stable2503-rc2"
+      ],
+      "runtime_date": "2025-06-19T16:31:48Z"
+    },
+    "v1.5.1": {
+      "package_version": "17.1.0",
+      "sdk_tag": "stable2412-6",
+      "possible_tags": [
+        "stable2412-4",
+        "stable2412-4-rc1",
+        "stable2412-5",
+        "stable2412-5-rc1",
+        "stable2412-6",
+        "stable2412-6-rc1",
+        "stable2412-7",
+        "stable2412-7-rc1",
+        "stable2412-8"
+      ],
+      "runtime_date": "2025-05-23T14:54:57Z"
+    },
+    "v1.5.0": {
+      "package_version": "17.1.0",
+      "sdk_tag": "stable2412-4",
+      "possible_tags": [
+        "stable2412-4",
+        "stable2412-4-rc1",
+        "stable2412-5",
+        "stable2412-5-rc1",
+        "stable2412-6",
+        "stable2412-6-rc1",
+        "stable2412-7",
+        "stable2412-7-rc1",
+        "stable2412-8"
+      ],
+      "runtime_date": "2025-04-29T10:42:15Z"
+    },
+    "v1.4.3": {
+      "package_version": "15.0.0",
+      "sdk_tag": "stable2407-9",
+      "possible_tags": [
+        "stable2407",
+        "stable2407-1",
+        "stable2407-2",
+        "stable2407-3",
+        "stable2407-4",
+        "stable2407-5",
+        "stable2407-6",
+        "stable2407-7",
+        "stable2407-8",
+        "stable2407-9"
+      ],
+      "runtime_date": "2025-04-16T08:13:05Z"
+    },
+    "v1.4.2": {
+      "package_version": "16.0.0",
+      "sdk_tag": "stable2409-5",
+      "possible_tags": [
+        "stable2409",
+        "stable2409-1",
+        "stable2409-10",
+        "stable2409-2",
+        "stable2409-3",
+        "stable2409-4",
+        "stable2409-5",
+        "stable2409-6",
+        "stable2409-7",
+        "stable2409-9"
+      ],
+      "runtime_date": "2025-03-10T11:37:41Z"
+    },
+    "v1.4.1": {
+      "package_version": "16.0.0",
+      "sdk_tag": "stable2409-5",
+      "possible_tags": [
+        "stable2409",
+        "stable2409-1",
+        "stable2409-10",
+        "stable2409-2",
+        "stable2409-3",
+        "stable2409-4",
+        "stable2409-5",
+        "stable2409-6",
+        "stable2409-7",
+        "stable2409-9"
+      ],
+      "runtime_date": "2025-02-27T13:05:36Z"
+    },
+    "v1.4.0": {
+      "package_version": "15.0.0",
+      "sdk_tag": "stable2407-7",
+      "possible_tags": [
+        "stable2407",
+        "stable2407-1",
+        "stable2407-2",
+        "stable2407-3",
+        "stable2407-4",
+        "stable2407-5",
+        "stable2407-6",
+        "stable2407-7",
+        "stable2407-8",
+        "stable2407-9"
+      ],
+      "runtime_date": "2025-02-10T09:06:33Z"
+    }
+  }
+}

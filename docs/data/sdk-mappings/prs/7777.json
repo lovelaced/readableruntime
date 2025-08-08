@@ -1,0 +1,22 @@
+{
+  "pr_number": "7777",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7777",
+    "title": "`fatxpool`: report_invalid: do not ban Future/Stale txs from re-entering the view",
+    "author": "michalkucharczyk",
+    "merged_at": "2025-03-19T16:53:27Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7777"
+  }
+}

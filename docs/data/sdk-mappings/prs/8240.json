@@ -1,0 +1,21 @@
+{
+  "pr_number": "8240",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8240",
+    "title": "Snowbridge V2 Audit Fixes",
+    "author": "claravanstaden",
+    "merged_at": "2025-05-05T15:36:28Z",
+    "labels": [
+      "T15-bridges",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8240"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "8411",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8411",
+    "title": "[stable2503] Fix macos build",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-05-02T15:01:18Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8411"
+  }
+}

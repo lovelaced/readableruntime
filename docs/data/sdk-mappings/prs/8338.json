@@ -1,0 +1,23 @@
+{
+  "pr_number": "8338",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8338",
+    "title": "fix synchronous backing test",
+    "author": "alindima",
+    "merged_at": "2025-04-28T13:41:51Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T8-polkadot",
+      "T9-cumulus",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8338"
+  }
+}

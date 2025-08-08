@@ -1,0 +1,30 @@
+{
+  "pr_number": "8000",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8000",
+    "title": "Optimize origin checks",
+    "author": "gui1117",
+    "merged_at": "2025-03-30T22:48:26Z",
+    "labels": [
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8000"
+  }
+}

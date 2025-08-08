@@ -1,0 +1,20 @@
+{
+  "pr_number": "8386",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8386",
+    "title": "[stable2412] Patch release 2412-5",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-04-30T12:57:22Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8386"
+  }
+}

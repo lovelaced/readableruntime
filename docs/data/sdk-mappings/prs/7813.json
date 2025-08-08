@@ -1,0 +1,20 @@
+{
+  "pr_number": "7813",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7813",
+    "title": "Improve metadata for `SkipCheckIfFeeless`",
+    "author": "gui1117",
+    "merged_at": "2025-03-06T21:46:43Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7813"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7580",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7580",
+    "title": "implement web3_clientVersion",
+    "author": "nprt",
+    "merged_at": "2025-02-17T18:23:36Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7580"
+  }
+}

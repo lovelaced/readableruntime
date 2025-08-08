@@ -1,0 +1,22 @@
+{
+  "pr_number": "8632",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8632",
+    "title": "CI: Enforce SemVer restrictions on backport PRs with optional override via `validate: false`",
+    "author": "raymondkfcheung",
+    "merged_at": "2025-05-28T13:57:50Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8632"
+  }
+}

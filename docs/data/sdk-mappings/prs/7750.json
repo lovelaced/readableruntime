@@ -1,0 +1,21 @@
+{
+  "pr_number": "7750",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7750",
+    "title": "Remove leftovers of leftovers of contracts-rococo",
+    "author": "skunert",
+    "merged_at": "2025-02-28T15:39:54Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7750"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pr_number": "7760",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7760",
+    "title": "Dynamic uncompressed code size limit",
+    "author": "sandreim",
+    "merged_at": "2025-03-06T12:49:18Z",
+    "labels": [
+      "T0-node",
+      "T4-runtime_API",
+      "T8-polkadot"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7760"
+  }
+}

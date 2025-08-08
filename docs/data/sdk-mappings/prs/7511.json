@@ -1,0 +1,20 @@
+{
+  "pr_number": "7511",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7511",
+    "title": "feat(integration test) test omni node dev mod work with dev_json file",
+    "author": "MrishoLukamba",
+    "merged_at": "2025-02-18T10:36:33Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7511"
+  }
+}

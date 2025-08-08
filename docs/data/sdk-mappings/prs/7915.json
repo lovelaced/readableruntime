@@ -1,0 +1,21 @@
+{
+  "pr_number": "7915",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7915",
+    "title": "Add digest processor xcm emulator",
+    "author": "girazoki",
+    "merged_at": "2025-03-21T13:13:41Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7915"
+  }
+}

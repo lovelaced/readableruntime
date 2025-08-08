@@ -1,0 +1,20 @@
+{
+  "pr_number": "8584",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8584",
+    "title": "Remove all XCM dependencies from `pallet-revive`",
+    "author": "tiagobndr",
+    "merged_at": "2025-06-02T15:37:44Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8584"
+  }
+}

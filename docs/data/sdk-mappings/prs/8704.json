@@ -1,0 +1,20 @@
+{
+  "pr_number": "8704",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8704",
+    "title": "[AHM] Report the weights of epmb pallet to expose kusama and polkadot weights",
+    "author": "kianenigma",
+    "merged_at": "2025-06-02T17:53:44Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8704"
+  }
+}

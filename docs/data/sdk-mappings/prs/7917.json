@@ -1,0 +1,21 @@
+{
+  "pr_number": "7917",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7917",
+    "title": "Remove clones from block seal function",
+    "author": "tmpolaczyk",
+    "merged_at": "2025-03-13T20:58:08Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7917"
+  }
+}

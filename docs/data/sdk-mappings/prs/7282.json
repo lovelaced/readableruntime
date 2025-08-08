@@ -1,0 +1,20 @@
+{
+  "pr_number": "7282",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7282",
+    "title": "[AHM] Multi-block staking election pallet",
+    "author": "kianenigma",
+    "merged_at": "2025-02-15T00:17:48Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7282"
+  }
+}

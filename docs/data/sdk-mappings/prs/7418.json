@@ -1,0 +1,21 @@
+{
+  "pr_number": "7418",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7418",
+    "title": "refactor: Move `T:Config` into where clause in `#[benchmarks]` macro if needed",
+    "author": "tsenovilla",
+    "merged_at": "2025-02-14T12:40:30Z",
+    "labels": [
+      "T1-FRAME",
+      "T12-benchmarks"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7418"
+  }
+}

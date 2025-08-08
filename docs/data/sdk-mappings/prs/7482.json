@@ -1,0 +1,21 @@
+{
+  "pr_number": "7482",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7482",
+    "title": "[pallet-revive] rpc - gas used fixes ",
+    "author": "pgherveou",
+    "merged_at": "2025-02-07T14:06:32Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7482"
+  }
+}

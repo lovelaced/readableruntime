@@ -1,0 +1,20 @@
+{
+  "pr_number": "6324",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "6324",
+    "title": "[Tx ext stage 2: 2/4] Introduce `#[pallet::authorize(...)]` macro attribute and `AuthorizeCall` system transaction extension",
+    "author": "gui1117",
+    "merged_at": "2025-05-06T01:57:08Z",
+    "labels": [
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6324"
+  }
+}

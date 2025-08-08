@@ -1,0 +1,20 @@
+{
+  "pr_number": "7579",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7579",
+    "title": "[AHM] Make pallet types public",
+    "author": "ggwpez",
+    "merged_at": "2025-02-17T15:01:59Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7579"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pr_number": "8864",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8864",
+    "title": "[Zombienet] changes for new runners",
+    "author": "pepoviola",
+    "merged_at": "2025-06-16T16:13:25Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests",
+      "T18-zombienet_tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8864"
+  }
+}

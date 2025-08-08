@@ -1,0 +1,20 @@
+{
+  "pr_number": "8913",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8913",
+    "title": "[stable2503] Backport #8787",
+    "author": "paritytech-release-backport-bot[bot]",
+    "merged_at": "2025-06-24T11:22:59Z",
+    "labels": [
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8913"
+  }
+}

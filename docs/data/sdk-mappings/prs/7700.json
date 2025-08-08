@@ -1,0 +1,21 @@
+{
+  "pr_number": "7700",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7700",
+    "title": "[AHM] Poke deposits: Multisig pallet",
+    "author": "UtkarshBhardwaj007",
+    "merged_at": "2025-02-27T17:23:56Z",
+    "labels": [
+      "T1-FRAME",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7700"
+  }
+}

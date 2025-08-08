@@ -1,0 +1,23 @@
+{
+  "pr_number": "8329",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8329",
+    "title": "[CI/CD] Use original PR name in prdoc check for the backport PR's to the stable branches",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-04-25T18:38:26Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2409",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8329"
+  }
+}

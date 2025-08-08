@@ -1,0 +1,22 @@
+{
+  "pr_number": "8461",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8461",
+    "title": "client/net: Use litep2p as the default network backend",
+    "author": "lexnv",
+    "merged_at": "2025-06-03T11:35:18Z",
+    "labels": [
+      "T0-node",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8461"
+  }
+}

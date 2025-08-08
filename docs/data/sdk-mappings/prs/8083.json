@@ -1,0 +1,33 @@
+{
+  "pr_number": "8083",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8083",
+    "title": "`xcm-emulator` improved callback triggering (`on_initialize`, `on_finalize`, `on_idle`, `OnSystemEvent`).",
+    "author": "bkontur",
+    "merged_at": "2025-04-07T11:24:10Z",
+    "labels": [
+      "T6-XCM",
+      "T10-tests",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8083"
+  }
+}

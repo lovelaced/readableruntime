@@ -1,0 +1,20 @@
+{
+  "pr_number": "7003",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7003",
+    "title": "xcm-builder: added logging for xcm filters/helpers/matchers/types (#2408)",
+    "author": "ayevbeosa",
+    "merged_at": "2025-02-21T18:21:59Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7003"
+  }
+}

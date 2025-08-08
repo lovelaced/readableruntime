@@ -1,0 +1,21 @@
+{
+  "pr_number": "8612",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8612",
+    "title": "Bridges: Fix - Improve try-state for pallet-xcm-bridge",
+    "author": "rosarp",
+    "merged_at": "2025-05-22T10:25:47Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8612"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "7543",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7543",
+    "title": "Make all prdoc valid and add CI job to check prdoc with `prdoc check`",
+    "author": "gui1117",
+    "merged_at": "2025-02-18T08:04:28Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7543"
+  }
+}

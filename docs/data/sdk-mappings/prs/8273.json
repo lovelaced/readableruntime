@@ -1,0 +1,21 @@
+{
+  "pr_number": "8273",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8273",
+    "title": "pallet-revive: Add net-listening rpc",
+    "author": "pgherveou",
+    "merged_at": "2025-04-29T10:01:59Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8273"
+  }
+}

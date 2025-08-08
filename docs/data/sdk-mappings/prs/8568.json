@@ -1,0 +1,18 @@
+{
+  "pr_number": "8568",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8568",
+    "title": "Fix staking + pool holds",
+    "author": "Ank4n",
+    "merged_at": "2025-05-19T22:42:21Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8568"
+  }
+}

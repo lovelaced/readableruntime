@@ -1,0 +1,20 @@
+{
+  "pr_number": "7723",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7723",
+    "title": "pallet-bounties: allow bounties to never expire",
+    "author": "BigTava",
+    "merged_at": "2025-03-18T10:56:19Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7723"
+  }
+}

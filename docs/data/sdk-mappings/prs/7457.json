@@ -1,0 +1,20 @@
+{
+  "pr_number": "7457",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7457",
+    "title": "fix prdoc cmd",
+    "author": "gui1117",
+    "merged_at": "2025-02-13T00:56:01Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7457"
+  }
+}

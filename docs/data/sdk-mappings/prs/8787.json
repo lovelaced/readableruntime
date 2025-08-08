@@ -1,0 +1,23 @@
+{
+  "pr_number": "8787",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8787",
+    "title": "Westend governance authorize_upgrade integration tests",
+    "author": "karolk91",
+    "merged_at": "2025-06-20T09:10:50Z",
+    "labels": [
+      "T6-XCM",
+      "T10-tests",
+      "A4-backport-stable2503",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8787"
+  }
+}

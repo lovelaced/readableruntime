@@ -1,0 +1,22 @@
+{
+  "pr_number": "8503",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8503",
+    "title": "dispute-coordinator: populate disabled state on startup",
+    "author": "ordian",
+    "merged_at": "2025-05-14T06:57:51Z",
+    "labels": [
+      "T0-node",
+      "T8-polkadot",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8503"
+  }
+}

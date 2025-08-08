@@ -1,0 +1,21 @@
+{
+  "pr_number": "7610",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7610",
+    "title": "runtime-api: remove redundant version checks",
+    "author": "sw10pa",
+    "merged_at": "2025-03-19T08:09:05Z",
+    "labels": [
+      "T0-node",
+      "T4-runtime_API"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7610"
+  }
+}

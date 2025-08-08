@@ -1,0 +1,21 @@
+{
+  "pr_number": "7217",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7217",
+    "title": "Zombienet gha substrate migration",
+    "author": "pepoviola",
+    "merged_at": "2025-02-07T17:33:27Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7217"
+  }
+}

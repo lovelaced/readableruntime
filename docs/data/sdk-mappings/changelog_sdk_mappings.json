@@ -1,0 +1,95 @@
+{
+  "last_updated": "2025-08-07T16:39:13.184174Z",
+  "statistics": {
+    "total_sdk_prs_tracked": 4,
+    "total_runtime_releases": 0,
+    "prs_with_multiple_releases": 0
+  },
+  "pr_to_releases": {
+    "6827": {
+      "pr_details": {
+        "number": "6827",
+        "title": "Introduction of Approval Slashes [Disabling Strategy Stage 4]",
+        "merged_at": "2025-06-05T15:23:05Z",
+        "labels": [
+          "I1-security",
+          "T8-polkadot",
+          "A4-backport-stable2503"
+        ],
+        "author": "Overkillus",
+        "url": "https://github.com/paritytech/polkadot-sdk/pull/6827"
+      },
+      "runtime_releases": [
+        {
+          "runtime_version": "1.6.1",
+          "context": "Found in release notes",
+          "sdk_version": "unknown",
+          "release_date": "2025-06-27T13:31:45Z"
+        }
+      ]
+    },
+    "5546": {
+      "pr_details": {
+        "number": "5546",
+        "title": "Transfer Polkadot-native assets to Ethereum",
+        "merged_at": "2024-09-13T13:01:29Z",
+        "labels": [
+          "T15-bridges"
+        ],
+        "author": "yrong",
+        "url": "https://github.com/paritytech/polkadot-sdk/pull/5546"
+      },
+      "runtime_releases": [
+        {
+          "runtime_version": "1.4.0",
+          "context": "Found in release notes",
+          "sdk_version": "unknown",
+          "release_date": "2025-02-10T09:06:33Z"
+        }
+      ]
+    },
+    "3639": {
+      "pr_details": {
+        "number": "3639",
+        "title": "Staking ledger bonding fixes",
+        "merged_at": "2024-03-14T10:12:12Z",
+        "labels": [
+          "T8-polkadot",
+          "T10-tests"
+        ],
+        "author": "gpestana",
+        "url": "https://github.com/paritytech/polkadot-sdk/pull/3639"
+      },
+      "runtime_releases": [
+        {
+          "runtime_version": "1.1.3",
+          "context": "Found in release notes",
+          "sdk_version": "unknown",
+          "release_date": "2024-03-15T18:31:28Z"
+        }
+      ]
+    },
+    "1290": {
+      "pr_details": {
+        "number": "1290",
+        "title": "RFC 14: Improve locking mechanism for parachains",
+        "merged_at": "2023-09-06T09:09:08Z",
+        "labels": [
+          "T8-polkadot"
+        ],
+        "author": "xlc",
+        "url": "https://github.com/paritytech/polkadot-sdk/pull/1290"
+      },
+      "runtime_releases": [
+        {
+          "runtime_version": "1.0.0",
+          "context": "Found in release notes",
+          "sdk_version": "unknown",
+          "release_date": "2023-10-21T22:31:09Z"
+        }
+      ]
+    }
+  },
+  "release_to_prs": {},
+  "sdk_versions": {}
+}

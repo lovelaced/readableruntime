@@ -1,0 +1,31 @@
+{
+  "pr_number": "7936",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7936",
+    "title": "[AHM] Replace Validator FullIdentification from `Exposure` to `Existence`",
+    "author": "Ank4n",
+    "merged_at": "2025-04-09T12:56:51Z",
+    "labels": [
+      "I4-refactor",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7936"
+  }
+}

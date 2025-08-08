@@ -1,0 +1,21 @@
+{
+  "pr_number": "7956",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7956",
+    "title": "Snowbridge - V1 - Adds 2 hop transfer to Rococo",
+    "author": "claravanstaden",
+    "merged_at": "2025-04-25T14:15:49Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7956"
+  }
+}

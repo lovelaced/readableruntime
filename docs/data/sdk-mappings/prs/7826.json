@@ -1,0 +1,21 @@
+{
+  "pr_number": "7826",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7826",
+    "title": "Backport 2503: westend asset hub next trusted teleporter",
+    "author": "ggwpez",
+    "merged_at": "2025-03-06T14:35:49Z",
+    "labels": [
+      "T6-XCM",
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7826"
+  }
+}

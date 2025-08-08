@@ -1,0 +1,21 @@
+{
+  "pr_number": "8162",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8162",
+    "title": "tx/broadcast: Use client info for fetching the best block",
+    "author": "lexnv",
+    "merged_at": "2025-04-10T16:54:17Z",
+    "labels": [
+      "T3-RPC_API",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8162"
+  }
+}

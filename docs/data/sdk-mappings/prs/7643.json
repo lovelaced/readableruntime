@@ -1,0 +1,21 @@
+{
+  "pr_number": "7643",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7643",
+    "title": "deps: remove unused feature `subxt/substrate-compat`",
+    "author": "niklasad1",
+    "merged_at": "2025-02-24T18:37:04Z",
+    "labels": [
+      "A1-insubstantial",
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7643"
+  }
+}

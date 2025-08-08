@@ -1,0 +1,22 @@
+{
+  "pr_number": "8238",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8238",
+    "title": "Added `checked_sqrt` to the `FixedPointNumber` trait",
+    "author": "charlesHetterich",
+    "merged_at": "2025-04-18T22:52:29Z",
+    "labels": [
+      "T13-deprecation",
+      "R1-breaking_change",
+      "T17-primitives"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8238"
+  }
+}

@@ -53,7 +53,10 @@ credentials.json
 /*.md
 /*.json
 !README.md
-!setup_github_token.md
+!UPDATE_GUIDE.md
+!CHANGES_PR_DETAILS.md
+!PROJECT_STRUCTURE.md
+!requirements.txt
 
 # Logs
 *.log
@@ -78,6 +81,8 @@ coverage.xml
 .DS_Store
 .AppleDouble
 .LSOverride
+._*
+.!*
 
 # Windows
 Thumbs.db

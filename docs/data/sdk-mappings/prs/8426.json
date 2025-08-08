@@ -1,0 +1,20 @@
+{
+  "pr_number": "8426",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8426",
+    "title": "Add genesis presets for remaining runtimes in polkadot-parachain-bin",
+    "author": "clangenb",
+    "merged_at": "2025-06-06T08:21:31Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8426"
+  }
+}

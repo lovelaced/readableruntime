@@ -1,0 +1,910 @@
+{
+  "metadata": {
+    "total_prs_tracked": 80,
+    "runtime_releases_analyzed": 8,
+    "methodology": "cumulative-tracking",
+    "note": "Shows ALL PRs up to each SDK version, not just PRs between releases"
+  },
+  "runtime_data": {
+    "v1.4.0": {
+      "sdk_version": "stable2409-4",
+      "sdk_date": "2025-01-23T17:05:51Z",
+      "release_date": "2025-02-10T09:06:33Z",
+      "total_prs": 3160,
+      "new_prs": 0,
+      "sample_new_prs": []
+    },
+    "v1.4.1": {
+      "sdk_version": "stable2409-4",
+      "sdk_date": "2025-01-23T17:05:51Z",
+      "release_date": "2025-02-27T13:05:36Z",
+      "total_prs": 3160,
+      "new_prs": 0,
+      "sample_new_prs": []
+    },
+    "v1.4.2": {
+      "sdk_version": "stable2409-4",
+      "sdk_date": "2025-01-23T17:05:51Z",
+      "release_date": "2025-03-10T11:37:41Z",
+      "total_prs": 3160,
+      "new_prs": 0,
+      "sample_new_prs": []
+    },
+    "v1.4.3": {
+      "sdk_version": "stable2409-6",
+      "sdk_date": "2025-03-13T16:46:27Z",
+      "release_date": "2025-04-16T08:13:05Z",
+      "total_prs": 3473,
+      "new_prs": 313,
+      "sample_new_prs": [
+        {
+          "number": "7906",
+          "title": "[stable2412] Backport #7892",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-13T11:28:43Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7906"
+        },
+        {
+          "number": "7905",
+          "title": "taplo: split long array line to multiline array",
+          "author": "iulianbarbu",
+          "merged_at": "2025-03-13T14:55:19Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7905"
+        },
+        {
+          "number": "7895",
+          "title": "fix westend try-state CI",
+          "author": "kianenigma",
+          "merged_at": "2025-03-12T17:30:05Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7895"
+        },
+        {
+          "number": "7892",
+          "title": "[Release|CI/CD] Update version of the cache action in the Publish docker ci",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-03-13T11:24:15Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7892"
+        },
+        {
+          "number": "7890",
+          "title": "renames suggested in 7831 comment",
+          "author": "rosarp",
+          "merged_at": "2025-03-11T23:22:29Z",
+          "labels": [],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7890"
+        },
+        {
+          "number": "7889",
+          "title": "Remove execute_with_origin implementation in the XCM executor",
+          "author": "franciscoaguirre",
+          "merged_at": "2025-03-12T23:05:48Z",
+          "labels": [
+            "T6-XCM"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7889"
+        },
+        {
+          "number": "7887",
+          "title": "backport/2412: network: Make litep2p the default backend in Kusama (#7866)",
+          "author": "lexnv",
+          "merged_at": "2025-03-12T12:17:32Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7887"
+        },
+        {
+          "number": "7879",
+          "title": "[pallet-revive] Support blocktag in eth_getLogs RPC",
+          "author": "pgherveou",
+          "merged_at": "2025-03-13T09:49:16Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T7-smart_contracts"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7879"
+        },
+        {
+          "number": "7877",
+          "title": "[Release|CI/CD] Fixes for the promote rc to final flow",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-03-11T13:24:49Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7877"
+        },
+        {
+          "number": "7873",
+          "title": "Improve error message in benchmark macro",
+          "author": "gui1117",
+          "merged_at": "2025-03-13T09:28:12Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7873"
+        },
+        {
+          "number": "7871",
+          "title": "[CI] bump timeout wait for build in zombienet workflows.",
+          "author": "pepoviola",
+          "merged_at": "2025-03-13T15:10:06Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T10-tests"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7871"
+        },
+        {
+          "number": "7870",
+          "title": "Remove gitlab zombienet tests for cumulus/substrate",
+          "author": "skunert",
+          "merged_at": "2025-03-10T17:50:07Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7870"
+        },
+        {
+          "number": "7869",
+          "title": "[Release|Ci/CD] Update path to `ci-unfied` Dockerfile to grab a right Rust version",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-03-11T12:18:20Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7869"
+        },
+        {
+          "number": "7866",
+          "title": "network: Make litep2p the default backend in Kusama",
+          "author": "lexnv",
+          "merged_at": "2025-03-11T14:08:29Z",
+          "labels": [
+            "T0-node"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7866"
+        },
+        {
+          "number": "7864",
+          "title": "Do some more checks for `authorized_upgrade`.",
+          "author": "bkchr",
+          "merged_at": "2025-03-10T16:07:05Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7864"
+        },
+        {
+          "number": "7859",
+          "title": "More ahm staking patches",
+          "author": "kianenigma",
+          "merged_at": "2025-03-10T09:03:53Z",
+          "labels": [],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7859"
+        },
+        {
+          "number": "7856",
+          "title": "Fix XCM decoding inconsistencies",
+          "author": "serban300",
+          "merged_at": "2025-03-11T10:42:21Z",
+          "labels": [
+            "T6-XCM",
+            "A4-backport-stable2409",
+            "A4-backport-stable2412",
+            "A4-backport-stable2503"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7856"
+        },
+        {
+          "number": "7853",
+          "title": "Kiz e2e staking",
+          "author": "kianenigma",
+          "merged_at": "2025-03-08T21:40:37Z",
+          "labels": [],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7853"
+        },
+        {
+          "number": "7851",
+          "title": "bring in wnd next and ah next",
+          "author": "kianenigma",
+          "merged_at": "2025-03-08T12:51:18Z",
+          "labels": [],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7851"
+        },
+        {
+          "number": "7848",
+          "title": "[pallet-revive] Add support for eip1898 block notation",
+          "author": "pgherveou",
+          "merged_at": "2025-03-11T12:07:24Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T7-smart_contracts"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7848"
+        }
+      ]
+    },
+    "v1.5.0": {
+      "sdk_version": "stable2412-4",
+      "sdk_date": "2025-03-27T23:08:00Z",
+      "release_date": "2025-04-29T10:42:15Z",
+      "total_prs": 3550,
+      "new_prs": 77,
+      "sample_new_prs": [
+        {
+          "number": "8059",
+          "title": "[AHM] Revert v17 migration of pallet-staking in Westend",
+          "author": "Ank4n",
+          "merged_at": "2025-03-27T20:06:28Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "A4-backport-stable2503"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8059"
+        },
+        {
+          "number": "8051",
+          "title": "[stable2412] Backport #7835",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-26T14:52:45Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8051"
+        },
+        {
+          "number": "8050",
+          "title": "[stable2409] Backport #7856",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-26T16:42:09Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8050"
+        },
+        {
+          "number": "8049",
+          "title": "[stable2503] Backport #7856",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-26T16:49:41Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8049"
+        },
+        {
+          "number": "8048",
+          "title": "[stable2503] Backport #7313",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-26T15:56:55Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8048"
+        },
+        {
+          "number": "8047",
+          "title": "[stable2412] Backport #7856",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-26T14:50:06Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8047"
+        },
+        {
+          "number": "8045",
+          "title": "Updated readme and shell script bash version",
+          "author": "antkve",
+          "merged_at": "2025-03-26T14:38:39Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T11-documentation"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8045"
+        },
+        {
+          "number": "8042",
+          "title": "[CI/CD] Fix failing backports to release branches if something was changed in the .github/workflows folder",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-03-26T11:38:37Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8042"
+        },
+        {
+          "number": "8039",
+          "title": "Manual backport of #7939 into stable2503",
+          "author": "Ank4n",
+          "merged_at": "2025-03-26T16:48:41Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8039"
+        },
+        {
+          "number": "8037",
+          "title": "Snowbridge - Deny ExportMessage from everywhere except for root of AH",
+          "author": "yrong",
+          "merged_at": "2025-03-26T10:30:59Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "A4-backport-stable2503"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8037"
+        },
+        {
+          "number": "8034",
+          "title": "Cumulus Zombienet: Fix readme + provide a script",
+          "author": "bkchr",
+          "merged_at": "2025-03-26T10:52:19Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8034"
+        },
+        {
+          "number": "8025",
+          "title": "CI: Update the pushgateway url for zombienet",
+          "author": "lazam",
+          "merged_at": "2025-03-26T09:16:32Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8025"
+        },
+        {
+          "number": "8024",
+          "title": "Snowbridge - Change the hash of the outbound queue PendingOrders storage item",
+          "author": "yrong",
+          "merged_at": "2025-03-25T17:46:35Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "A4-backport-stable2503"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8024"
+        },
+        {
+          "number": "8003",
+          "title": "docs: update local ci execution instruction",
+          "author": "alvicsam",
+          "merged_at": "2025-03-24T13:41:19Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8003"
+        },
+        {
+          "number": "7999",
+          "title": "Upgrade deps to eliminate ancient dependencies",
+          "author": "jasl",
+          "merged_at": "2025-03-24T11:17:19Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7999"
+        },
+        {
+          "number": "7994",
+          "title": "Expose rpc_rate_limit* cli options to parachains",
+          "author": "evgeny-s",
+          "merged_at": "2025-03-26T12:25:26Z",
+          "labels": [
+            "T0-node"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7994"
+        },
+        {
+          "number": "7993",
+          "title": "switch polkadot zombienet-sdk tests to use cumulus test helpers",
+          "author": "alindima",
+          "merged_at": "2025-03-25T14:58:00Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T10-tests"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7993"
+        },
+        {
+          "number": "7992",
+          "title": "[stable2503] Backport #7981",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-24T08:24:46Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7992"
+        },
+        {
+          "number": "7991",
+          "title": "[stable2503] Backport #7671",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-03-26T15:49:09Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7991"
+        },
+        {
+          "number": "7981",
+          "title": "Bump parachains runtime api to 13",
+          "author": "sandreim",
+          "merged_at": "2025-03-21T04:57:44Z",
+          "labels": [
+            "T4-runtime_API",
+            "T8-polkadot",
+            "A4-backport-stable2503"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/7981"
+        }
+      ]
+    },
+    "v1.5.1": {
+      "sdk_version": "stable2412-6",
+      "sdk_date": "2025-05-21T19:23:06Z",
+      "release_date": "2025-05-23T14:54:57Z",
+      "total_prs": 3841,
+      "new_prs": 291,
+      "sample_new_prs": [
+        {
+          "number": "8604",
+          "title": "[stable2412] Post crates release activities",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-05-21T19:23:06Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8604"
+        },
+        {
+          "number": "8601",
+          "title": "[stable2412] Backport #8585",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-21T17:39:04Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8601"
+        },
+        {
+          "number": "8589",
+          "title": "[stable2412] Backport #8546",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-21T11:55:43Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8589"
+        },
+        {
+          "number": "8585",
+          "title": "fix epmb solution duplicate issue + add remote mining apparatus to epm",
+          "author": "kianenigma",
+          "merged_at": "2025-05-21T16:04:25Z",
+          "labels": [
+            "T2-pallets",
+            "A4-backport-stable2412",
+            "A4-backport-stable2503"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8585"
+        },
+        {
+          "number": "8582",
+          "title": "[stable2503] Move prdocs to release folder",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-05-20T15:49:37Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8582"
+        },
+        {
+          "number": "8580",
+          "title": "[stable2503] Release stable2503-5 continuing",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-05-20T14:53:59Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8580"
+        },
+        {
+          "number": "8577",
+          "title": "Update `parity-scale-codec` to `v3.7.5`",
+          "author": "serban300",
+          "merged_at": "2025-05-21T07:43:10Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T17-primitives"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8577"
+        },
+        {
+          "number": "8574",
+          "title": "[stable2503] Backport #7691",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-21T13:50:21Z",
+          "labels": [
+            "T6-XCM",
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8574"
+        },
+        {
+          "number": "8573",
+          "title": "[stable2412] Backport #7691",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-21T17:14:27Z",
+          "labels": [
+            "T6-XCM",
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8573"
+        },
+        {
+          "number": "8568",
+          "title": "Fix staking + pool holds",
+          "author": "Ank4n",
+          "merged_at": "2025-05-19T22:42:21Z",
+          "labels": [],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8568"
+        },
+        {
+          "number": "8567",
+          "title": "[stable2503] Backport #8265",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-19T21:48:55Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8567"
+        },
+        {
+          "number": "8565",
+          "title": "[cmd-bot] Temporary fix for weights output",
+          "author": "alvicsam",
+          "merged_at": "2025-05-20T09:20:41Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8565"
+        },
+        {
+          "number": "8563",
+          "title": "[stable2503] Backport #7785",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-19T20:29:35Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8563"
+        },
+        {
+          "number": "8562",
+          "title": "[stable2412] Backport #7785",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-21T12:05:40Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8562"
+        },
+        {
+          "number": "8561",
+          "title": "fix: Resolve compile errors with new nested error structure",
+          "author": "raymondkfcheung",
+          "merged_at": "2025-05-20T08:37:29Z",
+          "labels": [
+            "T6-XCM"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8561"
+        },
+        {
+          "number": "8560",
+          "title": "7691 CR suggestions",
+          "author": "serban300",
+          "merged_at": "2025-05-19T13:05:45Z",
+          "labels": [],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8560"
+        },
+        {
+          "number": "8559",
+          "title": "[pallet-revive] rename DepositLimit::Unchecked & minor code cleanup ",
+          "author": "pgherveou",
+          "merged_at": "2025-05-20T09:10:12Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T7-smart_contracts"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8559"
+        },
+        {
+          "number": "8558",
+          "title": "Fix broken link to call_ext.rs in parachains README",
+          "author": "VolodymyrBg",
+          "merged_at": "2025-05-19T07:42:05Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8558"
+        },
+        {
+          "number": "8551",
+          "title": "[stable2503] Crates bumps + preparations for the 2503-5",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-05-16T16:16:31Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8551"
+        },
+        {
+          "number": "8547",
+          "title": "Disable check-runtime-migration",
+          "author": "pgherveou",
+          "merged_at": "2025-05-16T13:18:23Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8547"
+        }
+      ]
+    },
+    "v1.6.0": {
+      "sdk_version": "stable2503-6",
+      "sdk_date": "2025-06-05T16:38:10Z",
+      "release_date": "2025-06-19T16:31:48Z",
+      "total_prs": 3934,
+      "new_prs": 93,
+      "sample_new_prs": [
+        {
+          "number": "8749",
+          "title": "Don't read storage items in logging",
+          "author": "kianenigma",
+          "merged_at": "2025-06-04T22:57:38Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8749"
+        },
+        {
+          "number": "8745",
+          "title": "Actually use RP offset in YAP parachain",
+          "author": "skunert",
+          "merged_at": "2025-06-05T09:40:41Z",
+          "labels": [
+            "T9-cumulus"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8745"
+        },
+        {
+          "number": "8744",
+          "title": "[stable2503] Backport #8650: litep2p/peerset: Reject non-reserved peers in the reserved-only mode",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-06-05T13:04:51Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8744"
+        },
+        {
+          "number": "8734",
+          "title": "[pallet-revive] contract's nonce starts at 1",
+          "author": "pgherveou",
+          "merged_at": "2025-06-04T13:19:38Z",
+          "labels": [
+            "T7-smart_contracts"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8734"
+        },
+        {
+          "number": "8731",
+          "title": "Handle and suppress \"New unknown `FromSwarm` libp2p event\" warning",
+          "author": "dmitry-markin",
+          "merged_at": "2025-06-04T16:03:31Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T0-node"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8731"
+        },
+        {
+          "number": "8730",
+          "title": "[stable2503] Backport #8461: Use litep2p as the default network backend",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-06-05T11:47:36Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8730"
+        },
+        {
+          "number": "8724",
+          "title": "Implement detailed logging for XCM failures",
+          "author": "raymondkfcheung",
+          "merged_at": "2025-06-04T14:58:09Z",
+          "labels": [
+            "T6-XCM"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8724"
+        },
+        {
+          "number": "8718",
+          "title": "Record ed as part of the storage deposit",
+          "author": "athei",
+          "merged_at": "2025-06-02T14:10:56Z",
+          "labels": [
+            "T7-smart_contracts"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8718"
+        },
+        {
+          "number": "8715",
+          "title": "[AHM] Prepare For Westend Cleanup",
+          "author": "ggwpez",
+          "merged_at": "2025-06-05T15:05:41Z",
+          "labels": [
+            "T1-FRAME",
+            "T2-pallets"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8715"
+        },
+        {
+          "number": "8713",
+          "title": "[stable2503] Backport #8630",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-06-04T07:23:44Z",
+          "labels": [
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8713"
+        },
+        {
+          "number": "8711",
+          "title": "Docker master image tag fix",
+          "author": "AndWeHaveAPlan",
+          "merged_at": "2025-06-02T14:29:42Z",
+          "labels": [
+            "R0-no-crate-publish-required"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8711"
+        },
+        {
+          "number": "8709",
+          "title": "Unflake `returns_status_for_pruned_blocks`",
+          "author": "skunert",
+          "merged_at": "2025-06-02T18:54:34Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T10-tests"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8709"
+        },
+        {
+          "number": "8708",
+          "title": "feat: add collator peer ID to ParachainInherentData",
+          "author": "sw10pa",
+          "merged_at": "2025-06-02T08:45:05Z",
+          "labels": [
+            "T9-cumulus"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8708"
+        },
+        {
+          "number": "8706",
+          "title": "[Backport] Version bumps and prdocs reordering from the stable2503-4 and stable2503-5 releases",
+          "author": "EgorPopelyaev",
+          "merged_at": "2025-05-30T10:18:49Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8706"
+        },
+        {
+          "number": "8704",
+          "title": "[AHM] Report the weights of epmb pallet to expose kusama and polkadot weights",
+          "author": "kianenigma",
+          "merged_at": "2025-06-02T17:53:44Z",
+          "labels": [
+            "T2-pallets"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8704"
+        },
+        {
+          "number": "8702",
+          "title": "[AHM] Relax the requirement for RC-Client to receive +1 session reports",
+          "author": "kianenigma",
+          "merged_at": "2025-06-04T23:39:23Z",
+          "labels": [
+            "T2-pallets"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8702"
+        },
+        {
+          "number": "8700",
+          "title": "transfer_assets benchmarking and weights for people chains",
+          "author": "karolk91",
+          "merged_at": "2025-05-29T10:33:17Z",
+          "labels": [
+            "T6-XCM",
+            "T12-benchmarks"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8700"
+        },
+        {
+          "number": "8698",
+          "title": "[stable2503] Backport #8632",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-29T10:30:19Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8698"
+        },
+        {
+          "number": "8697",
+          "title": "[stable2412] Backport #8632",
+          "author": "paritytech-release-backport-bot[bot]",
+          "merged_at": "2025-05-29T10:29:05Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "A3-backport"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8697"
+        },
+        {
+          "number": "8696",
+          "title": "ci: trigger zombienet tests if 'T18-zombienet_tests' label set",
+          "author": "lrubasze",
+          "merged_at": "2025-05-29T07:31:05Z",
+          "labels": [
+            "R0-no-crate-publish-required",
+            "T10-tests",
+            "T18-zombienet_tests"
+          ],
+          "url": "https://github.com/paritytech/polkadot-sdk/pull/8696"
+        }
+      ]
+    },
+    "v1.6.1": {
+      "sdk_version": "stable2503-2",
+      "sdk_date": "2025-05-07T08:17:24Z",
+      "release_date": "2025-06-27T13:31:45Z",
+      "total_prs": 3757,
+      "new_prs": -177,
+      "sample_new_prs": []
+    }
+  },
+  "cumulative_counts": {
+    "stable2409-4": 3160,
+    "stable2409-6": 3473,
+    "stable2412-4": 3550,
+    "stable2412-6": 3841,
+    "stable2503-6": 3934,
+    "stable2503-2": 3757
+  },
+  "sdk_tag_dates": {
+    "stable2409-4": "2025-01-23T17:05:51Z",
+    "stable2409-6": "2025-03-13T16:46:27Z",
+    "stable2412-4": "2025-03-27T23:08:00Z",
+    "stable2412-6": "2025-05-21T19:23:06Z",
+    "stable2503-6": "2025-06-05T16:38:10Z",
+    "stable2503-2": "2025-05-07T08:17:24Z"
+  }
+}

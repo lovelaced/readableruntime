@@ -1,0 +1,21 @@
+{
+  "pr_number": "7879",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7879",
+    "title": "[pallet-revive] Support blocktag in eth_getLogs RPC",
+    "author": "pgherveou",
+    "merged_at": "2025-03-13T09:49:16Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7879"
+  }
+}

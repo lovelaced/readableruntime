@@ -1,0 +1,24 @@
+{
+  "pr_number": "7785",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7785",
+    "title": "pallet scheduler: fix weight and add safety checks",
+    "author": "ggwpez",
+    "merged_at": "2025-05-19T12:40:53Z",
+    "labels": [
+      "T2-pallets",
+      "T12-benchmarks",
+      "A4-backport-stable2409",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7785"
+  }
+}

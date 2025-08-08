@@ -1,0 +1,505 @@
+{
+  "last_updated": "2025-08-07T16:11:17.308115Z",
+  "recent_changes": [
+    {
+      "type": "new_runtime_release",
+      "release": "v1.6.1",
+      "published_at": "2025-06-27T15:39:42Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.6.0",
+      "published_at": "2025-06-19T18:11:04Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.5.1",
+      "published_at": "2025-05-23T16:09:06Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.5.0",
+      "published_at": "2025-04-29T12:28:57Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.3",
+      "published_at": "2025-04-16T08:53:53Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.2",
+      "published_at": "2025-03-10T12:45:10Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.1",
+      "published_at": "2025-02-27T15:34:00Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.0",
+      "published_at": "2025-02-09T11:32:49Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.4",
+      "published_at": "2024-11-01T18:35:27Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.3",
+      "published_at": "2024-10-03T11:23:20Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.2",
+      "published_at": "2024-08-27T00:31:09Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.1",
+      "published_at": "2024-08-26T18:22:37Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.0",
+      "published_at": "2024-08-20T15:30:25Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.8",
+      "published_at": "2024-07-05T14:32:47Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.7",
+      "published_at": "2024-06-14T09:34:14Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.6",
+      "published_at": "2024-06-13T19:21:27Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.5",
+      "published_at": "2024-06-06T17:37:13Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.4",
+      "published_at": "2024-05-20T18:51:41Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.3",
+      "published_at": "2024-04-29T18:59:25Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.2",
+      "published_at": "2024-04-20T08:09:27Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.1",
+      "published_at": "2024-04-10T08:26:18Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.0",
+      "published_at": "2024-03-29T19:12:33Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.1.3",
+      "published_at": "2024-03-15T19:42:02Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.1.2",
+      "published_at": "2024-01-31T14:19:03Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.1.1",
+      "published_at": "2024-01-25T14:45:35Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.1.0",
+      "published_at": "2024-01-10T11:43:57Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.0.1",
+      "published_at": "2023-11-16T20:28:32Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.0.0",
+      "published_at": "2023-10-21T23:10:48Z"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.1.0",
+      "commit": "72dd732e5aebfa97dbb774cd3345d9ed6ee8aaf0"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.2.0",
+      "commit": "4986cba4ac5c3f37122a7565f7e60922937b8082"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.3.0",
+      "commit": "ecfcb42dfb419ebc7fee0793dbd1f9dbf0089883"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.4.0-staking-patch",
+      "commit": "b73bffcf0ab28af63a42bf8ee37d56da0cdc8297"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.4.0",
+      "commit": "8821056319ddb4b7db7742e8b41350df6dda9605"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.5.0-staking-patch",
+      "commit": "fe657ee1df47d9500274982284716d08765f3318"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.5.0",
+      "commit": "27430f98d6d4c6b04d51d99482750574cc4161fe"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.6.0-staking-patch",
+      "commit": "6524144cfa1cead63c99f4860e933110e4be90f7"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.6.0-staking-patch-changes",
+      "commit": "2f5acdcc8caf0a34d755cff55b8a73a923018d04"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.6.0-staking-patch-final",
+      "commit": "2f5acdcc8caf0a34d755cff55b8a73a923018d04"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.6.0",
+      "commit": "68ec2767b7778d00434340c0c9e9acb99d24b843"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.7.0-staking-backports",
+      "commit": "07a67335d3f87a02a1bb8893d03c1e24a5522562"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.7.0-staking-backports-all",
+      "commit": "b5cd792d437976b332fcc51ce787de71786490bb"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.7.0",
+      "commit": "69c0bc7b0d5221ffe0c7905b566dfb1bbab853d1"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.8.0-staking-patch",
+      "commit": "394fe0fa0824af519ae909faa7fc3f2f3d5f55d2"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.8.0",
+      "commit": "6af5b98d235060809f376fb0b40fd93d5314bce2"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.9.0",
+      "commit": "6f3618696b2ca4e375dc551548d76cc6e50fd632"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.10.0",
+      "commit": "f41976a1994f4dcd61afb7578467e574f8777cf5"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.11.0",
+      "commit": "8b223bd6544ec1f91f99fd9f5c1993a66df66474"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.12.0",
+      "commit": "0067515973ad1d1e1a89919c4a5bda59becf7cfd"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.13.0",
+      "commit": "d3e98d95dcc0659e5af3f0f7334fb2a665c18131"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-crates-io-v1.14.0",
+      "commit": "54aca32da24a0ef9ab1bce44d6f6ea3018001a5f"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-cumulus-v1.1.0",
+      "commit": "783579b4a49a462af89f02f21793ec38cb913d2b"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-cumulus-v1.2.0",
+      "commit": "2cde7725e2d709a7e5f888c793b601491486daf6"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-cumulus-v1.3.0",
+      "commit": "e99007870090e5d09c5526c18d21aa1e1704dac9"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-docker-v1.1.0",
+      "commit": "61be78c621ab2fa390cd3bfc79c8307431d0ea90"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.1.0",
+      "commit": "e57fad1b8e70be8942733d58137dbbcf9636bfca"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.2.0",
+      "commit": "a682d265f5556d1c974fa53d69764ceabfd1f7dd"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.2.1",
+      "commit": "72c453563937c36b895c543bc5e852e213a54f19"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.3.0",
+      "commit": "c34bcf7e2bf5cba9cd141c790f4c144959d5a5a9"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.4.0",
+      "commit": "fc7bee35f782064d4e926adafd62e49304a89f60"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.5.0",
+      "commit": "0edc4fc4e3802490093b568ee2182521b01ff6e7"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.6.0",
+      "commit": "e36ffb3da50afff65f8ec99378fbfe14f9d340e7"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.7.0_backport-3639",
+      "commit": "3703eab383d6afac46adb482444fc948ec79ad32"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.7.0",
+      "commit": "c106e59e46699e4282430cec6518c115bdb36dce"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.7.1",
+      "commit": "2a91d5abdc56ed27dab36030db5fa3c9c92e60a9"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.7.2",
+      "commit": "ffd22e7d5c856adfce46d27c4582d0d81fc54d84"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.7.3",
+      "commit": "bf8632aabae3a973111552df852bb9cc6f25c0c4"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.8.0",
+      "commit": "a51b5dd3dd7d00b0c0ae5bdd28650eb13f0ae70c"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.9.0",
+      "commit": "5641e185cacd79b0c6ac1263ae28613c9625e6b3"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.10.0",
+      "commit": "d6761efca1ad8536c28782685c123c55a481d0fd"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.10.1",
+      "commit": "8eb1f5592d15c7c748fbe21c2ea951d3bfe890e2"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.11.0",
+      "commit": "581fe47eefe5b5e8681953ed2e7532a4085198dc"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.12.0",
+      "commit": "ab7838d82bd043f380a699e0de434df3a4f44e04"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.13.0",
+      "commit": "d5160c1d567cc73c7df6c816d41e21aa3adb188d"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.14.0",
+      "commit": "778e9d15552ceb66ab47feb8f681030ef6d357d5"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "release-polkadot-v1.14.1",
+      "commit": "7c4cd60da6de32ddaafc1c213413b612fefc1059"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2407",
+      "commit": "92be93c7cb34d6a2c30639cd17994f589c3cdc60"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2409",
+      "commit": "320a99063662312c90830792e4d460739c113b02"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2412-litep2p",
+      "commit": "287f5b15186fd4df08d483f8c93bd96769c7dcf7"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2412",
+      "commit": "247f2e4641f8039ceb58827ff2f8a562217f298d"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2503-broken",
+      "commit": "8d560d7beb3bbbee20b10f1265a2ef4e75f4ab5e"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2503",
+      "commit": "913bb8b588aeef4daa63c73ea13ee1f3ecd5b5b5"
+    },
+    {
+      "type": "new_sdk_branch",
+      "branch": "stable2506",
+      "commit": "03e07b69039c399ddc6f5e32f9477e186d0f9779"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.6.1",
+      "published_at": "2025-06-27T15:39:42Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.6.0",
+      "published_at": "2025-06-19T18:11:04Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.5.1",
+      "published_at": "2025-05-23T16:09:06Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.5.0",
+      "published_at": "2025-04-29T12:28:57Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.3",
+      "published_at": "2025-04-16T08:53:53Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.2",
+      "published_at": "2025-03-10T12:45:10Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.1",
+      "published_at": "2025-02-27T15:34:00Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.4.0",
+      "published_at": "2025-02-09T11:32:49Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.4",
+      "published_at": "2024-11-01T18:35:27Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.3",
+      "published_at": "2024-10-03T11:23:20Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.2",
+      "published_at": "2024-08-27T00:31:09Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.1",
+      "published_at": "2024-08-26T18:22:37Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.3.0",
+      "published_at": "2024-08-20T15:30:25Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.8",
+      "published_at": "2024-07-05T14:32:47Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.7",
+      "published_at": "2024-06-14T09:34:14Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.6",
+      "published_at": "2024-06-13T19:21:27Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.5",
+      "published_at": "2024-06-06T17:37:13Z"
+    },
+    {
+      "type": "new_runtime_release",
+      "release": "v1.2.4",
+      "published_at": "2024-05-20T18:51:41Z"
+    }
+  ]
+}

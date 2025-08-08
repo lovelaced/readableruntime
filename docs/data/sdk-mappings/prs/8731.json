@@ -1,0 +1,21 @@
+{
+  "pr_number": "8731",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8731",
+    "title": "Handle and suppress \"New unknown `FromSwarm` libp2p event\" warning",
+    "author": "dmitry-markin",
+    "merged_at": "2025-06-04T16:03:31Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8731"
+  }
+}

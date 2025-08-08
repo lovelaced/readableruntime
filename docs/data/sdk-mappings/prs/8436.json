@@ -1,0 +1,20 @@
+{
+  "pr_number": "8436",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8436",
+    "title": "Fix calling nominate on a validator that doesn\u2019t exist silently succeeds",
+    "author": "Krayt78",
+    "merged_at": "2025-06-14T17:22:13Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8436"
+  }
+}

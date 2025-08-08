@@ -1,0 +1,23 @@
+{
+  "pr_number": "8310",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8310",
+    "title": "staking-async: add missing new_session_genesis",
+    "author": "sigurpol",
+    "merged_at": "2025-04-25T09:24:41Z",
+    "labels": [
+      "I2-bug",
+      "T1-FRAME",
+      "T2-pallets",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8310"
+  }
+}

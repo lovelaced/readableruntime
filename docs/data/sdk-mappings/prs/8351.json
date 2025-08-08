@@ -1,0 +1,21 @@
+{
+  "pr_number": "8351",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8351",
+    "title": "XCM: treat BelowMinimum deposit errors as non-fatal and burn non-depositable dust",
+    "author": "wassimans",
+    "merged_at": "2025-05-07T12:59:27Z",
+    "labels": [
+      "T6-XCM",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8351"
+  }
+}

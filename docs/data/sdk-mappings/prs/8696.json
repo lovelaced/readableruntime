@@ -1,0 +1,22 @@
+{
+  "pr_number": "8696",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8696",
+    "title": "ci: trigger zombienet tests if 'T18-zombienet_tests' label set",
+    "author": "lrubasze",
+    "merged_at": "2025-05-29T07:31:05Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests",
+      "T18-zombienet_tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8696"
+  }
+}

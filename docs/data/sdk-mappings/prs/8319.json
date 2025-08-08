@@ -1,0 +1,18 @@
+{
+  "pr_number": "8319",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8319",
+    "title": "Fix Snowbridge Tests for stable2412",
+    "author": "claravanstaden",
+    "merged_at": "2025-04-25T08:08:01Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8319"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pr_number": "8134",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8134",
+    "title": "refactor: separate validation and collation protocols",
+    "author": "sw10pa",
+    "merged_at": "2025-04-04T15:35:24Z",
+    "labels": [
+      "T8-polkadot"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8134"
+  }
+}

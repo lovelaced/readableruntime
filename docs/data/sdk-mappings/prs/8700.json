@@ -1,0 +1,21 @@
+{
+  "pr_number": "8700",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8700",
+    "title": "transfer_assets benchmarking and weights for people chains",
+    "author": "karolk91",
+    "merged_at": "2025-05-29T10:33:17Z",
+    "labels": [
+      "T6-XCM",
+      "T12-benchmarks"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8700"
+  }
+}

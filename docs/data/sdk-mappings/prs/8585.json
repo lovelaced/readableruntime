@@ -1,0 +1,22 @@
+{
+  "pr_number": "8585",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8585",
+    "title": "fix epmb solution duplicate issue + add remote mining apparatus to epm",
+    "author": "kianenigma",
+    "merged_at": "2025-05-21T16:04:25Z",
+    "labels": [
+      "T2-pallets",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8585"
+  }
+}

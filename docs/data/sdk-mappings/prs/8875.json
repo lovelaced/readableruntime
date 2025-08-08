@@ -1,0 +1,20 @@
+{
+  "pr_number": "8875",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8875",
+    "title": "`fatxpool`: `ChainApi` is now async",
+    "author": "michalkucharczyk",
+    "merged_at": "2025-06-25T22:40:05Z",
+    "labels": [
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8875"
+  }
+}

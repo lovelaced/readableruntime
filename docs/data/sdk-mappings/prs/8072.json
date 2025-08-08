@@ -1,0 +1,21 @@
+{
+  "pr_number": "8072",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8072",
+    "title": "RFC-0008: Store parachain bootnodes in the relay chain DHT",
+    "author": "dmitry-markin",
+    "merged_at": "2025-04-30T13:52:37Z",
+    "labels": [
+      "T0-node",
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8072"
+  }
+}

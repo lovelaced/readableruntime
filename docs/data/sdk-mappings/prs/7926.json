@@ -1,0 +1,18 @@
+{
+  "pr_number": "7926",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7926",
+    "title": "Fix imports for penpal-runtime",
+    "author": "bkontur",
+    "merged_at": "2025-03-14T10:10:38Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7926"
+  }
+}

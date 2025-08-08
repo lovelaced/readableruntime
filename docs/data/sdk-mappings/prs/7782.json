@@ -1,0 +1,18 @@
+{
+  "pr_number": "7782",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7782",
+    "title": "Glue in the staking clients pallets + improve",
+    "author": "kianenigma",
+    "merged_at": "2025-03-04T10:37:11Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7782"
+  }
+}

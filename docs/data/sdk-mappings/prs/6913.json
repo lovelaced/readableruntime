@@ -1,0 +1,20 @@
+{
+  "pr_number": "6913",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "6913",
+    "title": "Populate topology after restart if finality is lagging behind current session",
+    "author": "alexggh",
+    "merged_at": "2025-02-07T11:04:56Z",
+    "labels": [
+      "T8-polkadot"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6913"
+  }
+}

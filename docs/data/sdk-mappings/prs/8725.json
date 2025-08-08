@@ -1,0 +1,21 @@
+{
+  "pr_number": "8725",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8725",
+    "title": "Snowbridge: enforce fee when registering Polkadot native asset",
+    "author": "yrong",
+    "merged_at": "2025-06-09T11:51:09Z",
+    "labels": [
+      "T15-bridges",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8725"
+  }
+}

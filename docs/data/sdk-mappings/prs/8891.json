@@ -1,0 +1,21 @@
+{
+  "pr_number": "8891",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8891",
+    "title": "RuntimeAllocator: Align returned pointers",
+    "author": "bkchr",
+    "merged_at": "2025-06-27T11:52:14Z",
+    "labels": [
+      "T17-primitives",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8891"
+  }
+}

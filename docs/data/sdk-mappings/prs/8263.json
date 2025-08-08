@@ -1,0 +1,22 @@
+{
+  "pr_number": "8263",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8263",
+    "title": "Document transactional extrinsic behavior.",
+    "author": "eskimor",
+    "merged_at": "2025-04-17T18:07:34Z",
+    "labels": [
+      "A1-insubstantial",
+      "R0-no-crate-publish-required",
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8263"
+  }
+}

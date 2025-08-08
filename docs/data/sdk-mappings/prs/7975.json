@@ -1,0 +1,18 @@
+{
+  "pr_number": "7975",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7975",
+    "title": "Fix `Collectives` location for AHW-next configuration",
+    "author": "bkontur",
+    "merged_at": "2025-03-21T14:32:09Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7975"
+  }
+}

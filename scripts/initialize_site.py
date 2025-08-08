@@ -67,6 +67,11 @@ def initialize_site():
     print("\nUpdating releases index...")
     update_releases_index()
     
+    # Generate SDK PR mappings
+    print("\nGenerating SDK PR mappings...")
+    # Run the populate script to generate SDK mappings
+    subprocess.run([sys.executable, "scripts/populate_sdk_mappings.py"], check=True)
+    
     print("\nInitialization complete!")
     print(f"Generated files in: {releases_dir}")
 

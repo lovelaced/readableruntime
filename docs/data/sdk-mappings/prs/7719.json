@@ -1,0 +1,22 @@
+{
+  "pr_number": "7719",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7719",
+    "title": "adding command export_chain_spec for polkadot-omni node",
+    "author": "seemantaggarwal",
+    "merged_at": "2025-05-06T14:31:36Z",
+    "labels": [
+      "I5-enhancement",
+      "T9-cumulus",
+      "T17-Templates"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7719"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7762",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "7762",
+    "title": "ERC20 Asset Transactor",
+    "author": "franciscoaguirre",
+    "merged_at": "2025-05-28T22:29:13Z",
+    "labels": [
+      "T6-XCM",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7762"
+  }
+}

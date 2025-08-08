@@ -1,0 +1,20 @@
+{
+  "pr_number": "7353",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7353",
+    "title": "Shorter availability data retention period for testnets",
+    "author": "s0me0ne-unkn0wn",
+    "merged_at": "2025-02-13T14:56:31Z",
+    "labels": [
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7353"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "pr_number": "7449",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7449",
+    "title": "network: remove handling of validation protocol versions 1 and 2",
+    "author": "sw10pa",
+    "merged_at": "2025-03-31T13:42:28Z",
+    "labels": [
+      "T8-polkadot"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7449"
+  }
+}

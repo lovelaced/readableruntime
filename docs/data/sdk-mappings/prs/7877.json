@@ -1,0 +1,20 @@
+{
+  "pr_number": "7877",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7877",
+    "title": "[Release|CI/CD] Fixes for the promote rc to final flow",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-03-11T13:24:49Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7877"
+  }
+}

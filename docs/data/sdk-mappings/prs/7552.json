@@ -1,0 +1,21 @@
+{
+  "pr_number": "7552",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7552",
+    "title": "Fix build-linux-substrate",
+    "author": "serban300",
+    "merged_at": "2025-02-12T17:05:50Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "I2-bug"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7552"
+  }
+}

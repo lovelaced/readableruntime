@@ -1,0 +1,22 @@
+{
+  "pr_number": "6606",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "6606",
+    "title": "Migrating polkadot-runtime-parachains paras_inherent benchmarking to V2",
+    "author": "Krayt78",
+    "merged_at": "2025-02-26T16:12:48Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T2-pallets",
+      "T12-benchmarks"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6606"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7697",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7697",
+    "title": "updated substrate-relay to v1.8.0",
+    "author": "rosarp",
+    "merged_at": "2025-02-25T07:16:18Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7697"
+  }
+}

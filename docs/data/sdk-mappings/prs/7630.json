@@ -1,0 +1,20 @@
+{
+  "pr_number": "7630",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7630",
+    "title": "backport/2412: Increase litep2p keep-alive to 10 seconds to mirror libp2p",
+    "author": "lexnv",
+    "merged_at": "2025-02-19T17:42:56Z",
+    "labels": [
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7630"
+  }
+}

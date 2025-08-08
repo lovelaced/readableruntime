@@ -1,0 +1,21 @@
+{
+  "pr_number": "7581",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7581",
+    "title": "[AHM] Moves disabling logic into pallet-session",
+    "author": "Ank4n",
+    "merged_at": "2025-02-18T04:14:23Z",
+    "labels": [
+      "I4-refactor",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7581"
+  }
+}

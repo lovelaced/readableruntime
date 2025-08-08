@@ -1,0 +1,23 @@
+{
+  "pr_number": "8435",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8435",
+    "title": "[CI] Adjust `check-semver` job so that it uses original PR number to check prdoc for the backports PRs",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-05-06T08:45:43Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2409",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8435"
+  }
+}

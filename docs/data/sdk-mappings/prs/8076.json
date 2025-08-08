@@ -1,0 +1,21 @@
+{
+  "pr_number": "8076",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8076",
+    "title": "Enable statement store in polkadot-omni-node and polkadot-parachain",
+    "author": "gui1117",
+    "merged_at": "2025-06-26T15:22:26Z",
+    "labels": [
+      "T0-node",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8076"
+  }
+}

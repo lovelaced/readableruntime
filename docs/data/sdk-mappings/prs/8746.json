@@ -1,0 +1,20 @@
+{
+  "pr_number": "8746",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8746",
+    "title": "[pallet-revive] dev-node",
+    "author": "pgherveou",
+    "merged_at": "2025-06-13T12:49:06Z",
+    "labels": [
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8746"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "7888",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7888",
+    "title": "backport/2503: network: Make litep2p the default backend in Kusama (#7866)",
+    "author": "lexnv",
+    "merged_at": "2025-03-17T10:16:13Z",
+    "labels": [
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7888"
+  }
+}

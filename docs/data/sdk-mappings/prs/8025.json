@@ -1,0 +1,20 @@
+{
+  "pr_number": "8025",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8025",
+    "title": "CI: Update the pushgateway url for zombienet",
+    "author": "lazam",
+    "merged_at": "2025-03-26T09:16:32Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8025"
+  }
+}

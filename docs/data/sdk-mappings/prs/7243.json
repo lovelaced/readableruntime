@@ -1,0 +1,20 @@
+{
+  "pr_number": "7243",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7243",
+    "title": "transfer function Preservation is changed to Expendable ",
+    "author": "dhirajs0",
+    "merged_at": "2025-02-10T16:49:38Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7243"
+  }
+}

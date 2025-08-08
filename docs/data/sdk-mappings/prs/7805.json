@@ -1,0 +1,21 @@
+{
+  "pr_number": "7805",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7805",
+    "title": "staking: add `manual_slash` extrinsic",
+    "author": "ordian",
+    "merged_at": "2025-03-13T04:12:43Z",
+    "labels": [
+      "T1-FRAME",
+      "T8-polkadot"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7805"
+  }
+}

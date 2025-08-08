@@ -1,0 +1,20 @@
+{
+  "pr_number": "6338",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "6338",
+    "title": "Update Pallet Referenda to support  Block Number Provider",
+    "author": "dharjeezy",
+    "merged_at": "2025-02-07T08:31:54Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6338"
+  }
+}

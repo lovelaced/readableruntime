@@ -1,0 +1,24 @@
+{
+  "pr_number": "8921",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8921",
+    "title": "More deterministic check for polkadot/zombienet_tests/functional/0019-coretime-collation-fetching-fairness.zndsl",
+    "author": "tdimitrov",
+    "merged_at": "2025-06-20T15:09:43Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node",
+      "T8-polkadot",
+      "T10-tests",
+      "T18-zombienet_tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8921"
+  }
+}

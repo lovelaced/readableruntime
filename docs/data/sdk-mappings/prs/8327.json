@@ -1,0 +1,20 @@
+{
+  "pr_number": "8327",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8327",
+    "title": "Update to frame-metadata 22",
+    "author": "jsdw",
+    "merged_at": "2025-04-30T12:36:14Z",
+    "labels": [
+      "T4-runtime_API"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8327"
+  }
+}

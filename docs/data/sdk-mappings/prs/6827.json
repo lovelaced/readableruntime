@@ -1,0 +1,22 @@
+{
+  "pr_number": "6827",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "6827",
+    "title": "Introduction of Approval Slashes [Disabling Strategy Stage 4]",
+    "author": "Overkillus",
+    "merged_at": "2025-06-05T15:23:05Z",
+    "labels": [
+      "I1-security",
+      "T8-polkadot",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6827"
+  }
+}

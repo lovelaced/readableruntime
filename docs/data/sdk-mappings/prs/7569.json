@@ -1,0 +1,21 @@
+{
+  "pr_number": "7569",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7569",
+    "title": "slot-based-collator: Allow multiple blocks per slot",
+    "author": "skunert",
+    "merged_at": "2025-03-11T09:58:52Z",
+    "labels": [
+      "T0-node",
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7569"
+  }
+}

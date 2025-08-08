@@ -1,0 +1,21 @@
+{
+  "pr_number": "7505",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7505",
+    "title": "`fatxpool`: transaction statuses metrics added",
+    "author": "michalkucharczyk",
+    "merged_at": "2025-02-13T08:59:08Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7505"
+  }
+}

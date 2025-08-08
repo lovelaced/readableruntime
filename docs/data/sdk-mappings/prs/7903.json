@@ -1,0 +1,21 @@
+{
+  "pr_number": "7903",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7903",
+    "title": "Update RELEASE.md",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-03-25T15:01:02Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T11-documentation"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7903"
+  }
+}

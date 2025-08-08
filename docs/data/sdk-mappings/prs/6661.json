@@ -1,0 +1,21 @@
+{
+  "pr_number": "6661",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "6661",
+    "title": "`txpool api`: `remove_invalid` call improved",
+    "author": "michalkucharczyk",
+    "merged_at": "2025-02-14T18:02:33Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6661"
+  }
+}

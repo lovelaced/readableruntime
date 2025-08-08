@@ -1,0 +1,31 @@
+{
+  "pr_number": "6336",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "6336",
+    "title": "pallet-xcm: add support to authorize aliases",
+    "author": "acatangiu",
+    "merged_at": "2025-04-02T12:23:57Z",
+    "labels": [
+      "T6-XCM",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6336"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pr_number": "6293",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "6293",
+    "title": "Migrate pallet-nis benchmark to v2",
+    "author": "aurexav",
+    "merged_at": "2025-03-04T11:16:06Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T2-pallets",
+      "T12-benchmarks"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6293"
+  }
+}

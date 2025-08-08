@@ -1,0 +1,20 @@
+{
+  "pr_number": "7553",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7553",
+    "title": "Add minor improvements to `chill_other` test",
+    "author": "rockbmb",
+    "merged_at": "2025-02-14T20:57:14Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7553"
+  }
+}

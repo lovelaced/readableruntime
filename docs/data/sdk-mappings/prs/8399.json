@@ -1,0 +1,18 @@
+{
+  "pr_number": "8399",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8399",
+    "title": "AssetHub as root on Westend relay",
+    "author": "karolk91",
+    "merged_at": "2025-06-06T10:48:55Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8399"
+  }
+}

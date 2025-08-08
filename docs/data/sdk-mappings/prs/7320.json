@@ -1,0 +1,20 @@
+{
+  "pr_number": "7320",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7320",
+    "title": "Add view functions to Proxy pallet for runtime-specific type configuration #7297",
+    "author": "Nathy-bajo",
+    "merged_at": "2025-02-15T00:55:03Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7320"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "8276",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8276",
+    "title": "sc-tracing-proc-macro: missing bump due to incomplete prdoc",
+    "author": "iulianbarbu",
+    "merged_at": "2025-04-17T23:19:59Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8276"
+  }
+}

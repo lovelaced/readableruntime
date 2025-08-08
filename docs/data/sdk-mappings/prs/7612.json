@@ -1,0 +1,21 @@
+{
+  "pr_number": "7612",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7612",
+    "title": "HashAndNumber: Ord, Eq, PartialOrd, PartialEq implemented",
+    "author": "michalkucharczyk",
+    "merged_at": "2025-02-18T18:16:58Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7612"
+  }
+}

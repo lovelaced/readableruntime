@@ -1,0 +1,20 @@
+{
+  "pr_number": "8307",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8307",
+    "title": "fix westend's election currency to vote conversion",
+    "author": "kianenigma",
+    "merged_at": "2025-05-01T11:55:16Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8307"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "pr_number": "8070",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8070",
+    "title": "link-checker: Remove broken URL to claim statement.",
+    "author": "skunert",
+    "merged_at": "2025-03-31T10:00:42Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T1-FRAME"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8070"
+  }
+}

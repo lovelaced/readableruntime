@@ -142,5 +142,36 @@ You can manually trigger workflows:
 - **PR Details**: View all PRs, files changed, and statistics
 - **Mobile Responsive**: Works on all devices
 - **Auto-Updated**: Checks for new releases every 6 hours
+- **SDK PR Search**: Find which runtime release includes a specific polkadot-sdk PR
 
 The site will be available at: `https://lovelaced.github.io/readableruntime/`
+
+### SDK PR Search Feature
+
+The site includes a powerful search feature to track polkadot-sdk PRs:
+
+1. Click the "Find SDK PR" button in the navigation
+2. Enter a polkadot-sdk PR number (e.g., 5525)
+3. See which runtime releases include that PR
+4. Click on any release to view its full analysis
+
+This feature uses an enhanced version-based tracking approach:
+
+**How it works**:
+- Analyzes Cargo.lock files to track SDK version changes between runtime releases
+- Fetches ALL PRs merged between SDK versions using GitHub API
+- Maps each SDK PR to the runtime releases that include it
+- Provides complete traceability of SDK changes
+
+**Features**:
+- Tracks 100% of SDK PRs included in version updates
+- Shows SDK version information for each runtime release
+- Updates daily to track new releases and mappings
+- Provides comprehensive PR details including title, author, and merge date
+
+**Initial Population**:
+To populate mappings for the past 10 releases:
+```bash
+export GITHUB_TOKEN="your-token"
+python scripts/populate_sdk_mappings.py
+```

@@ -1,0 +1,20 @@
+{
+  "pr_number": "7634",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7634",
+    "title": "derive `DecodeWithMemTracking` for `RuntimeCall`",
+    "author": "serban300",
+    "merged_at": "2025-02-20T09:50:01Z",
+    "labels": [
+      "T17-primitives"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7634"
+  }
+}

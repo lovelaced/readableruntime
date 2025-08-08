@@ -1,0 +1,23 @@
+{
+  "pr_number": "8669",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8669",
+    "title": "cumulus-aura: Improve equivocation checks",
+    "author": "bkchr",
+    "merged_at": "2025-05-27T16:20:47Z",
+    "labels": [
+      "T9-cumulus",
+      "A4-backport-stable2409",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8669"
+  }
+}

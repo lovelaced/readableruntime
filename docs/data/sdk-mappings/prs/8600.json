@@ -1,0 +1,21 @@
+{
+  "pr_number": "8600",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8600",
+    "title": "\ud83d\udd2a flaky and Zombienet tests",
+    "author": "ggwpez",
+    "merged_at": "2025-05-22T23:05:15Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8600"
+  }
+}

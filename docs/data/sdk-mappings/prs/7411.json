@@ -1,0 +1,20 @@
+{
+  "pr_number": "7411",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7411",
+    "title": "update readme to link to the new polkadot-docs",
+    "author": "kianenigma",
+    "merged_at": "2025-02-10T18:13:20Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7411"
+  }
+}

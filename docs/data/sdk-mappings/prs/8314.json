@@ -1,0 +1,20 @@
+{
+  "pr_number": "8314",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8314",
+    "title": "Add methods in the statement store RPCs to get the statements and not just the statement data.",
+    "author": "gui1117",
+    "merged_at": "2025-05-05T04:27:29Z",
+    "labels": [
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8314"
+  }
+}

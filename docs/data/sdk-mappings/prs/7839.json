@@ -1,0 +1,18 @@
+{
+  "pr_number": "7839",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7839",
+    "title": "Redoing the session and era rotation logic.",
+    "author": "Ank4n",
+    "merged_at": "2025-03-09T18:11:32Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7839"
+  }
+}

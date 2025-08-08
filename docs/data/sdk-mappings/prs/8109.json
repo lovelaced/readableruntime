@@ -1,0 +1,30 @@
+{
+  "pr_number": "8109",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    },
+    {
+      "runtime_version": "1.5.0",
+      "sdk_version": "stable2412-4",
+      "sdk_version_from": "stable2407-9"
+    },
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "8109",
+    "title": "rpc v2 archive: more verbose error types in API",
+    "author": "niklasad1",
+    "merged_at": "2025-04-01T15:30:12Z",
+    "labels": [
+      "T3-RPC_API"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8109"
+  }
+}

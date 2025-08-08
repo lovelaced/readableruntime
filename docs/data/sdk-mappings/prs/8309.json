@@ -1,0 +1,20 @@
+{
+  "pr_number": "8309",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8309",
+    "title": "Enforce Consistent `SetTopic` Appending in Outbound XCM",
+    "author": "raymondkfcheung",
+    "merged_at": "2025-04-23T13:52:25Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8309"
+  }
+}

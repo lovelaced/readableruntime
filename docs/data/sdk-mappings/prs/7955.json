@@ -1,0 +1,20 @@
+{
+  "pr_number": "7955",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7955",
+    "title": "impl ApprovedPeer UMP signal",
+    "author": "alindima",
+    "merged_at": "2025-04-10T14:18:43Z",
+    "labels": [
+      "T8-polkadot"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7955"
+  }
+}

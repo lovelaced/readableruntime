@@ -1,0 +1,21 @@
+{
+  "pr_number": "8212",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8212",
+    "title": "[pallet-revive] fix bn128 benchmark",
+    "author": "pgherveou",
+    "merged_at": "2025-04-10T18:08:04Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8212"
+  }
+}

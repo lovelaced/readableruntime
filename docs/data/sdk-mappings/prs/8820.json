@@ -1,0 +1,21 @@
+{
+  "pr_number": "8820",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8820",
+    "title": "[Release|CI/CD] Exclude test runtimes from the runtimes build",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-06-11T11:00:41Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8820"
+  }
+}

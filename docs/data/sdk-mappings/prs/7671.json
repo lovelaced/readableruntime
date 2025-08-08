@@ -1,0 +1,21 @@
+{
+  "pr_number": "7671",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7671",
+    "title": "Fix: [Referenda Tracks] Resolve representation issues that are breaking PJS apps",
+    "author": "pandres95",
+    "merged_at": "2025-03-21T12:58:24Z",
+    "labels": [
+      "T2-pallets",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7671"
+  }
+}

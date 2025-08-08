@@ -1,0 +1,20 @@
+{
+  "pr_number": "8809",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8809",
+    "title": "Add possibility of executing or mocking additional inherents in xcm-emulator",
+    "author": "girazoki",
+    "merged_at": "2025-06-23T11:45:51Z",
+    "labels": [
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8809"
+  }
+}

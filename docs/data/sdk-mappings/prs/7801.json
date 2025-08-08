@@ -1,0 +1,21 @@
+{
+  "pr_number": "7801",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7801",
+    "title": "add poke_deposit extrinsic to pallet-proxy",
+    "author": "UtkarshBhardwaj007",
+    "merged_at": "2025-03-06T20:38:14Z",
+    "labels": [
+      "T1-FRAME",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7801"
+  }
+}

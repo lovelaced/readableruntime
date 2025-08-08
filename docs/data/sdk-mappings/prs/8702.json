@@ -1,0 +1,20 @@
+{
+  "pr_number": "8702",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8702",
+    "title": "[AHM] Relax the requirement for RC-Client to receive +1 session reports",
+    "author": "kianenigma",
+    "merged_at": "2025-06-04T23:39:23Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8702"
+  }
+}

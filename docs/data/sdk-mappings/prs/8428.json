@@ -1,0 +1,21 @@
+{
+  "pr_number": "8428",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8428",
+    "title": "[Backport] Version bumps  and prdocs reordering from stable2503-1 back to master",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-05-07T13:11:55Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8428"
+  }
+}

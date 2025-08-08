@@ -1,0 +1,22 @@
+{
+  "pr_number": "8250",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8250",
+    "title": "Check umbrella version",
+    "author": "Wolfenheimm",
+    "merged_at": "2025-04-25T12:51:19Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8250"
+  }
+}

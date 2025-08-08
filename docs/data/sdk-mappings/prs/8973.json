@@ -1,0 +1,25 @@
+{
+  "pr_number": "8973",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8973",
+    "title": "Add polkadot_parachain_peer_connectivity metric",
+    "author": "AndreiEres",
+    "merged_at": "2025-06-25T10:03:49Z",
+    "labels": [
+      "T0-node",
+      "T8-polkadot",
+      "A4-backport-stable2409",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8973"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "8667",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8667",
+    "title": "revive: Simplify the storage meter",
+    "author": "athei",
+    "merged_at": "2025-05-27T13:52:35Z",
+    "labels": [
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8667"
+  }
+}

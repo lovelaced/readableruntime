@@ -1,0 +1,18 @@
+{
+  "pr_number": "7831",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7831",
+    "title": "Add bridging to AssetHubWestend",
+    "author": "rosarp",
+    "merged_at": "2025-03-13T09:42:58Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7831"
+  }
+}

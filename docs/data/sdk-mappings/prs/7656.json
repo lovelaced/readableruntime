@@ -1,0 +1,21 @@
+{
+  "pr_number": "7656",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7656",
+    "title": "Authorize upgrade tests for testnet runtimes + `execute_as_governance` refactor",
+    "author": "bkontur",
+    "merged_at": "2025-02-26T12:37:28Z",
+    "labels": [
+      "T10-tests",
+      "T14-system_parachains"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7656"
+  }
+}

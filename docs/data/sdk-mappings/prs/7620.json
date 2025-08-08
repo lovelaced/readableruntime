@@ -1,0 +1,22 @@
+{
+  "pr_number": "7620",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7620",
+    "title": "Derive `DecodeWithMemTracking` for bridge and xcm pallets",
+    "author": "serban300",
+    "merged_at": "2025-02-19T13:17:01Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T6-XCM",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7620"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "7838",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7838",
+    "title": "`CheckOnlySudoAccount`: Provide some tags",
+    "author": "bkchr",
+    "merged_at": "2025-03-10T08:58:26Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7838"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "pr_number": "7582",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7582",
+    "title": "Implementation of ah-client and rc-client staking pallets",
+    "author": "tdimitrov",
+    "merged_at": "2025-02-18T03:46:18Z",
+    "labels": [
+      "T2-pallets",
+      "T8-polkadot",
+      "R1-breaking_change"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7582"
+  }
+}

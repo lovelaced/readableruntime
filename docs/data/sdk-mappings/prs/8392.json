@@ -1,0 +1,18 @@
+{
+  "pr_number": "8392",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8392",
+    "title": "Introduced a way to add configurable amount of both asset to the liquidity pool",
+    "author": "x3c41a",
+    "merged_at": "2025-05-01T09:40:05Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8392"
+  }
+}

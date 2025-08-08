@@ -1,0 +1,20 @@
+{
+  "pr_number": "8187",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8187",
+    "title": "Added locked flag to readmes that were missing it",
+    "author": "Krayt78",
+    "merged_at": "2025-04-11T19:10:21Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8187"
+  }
+}

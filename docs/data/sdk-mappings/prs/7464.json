@@ -1,0 +1,21 @@
+{
+  "pr_number": "7464",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7464",
+    "title": "Follow up for: Use the umbrella crate for the parachain template #5993",
+    "author": "seemantaggarwal",
+    "merged_at": "2025-03-17T13:10:30Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T17-Templates"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7464"
+  }
+}

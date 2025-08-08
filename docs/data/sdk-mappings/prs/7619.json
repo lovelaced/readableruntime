@@ -1,0 +1,21 @@
+{
+  "pr_number": "7619",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7619",
+    "title": "effort towards getting chainspecbuilder into omni-node fix 5567",
+    "author": "seemantaggarwal",
+    "merged_at": "2025-02-24T12:22:33Z",
+    "labels": [
+      "I5-enhancement",
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7619"
+  }
+}

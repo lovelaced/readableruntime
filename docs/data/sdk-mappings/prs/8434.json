@@ -1,0 +1,22 @@
+{
+  "pr_number": "8434",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8434",
+    "title": "Properly fix template generation",
+    "author": "nkpar",
+    "merged_at": "2025-05-06T07:22:34Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T17-Templates",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8434"
+  }
+}

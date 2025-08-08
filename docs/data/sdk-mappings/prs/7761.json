@@ -1,0 +1,18 @@
+{
+  "pr_number": "7761",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7761",
+    "title": "[Test - Don't merge] Testing benchmarking command new features",
+    "author": "re-gius",
+    "merged_at": "2025-03-03T16:19:11Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7761"
+  }
+}

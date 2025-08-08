@@ -1,0 +1,21 @@
+{
+  "pr_number": "8068",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8068",
+    "title": "Migrate pipeline to gha",
+    "author": "pepoviola",
+    "merged_at": "2025-04-10T19:23:40Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8068"
+  }
+}

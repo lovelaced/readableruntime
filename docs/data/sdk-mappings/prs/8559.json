@@ -1,0 +1,21 @@
+{
+  "pr_number": "8559",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8559",
+    "title": "[pallet-revive] rename DepositLimit::Unchecked & minor code cleanup ",
+    "author": "pgherveou",
+    "merged_at": "2025-05-20T09:10:12Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8559"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "8484",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8484",
+    "title": "Bump node version 1.18.3",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-05-10T06:30:40Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8484"
+  }
+}

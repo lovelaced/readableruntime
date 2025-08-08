@@ -1,0 +1,21 @@
+{
+  "pr_number": "8261",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8261",
+    "title": "Fix FFI type diversion",
+    "author": "s0me0ne-unkn0wn",
+    "merged_at": "2025-04-30T10:27:14Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T17-primitives"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8261"
+  }
+}

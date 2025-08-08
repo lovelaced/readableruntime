@@ -1,0 +1,21 @@
+{
+  "pr_number": "6010",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "6010",
+    "title": "Implement Proof Of Possession capability for all public key crypto types",
+    "author": "drskalman",
+    "merged_at": "2025-05-28T11:18:56Z",
+    "labels": [
+      "I5-enhancement",
+      "T5-host_functions"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6010"
+  }
+}

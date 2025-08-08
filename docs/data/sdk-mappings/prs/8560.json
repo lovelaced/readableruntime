@@ -1,0 +1,18 @@
+{
+  "pr_number": "8560",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8560",
+    "title": "7691 CR suggestions",
+    "author": "serban300",
+    "merged_at": "2025-05-19T13:05:45Z",
+    "labels": [],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8560"
+  }
+}

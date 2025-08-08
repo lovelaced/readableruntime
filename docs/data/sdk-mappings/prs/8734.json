@@ -1,0 +1,20 @@
+{
+  "pr_number": "8734",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8734",
+    "title": "[pallet-revive] contract's nonce starts at 1",
+    "author": "pgherveou",
+    "merged_at": "2025-06-04T13:19:38Z",
+    "labels": [
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8734"
+  }
+}

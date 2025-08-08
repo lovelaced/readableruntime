@@ -1,0 +1,21 @@
+{
+  "pr_number": "8230",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8230",
+    "title": "collator-protocol: add more collation observability",
+    "author": "sandreim",
+    "merged_at": "2025-05-22T16:26:38Z",
+    "labels": [
+      "T0-node",
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8230"
+  }
+}

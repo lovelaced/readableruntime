@@ -1,0 +1,22 @@
+{
+  "pr_number": "7200",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7200",
+    "title": "XCM: Deny barrier checks for nested XCMs with specific instructions to be executed on the local chain",
+    "author": "bkontur",
+    "merged_at": "2025-02-19T12:42:13Z",
+    "labels": [
+      "T6-XCM",
+      "C1-mentor",
+      "C2-good-first-issue"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7200"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7484",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7484",
+    "title": "notifications/tests: Check compatiblity between litep2p and libp2p ",
+    "author": "lexnv",
+    "merged_at": "2025-02-27T10:24:33Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7484"
+  }
+}

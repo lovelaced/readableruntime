@@ -1,0 +1,21 @@
+{
+  "pr_number": "8948",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8948",
+    "title": "make sure dispute_coordinator/approval-voting parallel can receive priority messages",
+    "author": "alexggh",
+    "merged_at": "2025-06-24T08:04:15Z",
+    "labels": [
+      "A4-backport-stable2503",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8948"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "8623",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8623",
+    "title": "[stable2412] Push `sp-api-proc-macro` & `frame-executive` for the stable2412",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-05-23T14:00:18Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8623"
+  }
+}

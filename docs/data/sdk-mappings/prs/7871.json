@@ -1,0 +1,21 @@
+{
+  "pr_number": "7871",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7871",
+    "title": "[CI] bump timeout wait for build in zombienet workflows.",
+    "author": "pepoviola",
+    "merged_at": "2025-03-13T15:10:06Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7871"
+  }
+}

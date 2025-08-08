@@ -1,0 +1,20 @@
+{
+  "pr_number": "7889",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7889",
+    "title": "Remove execute_with_origin implementation in the XCM executor",
+    "author": "franciscoaguirre",
+    "merged_at": "2025-03-12T23:05:48Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7889"
+  }
+}

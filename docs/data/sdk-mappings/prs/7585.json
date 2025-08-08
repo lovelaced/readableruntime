@@ -1,0 +1,20 @@
+{
+  "pr_number": "7585",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7585",
+    "title": "feat(collator) add export pov on slot base collator",
+    "author": "MrishoLukamba",
+    "merged_at": "2025-02-27T08:44:11Z",
+    "labels": [
+      "T0-node"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7585"
+  }
+}

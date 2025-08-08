@@ -1,0 +1,20 @@
+{
+  "pr_number": "8664",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8664",
+    "title": "[pallet-revive] Fix rpc-types",
+    "author": "pgherveou",
+    "merged_at": "2025-05-27T11:09:07Z",
+    "labels": [
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8664"
+  }
+}

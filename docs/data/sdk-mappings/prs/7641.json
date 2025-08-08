@@ -1,0 +1,20 @@
+{
+  "pr_number": "7641",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7641",
+    "title": "XCM: Process PayFees only once",
+    "author": "franciscoaguirre",
+    "merged_at": "2025-02-24T17:23:48Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7641"
+  }
+}

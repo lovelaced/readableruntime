@@ -1,0 +1,20 @@
+{
+  "pr_number": "8311",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8311",
+    "title": "[pallet-revive] update tracing rpc methods parameters",
+    "author": "pgherveou",
+    "merged_at": "2025-04-29T11:05:22Z",
+    "labels": [
+      "T7-smart_contracts"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8311"
+  }
+}

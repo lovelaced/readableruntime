@@ -1,0 +1,20 @@
+{
+  "pr_number": "8922",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8922",
+    "title": "fix shared-core-idle-parachain test",
+    "author": "alindima",
+    "merged_at": "2025-06-20T15:08:29Z",
+    "labels": [
+      "T18-zombienet_tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8922"
+  }
+}

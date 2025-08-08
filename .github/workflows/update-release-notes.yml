@@ -71,13 +71,16 @@ jobs:
         mkdir -p docs/data/metadata
         
         # Run the analyzer for the new release
-        python polkadot_release_analyzer.py \
+        python scripts/polkadot_release_analyzer.py \
           --version "$LATEST_RELEASE" \
           --output "docs/data/releases/${LATEST_RELEASE}.md" \
           --json-output "docs/data/releases/${LATEST_RELEASE}.json"
         
         # Update the releases list
-        python update_releases_index.py
+        python scripts/update_releases_index.py
+        
+        # Update SDK PR mappings using comprehensive branch-aware approach
+        python scripts/comprehensive_branch_aware_mapper.py
     
     - name: Commit and push changes
       if: steps.check_releases.outputs.needs_update == 'true'

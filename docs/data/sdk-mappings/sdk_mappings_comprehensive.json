@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "last_updated": "2025-08-07T17:52:12.614141Z",
+    "total_unique_prs": 0,
+    "runtime_releases_analyzed": 5,
+    "methodology": "git-history-based",
+    "includes_all_prs": true
+  },
+  "runtime_releases": {
+    "v1.4.0": {
+      "sdk_version": "stable2409-4",
+      "release_date": "2025-02-10T09:06:33Z",
+      "total_prs": 0,
+      "new_prs": 0,
+      "all_pr_numbers": [],
+      "new_pr_numbers": []
+    },
+    "v1.4.3": {
+      "sdk_version": "stable2409-6",
+      "release_date": "2025-04-16T08:13:05Z",
+      "total_prs": 0,
+      "new_prs": 0,
+      "all_pr_numbers": [],
+      "new_pr_numbers": []
+    },
+    "v1.5.0": {
+      "sdk_version": "stable2412-4",
+      "release_date": "2025-04-29T10:42:15Z",
+      "total_prs": 0,
+      "new_prs": 0,
+      "all_pr_numbers": [],
+      "new_pr_numbers": []
+    },
+    "v1.5.1": {
+      "sdk_version": "stable2412-6",
+      "release_date": "2025-05-23T14:54:57Z",
+      "total_prs": 0,
+      "new_prs": 0,
+      "all_pr_numbers": [],
+      "new_pr_numbers": []
+    },
+    "v1.6.0": {
+      "sdk_version": "stable2503-6",
+      "release_date": "2025-06-19T16:31:48Z",
+      "total_prs": 0,
+      "new_prs": 0,
+      "all_pr_numbers": [],
+      "new_pr_numbers": []
+    }
+  },
+  "pr_details": {},
+  "runtime_to_sdk": {
+    "v1.6.0": "stable2503-6",
+    "v1.5.1": "stable2412-6",
+    "v1.5.0": "stable2412-4",
+    "v1.4.3": "stable2409-6",
+    "v1.4.0": "stable2409-4"
+  }
+}

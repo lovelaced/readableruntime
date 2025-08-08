@@ -1,0 +1,21 @@
+{
+  "pr_number": "7769",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7769",
+    "title": "Ensure Logs Are Captured for Assertions and Printed During Tests",
+    "author": "raymondkfcheung",
+    "merged_at": "2025-03-06T13:21:44Z",
+    "labels": [
+      "T6-XCM",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7769"
+  }
+}

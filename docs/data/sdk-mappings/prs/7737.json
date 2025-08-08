@@ -1,0 +1,20 @@
+{
+  "pr_number": "7737",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7737",
+    "title": "[stable2409] Backport #7685",
+    "author": "paritytech-cmd-bot-polkadot-sdk[bot]",
+    "merged_at": "2025-03-05T15:48:02Z",
+    "labels": [
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7737"
+  }
+}

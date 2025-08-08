@@ -1,0 +1,20 @@
+{
+  "pr_number": "7774",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7774",
+    "title": "[stable2503] Backport #7492 (manually)",
+    "author": "bkontur",
+    "merged_at": "2025-03-03T11:56:57Z",
+    "labels": [
+      "A3-backport"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7774"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7549",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7549",
+    "title": "Bridges: Remove obsolete relayer CLI args: host, port, path, secure",
+    "author": "rosarp",
+    "merged_at": "2025-02-18T17:37:21Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7549"
+  }
+}

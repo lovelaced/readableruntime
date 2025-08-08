@@ -1,0 +1,21 @@
+{
+  "pr_number": "8445",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8445",
+    "title": "sync/fix: Clear gap sync on known imported blocks",
+    "author": "lexnv",
+    "merged_at": "2025-06-04T11:52:14Z",
+    "labels": [
+      "T0-node",
+      "I2-bug"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8445"
+  }
+}

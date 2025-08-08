@@ -1,0 +1,20 @@
+{
+  "pr_number": "7532",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7532",
+    "title": "fix scope in suppress dead_code (template)",
+    "author": "mordamax",
+    "merged_at": "2025-02-11T13:52:04Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7532"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7978",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7978",
+    "title": "`bp-runtime`: make macro expansion not rely on `sp-std` in scope.",
+    "author": "gui1117",
+    "merged_at": "2025-03-20T13:06:04Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7978"
+  }
+}

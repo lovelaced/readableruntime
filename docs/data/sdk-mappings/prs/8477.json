@@ -1,0 +1,21 @@
+{
+  "pr_number": "8477",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8477",
+    "title": "FeeTracker deduplications",
+    "author": "serban300",
+    "merged_at": "2025-05-12T12:26:09Z",
+    "labels": [
+      "T6-XCM",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8477"
+  }
+}

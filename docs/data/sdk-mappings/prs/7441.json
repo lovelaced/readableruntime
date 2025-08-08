@@ -1,0 +1,20 @@
+{
+  "pr_number": "7441",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7441",
+    "title": "Update Scheduler to have a configurable block provider #7434",
+    "author": "seemantaggarwal",
+    "merged_at": "2025-02-13T01:03:49Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7441"
+  }
+}

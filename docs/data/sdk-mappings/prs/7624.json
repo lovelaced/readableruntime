@@ -1,0 +1,21 @@
+{
+  "pr_number": "7624",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7624",
+    "title": "Update dispatchables doc link in pallet-revive's README",
+    "author": "franciscoaguirre",
+    "merged_at": "2025-02-20T09:36:27Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7624"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "pr_number": "7734",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7734",
+    "title": "Simplify event assertion with predicate-based check",
+    "author": "raymondkfcheung",
+    "merged_at": "2025-02-28T00:05:02Z",
+    "labels": [
+      "T6-XCM",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7734"
+  }
+}

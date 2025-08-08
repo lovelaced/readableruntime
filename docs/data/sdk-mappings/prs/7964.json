@@ -1,0 +1,21 @@
+{
+  "pr_number": "7964",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7964",
+    "title": "bump version of zombienet-sdk",
+    "author": "pepoviola",
+    "merged_at": "2025-03-21T11:26:07Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7964"
+  }
+}

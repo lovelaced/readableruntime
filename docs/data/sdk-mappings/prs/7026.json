@@ -1,0 +1,20 @@
+{
+  "pr_number": "7026",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7026",
+    "title": "[pallet-broker] add extrinsic to remove a lease",
+    "author": "ethernomad",
+    "merged_at": "2025-02-19T19:39:09Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7026"
+  }
+}

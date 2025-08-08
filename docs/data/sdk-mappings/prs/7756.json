@@ -1,0 +1,20 @@
+{
+  "pr_number": "7756",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7756",
+    "title": "Fix unspecified Hash in NodeBlock",
+    "author": "AndreiEres",
+    "merged_at": "2025-03-03T13:23:58Z",
+    "labels": [
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7756"
+  }
+}

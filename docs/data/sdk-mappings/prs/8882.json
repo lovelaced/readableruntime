@@ -1,0 +1,21 @@
+{
+  "pr_number": "8882",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8882",
+    "title": "Fix flaxy `0003-block-building-warp-sync` test",
+    "author": "michalkucharczyk",
+    "merged_at": "2025-06-18T11:52:50Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T18-zombienet_tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8882"
+  }
+}

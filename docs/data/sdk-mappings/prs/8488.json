@@ -1,0 +1,20 @@
+{
+  "pr_number": "8488",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8488",
+    "title": "Use correct polkadot repository",
+    "author": "leonardocustodio",
+    "merged_at": "2025-05-16T14:51:01Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8488"
+  }
+}

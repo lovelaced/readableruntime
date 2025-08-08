@@ -1,0 +1,20 @@
+{
+  "pr_number": "8289",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8289",
+    "title": "Extract create_pool_with_native_on macro to common crate",
+    "author": "claravanstaden",
+    "merged_at": "2025-04-23T22:30:32Z",
+    "labels": [
+      "T10-tests"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8289"
+  }
+}

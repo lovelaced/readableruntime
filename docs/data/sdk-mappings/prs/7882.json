@@ -1,0 +1,21 @@
+{
+  "pr_number": "7882",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "7882",
+    "title": "add poke_deposit extrinsic to pallet-recovery",
+    "author": "UtkarshBhardwaj007",
+    "merged_at": "2025-04-22T17:00:30Z",
+    "labels": [
+      "T1-FRAME",
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7882"
+  }
+}

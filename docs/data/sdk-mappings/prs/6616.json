@@ -1,0 +1,22 @@
+{
+  "pr_number": "6616",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "6616",
+    "title": "Migration of polkadot-runtime-common paras_registrar benchmarking to v2.",
+    "author": "Krayt78",
+    "merged_at": "2025-02-26T16:55:08Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T2-pallets",
+      "T12-benchmarks"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/6616"
+  }
+}

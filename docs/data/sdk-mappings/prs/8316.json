@@ -1,0 +1,20 @@
+{
+  "pr_number": "8316",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8316",
+    "title": "[StakingAsync] Remove SlashingSpan Logic",
+    "author": "Ank4n",
+    "merged_at": "2025-05-08T10:49:20Z",
+    "labels": [
+      "T2-pallets"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8316"
+  }
+}

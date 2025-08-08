@@ -1,0 +1,23 @@
+{
+  "pr_number": "7856",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7856",
+    "title": "Fix XCM decoding inconsistencies",
+    "author": "serban300",
+    "merged_at": "2025-03-11T10:42:21Z",
+    "labels": [
+      "T6-XCM",
+      "A4-backport-stable2409",
+      "A4-backport-stable2412",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7856"
+  }
+}

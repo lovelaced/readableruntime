@@ -1,0 +1,21 @@
+{
+  "pr_number": "8332",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8332",
+    "title": "parachain informant",
+    "author": "sistemd",
+    "merged_at": "2025-05-14T13:21:44Z",
+    "labels": [
+      "T4-runtime_API",
+      "T9-cumulus"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8332"
+  }
+}

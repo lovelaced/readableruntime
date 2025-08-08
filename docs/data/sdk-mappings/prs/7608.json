@@ -1,0 +1,21 @@
+{
+  "pr_number": "7608",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7608",
+    "title": "[Release/CI|CD] Fix for the branch-off pipeline",
+    "author": "EgorPopelyaev",
+    "merged_at": "2025-02-18T17:51:49Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "D0-easy"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7608"
+  }
+}

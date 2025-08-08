@@ -1,0 +1,20 @@
+{
+  "pr_number": "8693",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8693",
+    "title": "Add XCM Precompile to `pallet-xcm`",
+    "author": "tiagobndr",
+    "merged_at": "2025-06-11T13:30:04Z",
+    "labels": [
+      "T6-XCM"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8693"
+  }
+}

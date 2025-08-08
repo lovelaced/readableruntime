@@ -1,0 +1,22 @@
+{
+  "pr_number": "8510",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.5.1",
+      "sdk_version": "stable2412-6",
+      "sdk_version_from": "stable2412-4"
+    }
+  ],
+  "pr_details": {
+    "number": "8510",
+    "title": "statement-distribution: skip leafs where we can't fetch the state",
+    "author": "alexggh",
+    "merged_at": "2025-05-14T07:36:50Z",
+    "labels": [
+      "T0-node",
+      "T8-polkadot",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8510"
+  }
+}

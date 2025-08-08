@@ -1,0 +1,21 @@
+{
+  "pr_number": "7412",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.1",
+      "sdk_version": "stable2409-5",
+      "sdk_version_from": "stable2407-7"
+    }
+  ],
+  "pr_details": {
+    "number": "7412",
+    "title": "Pallet view functions: improve metadata, API docs and testing",
+    "author": "re-gius",
+    "merged_at": "2025-02-07T15:49:04Z",
+    "labels": [
+      "T1-FRAME",
+      "T4-runtime_API"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7412"
+  }
+}

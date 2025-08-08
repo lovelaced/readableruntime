@@ -1,0 +1,20 @@
+{
+  "pr_number": "7711",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7711",
+    "title": "cmd-bot: divide workflow into 2 steps",
+    "author": "alvicsam",
+    "merged_at": "2025-03-06T19:40:59Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7711"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "pr_number": "8837",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.1",
+      "sdk_version": "stable2503-7-rc2",
+      "sdk_version_from": "stable2503-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8837",
+    "title": "Cache locally controlled validator indices in `dispute-coordinator`",
+    "author": "tdimitrov",
+    "merged_at": "2025-06-17T14:59:37Z",
+    "labels": [
+      "I9-optimisation",
+      "T8-polkadot",
+      "A4-backport-stable2503",
+      "T18-zombienet_tests",
+      "A4-backport-stable2506"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8837"
+  }
+}

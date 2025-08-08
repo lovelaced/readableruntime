@@ -1,0 +1,22 @@
+{
+  "pr_number": "7576",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7576",
+    "title": "integration tests: add more emulated bridge tests",
+    "author": "acatangiu",
+    "merged_at": "2025-02-17T17:43:05Z",
+    "labels": [
+      "R0-no-crate-publish-required",
+      "T10-tests",
+      "T15-bridges"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7576"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "pr_number": "7625",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.4.3",
+      "sdk_version": "stable2407-9",
+      "sdk_version_from": "stable2409-5"
+    }
+  ],
+  "pr_details": {
+    "number": "7625",
+    "title": "Update to Rust stable 1.84.1",
+    "author": "athei",
+    "merged_at": "2025-02-20T11:10:07Z",
+    "labels": [
+      "R0-no-crate-publish-required"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/7625"
+  }
+}

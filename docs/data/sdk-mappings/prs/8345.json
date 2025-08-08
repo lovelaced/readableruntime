@@ -1,0 +1,21 @@
+{
+  "pr_number": "8345",
+  "runtime_releases": [
+    {
+      "runtime_version": "1.6.0",
+      "sdk_version": "stable2503-6",
+      "sdk_version_from": "stable2412-6"
+    }
+  ],
+  "pr_details": {
+    "number": "8345",
+    "title": "tx/metrics: Add metrics for the RPC v2 `transactionWatch_v1_submitAndWatch`",
+    "author": "lexnv",
+    "merged_at": "2025-05-26T13:37:26Z",
+    "labels": [
+      "T0-node",
+      "A4-backport-stable2503"
+    ],
+    "url": "https://github.com/paritytech/polkadot-sdk/pull/8345"
+  }
+}
