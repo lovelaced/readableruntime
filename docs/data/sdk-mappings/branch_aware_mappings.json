@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-08T14:38:31.344789Z",
+  "generated_at": "2025-08-08T14:59:41.677585Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.6.1": {
@@ -12,7 +12,7 @@
         "sp-runtime": "41.1.0"
       },
       "branch_pr_count": 766,
-      "actual_pr_count": 17
+      "actual_pr_count": 16
     },
     "v1.6.0": {
       "sdk_tag": "stable2503-6",
@@ -36,7 +36,7 @@
         "sp-runtime": "40.1.0"
       },
       "branch_pr_count": 504,
-      "actual_pr_count": 27
+      "actual_pr_count": 26
     },
     "v1.5.0": {
       "sdk_tag": "stable2412-4",

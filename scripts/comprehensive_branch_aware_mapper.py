@@ -17,7 +17,7 @@ import requests
 import base64
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 from collections import defaultdict
 import time
@@ -45,6 +45,12 @@ class BranchAwareSDKMapper:
         
         # Track key packages
         self.tracked_packages = ['polkadot-primitives', 'sp-runtime', 'frame-support']
+    
+    def _parse_date(self, date_str: str) -> datetime:
+        """Parse ISO date string to datetime object"""
+        if date_str.endswith('Z'):
+            return datetime.fromisoformat(date_str.replace('Z', '+00:00'))
+        return datetime.fromisoformat(date_str)
         
     def _make_request(self, url: str, params: Optional[Dict] = None) -> Optional[Dict]:
         """Make GitHub API request with rate limit handling"""
@@ -340,7 +346,7 @@ class BranchAwareSDKMapper:
                                 pr_body = pr_detail_response.get('body', '')
                         
                         original_pr = self._extract_backport_info(pr['title'], pr_body)
-                        if original_pr:
+                        if original_pr and original_pr > 0 and original_pr < 100000:  # Basic validation
                             pr_details['is_backport'] = True
                             pr_details['original_pr'] = original_pr
                             self.backport_mapping[pr_num] = original_pr
@@ -430,9 +436,12 @@ class BranchAwareSDKMapper:
                     # Double-check this PR was actually included in the branch
                     # by verifying it was merged before our branch point
                     merged_at = pr.get('pull_request', {}).get('merged_at', '')
-                    if merged_at and merged_at <= branch_date:
-                        existing_prs.add(pr_num)
-                        count += 1
+                    if merged_at:
+                        merged_dt = self._parse_date(merged_at)
+                        branch_dt = self._parse_date(branch_date)
+                        if merged_dt < branch_dt:  # Use < instead of <= to avoid boundary issues
+                            existing_prs.add(pr_num)
+                            count += 1
                         
                         # Cache PR details
                         self.pr_cache[pr_num] = {
@@ -559,6 +568,8 @@ class BranchAwareSDKMapper:
             r'backport\s+of\s+#(\d+)',  # backport of #1234
             r'backports?\s+paritytech/polkadot-sdk#(\d+)',  # backports paritytech/polkadot-sdk#1234
             r'#(\d+)\s*\(backport\)',  # #1234 (backport)
+            r'cherry[- ]?pick\s+#(\d+)',  # cherry-pick #1234 or cherry pick #1234
+            r'backport-(\d+)-to-',  # backport-1234-to-stable
         ]
         
         # Check title first
@@ -599,6 +610,8 @@ class BranchAwareSDKMapper:
                 'is_direct': False,
                 'from_master': base_branch == 'master'
             }
+        else:
+            print(f"        WARNING: Could not fetch details for PR #{pr_num}")
     
     def map_runtime_releases(self):
         """Map runtime releases to SDK versions"""
@@ -879,25 +892,28 @@ class BranchAwareSDKMapper:
                         pr_details = self.pr_cache.get(pr_num, {})
                         merged_at = pr_details.get('merged_at')
                         
-                        if merged_at and merged_at <= sdk_date:
-                            # Include PR metadata in the release mapping
-                            release_info = {
-                                'runtime_version': runtime_tag.lstrip('v'),
-                                'sdk_version': info['sdk_tag'],
-                                'sdk_branch': branch
-                            }
-                            
-                            # Add PR type info from cache
-                            if pr_details.get('is_backport'):
-                                release_info['is_backport'] = True
-                                release_info['original_pr'] = pr_details.get('original_pr')
-                            if pr_details.get('from_master'):
-                                release_info['from_master'] = True
-                            if pr_details.get('is_direct'):
-                                release_info['is_direct'] = True
+                        if merged_at:
+                            merged_dt = self._parse_date(merged_at)
+                            sdk_dt = self._parse_date(sdk_date)
+                            if merged_dt < sdk_dt:  # Use < instead of <= to avoid boundary issues
+                                # Include PR metadata in the release mapping
+                                release_info = {
+                                    'runtime_version': runtime_tag.lstrip('v'),
+                                    'sdk_version': info['sdk_tag'],
+                                    'sdk_branch': branch
+                                }
                                 
-                            pr_to_releases[str(pr_num)].append(release_info)
-                            assigned_prs.add(pr_num)
+                                # Add PR type info from cache
+                                if pr_details.get('is_backport'):
+                                    release_info['is_backport'] = True
+                                    release_info['original_pr'] = pr_details.get('original_pr')
+                                if pr_details.get('from_master'):
+                                    release_info['from_master'] = True
+                                if pr_details.get('is_direct'):
+                                    release_info['is_direct'] = True
+                                    
+                                pr_to_releases[str(pr_num)].append(release_info)
+                                assigned_prs.add(pr_num)
         
         return dict(pr_to_releases)
     

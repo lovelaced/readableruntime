@@ -1,11 +1,11 @@
 {
-  "last_updated": "2025-08-08T14:38:31.347350Z",
+  "last_updated": "2025-08-08T14:59:41.680438Z",
   "runtime_sdk_versions": {
     "v1.6.1": {
       "sdk_version": "stable2503-7-rc2",
       "release_date": "2025-06-27T12:37:46Z",
-      "total_prs": 17,
-      "new_prs": 17
+      "total_prs": 16,
+      "new_prs": 16
     },
     "v1.6.0": {
       "sdk_version": "stable2503-6",
@@ -16,8 +16,8 @@
     "v1.5.1": {
       "sdk_version": "stable2412-6",
       "release_date": "2025-05-21T19:23:06Z",
-      "total_prs": 27,
-      "new_prs": 27
+      "total_prs": 26,
+      "new_prs": 26
     },
     "v1.5.0": {
       "sdk_version": "stable2412-4",
@@ -28964,14 +28964,6 @@
         "is_direct": true
       }
     ],
-    "8604": [
-      {
-        "runtime_version": "1.5.1",
-        "sdk_version": "stable2412-6",
-        "sdk_branch": "stable2412",
-        "is_direct": true
-      }
-    ],
     "8081": [
       {
         "runtime_version": "1.5.1",
@@ -35123,14 +35115,6 @@
         "sdk_branch": "stable2503",
         "is_backport": true,
         "original_pr": 8980,
-        "is_direct": true
-      }
-    ],
-    "9009": [
-      {
-        "runtime_version": "1.6.1",
-        "sdk_version": "stable2503-7-rc2",
-        "sdk_branch": "stable2503",
         "is_direct": true
       }
     ]
