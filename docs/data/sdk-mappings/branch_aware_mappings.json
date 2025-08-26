@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-26T16:56:31.031658Z",
+  "generated_at": "2025-08-26T17:13:21.010368Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -97,6 +97,18 @@
       },
       "branch_pr_count": 768,
       "actual_pr_count": 16
+    },
+    "v1.7.0": {
+      "sdk_tag": "unstable2507",
+      "sdk_branch": "unstable2507",
+      "sdk_date": "2025-08-20T10:46:32Z",
+      "package_versions": {
+        "frame-support": "42.0.0",
+        "polkadot-primitives": "20.0.0",
+        "sp-runtime": "43.0.0"
+      },
+      "branch_pr_count": 25,
+      "actual_pr_count": 24
     }
   },
   "sdk_tags": {
@@ -969,6 +981,36 @@
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
       }
+    },
+    "stable2412-litep2p": {
+      "commit": "287f5b15186fd4df08d483f8c93bd96769c7dcf7",
+      "date": "2025-04-11T08:27:43Z",
+      "branch": "stable2412-litep2p",
+      "package_versions": {
+        "polkadot-primitives": "17.0.0",
+        "sp-runtime": "40.1.0",
+        "frame-support": "39.0.0"
+      }
+    },
+    "stable2503-broken": {
+      "commit": "8d560d7beb3bbbee20b10f1265a2ef4e75f4ab5e",
+      "date": "2025-03-28T14:47:07Z",
+      "branch": "stable2503-broken",
+      "package_versions": {
+        "polkadot-primitives": "18.0.0-rc1",
+        "sp-runtime": "40.2.0-rc1",
+        "frame-support": "40.0.0-rc1"
+      }
+    },
+    "unstable2507": {
+      "commit": "c456d80516577d83a6cb83238bbd604a3e923ada",
+      "date": "2025-08-20T10:46:32Z",
+      "branch": "unstable2507",
+      "package_versions": {
+        "polkadot-primitives": "20.0.0",
+        "sp-runtime": "43.0.0",
+        "frame-support": "42.0.0"
+      }
     }
   },
   "branch_info": {
@@ -1094,12 +1136,27 @@
       ],
       "created_date": "2024-11-06T14:22:28Z",
       "pr_count": 0
+    },
+    "stable2412-litep2p": {
+      "tags": [],
+      "created_date": "2024-11-07T15:43:58Z",
+      "pr_count": 371
+    },
+    "stable2503-broken": {
+      "tags": [],
+      "created_date": "2025-02-18T16:54:37Z",
+      "pr_count": 440
+    },
+    "unstable2507": {
+      "tags": [],
+      "created_date": "2025-07-06T09:32:11Z",
+      "pr_count": 25
     }
   },
   "statistics": {
-    "total_sdk_tags": 87,
-    "total_branches": 6,
-    "total_prs_tracked": 1788,
-    "runtime_releases_mapped": 8
+    "total_sdk_tags": 90,
+    "total_branches": 9,
+    "total_prs_tracked": 1822,
+    "runtime_releases_mapped": 9
   }
 }
