@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-26T16:30:19.931119Z",
+  "last_updated": "2025-08-26T16:37:32.644102Z",
   "runtime_sdk_versions": {
     "v1.2.0": {
       "sdk_version": "stable2506-rc6",
@@ -26,60 +26,6 @@
       "new_prs": 0
     },
     "v1.2.4": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.2.5": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.2.6": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.2.7": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.2.8": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.3.0": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.3.1": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.3.2": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.3.3": {
-      "sdk_version": "stable2506-rc6",
-      "release_date": "2025-07-07T05:30:49Z",
-      "total_prs": 0,
-      "new_prs": 0
-    },
-    "v1.3.4": {
       "sdk_version": "stable2506-rc6",
       "release_date": "2025-07-07T05:30:49Z",
       "total_prs": 0,
