@@ -303,6 +303,33 @@ class BranchAwareSDKMapper:
         
         return "unknown"
     
+    def _find_parent_stable_branch(self, unstable_branch: str) -> Optional[str]:
+        """Find the parent stable branch for an unstable branch"""
+        # unstable2507 -> stable2506
+        # unstable2510 -> stable2509
+        # etc.
+        match = re.match(r'unstable(\d{4})', unstable_branch)
+        if not match:
+            return None
+            
+        unstable_version = match.group(1)
+        
+        # Find the highest stable branch that is less than this unstable
+        stable_branches = [b for b in self.branch_info.keys() if b.startswith('stable')]
+        stable_branches.sort()
+        
+        parent_stable = None
+        for stable in stable_branches:
+            stable_match = re.match(r'stable(\d{4})', stable)
+            if stable_match:
+                stable_version = stable_match.group(1)
+                if stable_version < unstable_version:
+                    parent_stable = stable
+                else:
+                    break
+                    
+        return parent_stable
+    
     def _get_actual_branch_name(self, branch: str) -> Optional[str]:
         """Get the actual GitHub branch name for a stable branch"""
         # Cache results to avoid repeated API calls
@@ -784,33 +811,35 @@ class BranchAwareSDKMapper:
                 
                 # For unstable branches, we need to count PRs from both stable and unstable
                 total_branch_prs = branch_prs
+                included_branches = [sdk_branch]
                 
                 if 'unstable' in sdk_branch:
-                    # Find corresponding stable branch
-                    match = re.match(r'unstable(\d{2})(\d{2})', sdk_branch)
-                    if match:
-                        year = int(match.group(1))
-                        month = int(match.group(2))
+                    # Find the parent stable branch that this unstable was created from
+                    parent_stable = self._find_parent_stable_branch(sdk_branch)
+                    
+                    # Only include the parent stable if it hasn't been used by a previous release
+                    if parent_stable and parent_stable in self.branch_info:
+                        # Check if this stable branch was already matched to a previous runtime release
+                        stable_already_used = False
+                        for prev_runtime, prev_info in self.runtime_mappings.items():
+                            if prev_info['sdk_branch'] == parent_stable:
+                                stable_already_used = True
+                                print(f"    Parent branch {parent_stable} already used for {prev_runtime}, not including PRs")
+                                break
                         
-                        # Calculate the previous stable branch (3 months earlier)
-                        prev_month = month - 3
-                        prev_year = year
-                        if prev_month <= 0:
-                            prev_month += 12
-                            prev_year -= 1
-                        
-                        prev_stable = f"stable{prev_year:02d}{prev_month:02d}"
-                        if prev_stable in self.branch_info:
-                            stable_prs = len(self.branch_info[prev_stable]['prs'])
+                        if not stable_already_used:
+                            stable_prs = len(self.branch_info[parent_stable]['prs'])
                             total_branch_prs += stable_prs
-                            print(f"    Including {stable_prs} PRs from {prev_stable}")
+                            included_branches.append(parent_stable)
+                            print(f"    Including {stable_prs} PRs from parent branch {parent_stable}")
                 
                 self.runtime_mappings[runtime_tag] = {
                     'sdk_tag': best_match,
                     'sdk_branch': sdk_branch,
                     'sdk_date': tag_info['date'],
                     'package_versions': runtime_pkgs,
-                    'branch_pr_count': total_branch_prs
+                    'branch_pr_count': total_branch_prs,
+                    'included_branches': included_branches
                 }
                 
                 print(f"  Matched to SDK: {best_match}")
@@ -1064,25 +1093,23 @@ class BranchAwareSDKMapper:
             # For unstable branches, we need to include PRs from the corresponding stable branch too
             branches_to_check = [branch]
             
-            # If this is an unstable branch, also include PRs from the corresponding stable branch
+            # If this is an unstable branch, also include PRs from the parent stable branch
+            # but only if that stable branch hasn't already been used by an earlier release
             if 'unstable' in branch:
-                # Extract the year/month from unstable branch (e.g., unstable2507 -> 2507)
-                match = re.match(r'unstable(\d{2})(\d{2})', branch)
-                if match:
-                    year = int(match.group(1))
-                    month = int(match.group(2))
+                parent_stable = self._find_parent_stable_branch(branch)
+                if parent_stable and parent_stable in self.branch_info:
+                    # Check if the parent stable was already used by a previous runtime release
+                    stable_already_used = False
+                    for prev_tag, prev_info in list(self.runtime_mappings.items())[:list(self.runtime_mappings.keys()).index(runtime_tag)]:
+                        if prev_info['sdk_branch'] == parent_stable:
+                            stable_already_used = True
+                            break
                     
-                    # Calculate the previous stable branch (3 months earlier)
-                    prev_month = month - 3
-                    prev_year = year
-                    if prev_month <= 0:
-                        prev_month += 12
-                        prev_year -= 1
-                    
-                    prev_stable = f"stable{prev_year:02d}{prev_month:02d}"
-                    if prev_stable in self.branch_info:
-                        branches_to_check.insert(0, prev_stable)  # Insert at beginning to process stable first
-                        print(f"    Including PRs from {prev_stable} for unstable branch {branch}")
+                    if not stable_already_used:
+                        branches_to_check.insert(0, parent_stable)  # Insert at beginning to process stable first
+                        print(f"    Including PRs from {parent_stable} for unstable branch {branch}")
+                    else:
+                        print(f"    Skipping PRs from {parent_stable} (already used by earlier release)")
             
             # Process all branches (stable + unstable if applicable)
             for check_branch in branches_to_check:
