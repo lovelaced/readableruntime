@@ -782,17 +782,40 @@ class BranchAwareSDKMapper:
                 sdk_branch = tag_info['branch']
                 branch_prs = len(self.branch_info[sdk_branch]['prs']) if sdk_branch in self.branch_info else 0
                 
+                # For unstable branches, we need to count PRs from both stable and unstable
+                total_branch_prs = branch_prs
+                
+                if 'unstable' in sdk_branch:
+                    # Find corresponding stable branch
+                    match = re.match(r'unstable(\d{2})(\d{2})', sdk_branch)
+                    if match:
+                        year = int(match.group(1))
+                        month = int(match.group(2))
+                        
+                        # Calculate the previous stable branch (3 months earlier)
+                        prev_month = month - 3
+                        prev_year = year
+                        if prev_month <= 0:
+                            prev_month += 12
+                            prev_year -= 1
+                        
+                        prev_stable = f"stable{prev_year:02d}{prev_month:02d}"
+                        if prev_stable in self.branch_info:
+                            stable_prs = len(self.branch_info[prev_stable]['prs'])
+                            total_branch_prs += stable_prs
+                            print(f"    Including {stable_prs} PRs from {prev_stable}")
+                
                 self.runtime_mappings[runtime_tag] = {
                     'sdk_tag': best_match,
                     'sdk_branch': sdk_branch,
                     'sdk_date': tag_info['date'],
                     'package_versions': runtime_pkgs,
-                    'branch_pr_count': branch_prs
+                    'branch_pr_count': total_branch_prs
                 }
                 
                 print(f"  Matched to SDK: {best_match}")
                 print(f"    Branch: {sdk_branch}")
-                print(f"    Branch PRs: {branch_prs}")
+                print(f"    Total Branch PRs: {total_branch_prs}")
                 
                 # Debug: Show package versions that led to this match
                 print(f"    Package versions matched:")
@@ -1038,41 +1061,67 @@ class BranchAwareSDKMapper:
             branch = info['sdk_branch']
             sdk_date = info['sdk_date']
             
-            if branch in self.branch_info:
-                # Get all PRs on this branch
-                branch_prs = self.branch_info[branch]['prs']
-                
-                # Only include PRs that:
-                # 1. Haven't been assigned to an earlier release
-                # 2. Were merged before this SDK tag date
-                for pr_num in branch_prs:
-                    if pr_num not in assigned_prs:
-                        # Check if PR was merged before this SDK tag
-                        pr_details = self.pr_cache.get(pr_num, {})
-                        merged_at = pr_details.get('merged_at')
-                        
-                        if merged_at:
-                            merged_dt = self._parse_date(merged_at)
-                            sdk_dt = self._parse_date(sdk_date)
-                            if merged_dt < sdk_dt:  # Use < instead of <= to avoid boundary issues
-                                # Include PR metadata in the release mapping
-                                release_info = {
-                                    'runtime_version': runtime_tag.lstrip('v'),
-                                    'sdk_version': info['sdk_tag'],
-                                    'sdk_branch': branch
-                                }
-                                
-                                # Add PR type info from cache
-                                if pr_details.get('is_backport'):
-                                    release_info['is_backport'] = True
-                                    release_info['original_pr'] = pr_details.get('original_pr')
-                                if pr_details.get('from_master'):
-                                    release_info['from_master'] = True
-                                if pr_details.get('is_direct'):
-                                    release_info['is_direct'] = True
+            # For unstable branches, we need to include PRs from the corresponding stable branch too
+            branches_to_check = [branch]
+            
+            # If this is an unstable branch, also include PRs from the corresponding stable branch
+            if 'unstable' in branch:
+                # Extract the year/month from unstable branch (e.g., unstable2507 -> 2507)
+                match = re.match(r'unstable(\d{2})(\d{2})', branch)
+                if match:
+                    year = int(match.group(1))
+                    month = int(match.group(2))
+                    
+                    # Calculate the previous stable branch (3 months earlier)
+                    prev_month = month - 3
+                    prev_year = year
+                    if prev_month <= 0:
+                        prev_month += 12
+                        prev_year -= 1
+                    
+                    prev_stable = f"stable{prev_year:02d}{prev_month:02d}"
+                    if prev_stable in self.branch_info:
+                        branches_to_check.insert(0, prev_stable)  # Insert at beginning to process stable first
+                        print(f"    Including PRs from {prev_stable} for unstable branch {branch}")
+            
+            # Process all branches (stable + unstable if applicable)
+            for check_branch in branches_to_check:
+                if check_branch in self.branch_info:
+                    # Get all PRs on this branch
+                    branch_prs = self.branch_info[check_branch]['prs']
+                    
+                    # Only include PRs that:
+                    # 1. Haven't been assigned to an earlier release
+                    # 2. Were merged before this SDK tag date
+                    for pr_num in branch_prs:
+                        if pr_num not in assigned_prs:
+                            # Check if PR was merged before this SDK tag
+                            pr_details = self.pr_cache.get(pr_num, {})
+                            merged_at = pr_details.get('merged_at')
+                            
+                            if merged_at:
+                                merged_dt = self._parse_date(merged_at)
+                                sdk_dt = self._parse_date(sdk_date)
+                                if merged_dt < sdk_dt:  # Use < instead of <= to avoid boundary issues
+                                    # Include PR metadata in the release mapping
+                                    release_info = {
+                                        'runtime_version': runtime_tag.lstrip('v'),
+                                        'sdk_version': info['sdk_tag'],
+                                        'sdk_branch': branch,  # Keep original branch for tracking
+                                        'source_branch': check_branch  # Track where PR actually came from
+                                    }
                                     
-                                pr_to_releases[str(pr_num)].append(release_info)
-                                assigned_prs.add(pr_num)
+                                    # Add PR type info from cache
+                                    if pr_details.get('is_backport'):
+                                        release_info['is_backport'] = True
+                                        release_info['original_pr'] = pr_details.get('original_pr')
+                                    if pr_details.get('from_master'):
+                                        release_info['from_master'] = True
+                                    if pr_details.get('is_direct'):
+                                        release_info['is_direct'] = True
+                                        
+                                    pr_to_releases[str(pr_num)].append(release_info)
+                                    assigned_prs.add(pr_num)
         
         return dict(pr_to_releases)
     
