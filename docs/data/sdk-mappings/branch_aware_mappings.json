@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-08-26T17:24:36.531439Z",
+  "generated_at": "2025-08-26T17:49:09.389734Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -12,6 +12,9 @@
         "sp-runtime": "39.0.5"
       },
       "branch_pr_count": 101,
+      "included_branches": [
+        "stable2409"
+      ],
       "actual_pr_count": 72
     },
     "v1.4.1": {
@@ -24,6 +27,9 @@
         "sp-runtime": "39.0.5"
       },
       "branch_pr_count": 101,
+      "included_branches": [
+        "stable2409"
+      ],
       "actual_pr_count": 7
     },
     "v1.4.2": {
@@ -36,6 +42,9 @@
         "sp-runtime": "39.0.5"
       },
       "branch_pr_count": 101,
+      "included_branches": [
+        "stable2409"
+      ],
       "actual_pr_count": 0
     },
     "v1.4.3": {
@@ -48,6 +57,9 @@
         "sp-runtime": "39.0.5"
       },
       "branch_pr_count": 101,
+      "included_branches": [
+        "stable2409"
+      ],
       "actual_pr_count": 3
     },
     "v1.5.0": {
@@ -60,6 +72,9 @@
         "sp-runtime": "40.1.0"
       },
       "branch_pr_count": 506,
+      "included_branches": [
+        "stable2412"
+      ],
       "actual_pr_count": 451
     },
     "v1.5.1": {
@@ -72,6 +87,9 @@
         "sp-runtime": "40.1.0"
       },
       "branch_pr_count": 506,
+      "included_branches": [
+        "stable2412"
+      ],
       "actual_pr_count": 26
     },
     "v1.6.0": {
@@ -84,6 +102,9 @@
         "sp-runtime": "41.1.0"
       },
       "branch_pr_count": 768,
+      "included_branches": [
+        "stable2503"
+      ],
       "actual_pr_count": 727
     },
     "v1.6.1": {
@@ -96,6 +117,9 @@
         "sp-runtime": "41.1.0"
       },
       "branch_pr_count": 768,
+      "included_branches": [
+        "stable2503"
+      ],
       "actual_pr_count": 16
     },
     "v1.7.0": {
@@ -107,8 +131,12 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 25,
-      "actual_pr_count": 24
+      "branch_pr_count": 323,
+      "included_branches": [
+        "unstable2507",
+        "stable2506"
+      ],
+      "actual_pr_count": 317
     }
   },
   "sdk_tags": {
