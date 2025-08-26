@@ -110,6 +110,34 @@ class BranchAwareSDKMapper:
         
         print(f"\nTotal stable tags found: {len(tags)}")
         
+        # Also fetch branches to get unstable branches
+        print("\nFetching SDK branches...")
+        branches = []
+        page = 1
+        
+        while page <= 5:
+            url = "https://api.github.com/repos/paritytech/polkadot-sdk/branches"
+            data = self._make_request(url, params={"per_page": 100, "page": page})
+            
+            if not data:
+                break
+            
+            # Look for stable and unstable branches
+            relevant_branches = [b for b in data if re.match(r'^(stable|unstable)\d{4}$', b['name'])]
+            branches.extend(relevant_branches)
+            
+            unstable_branches = [b['name'] for b in relevant_branches if 'unstable' in b['name']]
+            if unstable_branches:
+                print(f"  Page {page}: found unstable branches: {unstable_branches}")
+            
+            print(f"  Page {page}: found {len(relevant_branches)} relevant branches")
+            
+            if len(data) < 100:
+                break
+            page += 1
+        
+        print(f"\nTotal branches found: {len(branches)}")
+        
         # Analyze each tag
         print("\nAnalyzing tags...")
         for i, tag_data in enumerate(tags):
@@ -159,7 +187,55 @@ class BranchAwareSDKMapper:
                 }
             self.branch_info[branch]['tags'].append(normalized)
         
-        print(f"\nBuilt database with {len(self.sdk_tags)} SDK tags")
+        # Now analyze branches (especially unstable ones that don't have tags)
+        print("\nAnalyzing branches...")
+        for i, branch_data in enumerate(branches):
+            branch_name = branch_data['name']
+            
+            if i % 10 == 0:
+                print(f"  Progress: {i}/{len(branches)} branches")
+            
+            # Skip if we already have this from tags
+            if branch_name in self.sdk_tags:
+                continue
+            
+            # Get package versions from the branch
+            pkg_versions = self._get_package_versions(branch_name)
+            
+            # Debug unstable branches
+            if 'unstable' in branch_name:
+                print(f"    Branch {branch_name}: package versions = {pkg_versions}")
+            
+            if pkg_versions:
+                # Get commit info for the branch
+                commit_sha = branch_data['commit']['sha']
+                commit_url = f"https://api.github.com/repos/paritytech/polkadot-sdk/commits/{commit_sha}"
+                commit_data = self._make_request(commit_url)
+                
+                if commit_data:
+                    # Store branch info like a tag
+                    self.sdk_tags[branch_name] = {
+                        'commit': commit_sha,
+                        'date': commit_data['commit']['committer']['date'],
+                        'branch': branch_name,
+                        'package_versions': pkg_versions
+                    }
+                    
+                    # Map packages to branches
+                    for pkg, ver in pkg_versions.items():
+                        key = f"{pkg}:{ver}"
+                        self.package_to_tags[key].append(branch_name)
+                    
+                    # Track in branch info
+                    if branch_name not in self.branch_info:
+                        self.branch_info[branch_name] = {
+                            'tags': [],
+                            'created_date': commit_data['commit']['committer']['date'],
+                            'base_commit': commit_sha,
+                            'prs': set()
+                        }
+        
+        print(f"\nBuilt database with {len(self.sdk_tags)} SDK tags/branches")
         print(f"Found {len(self.branch_info)} release branches")
         
         # Debug: Show what branches we found
@@ -749,65 +825,8 @@ class BranchAwareSDKMapper:
                     candidates.append(tag)
         
         if not candidates:
-            # Fallback: Find the closest SDK version that could have been the base
-            # This handles cases where the runtime has bumped package versions beyond the SDK release
-            
-            best_match = None
-            best_score = -1
-            best_date = None
-            
-            for tag, tag_info in self.sdk_tags.items():
-                tag_pkgs = tag_info.get('package_versions', {})
-                if not tag_pkgs:
-                    continue
-                
-                # Calculate a score based on how many packages are compatible
-                # A package is compatible if SDK version <= runtime version
-                score = 0
-                compatible = True
-                
-                for pkg in self.tracked_packages:
-                    runtime_ver = runtime_pkgs.get(pkg, '')
-                    tag_ver = tag_pkgs.get(pkg, '')
-                    
-                    if runtime_ver and tag_ver:
-                        # Parse major versions
-                        runtime_major = int(runtime_ver.split('.')[0])
-                        tag_major = int(tag_ver.split('.')[0])
-                        
-                        # SDK version must be <= runtime version (can't downgrade)
-                        if tag_major <= runtime_major:
-                            # Closer versions get higher scores
-                            score += 1.0 / (1 + (runtime_major - tag_major))
-                        else:
-                            # SDK version is too new, can't be the base
-                            compatible = False
-                            break
-                
-                # Only consider compatible SDK versions
-                if compatible and score > best_score:
-                    best_score = score
-                    best_match = tag
-                    best_date = tag_info['date']
-                elif compatible and score == best_score and best_date:
-                    # For equal scores, prefer more recent SDK tag
-                    if tag_info['date'] > best_date:
-                        best_match = tag
-                        best_date = tag_info['date']
-            
-            if best_match and best_score >= 1.5:
-                print(f"    Using closest SDK match: {best_match} (compatibility score: {best_score:.2f})")
-                # Show which packages led to this match
-                tag_pkgs = self.sdk_tags[best_match].get('package_versions', {})
-                for pkg in self.tracked_packages:
-                    runtime_ver = runtime_pkgs.get(pkg, 'N/A')
-                    sdk_ver = tag_pkgs.get(pkg, 'N/A')
-                    print(f"      {pkg}: runtime={runtime_ver}, sdk={sdk_ver}")
-                return best_match
-            elif best_match:
-                print(f"    Best match {best_match} has too low compatibility score: {best_score:.2f} < 1.5")
-                return None
-            
+            # No exact match found
+            print("    No exact package version match found in SDK tags/branches")
             return None
         
         # Count occurrences - the tag that matches most packages wins
