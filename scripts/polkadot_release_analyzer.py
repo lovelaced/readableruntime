@@ -438,7 +438,7 @@ Please provide:
 Please use simple, clear language especially in the non-technical sections. Avoid jargon and explain technical terms when necessary."""
 
         response = self.anthropic_client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-sonnet-4-20250514",
             max_tokens=4000,
             messages=[
                 {"role": "user", "content": prompt}
@@ -457,6 +457,18 @@ Please use simple, clear language especially in the non-technical sections. Avoi
             newer_release, older_release = self.get_latest_releases()
         
         print(f"Analyzing changes between {older_release['tag_name']} and {newer_release['tag_name']}")
+        
+        # Extract SDK versions from Cargo.lock files
+        print("Extracting SDK versions...")
+        newer_cargo_lock = self.github.get_file_content(
+            self.owner, self.repo, "Cargo.lock", newer_release['tag_name']
+        )
+        older_cargo_lock = self.github.get_file_content(
+            self.owner, self.repo, "Cargo.lock", older_release['tag_name']
+        )
+        
+        newer_sdk_version = self.extract_sdk_version_from_cargo_lock(newer_cargo_lock) if newer_cargo_lock else "unknown"
+        older_sdk_version = self.extract_sdk_version_from_cargo_lock(older_cargo_lock) if older_cargo_lock else "unknown"
         
         # Get PRs between releases
         prs = self.get_prs_between_releases(newer_release, older_release)
