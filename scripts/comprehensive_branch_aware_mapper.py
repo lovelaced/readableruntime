@@ -97,6 +97,11 @@ class BranchAwareSDKMapper:
             stable_tags = [t for t in data if re.match(r'^polkadot-stable\d{4}', t['name'])]
             tags.extend(stable_tags)
             
+            # Debug: Show stable2506 tags specifically
+            stable2506_tags = [t['name'] for t in stable_tags if 'stable2506' in t['name']]
+            if stable2506_tags:
+                print(f"  Page {page}: found stable2506 tags: {stable2506_tags}")
+            
             print(f"  Page {page}: found {len(stable_tags)} stable tags")
             
             if len(data) < 100:
@@ -123,6 +128,10 @@ class BranchAwareSDKMapper:
             
             # Get package versions
             pkg_versions = self._get_package_versions(tag_name)
+            
+            # Debug stable2506 tags
+            if 'stable2506' in tag_name:
+                print(f"    Tag {tag_name}: package versions = {pkg_versions}")
             
             # Determine branch
             branch = self._determine_branch(normalized)
@@ -152,6 +161,12 @@ class BranchAwareSDKMapper:
         
         print(f"\nBuilt database with {len(self.sdk_tags)} SDK tags")
         print(f"Found {len(self.branch_info)} release branches")
+        
+        # Debug: Show what branches we found
+        print("\nRelease branches found:")
+        for branch in sorted(self.branch_info.keys()):
+            if branch != "unknown":
+                print(f"  {branch}: {len(self.branch_info[branch]['tags'])} tags")
     
     def _get_package_versions(self, tag: str) -> Dict[str, str]:
         """Get package versions from an SDK tag"""
@@ -640,6 +655,7 @@ class BranchAwareSDKMapper:
             page += 1
         
         print(f"Found {len(runtime_tags)} runtime releases")
+        print(f"Latest releases: {runtime_tags[:5]}")  # Show first 5 (most recent)
         
         # Process releases in reverse order (oldest first)
         for runtime_tag in reversed(runtime_tags):
@@ -651,24 +667,36 @@ class BranchAwareSDKMapper:
                 print(f"  Could not get package versions")
                 continue
             
+            # Debug: Always show package versions for troubleshooting
+            if runtime_tag in ["v1.7.0", "v1.7.1", "v1.7.2"]:  # Latest releases
+                print(f"  Package versions found:")
+                for pkg, ver in runtime_pkgs.items():
+                    print(f"    {pkg}: {ver}")
+            
             # Find best matching SDK tag
             best_match = self._find_best_sdk_match(runtime_pkgs, runtime_tag)
             
             if best_match:
                 tag_info = self.sdk_tags[best_match]
-                branch_prs = len(self.branch_info[tag_info['branch']]['prs'])
+                sdk_branch = tag_info['branch']
+                branch_prs = len(self.branch_info[sdk_branch]['prs']) if sdk_branch in self.branch_info else 0
                 
                 self.runtime_mappings[runtime_tag] = {
                     'sdk_tag': best_match,
-                    'sdk_branch': tag_info['branch'],
+                    'sdk_branch': sdk_branch,
                     'sdk_date': tag_info['date'],
                     'package_versions': runtime_pkgs,
                     'branch_pr_count': branch_prs
                 }
                 
                 print(f"  Matched to SDK: {best_match}")
-                print(f"    Branch: {tag_info['branch']}")
+                print(f"    Branch: {sdk_branch}")
                 print(f"    Branch PRs: {branch_prs}")
+                
+                # Debug: Show package versions that led to this match
+                print(f"    Package versions matched:")
+                for pkg, ver in runtime_pkgs.items():
+                    print(f"      {pkg}: {ver}")
             else:
                 print(f"  No SDK match found")
     
@@ -705,6 +733,13 @@ class BranchAwareSDKMapper:
         
         # Find all possible matches
         candidates = []
+        
+        # Debug for v1.7.0
+        if runtime_tag == "v1.7.0":
+            print(f"    Looking for SDK tags with these package versions:")
+            for pkg, version in runtime_pkgs.items():
+                key = f"{pkg}:{version}"
+                print(f"      {key} -> {self.package_to_tags.get(key, 'NOT FOUND')}")
         
         for pkg, version in runtime_pkgs.items():
             key = f"{pkg}:{version}"
