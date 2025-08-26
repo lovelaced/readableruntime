@@ -203,8 +203,8 @@ class BranchAwareSDKMapper:
             pkg_versions = self._get_package_versions(branch_name)
             
             # Debug unstable branches
-            if 'unstable' in branch_name:
-                print(f"    Branch {branch_name}: package versions = {pkg_versions}")
+            if 'unstable' in branch_name or 'stable2506' in branch_name:
+                print(f"    Processing branch {branch_name}: package versions = {pkg_versions}")
             
             if pkg_versions:
                 # Get commit info for the branch
@@ -276,6 +276,12 @@ class BranchAwareSDKMapper:
         match = re.match(r'stable(\d{4})', tag)
         if match:
             return f"stable{match.group(1)}"
+        
+        # Extract unstable branch pattern
+        match = re.match(r'unstable(\d{4})', tag)
+        if match:
+            return f"unstable{match.group(1)}"
+        
         return "unknown"
     
     def _get_actual_branch_name(self, branch: str) -> Optional[str]:
@@ -810,12 +816,15 @@ class BranchAwareSDKMapper:
         # Find all possible matches
         candidates = []
         
-        # Debug for v1.7.0
-        if runtime_tag == "v1.7.0":
-            print(f"    Looking for SDK tags with these package versions:")
-            for pkg, version in runtime_pkgs.items():
-                key = f"{pkg}:{version}"
-                print(f"      {key} -> {self.package_to_tags.get(key, 'NOT FOUND')}")
+        # Debug: show what we're looking for
+        print(f"    Looking for SDK tags/branches with these package versions:")
+        for pkg, version in runtime_pkgs.items():
+            key = f"{pkg}:{version}"
+            matches = self.package_to_tags.get(key, [])
+            if matches:
+                print(f"      {key} -> {matches}")
+            else:
+                print(f"      {key} -> NOT FOUND")
         
         for pkg, version in runtime_pkgs.items():
             key = f"{pkg}:{version}"
