@@ -22,8 +22,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
     
     - name: Set up Python
       uses: actions/setup-python@v4
@@ -38,7 +36,7 @@ jobs:
     - name: Check for new releases
       id: check_releases
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token }}
         ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       run: |
         # Get the latest release from polkadot-fellows/runtimes
@@ -61,7 +59,7 @@ jobs:
     - name: Analyze new release
       if: steps.check_releases.outputs.needs_update == 'true'
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ github.token }}
         ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       run: |
         LATEST_RELEASE="${{ steps.check_releases.outputs.latest_release }}"
@@ -85,10 +83,8 @@ jobs:
     - name: Commit and push changes
       if: steps.check_releases.outputs.needs_update == 'true'
       run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
+        git config user.name github-actions
+        git config user.email gh-actions@users.noreply.github.com
         git add docs/
-        git commit -m "Add release notes for ${{ steps.check_releases.outputs.latest_release }}"
-        git push
-        
-        echo "New release notes added. GitHub Pages will be automatically deployed by the deploy-pages workflow."
+        git diff --cached --quiet || git commit -m "Add release notes for ${{ steps.check_releases.outputs.latest_release }}" && git push
+      continue-on-error: true  # don't fail if nothing changed

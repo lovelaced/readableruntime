@@ -187,15 +187,27 @@ class PolkadotReleaseAnalyzer:
         
         if match:
             version = match.group(1)
-            # Map to SDK release (simplified - would need proper mapping in production)
-            major_version = version.split('.')[0]
-            version_map = {
-                "15": "stable2407",
-                "16": "stable2409", 
-                "17": "stable2412",
-                "18": "stable2503",
-            }
-            return version_map.get(major_version, f"v{version}")
+            
+            # Try to load SDK mappings if they exist
+            try:
+                from pathlib import Path
+                mappings_path = Path(__file__).parent.parent / 'docs' / 'data' / 'sdk-mappings' / 'sdk_pr_mappings.json'
+                if mappings_path.exists():
+                    with open(mappings_path, 'r') as f:
+                        mappings = json.load(f)
+                    
+                    # Look through runtime_sdk_versions to find a match
+                    # This will be populated by the comprehensive mapper
+                    if 'runtime_sdk_versions' in mappings:
+                        # The comprehensive mapper will have already figured out the SDK version
+                        # We just need to return something identifiable here
+                        pass
+            except:
+                pass
+            
+            # Return the package version as an identifier
+            # The comprehensive mapper will determine the actual SDK stable branch
+            return f"polkadot-primitives-v{version}"
         
         return None
     

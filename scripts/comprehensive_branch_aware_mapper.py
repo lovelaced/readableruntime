@@ -619,12 +619,30 @@ class BranchAwareSDKMapper:
         print("MAPPING RUNTIME RELEASES")  
         print("=" * 80)
         
-        runtime_tags = [
-            "v1.6.1", "v1.6.0", "v1.5.1", "v1.5.0",
-            "v1.4.3", "v1.4.2", "v1.4.1", "v1.4.0"
-        ]
+        # Dynamically fetch runtime releases from GitHub
+        print("Fetching runtime releases from GitHub...")
+        runtime_tags = []
+        page = 1
         
-        for runtime_tag in runtime_tags:
+        while page <= 5:  # Limit to 5 pages to avoid too many old releases
+            url = "https://api.github.com/repos/polkadot-fellows/runtimes/releases"
+            releases = self._make_request(url, params={"per_page": 30, "page": page})
+            
+            if not releases:
+                break
+                
+            for release in releases:
+                if not release.get('prerelease') and not release.get('draft'):
+                    runtime_tags.append(release['tag_name'])
+            
+            if len(releases) < 30:
+                break
+            page += 1
+        
+        print(f"Found {len(runtime_tags)} runtime releases")
+        
+        # Process releases in reverse order (oldest first)
+        for runtime_tag in reversed(runtime_tags):
             print(f"\nAnalyzing {runtime_tag}...")
             
             # Get runtime package versions from Cargo.lock
