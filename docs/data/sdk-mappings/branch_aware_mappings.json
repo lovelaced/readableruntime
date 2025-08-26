@@ -1,7 +1,175 @@
 {
-  "generated_at": "2025-08-26T16:02:41.557153Z",
+  "generated_at": "2025-08-26T16:30:19.929670Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
+    "v1.2.0": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "32.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 263
+    },
+    "v1.2.1": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "32.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.2": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "32.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.3": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "32.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.4": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "32.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.5": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "34.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.6": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "34.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.7": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "34.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.2.8": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "29.0.2",
+        "polkadot-primitives": "8.0.1",
+        "sp-runtime": "34.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.3.0": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "36.0.0",
+        "polkadot-primitives": "14.0.0",
+        "sp-runtime": "38.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.3.1": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "36.0.0",
+        "polkadot-primitives": "14.0.0",
+        "sp-runtime": "38.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.3.2": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "36.0.0",
+        "polkadot-primitives": "14.0.0",
+        "sp-runtime": "38.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.3.3": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "36.0.0",
+        "polkadot-primitives": "14.0.0",
+        "sp-runtime": "38.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
+    "v1.3.4": {
+      "sdk_tag": "stable2506-rc6",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-07-07T05:30:49Z",
+      "package_versions": {
+        "frame-support": "36.0.0",
+        "polkadot-primitives": "14.0.0",
+        "sp-runtime": "38.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 0
+    },
     "v1.4.0": {
       "sdk_tag": "stable2409-4",
       "sdk_branch": "stable2409",
@@ -97,6 +265,18 @@
       },
       "branch_pr_count": 768,
       "actual_pr_count": 16
+    },
+    "v1.7.0": {
+      "sdk_tag": "stable2506-1",
+      "sdk_branch": "stable2506",
+      "sdk_date": "2025-08-18T19:04:11Z",
+      "package_versions": {
+        "frame-support": "42.0.0",
+        "polkadot-primitives": "20.0.0",
+        "sp-runtime": "43.0.0"
+      },
+      "branch_pr_count": 298,
+      "actual_pr_count": 27
     }
   },
   "sdk_tags": {
@@ -1100,6 +1280,6 @@
     "total_sdk_tags": 87,
     "total_branches": 6,
     "total_prs_tracked": 1788,
-    "runtime_releases_mapped": 8
+    "runtime_releases_mapped": 23
   }
 }
