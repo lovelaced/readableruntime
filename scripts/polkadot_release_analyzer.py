@@ -458,17 +458,9 @@ Please use simple, clear language especially in the non-technical sections. Avoi
         
         print(f"Analyzing changes between {older_release['tag_name']} and {newer_release['tag_name']}")
         
-        # Extract SDK versions from Cargo.lock files
-        print("Extracting SDK versions...")
-        newer_cargo_lock = self.github.get_file_content(
-            self.owner, self.repo, "Cargo.lock", newer_release['tag_name']
-        )
-        older_cargo_lock = self.github.get_file_content(
-            self.owner, self.repo, "Cargo.lock", older_release['tag_name']
-        )
-        
-        newer_sdk_version = self.extract_sdk_version_from_cargo_lock(newer_cargo_lock) if newer_cargo_lock else "unknown"
-        older_sdk_version = self.extract_sdk_version_from_cargo_lock(older_cargo_lock) if older_cargo_lock else "unknown"
+        # Set SDK versions to unknown for now - the comprehensive mapper will handle this
+        newer_sdk_version = "unknown"
+        older_sdk_version = "unknown"
         
         # Get PRs between releases
         prs = self.get_prs_between_releases(newer_release, older_release)
