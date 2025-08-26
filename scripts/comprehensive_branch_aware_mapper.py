@@ -110,31 +110,43 @@ class BranchAwareSDKMapper:
         
         print(f"\nTotal stable tags found: {len(tags)}")
         
-        # Also fetch branches to get unstable branches
-        print("\nFetching SDK branches...")
+        # Fetch branches using refs API for better performance
+        print("\nFetching SDK branches using refs API...")
         branches = []
-        page = 1
         
-        while page <= 5:
-            url = "https://api.github.com/repos/paritytech/polkadot-sdk/branches"
-            data = self._make_request(url, params={"per_page": 100, "page": page})
+        # Use refs API to get all branches more efficiently
+        refs_url = "https://api.github.com/repos/paritytech/polkadot-sdk/git/matching-refs/heads/"
+        refs_data = self._make_request(refs_url)
+        
+        if refs_data:
+            print(f"  Found {len(refs_data)} total refs")
             
-            if not data:
-                break
+            # Process refs to find stable and unstable branches
+            for ref in refs_data:
+                ref_name = ref['ref'].replace('refs/heads/', '')
+                
+                # Look for stable and unstable branches
+                if re.match(r'^(polkadot-)?(stable|unstable)\d{4}', ref_name):
+                    branches.append({
+                        'name': ref_name,
+                        'commit': {'sha': ref['object']['sha']}
+                    })
             
-            # Look for stable and unstable branches
-            relevant_branches = [b for b in data if re.match(r'^(stable|unstable)\d{4}$', b['name'])]
-            branches.extend(relevant_branches)
+            # Sort and show what we found
+            stable_branches = sorted([b['name'] for b in branches if 'stable' in b['name']])
+            unstable_branches = sorted([b['name'] for b in branches if 'unstable' in b['name']])
             
-            unstable_branches = [b['name'] for b in relevant_branches if 'unstable' in b['name']]
+            if stable_branches:
+                print(f"  Found {len(stable_branches)} stable branches")
+                print(f"    Recent stable branches: {stable_branches[-5:]}")
+            
             if unstable_branches:
-                print(f"  Page {page}: found unstable branches: {unstable_branches}")
-            
-            print(f"  Page {page}: found {len(relevant_branches)} relevant branches")
-            
-            if len(data) < 100:
-                break
-            page += 1
+                print(f"  Found {len(unstable_branches)} unstable branches")
+                print(f"    All unstable branches: {unstable_branches}")
+            else:
+                print("  No unstable branches found!")
+        else:
+            print("  Failed to fetch refs!")
         
         print(f"\nTotal branches found: {len(branches)}")
         
@@ -272,15 +284,22 @@ class BranchAwareSDKMapper:
     
     def _determine_branch(self, tag: str) -> str:
         """Determine which branch a tag belongs to"""
+        # Remove polkadot- prefix if present
+        cleaned_tag = tag.replace('polkadot-', '')
+        
         # Extract stable branch pattern
-        match = re.match(r'stable(\d{4})', tag)
+        match = re.match(r'stable(\d{4})', cleaned_tag)
         if match:
             return f"stable{match.group(1)}"
         
         # Extract unstable branch pattern
-        match = re.match(r'unstable(\d{4})', tag)
+        match = re.match(r'unstable(\d{4})', cleaned_tag)
         if match:
             return f"unstable{match.group(1)}"
+        
+        # If the tag itself looks like a branch name, return it
+        if re.match(r'^(stable|unstable)\d{4}', tag):
+            return tag
         
         return "unknown"
     
