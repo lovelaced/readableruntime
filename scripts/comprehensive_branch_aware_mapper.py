@@ -795,7 +795,7 @@ class BranchAwareSDKMapper:
                         best_match = tag
                         best_date = tag_info['date']
             
-            if best_match:
+            if best_match and best_score >= 1.5:
                 print(f"    Using closest SDK match: {best_match} (compatibility score: {best_score:.2f})")
                 # Show which packages led to this match
                 tag_pkgs = self.sdk_tags[best_match].get('package_versions', {})
@@ -804,6 +804,9 @@ class BranchAwareSDKMapper:
                     sdk_ver = tag_pkgs.get(pkg, 'N/A')
                     print(f"      {pkg}: runtime={runtime_ver}, sdk={sdk_ver}")
                 return best_match
+            elif best_match:
+                print(f"    Best match {best_match} has too low compatibility score: {best_score:.2f} < 1.5")
+                return None
             
             return None
         
