@@ -749,6 +749,62 @@ class BranchAwareSDKMapper:
                     candidates.append(tag)
         
         if not candidates:
+            # Fallback: Find the closest SDK version that could have been the base
+            # This handles cases where the runtime has bumped package versions beyond the SDK release
+            
+            best_match = None
+            best_score = -1
+            best_date = None
+            
+            for tag, tag_info in self.sdk_tags.items():
+                tag_pkgs = tag_info.get('package_versions', {})
+                if not tag_pkgs:
+                    continue
+                
+                # Calculate a score based on how many packages are compatible
+                # A package is compatible if SDK version <= runtime version
+                score = 0
+                compatible = True
+                
+                for pkg in self.tracked_packages:
+                    runtime_ver = runtime_pkgs.get(pkg, '')
+                    tag_ver = tag_pkgs.get(pkg, '')
+                    
+                    if runtime_ver and tag_ver:
+                        # Parse major versions
+                        runtime_major = int(runtime_ver.split('.')[0])
+                        tag_major = int(tag_ver.split('.')[0])
+                        
+                        # SDK version must be <= runtime version (can't downgrade)
+                        if tag_major <= runtime_major:
+                            # Closer versions get higher scores
+                            score += 1.0 / (1 + (runtime_major - tag_major))
+                        else:
+                            # SDK version is too new, can't be the base
+                            compatible = False
+                            break
+                
+                # Only consider compatible SDK versions
+                if compatible and score > best_score:
+                    best_score = score
+                    best_match = tag
+                    best_date = tag_info['date']
+                elif compatible and score == best_score and best_date:
+                    # For equal scores, prefer more recent SDK tag
+                    if tag_info['date'] > best_date:
+                        best_match = tag
+                        best_date = tag_info['date']
+            
+            if best_match:
+                print(f"    Using closest SDK match: {best_match} (compatibility score: {best_score:.2f})")
+                # Show which packages led to this match
+                tag_pkgs = self.sdk_tags[best_match].get('package_versions', {})
+                for pkg in self.tracked_packages:
+                    runtime_ver = runtime_pkgs.get(pkg, 'N/A')
+                    sdk_ver = tag_pkgs.get(pkg, 'N/A')
+                    print(f"      {pkg}: runtime={runtime_ver}, sdk={sdk_ver}")
+                return best_match
+            
             return None
         
         # Count occurrences - the tag that matches most packages wins
