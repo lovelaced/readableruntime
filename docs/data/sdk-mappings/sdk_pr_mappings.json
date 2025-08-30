@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-29T02:39:20.577335Z",
+  "last_updated": "2025-08-30T02:35:48.837858Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,15 +51,21 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-08-28T10:19:13Z",
-      "total_prs": 320,
-      "new_prs": 320
+      "release_date": "2025-08-29T17:42:45Z",
+      "total_prs": 321,
+      "new_prs": 321
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-08-28T10:19:13Z",
+      "release_date": "2025-08-29T17:42:45Z",
       "total_prs": 0,
       "new_prs": 0
+    },
+    "v1.6.2": {
+      "sdk_version": "stable2503-9",
+      "release_date": "2025-08-28T15:18:18Z",
+      "total_prs": 23,
+      "new_prs": 23
     }
   },
   "pr_details": {
@@ -24594,6 +24600,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9602": {
+      "number": "9602",
+      "title": "Fix `check_hrmp_message_metadata()`",
+      "author": "serban300",
+      "merged_at": "2025-08-29T15:10:59Z",
+      "labels": [
+        "T6-XCM",
+        "T18-zombienet_tests",
+        "A4-backport-unstable2507"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9602",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9608": {
+      "number": "9608",
+      "title": "[unstable2507] Backport #9602",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-08-29T17:42:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9608",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9602
+    },
     "9584": {
       "number": "9584",
       "title": "[unstable2507] Backport #9564",
@@ -37328,6 +37363,251 @@
         "is_direct": true
       }
     ],
+    "9009": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_direct": true
+      }
+    ],
+    "9010": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 8932,
+        "is_direct": true
+      }
+    ],
+    "9030": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 8694,
+        "is_direct": true
+      }
+    ],
+    "9068": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9050,
+        "is_direct": true
+      }
+    ],
+    "9096": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9092,
+        "is_direct": true
+      }
+    ],
+    "9109": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9102,
+        "is_direct": true
+      }
+    ],
+    "9130": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9130,
+        "is_direct": true
+      }
+    ],
+    "9138": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_direct": true
+      }
+    ],
+    "9144": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9139,
+        "is_direct": true
+      }
+    ],
+    "9155": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9094,
+        "is_direct": true
+      }
+    ],
+    "9199": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9137,
+        "is_direct": true
+      }
+    ],
+    "9275": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9264,
+        "is_direct": true
+      }
+    ],
+    "9303": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9179,
+        "is_direct": true
+      }
+    ],
+    "9328": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9281,
+        "is_direct": true
+      }
+    ],
+    "9334": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9325,
+        "is_direct": true
+      }
+    ],
+    "9369": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9355,
+        "is_direct": true
+      }
+    ],
+    "9374": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9354,
+        "is_direct": true
+      }
+    ],
+    "9377": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 8193,
+        "is_direct": true
+      }
+    ],
+    "9404": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9195,
+        "is_direct": true
+      }
+    ],
+    "9408": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_direct": true
+      }
+    ],
+    "9448": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9445,
+        "is_direct": true
+      }
+    ],
+    "9540": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_direct": true
+      }
+    ],
+    "9582": [
+      {
+        "runtime_version": "1.6.2",
+        "sdk_version": "stable2503-9",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "is_backport": true,
+        "original_pr": 9564,
+        "is_direct": true
+      }
+    ],
     "8704": [
       {
         "runtime_version": "1.7.0",
@@ -40246,6 +40526,15 @@
         "is_direct": true
       }
     ],
+    "9524": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9270": [
       {
         "runtime_version": "1.7.0",
@@ -40771,6 +41060,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9608": 9602,
     "9584": 9564,
     "9523": 9514,
     "9493": 9489,
@@ -41718,6 +42008,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9602": [
+      9608
     ],
     "9267": [
       9487
