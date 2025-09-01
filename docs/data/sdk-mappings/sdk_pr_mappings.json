@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-08-31T02:41:57.190494Z",
+  "last_updated": "2025-09-01T02:46:15.259959Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -13777,6 +13777,19 @@
       "is_direct": false,
       "from_master": true
     },
+    "7617": {
+      "number": "7617",
+      "title": "Add stable2503 branch",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-02-20T08:22:57Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "D0-easy"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7617",
+      "branch": "stable2503",
+      "is_direct": true
+    },
     "8186": {
       "number": "8186",
       "title": "[Backport]  Regular version bumps  and prdocs reordering from stable2503 back to master",
@@ -13790,19 +13803,6 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
-    },
-    "7617": {
-      "number": "7617",
-      "title": "Add stable2503 branch",
-      "author": "EgorPopelyaev",
-      "merged_at": "2025-02-20T08:22:57Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "D0-easy"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/7617",
-      "branch": "stable2503",
-      "is_direct": true
     },
     "8109": {
       "number": "8109",
