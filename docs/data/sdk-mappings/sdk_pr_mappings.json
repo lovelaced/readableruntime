@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-02T02:41:43.763134Z",
+  "last_updated": "2025-09-03T02:36:55.818630Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -1695,6 +1695,38 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/5178",
       "branch": "stable2407",
       "is_direct": true
+    },
+    "9544": {
+      "number": "9544",
+      "title": "Disable reserve_asset_transfer for DOT",
+      "author": "franciscoaguirre",
+      "merged_at": "2025-08-28T22:12:34Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2409",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9544",
+      "branch": "stable2509",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9596": {
+      "number": "9596",
+      "title": "[stable2409] Backport #9544",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-02T09:07:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9596",
+      "branch": "stable2409",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9544
     },
     "9354": {
       "number": "9354",
@@ -3721,6 +3753,20 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "9597": {
+      "number": "9597",
+      "title": "[stable2412] Backport #9544",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-02T08:51:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9597",
+      "branch": "stable2412",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9544
     },
     "9568": {
       "number": "9568",
@@ -10958,6 +11004,20 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "9598": {
+      "number": "9598",
+      "title": "[stable2503] Backport #9544",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-02T08:40:11Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9598",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9544
     },
     "9593": {
       "number": "9593",
@@ -20925,23 +20985,33 @@
       "is_direct": false,
       "from_master": true
     },
-    "9544": {
-      "number": "9544",
-      "title": "Disable reserve_asset_transfer for DOT",
-      "author": "franciscoaguirre",
-      "merged_at": "2025-08-28T22:12:34Z",
+    "9451": {
+      "number": "9451",
+      "title": "Call SingleBlockMigrations from frame_system::Config on try_on_runtime_upgrade",
+      "author": "RomarQ",
+      "merged_at": "2025-09-02T11:24:28Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-stable2409",
-        "A4-backport-stable2412",
-        "A4-backport-stable2503",
         "A4-backport-stable2506",
         "A4-backport-unstable2507"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/9544",
-      "branch": "stable2509",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9451",
+      "branch": "master",
       "is_direct": false,
       "from_master": true
+    },
+    "9623": {
+      "number": "9623",
+      "title": "[stable2506] Backport #9451",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-02T12:54:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9623",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9451
     },
     "9599": {
       "number": "9599",
@@ -20956,6 +21026,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9544
+    },
+    "9583": {
+      "number": "9583",
+      "title": "[stable2506] Backport #9564",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-02T10:49:52Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9583",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9564
     },
     "9514": {
       "number": "9514",
@@ -42225,15 +42309,6 @@
         "from_master": true
       }
     ],
-    "8559": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "stable2506",
-        "from_master": true
-      }
-    ],
     "9072": [
       {
         "runtime_version": "1.7.0",
@@ -42243,6 +42318,15 @@
         "is_backport": true,
         "original_pr": 8839,
         "is_direct": true
+      }
+    ],
+    "8559": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "from_master": true
       }
     ],
     "9077": [
@@ -42435,7 +42519,7 @@
         "is_direct": true
       }
     ],
-    "8599": [
+    "8600": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
@@ -42444,7 +42528,7 @@
         "from_master": true
       }
     ],
-    "8600": [
+    "8599": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
@@ -43402,6 +43486,7 @@
     "5248": 4812,
     "5247": 4791,
     "5123": 5103,
+    "9596": 9544,
     "9372": 9354,
     "9365": 9355,
     "9301": 9179,
@@ -43491,6 +43576,7 @@
     "5651": 5644,
     "5634": 5632,
     "5604": 5581,
+    "9597": 9544,
     "9403": 9195,
     "9373": 9354,
     "9367": 9355,
@@ -43603,6 +43689,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "9598": 9544,
     "9582": 9564,
     "9448": 9445,
     "9404": 9195,
@@ -43713,7 +43800,9 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "9623": 9451,
     "9599": 9544,
+    "9583": 9564,
     "9522": 9514,
     "9519": 9516,
     "9492": 9489,
@@ -44027,6 +44116,12 @@
     ],
     "5103": [
       5123
+    ],
+    "9544": [
+      9596,
+      9597,
+      9598,
+      9599
     ],
     "9354": [
       9372,
@@ -44433,6 +44528,7 @@
     ],
     "9564": [
       9582,
+      9583,
       9584
     ],
     "9445": [
@@ -44638,8 +44734,8 @@
     "7670": [
       7675
     ],
-    "9544": [
-      9599
+    "9451": [
+      9623
     ],
     "9514": [
       9522,
