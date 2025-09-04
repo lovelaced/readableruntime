@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-03T02:36:55.818630Z",
+  "last_updated": "2025-09-04T02:35:46.649418Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-01T15:31:49Z",
-      "total_prs": 324,
-      "new_prs": 324
+      "release_date": "2025-09-03T11:25:41Z",
+      "total_prs": 327,
+      "new_prs": 327
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-01T15:31:49Z",
+      "release_date": "2025-09-03T11:25:41Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -27509,6 +27509,20 @@
       "is_backport": true,
       "original_pr": 9602
     },
+    "9600": {
+      "number": "9600",
+      "title": "[unstable2507] Backport #9544",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-03T11:25:41Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9600",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9544
+    },
     "9584": {
       "number": "9584",
       "title": "[unstable2507] Backport #9564",
@@ -42309,6 +42323,17 @@
         "from_master": true
       }
     ],
+    "9583": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 9564,
+        "is_direct": true
+      }
+    ],
     "9072": [
       {
         "runtime_version": "1.7.0",
@@ -42516,6 +42541,17 @@
         "source_branch": "stable2506",
         "is_backport": true,
         "original_pr": 9102,
+        "is_direct": true
+      }
+    ],
+    "9623": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 9451,
         "is_direct": true
       }
     ],
@@ -43166,6 +43202,15 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9604,
+        "is_direct": true
+      }
+    ],
+    "9615": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
         "is_direct": true
       }
     ],
@@ -43854,6 +43899,7 @@
     "8815": 8755,
     "9612": 9604,
     "9608": 9602,
+    "9600": 9544,
     "9584": 9564,
     "9523": 9514,
     "9493": 9489,
@@ -44121,7 +44167,8 @@
       9596,
       9597,
       9598,
-      9599
+      9599,
+      9600
     ],
     "9354": [
       9372,
