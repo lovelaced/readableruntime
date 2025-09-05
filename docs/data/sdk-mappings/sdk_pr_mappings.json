@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-04T02:35:46.649418Z",
+  "last_updated": "2025-09-05T02:38:23.462966Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-03T11:25:41Z",
-      "total_prs": 327,
-      "new_prs": 327
+      "release_date": "2025-09-04T23:00:02Z",
+      "total_prs": 330,
+      "new_prs": 330
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-03T11:25:41Z",
+      "release_date": "2025-09-04T23:00:02Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -20985,6 +20985,46 @@
       "is_direct": false,
       "from_master": true
     },
+    "9649": {
+      "number": "9649",
+      "title": "[stable2506] Post crates release stable2506-2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-04T19:11:00Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9649",
+      "branch": "stable2506",
+      "is_direct": true
+    },
+    "9581": {
+      "number": "9581",
+      "title": "fix: parachain informant",
+      "author": "sistemd",
+      "merged_at": "2025-09-03T11:29:21Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2506"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9581",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9634": {
+      "number": "9634",
+      "title": "[stable2506] Backport #9581",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-04T08:18:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9634",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9581
+    },
     "9451": {
       "number": "9451",
       "title": "Call SingleBlockMigrations from frame_system::Config on try_on_runtime_upgrade",
@@ -27468,6 +27508,20 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9624": {
+      "number": "9624",
+      "title": "[unstable2507] Backport #9451",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-04T23:00:03Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9624",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9451
     },
     "9615": {
       "number": "9615",
@@ -42591,6 +42645,17 @@
         "from_master": true
       }
     ],
+    "9634": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 9581,
+        "is_direct": true
+      }
+    ],
     "8611": [
       {
         "runtime_version": "1.7.0",
@@ -42688,6 +42753,15 @@
         "sdk_branch": "unstable2507",
         "source_branch": "stable2506",
         "from_master": true
+      }
+    ],
+    "9649": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
       }
     ],
     "8630": [
@@ -43150,6 +43224,17 @@
         "sdk_branch": "unstable2507",
         "source_branch": "stable2506",
         "from_master": true
+      }
+    ],
+    "9600": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9544,
+        "is_direct": true
       }
     ],
     "9475": [
@@ -43845,6 +43930,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "9634": 9581,
     "9623": 9451,
     "9599": 9544,
     "9583": 9564,
@@ -43897,6 +43983,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9624": 9451,
     "9612": 9604,
     "9608": 9602,
     "9600": 9544,
@@ -44781,8 +44868,12 @@
     "7670": [
       7675
     ],
+    "9581": [
+      9634
+    ],
     "9451": [
-      9623
+      9623,
+      9624
     ],
     "9514": [
       9522,
