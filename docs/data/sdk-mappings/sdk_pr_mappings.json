@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-07T02:40:46.579850Z",
+  "last_updated": "2025-09-08T02:42:21.435880Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-05T18:23:31Z",
-      "total_prs": 337,
-      "new_prs": 337
+      "release_date": "2025-09-07T09:47:38Z",
+      "total_prs": 338,
+      "new_prs": 338
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-05T18:23:31Z",
+      "release_date": "2025-09-07T09:47:38Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -1314,19 +1314,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 5581
-    },
-    "5466": {
-      "number": "5466",
-      "title": "frame-omni-bencher maintenance",
-      "author": "ggwpez",
-      "merged_at": "2024-08-27T10:35:20Z",
-      "labels": [
-        "T1-FRAME"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/5466",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "5524": {
       "number": "5524",
@@ -27582,6 +27569,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9659": {
+      "number": "9659",
+      "title": "staking-async: prevent manual application of cancelled slashes",
+      "author": "sigurpol",
+      "merged_at": "2025-09-07T06:57:25Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9659",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9666": {
+      "number": "9666",
+      "title": "[unstable2507] Backport #9659",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-07T09:47:38Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9666",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9659
+    },
     "9656": {
       "number": "9656",
       "title": "[unstable2507] Fix failing cargo-check-benches job",
@@ -28104,6 +28120,19 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "5466": {
+      "number": "5466",
+      "title": "frame-omni-bencher maintenance",
+      "author": "ggwpez",
+      "merged_at": "2024-08-27T10:35:20Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5466",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
     }
   },
   "pr_to_releases": {
@@ -43657,6 +43686,17 @@
         "is_direct": true
       }
     ],
+    "9654": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9632,
+        "is_direct": true
+      }
+    ],
     "9270": [
       {
         "runtime_version": "1.7.0",
@@ -44212,6 +44252,7 @@
     "8815": 8755,
     "9655": 9632,
     "9653": 9641,
+    "9666": 9659,
     "9654": 9632,
     "9652": 9641,
     "9624": 9451,
@@ -45192,6 +45233,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "9659": [
+      9666
     ],
     "9604": [
       9612
