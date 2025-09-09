@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-08T02:42:21.435880Z",
+  "last_updated": "2025-09-09T02:40:28.893889Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-07T09:47:38Z",
-      "total_prs": 338,
-      "new_prs": 338
+      "release_date": "2025-09-08T16:54:05Z",
+      "total_prs": 339,
+      "new_prs": 339
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-07T09:47:38Z",
+      "release_date": "2025-09-08T16:54:05Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -1314,6 +1314,19 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 5581
+    },
+    "5466": {
+      "number": "5466",
+      "title": "frame-omni-bencher maintenance",
+      "author": "ggwpez",
+      "merged_at": "2024-08-27T10:35:20Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/5466",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
     },
     "5524": {
       "number": "5524",
@@ -24775,6 +24788,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9659": {
+      "number": "9659",
+      "title": "staking-async: prevent manual application of cancelled slashes",
+      "author": "sigurpol",
+      "merged_at": "2025-09-07T06:57:25Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9659",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9667": {
+      "number": "9667",
+      "title": "[stable2509] Backport #9659",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-08T07:09:03Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9667",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9659
+    },
     "9632": {
       "number": "9632",
       "title": "staking-async: implement lazy era pruning extrinsic",
@@ -27569,20 +27611,17 @@
       "is_direct": false,
       "from_master": true
     },
-    "9659": {
-      "number": "9659",
-      "title": "staking-async: prevent manual application of cancelled slashes",
-      "author": "sigurpol",
-      "merged_at": "2025-09-07T06:57:25Z",
+    "9675": {
+      "number": "9675",
+      "title": "[unstable2507] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-08T16:54:06Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/9659",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9675",
+      "branch": "unstable2507",
+      "is_direct": true
     },
     "9666": {
       "number": "9666",
@@ -28120,19 +28159,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
-    },
-    "5466": {
-      "number": "5466",
-      "title": "frame-omni-bencher maintenance",
-      "author": "ggwpez",
-      "merged_at": "2024-08-27T10:35:20Z",
-      "labels": [
-        "T1-FRAME"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/5466",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     }
   },
   "pr_to_releases": {
@@ -43739,6 +43765,17 @@
         "is_direct": true
       }
     ],
+    "9666": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9659,
+        "is_direct": true
+      }
+    ],
     "9549": [
       {
         "runtime_version": "1.7.0",
@@ -44250,6 +44287,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9667": 9659,
     "9655": 9632,
     "9653": 9641,
     "9666": 9659,
@@ -45230,12 +45268,13 @@
     "8820": [
       8822
     ],
+    "9659": [
+      9667,
+      9666
+    ],
     "9632": [
       9655,
       9654
-    ],
-    "9659": [
-      9666
     ],
     "9604": [
       9612
