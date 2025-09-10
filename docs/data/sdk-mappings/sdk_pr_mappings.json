@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-09T02:40:28.893889Z",
+  "last_updated": "2025-09-10T02:36:11.704376Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -22243,6 +22243,19 @@
       "is_backport": true,
       "original_pr": 8755
     },
+    "9676": {
+      "number": "9676",
+      "title": "[backport] Regular version bumps from the stable2506-2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-09T06:35:25Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9676",
+      "branch": "stable2506",
+      "is_direct": true
+    },
     "9529": {
       "number": "9529",
       "title": "[Backport] Version bumps and prdoc reordering from stable2506-1",
@@ -24788,6 +24801,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "9688": {
+      "number": "9688",
+      "title": "[stable2509] Move prdocs to release folder in stable2509",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-09T14:37:37Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9688",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "9659": {
       "number": "9659",
       "title": "staking-async: prevent manual application of cancelled slashes",
@@ -24816,6 +24841,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9659
+    },
+    "9002": {
+      "number": "9002",
+      "title": "Forward `CoreInfo` via an digest to the runtime",
+      "author": "bkchr",
+      "merged_at": "2025-09-05T16:05:32Z",
+      "labels": [
+        "T0-node",
+        "T9-cumulus",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9002",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9661": {
+      "number": "9661",
+      "title": "[stable2509] Backport #9002",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-09T13:34:08Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9661",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9002
     },
     "9632": {
       "number": "9632",
@@ -44288,6 +44342,7 @@
     "8822": 8820,
     "8815": 8755,
     "9667": 9659,
+    "9661": 9002,
     "9655": 9632,
     "9653": 9641,
     "9666": 9659,
@@ -45271,6 +45326,9 @@
     "9659": [
       9667,
       9666
+    ],
+    "9002": [
+      9661
     ],
     "9632": [
       9655,
