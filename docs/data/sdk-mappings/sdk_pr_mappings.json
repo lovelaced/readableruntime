@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-10T02:36:11.704376Z",
+  "last_updated": "2025-09-11T02:37:57.173738Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24801,6 +24801,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9619": {
+      "number": "9619",
+      "title": "[AHM/Staking/VMP] Paginated Offence Reports + Retries for Validator Set",
+      "author": "kianenigma",
+      "merged_at": "2025-09-10T07:57:14Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9619",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9697": {
+      "number": "9697",
+      "title": "[stable2509] Backport #9619",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-10T08:54:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9697",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9619
+    },
     "9688": {
       "number": "9688",
       "title": "[stable2509] Move prdocs to release folder in stable2509",
@@ -44341,6 +44370,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9697": 9619,
     "9667": 9659,
     "9661": 9002,
     "9655": 9632,
@@ -45322,6 +45352,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9619": [
+      9697
     ],
     "9659": [
       9667,
