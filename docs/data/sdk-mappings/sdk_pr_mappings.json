@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-11T02:37:57.173738Z",
+  "last_updated": "2025-09-12T02:36:35.563818Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24801,6 +24801,132 @@
       "is_direct": false,
       "from_master": true
     },
+    "9684": {
+      "number": "9684",
+      "title": "ci: update forklift in ci image",
+      "author": "alvicsam",
+      "merged_at": "2025-09-09T13:51:52Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9684",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9709": {
+      "number": "9709",
+      "title": "[stable2509] Backport #9684",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-11T09:28:30Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9709",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9684
+    },
+    "9708": {
+      "number": "9708",
+      "title": "[stable2509] Use stable2509 branch as baseline for the benches comparison",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-11T10:10:06Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9708",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "9703": {
+      "number": "9703",
+      "title": "Cumulus: adjust authorship duration",
+      "author": "sandreim",
+      "merged_at": "2025-09-10T19:55:31Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9703",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9706": {
+      "number": "9706",
+      "title": "[stable2509] Backport #9703",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-11T07:54:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9706",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9703
+    },
+    "9677": {
+      "number": "9677",
+      "title": "Update elastic scaling documentation",
+      "author": "sandreim",
+      "merged_at": "2025-09-10T17:31:13Z",
+      "labels": [
+        "T11-documentation",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9677",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9704": {
+      "number": "9704",
+      "title": "[stable2509] Backport #9677",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-11T08:43:54Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9704",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9677
+    },
+    "9700": {
+      "number": "9700",
+      "title": "[Release|CI/CD] Fix release flows",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-10T14:20:13Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9700",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9702": {
+      "number": "9702",
+      "title": "[stable2509] Backport #9700",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-11T12:11:10Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9702",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9700
+    },
     "9619": {
       "number": "9619",
       "title": "[AHM/Staking/VMP] Paginated Offence Reports + Retries for Validator Set",
@@ -44370,6 +44496,10 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9709": 9684,
+    "9706": 9703,
+    "9704": 9677,
+    "9702": 9700,
     "9697": 9619,
     "9667": 9659,
     "9661": 9002,
@@ -45352,6 +45482,18 @@
     ],
     "8820": [
       8822
+    ],
+    "9684": [
+      9709
+    ],
+    "9703": [
+      9706
+    ],
+    "9677": [
+      9704
+    ],
+    "9700": [
+      9702
     ],
     "9619": [
       9697
