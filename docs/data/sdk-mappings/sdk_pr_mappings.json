@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-12T02:36:35.563818Z",
+  "last_updated": "2025-09-13T02:32:42.434684Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-08T16:54:05Z",
-      "total_prs": 339,
-      "new_prs": 339
+      "release_date": "2025-09-12T11:20:37Z",
+      "total_prs": 341,
+      "new_prs": 341
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-08T16:54:05Z",
+      "release_date": "2025-09-12T11:20:37Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -24801,6 +24801,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "9721": {
+      "number": "9721",
+      "title": "staking-async: handle uninitialized state in try-runtime checks",
+      "author": "sigurpol",
+      "merged_at": "2025-09-12T09:47:26Z",
+      "labels": [
+        "T2-pallets",
+        "T10-tests",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9721",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9727": {
+      "number": "9727",
+      "title": "[stable2509] Backport #9721",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-12T11:20:25Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9727",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9721
+    },
     "9684": {
       "number": "9684",
       "title": "ci: update forklift in ci image",
@@ -27819,6 +27849,20 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9726": {
+      "number": "9726",
+      "title": "[unstable2507] Backport #9721",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-12T11:20:38Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9726",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9721
     },
     "9675": {
       "number": "9675",
@@ -43331,6 +43375,15 @@
         "from_master": true
       }
     ],
+    "9676": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
+      }
+    ],
     "8652": [
       {
         "runtime_version": "1.7.0",
@@ -43985,6 +44038,15 @@
         "is_direct": true
       }
     ],
+    "9675": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9549": [
       {
         "runtime_version": "1.7.0",
@@ -44496,6 +44558,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9727": 9721,
     "9709": 9684,
     "9706": 9703,
     "9704": 9677,
@@ -44505,6 +44568,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9726": 9721,
     "9666": 9659,
     "9654": 9632,
     "9652": 9641,
@@ -45482,6 +45546,10 @@
     ],
     "8820": [
       8822
+    ],
+    "9721": [
+      9727,
+      9726
     ],
     "9684": [
       9709
