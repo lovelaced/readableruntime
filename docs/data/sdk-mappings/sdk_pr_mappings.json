@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-15T02:41:37.724748Z",
+  "last_updated": "2025-09-16T02:36:26.114877Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-12T11:20:37Z",
-      "total_prs": 341,
-      "new_prs": 341
+      "release_date": "2025-09-15T12:00:07Z",
+      "total_prs": 342,
+      "new_prs": 342
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-12T11:20:37Z",
+      "release_date": "2025-09-15T12:00:07Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -77,7 +77,6 @@
       "labels": [
         "T6-XCM",
         "T2-pallets",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -108,7 +107,6 @@
       "labels": [
         "T2-pallets",
         "T12-benchmarks",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -138,7 +136,6 @@
       "merged_at": "2025-04-09T14:36:11Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -1696,6 +1693,35 @@
       "branch": "stable2407",
       "is_direct": true
     },
+    "9731": {
+      "number": "9731",
+      "title": "Simulate `rank_to_votes` in `pallet-ranked-collective` benchmark.",
+      "author": "Doordashcon",
+      "merged_at": "2025-09-15T09:11:18Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9731",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9737": {
+      "number": "9737",
+      "title": "[stable2409] Backport #9731",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-15T12:26:39Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9737",
+      "branch": "stable2409",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9731
+    },
     "9544": {
       "number": "9544",
       "title": "Disable reserve_asset_transfer for DOT",
@@ -1703,7 +1729,6 @@
       "merged_at": "2025-08-28T22:12:34Z",
       "labels": [
         "T6-XCM",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
@@ -1735,7 +1760,6 @@
       "merged_at": "2025-07-30T06:30:39Z",
       "labels": [
         "T12-benchmarks",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
@@ -1767,7 +1791,6 @@
       "merged_at": "2025-07-29T13:08:38Z",
       "labels": [
         "T17-primitives",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
@@ -1800,7 +1823,6 @@
       "merged_at": "2025-07-24T06:29:42Z",
       "labels": [
         "T6-XCM",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
@@ -1832,7 +1854,6 @@
       "merged_at": "2025-07-14T20:04:21Z",
       "labels": [
         "T6-XCM",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
@@ -1864,7 +1885,6 @@
       "merged_at": "2025-07-09T13:04:21Z",
       "labels": [
         "T6-XCM",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
@@ -1896,7 +1916,6 @@
       "merged_at": "2025-06-30T08:21:10Z",
       "labels": [
         "T2-pallets",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506"
@@ -1928,7 +1947,6 @@
       "labels": [
         "T0-node",
         "T8-polkadot",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503",
         "A4-backport-stable2506"
@@ -1959,7 +1977,6 @@
       "merged_at": "2025-05-27T16:20:47Z",
       "labels": [
         "T9-cumulus",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -2017,7 +2034,6 @@
       "merged_at": "2025-05-06T08:45:43Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -2060,7 +2076,6 @@
       "merged_at": "2025-04-25T18:38:26Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -2118,7 +2133,6 @@
       "labels": [
         "T6-XCM",
         "T12-benchmarks",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -2148,7 +2162,6 @@
       "merged_at": "2025-03-11T10:42:21Z",
       "labels": [
         "T6-XCM",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -13898,7 +13911,6 @@
       "merged_at": "2025-03-31T10:13:38Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2409",
         "A4-backport-stable2412",
         "A4-backport-stable2503"
       ],
@@ -27849,6 +27861,18 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9735": {
+      "number": "9735",
+      "title": "[unstable2507] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-15T12:00:07Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9735",
+      "branch": "unstable2507",
+      "is_direct": true
     },
     "9726": {
       "number": "9726",
@@ -44132,6 +44156,17 @@
         "original_pr": 9463,
         "is_direct": true
       }
+    ],
+    "9726": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9721,
+        "is_direct": true
+      }
     ]
   },
   "backport_mapping": {
@@ -44190,6 +44225,7 @@
     "5248": 4812,
     "5247": 4791,
     "5123": 5103,
+    "9737": 9731,
     "9596": 9544,
     "9372": 9354,
     "9365": 9355,
@@ -44840,6 +44876,9 @@
     ],
     "5103": [
       5123
+    ],
+    "9731": [
+      9737
     ],
     "9544": [
       9596,
