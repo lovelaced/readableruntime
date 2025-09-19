@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-18T02:38:30.909666Z",
+  "last_updated": "2025-09-19T02:38:35.200128Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-16T13:39:34Z",
-      "total_prs": 343,
-      "new_prs": 343
+      "release_date": "2025-09-18T18:19:26Z",
+      "total_prs": 345,
+      "new_prs": 345
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-16T13:39:34Z",
+      "release_date": "2025-09-18T18:19:26Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -3766,6 +3766,30 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "9777": {
+      "number": "9777",
+      "title": "[STABLE2412] Node version bump and prdoc set in right folder",
+      "author": "BDevParity",
+      "merged_at": "2025-09-18T16:23:47Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9777",
+      "branch": "stable2412",
+      "is_direct": true
+    },
+    "9775": {
+      "number": "9775",
+      "title": "[STABLE2412] Create release changes",
+      "author": "BDevParity",
+      "merged_at": "2025-09-18T14:27:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9775",
+      "branch": "stable2412",
+      "is_direct": true
     },
     "9597": {
       "number": "9597",
@@ -24813,6 +24837,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "9772": {
+      "number": "9772",
+      "title": "EPMB: ensure to have enough funds for benchmarking",
+      "author": "sigurpol",
+      "merged_at": "2025-09-18T16:38:51Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9772",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9779": {
+      "number": "9779",
+      "title": "[stable2509] Backport #9772",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-18T18:18:16Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9779",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9772
+    },
+    "9753": {
+      "number": "9753",
+      "title": "Fix Aura authorities tracker bug",
+      "author": "s0me0ne-unkn0wn",
+      "merged_at": "2025-09-17T11:26:55Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9753",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9762": {
+      "number": "9762",
+      "title": "[stable2509] Backport #9753",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-18T10:48:52Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9762",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9753
+    },
     "9747": {
       "number": "9747",
       "title": "staking-async: handle uninitialized state in try-state checks",
@@ -27876,6 +27957,32 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9778": {
+      "number": "9778",
+      "title": "[unstable2507] Backport #9772",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-18T18:19:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9778",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9772
+    },
+    "9752": {
+      "number": "9752",
+      "title": "[unstable2507] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-18T08:04:43Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9752",
+      "branch": "unstable2507",
+      "is_direct": true
     },
     "9749": {
       "number": "9749",
@@ -31849,7 +31956,7 @@
         "from_master": true
       }
     ],
-    "5681": [
+    "5682": [
       {
         "runtime_version": "1.5.0",
         "sdk_version": "stable2412-4",
@@ -31858,7 +31965,7 @@
         "from_master": true
       }
     ],
-    "5682": [
+    "5681": [
       {
         "runtime_version": "1.5.0",
         "sdk_version": "stable2412-4",
@@ -43864,6 +43971,17 @@
         "is_direct": true
       }
     ],
+    "9749": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9747,
+        "is_direct": true
+      }
+    ],
     "9493": [
       {
         "runtime_version": "1.7.0",
@@ -43897,14 +44015,12 @@
         "is_direct": true
       }
     ],
-    "9240": [
+    "9752": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
         "sdk_branch": "unstable2507",
         "source_branch": "unstable2507",
-        "is_backport": true,
-        "original_pr": 9202,
         "is_direct": true
       }
     ],
@@ -43927,6 +44043,17 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9355,
+        "is_direct": true
+      }
+    ],
+    "9240": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9202,
         "is_direct": true
       }
     ],
@@ -44632,6 +44759,8 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9779": 9772,
+    "9762": 9753,
     "9750": 9747,
     "9727": 9721,
     "9709": 9684,
@@ -44643,6 +44772,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9778": 9772,
     "9749": 9747,
     "9726": 9721,
     "9666": 9659,
@@ -45625,6 +45755,13 @@
     ],
     "8820": [
       8822
+    ],
+    "9772": [
+      9779,
+      9778
+    ],
+    "9753": [
+      9762
     ],
     "9747": [
       9750,
