@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-19T02:38:35.200128Z",
+  "last_updated": "2025-09-20T02:35:36.389785Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-18T18:19:26Z",
-      "total_prs": 345,
-      "new_prs": 345
+      "release_date": "2025-09-19T19:44:58Z",
+      "total_prs": 348,
+      "new_prs": 348
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-18T18:19:26Z",
+      "release_date": "2025-09-19T19:44:58Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -24837,6 +24837,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "8108": {
+      "number": "8108",
+      "title": "Use `total balance (free + reserved)` when performing liquidity checks for a new reserve",
+      "author": "RomarQ",
+      "merged_at": "2025-09-19T13:02:28Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8108",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9790": {
+      "number": "9790",
+      "title": "[stable2509] Backport #8108",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-19T13:53:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9790",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 8108
+    },
     "9772": {
       "number": "9772",
       "title": "EPMB: ensure to have enough funds for benchmarking",
@@ -27957,6 +27986,44 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9793": {
+      "number": "9793",
+      "title": "[unstable2507] Post crate release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-19T19:44:58Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9793",
+      "branch": "unstable2507",
+      "is_direct": true
+    },
+    "9789": {
+      "number": "9789",
+      "title": "[unstable2507] Backport #8108",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-19T13:50:11Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9789",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 8108
+    },
+    "9782": {
+      "number": "9782",
+      "title": "[unstable2507] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-19T09:54:15Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9782",
+      "branch": "unstable2507",
+      "is_direct": true
     },
     "9778": {
       "number": "9778",
@@ -44132,6 +44199,17 @@
         "is_direct": true
       }
     ],
+    "9778": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9772,
+        "is_direct": true
+      }
+    ],
     "9523": [
       {
         "runtime_version": "1.7.0",
@@ -44163,6 +44241,15 @@
         "is_direct": true
       }
     ],
+    "9782": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9654": [
       {
         "runtime_version": "1.7.0",
@@ -44171,6 +44258,15 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9632,
+        "is_direct": true
+      }
+    ],
+    "9656": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
         "is_direct": true
       }
     ],
@@ -44185,12 +44281,14 @@
         "is_direct": true
       }
     ],
-    "9656": [
+    "9789": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
         "sdk_branch": "unstable2507",
         "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 8108,
         "is_direct": true
       }
     ],
@@ -44759,6 +44857,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9790": 8108,
     "9779": 9772,
     "9762": 9753,
     "9750": 9747,
@@ -44772,6 +44871,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9789": 8108,
     "9778": 9772,
     "9749": 9747,
     "9726": 9721,
@@ -45755,6 +45855,10 @@
     ],
     "8820": [
       8822
+    ],
+    "8108": [
+      9790,
+      9789
     ],
     "9772": [
       9779,
