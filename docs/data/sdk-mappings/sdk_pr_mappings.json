@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-22T02:41:21.626128Z",
+  "last_updated": "2025-09-23T02:39:11.050287Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-19T19:44:58Z",
-      "total_prs": 348,
-      "new_prs": 348
+      "release_date": "2025-09-22T20:01:10Z",
+      "total_prs": 349,
+      "new_prs": 349
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-19T19:44:58Z",
+      "release_date": "2025-09-22T20:01:10Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -24837,6 +24837,64 @@
       "is_direct": false,
       "from_master": true
     },
+    "9787": {
+      "number": "9787",
+      "title": "EPMB: fix benchmark funding for exponential deposit growth",
+      "author": "sigurpol",
+      "merged_at": "2025-09-22T19:11:01Z",
+      "labels": [
+        "T2-pallets",
+        "T12-benchmarks",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9787",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9813": {
+      "number": "9813",
+      "title": "[stable2509] Backport #9787",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-22T20:00:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9813",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9787
+    },
+    "9799": {
+      "number": "9799",
+      "title": "Added pallet-root-offences to Westend RC runtime",
+      "author": "sigurpol",
+      "merged_at": "2025-09-22T12:56:32Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9799",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9807": {
+      "number": "9807",
+      "title": "[stable2509] Backport #9799",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-22T13:40:42Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9807",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9799
+    },
     "8108": {
       "number": "8108",
       "title": "Use `total balance (free + reserved)` when performing liquidity checks for a new reserve",
@@ -27986,6 +28044,20 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9812": {
+      "number": "9812",
+      "title": "[unstable2507] Backport #9787",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-22T20:01:10Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9812",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9787
     },
     "9793": {
       "number": "9793",
@@ -44314,6 +44386,15 @@
         "is_direct": true
       }
     ],
+    "9793": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9666": [
       {
         "runtime_version": "1.7.0",
@@ -44857,6 +44938,8 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9813": 9787,
+    "9807": 9799,
     "9790": 8108,
     "9779": 9772,
     "9762": 9753,
@@ -44871,6 +44954,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9812": 9787,
     "9789": 8108,
     "9778": 9772,
     "9749": 9747,
@@ -45855,6 +45939,13 @@
     ],
     "8820": [
       8822
+    ],
+    "9787": [
+      9813,
+      9812
+    ],
+    "9799": [
+      9807
     ],
     "8108": [
       9790,
