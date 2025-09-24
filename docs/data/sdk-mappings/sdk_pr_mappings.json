@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-23T02:39:11.050287Z",
+  "last_updated": "2025-09-24T02:39:59.696965Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-22T20:01:10Z",
-      "total_prs": 349,
-      "new_prs": 349
+      "release_date": "2025-09-23T09:36:48Z",
+      "total_prs": 352,
+      "new_prs": 352
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-22T20:01:10Z",
+      "release_date": "2025-09-23T09:36:48Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -21021,6 +21021,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "9781": {
+      "number": "9781",
+      "title": "Limit the number of signals per XCMP page",
+      "author": "serban300",
+      "merged_at": "2025-09-22T12:09:50Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9781",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9804": {
+      "number": "9804",
+      "title": "[stable2506] Backport #9781",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-23T06:26:13Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9804",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9781
+    },
     "9641": {
       "number": "9641",
       "title": "Account for PoV size when enqueing XCMP message",
@@ -24837,6 +24867,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9746": {
+      "number": "9746",
+      "title": "Snowbridge Inbound Queue V2 relayer tip payout fix",
+      "author": "claravanstaden",
+      "merged_at": "2025-09-23T13:56:09Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9746",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9820": {
+      "number": "9820",
+      "title": "[stable2509] Backport #9746",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-23T14:49:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9820",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9746
+    },
     "9787": {
       "number": "9787",
       "title": "EPMB: fix benchmark funding for exponential deposit growth",
@@ -24894,6 +24953,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9799
+    },
+    "9806": {
+      "number": "9806",
+      "title": "[stable2509] Backport #9781",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-23T07:29:21Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9806",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9781
     },
     "8108": {
       "number": "8108",
@@ -28045,6 +28118,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "9817": {
+      "number": "9817",
+      "title": "[unstable2507] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-23T09:36:48Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9817",
+      "branch": "unstable2507",
+      "is_direct": true
+    },
     "9812": {
       "number": "9812",
       "title": "[unstable2507] Backport #9787",
@@ -28058,6 +28143,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9787
+    },
+    "9805": {
+      "number": "9805",
+      "title": "[unstable2507] Backport #9781",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-23T07:29:49Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9805",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9781
     },
     "9793": {
       "number": "9793",
@@ -41652,6 +41751,17 @@
         "from_master": true
       }
     ],
+    "9804": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 9781,
+        "is_direct": true
+      }
+    ],
     "8271": [
       {
         "runtime_version": "1.7.0",
@@ -44415,6 +44525,17 @@
         "is_direct": true
       }
     ],
+    "9805": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9781,
+        "is_direct": true
+      }
+    ],
     "9549": [
       {
         "runtime_version": "1.7.0",
@@ -44443,6 +44564,17 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9186,
+        "is_direct": true
+      }
+    ],
+    "9812": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9787,
         "is_direct": true
       }
     ],
@@ -44884,6 +45016,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "9804": 9781,
     "9651": 9641,
     "9634": 9581,
     "9623": 9451,
@@ -44938,8 +45071,10 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9820": 9746,
     "9813": 9787,
     "9807": 9799,
+    "9806": 9781,
     "9790": 8108,
     "9779": 9772,
     "9762": 9753,
@@ -44955,6 +45090,7 @@
     "9655": 9632,
     "9653": 9641,
     "9812": 9787,
+    "9805": 9781,
     "9789": 8108,
     "9778": 9772,
     "9749": 9747,
@@ -45852,6 +45988,11 @@
     "7670": [
       7675
     ],
+    "9781": [
+      9804,
+      9806,
+      9805
+    ],
     "9641": [
       9651,
       9653,
@@ -45939,6 +46080,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9746": [
+      9820
     ],
     "9787": [
       9813,
