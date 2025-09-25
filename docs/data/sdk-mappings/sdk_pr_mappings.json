@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-24T02:39:59.696965Z",
+  "last_updated": "2025-09-25T02:39:38.928980Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24867,6 +24867,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9756": {
+      "number": "9756",
+      "title": "FRAME: Register `on_initialize` after each pallet",
+      "author": "bkchr",
+      "merged_at": "2025-09-23T18:01:53Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9756",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9825": {
+      "number": "9825",
+      "title": "[stable2509] Backport #9756",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-24T18:45:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9825",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9756
+    },
     "9746": {
       "number": "9746",
       "title": "Snowbridge Inbound Queue V2 relayer tip payout fix",
@@ -45071,6 +45100,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9825": 9756,
     "9820": 9746,
     "9813": 9787,
     "9807": 9799,
@@ -46080,6 +46110,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9756": [
+      9825
     ],
     "9746": [
       9820
