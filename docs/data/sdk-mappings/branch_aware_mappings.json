@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-25T02:39:38.926757Z",
+  "generated_at": "2025-09-26T02:40:21.232213Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -101,7 +101,7 @@
         "polkadot-primitives": "18.1.0",
         "sp-runtime": "41.1.0"
       },
-      "branch_pr_count": 771,
+      "branch_pr_count": 772,
       "included_branches": [
         "stable2503"
       ],
@@ -116,7 +116,7 @@
         "polkadot-primitives": "18.2.0",
         "sp-runtime": "41.1.0"
       },
-      "branch_pr_count": 771,
+      "branch_pr_count": 772,
       "included_branches": [
         "stable2503"
       ],
@@ -163,7 +163,7 @@
         "polkadot-primitives": "18.2.0",
         "sp-runtime": "41.1.0"
       },
-      "branch_pr_count": 771,
+      "branch_pr_count": 772,
       "included_branches": [
         "stable2503"
       ],
@@ -339,6 +339,26 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2503-10": {
+      "commit": "f7103db06e02350de0ef80046087ef2e5f97e883",
+      "date": "2025-09-25T14:45:06Z",
+      "branch": "stable2503",
+      "package_versions": {
+        "polkadot-primitives": "18.2.0",
+        "sp-runtime": "41.1.0",
+        "frame-support": "40.1.0"
+      }
+    },
+    "stable2503-10-rc1": {
+      "commit": "f7103db06e02350de0ef80046087ef2e5f97e883",
+      "date": "2025-09-25T14:45:06Z",
+      "branch": "stable2503",
+      "package_versions": {
+        "polkadot-primitives": "18.2.0",
+        "sp-runtime": "41.1.0",
+        "frame-support": "40.1.0"
       }
     },
     "stable2503-9": {
@@ -1224,6 +1244,8 @@
         "stable2503",
         "stable2503-rc2",
         "stable2503-rc1",
+        "stable2503-10",
+        "stable2503-10-rc1",
         "stable2503-9",
         "stable2503-9-rc1",
         "stable2503-8",
@@ -1251,7 +1273,7 @@
         "stable2503-1-rc1"
       ],
       "created_date": "2025-04-02T11:37:32Z",
-      "pr_count": 771
+      "pr_count": 772
     },
     "stable2412": {
       "tags": [
@@ -1350,9 +1372,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 102,
+    "total_sdk_tags": 104,
     "total_branches": 10,
-    "total_prs_tracked": 2103,
+    "total_prs_tracked": 2104,
     "runtime_releases_mapped": 11
   }
 }
