@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-26T02:40:21.233690Z",
+  "last_updated": "2025-09-27T02:36:47.420314Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24879,6 +24879,118 @@
       "is_direct": false,
       "from_master": true
     },
+    "9850": {
+      "number": "9850",
+      "title": "[stable2509] Remove prdoc",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-26T16:44:22Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9850",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "9849": {
+      "number": "9849",
+      "title": "[stable2509] Move prdocs to release folder and bump spec_version",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-26T15:57:01Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9849",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "9836": {
+      "number": "9836",
+      "title": "Add remove_by method in runtime interface and extension.",
+      "author": "gui1117",
+      "merged_at": "2025-09-26T08:04:13Z",
+      "labels": [
+        "T0-node",
+        "T5-host_functions",
+        "T17-primitives",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9836",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9847": {
+      "number": "9847",
+      "title": "[stable2509] Backport #9836",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-26T12:11:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9847",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9836
+    },
+    "9458": {
+      "number": "9458",
+      "title": "Handle invulnerable AH collators with priority in collator-protocol/validator-side",
+      "author": "tdimitrov",
+      "merged_at": "2025-09-26T06:14:17Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9458",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9843": {
+      "number": "9843",
+      "title": "[stable2509] Backport #9458",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-26T07:11:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9843",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9458
+    },
+    "9713": {
+      "number": "9713",
+      "title": "Elastic-scaling-guide: Mention slot duration",
+      "author": "skunert",
+      "merged_at": "2025-09-25T10:23:26Z",
+      "labels": [
+        "T11-documentation",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9713",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9839": {
+      "number": "9839",
+      "title": "[stable2509] Backport #9713",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-26T08:33:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9839",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9713
+    },
     "9756": {
       "number": "9756",
       "title": "FRAME: Register `on_initialize` after each pallet",
@@ -26836,7 +26948,7 @@
     "9107": {
       "number": "9107",
       "title": "Add BlockNumberProvider to PureCreated Event",
-      "author": "PsyKyodai",
+      "author": "PSYKYODAI",
       "merged_at": "2025-07-10T15:55:28Z",
       "labels": [
         "T2-pallets"
@@ -45112,6 +45224,9 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9847": 9836,
+    "9843": 9458,
+    "9839": 9713,
     "9825": 9756,
     "9820": 9746,
     "9813": 9787,
@@ -46122,6 +46237,15 @@
     ],
     "8820": [
       8822
+    ],
+    "9836": [
+      9847
+    ],
+    "9458": [
+      9843
+    ],
+    "9713": [
+      9839
     ],
     "9756": [
       9825
