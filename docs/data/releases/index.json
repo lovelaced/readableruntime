@@ -1,6 +1,14 @@
 {
-  "last_updated": "2025-08-28T18:03:45.993490Z",
+  "last_updated": "2025-09-28T18:04:10.627712Z",
   "releases": [
+    {
+      "tag_name": "v1.9.0",
+      "created_at": "2025-09-28T14:09:06Z",
+      "name": "Runtimes 1.9.0",
+      "pr_count": 8,
+      "compared_to": "v1.6.2",
+      "filename": "v1.9.0"
+    },
     {
       "tag_name": "v1.7.1",
       "created_at": "2025-08-28T15:06:07Z",
@@ -98,5 +106,5 @@
       "filename": "v1.3.3"
     }
   ],
-  "total_releases": 12
+  "total_releases": 13
 }

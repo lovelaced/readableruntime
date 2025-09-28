@@ -1,0 +1,964 @@
+{
+  "newer_release": {
+    "tag_name": "v1.9.0",
+    "created_at": "2025-09-28T14:09:06Z",
+    "name": "Runtimes 1.9.0",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [1.9.0] 26.09.2025\n\n### Added\n\n- Enable the Asset Hub Migration for Kusama at block `30423691`, projected to be Tuesday 7th Oct 8 AM UTC ([polkadot-fellows/runtimes/pull/935](https://github.com/polkadot-fellows/runtimes/pull/935))\n- Code for the Asset Hub Migration ([polkadot-fellows/runtimes/pull/856](https://github.com/polkadot-fellows/runtimes/pull/856))\n\n### Changed\n\n-  Pallet XCM - Disable reserve_asset_transfer for DOT|KSM ([polkadot-fellows/runtimes/pull/880](https://github.com/polkadot-fellows/runtimes/pull/880))\n  \ud83d\udea8 Pallet XCM's `limited_reserve_transfer_assets` and `reserve_transfer_assets` extrinsics now returns an error when it determines that a reserve transfer of DOT|KSM has to be done.\n  This is a safeguard in preparation for the Asset Hub Migration (AHM), where the reserve of DOT|KSM will change from the Relay Chain to Asset Hub.\n  After the migration, another patch will remove this error case and use the correct reserve.\n  \ud83d\udea8 For DOT|KSM cross-chain transfers please use `transfer_assets_using_type_and_then` or `execute`.\n  Please see this [Polkadot forum post](https://forum.polkadot.network/t/mandatory-action-guide-for-ahm-broken-native-crosschain-transfers/) for more details.\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.22Mi (2327625 bytes)\n\ud83d\udddc Compressed:             Yes: 74.67%\n\ud83d\udd25 Core Version:           polkadot-1009000 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x441539b2fee729fe130218de9ad2f3fd5fc06d91807d558c4c10c5cd9737ef47\n\ud83d\udce6 IPFS:                   QmQkNAGZLoowfGrYUVENmB5UtXjftCnnjNUHVYPQG2sqYu\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1293337 bytes)\n\ud83d\udddc Compressed:             Yes: 74.95%\n\ud83d\udd25 Core Version:           people-polkadot-1009000 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x0fc94fc03b8695f891c7b652a50db3799be3695f2155caf53ec1159644930adf\n\ud83d\udce6 IPFS:                   QmRiti5MzaeyBCWMFY93uzUc5dqR5Bk2cyg4zjXRd9JU7E\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1292039 bytes)\n\ud83d\udddc Compressed:             Yes: 74.97%\n\ud83d\udd25 Core Version:           people-kusama-1009000 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd64a4bf4a93120f1bc06b96e8f879eb16c21ae8297220cbeb16bf34cb4ba9e49\n\ud83d\udce6 IPFS:                   QmRABJMMhbq8WcdGAFc91ULNvbqncGsQ881QqPCtnSae33\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.35Mi (2458193 bytes)\n\ud83d\udddc Compressed:             Yes: 75.19%\n\ud83d\udd25 Core Version:           kusama-1009000 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x53d79375bdb9d0fd16a485b368c2d4db89d8389e71d5861dca6eeb4142f3a6f4\n\ud83d\udce6 IPFS:                   QmdJgeN4xYKoeL7gAQrY2Uoe28Ny342xTkKSteErK2PLaQ\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           580.90Ki (594837 bytes)\n\ud83d\udddc Compressed:             Yes: 73.17%\n\ud83d\udd25 Core Version:           glutton-1009000 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x8fe1b8fa6bd32f40078d2573833a798a511d802e22d5a5bdf8fe8b877dc0aec4\n\ud83d\udce6 IPFS:                   QmSBrZQmDkS4cvhKKEhjM82Dk1BpT3rFWGmtJg772efzQm\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.41Mi (1469416 bytes)\n\ud83d\udddc Compressed:             Yes: 75.48%\n\ud83d\udd25 Core Version:           encointer-parachain-1009000 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4e9678107e24dfdb388100989a5d441866c9d341a1653bdbc58f673f90d772cc\n\ud83d\udce6 IPFS:                   QmRjoFd4pBPcVzY7dqZTG5kmcm9FKHsovT42BY5vbHpz1B\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1298149 bytes)\n\ud83d\udddc Compressed:             Yes: 74.89%\n\ud83d\udd25 Core Version:           coretime-polkadot-1009000 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x270944c159acc0efcf537b5182c89c08d1ca0d4eda1a75661e4fcd3e2939429b\n\ud83d\udce6 IPFS:                   QmZxnsV16guWWY1FNqgDTm7mKRF2LwZ4wxKBecQe3LUWVf\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1296135 bytes)\n\ud83d\udddc Compressed:             Yes: 74.9%\n\ud83d\udd25 Core Version:           coretime-kusama-1009000 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x39b06b12fe93ab3c0dfd0d9bffe507948fc9d8d760076e955b2a612ee258daf5\n\ud83d\udce6 IPFS:                   QmZmEa31bNRQLHo3n2ZhR7bdixZaMn4EtescdvcCadpH1X\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.43Mi (1489410 bytes)\n\ud83d\udddc Compressed:             Yes: 76.11%\n\ud83d\udd25 Core Version:           collectives-1009000 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x1e81d490d87d6410e56cb01895a931d77604b93f020af432c7f493e94fd91b77\n\ud83d\udce6 IPFS:                   QmWi7GY2NwLsnSsqv65vc7jWCTQmVUqXfLdY7msGNWMrkV\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.59Mi (1657825 bytes)\n\ud83d\udddc Compressed:             Yes: 74.6%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-1009000 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x0d2042f632f653005229bc05bd30dc603f163ebd1704d8785335851a45ab3412\n\ud83d\udce6 IPFS:                   QmS1x5ckZfSP9ZqWVMrahjp6ydhPaynnbv5yWrp3rGYFh9\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.31Mi (1371778 bytes)\n\ud83d\udddc Compressed:             Yes: 74.37%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-1009000 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xe99330ea0c15cb80c2ed4bfd595d29b97915437e0d1ae5ec85f474834b31b01c\n\ud83d\udce6 IPFS:                   QmYKAqxZjFZfpxL819houeDx3GfN3mAH2ZdE1NyTPcedNo\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.58Mi (2698373 bytes)\n\ud83d\udddc Compressed:             Yes: 76.73%\n\ud83d\udd25 Core Version:           statemint-1009000 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x087499d4fedfb97f7b9022be2402ecf24e247b6360faa4b9df223641e645cf4e\n\ud83d\udce6 IPFS:                   QmZCaUicsKFqL6ZsVXkvwzcfCmoAWkiEHVumWEq3egxsQA\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           3.05Mi (3190397 bytes)\n\ud83d\udddc Compressed:             Yes: 76.72%\n\ud83d\udd25 Core Version:           statemine-1009000 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x999731c1925e6b5597be282bef310f7bc386c1ef129d73bd022c91a751a5f8eb\n\ud83d\udce6 IPFS:                   QmQ7Xk9wdeawrvcgrXQuHJjkvucah6qjW9mzbBBGYT3x4r\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v1.6.2",
+    "created_at": "2025-08-29T05:44:18Z",
+    "name": "Runtimes 1.6.2",
+    "sdk_version": "polkadot-primitives-v18.2.0"
+  },
+  "pr_count": 8,
+  "ai_analysis": "# Polkadot Fellows Runtimes v1.9.0 Release Analysis\n\n## Executive Summary for Non-Technical Users\n\n### What Changed?\nThis release is primarily focused on **Asset Hub Migration (AHM)** - a major infrastructure upgrade that moves important financial functions from the main Polkadot/Kusama chains to specialized Asset Hub parachains.\n\n### Main Benefits:\n- **Better Performance**: Financial operations will be faster and more efficient on specialized chains\n- **Lower Costs**: Transaction fees for asset-related operations will be reduced\n- **Enhanced Security**: New backup systems and safety mechanisms protect against migration issues\n- **Future-Proofing**: Prepares the network for Polkadot 2.0\n\n### What Users Need to Know:\n- **Kusama Migration**: Scheduled for block 30,423,691 (projected Tuesday, Oct 7th, 8 AM UTC)\n- **Temporary Restrictions**: Some cross-chain transfers of DOT/KSM are temporarily disabled as a safety measure\n- **Alternative Methods**: Users can still transfer using `transfer_assets_using_type_and_then` or `execute` functions\n- **Account Migration**: User accounts and balances will be automatically moved to Asset Hub\n- **No Action Required**: The migration happens automatically, but users should be aware of the timing\n\n### Safety Features Added:\n- Emergency multisig system that can pause/cancel migration if needed\n- Multiple signature requirements for critical operations\n- Comprehensive testing and rollback capabilities\n\n## Key Changes Explained\n\n### Breaking Changes\n**Cross-Chain Transfer Restrictions**:\n- `limited_reserve_transfer_assets` and `reserve_transfer_assets` now return errors for DOT/KSM transfers\n- **Why**: Safety measure during the transition period while the reserve location changes from Relay Chain to Asset Hub\n- **Workaround**: Use `transfer_assets_using_type_and_then` for DOT/KSM transfers\n- **Duration**: Temporary - will be restored after migration completes\n\n### Security Improvements\n**Emergency Response System**:\n- New multisig system allows authorized parties to pause or cancel migration\n- Supports multiple signature types (SR25519, ED25519, ECDSA) for broader compatibility\n- Manager accounts with special privileges to handle migration issues\n- Flow control systems prevent network overload during migration\n\n**Migration Safety**:\n- Comprehensive pre/post migration checks for all affected systems\n- Account translation mapping ensures no funds are lost\n- Idempotent migration (can be safely re-run if needed)\n- Cool-off period after migration for verification\n\n### Performance Improvements\n**Message Prioritization**:\n- Asset Hub messages get priority during migration to speed up the process\n- Optimized block processing to handle migration workload\n- Improved weight accounting for better resource management\n\n### New Features\n**Migration Management**:\n- Automated scheduling system for migration timing\n- Real-time monitoring and logging of migration progress\n- Comprehensive testing framework for validation\n- Stage management system for controlled migration phases\n\n## Technical Summary for Developers\n\n### Major API/Interface Changes\n1. **Pallet XCM Updates**:\n   - Updated to version 22.0.1\n   - Reserve transfer functions now reject DOT/KSM transfers\n   - New `transfer_assets_using_type_and_then` recommended for native token transfers\n\n2. **Migration Pallets**:\n   - New `pallet_rc_migrator` for Relay Chain migration logic\n   - New `pallet_ah_migrator` for Asset Hub migration processing\n   - Runtime call filtering during migration stages\n\n3. **Multisig System**:\n   - Enhanced to support MultiSignature types\n   - Unsigned transaction support for emergency operations\n   - New threshold-based authorization system\n\n### Migration Requirements\n**For Chain Operators**:\n- Runtime upgrade to v1.9.0 triggers automatic migration scheduling\n- Monitor migration stages: Scheduled \u2192 Started \u2192 Data Transfer \u2192 Cool-off \u2192 Complete\n- Emergency procedures available through multisig system\n\n**For dApp Developers**:\n- Update XCM transfer logic to use new recommended methods\n- Account for temporary restrictions on reserve transfers\n- Test against new Asset Hub endpoints for asset operations\n- Update account translation logic if directly handling account IDs\n\n### Technical Improvements\n**Runtime Architecture**:\n- Separated migration logic into modular components\n- Improved error handling and logging throughout migration process\n- Enhanced weight calculations for migration operations\n- Better resource management during high-load periods\n\n**Data Integrity**:\n- Comprehensive storage migration for all affected pallets\n- Account reference counting preservation\n- Hold/freeze reason translation between chains\n- Total issuance tracking across chain boundaries\n\n## Code Impact Analysis\n\n### Most Affected Systems\n1. **Migration Infrastructure** (New): Complete new pallet system for managing the migration\n2. **XCM/Cross-Chain** (Major): Updated transfer mechanisms and restrictions\n3. **Account Management** (Major): New translation and migration systems\n4. **Governance Systems** (Moderate): Migration of treasury, referenda, and voting systems\n5. **Staking/Nomination** (Moderate): Migration to async staking system\n\n### Types of Changes\n**New Features (60%)**:\n- Complete Asset Hub Migration system\n- Emergency multisig controls\n- Migration monitoring and management tools\n\n**Safety Improvements (25%)**:\n- Temporary restrictions on potentially problematic operations\n- Enhanced error handling and validation\n- Comprehensive testing frameworks\n\n**Bug Fixes/Improvements (15%)**:\n- Runtime matrix corrections\n- Dependency updates\n- Performance optimizations\n\n### Development Process\n- Extensive integration testing with real chain snapshots\n- Staged rollout approach with safety mechanisms\n- Comprehensive documentation and user guides\n- Multiple review cycles with security focus\n\nThis release represents one of the most significant infrastructure upgrades in Polkadot/Kusama history, with careful attention to user safety and system reliability throughout the migration process.",
+  "pr_details": [
+    {
+      "number": 934,
+      "title": "[AHM] Schedule migration on runtime upgrade",
+      "author": "ggwpez",
+      "merged_at": "2025-09-26T13:49:25Z",
+      "body": "Schedule the AHM on runtime upgrade so we can avoid doing another fellowship call.  \r\nExact values will be set in the subsequent runtime release MR.\r\n\r\nChanges:\r\n- Factor scheduling logic out into `do_schedule_migration`\r\n- Add `KickoffAhm` to Kusama RC runtime\r\n- Put a placeholder for the actual scheduling values that we can fill in later",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 66,
+      "deletions": 20,
+      "file_list": [
+        "pallets/rc-migrator/src/lib.rs",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 936,
+      "title": "[AHM] Use MultiSignature to allow allow ED25519 keys in Multisig",
+      "author": "ggwpez",
+      "merged_at": "2025-09-26T20:44:51Z",
+      "body": "The simple multisig that we introduced in #929 assumes SR25519 keys.  \r\nThis change now also makes it possible to use ED25519 keys and ECDSA.\r\n\r\nVideo Tut on how to use it https://drive.google.com/file/d/1D5g_EYKMs73XE6lFlU62xOYLEBMp-yb6/view?usp=sharing\r\n\r\nPS: Also fixing one proxy test.",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 135,
+      "deletions": 56,
+      "file_list": [
+        "pallets/rc-migrator/src/lib.rs",
+        "integration-tests/ahm/src/proxy/basic_still_works.rs",
+        "relay/kusamsrc/lib.rs",
+        "pallets/rc-migrator/src/types.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 929,
+          "title": "Simple multisig for cancelling and pausing migration",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 1
+    },
+    {
+      "number": 929,
+      "title": "Simple multisig for cancelling and pausing migration",
+      "author": "kianenigma",
+      "merged_at": "2025-09-26T04:23:10Z",
+      "body": "- Uses unsigned txs (suggestion by @ggwpez) in case any of the signers don't have funds (or any other limitation imposed mid migration). \r\n- Allows anything that was guarded by `Manager` account to be dispatched, using a keyless account that is been artificially fed into `RuntimeOrigin::Signed` (suggestion by @muharem)\r\n- Signing + submission can easily happen via PJS. Will test with a live dev chain to confirm.\r\n\r\nTest: \r\n\r\n* first, edit the code so that the we use the testing keyring for live chain as well.\r\n* Then: \r\n\r\n```\r\ncargo br -p staging-kusama-runtime\r\nchain-spec-builder create --para-id 777 --relay-chain kusama -t development  --runtime ./target/release/wbuild/staging-kusama-runtime/staging_kusama_runtime.wasm  named-preset development\r\npolkadot --chain chain_spec.json --tmp --force-authoring --alice --unsafe-force-node-key-generation\r\n```\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n ",
+      "labels": [],
+      "files_changed": 5,
+      "additions": 388,
+      "deletions": 6,
+      "file_list": [
+        "relay/kusamCargo.toml",
+        "pallets/rc-migrator/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "Cargo.lock",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 32
+    },
+    {
+      "number": 893,
+      "title": "Bump unstable2507",
+      "author": "bkontur",
+      "merged_at": "2025-09-10T17:37:22Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [X] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 11,
+      "deletions": 11,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/weights/pallet_core_fellowship_fellowship_core.rs",
+        "Cargo.toml",
+        "Cargo.lock",
+        "system-parachains/collectives/collectives-polkadot/src/weights/pallet_core_fellowship_ambassador_core.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 1
+    },
+    {
+      "number": 935,
+      "title": "Kusama 1.9 Release for Asset Hub Migration",
+      "author": "ggwpez",
+      "merged_at": "2025-09-28T14:09:06Z",
+      "body": "We go directly to 1.9 now so that we can officially release Polkadot 2.0 with the next runtime upgrade. This was discussed in the last [OpenDev call](https://www.youtube.com/live/eGbubFmqm5A?si=jmGSbd1qIr_8C-es&t=962).\r\n\r\nVideo tutorial for the backup multisig is [here](https://drive.google.com/file/d/1D5g_EYKMs73XE6lFlU62xOYLEBMp-yb6/view?usp=sharing).\r\n\r\nDraft until:\r\n- [x]\u00a0#934\r\n- [x] <s>#932</s>\r\n- [x] #936\r\n- [ ] Double check that feature `kusama-ahm` is used for the runtimes build\r\n- [x]\u00a0Ping all multisig members whether their acc is hot\r\n- [x] Check manager account ID\r\n  - [ ] Perserve this acc from the migration\r\n- [x] Set Migration schedule block number\r\n- [ ] Final ZB dry-run by @ggwpez",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 75,
+      "deletions": 55,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 932,
+          "title": "[AHM] Migrator pallets roles docs",
+          "state": "open"
+        },
+        {
+          "number": 934,
+          "title": "[AHM] Schedule migration on runtime upgrade",
+          "state": "closed"
+        },
+        {
+          "number": 936,
+          "title": "[AHM] Use MultiSignature to allow allow ED25519 keys in Multisig",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 16
+    },
+    {
+      "number": 880,
+      "title": "Update pallet-xcm to 22.0.1 (latest unstable2507)",
+      "author": "karolk91",
+      "merged_at": "2025-09-05T10:36:27Z",
+      "body": "Update of pallet-xcm in order integrate changes from https://github.com/paritytech/polkadot-sdk/pull/9544\r\n\r\nNew version of `pallet-xcm` was published from `unstable2507` (https://github.com/paritytech/polkadot-sdk/pull/9643)\r\n\r\nTODO:\r\n- [x] migrate tests using `reserve_transfer_assets`,  `limited_reserve_transfer_assets` to `transfer_assets_using_type_and_then`\r\n- [x] fix `reserve_transferable_asset_and_dest` benchmarks to use USDT instead of DOT\r\n- [x] update `reserve_transfer_assets` weights to `Weight::MAX` for relays\r\n- [x] add changelog entry",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 364,
+      "deletions": 119,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/send_xcm.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/snowbridge.rs",
+        "CHANGELOG.md",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/mod.rs",
+        "Cargo.toml",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/reserve_transfer.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/reserve_transfer.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/mod.rs",
+        "relay/kusamsrc/weights/pallet_xcm.rs",
+        "relay/polkadot/src/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/asset_transfers.rs",
+        "relay/polkadot/src/weights/pallet_xcm.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/send_xcm.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-kusamsrc/tests/asset_transfers.rs",
+        "Cargo.lock",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 10
+    },
+    {
+      "number": 876,
+      "title": "Fix: change encointer-runtime's blocktime to 6s in runtime-matrix",
+      "author": "clangenb",
+      "merged_at": "2025-09-09T20:47:35Z",
+      "body": "Encointer has been running on 6 seconds since a long time already. :)\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 1,
+      "deletions": 1,
+      "file_list": [
+        ".github/workflows/runtimes-matrix.json"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 856,
+      "title": "THE ASSET HUB MIGRATION (Please Review)",
+      "author": "ggwpez",
+      "merged_at": "2025-09-24T23:22:26Z",
+      "body": "A high-level look of the migration is this:\r\n\r\n<img width=\"1204\" height=\"745\" alt=\"Screenshot 2025-09-17 at 18 23 57\" src=\"https://github.com/user-attachments/assets/1fb39ef8-5efa-4db2-81db-6dd775af3a39\" />\r\n\r\nYou can see the main components being the `pallet_rc_migrator` and `pallet_ah_migrator`. The RC migrator pallet takes data out of the RC storage and enqueues it for AH through XCM::Transact calls to the AH migrator pallet.  \r\nEach pallet on the RC side has a migrator module that handles the removal of the old data and creation of the messages for AH. AH then processes these messages through the MQ pallet and acknowledges back to RC that they were processed (not shown in the graphic).\r\n\r\nThere is rate-limiting code in place to prevent it from overloading the DMP queue or Asset Hub.\r\n\r\n## For Reviewers\r\n\r\nThe review comments are being addressed in https://github.com/polkadot-fellows/runtimes/pull/915.  \r\nWe need eyes on the Core part that is described below.\r\n\r\n## Core STM\r\n\r\nThe main stage transitions look like this. The only manual part is the scheduling call by the fellowship that kicks off the procedure:\r\n\r\n* `Pending` wait for Fellowship to call `schedule_migration(when)` -> Scheduled\r\n* `Scheduled` waiting for scheduled block -> `WaitingForAH`\r\n* `WaitingForAH` AH replies that it is ready -> `WarmUp`\r\n* `WarmUp`  waiting for warm-up end -> `Starting`\r\n* `Starting` doing some startup initialization -> `DataMigration`\r\n* `DataMigration` MAIN PART **all pallet migrations finish** -> `CoolOff`\r\n* `CoolOff` waiting for cool-off to end -> `SignalMigrationFinish`\r\n* `SignalMigrationFinish` send signal to AH that we are done -> `MigrationDone`\r\n* `MigrationDone` finished, unlock all Pallets.\r\n\r\n### State Machine\r\n\r\nThe core State Machine lives in the `RcMigrator` pallet in its `on_initialize`:\r\n\r\nhttps://github.com/polkadot-fellows/runtimes/blob/8ef1cc739d756b109dc93eaf3b9da00e3dcf1383/pallets/rc-migrator/src/lib.rs#L1338-L1342\r\n\r\nOn each block the Rc Migrator checks the current state and possibly progresses to the next one. It will only do a single state transition per block to reduce complexity of the code. Generally, there are three states per pallet (called [*stages*](https://github.com/polkadot-fellows/runtimes/blob/8ef1cc739d756b109dc93eaf3b9da00e3dcf1383/pallets/rc-migrator/src/lib.rs#L190-L389)  in the code). Some pallets have more then three, but it is generally still a multiple of three and always follows the pattern of `PalletInit`, `PalletOngoing { cursor\u00a0}`, `PalletDone`:\r\n\r\nhttps://github.com/polkadot-fellows/runtimes/blob/8ef1cc739d756b109dc93eaf3b9da00e3dcf1383/pallets/rc-migrator/src/lib.rs#L239-L244\r\n\r\nEach pallet then has one migrator struct (eg. `MultisigMigrator<T>`) that migrates the storage items from the Relay side. It lives in the module of its name `rc-migrator/src/multisig.rs` respectively.  \r\nTaking Multisigs as an example; you can find two functions in the migrator struct: `migrate_many` and `migrate_single`. The former one is from the [`PalletMigration` trait](https://github.com/polkadot-fellows/runtimes/blob/715dbb4455a127066d0118ce7a096c72200e1126/pallets/rc-migrator/src/types.rs#L209-L221). The `migrate_single` function is done by convention to keep the code readable. The `migrate_many` does the following:  \r\n- Weight accounting for the RC side: Normal weight tracking to not have overtime RC blocks\r\n- Weight accounting for the AH side: Ensuring to not send messages that would take up too much weight on AH processing\r\n- Ensure that DMP messages are sensibly sized by using the `XcmBatchAndMeter`\r\n- Taking the data out from the Relay chain (deleting it)\r\n- Including the data into a DMP message and sending it towards AH\r\n\r\n### AH Side\r\n\r\nThe main logic on Asset Hub lives in the `AhMigrator` pallet. It contains at least one extrinsic per pallet to receive the incoming data from the RC. We are using extrinsics since RC is wrapping the data into XCM::Transacts:\r\n\r\nhttps://github.com/polkadot-fellows/runtimes/blob/9a20b12e22b019c1c0b15b9af897567a559e424c/pallets/ah-migrator/src/lib.rs#L650-L653\r\n\r\nThis calls into the [`multisig` module](https://github.com/polkadot-fellows/runtimes/blob/6b603ca47e5c49b3a898be3f8f6b078c424f42a0/pallets/ah-migrator/src/multisig.rs#L37) to integrate the data into the storage. Per convention we are emitting events for each item and the whole batch.  \r\nThe main task of the AH side is to integrate the data. In the example of the multisig it is special since we do not migrate the multisig, but only the reserved account which will be unreserved on AH.\r\n\r\n## Messaging Logic\r\n\r\nThe messaging is ACK based. The Relay sends message to Asset Hub up to a specified limit (50). The limit can be adjusted on the fly through a dedicated dispatchable call, restricted to Admin and Manager roles. The limit may be overstepped by the configured batch-size (10), so in total there should never be more than 60 DMPs queued. Each DMP is set to at most [50KB](https://github.com/polkadot-fellows/runtimes/blob/8ef1cc739d756b109dc93eaf3b9da00e3dcf1383/pallets/rc-migrator/src/lib.rs#L131). \r\n\r\nThe Relay Chain migrator creates a query for each XCM data message using the XCM query\u2013response primitives and attaches a response status request from Asset Hub to the message. The XCM executor on Asset Hub then sends back the response status for every message with such a request. \r\n\r\nThe Relay migrator stores each data message sent to Asset Hub until it receives confirmation of successful processing. It also provides a dispatchable call, available only to Admin and Manager roles, to resend any unconfirmed messages.\r\n\r\nA bug that prevented certain messages from being accounted for during a particulat pallet migration caused the Westend AHM stall. The system was queuing too many DMPs, which forced WAH to author an overweight block while attempting to process them all at once.\r\n\r\n## Call Filtering\r\n\r\nPallet calls are filtered during the migration for three reasons:\r\n- prevent malicious users from spamming the chain with cheap TX and slowing down the migration\r\n- prevent users from sending many UMPs out of AH to clog up the UMP queue\r\n- prevent interference with pallets that are being migrated to avoid messing up their storage invariants\r\n\r\nBoth RC and AH provide call filters for `Before`, `During` and `After` the migration. As you can see, most things are disabled during the migration on both chains. After the migration, Relay chain keeps pretty much everything disabled since it was now enabled on AH:\r\n- Before: RC everything enabled, AH all new pallets disabled (staking, gov etc)\r\n- During: RC mostly everything disabled, AH mostly everything disabled\r\n- After: RC mostly everything disabled (staking, gov etc), AH everything enabled (staking, gov etc)\r\n\r\nThis is implemented  by returning three bools, one for each phase:  \r\nhttps://github.com/polkadot-fellows/runtimes/blob/88f4aaf62236fbee9cfb9183e44333bac45b1371/system-parachains/asset-hubs/asset-hub-polkadot/src/ah_migration/call_filter.rs#L81-L83\r\n\r\n## Testing and Dry-Runs\r\n\r\nhttps://github.com/paritytech/ahm-dryrun is the repository for testing infrastructure for AHM. As of now, the following is being tested there (as a part of \"[AHM Flow (all steps)](https://github.com/paritytech/ahm-dryrun/actions/workflows/zombie-bite.yml)\" nightly action):\r\n* Dry-running a migration on a fork of Kusama\r\n* Re-running the rust unit tests introduced in this branch\r\n* Re-running a subset of the same tests, re-written in TS\r\n* Re-running PET tests.\r\n\r\nEach action produces a table with the summary of the test results: \r\n\r\n<img width=\"682\" height=\"357\" alt=\"Screenshot 2025-09-19 at 09 03 20\" src=\"https://github.com/user-attachments/assets/69c1e37d-6f8f-4b57-b97f-75781a1e1a3a\" />\r\n\r\nAnd 4 snapshot files (2 real databases, 2 try-runtime snapshots) which can be used to re-run any of the tests, or run the pre/post migration chain, locally. \r\n\r\n<img width=\"1347\" height=\"476\" alt=\"Screenshot 2025-09-19 at 09 03 40\" src=\"https://github.com/user-attachments/assets/127cbf76-b2fb-467f-8fef-3e93a9a709f6\" />\r\n\r\n\r\n<details><summary>Full Changelog</summary>\r\n<p>\r\n\r\n- **[AHM] OpenGov for Kusama AH (#877)**\r\n- **Relay Chain Accounts to Asset Hub Migration (#515)**\r\n- **Test Relay<->AH migration through DMP messages (#528)**\r\n- **[AHM] Improve account migration (#532)**\r\n- **[AHM] Add multisig migration (#534)**\r\n- **[AHM] Proxy migration (#542)**\r\n- **[AHM] Cleanup and add Preimage doc (#543)**\r\n- **[AHM] Improve accounts migration (#550)**\r\n- **[AHM] Preimage migration (#545)**\r\n- **[AHM] Add Polkadot call filtering (#559)**\r\n- **[AHM] Nomination pools (#562)**\r\n- **[AHM] referenda pallet (#558)**\r\n- **[AHM] Cleanup (#565)**\r\n- **[AHM] Scheduler Pallet (#569)**\r\n- **[AHM] Fast unstake and Bags list (#563)**\r\n- **[AHM] Pallet claims (#570)**\r\n- **[AHM] Conviction Voting Pallet (#578)**\r\n- **[AHM] Pallet Indices (#577)**\r\n- **[AHM] pause scheduler during migration (#580)**\r\n- **[AHM] Asset rate pallet migration (#581)**\r\n- **[AHM] Bounties data migration (#585)**\r\n- **[AHM] Vesting (#575)**\r\n- **[AHM] fix the rc-migrator call filter (#598)**\r\n- **[AHM] Sovereign Account Translation (#594)**\r\n- **[AHM] Crowdloans (#592)**\r\n- **[AHM] Set up AH migration testing framework for single pallets (#597)**\r\n- **[AHM] Stage management (#584)**\r\n- **[AHM] Do not pause inherents \ud83d\ude48 (#609)**\r\n- **[AHM] Relay Chain accounts' reserves (#602)**\r\n- **[AHM] Benchmarks (#589)**\r\n- **[AHM] Pallet testing framework (#612)**\r\n- **[AHM] fix xcm weight at most (#617)**\r\n- **[AHM] Improve weight accounting for accounts migration  (#618)**\r\n- **[AHM] AH acks messages from RC (#620)**\r\n- **[AHM] Pure Proxy Investigation (#621)**\r\n- **[AHM] Remove migrated items for pallet preimage and improve testing (#619)**\r\n- **[AHM] Referenda metadata (#633)**\r\n- **[AHM] Fix accounts migration failures (#628)**\r\n- **[AHM] refactor events and enable scheduled migration start (#634)**\r\n- **[AHM] Migrating DOT total issuance tracking from RC to AH (#607)**\r\n- **[AHM]\u00a0Comment faulty checks out (#640)**\r\n- **Account migrator refactor (#639)**\r\n- **[AHM] Rebase (#641)**\r\n- **[AHM] Run AHM test in CI (#642)**\r\n- **[AHM] Vesting test (#615)**\r\n- **[AHM] bags_list and conviction_voting tests  (#632)**\r\n- **[AHM] Treasury pallet migration (#624)**\r\n- **[AHM] Fix tests for pallet preimage (#643)**\r\n- **[AHM] Test Coverage Report (#650)**\r\n- **[AHM] deactivate/reactivate total issuance & weights (#648)**\r\n- **[AHM] add sudo behind feature flag (#657)**\r\n- **[AHM] fast_unstake tests (#658)**\r\n- **[AHM] asset_rate test (#660)**\r\n- **[AHM] Pallet treasury tests (#664)**\r\n- **[AHM] Improve account balances integration tests (#655)**\r\n- **[AHM] Integrate AH migrator weights to RC (#665)**\r\n- **Testing for bounties migration (#669)**\r\n- **[AHM] Westend port adapters (#652)**\r\n- **[AHM] fix checking account and total issuance migration (#636)**\r\n- **[AHM] Bump polkadot relay and AH versions (#667)**\r\n- **[AHM] Fix tests for pallet treasury (#671)**\r\n- **[AHM] Claims and Crowdloan tests (#622)**\r\n- **[AHM] Benchmarks (#663)**\r\n- **[AHM] Add Asset Hub CallFilter (#670)**\r\n- **[AHM] Westend staking migration (#689)**\r\n- **[AHM] Referenda migration storage checks (#672)**\r\n- **[AHM] AH benchmarks cleanup (#690)**\r\n- **[AHM] Westend Async Staking Migration (#691)**\r\n- **[AHM] Relay Chain migrator benchmarks (#692)**\r\n- **[AHM] Asset Hub ops pallet benchmarks (#693)**\r\n- **[AHM] Xcm send weights and Batch helper types (#694)**\r\n- **Finish staking Westend (#695)**\r\n- **[AHM] Account provider/consumer references (#702)**\r\n- **[AHM] Fix westend builds (#704)**\r\n- **[AHM] Generate weights (#706)**\r\n- **[AHM] Proxy fixes and more tests (#707)**\r\n- **[AHM] Docs and simpler events (#699)**\r\n- **[AHM] Test call decoding (#710)**\r\n- **[AHM] Emulated test for migration with async backing (#717)**\r\n- **[AHM] Increase test coverage (#720)**\r\n- **[AHM] Add referenda checks to Westend migration (#713)**\r\n- **[AHM] Nom_pools test (#677)**\r\n- **[AHM] Scheduler storage item checks (#680)**\r\n- **[AHM] Update Polkadot Snapshot (#725)**\r\n- **[AHM] Pallet multisig tests (#666)**\r\n- **[AHM] Adapt XCM configuration to account for changes before and after migration (#722)**\r\n- **[AHM] document checking account migration (#716)**\r\n- **[AHM] Dependency fixes for integration tests and the Polkadot runtime (#751)**\r\n- **[AHM] Remove empty conviction voting filter (#750)**\r\n- **[AHM] Missing TODOs and `AccountState` type update (#742)**\r\n- **[AHM] DMP prioritization on AH (#772)**\r\n- **[AHM] Disable #[pallet::hooks] for migrating pallets during migration (#784)**\r\n- **[AHM] AH messages prioritization on RC (#787)**\r\n- **[AHM] Cache test snapshots and include more tests into CI job (#788)**\r\n- **[AHM] Cleanup Westend feature (#789)**\r\n- **[AHM] Introducing the Cool-Off stage (#786)**\r\n- **[AHM]  Flow Control System (#780)**\r\n- **[AHM] Migrate pallet delegated-staking to AH (#791)**\r\n- **[AHM] Merge master into dev branch (#793)**\r\n- **[AHM] Disable indirect XCMs from RC to AH and vice versa during migration (#774)**\r\n- **Rebase**\r\n- **bring back RelayTreasuryLocation to make old tests compiole**\r\n- **[AHM] Missing `RootLocation` for WaivedLocation for AHP (#798)**\r\n- **[AHM] Missing `SecretaryEntities` for AHP (#797)**\r\n- **[AHM] Migration idempotency (#808)**\r\n- **[AHM] Block number providers for migrating pallets (#809)**\r\n- **[AHM] Copy latest ah-ops pallet from the SDK (#810)**\r\n- **[AHM / ah-migrator]: Implement RC->AH  account translation `mocked` migration across all involved pallets (#807)**\r\n- **[AHM] Complete account balances tests (#674)**\r\n- **[AHM] Address TODOs (#815)**\r\n- **[AHM] Async staking config (#812)**\r\n- **[AHM] Optional migration manager account id (#818)**\r\n- **[AHM] Type safe Hold and Freeze-Reason translation (#819)**\r\n- **[AHM] Create new response query on resend and tests (#816)**\r\n- **PolkadotAssetHub: Enable Async Backing (#763)**\r\n- **Ensure no era planned when migration starts (#728)**\r\n- **[AHM] with async backing (#822)**\r\n- **[AHM] Staking migration (#821)**\r\n- **identify with only validator account**\r\n- **[AHM] Tests work for Paseo (#827)**\r\n- **[AHM] Child bounties (#613)**\r\n- **[AHM] Cleanup and linter fixes (#828)**\r\n- **[AHM] Fix snowbridge test - wrong import of `RelayTreasuryPalletAccount` (instead of AH, it should be BH) (#831)**\r\n- **[AHM] Account Translation mapping (#829)**\r\n- **Fast unstake: remove alias**\r\n- **fmt**\r\n- **[AHM] Max migrated items per block (#834)**\r\n- **[AHM] Record migration timings (#835)**\r\n- **[AHM] Remove storage aliases and cleanup (#832)**\r\n- **[AHM] fix Kusama bags list pallet benchmarks (#836)**\r\n- **[AHM] Unprocessed msg buffer size 50 (#839)**\r\n- **[AHM] Post migration cool off stage (#841)**\r\n- **[AHM] Multisig test and storage_alias cleanup (#842)**\r\n- **[AHM] Remove fast-unstake and test fixes (#846)**\r\n- **Run try-state check for all pallets post AHM rust tests (#833)**\r\n- **[AHM] Preserve on RC manager' account (#843)**\r\n- **[AHM] Filter staking calls before migration starts (#847)**\r\n- **[AHM] State Decode Tests (#848)**\r\n- **[AHM] Send xcm extrinsic within migrator pallets (#851)**\r\n- **Merge and cleanup merge commit**\r\n- #845\r\n- #852\r\n- #862\r\n- #875\r\n- #872\r\n- #877\r\n- #626\r\n- #879\r\n- #885\r\n- #886\r\n- #882\r\n- #883\r\n- #854\r\n- #888\r\n- #895\r\n- #892\r\n- #896\r\n- #889\r\n\r\n</p>\r\n</details> \r\n\r\n// only to let all CIs to execute for now\r\n- [ ] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 0,
+      "additions": 0,
+      "deletions": 0,
+      "file_list": [],
+      "linked_issues": [
+        {
+          "number": 632,
+          "title": "[AHM] bags_list and conviction_voting tests ",
+          "state": "closed"
+        },
+        {
+          "number": 695,
+          "title": "Finish staking Westend",
+          "state": "closed"
+        },
+        {
+          "number": 895,
+          "title": "AHM: staking async bump",
+          "state": "closed"
+        },
+        {
+          "number": 655,
+          "title": "[AHM] Improve account balances integration tests",
+          "state": "closed"
+        },
+        {
+          "number": 713,
+          "title": "[AHM] Add referenda checks to Westend migration",
+          "state": "closed"
+        },
+        {
+          "number": 542,
+          "title": "[AHM] Proxy migration",
+          "state": "closed"
+        },
+        {
+          "number": 575,
+          "title": "[AHM] Vesting",
+          "state": "closed"
+        },
+        {
+          "number": 750,
+          "title": "[AHM] Remove empty conviction voting filter",
+          "state": "closed"
+        },
+        {
+          "number": 787,
+          "title": "[AHM] AH messages prioritization on RC",
+          "state": "closed"
+        },
+        {
+          "number": 882,
+          "title": "[AHM] Canceller can stop migration",
+          "state": "closed"
+        },
+        {
+          "number": 812,
+          "title": "[AHM] Async staking config",
+          "state": "closed"
+        },
+        {
+          "number": 640,
+          "title": "[AHM]\u00a0Comment faulty checks out",
+          "state": "closed"
+        },
+        {
+          "number": 633,
+          "title": "[AHM] Referenda metadata",
+          "state": "closed"
+        },
+        {
+          "number": 883,
+          "title": "[AHM] Final Staking Configs for Kusama",
+          "state": "closed"
+        },
+        {
+          "number": 810,
+          "title": "[AHM] Copy latest ah-ops pallet from the SDK",
+          "state": "closed"
+        },
+        {
+          "number": 892,
+          "title": "Removed unused `update_ah_msg_processed_count` (or missing benchmark?)",
+          "state": "closed"
+        },
+        {
+          "number": 742,
+          "title": "[AHM] Missing TODOs and `AccountState` type update",
+          "state": "closed"
+        },
+        {
+          "number": 663,
+          "title": "[AHM] Benchmarks",
+          "state": "closed"
+        },
+        {
+          "number": 852,
+          "title": "Improve Era Scheduling",
+          "state": "closed"
+        },
+        {
+          "number": 843,
+          "title": "[AHM] Preserve on RC manager' account",
+          "state": "closed"
+        },
+        {
+          "number": 772,
+          "title": "[AHM] DMP prioritization on AH",
+          "state": "closed"
+        },
+        {
+          "number": 528,
+          "title": "Test Relay<->AH migration through DMP messages",
+          "state": "closed"
+        },
+        {
+          "number": 621,
+          "title": "[AHM] Pure Proxy Investigation",
+          "state": "closed"
+        },
+        {
+          "number": 664,
+          "title": "[AHM] Pallet treasury tests",
+          "state": "closed"
+        },
+        {
+          "number": 699,
+          "title": "[AHM] Docs and simpler events",
+          "state": "closed"
+        },
+        {
+          "number": 669,
+          "title": "Testing for bounties migration",
+          "state": "closed"
+        },
+        {
+          "number": 558,
+          "title": "[AHM] referenda pallet",
+          "state": "closed"
+        },
+        {
+          "number": 780,
+          "title": "[AHM]  Flow Control System",
+          "state": "closed"
+        },
+        {
+          "number": 545,
+          "title": "[AHM] Preimage migration",
+          "state": "closed"
+        },
+        {
+          "number": 809,
+          "title": "[AHM] Block number providers for migrating pallets",
+          "state": "closed"
+        },
+        {
+          "number": 888,
+          "title": "[AHM] Tweaks, TODOs and nits",
+          "state": "closed"
+        },
+        {
+          "number": 717,
+          "title": "[AHM] Emulated test for migration with async backing",
+          "state": "closed"
+        },
+        {
+          "number": 722,
+          "title": "[AHM] Adapt XCM configuration to account for changes before and after migration",
+          "state": "closed"
+        },
+        {
+          "number": 841,
+          "title": "[AHM] Post migration cool off stage",
+          "state": "closed"
+        },
+        {
+          "number": 626,
+          "title": "[AHM] OpenGov for Polkadot AH tweaks",
+          "state": "closed"
+        },
+        {
+          "number": 793,
+          "title": "[AHM] Merge master into dev branch",
+          "state": "closed"
+        },
+        {
+          "number": 889,
+          "title": "[AHM] Staking Account Translation",
+          "state": "closed"
+        },
+        {
+          "number": 534,
+          "title": "[AHM] Add multisig migration",
+          "state": "closed"
+        },
+        {
+          "number": 689,
+          "title": "[AHM] Westend staking migration",
+          "state": "closed"
+        },
+        {
+          "number": 706,
+          "title": "[AHM] Generate weights",
+          "state": "closed"
+        },
+        {
+          "number": 833,
+          "title": "Run try-state check for all pallets post AHM rust tests",
+          "state": "closed"
+        },
+        {
+          "number": 622,
+          "title": "[AHM] Claims and Crowdloan tests",
+          "state": "closed"
+        },
+        {
+          "number": 720,
+          "title": "[AHM] Increase test coverage",
+          "state": "closed"
+        },
+        {
+          "number": 693,
+          "title": "[AHM] Asset Hub ops pallet benchmarks",
+          "state": "closed"
+        },
+        {
+          "number": 842,
+          "title": "[AHM] Multisig test and storage_alias cleanup",
+          "state": "closed"
+        },
+        {
+          "number": 707,
+          "title": "[AHM] Proxy fixes and more tests",
+          "state": "closed"
+        },
+        {
+          "number": 598,
+          "title": "[AHM] fix the rc-migrator call filter",
+          "state": "closed"
+        },
+        {
+          "number": 791,
+          "title": "[AHM] Migrate pallet delegated-staking to AH",
+          "state": "closed"
+        },
+        {
+          "number": 831,
+          "title": "[AHM] Fix snowbridge test - wrong import of `RelayTreasuryPalletAccount` (instead of AH, it should be BH)",
+          "state": "closed"
+        },
+        {
+          "number": 634,
+          "title": "[AHM] refactor events and enable scheduled migration start",
+          "state": "closed"
+        },
+        {
+          "number": 672,
+          "title": "[AHM] Referenda migration storage checks",
+          "state": "closed"
+        },
+        {
+          "number": 667,
+          "title": "[AHM] Bump polkadot relay and AH versions",
+          "state": "closed"
+        },
+        {
+          "number": 886,
+          "title": "[AHM] Society pallet version upgrade and new storage values migration ",
+          "state": "closed"
+        },
+        {
+          "number": 818,
+          "title": "[AHM] Optional migration manager account id",
+          "state": "closed"
+        },
+        {
+          "number": 829,
+          "title": "[AHM] Account Translation mapping",
+          "state": "closed"
+        },
+        {
+          "number": 710,
+          "title": "[AHM] Test call decoding",
+          "state": "closed"
+        },
+        {
+          "number": 851,
+          "title": "[AHM] Send xcm extrinsic within migrator pallets",
+          "state": "closed"
+        },
+        {
+          "number": 808,
+          "title": "[AHM] Migration idempotency",
+          "state": "closed"
+        },
+        {
+          "number": 543,
+          "title": "[AHM] Cleanup and add Preimage doc",
+          "state": "closed"
+        },
+        {
+          "number": 617,
+          "title": "[AHM] fix xcm weight at most",
+          "state": "closed"
+        },
+        {
+          "number": 789,
+          "title": "[AHM] Cleanup Westend feature",
+          "state": "closed"
+        },
+        {
+          "number": 581,
+          "title": "[AHM] Asset rate pallet migration",
+          "state": "closed"
+        },
+        {
+          "number": 836,
+          "title": "[AHM] fix Kusama bags list pallet benchmarks",
+          "state": "closed"
+        },
+        {
+          "number": 563,
+          "title": "[AHM] Fast unstake and Bags list",
+          "state": "closed"
+        },
+        {
+          "number": 875,
+          "title": "[AHM] Society pallet migration",
+          "state": "closed"
+        },
+        {
+          "number": 628,
+          "title": "[AHM] Fix accounts migration failures",
+          "state": "closed"
+        },
+        {
+          "number": 589,
+          "title": "[AHM] Benchmarks",
+          "state": "closed"
+        },
+        {
+          "number": 565,
+          "title": "[AHM] Cleanup",
+          "state": "closed"
+        },
+        {
+          "number": 609,
+          "title": "[AHM] Do not pause inherents \ud83d\ude48",
+          "state": "closed"
+        },
+        {
+          "number": 834,
+          "title": "[AHM] Max migrated items per block",
+          "state": "closed"
+        },
+        {
+          "number": 648,
+          "title": "[AHM] deactivate/reactivate total issuance & weights",
+          "state": "closed"
+        },
+        {
+          "number": 619,
+          "title": "[AHM] Remove migrated items for pallet preimage and improve testing",
+          "state": "closed"
+        },
+        {
+          "number": 665,
+          "title": "[AHM] Integrate AH migrator weights to RC",
+          "state": "closed"
+        },
+        {
+          "number": 839,
+          "title": "[AHM] Unprocessed msg buffer size 50",
+          "state": "closed"
+        },
+        {
+          "number": 577,
+          "title": "[AHM] Pallet Indices",
+          "state": "closed"
+        },
+        {
+          "number": 570,
+          "title": "[AHM] Pallet claims",
+          "state": "closed"
+        },
+        {
+          "number": 798,
+          "title": "[AHM] Missing `RootLocation` for WaivedLocation for AHP",
+          "state": "closed"
+        },
+        {
+          "number": 751,
+          "title": "[AHM] Dependency fixes for integration tests and the Polkadot runtime",
+          "state": "closed"
+        },
+        {
+          "number": 643,
+          "title": "[AHM] Fix tests for pallet preimage",
+          "state": "closed"
+        },
+        {
+          "number": 666,
+          "title": "[AHM] Pallet multisig tests",
+          "state": "closed"
+        },
+        {
+          "number": 613,
+          "title": "[AHM] Child bounties",
+          "state": "closed"
+        },
+        {
+          "number": 828,
+          "title": "[AHM] Cleanup and linter fixes",
+          "state": "closed"
+        },
+        {
+          "number": 728,
+          "title": "Ensure no era planned when migration starts",
+          "state": "closed"
+        },
+        {
+          "number": 877,
+          "title": "[AHM] OpenGov for Kusama AH",
+          "state": "closed"
+        },
+        {
+          "number": 690,
+          "title": "[AHM] AH benchmarks cleanup",
+          "state": "closed"
+        },
+        {
+          "number": 550,
+          "title": "[AHM] Improve accounts migration",
+          "state": "closed"
+        },
+        {
+          "number": 694,
+          "title": "[AHM] Xcm send weights and Batch helper types",
+          "state": "closed"
+        },
+        {
+          "number": 827,
+          "title": "[AHM] Tests work for Paseo",
+          "state": "closed"
+        },
+        {
+          "number": 652,
+          "title": "[AHM] Westend port adapters",
+          "state": "closed"
+        },
+        {
+          "number": 641,
+          "title": "[AHM] Rebase",
+          "state": "closed"
+        },
+        {
+          "number": 624,
+          "title": "[AHM] Treasury pallet migration",
+          "state": "closed"
+        },
+        {
+          "number": 692,
+          "title": "[AHM] Relay Chain migrator benchmarks",
+          "state": "closed"
+        },
+        {
+          "number": 845,
+          "title": "[AHM] Call filter configuration",
+          "state": "closed"
+        },
+        {
+          "number": 532,
+          "title": "[AHM] Improve account migration",
+          "state": "closed"
+        },
+        {
+          "number": 612,
+          "title": "[AHM] Pallet testing framework",
+          "state": "closed"
+        },
+        {
+          "number": 872,
+          "title": "[AHM] Fix derived account translation script",
+          "state": "closed"
+        },
+        {
+          "number": 821,
+          "title": "[AHM] Staking migration",
+          "state": "closed"
+        },
+        {
+          "number": 816,
+          "title": "[AHM] Create new response query on resend and tests",
+          "state": "closed"
+        },
+        {
+          "number": 578,
+          "title": "[AHM] Conviction Voting Pallet",
+          "state": "closed"
+        },
+        {
+          "number": 597,
+          "title": "[AHM] Set up AH migration testing framework for single pallets",
+          "state": "closed"
+        },
+        {
+          "number": 602,
+          "title": "[AHM] Relay Chain accounts' reserves",
+          "state": "closed"
+        },
+        {
+          "number": 716,
+          "title": "[AHM] document checking account migration",
+          "state": "closed"
+        },
+        {
+          "number": 807,
+          "title": "[AHM / ah-migrator]: Implement RC->AH  account translation `mocked` migration across all involved pallets",
+          "state": "closed"
+        },
+        {
+          "number": 896,
+          "title": "[AHM] Max data messages per block limit",
+          "state": "closed"
+        },
+        {
+          "number": 594,
+          "title": "[AHM] Sovereign Account Translation",
+          "state": "closed"
+        },
+        {
+          "number": 702,
+          "title": "[AHM] Account provider/consumer references",
+          "state": "closed"
+        },
+        {
+          "number": 658,
+          "title": "[AHM] fast_unstake tests",
+          "state": "closed"
+        },
+        {
+          "number": 879,
+          "title": "[AHM] Free 'Any' proxies for pure accounts",
+          "state": "closed"
+        },
+        {
+          "number": 562,
+          "title": "[AHM] Nomination pools",
+          "state": "closed"
+        },
+        {
+          "number": 832,
+          "title": "[AHM] Remove storage aliases and cleanup",
+          "state": "closed"
+        },
+        {
+          "number": 847,
+          "title": "[AHM] Filter staking calls before migration starts",
+          "state": "closed"
+        },
+        {
+          "number": 788,
+          "title": "[AHM] Cache test snapshots and include more tests into CI job",
+          "state": "closed"
+        },
+        {
+          "number": 671,
+          "title": "[AHM] Fix tests for pallet treasury",
+          "state": "closed"
+        },
+        {
+          "number": 862,
+          "title": "[AHM] Integrate migration for Kusama",
+          "state": "closed"
+        },
+        {
+          "number": 774,
+          "title": "[AHM] Disable indirect XCMs from RC to AH and vice versa during migration",
+          "state": "closed"
+        },
+        {
+          "number": 854,
+          "title": "[AHM] Migrate Pallet Recovery",
+          "state": "closed"
+        },
+        {
+          "number": 515,
+          "title": "Relay Chain Accounts to Asset Hub Migration",
+          "state": "closed"
+        },
+        {
+          "number": 636,
+          "title": "[AHM] fix checking account and total issuance migration",
+          "state": "closed"
+        },
+        {
+          "number": 786,
+          "title": "[AHM] Introducing the Cool-Off stage",
+          "state": "closed"
+        },
+        {
+          "number": 784,
+          "title": "[AHM] Disable #[pallet::hooks] for migrating pallets during migration",
+          "state": "closed"
+        },
+        {
+          "number": 615,
+          "title": "[AHM] Vesting test",
+          "state": "closed"
+        },
+        {
+          "number": 674,
+          "title": "[AHM] Complete account balances tests",
+          "state": "closed"
+        },
+        {
+          "number": 819,
+          "title": "[AHM] Type safe Hold and Freeze-Reason translation",
+          "state": "closed"
+        },
+        {
+          "number": 620,
+          "title": "[AHM] AH acks messages from RC",
+          "state": "closed"
+        },
+        {
+          "number": 797,
+          "title": "[AHM] Missing `SecretaryEntities` for AHP",
+          "state": "closed"
+        },
+        {
+          "number": 846,
+          "title": "[AHM] Remove fast-unstake and test fixes",
+          "state": "closed"
+        },
+        {
+          "number": 607,
+          "title": "[AHM] Migrating DOT total issuance tracking from RC to AH",
+          "state": "closed"
+        },
+        {
+          "number": 584,
+          "title": "[AHM] Stage management",
+          "state": "closed"
+        },
+        {
+          "number": 660,
+          "title": "[AHM] asset_rate test",
+          "state": "closed"
+        },
+        {
+          "number": 835,
+          "title": "[AHM] Record migration timings",
+          "state": "closed"
+        },
+        {
+          "number": 670,
+          "title": "[AHM] Add Asset Hub CallFilter",
+          "state": "closed"
+        },
+        {
+          "number": 592,
+          "title": "[AHM] Crowdloans",
+          "state": "closed"
+        },
+        {
+          "number": 680,
+          "title": "[AHM] Scheduler storage item checks",
+          "state": "closed"
+        },
+        {
+          "number": 704,
+          "title": "[AHM] Fix westend builds",
+          "state": "closed"
+        },
+        {
+          "number": 650,
+          "title": "[AHM] Test Coverage Report",
+          "state": "closed"
+        },
+        {
+          "number": 815,
+          "title": "[AHM] Address TODOs",
+          "state": "closed"
+        },
+        {
+          "number": 642,
+          "title": "[AHM] Run AHM test in CI",
+          "state": "closed"
+        },
+        {
+          "number": 580,
+          "title": "[AHM] pause scheduler during migration",
+          "state": "closed"
+        },
+        {
+          "number": 618,
+          "title": "[AHM] Improve weight accounting for accounts migration ",
+          "state": "closed"
+        },
+        {
+          "number": 725,
+          "title": "[AHM] Update Polkadot Snapshot",
+          "state": "closed"
+        },
+        {
+          "number": 585,
+          "title": "[AHM] Bounties data migration",
+          "state": "closed"
+        },
+        {
+          "number": 822,
+          "title": "[AHM] with async backing",
+          "state": "closed"
+        },
+        {
+          "number": 559,
+          "title": "[AHM] Add Polkadot call filtering",
+          "state": "closed"
+        },
+        {
+          "number": 691,
+          "title": "[AHM] Westend Async Staking Migration",
+          "state": "closed"
+        },
+        {
+          "number": 677,
+          "title": "[AHM] Nom_pools test",
+          "state": "closed"
+        },
+        {
+          "number": 885,
+          "title": "[AHM] VRF randomness falls back to RC state root",
+          "state": "closed"
+        },
+        {
+          "number": 848,
+          "title": "[AHM] State Decode Tests",
+          "state": "closed"
+        },
+        {
+          "number": 657,
+          "title": "[AHM] add sudo behind feature flag",
+          "state": "closed"
+        },
+        {
+          "number": 569,
+          "title": "[AHM] Scheduler Pallet",
+          "state": "closed"
+        },
+        {
+          "number": 763,
+          "title": "PolkadotAssetHub: Enable Async Backing",
+          "state": "closed"
+        },
+        {
+          "number": 639,
+          "title": "Account migrator refactor",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 42
+    }
+  ]
+}
