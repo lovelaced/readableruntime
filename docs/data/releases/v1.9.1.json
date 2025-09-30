@@ -1,0 +1,94 @@
+{
+  "newer_release": {
+    "tag_name": "v1.9.1",
+    "created_at": "2025-09-30T13:41:01Z",
+    "name": "Runtimes 1.9.1",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [1.9.1] 30.09.2025\n\n### Fixed\n\n- Reduce runtime blob size by 800KB to fit the limits ([polkadot-fellows/runtimes/pull/938](https://github.com/polkadot-fellows/runtimes/pull/938))\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1782217 bytes)\n\ud83d\udddc Compressed:             Yes: 80.61%\n\ud83d\udd25 Core Version:           polkadot-1009001 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xce9bb8e22870c7c2540c4ce0d31490f4deda7d95658b8b4ae72ad0ed07deaef7\n\ud83d\udce6 IPFS:                   QmSNRXVYPozYmMYhPhZpBp5zKEKJc1dzr6Zjsyj7FkSgr5\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1003.54Ki (1027617 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           people-polkadot-1009001 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xfa5b2e0238f87498e7ec66ce97e692a96afb1fa7a2e4981531d3066757d49235\n\ud83d\udce6 IPFS:                   QmcCxbLkMUzNpsc8xSsHqS1S6w9ne9VcBH4ptV31UT2QoT\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1001.67Ki (1025705 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           people-kusama-1009001 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xfada7ce5ee54cdb3aae60c85f9dd72d03ee1538551a93327e876bc31b802841b\n\ud83d\udce6 IPFS:                   QmYemfcWcX9nW32Ze3JV7kgexPPqeGZCgs5T64faNcoWez\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.80Mi (1884559 bytes)\n\ud83d\udddc Compressed:             Yes: 80.98%\n\ud83d\udd25 Core Version:           kusama-1009001 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xbdb1c8a9a39224b25756005f26c2661e9124ec637ff870d676cc9ddc07ca9a3b\n\ud83d\udce6 IPFS:                   QmSejV8VsNdNXYiiq2o9CNMtmQrisjsbAxnUjCgtnUmTdm\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           478.51Ki (489990 bytes)\n\ud83d\udddc Compressed:             Yes: 77.88%\n\ud83d\udd25 Core Version:           glutton-1009001 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7e28596fb538dc8a2d544d25cbfe4c58d8bd48dd7c1c75dddebb8521c53a8ef1\n\ud83d\udce6 IPFS:                   QmPDHo5BuSEFqpohVKHkeT9JrsHNb8nxHKPg8bQv7JoRtP\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1157097 bytes)\n\ud83d\udddc Compressed:             Yes: 80.69%\n\ud83d\udd25 Core Version:           encointer-parachain-1009001 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6b75868e6339e38aa930b244c6cfe45d70401cefab67f8f2a072caf01065e5cd\n\ud83d\udce6 IPFS:                   QmQDtWxsVDSyBUF2boq6k1s7LSyGTU7DnS2E5j7k44ouqe\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1004.44Ki (1028539 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           coretime-polkadot-1009001 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x049e5362729ab89e6c13a484385c274e0909fadf0bf9a2f7a5f980c309fc073d\n\ud83d\udce6 IPFS:                   QmTV5KGmJhXArycpP3xfi7xLasx6og5hVziph2wzGpr6u6\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1002.66Ki (1026720 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           coretime-kusama-1009001 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xdd8c6a036e0d1f6ddd1db804449222d7492e188c9531f41df611b17a71a3429f\n\ud83d\udce6 IPFS:                   QmNgX296viE45ZXN9PxngftU6Z1YJgt6AiuCM57a3mya6B\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1170356 bytes)\n\ud83d\udddc Compressed:             Yes: 81.22%\n\ud83d\udd25 Core Version:           collectives-1009001 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc0b3b4b3227392fac50ebf2b4e87db1985105b814b940b578e20a7000442ec84\n\ud83d\udce6 IPFS:                   Qmb2sP11DVAaGX5QFR7SP4gpLuGgnziitBQgkP3vWBGyNk\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1299017 bytes)\n\ud83d\udddc Compressed:             Yes: 80.09%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-1009001 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x07e1083f9ca3235c7282edbdf26a85a849bc4b74529fe14a2c893c4b04897076\n\ud83d\udce6 IPFS:                   QmSZ7MS2YjSWge3owA28vZuvKUi1mDXqJry1mCBRuvh4Eo\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1085074 bytes)\n\ud83d\udddc Compressed:             Yes: 79.73%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-1009001 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x27c8f6bfa077825468fe5ab289f7e127fe490205297a64015e07591e1f0d0138\n\ud83d\udce6 IPFS:                   QmR3htdHA9FCQQRPYDBrp6BY6qAmFefVR7Had1cCDyjh5y\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.94Mi (2028135 bytes)\n\ud83d\udddc Compressed:             Yes: 82.51%\n\ud83d\udd25 Core Version:           statemint-1009001 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4ff3813b044a96191efe5f492dbf79e3f77508a9fe5b12cc73f0b458281ffc68\n\ud83d\udce6 IPFS:                   QmTCJGAkxVBMB1wNkHtuWtPdeh7USmdLuK4FcpTF2DBfdX\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.28Mi (2387360 bytes)\n\ud83d\udddc Compressed:             Yes: 82.58%\n\ud83d\udd25 Core Version:           statemine-1009001 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5a0e93172b7d4f2030a3a31c2f1aff1e170a323373a48f7f2bc44328872616fc\n\ud83d\udce6 IPFS:                   QmdvGG7ve2vmh1Z5GhHbbQiWcgPtYHqNf152Nh7hsdR9Df\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v1.9.0",
+    "created_at": "2025-09-28T14:09:06Z",
+    "name": "Runtimes 1.9.0",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 2,
+  "ai_analysis": "# Polkadot Fellows Runtimes v1.9.1 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n### Main Changes\nThis is a quick patch release that fixes a technical size limit problem discovered right after the previous release. The main changes are:\n\n- **Fixed a critical size issue**: The runtime code was too large and exceeded system limits, so it was compressed to fit properly\n- **Enabled Kusama Asset Hub Migration**: A major upgrade for Kusama users that will migrate assets to a new system, scheduled for October 7th, 2025\n\n### Benefits for Users\n- **More reliable system**: Fixed a technical issue that could have caused problems with runtime updates\n- **Improved Kusama experience**: The Asset Hub migration will provide better asset management capabilities for Kusama users\n\n### Actions Needed\n- **Regular users**: No action required - updates will happen automatically\n- **Kusama users**: Be aware that a major Asset Hub migration is scheduled for October 7th, 2025 around 8 AM UTC\n\n## 2. Key Changes Explained\n\n### Breaking Changes\n- **Asset Hub Migration on Kusama**: This is a major change scheduled for block 30,423,691 (projected October 7th, 2025). While not immediately breaking, it will significantly change how assets work on Kusama.\n\n### Security Improvements\n- **Enhanced multisig support**: The migration system now supports multiple types of cryptographic keys (ED25519, ECDSA) in addition to the standard SR25519, providing more flexibility for secure operations.\n\n### Performance Improvements\n- **Reduced runtime size**: The WASM runtime was compressed by approximately 800KB, making it fit within system limits and potentially improving load times.\n\n### New Features\n- **Asset Hub Migration infrastructure**: Added comprehensive migration tools for moving Kusama assets to the new Asset Hub system.\n\n## 3. Technical Summary for Developers\n\n### Major API/Interface Changes\n- **Runtime version updates**: All runtime spec versions bumped to 1_009_001 for the patch release\n- **Multisig signature support**: Enhanced `MultiSignature` support allowing ED25519 and ECDSA keys alongside SR25519\n\n### Migration Requirements\n- **Kusama Asset Hub Migration**: Scheduled for block 30,423,691 with automatic kickoff on runtime upgrade\n- **Multisig account preparation**: Accounts used in migration multisig must be \"hot\" and able to sign via PolkadotJS Apps\n\n### Technical Improvements\n- **WASM size optimization**: Updated `sp-maybe-compressed-blob` from v11.0.0 to v11.0.1 for better compression\n- **Dependency updates**: Several dependency version updates, including syntax parser downgrade for compatibility\n\n## 4. Code Impact Analysis\n\n### Most Affected System Parts\n1. **Runtime cores**: All major runtime files updated with new version numbers\n2. **Asset Hub Migration system**: Comprehensive new migration infrastructure\n3. **Cargo dependencies**: Multiple dependency updates for size optimization\n4. **Multisig infrastructure**: Enhanced signature type support\n\n### Types of Changes Made\n\n**Bug Fixes (Primary)**\n- Runtime size limit fix through better compression\n- Dependency compatibility issues resolved\n\n**New Features**\n- Complete Asset Hub Migration system implementation\n- Enhanced multisig cryptographic support\n- Migration scheduling automation\n\n**Infrastructure Improvements**\n- Runtime version management across all parachains\n- Optimized build system for smaller binaries\n- Enhanced documentation for migration procedures\n\n### Development Notes\n- The quick turnaround (2 days between releases) indicates this was a critical fix\n- The size optimization suggests runtime bloat was becoming a significant issue\n- The Asset Hub migration represents a major architectural change for Kusama ecosystem\n\nThis release demonstrates both reactive problem-solving (size limits) and proactive feature development (Asset Hub migration), showing a mature development process that can handle both urgent fixes and planned major upgrades.",
+  "pr_details": [
+    {
+      "number": 938,
+      "title": "Release 1.9.1",
+      "author": "ggwpez",
+      "merged_at": "2025-09-30T13:41:01Z",
+      "body": "Reduce WASM size to fit the limits.\r\n",
+      "labels": [],
+      "files_changed": 15,
+      "additions": 22,
+      "deletions": 16,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "Cargo.lock",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 935,
+      "title": "Kusama 1.9 Release for Asset Hub Migration",
+      "author": "ggwpez",
+      "merged_at": "2025-09-28T14:09:06Z",
+      "body": "We go directly to 1.9 now so that we can officially release Polkadot 2.0 with the next runtime upgrade. This was discussed in the last [OpenDev call](https://www.youtube.com/live/eGbubFmqm5A?si=jmGSbd1qIr_8C-es&t=962).\r\n\r\nVideo tutorial for the backup multisig is [here](https://drive.google.com/file/d/1D5g_EYKMs73XE6lFlU62xOYLEBMp-yb6/view?usp=sharing).\r\n\r\nDraft until:\r\n- [x]\u00a0#934\r\n- [x] <s>#932</s>\r\n- [x] #936\r\n- [ ] Double check that feature `kusama-ahm` is used for the runtimes build\r\n- [x]\u00a0Ping all multisig members whether their acc is hot\r\n- [x] Check manager account ID\r\n  - [ ] Perserve this acc from the migration\r\n- [x] Set Migration schedule block number\r\n- [ ] Final ZB dry-run by @ggwpez",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 75,
+      "deletions": 55,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 934,
+          "title": "[AHM] Schedule migration on runtime upgrade",
+          "state": "closed"
+        },
+        {
+          "number": 936,
+          "title": "[AHM] Use MultiSignature to allow allow ED25519 keys in Multisig",
+          "state": "closed"
+        },
+        {
+          "number": 932,
+          "title": "[AHM] Migrator pallets roles docs",
+          "state": "open"
+        }
+      ],
+      "comment_count": 16
+    }
+  ]
+}

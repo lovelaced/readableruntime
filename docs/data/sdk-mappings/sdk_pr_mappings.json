@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-30T02:42:12.820517Z",
+  "last_updated": "2025-09-30T18:11:47.829343Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-29T08:18:45Z",
-      "total_prs": 353,
-      "new_prs": 353
+      "release_date": "2025-09-30T13:51:13Z",
+      "total_prs": 355,
+      "new_prs": 355
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-29T08:18:45Z",
+      "release_date": "2025-09-30T13:51:13Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,7 +69,13 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-29T08:18:45Z",
+      "release_date": "2025-09-30T13:51:13Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v1.9.1": {
+      "sdk_version": "unstable2507",
+      "release_date": "2025-09-30T13:51:13Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -24885,6 +24891,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "9881": {
+      "number": "9881",
+      "title": "[stable2509] Fix prdoc 9479",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-30T13:02:36Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9881",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "9850": {
       "number": "9850",
       "title": "[stable2509] Remove prdoc",
@@ -28277,6 +28295,45 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9882": {
+      "number": "9882",
+      "title": "[unstable2507] Post crates release updates",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-09-30T13:51:14Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9882",
+      "branch": "unstable2507",
+      "is_direct": true
+    },
+    "9875": {
+      "number": "9875",
+      "title": "Stronger WASM compression",
+      "author": "ggwpez",
+      "merged_at": "2025-09-30T12:13:39Z",
+      "labels": [
+        "T17-primitives"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9875",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9879": {
+      "number": "9879",
+      "title": "[unstable2507] Backport #9875",
+      "author": "ggwpez",
+      "merged_at": "2025-09-30T12:20:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9879",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9875
     },
     "9817": {
       "number": "9817",
@@ -44416,14 +44473,23 @@
         "is_direct": true
       }
     ],
-    "9237": [
+    "9879": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
         "sdk_branch": "unstable2507",
         "source_branch": "unstable2507",
         "is_backport": true,
-        "original_pr": 9127,
+        "original_pr": 9875,
+        "is_direct": true
+      }
+    ],
+    "9752": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
         "is_direct": true
       }
     ],
@@ -44438,12 +44504,14 @@
         "is_direct": true
       }
     ],
-    "9752": [
+    "9371": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
         "sdk_branch": "unstable2507",
         "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9355,
         "is_direct": true
       }
     ],
@@ -44458,17 +44526,6 @@
         "is_direct": true
       }
     ],
-    "9371": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "unstable2507",
-        "is_backport": true,
-        "original_pr": 9355,
-        "is_direct": true
-      }
-    ],
     "9240": [
       {
         "runtime_version": "1.7.0",
@@ -44477,6 +44534,17 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9202,
+        "is_direct": true
+      }
+    ],
+    "9237": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9127,
         "is_direct": true
       }
     ],
@@ -44780,6 +44848,17 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9445,
+        "is_direct": true
+      }
+    ],
+    "9453": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9415,
         "is_direct": true
       }
     ],
@@ -45276,6 +45355,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9879": 9875,
     "9812": 9787,
     "9805": 9781,
     "9789": 8108,
@@ -46335,6 +46415,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "9875": [
+      9879
     ],
     "9604": [
       9612
