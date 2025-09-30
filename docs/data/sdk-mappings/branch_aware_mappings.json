@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-09-29T02:42:45.022526Z",
+  "generated_at": "2025-09-30T02:42:12.818915Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -125,29 +125,29 @@
     "v1.7.0": {
       "sdk_tag": "unstable2507",
       "sdk_branch": "unstable2507",
-      "sdk_date": "2025-09-23T09:36:48Z",
+      "sdk_date": "2025-09-29T08:18:45Z",
       "package_versions": {
         "frame-support": "42.0.0",
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 357,
+      "branch_pr_count": 358,
       "included_branches": [
         "unstable2507",
         "stable2506"
       ],
-      "actual_pr_count": 352
+      "actual_pr_count": 353
     },
     "v1.7.1": {
       "sdk_tag": "unstable2507",
       "sdk_branch": "unstable2507",
-      "sdk_date": "2025-09-23T09:36:48Z",
+      "sdk_date": "2025-09-29T08:18:45Z",
       "package_versions": {
         "frame-support": "42.0.0",
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 357,
+      "branch_pr_count": 358,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -172,13 +172,13 @@
     "v1.9.0": {
       "sdk_tag": "unstable2507",
       "sdk_branch": "unstable2507",
-      "sdk_date": "2025-09-23T09:36:48Z",
+      "sdk_date": "2025-09-29T08:18:45Z",
       "package_versions": {
         "frame-support": "42.0.0",
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 357,
+      "branch_pr_count": 358,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -1228,8 +1228,8 @@
       }
     },
     "unstable2507": {
-      "commit": "ff23d808d5a9500f3382c9f9d53f7ec003f4d69f",
-      "date": "2025-09-23T09:36:48Z",
+      "commit": "3664b8130cefb511342630ccd96fae6b9322098e",
+      "date": "2025-09-29T08:18:45Z",
       "branch": "unstable2507",
       "package_versions": {
         "polkadot-primitives": "20.0.0",
@@ -1395,13 +1395,13 @@
     "unstable2507": {
       "tags": [],
       "created_date": "2025-07-06T09:32:11Z",
-      "pr_count": 51
+      "pr_count": 52
     }
   },
   "statistics": {
     "total_sdk_tags": 105,
     "total_branches": 10,
-    "total_prs_tracked": 2112,
+    "total_prs_tracked": 2113,
     "runtime_releases_mapped": 12
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-09-29T02:42:45.024068Z",
+  "last_updated": "2025-09-30T02:42:12.820517Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-23T09:36:48Z",
-      "total_prs": 352,
-      "new_prs": 352
+      "release_date": "2025-09-29T08:18:45Z",
+      "total_prs": 353,
+      "new_prs": 353
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-23T09:36:48Z",
+      "release_date": "2025-09-29T08:18:45Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,7 +69,7 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-09-23T09:36:48Z",
+      "release_date": "2025-09-29T08:18:45Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -26013,7 +26013,8 @@
       "merged_at": "2025-08-08T10:17:13Z",
       "labels": [
         "T2-pallets",
-        "A4-backport-unstable2507"
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9415",
       "branch": "stable2509",
@@ -28703,6 +28704,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9463
+    },
+    "9453": {
+      "number": "9453",
+      "title": "[unstable2507] Backport #9415",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-09-29T08:18:45Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9453",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9415
     },
     "9450": {
       "number": "9450",
@@ -44737,6 +44752,15 @@
         "is_direct": true
       }
     ],
+    "9817": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9305": [
       {
         "runtime_version": "1.7.0",
@@ -45273,6 +45297,7 @@
     "9487": 9267,
     "9475": 9137,
     "9468": 9463,
+    "9453": 9415,
     "9450": 9445,
     "9407": 9384,
     "9406": 9195,
@@ -46325,6 +46350,9 @@
     ],
     "9463": [
       9468
+    ],
+    "9415": [
+      9453
     ],
     "9384": [
       9407
