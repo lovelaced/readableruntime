@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-01T02:42:18.047482Z",
+  "last_updated": "2025-10-02T02:37:28.434129Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24891,6 +24891,105 @@
       "is_direct": false,
       "from_master": true
     },
+    "9902": {
+      "number": "9902",
+      "title": "[stable2509] Move prdocs to release folder stable2509",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-01T11:46:47Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9902",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "9319": {
+      "number": "9319",
+      "title": "Collation metrics: exclude drops of fork-based collations to improve metrics accuracy",
+      "author": "AndreiEres",
+      "merged_at": "2025-10-01T08:32:39Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9319",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9900": {
+      "number": "9900",
+      "title": "[stable2509] Backport #9319",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-01T10:33:14Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9900",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9319
+    },
+    "9868": {
+      "number": "9868",
+      "title": "Fix the deadlock during statements gossiping",
+      "author": "AndreiEres",
+      "merged_at": "2025-09-30T22:59:51Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9868",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9891": {
+      "number": "9891",
+      "title": "[stable2509] Backport #9868",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-01T08:11:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9891",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9868
+    },
+    "9796": {
+      "number": "9796",
+      "title": "`pallet-assets`: extract precompiles to a separate crate",
+      "author": "dastansam",
+      "merged_at": "2025-09-30T09:47:00Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9796",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9883": {
+      "number": "9883",
+      "title": "[stable2509] Backport #9796",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-01T09:06:38Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9883",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9796
+    },
     "9881": {
       "number": "9881",
       "title": "[stable2509] Fix prdoc 9479",
@@ -45333,6 +45432,9 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9900": 9319,
+    "9891": 9868,
+    "9883": 9796,
     "9847": 9836,
     "9843": 9458,
     "9839": 9713,
@@ -46348,6 +46450,15 @@
     ],
     "8820": [
       8822
+    ],
+    "9319": [
+      9900
+    ],
+    "9868": [
+      9891
+    ],
+    "9796": [
+      9883
     ],
     "9836": [
       9847
