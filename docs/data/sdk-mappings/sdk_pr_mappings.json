@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-02T02:37:28.434129Z",
+  "last_updated": "2025-10-03T02:36:28.288327Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24891,6 +24891,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9906": {
+      "number": "9906",
+      "title": "Bump PARENT_SEARCH_DEPTH ",
+      "author": "sandreim",
+      "merged_at": "2025-10-02T10:05:26Z",
+      "labels": [
+        "T0-node",
+        "T9-cumulus",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9906",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9910": {
+      "number": "9910",
+      "title": "[stable2509] Backport #9906",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-02T14:09:37Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9910",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9906
+    },
     "9902": {
       "number": "9902",
       "title": "[stable2509] Move prdocs to release folder stable2509",
@@ -45432,6 +45461,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9910": 9906,
     "9900": 9319,
     "9891": 9868,
     "9883": 9796,
@@ -46450,6 +46480,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9906": [
+      9910
     ],
     "9319": [
       9900
