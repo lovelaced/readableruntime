@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-06T02:41:11.688676Z",
+  "last_updated": "2025-10-07T02:37:48.734535Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24967,6 +24967,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "9936": {
+      "number": "9936",
+      "title": "Additional Kusama and Polkadot invulnerable collator peer ids",
+      "author": "tdimitrov",
+      "merged_at": "2025-10-06T14:34:20Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9936",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9946": {
+      "number": "9946",
+      "title": "[stable2509] Backport #9936",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-06T16:51:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9946",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9936
+    },
     "9918": {
       "number": "9918",
       "title": "[stable2509] Post carets release changes",
@@ -45532,6 +45560,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9946": 9936,
     "9910": 9906,
     "9900": 9319,
     "9891": 9868,
@@ -46560,6 +46589,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9936": [
+      9946
     ],
     "9906": [
       9910
