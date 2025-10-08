@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-07T02:37:48.734535Z",
+  "last_updated": "2025-10-08T02:38:40.254963Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24967,6 +24967,47 @@
       "is_direct": false,
       "from_master": true
     },
+    "9938": {
+      "number": "9938",
+      "title": "Snowbridge - Adds Fulu hardfork",
+      "author": "claravanstaden",
+      "merged_at": "2025-10-07T09:22:21Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9938",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9954": {
+      "number": "9954",
+      "title": "[stable2509] Backport #9938",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-07T10:37:11Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9954",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9938
+    },
+    "9951": {
+      "number": "9951",
+      "title": "[stable2509] Polkadot-cli crates release",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-07T12:41:14Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9951",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "9936": {
       "number": "9936",
       "title": "Additional Kusama and Polkadot invulnerable collator peer ids",
@@ -45560,6 +45601,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9954": 9938,
     "9946": 9936,
     "9910": 9906,
     "9900": 9319,
@@ -46589,6 +46631,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9938": [
+      9954
     ],
     "9936": [
       9946
