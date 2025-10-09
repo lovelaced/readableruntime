@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-09T02:39:04.077211Z",
+  "last_updated": "2025-10-09T18:08:31.097739Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-08T13:43:11Z",
-      "total_prs": 359,
-      "new_prs": 359
+      "release_date": "2025-10-09T09:54:04Z",
+      "total_prs": 360,
+      "new_prs": 360
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-08T13:43:11Z",
+      "release_date": "2025-10-09T09:54:04Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,13 +69,19 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-08T13:43:11Z",
+      "release_date": "2025-10-09T09:54:04Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-08T13:43:11Z",
+      "release_date": "2025-10-09T09:54:04Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v1.9.2": {
+      "sdk_version": "unstable2507",
+      "release_date": "2025-10-09T09:54:04Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -21045,6 +21051,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "9982": {
+      "number": "9982",
+      "title": "[STABLE2506] Crates update",
+      "author": "BDevParity",
+      "merged_at": "2025-10-09T14:30:44Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9982",
+      "branch": "stable2506",
+      "is_direct": true
+    },
     "9868": {
       "number": "9868",
       "title": "Fix the deadlock during statements gossiping",
@@ -24967,6 +24985,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9926": {
+      "number": "9926",
+      "title": "Staking-Async: Chill stakers should not have a score",
+      "author": "kianenigma",
+      "merged_at": "2025-10-08T19:04:05Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9926",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9970": {
+      "number": "9970",
+      "title": "[stable2509] Backport #9926",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-09T10:02:19Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9970",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9926
+    },
     "9938": {
       "number": "9938",
       "title": "Snowbridge - Adds Fulu hardfork",
@@ -28560,6 +28607,20 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "9953": {
+      "number": "9953",
+      "title": "[unstable2507] Backport #9938",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-09T09:54:04Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9953",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9938
     },
     "9882": {
       "number": "9882",
@@ -45161,6 +45222,17 @@
         "is_direct": true
       }
     ],
+    "9696": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9619,
+        "is_direct": true
+      }
+    ],
     "9450": [
       {
         "runtime_version": "1.7.0",
@@ -45657,6 +45729,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "9970": 9926,
     "9954": 9938,
     "9946": 9936,
     "9910": 9906,
@@ -45685,6 +45758,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9953": 9938,
     "9879": 9875,
     "9812": 9787,
     "9805": 9781,
@@ -46689,8 +46763,12 @@
     "8820": [
       8822
     ],
+    "9926": [
+      9970
+    ],
     "9938": [
-      9954
+      9954,
+      9953
     ],
     "9936": [
       9946

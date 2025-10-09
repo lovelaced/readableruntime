@@ -1,0 +1,186 @@
+{
+  "newer_release": {
+    "tag_name": "v1.9.2",
+    "created_at": "2025-10-09T12:40:22Z",
+    "name": "Runtimes 1.9.2",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [1.9.2] 08.10.2025\n\n### Added\n\n- Kusama Asset Hub: add missing staking Runtime APIs and  re-enable vested transfers ([polkadot-fellows/runtimes/pull/946](https://github.com/polkadot-fellows/runtimes/pull/946))\n\n### Fixed\n\n- [AHM] Do not migrate staking era forcing info to AH ([polkadot-fellows/runtimes/pull/939](https://github.com/polkadot-fellows/runtimes/pull/939))\n- [AHM]\u00a0Small fixes to successfully dry-run migration tests ([polkadot-fellows/runtimes/pull/942](https://github.com/polkadot-fellows/runtimes/pull/942))\n- [AHM] Fix crowdloan withdrawing and weight limit ([polkadot-fellows/runtimes/pull/943](https://github.com/polkadot-fellows/runtimes/pull/943))\n- [Encointer] Fix remote treasury payout on asset hub ([polkadot-fellows/runtimes/pull/944](https://github.com/polkadot-fellows/runtimes/pull/944))\n- [AHM] Post Kusama Migration cleanup ([polkadot-fellows/runtimes/pull/946](https://github.com/polkadot-fellows/runtimes/pull/946))\n- [AHM] Improve StakingAsync's VMP Messaging (https://github.com/polkadot-fellows/runtimes/pull/950)\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1776688 bytes)\n\ud83d\udddc Compressed:             Yes: 80.59%\n\ud83d\udd25 Core Version:           polkadot-1009002 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2f9b216d5081456a0da933632d641a9bc101635221a33fdeafc327bb9245379b\n\ud83d\udce6 IPFS:                   QmYGprhhyEmCPeT2jQYff6KD4irvAuuqRhGjS4HMm9FMBm\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1003.55Ki (1027625 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           people-polkadot-1009002 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7366e84d7d1f7cf0ef852d64eb37a8f16bdafbafdbec53ae07007dca7780a5a6\n\ud83d\udce6 IPFS:                   QmbmKxa2c3e1m4aKs929N6Z6JNzL95DZuGtgDFmtUfLyCW\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1001.65Ki (1025681 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           people-kusama-1009002 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x82781660dab1bafd246d7e054387803039853f3ed493583089ef0b3cb092678e\n\ud83d\udce6 IPFS:                   QmeuA532ndW13FQHi8nvXnuZNrnbg8t73HxMEXd76GdaDq\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.78Mi (1863709 bytes)\n\ud83d\udddc Compressed:             Yes: 80.96%\n\ud83d\udd25 Core Version:           kusama-1009002 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd905ea233b779dfae428febc319661bbcc0ee861dcec336d18e5a3dc6ee667f6\n\ud83d\udce6 IPFS:                   QmZBJ4GsvBHe9y8KJvycLZRsSb8CYtK7vQSVzw7WEk1hHZ\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           478.51Ki (489990 bytes)\n\ud83d\udddc Compressed:             Yes: 77.88%\n\ud83d\udd25 Core Version:           glutton-1009002 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x0ec1a4ba441e08ee76fcc7e838f30a631510871fff43aaa254d13257904949a2\n\ud83d\udce6 IPFS:                   QmQxPQwKtkjW3YGWAWSeUXGrGP4jXvmG3KXGdJfjMvFyaC\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1158966 bytes)\n\ud83d\udddc Compressed:             Yes: 80.67%\n\ud83d\udd25 Core Version:           encointer-parachain-1009002 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xbdef0b47193f40042719e66e5cafeb66ba3b5d371b08d87ff5bd4fad87cc7b9f\n\ud83d\udce6 IPFS:                   QmUkG2nhzsNLGvnPcdmpcP93rw8LUZgGmhLa77Kvmevc6f\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1004.44Ki (1028542 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           coretime-polkadot-1009002 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x1ec3f5a6e2e512dc4a2479018e27b550facd3b290137c77dec00307ae6cefaa7\n\ud83d\udce6 IPFS:                   QmZRW4NB9Kf8q7298ukw5BNZZJ6XaBEzscciCuCvpP1zmA\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1002.66Ki (1026717 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           coretime-kusama-1009002 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb8d2898c9409e6715dca59849acf976558d457d47eb5416aaaa8520dbfe2cbd5\n\ud83d\udce6 IPFS:                   QmNRUUm7oCUo49DZLyjjUAtxkRZRHXQ19xiv8nmuwAEpxC\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1170357 bytes)\n\ud83d\udddc Compressed:             Yes: 81.22%\n\ud83d\udd25 Core Version:           collectives-1009002 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb69441629e7ed4214b5ef5f10c48ae853cfa75490062fbdbd673d75f187b4e0e\n\ud83d\udce6 IPFS:                   QmU9mGCdswPkRd2LnbmSWoFoGCYKEunBJNXVeLrNfRSzec\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1298822 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-1009002 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7de57afb3dffda7804cc121a654881864d4ea636d650ac5f948ec0106c505cc3\n\ud83d\udce6 IPFS:                   QmVMo76VpMEhBZcigVwg8To8ebNwuFDYJpM8J2v3a9eoCY\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1085076 bytes)\n\ud83d\udddc Compressed:             Yes: 79.73%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-1009002 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x9995079c33615286951036d65e44ab91d3d096c4174e961d93bb3845a6842643\n\ud83d\udce6 IPFS:                   QmVDdgELCf6uBr7DzeLcwPG2dHuvxcGxwJw8LNPTLNtGNb\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.94Mi (2030894 bytes)\n\ud83d\udddc Compressed:             Yes: 82.5%\n\ud83d\udd25 Core Version:           statemint-1009002 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x97308d4d67b813becc0e81ef5ca33c5c23bb118ea00e57193a07647b33bd1581\n\ud83d\udce6 IPFS:                   QmeNmTW4tSNAqLRYethHPgA3sEQt7yiNgCgHNop5HAp3zi\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.29Mi (2394539 bytes)\n\ud83d\udddc Compressed:             Yes: 82.56%\n\ud83d\udd25 Core Version:           statemine-1009002 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xee6d70c902e426f11890146bbbb3da440cf45e49240f525f0cece9e9be1fcc6c\n\ud83d\udce6 IPFS:                   QmQSgT17Sa2Zmk6zLHYyAZUYqpT6DyEE19yUPHUzkWZPix\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v1.9.1",
+    "created_at": "2025-09-30T13:41:01Z",
+    "name": "Runtimes 1.9.1",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 7,
+  "ai_analysis": "# Polkadot Fellows Runtimes v1.9.2 Release Analysis\n\n## Executive Summary for Non-Technical Users\n\n### What's New\nThis release is primarily focused on **post-migration cleanup** after the Kusama Asset Hub Migration (AHM) that was completed recently. Think of it as tidying up after a major system upgrade.\n\n### Main Improvements\n- **Fixed treasury payment issues** on the Encointer network, ensuring community treasuries can properly pay out assets\n- **Restored normal operations** on Kusama Asset Hub by re-enabling features that were temporarily disabled during migration\n- **Enhanced security** by removing special emergency privileges that were only needed during the migration\n- **Fixed several migration-related bugs** that could have caused issues in testing and operation\n\n### Benefits to Users\n- **More reliable treasury payments** for Encointer communities\n- **Normal functionality restored** on Kusama Asset Hub (like vested token transfers)\n- **Better system stability** with bug fixes and improved testing\n- **Reduced system bloat** with optimized code size\n\n### Actions Required\n**No action needed from users** - these are backend improvements and bug fixes that work automatically.\n\n## Key Changes Explained\n\n### Security Improvements\n- **Removed emergency migration privileges**: Special multisig accounts that had elevated permissions during the migration have been stripped of these powers, returning the system to normal security levels\n- **Better isolation of migration data**: Certain sensitive staking information is no longer unnecessarily transferred between chains\n\n### Performance Improvements\n- **Reduced runtime size**: The blockchain software was optimized to be 800KB smaller, helping it fit within system limits and potentially improving performance\n- **Better weight management**: Fixed issues with transaction weight calculations that could cause operations to fail\n\n### Bug Fixes\n- **Fixed Encointer treasury payments**: Communities can now properly receive asset payments from their treasuries without XCM (cross-chain messaging) errors\n- **Fixed crowdloan withdrawals**: Made it possible to withdraw the final contributions from completed crowdloans\n- **Improved migration testing**: Fixed several issues that were preventing proper testing of the migration process\n\n### New Features\n- **Added runtime APIs**: New interfaces for nomination pools and staking that developers can use to build better applications\n\n## Technical Summary for Developers\n\n### Major API Changes\n- **New Runtime APIs added** to Kusama Asset Hub:\n  - `NominationPoolsApi`\n  - `StakingApi`\n- **Encointer pallets updated** to version 20.x.1 with fixed treasury payout logic\n\n### Migration Requirements\n- **No breaking changes** for existing applications\n- **Vested transfers re-enabled** on Kusama Asset Hub\n- **Call filters updated** to remove migration-specific restrictions\n\n### Technical Improvements\n- **Staking migration optimized**: Era forcing information is no longer migrated to Asset Hub (not needed there)\n- **XCM error handling improved**: Removed problematic `ReportError` instruction causing `NotHoldingFees` errors\n- **Weight management enhanced**: Better handling of cross-chain operation weight limits\n- **Runtime compression improved**: Updated to `sp-maybe-compressed-blob` v11.0.1 for better size optimization\n\n## Code Impact Analysis\n\n### Most Affected Components\n1. **Migration Pallets** (`rc-migrator`, `ah-migrator`) - Multiple bug fixes and optimizations\n2. **Kusama Asset Hub Runtime** - Post-migration cleanup and feature restoration\n3. **Encointer Runtime** - Treasury payment fixes and XCM improvements\n4. **Integration Tests** - Enhanced testing for migration processes\n\n### Types of Changes Made\n\n**Bug Fixes (70%)**\n- Fixed staking data migration issues\n- Resolved XCM payment errors in Encointer\n- Fixed crowdloan withdrawal problems\n- Improved migration test reliability\n\n**Post-Migration Cleanup (20%)**\n- Removed emergency privileges\n- Re-enabled normal operations\n- Cleaned up temporary migration code\n\n**Optimizations (10%)**\n- Reduced runtime blob size\n- Improved weight calculations\n- Enhanced error handling\n\n### Change Distribution\n- **4 files changed** (average per PR): Small, focused changes\n- **Net additions**: +37 lines of code overall\n- **Focus areas**: Migration logic, XCM configuration, runtime APIs\n\nThis release represents a maturation phase following the major Kusama Asset Hub Migration, with the development team methodically addressing issues discovered during and after the migration process.",
+  "pr_details": [
+    {
+      "number": 939,
+      "title": "Don't migrate staking era forcing info to AH",
+      "author": "kianenigma",
+      "merged_at": "2025-10-03T10:39:16Z",
+      "body": "Doing it quick and dirty way here, just ignoring it on the recipient, to minimize code change. ",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 10,
+      "deletions": 15,
+      "file_list": [
+        "CHANGELOG.md",
+        "pallets/rc-migrator/src/staking/checks.rs",
+        "pallets/rc-migrator/src/staking/message.rs",
+        "pallets/ah-migrator/src/staking/checks.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 943,
+      "title": "[AHM]\u00a0Small Fixes",
+      "author": "ggwpez",
+      "merged_at": "2025-10-03T16:58:03Z",
+      "body": "Changes:\r\n- Make last crowdloan contribution withdrawable\r\n- Initialize AH wight counter",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 5,
+      "deletions": 4,
+      "file_list": [
+        "CHANGELOG.md",
+        "pallets/rc-migrator/src/preimage/chunks.rs",
+        "pallets/ah-ops/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 944,
+      "title": "[Encointer] fix treasury asset payment",
+      "author": "clangenb",
+      "merged_at": "2025-10-06T14:31:03Z",
+      "body": "Even though we have verified that asset payment on Asset Hub works in general, we have now encointered a protocol bug in the encointer pallets erroneously registering asset payouts as native payouts. The patch bump of the encointer-pallets [fixes](https://github.com/encointer/pallets/pull/434) this.\r\n\r\nAdditionally, while investigating above issue, we found that there is an XCM error. While our assets are indeed paid out on asset hub, the overall XCM result is a `NotHoldingFees` error, which came from the `ReportError` instruction from the appendix. While this needs some more investigation, we just removed it, as encointer does not use it for now. The integration tests have been enhanced to also check successful XCM execution on Asset Hub.",
+      "labels": [],
+      "files_changed": 6,
+      "additions": 32,
+      "deletions": 22,
+      "file_list": [
+        "CHANGELOG.md",
+        "Cargo.lock",
+        "system-parachains/encointer/src/tests/unit_tests.rs",
+        "Cargo.toml",
+        "system-parachains/encointer/src/treasuries_xcm_payout.rs",
+        "integration-tests/emulated/tests/encointer/encointer-kusamsrc/tests/remote_treasury_payout.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 948,
+      "title": "Release 1.9.2 for Kusama RC and AH",
+      "author": "ggwpez",
+      "merged_at": "2025-10-09T12:40:22Z",
+      "body": "To release the Post Kusama AHM Cleanup. Waiting for https://github.com/polkadot-fellows/runtimes/pull/946\r\n",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 154,
+      "deletions": 137,
+      "file_list": [
+        "CHANGELOG.md",
+        "Cargo.lock",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/staking/mod.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 946,
+      "title": "[AHM] Post Kusama Fixes",
+      "author": "ggwpez",
+      "merged_at": "2025-10-09T07:22:22Z",
+      "body": "- **Kusama AH: Re-enable Vested transfers**\r\n- **Relinquish AHM emergency response privileges**\r\n- **Add Nomination Pools and Staking Runtime APIs**",
+      "labels": [],
+      "files_changed": 8,
+      "additions": 81,
+      "deletions": 36,
+      "file_list": [
+        "CHANGELOG.md",
+        "Cargo.lock",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "relay/kusamsrc/ah_migration/phase1.rs",
+        "integration-tests/ahm/src/call_filter_asset_hub.rs",
+        "relay/kusamsrc/lib.rs",
+        ".github/workflows/test.yml",
+        "system-parachains/asset-hubs/asset-hub-kusamCargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 15
+    },
+    {
+      "number": 938,
+      "title": "Release 1.9.1",
+      "author": "ggwpez",
+      "merged_at": "2025-09-30T13:41:01Z",
+      "body": "Reduce WASM size to fit the limits.\r\n",
+      "labels": [],
+      "files_changed": 15,
+      "additions": 22,
+      "deletions": 16,
+      "file_list": [
+        "CHANGELOG.md",
+        "Cargo.lock",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 942,
+      "title": "[AHM] Small fixes to successfully dry-run migration tests ",
+      "author": "sigurpol",
+      "merged_at": "2025-10-03T14:45:05Z",
+      "body": "- Exclude staking pot account from balance migration checks: this account holds the collator selection staking pot and may be modified during the migration\r\n- Fix pre and post-check on AH migrator to work with ZB snaphshots taken at proper synchronized migration states  (pre: AccountsMigrationInit, post: MigrationDone)\r\n- Delay rebagging after migration is done (to avoid to take `post` snapshot and auto-rebagging in the same block)\r\n- Lock bags-list to prevent any score updates during migration\r\n\r\nRelated change in ahm-dryrun repo: https://github.com/paritytech/ahm-dryrun/pull/237\r\n\r\n",
+      "labels": [],
+      "files_changed": 8,
+      "additions": 49,
+      "deletions": 21,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "pallets/ah-migrator/src/account.rs",
+        "pallets/ah-migrator/src/lib.rs",
+        "integration-tests/ahm/src/checks.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/staking/mod.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 12
+    }
+  ]
+}
