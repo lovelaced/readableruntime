@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-09T18:08:31.097739Z",
+  "last_updated": "2025-10-10T02:39:03.817293Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -1116,7 +1116,7 @@
     "5594": {
       "number": "5594",
       "title": "Add debugging info for `StorageWeightReclaim`",
-      "author": "Moliholy",
+      "author": "moliholy",
       "merged_at": "2024-09-07T22:24:11Z",
       "labels": [
         "T2-pallets"
@@ -3991,7 +3991,7 @@
     "8179": {
       "number": "8179",
       "title": "Do not make pallet-identity benchmarks signature-dependent",
-      "author": "Moliholy",
+      "author": "moliholy",
       "merged_at": "2025-06-05T19:38:55Z",
       "labels": [
         "T2-pallets"
@@ -14408,7 +14408,7 @@
     "7918": {
       "number": "7918",
       "title": "Add an extra_constant to pallet-treasury",
-      "author": "Moliholy",
+      "author": "moliholy",
       "merged_at": "2025-03-17T03:02:50Z",
       "labels": [
         "T2-pallets"
@@ -16570,7 +16570,7 @@
     "7368": {
       "number": "7368",
       "title": "Add chain properties to chain-spec-builder",
-      "author": "Moliholy",
+      "author": "moliholy",
       "merged_at": "2025-02-15T11:40:49Z",
       "labels": [
         "T0-node"
@@ -17132,7 +17132,7 @@
     "7206": {
       "number": "7206",
       "title": "Add an extra_constant to pallet-collator-selection",
-      "author": "Moliholy",
+      "author": "moliholy",
       "merged_at": "2025-01-21T10:24:18Z",
       "labels": [
         "T2-pallets"
