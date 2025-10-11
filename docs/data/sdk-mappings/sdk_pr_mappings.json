@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-10T02:39:03.817293Z",
+  "last_updated": "2025-10-11T02:35:39.109831Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-09T09:54:04Z",
-      "total_prs": 360,
-      "new_prs": 360
+      "release_date": "2025-10-10T09:44:29Z",
+      "total_prs": 362,
+      "new_prs": 362
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-09T09:54:04Z",
+      "release_date": "2025-10-10T09:44:29Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,19 +69,19 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-09T09:54:04Z",
+      "release_date": "2025-10-10T09:44:29Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-09T09:54:04Z",
+      "release_date": "2025-10-10T09:44:29Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-09T09:54:04Z",
+      "release_date": "2025-10-10T09:44:29Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -28608,6 +28608,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "9969": {
+      "number": "9969",
+      "title": "[unstable2507] Backport #9926",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-10T09:44:29Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9969",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9926
+    },
     "9953": {
       "number": "9953",
       "title": "[unstable2507] Backport #9938",
@@ -44270,6 +44284,15 @@
         "from_master": true
       }
     ],
+    "9982": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
+      }
+    ],
     "7936": [
       {
         "runtime_version": "1.7.0",
@@ -45233,6 +45256,17 @@
         "is_direct": true
       }
     ],
+    "9953": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9938,
+        "is_direct": true
+      }
+    ],
     "9450": [
       {
         "runtime_version": "1.7.0",
@@ -45758,6 +45792,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "9969": 9926,
     "9953": 9938,
     "9879": 9875,
     "9812": 9787,
@@ -46764,7 +46799,8 @@
       8822
     ],
     "9926": [
-      9970
+      9970,
+      9969
     ],
     "9938": [
       9954,
