@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-16T02:42:09.860652Z",
+  "last_updated": "2025-10-17T02:39:53.369129Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24986,6 +24986,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "9975": {
+      "number": "9975",
+      "title": "[Release|CI/CD] Fix polkadot prod docker image",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-15T10:08:55Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9975",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10031": {
+      "number": "10031",
+      "title": "[stable2509] Backport #9975",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-16T10:28:16Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10031",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9975
+    },
     "9926": {
       "number": "9926",
       "title": "Staking-Async: Chill stakers should not have a score",
@@ -45776,6 +45805,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10031": 9975,
     "9970": 9926,
     "9954": 9938,
     "9946": 9936,
@@ -46810,6 +46840,9 @@
     ],
     "8820": [
       8822
+    ],
+    "9975": [
+      10031
     ],
     "9926": [
       9970,
