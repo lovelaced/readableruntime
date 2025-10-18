@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-17T02:39:53.369129Z",
+  "last_updated": "2025-10-18T02:36:23.896273Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21051,6 +21051,36 @@
       "branch": "stable2503-broken",
       "is_direct": false,
       "from_master": true
+    },
+    "9894": {
+      "number": "9894",
+      "title": "Adjust statement store configs to hold more data",
+      "author": "gui1117",
+      "merged_at": "2025-10-01T08:10:31Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9894",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10037": {
+      "number": "10037",
+      "title": "[stable2506] Backport #9894",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-17T08:08:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10037",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9894
     },
     "9982": {
       "number": "9982",
@@ -45747,6 +45777,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10037": 9894,
     "9889": 9868,
     "9845": 9836,
     "9804": 9781,
@@ -46739,6 +46770,9 @@
     ],
     "7670": [
       7675
+    ],
+    "9894": [
+      10037
     ],
     "9868": [
       9889,
