@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-21T02:40:58.102417Z",
+  "last_updated": "2025-10-22T02:42:48.433799Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-20T20:51:32Z",
-      "total_prs": 365,
-      "new_prs": 365
+      "release_date": "2025-10-21T15:27:56Z",
+      "total_prs": 368,
+      "new_prs": 368
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-20T20:51:32Z",
+      "release_date": "2025-10-21T15:27:56Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,19 +69,19 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-20T20:51:32Z",
+      "release_date": "2025-10-21T15:27:56Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-20T20:51:32Z",
+      "release_date": "2025-10-21T15:27:56Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-10-20T20:51:32Z",
+      "release_date": "2025-10-21T15:27:56Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -25030,6 +25030,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "7456": {
+      "number": "7456",
+      "title": "pallet-assets: make touch other permissionless",
+      "author": "gui1117",
+      "merged_at": "2025-10-21T14:34:23Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7456",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10070": {
+      "number": "10070",
+      "title": "[stable2509] Backport #7456",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-21T15:58:18Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10070",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 7456
+    },
     "10051": {
       "number": "10051",
       "title": "[AHM/Staking] Allow own stake to be collected in all pages",
@@ -28736,6 +28765,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "10069": {
+      "number": "10069",
+      "title": "[unstable2507] Backport #7456",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-21T15:27:56Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10069",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 7456
+    },
     "10062": {
       "number": "10062",
       "title": "[unstable2507] Backport #10051",
@@ -28749,6 +28792,32 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10051
+    },
+    "10038": {
+      "number": "10038",
+      "title": "[unstable2507] Backport #9894",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-21T09:41:02Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10038",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9894
+    },
+    "9972": {
+      "number": "9972",
+      "title": "[unstable2507] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-21T12:53:58Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9972",
+      "branch": "unstable2507",
+      "is_direct": true
     },
     "9969": {
       "number": "9969",
@@ -45234,7 +45303,27 @@
         "is_direct": true
       }
     ],
+    "10038": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 9894,
+        "is_direct": true
+      }
+    ],
     "9782": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
+    "9656": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
@@ -45251,15 +45340,6 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9632,
-        "is_direct": true
-      }
-    ],
-    "9656": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "unstable2507",
         "is_direct": true
       }
     ],
@@ -45344,6 +45424,17 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9781,
+        "is_direct": true
+      }
+    ],
+    "10062": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 10051,
         "is_direct": true
       }
     ],
@@ -45483,6 +45574,15 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9281,
+        "is_direct": true
+      }
+    ],
+    "9972": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
         "is_direct": true
       }
     ],
@@ -45940,6 +46040,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10070": 7456,
     "10063": 10051,
     "10040": 9894,
     "10031": 9975,
@@ -45972,7 +46073,9 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10069": 7456,
     "10062": 10051,
+    "10038": 9894,
     "9969": 9926,
     "9953": 9938,
     "9879": 9875,
@@ -46881,7 +46984,8 @@
     ],
     "9894": [
       10037,
-      10040
+      10040,
+      10038
     ],
     "9868": [
       9889,
@@ -46983,6 +47087,10 @@
     ],
     "8820": [
       8822
+    ],
+    "7456": [
+      10070,
+      10069
     ],
     "10051": [
       10063,
