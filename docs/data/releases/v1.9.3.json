@@ -1,0 +1,203 @@
+{
+  "newer_release": {
+    "tag_name": "v1.9.3",
+    "created_at": "2025-10-22T08:27:52Z",
+    "name": "Runtimes 1.9.3",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [1.9.3] 21.10.2025\n\n### Added\n- Enable view functions on System Chains([polkadot-fellows/runtimes/pull/981](https://github.com/polkadot-fellows/runtimes/pull/981))\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1777766 bytes)\n\ud83d\udddc Compressed:             Yes: 80.61%\n\ud83d\udd25 Core Version:           polkadot-1009003 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x50ea5feef2a558eb98005073c8f6ab3e49e3e5f83d06c82eeab6c4c6264912f2\n\ud83d\udce6 IPFS:                   QmY1eQCquhxXgYikLF9AYNRgwyFa4f2VqsrJR9LJfxoD8D\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1005.63Ki (1029758 bytes)\n\ud83d\udddc Compressed:             Yes: 80.08%\n\ud83d\udd25 Core Version:           people-polkadot-1009003 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x13da2b90195b2e767f1d5ac8e3dc18161bc12efdc80659fd72ccf28d7c68f42f\n\ud83d\udce6 IPFS:                   QmXSrKBsTwinCjbzwQZ7XViU4aTJcXTxEu5evEDZHg89Y6\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1003.30Ki (1027374 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           people-kusama-1009003 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x96d5f75b700aaa648612d520013a1301f2effef9ae43dc2dc8d2e7ba09c7bc00\n\ud83d\udce6 IPFS:                   QmY4p8dFsEbZWqH2UtwoZYSAqAFeTyeXgZ4LRUSjxF1SMT\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.78Mi (1865627 bytes)\n\ud83d\udddc Compressed:             Yes: 80.96%\n\ud83d\udd25 Core Version:           kusama-1009003 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4b8a13041b0666b4a10a52b7b32726e1cc9308fa68dbb1159d14d987efe1648a\n\ud83d\udce6 IPFS:                   QmWqz46x2uTEQc6aZ4b18nvgfAtutkWCYEk1K4a5tdWiV7\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           477.29Ki (488742 bytes)\n\ud83d\udddc Compressed:             Yes: 77.98%\n\ud83d\udd25 Core Version:           glutton-1009003 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6e45f36a151e191a8f335308d4304ac06789a6a54071d8c6cffa84597cf7a828\n\ud83d\udce6 IPFS:                   QmYTm5qqh143WiQqnNCe3FJ7UHYXJLKQJ9CqWjr3EYn38K\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1160499 bytes)\n\ud83d\udddc Compressed:             Yes: 80.67%\n\ud83d\udd25 Core Version:           encointer-parachain-1009003 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5fcf8da3263150dc85ace880a9e21c67c5da5a4733f177172f869d8adeee990b\n\ud83d\udce6 IPFS:                   QmPppfmNhKeRNmMtPn7ChuJBLxjB6vsx5tygsF1FV4JxQe\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1006.65Ki (1030806 bytes)\n\ud83d\udddc Compressed:             Yes: 80.09%\n\ud83d\udd25 Core Version:           coretime-polkadot-1009003 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3cb6c66211d49c0d7e9487f8f42b2be9210f561a2428f1fd154f172af7808b31\n\ud83d\udce6 IPFS:                   QmYwdMMK9Tn1nMB3v7nA91SR73fCmL9ymMJtFMi4AZnXD4\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1004.43Ki (1028529 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           coretime-kusama-1009003 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x1599f6b68a9910a318b23822f998d1976f5773c55816c3d39d28d605bcafdfde\n\ud83d\udce6 IPFS:                   QmbmVH9cfx9TCtUnRdCmLwXMBou8refEDzS2RVwa8U3182\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1172250 bytes)\n\ud83d\udddc Compressed:             Yes: 81.22%\n\ud83d\udd25 Core Version:           collectives-1009003 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3c7d4202d5e1a789ce63fdcbd1f0735b201acdb89744aa1474fd3817573284c1\n\ud83d\udce6 IPFS:                   QmUkRMGsF8aVjPfDrjKpLjySTnKFgNG2NZ5JxQcWK773Vn\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1299572 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-1009003 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc64f5504ecdf36341ca4b2d2440a86119962727082886a6cc4f95ee35465aaf8\n\ud83d\udce6 IPFS:                   QmeWQbKadVsoHxizywZcarERtdZM8U8ZV1iPJK2A6NpmKJ\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1085985 bytes)\n\ud83d\udddc Compressed:             Yes: 79.73%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-1009003 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x961f4c761aaa0e1e1d1aafd979753dfdc7beb1e12792d32d0ec6582880fde02a\n\ud83d\udce6 IPFS:                   QmXamozvBSxZVw3zSAofi8QhNgHGZaCaFtoEM3zzPRLHq3\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.95Mi (2039427 bytes)\n\ud83d\udddc Compressed:             Yes: 82.48%\n\ud83d\udd25 Core Version:           statemint-1009003 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6eaebf82e6188a2c04d15019f68194d59b88dbfafb16471cdc37211dc3ace709\n\ud83d\udce6 IPFS:                   QmZ6NtEjiXwKaUg5xzzXtEACpRLG4qYS318Bbb79bSrVdx\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.29Mi (2395970 bytes)\n\ud83d\udddc Compressed:             Yes: 82.56%\n\ud83d\udd25 Core Version:           statemine-1009003 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x099d803ee67d6c1859d84342d61c01eed373323448f7fd230a4e85a668806448\n\ud83d\udce6 IPFS:                   QmNj38CtcSosfCsFnYnQ8soE6rP2WKewBZp1YonX1xJN9c\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v1.9.2",
+    "created_at": "2025-10-09T12:40:22Z",
+    "name": "Runtimes 1.9.2",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 8,
+  "ai_analysis": "# Polkadot Fellows Runtimes v1.9.3 Release Analysis\n\n## Executive Summary for Non-Technical Users\n\n**What's New in This Release:**\nThis is primarily a **maintenance release** focused on fixing bugs and improving system reliability. The main improvements include:\n\n- **Fixed a staking calculation bug** that could cause incorrect reward distributions for validators and nominators\n- **Enhanced bridge functionality** between Polkadot and Ethereum, making cross-chain transfers more reliable\n- **Updated system weights** to ensure transactions are processed efficiently\n- **Improved internal system organization** for better maintainability\n\n**Benefits for Users:**\n- More accurate staking rewards and nominations\n- Better reliability for cross-chain operations\n- Continued smooth network operations\n- No disruption to existing functionality\n\n**Actions Required:**\n- **None** - This is an automatic network upgrade that requires no user action\n- All existing functionality continues to work as before\n\n## Key Changes Explained\n\n### \ud83d\udc1b **Bug Fixes (Critical)**\n- **Staking Calculation Fix**: Resolved an issue in the async staking system that could lead to incorrect self-stake accounting for validators. This ensures rewards are calculated and distributed accurately.\n- **Bridge Hub Weights**: Fixed performance calculations for Snowbridge (Ethereum bridge) operations, ensuring transactions complete within expected timeframes.\n\n### \ud83d\udd27 **Infrastructure Improvements**\n- **Runtime API Enhancement**: Added missing programming interfaces for the Snowbridge system, enabling better integration tools for developers and relayers.\n- **Migration System Modernization**: Updated how system upgrades are handled internally, moving to a more robust and maintainable approach.\n\n### \u26a1 **Performance Optimizations**\n- **Fresh Weight Calculations**: Updated performance benchmarks across multiple parachains to ensure optimal transaction processing.\n- **Integration Test Improvements**: Enhanced automated testing coverage for governance systems.\n\n### \ud83c\udd95 **New Features**\n- **Extended Runtime APIs**: Added new programming interfaces for staking and nomination pools on Asset Hub Polkadot, enabling better third-party integrations.\n\n## Technical Summary for Developers\n\n### API/Interface Changes\n- **New Runtime APIs Added:**\n  - `snowbridge-outbound-queue-v2-runtime-api` \n  - `snowbridge-system-v2-runtime-api`\n  - `pallet-staking-runtime-api` and `pallet-nomination-pools-runtime-api` for Asset Hub Polkadot\n\n### Migration Requirements\n- **Single Block Migrations**: Moved from `frame_executive::Executive` to `frame_system::Config`\n  - Old configuration still works but is deprecated\n  - Developers should update their runtime configurations to use the new pattern\n- **Dependency Updates**: `pallet-staking-async` bumped from `0.6.0` to `0.6.2`\n\n### Technical Improvements\n- **Weight Updates**: Refreshed benchmark weights across Bridge Hub, Collectives, Coretime, and People parachains\n- **Runtime Versioning**: All affected runtimes bumped to version `1_009_003`\n- **Cargo Dependencies**: Updated lock files to reflect new dependency versions\n\n## Code Impact Analysis\n\n### Most Affected Components\n1. **Staking System** (High Impact)\n   - Core staking calculation logic fixed\n   - Runtime API additions for better integration\n\n2. **Bridge Infrastructure** (Medium Impact)\n   - Snowbridge weight corrections\n   - New runtime APIs for cross-chain operations\n\n3. **Runtime Configuration** (Medium Impact)\n   - Migration system restructuring across all runtimes\n   - Version bumps for release coordination\n\n### Types of Changes Made\n- **Bug Fixes (40%)**: Critical staking calculations and bridge weights\n- **Infrastructure Improvements (35%)**: Migration system updates and API additions  \n- **Maintenance (25%)**: Weight updates, version bumps, and dependency management\n\n### Files Modified\n- **14 runtime files** updated for version release\n- **13 files** modified for migration system improvements\n- **5 files** changed for Snowbridge API additions\n- **Multiple weight files** updated across parachains\n\nThis release demonstrates the Fellowship's commitment to maintaining system reliability while continuously improving the underlying infrastructure for better developer experience and user security.",
+  "pr_details": [
+    {
+      "number": 971,
+      "title": "Fix weights for BHP",
+      "author": "bkontur",
+      "merged_at": "2025-10-19T18:20:35Z",
+      "body": "Fixes BridgeHubPolkadot Snowbridge benchmarks leftover from: https://github.com/polkadot-fellows/runtimes/pull/959 catched by the test: https://github.com/polkadot-fellows/runtimes/actions/runs/18527148143/job/52800544994\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [X] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 13,
+      "deletions": 5,
+      "file_list": [
+        ".github/workflows/integration-tests-matrix.json",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/weights/snowbridge_pallet_system_backend.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 1
+    },
+    {
+      "number": 980,
+      "title": "Bump `pallet-staking-async` to `0.6.2`",
+      "author": "kianenigma",
+      "merged_at": "2025-10-21T12:03:35Z",
+      "body": "Brings https://github.com/paritytech/polkadot-sdk/pull/10051 to here, to be made into a 1.9.3 release for Kusama.\r\n\r\nCan be merged, but a 1.9.3 release should come only after we verify the fix in westend.",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 4,
+      "deletions": 3,
+      "file_list": [
+        "CHANGELOG.md",
+        "Cargo.toml",
+        "Cargo.lock"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 978,
+      "title": "Snowbridge: Add missing runtime API",
+      "author": "yrong",
+      "merged_at": "2025-10-21T06:55:54Z",
+      "body": "It looks like we missed some of the [runtime API](https://github.com/paritytech/polkadot-sdk/blob/590f23d2d83c2b79aabfda711a91fe0bdc5e64a0/cumulus/parachains/runtimes/bridge-hubs/bridge-hub-westend/src/lib.rs#L958-L962) when initially merging it into fellows-runtime in [PR-796](https://github.com/polkadot-fellows/runtimes/pull/796), this API is required to generate proofs.\r\n",
+      "labels": [],
+      "files_changed": 5,
+      "additions": 58,
+      "deletions": 5,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/Cargo.toml",
+        "Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "Cargo.lock"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 982,
+      "title": "Release 1.9.3",
+      "author": "kianenigma",
+      "merged_at": "2025-10-22T08:27:52Z",
+      "body": "Release 1.9.3 for KAH only.\r\n",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 14,
+      "deletions": 14,
+      "file_list": [
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 1
+    },
+    {
+      "number": 959,
+      "title": "[AHM] Fresh weights for Polkadot",
+      "author": "bkontur",
+      "merged_at": "2025-10-15T11:32:18Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 0,
+      "additions": 0,
+      "deletions": 0,
+      "file_list": [],
+      "linked_issues": [],
+      "comment_count": 22
+    },
+    {
+      "number": 844,
+      "title": "Moves single block migrations from frame_executive to frame_system config",
+      "author": "RomarQ",
+      "merged_at": "2025-10-12T10:45:23Z",
+      "body": "**Depends on** https://github.com/paritytech/polkadot-sdk/pull/9451\r\n---\r\n\r\nBased on PR https://github.com/paritytech/polkadot-sdk/pull/1781 and [PRDoc](https://github.com/paritytech/polkadot-sdk/blob/beb9030b249cc078b3955232074a8495e7e0302a/prdoc/1.9.0/pr_1781.prdoc#L29), the new way for providing the single block migrations should be through `SingleBlockMigrations` in `frame_system::Config`. Providing them from `frame_executive::Executive` is still supported, but from what I understood is or will be deprecated.\r\n\r\n> `SingleBlockMigrations` this is the new way of configuring migrations that run in a single block. Previously they were defined as last generic argument of Executive. This shift is brings all central configuration about migrations closer into view of the developer (migrations that are configured in Executive will still work for now but is deprecated).\r\n\r\nWill also open a PR on polkadot-sdk side, adding a deprecation warning.\r\n",
+      "labels": [],
+      "files_changed": 13,
+      "additions": 49,
+      "deletions": 95,
+      "file_list": [
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 948,
+      "title": "Release 1.9.2 for Kusama RC and AH",
+      "author": "ggwpez",
+      "merged_at": "2025-10-09T12:40:22Z",
+      "body": "To release the Post Kusama AHM Cleanup. Waiting for https://github.com/polkadot-fellows/runtimes/pull/946\r\n",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 154,
+      "deletions": 137,
+      "file_list": [
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "Cargo.toml",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/staking/mod.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "Cargo.lock",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 949,
+      "title": " [PAHM] Export missing staking runtime APIs",
+      "author": "sigurpol",
+      "merged_at": "2025-10-09T14:25:14Z",
+      "body": "For PAH, add nomination pools and staking runtime APIs, similarly to #946  for KAH",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 70,
+      "deletions": 9,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "Cargo.lock"
+      ],
+      "linked_issues": [
+        {
+          "number": 946,
+          "title": "[AHM] Post Kusama Fixes",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 13
+    }
+  ]
+}
