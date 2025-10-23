@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-22T18:12:15.333659Z",
+  "last_updated": "2025-10-23T02:42:21.324937Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25107,6 +25107,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "10096": {
+      "number": "10096",
+      "title": "[stable2509] Post crates release prt2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-22T18:53:03Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10096",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "10094": {
       "number": "10094",
       "title": "[stable2509] Post crates release changes",
@@ -25118,6 +25130,34 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10094",
       "branch": "stable2509",
       "is_direct": true
+    },
+    "10072": {
+      "number": "10072",
+      "title": "revert: aura tracker",
+      "author": "sistemd",
+      "merged_at": "2025-10-22T13:17:33Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10072",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10092": {
+      "number": "10092",
+      "title": "[stable2509] Backport #10072",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-22T18:35:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10092",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10072
     },
     "10087": {
       "number": "10087",
@@ -46235,6 +46275,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10092": 10072,
     "10087": 10082,
     "10070": 7456,
     "10063": 10051,
@@ -47294,6 +47335,9 @@
     ],
     "8820": [
       8822
+    ],
+    "10072": [
+      10092
     ],
     "7456": [
       10070,
