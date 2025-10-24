@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-23T02:42:21.323413Z",
+  "generated_at": "2025-10-24T02:40:52.321010Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -71,7 +71,7 @@
         "polkadot-primitives": "17.1.0",
         "sp-runtime": "40.1.0"
       },
-      "branch_pr_count": 511,
+      "branch_pr_count": 512,
       "included_branches": [
         "stable2412"
       ],
@@ -86,7 +86,7 @@
         "polkadot-primitives": "17.1.0",
         "sp-runtime": "40.1.0"
       },
-      "branch_pr_count": 511,
+      "branch_pr_count": 512,
       "included_branches": [
         "stable2412"
       ],
@@ -295,6 +295,16 @@
         "frame-support": "28.0.0"
       }
     },
+    "stable2509-1": {
+      "commit": "bd19559e1fa2a3f8018e1244c8831ded0f84b924",
+      "date": "2025-10-22T18:53:02Z",
+      "branch": "stable2509",
+      "package_versions": {
+        "polkadot-primitives": "21.0.0",
+        "sp-runtime": "44.0.0",
+        "frame-support": "43.0.0"
+      }
+    },
     "stable2509-1-rc2": {
       "commit": "bd19559e1fa2a3f8018e1244c8831ded0f84b924",
       "date": "2025-10-22T18:53:02Z",
@@ -393,6 +403,16 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2506-4": {
+      "commit": "3c88ea39bda4cd2bf68b7225394efbeccffbc00a",
+      "date": "2025-10-22T15:18:08Z",
+      "branch": "stable2506",
+      "package_versions": {
+        "polkadot-primitives": "19.0.0",
+        "sp-runtime": "42.0.0",
+        "frame-support": "41.0.0"
       }
     },
     "stable2506-4-rc1": {
@@ -843,6 +863,26 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2412-11": {
+      "commit": "33663108c248b645ef106e4e9d07598d34ac89ac",
+      "date": "2025-10-23T08:28:18Z",
+      "branch": "stable2412",
+      "package_versions": {
+        "polkadot-primitives": "17.1.0",
+        "sp-runtime": "40.1.0",
+        "frame-support": "39.1.0"
+      }
+    },
+    "stable2412-11-rc1": {
+      "commit": "33663108c248b645ef106e4e9d07598d34ac89ac",
+      "date": "2025-10-23T08:28:18Z",
+      "branch": "stable2412",
+      "package_versions": {
+        "polkadot-primitives": "17.1.0",
+        "sp-runtime": "40.1.0",
+        "frame-support": "39.1.0"
       }
     },
     "stable2412-10": {
@@ -1375,6 +1415,7 @@
         "stable2509-rc3",
         "stable2509-rc2",
         "stable2509-rc1",
+        "stable2509-1",
         "stable2509-1-rc2",
         "stable2509-1-rc1"
       ],
@@ -1391,6 +1432,7 @@
         "stable2506-rc3",
         "stable2506-rc2",
         "stable2506-rc1",
+        "stable2506-4",
         "stable2506-4-rc1",
         "stable2506-3",
         "stable2506-3-rc1",
@@ -1448,6 +1490,8 @@
         "stable2412-rc3",
         "stable2412-rc2",
         "stable2412-rc1",
+        "stable2412-11",
+        "stable2412-11-rc1",
         "stable2412-10",
         "stable2412-10-rc2",
         "stable2412-10-rc1",
@@ -1475,7 +1519,7 @@
         "stable2412-1-rc1"
       ],
       "created_date": "2024-11-07T15:43:58Z",
-      "pr_count": 511
+      "pr_count": 512
     },
     "stable2409": {
       "tags": [
@@ -1536,9 +1580,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 113,
+    "total_sdk_tags": 117,
     "total_branches": 10,
-    "total_prs_tracked": 2171,
+    "total_prs_tracked": 2172,
     "runtime_releases_mapped": 15
   }
 }

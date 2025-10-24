@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-23T02:42:21.324937Z",
+  "last_updated": "2025-10-24T02:40:52.322583Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -3791,6 +3791,18 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "10098": {
+      "number": "10098",
+      "title": "[stable2412] Post crates release changes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-23T08:28:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10098",
+      "branch": "stable2412",
+      "is_direct": true
     },
     "10082": {
       "number": "10082",
