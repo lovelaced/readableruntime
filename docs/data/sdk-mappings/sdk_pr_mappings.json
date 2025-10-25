@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-24T02:40:52.322583Z",
+  "last_updated": "2025-10-25T02:38:53.817436Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -26199,6 +26199,18 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9641
+    },
+    "10110": {
+      "number": "10110",
+      "title": "Version bumps and prdocs reordering from stable2509-1",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-24T13:56:48Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10110",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "9974": {
       "number": "9974",
