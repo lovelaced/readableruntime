@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-27T02:47:47.032217Z",
+  "last_updated": "2025-10-28T02:42:00.948070Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25119,6 +25119,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "10122": {
+      "number": "10122",
+      "title": "[Release|CI/CD] Fix release draft creation in the Combined build release flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-27T11:35:26Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10122",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10123": {
+      "number": "10123",
+      "title": "[stable2509] Backport #10122",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-27T12:51:49Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10123",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10122
+    },
     "10096": {
       "number": "10096",
       "title": "[stable2509] Post crates release prt2",
@@ -46299,6 +46328,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10123": 10122,
     "10092": 10072,
     "10087": 10082,
     "10070": 7456,
@@ -47359,6 +47389,9 @@
     ],
     "8820": [
       8822
+    ],
+    "10122": [
+      10123
     ],
     "10072": [
       10092
