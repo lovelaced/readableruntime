@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-10-30T02:44:51.306493Z",
+  "last_updated": "2025-10-31T02:44:48.934617Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11115,6 +11115,18 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "10170": {
+      "number": "10170",
+      "title": "[stable2503] Crates release stable2503-11",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-10-30T15:30:44Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10170",
+      "branch": "stable2503",
+      "is_direct": true
     },
     "10085": {
       "number": "10085",
@@ -25124,6 +25136,35 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10163": {
+      "number": "10163",
+      "title": "Better hadling of held off collations for AHM stop-gap solution",
+      "author": "tdimitrov",
+      "merged_at": "2025-10-30T12:49:19Z",
+      "labels": [
+        "T0-node",
+        "T8-polkadot",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10163",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10167": {
+      "number": "10167",
+      "title": "[stable2509] Backport #10163",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-10-30T13:31:03Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10167",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10163
     },
     "10122": {
       "number": "10122",
@@ -46334,6 +46375,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10167": 10163,
     "10123": 10122,
     "10092": 10072,
     "10087": 10082,
@@ -47395,6 +47437,9 @@
     ],
     "8820": [
       8822
+    ],
+    "10163": [
+      10167
     ],
     "10122": [
       10123
