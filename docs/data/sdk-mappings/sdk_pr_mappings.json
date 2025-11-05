@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-04T02:43:58.327162Z",
+  "last_updated": "2025-11-05T00:15:26.972250Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -92,6 +92,12 @@
       "new_prs": 0
     },
     "v2.0.0": {
+      "sdk_version": "unstable2507",
+      "release_date": "2025-10-22T15:36:52Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v2.0.1": {
       "sdk_version": "unstable2507",
       "release_date": "2025-10-22T15:36:52Z",
       "total_prs": 0,
@@ -25261,6 +25267,36 @@
       "is_backport": true,
       "original_pr": 10082
     },
+    "9965": {
+      "number": "9965",
+      "title": "Limit the size of the statement for further gossiping",
+      "author": "AndreiEres",
+      "merged_at": "2025-10-22T02:00:38Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9965",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10076": {
+      "number": "10076",
+      "title": "[stable2509] Backport #9965",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-04T14:30:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10076",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9965
+    },
     "7456": {
       "number": "7456",
       "title": "pallet-assets: make touch other permissionless",
@@ -46379,6 +46415,7 @@
     "10123": 10122,
     "10092": 10072,
     "10087": 10082,
+    "10076": 9965,
     "10070": 7456,
     "10063": 10051,
     "10044": 9912,
@@ -47446,6 +47483,9 @@
     ],
     "10072": [
       10092
+    ],
+    "9965": [
+      10076
     ],
     "7456": [
       10070,
