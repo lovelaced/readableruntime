@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-06T02:43:54.874298Z",
+  "last_updated": "2025-11-07T02:45:33.369819Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11122,6 +11122,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "9940": {
+      "number": "9940",
+      "title": "Make cargo-check-all-crate-macos non-required",
+      "author": "AndWeHaveAPlan",
+      "merged_at": "2025-10-06T12:05:45Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A5-run-CI",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9940",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10217": {
+      "number": "10217",
+      "title": "[stable2503] Backport #9940",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-06T10:31:43Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10217",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9940
+    },
     "10170": {
       "number": "10170",
       "title": "[stable2503] Crates release stable2503-11",
@@ -21139,6 +21171,48 @@
       "is_direct": false,
       "from_master": true
     },
+    "9871": {
+      "number": "9871",
+      "title": "`trace_block`: Support overwriting `execute_block`",
+      "author": "bkchr",
+      "merged_at": "2025-10-10T11:11:24Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9871",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10221": {
+      "number": "10221",
+      "title": "[stable2506] Backport #9871: Block tracing with proof recording",
+      "author": "skunert",
+      "merged_at": "2025-11-06T15:08:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10221",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9871
+    },
+    "10218": {
+      "number": "10218",
+      "title": "[stable2506] Backport #9940",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-06T10:05:05Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10218",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9940
+    },
     "10093": {
       "number": "10093",
       "title": "[stable2506] Post crates release changes",
@@ -21164,6 +21238,36 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10082
+    },
+    "9965": {
+      "number": "9965",
+      "title": "Limit the size of the statement for further gossiping",
+      "author": "AndreiEres",
+      "merged_at": "2025-10-22T02:00:38Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9965",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10075": {
+      "number": "10075",
+      "title": "[stable2506] Backport #9965",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-06T12:56:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10075",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9965
     },
     "9912": {
       "number": "9912",
@@ -25173,6 +25277,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "10219": {
+      "number": "10219",
+      "title": "[stable2509] Backport #9940",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-06T12:13:08Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10219",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9940
+    },
     "10163": {
       "number": "10163",
       "title": "Better hadling of held off collations for AHM stop-gap solution",
@@ -25296,22 +25415,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10082
-    },
-    "9965": {
-      "number": "9965",
-      "title": "Limit the size of the statement for further gossiping",
-      "author": "AndreiEres",
-      "merged_at": "2025-10-22T02:00:38Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2506",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/9965",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "10076": {
       "number": "10076",
@@ -25454,6 +25557,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9731
+    },
+    "9725": {
+      "number": "9725",
+      "title": "bags-list: implement pending rebag",
+      "author": "sigurpol",
+      "merged_at": "2025-10-10T16:21:59Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9725",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "9998": {
+      "number": "9998",
+      "title": "[stable2509] Backport #9725",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-06T14:53:11Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9998",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9725
     },
     "9926": {
       "number": "9926",
@@ -44047,15 +44178,6 @@
         "is_direct": true
       }
     ],
-    "6931": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "stable2506",
-        "from_master": true
-      }
-    ],
     "8979": [
       {
         "runtime_version": "1.7.0",
@@ -44065,6 +44187,15 @@
         "is_backport": true,
         "original_pr": 8973,
         "is_direct": true
+      }
+    ],
+    "6931": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "from_master": true
       }
     ],
     "8984": [
@@ -46252,6 +46383,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "10217": 9940,
     "10085": 10082,
     "9598": 9544,
     "9582": 9564,
@@ -46364,7 +46496,10 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10221": 9871,
+    "10218": 9940,
     "10086": 10082,
+    "10075": 9965,
     "10042": 9912,
     "10037": 9894,
     "10010": 9731,
@@ -46426,6 +46561,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10219": 9940,
     "10167": 10163,
     "10123": 10122,
     "10092": 10072,
@@ -46437,6 +46573,7 @@
     "10040": 9894,
     "10031": 9975,
     "10011": 9731,
+    "9998": 9725,
     "9970": 9926,
     "9954": 9938,
     "9946": 9936,
@@ -47176,6 +47313,11 @@
     "6304": [
       6470
     ],
+    "9940": [
+      10217,
+      10218,
+      10219
+    ],
     "9564": [
       9582,
       9583,
@@ -47384,6 +47526,13 @@
     "7670": [
       7675
     ],
+    "9871": [
+      10221
+    ],
+    "9965": [
+      10075,
+      10076
+    ],
     "9912": [
       10042,
       10044
@@ -47503,9 +47652,6 @@
     "10072": [
       10092
     ],
-    "9965": [
-      10076
-    ],
     "7456": [
       10070,
       10069
@@ -47516,6 +47662,9 @@
     ],
     "9975": [
       10031
+    ],
+    "9725": [
+      9998
     ],
     "9926": [
       9970,
