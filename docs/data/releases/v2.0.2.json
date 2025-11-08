@@ -1,0 +1,215 @@
+{
+  "newer_release": {
+    "tag_name": "v2.0.2",
+    "created_at": "2025-11-08T13:39:50Z",
+    "name": "Runtimes 2.0.2",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.0.2] 07.11.2025\n\n### Fixed\n\n- Fix AH staking inflation calculation to use correct total issuance (https://github.com/polkadot-fellows/runtimes/pull/998).\n- Set invulnerable deposit for Polkadot AssetHub staking election ([#993](https://github.com/polkadot-fellows/runtimes/pull/993))\n- Fix staking on Asset Hub via XCM ([#1006](https://github.com/polkadot-fellows/runtimes/pull/1006))\n- Fix flaky `curl` download command in CI ([#1006](https://github.com/polkadot-fellows/runtimes/pull/1006))\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1778728 bytes)\n\ud83d\udddc Compressed:             Yes: 80.62%\n\ud83d\udd25 Core Version:           polkadot-2000002 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5acc93196d335874a4bd0d1a8e1bb9e368a6dc1964fe7825fab08c0c08d75857\n\ud83d\udce6 IPFS:                   QmSLeUMA84KA1eUd4KJ5cC2HmcA3Y8D2EtavfJpdtoFvKe\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1005.68Ki (1029814 bytes)\n\ud83d\udddc Compressed:             Yes: 80.08%\n\ud83d\udd25 Core Version:           people-polkadot-2000002 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xe7dc96e47ad780398deec4cb17a1f0967ce8f31869f0b3bfbfcce0418028be5d\n\ud83d\udce6 IPFS:                   QmPiZWjukjzZWpcRXJfQwzk4FJmW1yc4fSAVWF3fhY72EB\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1003.31Ki (1027380 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           people-kusama-2000002 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x097308fc117b5c74484480ce962cb80b471bb6828881ad155cf0b9a1a8af3460\n\ud83d\udce6 IPFS:                   QmacvfgaCtCWHaEhUoT9b5Tx1UWVFTGFMvbowSEohB3tAY\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.78Mi (1865491 bytes)\n\ud83d\udddc Compressed:             Yes: 80.98%\n\ud83d\udd25 Core Version:           kusama-2000002 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xeefb3eb4bfa59ed4121ba25691edb4b5458d0ff3198d0a3234692ebdf0960e56\n\ud83d\udce6 IPFS:                   QmfAKFgxdmfnD68JSZW28XZ8aWrwFt9vfS58pdoD5eMVyp\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           477.32Ki (488771 bytes)\n\ud83d\udddc Compressed:             Yes: 77.97%\n\ud83d\udd25 Core Version:           glutton-2000002 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5cb34bc92720e466268d2b6417ccd9dbe6e3167bc12feebc11bccbfdcaf0aa26\n\ud83d\udce6 IPFS:                   QmP35rQSViwnqkdsN555NtVbBrB6TApxsbHFJxzMpbS51b\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1160412 bytes)\n\ud83d\udddc Compressed:             Yes: 80.67%\n\ud83d\udd25 Core Version:           encointer-parachain-2000002 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x94a14ffb2dbfc6c8634fc711369c4bc0b65ea9fbf46049d958fed2831e4288b4\n\ud83d\udce6 IPFS:                   QmYXY5KxzNdDHzL4RaTRtRCtSsxMzLAHusKmFc9r6mSYuf\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1006.63Ki (1030788 bytes)\n\ud83d\udddc Compressed:             Yes: 80.09%\n\ud83d\udd25 Core Version:           coretime-polkadot-2000002 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x54b8a0ece85af4c001c4039a2b695f3beafe08e1a97566415cb3c993f2a79605\n\ud83d\udce6 IPFS:                   Qmae3a5DFGP72XPLDf3eA7WivTZQPiWq9DZr62X8ZC9sGF\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1004.49Ki (1028590 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           coretime-kusama-2000002 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xed15ae5bf3fcaa2bf67279c84fd6ef98ce31ad9a497cd373883462f2ce607d7b\n\ud83d\udce6 IPFS:                   QmZz1crDoJG7MJ1uVmrvZKJTtBDtzkkc7PfHpSmTffvazv\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1172201 bytes)\n\ud83d\udddc Compressed:             Yes: 81.22%\n\ud83d\udd25 Core Version:           collectives-2000002 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xebd69afe53b369e489bc235c99cc3f30dddf5fba8f996af9266185695aa048c6\n\ud83d\udce6 IPFS:                   QmW4Qv1qpSSmB4VasexVBgKRYhd1AzWam7CRTjiX7S2fYU\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1299653 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2000002 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xac941b3b99ed7439939e671914b71b7f295a1d340031ff13124aef6becea14b9\n\ud83d\udce6 IPFS:                   QmWMoXatcPkUcQwUajVpfMWkgYygUHvSdaEG7XUZeyCAbL\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1085859 bytes)\n\ud83d\udddc Compressed:             Yes: 79.73%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2000002 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x0ebc4b32bc2ef7bc0d97031c53b2ecef216f96eee0e5df94e5d76cb0e2c66b49\n\ud83d\udce6 IPFS:                   QmV8MDFeBMus4DBF8Nzhgdcsy2KUED3i7sfvH1HHYK7oVS\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.95Mi (2041688 bytes)\n\ud83d\udddc Compressed:             Yes: 82.47%\n\ud83d\udd25 Core Version:           statemint-2000002 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xe2af694d7e9f890e248151cd1649360b344f2df582598c7706425f672f627cdf\n\ud83d\udce6 IPFS:                   QmdyctqMomBuvdZdcewX1FWGWMGt9FxzDVZuNnRYEdSteh\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.29Mi (2398033 bytes)\n\ud83d\udddc Compressed:             Yes: 82.56%\n\ud83d\udd25 Core Version:           statemine-2000002 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x56577fbd62cfa8e53effa2b3817b576bdd084aba30be90880ab7caa790a8f912\n\ud83d\udce6 IPFS:                   QmfCAJjJqRDpdKbbnk1BeNMfjjmgwvhkxD96muRj8rqPQV\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.0.1",
+    "created_at": "2025-11-04T19:04:16Z",
+    "name": "Runtimes 2.0.1",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 7,
+  "ai_analysis": "# Release v2.0.2 Analysis: Polkadot Fellows Runtimes\n\n## 1. Executive Summary for Non-Technical Users\n\n### Main Improvements\nThis release primarily focuses on **fixing critical issues with staking rewards** and improving the development infrastructure. The key improvements are:\n\n- **Fixed staking rewards on Asset Hub**: Rewards were running about 60% lower than expected - this has been corrected\n- **Improved cross-chain staking**: Fixed issues with staking operations when using cross-chain messaging (XCM)\n- **Better security deposits**: Set proper security deposits for validator elections\n- **Cleaner development tools**: Removed outdated testing code and improved build processes\n\n### Benefits for Users\n- **Stakers will see proper rewards again**: If you're staking on Asset Hub, your rewards should return to expected levels\n- **More reliable cross-chain operations**: Staking through cross-chain transactions should work more smoothly\n- **Better system stability**: Various under-the-hood fixes improve overall reliability\n\n### Actions Required\n- **No immediate action needed** for most users\n- **Stakers**: Your rewards should automatically improve once this release is deployed\n- **Validators**: No configuration changes required\n\n## 2. Key Changes Explained\n\n### Critical Bug Fixes\n- **Staking Inflation Fix**: The staking reward calculation was using incorrect total token supply numbers, resulting in ~60% lower rewards than intended. This has been corrected to match the original Relay Chain configuration.\n\n- **Cross-Chain Staking Fix**: Users trying to stake through cross-chain messages (XCM) were experiencing failures. The system now properly handles these transactions.\n\n### Security Improvements\n- **Validator Election Security**: Added proper deposit requirements for invulnerable validators in elections, preventing potential abuse of the election system.\n\n### Performance Improvements\n- **Faster Development Builds**: Removed outdated Asset Hub Migration (AHM) checks that were slowing down the development process\n- **More Reliable Downloads**: Fixed flaky network downloads in the build system that could cause deployment delays\n\n## 3. Technical Summary for Developers\n\n### Major Changes\n- **Staking Configuration**: Moved `experimental_inflation_prediction_info` from relay chain to Asset Hub and updated inflation calculation parameters\n- **XCM Configuration**: Enhanced XCM call filtering to properly support staking operations across chains\n- **Build System**: Updated to use Parity's SR Tools action v0.9.4 and improved artifact naming for debug builds\n\n### Migration Requirements\n- **Runtime Upgrade**: Standard runtime upgrade process applies\n- **No Storage Migrations**: This release doesn't require complex storage migrations\n- **Validator Configuration**: No changes required for validator setup\n\n### API/Interface Changes\n- **Staking Interface**: No breaking changes to public staking APIs\n- **XCM Interface**: Expanded support for cross-chain staking calls, but maintains backward compatibility\n\n## 4. Code Impact Analysis\n\n### Most Affected Components\n1. **Asset Hub Runtime** (171 additions, 2 deletions in PR #1006)\n   - Staking configuration updates\n   - XCM call filtering improvements\n   - Inflation parameter corrections\n\n2. **Build and CI System** (39 files changed in cleanup PR #997)\n   - Removed 6,604 lines of outdated AHM testing code\n   - Updated build workflows and dependency management\n   - Improved artifact packaging and naming\n\n3. **Runtime Version Updates** (14 files in release PR #1004)\n   - Version bumps across all runtime modules\n   - Changelog updates\n\n### Types of Changes Made\n- **Bug Fixes (60%)**: Primarily focused on staking rewards and cross-chain functionality\n- **Infrastructure Improvements (30%)**: Build system updates, CI improvements, dependency updates\n- **Cleanup (10%)**: Removal of outdated code and testing infrastructure\n\n### Change Distribution\n- **Critical Fixes**: 2 major staking-related issues\n- **Infrastructure**: 3 PRs focused on build/development improvements  \n- **Maintenance**: 1 major cleanup removing obsolete code\n- **Release Management**: 1 PR for version coordination\n\nThe release demonstrates a mature development process with focused bug fixes, proactive infrastructure maintenance, and careful attention to staking economics - all critical for a production blockchain runtime.",
+  "pr_details": [
+    {
+      "number": 1004,
+      "title": "Release 2.0.2",
+      "author": "kianenigma",
+      "merged_at": "2025-11-08T13:39:50Z",
+      "body": "Needs enactment on PAH + KAH. ",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 14,
+      "deletions": 14,
+      "file_list": [
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 993,
+      "title": "Set invulnerable deposit for PAH",
+      "author": "kianenigma",
+      "merged_at": "2025-11-06T15:47:47Z",
+      "body": null,
+      "labels": [],
+      "files_changed": 2,
+      "additions": 7,
+      "deletions": 1,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 1006,
+      "title": "[AHM] Make staking on AH work via XCM",
+      "author": "ggwpez",
+      "merged_at": "2025-11-08T09:50:48Z",
+      "body": "- **disable broken CI migration checks**\n- **make AH staking work via XCM**\n",
+      "labels": [],
+      "files_changed": 9,
+      "additions": 171,
+      "deletions": 2,
+      "file_list": [
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/send.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/swap.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/xcm_config.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/xcm_config.rs",
+        ".github/workflows/check-migrations.yml",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/swap.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/send.rs",
+        ".github/workflows/test.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 9
+    },
+    {
+      "number": 998,
+      "title": "Fix AH Inflation back to what RC was",
+      "author": "kianenigma",
+      "merged_at": "2025-11-07T00:01:23Z",
+      "body": "While copying configs from RC to AH, the fixed total issuance noted in [Referendum 1139](https://polkadot.subsquare.io/referenda/1139) was misplaced with sth else. This PR fixes this. \r\n\r\n**Note to all validators and stakers: Until this fix is deployed, the staking rewards are expected to be about 60% less than before.** \r\n\r\n- [x] move `experimental_inflation_prediction_info` to AH.\r\n- [x] use `async_backing::MINUTES`!",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 169,
+      "deletions": 122,
+      "file_list": [
+        "system-parachains/common/Cargo.toml",
+        "CHANGELOG.md",
+        "relay/common/src/lib.rs",
+        "relay/common/Cargo.toml",
+        "Cargo.lock",
+        ".github/workflows/check-migrations.yml",
+        "system-parachains/common/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/staking/mod.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 11
+    },
+    {
+      "number": 869,
+      "title": "Improve logging runtime packaging and naming",
+      "author": "raymondkfcheung",
+      "merged_at": "2025-11-05T13:09:07Z",
+      "body": "Updates job name and archive naming for better clarity of logging-enabled runtime builds.\r\n\r\nContinues #767, closes #268\r\n\r\n- [x] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 9,
+      "deletions": 9,
+      "file_list": [
+        ".github/workflows/release.yml"
+      ],
+      "linked_issues": [
+        {
+          "number": 268,
+          "title": "Improve the runtime release process to include debug wasm in artifacts",
+          "state": "closed"
+        },
+        {
+          "number": 767,
+          "title": "Publish log-enabled runtimes for debugging and `try-runtime` testing",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 16
+    },
+    {
+      "number": 1000,
+      "title": "Use Parity SR Tools action",
+      "author": "ggwpez",
+      "merged_at": "2025-11-06T06:32:49Z",
+      "body": "Use Parity SR tool action to include https://github.com/paritytech/srtool-actions/pull/3 \r\n\r\n- [x] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 2,
+      "deletions": 2,
+      "file_list": [
+        ".github/workflows/release.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 997,
+      "title": "Post AHM cleanup to speed up CI and bump deps",
+      "author": "ggwpez",
+      "merged_at": "2025-11-04T19:04:16Z",
+      "body": "Changes:\r\n- Remove AHM checks to speed up CI\r\n- Bump deps\r\n- Remove AHM multisig since we dont need it anymore",
+      "labels": [],
+      "files_changed": 39,
+      "additions": 34,
+      "deletions": 6604,
+      "file_list": [
+        "integration-tests/ahm/src/proxy/basic_still_works.rs",
+        "integration-tests/ahm/src/account_whale_watching.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "integration-tests/ahm/src/lib.rs",
+        "integration-tests/ahm/src/bench_ops.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "integration-tests/ahm/src/multisig_still_work.rs",
+        "integration-tests/ahm/src/accounts_translation_works.rs",
+        "integration-tests/ahm/src/call_filter_relay.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        ".gitignore",
+        "integration-tests/ahm/src/mock.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "integration-tests/ahm/src/proxy/whale_watching.rs",
+        "relay/kusamsrc/lib.rs",
+        "integration-tests/ahm/src/balances_test.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "integration-tests/ahm/src/checks.rs",
+        "integration-tests/ahm/src/bench_ah.rs",
+        "CHANGELOG.md",
+        "integration-tests/ahm/src/tests.rs",
+        "integration-tests/ahm/src/multisig_test.rs",
+        ".github/workflows/test.yml",
+        "system-parachains/encointer/src/lib.rs",
+        "integration-tests/ahm/src/call_filter_asset_hub.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "integration-tests/ahm/src/recovery_test.rs",
+        "integration-tests/ahm/src/queues_priority.rs",
+        "Cargo.lock",
+        "integration-tests/ahm/src/bench_rc.rs",
+        "integration-tests/ahm/src/xcm_route.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "Cargo.toml",
+        "integration-tests/ahm/Cargo.toml",
+        "integration-tests/ahm/src/proxy/mod.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    }
+  ]
+}

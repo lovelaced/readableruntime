@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-08T02:41:29.287125Z",
+  "last_updated": "2025-11-08T18:11:07.158564Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -98,6 +98,12 @@
       "new_prs": 0
     },
     "v2.0.1": {
+      "sdk_version": "unstable2507",
+      "release_date": "2025-10-22T15:36:52Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v2.0.2": {
       "sdk_version": "unstable2507",
       "release_date": "2025-10-22T15:36:52Z",
       "total_prs": 0,
