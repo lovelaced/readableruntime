@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-11T02:43:52.793711Z",
+  "last_updated": "2025-11-12T02:42:57.443382Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
-      "total_prs": 379,
-      "new_prs": 379
+      "release_date": "2025-11-11T10:50:53Z",
+      "total_prs": 382,
+      "new_prs": 382
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,43 +69,43 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-10T17:32:17Z",
+      "release_date": "2025-11-11T10:50:53Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -11128,6 +11128,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "10268": {
+      "number": "10268",
+      "title": "ci: fix cargo-check-all-crate-macos",
+      "author": "alvicsam",
+      "merged_at": "2025-11-10T17:49:55Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10268",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10275": {
+      "number": "10275",
+      "title": "[stable2503] Backport #10268",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-11T14:44:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10275",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10268
+    },
     "9940": {
       "number": "9940",
       "title": "Make cargo-check-all-crate-macos non-required",
@@ -21190,6 +21222,21 @@
       "branch": "stable2506",
       "is_direct": true
     },
+    "10276": {
+      "number": "10276",
+      "title": "[stable2506] Backport #10268",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-11T12:20:20Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10276",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10268
+    },
     "10235": {
       "number": "10235",
       "title": "offchain-worker: Do not intialize the entire `System` again",
@@ -25383,6 +25430,48 @@
       "is_direct": false,
       "from_master": true
     },
+    "10270": {
+      "number": "10270",
+      "title": "[stable2509] Backport #10235",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-11T14:22:09Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10270",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10235
+    },
+    "10231": {
+      "number": "10231",
+      "title": "[stable2509] Backport #10149",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-11T13:10:33Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10231",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10149
+    },
+    "10229": {
+      "number": "10229",
+      "title": "[stable2509] Backport #10180",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-11T09:45:42Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10229",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10180
+    },
     "10219": {
       "number": "10219",
       "title": "[stable2509] Backport #9940",
@@ -29394,6 +29483,21 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "10277": {
+      "number": "10277",
+      "title": "[unstable2507] Backport #10268",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-11T10:50:54Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10277",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10268
     },
     "10264": {
       "number": "10264",
@@ -42856,6 +42960,15 @@
         "from_master": true
       }
     ],
+    "10279": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
+      }
+    ],
     "8234": [
       {
         "runtime_version": "1.7.0",
@@ -45706,6 +45819,17 @@
         "is_direct": true
       }
     ],
+    "10230": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10149,
+        "is_direct": true
+      }
+    ],
     "6137": [
       {
         "runtime_version": "1.7.0",
@@ -46397,6 +46521,15 @@
         "original_pr": 9463,
         "is_direct": true
       }
+    ],
+    "10238": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
     ]
   },
   "backport_mapping": {
@@ -46660,6 +46793,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "10275": 10268,
     "10217": 9940,
     "10085": 10082,
     "9598": 9544,
@@ -46773,6 +46907,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10276": 10268,
     "10269": 10235,
     "10230": 10149,
     "10228": 10180,
@@ -46841,6 +46976,9 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10270": 10235,
+    "10231": 10149,
+    "10229": 10180,
     "10219": 9940,
     "10208": 9871,
     "10207": 10073,
@@ -46886,6 +47024,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10277": 10268,
     "10264": 9940,
     "10069": 7456,
     "10062": 10051,
@@ -47597,6 +47736,11 @@
     "6304": [
       6470
     ],
+    "10268": [
+      10275,
+      10276,
+      10277
+    ],
     "9940": [
       10217,
       10218,
@@ -47812,13 +47956,16 @@
       7675
     ],
     "10235": [
-      10269
+      10269,
+      10270
     ],
     "10149": [
-      10230
+      10230,
+      10231
     ],
     "10180": [
-      10228
+      10228,
+      10229
     ],
     "9871": [
       10221,
