@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-12T02:42:57.443382Z",
+  "last_updated": "2025-11-13T02:46:13.330824Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25430,6 +25430,79 @@
       "is_direct": false,
       "from_master": true
     },
+    "10280": {
+      "number": "10280",
+      "title": "Accept only one block in `validate_block` when upgrading a runtime",
+      "author": "bkchr",
+      "merged_at": "2025-11-11T21:49:40Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10280",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10295": {
+      "number": "10295",
+      "title": "[stable2509] Backport #10280",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-12T14:21:53Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10295",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10280
+    },
+    "10248": {
+      "number": "10248",
+      "title": "Fix origin check in EPMB's manage extrinsic",
+      "author": "kianenigma",
+      "merged_at": "2025-11-11T15:34:57Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10248",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10289": {
+      "number": "10289",
+      "title": "[stable2509] Backport #10248",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-12T13:38:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10289",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10248
+    },
+    "10278": {
+      "number": "10278",
+      "title": "[stable2509] Backport #10268",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-12T09:45:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10278",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10268
+    },
     "10270": {
       "number": "10270",
       "title": "[stable2509] Backport #10235",
@@ -46976,6 +47049,9 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10295": 10280,
+    "10289": 10248,
+    "10278": 10268,
     "10270": 10235,
     "10231": 10149,
     "10229": 10180,
@@ -47739,6 +47815,7 @@
     "10268": [
       10275,
       10276,
+      10278,
       10277
     ],
     "9940": [
@@ -48085,6 +48162,12 @@
     ],
     "8820": [
       8822
+    ],
+    "10280": [
+      10295
+    ],
+    "10248": [
+      10289
     ],
     "10073": [
       10207
