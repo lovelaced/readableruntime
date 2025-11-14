@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-13T02:46:13.330824Z",
+  "last_updated": "2025-11-14T02:43:34.994713Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25430,6 +25430,76 @@
       "is_direct": false,
       "from_master": true
     },
+    "10314": {
+      "number": "10314",
+      "title": "[stable2509] Post crates published actions",
+      "author": "BDevParity",
+      "merged_at": "2025-11-13T16:31:01Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10314",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "10287": {
+      "number": "10287",
+      "title": "[Release|CI/CD] Build and publish RPM cleanup",
+      "author": "BDevParity",
+      "merged_at": "2025-11-11T23:23:54Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10287",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10308": {
+      "number": "10308",
+      "title": "[stable2509] Backport #10287",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-13T11:36:56Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10308",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10287
+    },
+    "10206": {
+      "number": "10206",
+      "title": "[Release|CI/CD] build and publish binary for RPM distribution",
+      "author": "BDevParity",
+      "merged_at": "2025-11-10T20:19:09Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10206",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10307": {
+      "number": "10307",
+      "title": "[stable2509] Backport #10206",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-13T09:46:20Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10307",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10206
+    },
     "10280": {
       "number": "10280",
       "title": "Accept only one block in `validate_block` when upgrading a runtime",
@@ -47049,6 +47119,8 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10308": 10287,
+    "10307": 10206,
     "10295": 10280,
     "10289": 10248,
     "10278": 10268,
@@ -48162,6 +48234,12 @@
     ],
     "8820": [
       8822
+    ],
+    "10287": [
+      10308
+    ],
+    "10206": [
+      10307
     ],
     "10280": [
       10295
