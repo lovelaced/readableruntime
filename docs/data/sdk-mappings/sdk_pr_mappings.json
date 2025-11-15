@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-14T02:43:34.994713Z",
+  "last_updated": "2025-11-15T02:41:29.835312Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25429,6 +25429,18 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10319": {
+      "number": "10319",
+      "title": "[stable2509] Fix polkadot-omni-node macos build",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-14T14:08:40Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10319",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "10314": {
       "number": "10314",
