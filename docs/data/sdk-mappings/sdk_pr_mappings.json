@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-19T02:45:47.835784Z",
+  "last_updated": "2025-11-20T02:46:18.472558Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11128,6 +11128,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "10351": {
+      "number": "10351",
+      "title": "[Release|CI/CD] Add flow to create a release tag in format polkadot-vX.XX.X",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-18T17:04:46Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2412",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10351",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10355": {
+      "number": "10355",
+      "title": "[stable2503] Backport #10351",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-19T10:34:59Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10355",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10351
+    },
     "10268": {
       "number": "10268",
       "title": "ci: fix cargo-check-all-crate-macos",
@@ -21210,6 +21243,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "10356": {
+      "number": "10356",
+      "title": "[stable2506] Backport #10351",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-19T09:43:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10356",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10351
+    },
     "10279": {
       "number": "10279",
       "title": "[stable2506] Post crates release changes stable2506-5",
@@ -25430,6 +25478,79 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10357": {
+      "number": "10357",
+      "title": "[stable2509] Backport #10351",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-19T10:14:37Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10357",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10351
+    },
+    "10343": {
+      "number": "10343",
+      "title": "[Release|CI/CD] Use larger runners only for the polkadot-parachain and polkadot-omni-node builds",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-18T10:02:44Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10343",
+      "branch": "stable2512",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10344": {
+      "number": "10344",
+      "title": "[stable2509] Backport #10343",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-19T09:25:29Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10344",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10343
+    },
+    "10323": {
+      "number": "10323",
+      "title": "[CI/CD] Check semver job improvements",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-14T15:01:41Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10323",
+      "branch": "stable2512",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10326": {
+      "number": "10326",
+      "title": "[stable2509] Backport #10323",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-19T13:08:56Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10326",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10323
     },
     "10319": {
       "number": "10319",
@@ -29655,20 +29776,6 @@
       "is_direct": false,
       "from_master": true
     },
-    "10343": {
-      "number": "10343",
-      "title": "[Release|CI/CD] Use larger runners only for the polkadot-parachain and polkadot-omni-node builds",
-      "author": "EgorPopelyaev",
-      "merged_at": "2025-11-18T10:02:44Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10343",
-      "branch": "stable2512",
-      "is_direct": false,
-      "from_master": true
-    },
     "10337": {
       "number": "10337",
       "title": "Allow DT CI to be manually triggered",
@@ -29730,20 +29837,6 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10325",
-      "branch": "stable2512",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10323": {
-      "number": "10323",
-      "title": "[CI/CD] Check semver job improvements",
-      "author": "EgorPopelyaev",
-      "merged_at": "2025-11-14T15:01:41Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10323",
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
@@ -50088,6 +50181,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "10355": 10351,
     "10275": 10268,
     "10217": 9940,
     "10085": 10082,
@@ -50202,6 +50296,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10356": 10351,
     "10276": 10268,
     "10269": 10235,
     "10230": 10149,
@@ -50271,6 +50366,9 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10357": 10351,
+    "10344": 10343,
+    "10326": 10323,
     "10308": 10287,
     "10307": 10206,
     "10295": 10280,
@@ -51036,6 +51134,11 @@
     "6304": [
       6470
     ],
+    "10351": [
+      10355,
+      10356,
+      10357
+    ],
     "10268": [
       10275,
       10276,
@@ -51386,6 +51489,12 @@
     ],
     "8820": [
       8822
+    ],
+    "10343": [
+      10344
+    ],
+    "10323": [
+      10326
     ],
     "10287": [
       10308
