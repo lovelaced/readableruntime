@@ -1,0 +1,135 @@
+{
+  "newer_release": {
+    "tag_name": "v2.0.3",
+    "created_at": "2025-11-21T11:22:42Z",
+    "name": "Runtimes 2.0.3",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.0.3] 21.11.2025\n\n### Added\n\n- Set Ethereum Fulu fork epoch ([#1005](https://github.com/polkadot-fellows/runtimes/pull/1005))\n\n### Changed\n\n- Remove XCM Transact filters and Pool asset transactors ([#1014](https://github.com/polkadot-fellows/runtimes/pull/1014))\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1778544 bytes)\n\ud83d\udddc Compressed:             Yes: 80.62%\n\ud83d\udd25 Core Version:           polkadot-2000003 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xebcf35544dcd84646b90ab8b90a116bceac81032ce4f0ede5fc101c035b202b2\n\ud83d\udce6 IPFS:                   Qmdp2rHU6LM5k5kSDbJ8ozzL424nxSbQtY5ktgCbdtc6yx\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1004.54Ki (1028640 bytes)\n\ud83d\udddc Compressed:             Yes: 80.09%\n\ud83d\udd25 Core Version:           people-polkadot-2000003 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x242f1829ce18f88c6b7c5825b320b60780c3efba66674e787d90b9bd7a9652e3\n\ud83d\udce6 IPFS:                   Qmc9jcuvwjVeokYijKfPa848yomRHfi8pYLXbQQ8bM5fxj\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1003.31Ki (1027384 bytes)\n\ud83d\udddc Compressed:             Yes: 80.12%\n\ud83d\udd25 Core Version:           people-kusama-2000003 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6f2efb5c73422c50a9f0107e3f37da98fef23aa8ffefb52b5200c9cb48e66b60\n\ud83d\udce6 IPFS:                   QmeYzZ24wadWZreJPi5VT8qGvsGEsqXYsArUoi84EJeqsj\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.78Mi (1865509 bytes)\n\ud83d\udddc Compressed:             Yes: 80.98%\n\ud83d\udd25 Core Version:           kusama-2000003 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x8894b43147e483367c84162e98acd92bc5655775200a59bd5ef01814ed957ce6\n\ud83d\udce6 IPFS:                   QmXsdXha52y4GmQJpApMU2qPEmedGJVmAHJtwfxFCr5dmq\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           477.32Ki (488771 bytes)\n\ud83d\udddc Compressed:             Yes: 77.97%\n\ud83d\udd25 Core Version:           glutton-2000003 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xdaed1cde43faeb579b83240f029b9522326c39c4e8e6561d26af1f423ecdc12c\n\ud83d\udce6 IPFS:                   QmQGQD5h11v4863A73erSueR2B9nry6vQ3E5G1fFkJwjbA\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1160411 bytes)\n\ud83d\udddc Compressed:             Yes: 80.67%\n\ud83d\udd25 Core Version:           encointer-parachain-2000003 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x52b47dd78729e5a7b20b266a00f0bfe1351a13ca217d92e9bc9aca3cd8ce0b4c\n\ud83d\udce6 IPFS:                   Qmc9cNNyhUNcG6zpXNNGAJWxJA65TY81oMwDTwDft5doiG\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1005.11Ki (1029226 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           coretime-polkadot-2000003 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x236a5fd91bf4ba29ffedecba7abb85662b2a9886ead150e05fd43c4c59ebfd58\n\ud83d\udce6 IPFS:                   Qmdiq7xfdbTX9kTfDVhsdhQUgqBXawd1fjUHf2CZkmdn6T\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1004.48Ki (1028579 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           coretime-kusama-2000003 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2726c8d4ae0130ec47604503b665b704465c445a3a6b68abc5fa54447415a4bc\n\ud83d\udce6 IPFS:                   QmRw9K6EMnfxGwvqgLgdbSEKMYZhZ2JesPUPCUepivNYys\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1171067 bytes)\n\ud83d\udddc Compressed:             Yes: 81.23%\n\ud83d\udd25 Core Version:           collectives-2000003 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb7cbe1f412f7576c4ee8335338c3904e5c55709f8ea6eafddcd181a54f3920ba\n\ud83d\udce6 IPFS:                   QmPj4Lo3GdbtLvn8JUqHy1NQeAFzMfSoqWy4vKyMHntJ4v\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.24Mi (1298130 bytes)\n\ud83d\udddc Compressed:             Yes: 80.1%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2000003 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xa23a6bb45c17c4b7ee4588e0ea97f35fab0b779639850659e0515f48fe603369\n\ud83d\udce6 IPFS:                   QmSpk5SCQjZcUhDMVmpCGuppYgWBk5CdeXKJX62YKh5YS2\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1085927 bytes)\n\ud83d\udddc Compressed:             Yes: 79.73%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2000003 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x1f0e8afd53f769b238f7f4bb600101c665228af5368bea125281a5e8c6d71687\n\ud83d\udce6 IPFS:                   QmeumByY813oin9mD9CCpXPhf36XaAadM6XWma3Mbyfjv4\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.95Mi (2040296 bytes)\n\ud83d\udddc Compressed:             Yes: 82.47%\n\ud83d\udd25 Core Version:           statemint-2000003 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd4cd182f3ea1a30ad6527a088dbd1ebd7381d7c85b675cc8c29f82e695f73fbd\n\ud83d\udce6 IPFS:                   QmVJcspBEBEsKYVFwAvC9b7qY8NEyjqR1ByuBHKNBrpYBa\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.29Mi (2397259 bytes)\n\ud83d\udddc Compressed:             Yes: 82.56%\n\ud83d\udd25 Core Version:           statemine-2000003 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x502158e56bbf2232076247394f16cb6a965d912f62afbab2b4b22ee5aa59dc59\n\ud83d\udce6 IPFS:                   QmXQ12HdqNNp2qLVC9KxuerRVd5WHT5MiRGFDS3FVZXLK4\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.0.2",
+    "created_at": "2025-11-08T13:39:50Z",
+    "name": "Runtimes 2.0.2",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 5,
+  "ai_analysis": "# Polkadot Fellows Runtimes v2.0.3 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n### Main Improvements\nThis release focuses on **bridge infrastructure improvements** and **cross-chain communication enhancements**:\n\n- **Ethereum Bridge Preparation**: Updated the system to prepare for Ethereum's upcoming \"Fulu\" network upgrade, ensuring continued compatibility between Polkadot and Ethereum networks\n- **Simplified Cross-Chain Operations**: Removed overly restrictive filters that were preventing legitimate cross-chain transactions, making it easier for users and applications to move assets between different blockchains\n- **System Maintenance**: Fixed technical issues with weight calculations that improve the accuracy of transaction fee estimates\n\n### Benefits for Users\n- **Better Cross-Chain Experience**: Fewer restrictions when moving assets between different blockchain networks\n- **Improved Reliability**: More accurate transaction fees and better system performance\n- **Future-Proof Bridge**: Continued seamless operation of Ethereum-Polkadot bridge after Ethereum's network upgrade\n\n### Actions Required\n- **No immediate action needed** for most users\n- The Polkadot Bridge Hub will need to be updated before December 3rd, 2025, but this is handled by network governance\n\n## 2. Key Changes Explained\n\n### Breaking Changes\n- **Pool Asset Transactors Removed**: Applications that relied on moving pool assets across chains will no longer be able to do so. This simplifies the system since pool assets weren't designed for cross-chain use anyway.\n\n### Security Improvements\n- **Relaxed XCM Transact Filters**: Previously, the system was too restrictive about which cross-chain transactions were allowed, causing legitimate use cases to fail. This has been fixed while maintaining security for critical operations.\n\n### Performance Improvements\n- **Fixed Weight Path Calculations**: The system now correctly calculates transaction costs for multi-block election processes, leading to more accurate fee estimates and better resource allocation.\n\n### New Features\n- **Ethereum Fulu Fork Support**: The bridge system is now configured to handle Ethereum's upcoming network upgrade, ensuring uninterrupted service.\n\n## 3. Technical Summary for Developers\n\n### Major API/Interface Changes\n- **Removed `PoolFungiblesTransactor`**: Pool assets can no longer be transacted via XCM\n- **Simplified `AssetTransactors`**: Now only includes `(FungibleTransactor, FungiblesTransactor, ForeignFungiblesTransactor)`\n- **Updated Snowbridge Dependencies**: Upgraded to `unstable2507-2` versions with Fulu fork epoch configuration\n\n### Migration Requirements\n- **No Runtime Migrations**: This release doesn't require database migrations\n- **Dependency Updates**: Projects using pool asset cross-chain functionality need to remove those integrations\n- **Weight Path Updates**: Applications using EPMB (Election Provider Multi Block) pallets should verify benchmark paths are correctly resolved\n\n### Technical Improvements\n- **Corrected EPMB Weight Paths**: Fixed benchmark paths from `pallet_election_provider_multi_block_*` to `pallet_election_provider_multi_block::*` format\n- **Ethereum Client Updates**: Updated beacon primitives and client pallets to support Ethereum's Fulu hard fork\n- **Dependency Cleanup**: Removed 199 lines of complex pool asset transactor code, simplifying the codebase\n\n## 4. Code Impact Analysis\n\n### Most Affected System Parts\n1. **Bridge Infrastructure (40% of changes)**\n   - Bridge Hub Polkadot runtime updates\n   - Ethereum client configuration\n   - Snowbridge pallet updates\n\n2. **Asset Hub Cross-Chain Configuration (35% of changes)**\n   - XCM transactor simplification\n   - Pool asset functionality removal\n   - Asset transfer logic streamlining\n\n3. **Election System Weights (25% of changes)**\n   - Multi-block election provider weight fixes\n   - Benchmark path corrections\n   - Weight calculation accuracy improvements\n\n### Types of Changes Made\n\n**Bug Fixes (40%)**\n- Fixed incorrect weight paths for EPMB pallets\n- Resolved benchmark resolution issues\n\n**Configuration Updates (35%)**\n- Ethereum Fulu fork epoch configuration\n- Dependency version updates\n- Runtime version bumps\n\n**Simplification/Cleanup (25%)**\n- Removed overly restrictive XCM filters\n- Eliminated unused pool asset transactor code\n- Streamlined cross-chain asset handling\n\nThis release represents a focused maintenance update that improves system reliability and prepares for upcoming network changes while simplifying overly complex cross-chain functionality.",
+  "pr_details": [
+    {
+      "number": 1005,
+      "title": "Update to unstable2507-2",
+      "author": "claravanstaden",
+      "merged_at": "2025-11-20T06:02:40Z",
+      "body": "Updates to latest `unstable2507-2` to set Fulu hard-fork epoch. Only BridgeHub will be released from this version.",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 24,
+      "deletions": 10,
+      "file_list": [
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/bridge_to_ethereum_config.rs",
+        "Cargo.toml",
+        "Cargo.lock",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1008,
+      "title": "fix weight path for EPMB pallets",
+      "author": "kianenigma",
+      "merged_at": "2025-11-20T11:48:20Z",
+      "body": "Closes: https://github.com/polkadot-fellows/runtimes/issues/894\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n\r\nSame trick as in https://github.com/paritytech/polkadot-sdk/pull/10284, if it works.\r\nshould close https://github.com/polkadot-fellows/runtimes/issues/894\r\n",
+      "labels": [],
+      "files_changed": 6,
+      "additions": 107,
+      "deletions": 91,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/pallet_election_provider_multi_block_unsigned.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/pallet_election_provider_multi_block_signed.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/pallet_election_provider_multi_block.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/pallet_election_provider_multi_block_verifier.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 1004,
+      "title": "Release 2.0.2",
+      "author": "kianenigma",
+      "merged_at": "2025-11-08T13:39:50Z",
+      "body": "Needs enactment on PAH + KAH. ",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 14,
+      "deletions": 14,
+      "file_list": [
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 6
+    },
+    {
+      "number": 1014,
+      "title": "Remove XCM Transact filters and Pool assets transactors",
+      "author": "acatangiu",
+      "merged_at": "2025-11-20T18:35:44Z",
+      "body": "The XCM Transact whitelist is too tight with reports from ecosystem of broken usecases. Pool assets don't make sense to be moved crosschain so remove that transactor and simplify the code a bit.",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 6,
+      "deletions": 199,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/xcm_config.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/xcm_config.rs",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1013,
+      "title": "Release 2.0.3",
+      "author": "claravanstaden",
+      "merged_at": "2025-11-21T11:22:43Z",
+      "body": "Needs enactment on PBH before 3 Dec.",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 21,
+      "deletions": 67,
+      "file_list": [
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 9
+    }
+  ]
+}
