@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-25T02:47:27.383840Z",
+  "last_updated": "2025-11-26T02:47:24.828526Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11134,6 +11134,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "10232": {
+      "number": "10232",
+      "title": "[Release|CI/CD] Post crates release action",
+      "author": "BDevParity",
+      "merged_at": "2025-11-20T13:38:39Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10232",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10375": {
+      "number": "10375",
+      "title": "[stable2503] Backport #10232",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T13:47:38Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10375",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10232
+    },
     "10351": {
       "number": "10351",
       "title": "[Release|CI/CD] Add flow to create a release tag in format polkadot-vX.XX.X",
@@ -21249,6 +21281,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "10376": {
+      "number": "10376",
+      "title": "[stable2506] Backport #10232",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T13:46:51Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10376",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10232
+    },
     "10356": {
       "number": "10356",
       "title": "[stable2506] Backport #10351",
@@ -25484,6 +25531,80 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10362": {
+      "number": "10362",
+      "title": "net/peerset: Optimize substream opening duration for `SetReservedPeers`",
+      "author": "lexnv",
+      "merged_at": "2025-11-24T11:02:04Z",
+      "labels": [
+        "T0-node",
+        "I9-optimisation",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10362",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10408": {
+      "number": "10408",
+      "title": "[stable2509] Backport #10362: net/peerset: Optimize substream opening duration for `SetReservedPeers`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T16:05:53Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10408",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10362
+    },
+    "10154": {
+      "number": "10154",
+      "title": "aura/slot_based: Reduce authoring duration of the last produced block ",
+      "author": "lexnv",
+      "merged_at": "2025-11-19T15:20:44Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10154",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10406": {
+      "number": "10406",
+      "title": "[stable2509] Backport #10154: aura/slot_based: Reduce authoring duration of the last produced block",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T15:15:30Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10406",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10154
+    },
+    "10377": {
+      "number": "10377",
+      "title": "[stable2509] Backport #10232",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T13:45:23Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10377",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10232
     },
     "10357": {
       "number": "10357",
@@ -29781,6 +29902,78 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "10274": {
+      "number": "10274",
+      "title": "[Release|CI/CD] Combine Promote rc to final, Publish debian, Publish RPM and Publish docker pipelines",
+      "author": "BDevParity",
+      "merged_at": "2025-11-24T15:33:54Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10274",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10417": {
+      "number": "10417",
+      "title": "[stable2512] Backport #10274",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T21:27:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10417",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10274
+    },
+    "10409": {
+      "number": "10409",
+      "title": "[stable2512] Backport #10362: net/peerset: Optimize substream opening duration for `SetReservedPeers`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T18:33:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10409",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10362
+    },
+    "10407": {
+      "number": "10407",
+      "title": "[stable2512] Backport #10154: aura/slot_based: Reduce authoring duration of the last produced block",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T20:07:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10407",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10154
+    },
+    "10378": {
+      "number": "10378",
+      "title": "[stable2512] Backport #10232",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-25T15:34:12Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10378",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10232
     },
     "9685": {
       "number": "9685",
@@ -50230,6 +50423,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "10375": 10232,
     "10355": 10351,
     "10275": 10268,
     "10217": 9940,
@@ -50345,6 +50539,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10376": 10232,
     "10356": 10351,
     "10276": 10268,
     "10269": 10235,
@@ -50415,6 +50610,9 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10408": 10362,
+    "10406": 10154,
+    "10377": 10232,
     "10357": 10351,
     "10344": 10343,
     "10326": 10323,
@@ -50471,6 +50669,10 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10417": 10274,
+    "10409": 10362,
+    "10407": 10154,
+    "10378": 10232,
     "10374": 9685,
     "10358": 10351,
     "10277": 10268,
@@ -51185,6 +51387,12 @@
     "6304": [
       6470
     ],
+    "10232": [
+      10375,
+      10376,
+      10377,
+      10378
+    ],
     "10351": [
       10355,
       10356,
@@ -51542,6 +51750,14 @@
     "8820": [
       8822
     ],
+    "10362": [
+      10408,
+      10409
+    ],
+    "10154": [
+      10406,
+      10407
+    ],
     "10343": [
       10344
     ],
@@ -51670,6 +51886,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10274": [
+      10417
     ],
     "9685": [
       10374
