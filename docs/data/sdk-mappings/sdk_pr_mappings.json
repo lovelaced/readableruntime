@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-26T02:47:24.828526Z",
+  "last_updated": "2025-11-27T02:44:08.968233Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11134,6 +11134,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "10419": {
+      "number": "10419",
+      "title": "[Release|CI/CD] Send release notifications to communication channels only in case of a stable release",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-26T07:42:21Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10419",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10429": {
+      "number": "10429",
+      "title": "[stable2503] Backport #10419",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-26T10:14:54Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10429",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10419
+    },
     "10232": {
       "number": "10232",
       "title": "[Release|CI/CD] Post crates release action",
@@ -21281,6 +21313,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "10430": {
+      "number": "10430",
+      "title": "[stable2506] Backport #10419",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-26T11:02:50Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10430",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10419
+    },
     "10376": {
       "number": "10376",
       "title": "[stable2506] Backport #10232",
@@ -25531,6 +25578,51 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10431": {
+      "number": "10431",
+      "title": "[stable2509] Backport #10419",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-26T11:07:15Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10431",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10419
+    },
+    "10418": {
+      "number": "10418",
+      "title": "Fix check-semver job",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-25T17:06:25Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10418",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10423": {
+      "number": "10423",
+      "title": "[stable2509] Backport #10418",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-26T07:13:20Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10423",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10418
     },
     "10362": {
       "number": "10362",
@@ -29902,6 +29994,21 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "10424": {
+      "number": "10424",
+      "title": "[stable2512] Backport #10418",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-26T07:03:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10424",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10418
     },
     "10274": {
       "number": "10274",
@@ -50423,6 +50530,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "10429": 10419,
     "10375": 10232,
     "10355": 10351,
     "10275": 10268,
@@ -50539,6 +50647,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10430": 10419,
     "10376": 10232,
     "10356": 10351,
     "10276": 10268,
@@ -50610,6 +50719,8 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10431": 10419,
+    "10423": 10418,
     "10408": 10362,
     "10406": 10154,
     "10377": 10232,
@@ -50669,6 +50780,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10424": 10418,
     "10417": 10274,
     "10409": 10362,
     "10407": 10154,
@@ -51387,6 +51499,11 @@
     "6304": [
       6470
     ],
+    "10419": [
+      10429,
+      10430,
+      10431
+    ],
     "10232": [
       10375,
       10376,
@@ -51749,6 +51866,10 @@
     ],
     "8820": [
       8822
+    ],
+    "10418": [
+      10423,
+      10424
     ],
     "10362": [
       10408,
