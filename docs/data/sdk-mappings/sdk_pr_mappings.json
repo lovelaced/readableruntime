@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-28T02:43:43.297497Z",
+  "last_updated": "2025-11-29T02:42:51.832000Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -29995,6 +29995,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "10446": {
+      "number": "10446",
+      "title": "collator-protocol: don't disconnect on slot end when we have pending collations",
+      "author": "sandreim",
+      "merged_at": "2025-11-28T14:40:57Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10446",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10461": {
+      "number": "10461",
+      "title": "[stable2512] Backport #10446",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-11-28T15:44:15Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10461",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10446
+    },
     "10424": {
       "number": "10424",
       "title": "[stable2512] Backport #10418",
@@ -50780,6 +50808,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10461": 10446,
     "10424": 10418,
     "10417": 10274,
     "10409": 10362,
@@ -52007,6 +52036,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10446": [
+      10461
     ],
     "10274": [
       10417
