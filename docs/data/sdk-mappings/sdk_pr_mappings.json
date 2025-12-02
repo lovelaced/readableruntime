@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-01T02:58:46.648636Z",
+  "last_updated": "2025-12-02T02:45:28.306827Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21358,6 +21358,35 @@
       "is_backport": true,
       "original_pr": 10351
     },
+    "10280": {
+      "number": "10280",
+      "title": "Accept only one block in `validate_block` when upgrading a runtime",
+      "author": "bkchr",
+      "merged_at": "2025-11-11T21:49:40Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10280",
+      "branch": "stable2512",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10294": {
+      "number": "10294",
+      "title": "[stable2506] Backport #10280",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-12-01T09:47:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10294",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10280
+    },
     "10279": {
       "number": "10279",
       "title": "[stable2506] Post crates release changes stable2506-5",
@@ -25852,21 +25881,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10206
-    },
-    "10280": {
-      "number": "10280",
-      "title": "Accept only one block in `validate_block` when upgrading a runtime",
-      "author": "bkchr",
-      "merged_at": "2025-11-11T21:49:40Z",
-      "labels": [
-        "T9-cumulus",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10280",
-      "branch": "stable2512",
-      "is_direct": false,
-      "from_master": true
     },
     "10295": {
       "number": "10295",
@@ -46797,15 +46811,6 @@
         "from_master": true
       }
     ],
-    "8246": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "stable2506",
-        "from_master": true
-      }
-    ],
     "8247": [
       {
         "runtime_version": "1.7.0",
@@ -46816,6 +46821,15 @@
       }
     ],
     "8248": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "from_master": true
+      }
+    ],
+    "8246": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
@@ -50678,6 +50692,7 @@
     "10430": 10419,
     "10376": 10232,
     "10356": 10351,
+    "10294": 10280,
     "10276": 10268,
     "10269": 10235,
     "10230": 10149,
@@ -51765,6 +51780,10 @@
     "7670": [
       7675
     ],
+    "10280": [
+      10294,
+      10295
+    ],
     "10235": [
       10269,
       10270
@@ -51919,9 +51938,6 @@
     ],
     "10206": [
       10307
-    ],
-    "10280": [
-      10295
     ],
     "10248": [
       10289
