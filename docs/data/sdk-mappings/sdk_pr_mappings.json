@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-02T02:45:28.306827Z",
+  "last_updated": "2025-12-03T02:47:46.889420Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25607,6 +25607,16 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10479": {
+      "number": "10479",
+      "title": "backport2509: cargo: Update yamux to 0.13.8 to avoid panics",
+      "author": "lexnv",
+      "merged_at": "2025-12-02T07:07:53Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10479",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "10431": {
       "number": "10431",
