@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-05T02:48:07.999905Z",
+  "last_updated": "2025-12-06T02:42:42.350569Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21299,6 +21299,49 @@
       "is_direct": false,
       "from_master": true
     },
+    "10550": {
+      "number": "10550",
+      "title": "[stable2506] Fix Publish Release Draft flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-12-05T06:27:43Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10550",
+      "branch": "stable2506",
+      "is_direct": true
+    },
+    "10379": {
+      "number": "10379",
+      "title": "[Release|CI/CD] Create draft release without runtimes or any artefacts attached (for crates only releases)",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-11-25T14:13:49Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10379",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10545": {
+      "number": "10545",
+      "title": "[stable2506] Backport #10379",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-12-05T06:14:32Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10545",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10379
+    },
     "10543": {
       "number": "10543",
       "title": "[stable2506] Post crates release activities for stable2506",
@@ -25617,6 +25660,21 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10546": {
+      "number": "10546",
+      "title": "[stable2509] Backport #10379",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-12-05T06:29:20Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10546",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10379
     },
     "10508": {
       "number": "10508",
@@ -30043,21 +30101,36 @@
       "is_direct": false,
       "from_master": true
     },
-    "10379": {
-      "number": "10379",
-      "title": "[Release|CI/CD] Create draft release without runtimes or any artefacts attached (for crates only releases)",
-      "author": "EgorPopelyaev",
-      "merged_at": "2025-11-25T14:13:49Z",
+    "10458": {
+      "number": "10458",
+      "title": "Revert \"pallet-xcm: API changes to use `VersionedAssetId` instead of `u32` to specify asset for fees\"",
+      "author": "karolk91",
+      "merged_at": "2025-12-04T21:31:26Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509",
+        "T6-XCM",
         "A4-backport-stable2512"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10379",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10458",
       "branch": "master",
       "is_direct": false,
       "from_master": true
+    },
+    "10548": {
+      "number": "10548",
+      "title": "[stable2512] Backport #10458",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-12-05T08:36:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T6-XCM",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10548",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10458
     },
     "10547": {
       "number": "10547",
@@ -50844,6 +50917,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10545": 10379,
     "10507": 10455,
     "10430": 10419,
     "10376": 10232,
@@ -50918,6 +50992,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10546": 10379,
     "10508": 10455,
     "10431": 10419,
     "10423": 10418,
@@ -50980,6 +51055,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10548": 10458,
     "10547": 10379,
     "10537": 10459,
     "10518": 10503,
@@ -51949,6 +52025,11 @@
     "7670": [
       7675
     ],
+    "10379": [
+      10545,
+      10546,
+      10547
+    ],
     "10280": [
       10294,
       10295
@@ -52222,8 +52303,8 @@
       9655,
       9654
     ],
-    "10379": [
-      10547
+    "10458": [
+      10548
     ],
     "10459": [
       10537
