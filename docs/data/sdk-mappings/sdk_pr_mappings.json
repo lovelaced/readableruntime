@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-06T02:42:42.350569Z",
+  "last_updated": "2025-12-07T02:50:27.731953Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
-      "total_prs": 382,
-      "new_prs": 382
+      "release_date": "2025-12-06T17:00:11Z",
+      "total_prs": 392,
+      "new_prs": 392
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,49 +69,49 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2025-11-11T10:50:53Z",
+      "release_date": "2025-12-06T17:00:11Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -33503,6 +33503,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "10552": {
+      "number": "10552",
+      "title": "[unstable2507] Pallet-revive changes",
+      "author": "TorstenStueber",
+      "merged_at": "2025-12-06T17:00:11Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10552",
+      "branch": "unstable2507",
+      "is_direct": true
+    },
     "10277": {
       "number": "10277",
       "title": "[unstable2507] Backport #10268",
@@ -46957,6 +46969,17 @@
         "from_master": true
       }
     ],
+    "10276": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10268,
+        "is_direct": true
+      }
+    ],
     "8230": [
       {
         "runtime_version": "1.7.0",
@@ -47036,6 +47059,17 @@
         "sdk_branch": "unstable2507",
         "source_branch": "stable2506",
         "from_master": true
+      }
+    ],
+    "10294": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10280,
+        "is_direct": true
       }
     ],
     "8247": [
@@ -47236,6 +47270,17 @@
         "from_master": true
       }
     ],
+    "10356": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10351,
+        "is_direct": true
+      }
+    ],
     "8310": [
       {
         "runtime_version": "1.7.0",
@@ -47306,6 +47351,17 @@
         "sdk_branch": "unstable2507",
         "source_branch": "stable2506",
         "from_master": true
+      }
+    ],
+    "10376": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10232,
+        "is_direct": true
       }
     ],
     "8329": [
@@ -47488,6 +47544,17 @@
         "from_master": true
       }
     ],
+    "10430": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10419,
+        "is_direct": true
+      }
+    ],
     "8382": [
       {
         "runtime_version": "1.7.0",
@@ -47659,6 +47726,17 @@
         "from_master": true
       }
     ],
+    "10507": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10455,
+        "is_direct": true
+      }
+    ],
     "8459": [
       {
         "runtime_version": "1.7.0",
@@ -47731,6 +47809,26 @@
         "from_master": true
       }
     ],
+    "10543": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
+      }
+    ],
+    "10545": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_backport": true,
+        "original_pr": 10379,
+        "is_direct": true
+      }
+    ],
     "8500": [
       {
         "runtime_version": "1.7.0",
@@ -47738,6 +47836,15 @@
         "sdk_branch": "unstable2507",
         "source_branch": "stable2506",
         "from_master": true
+      }
+    ],
+    "10550": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
       }
     ],
     "8503": [
@@ -50022,15 +50129,6 @@
         "is_direct": true
       }
     ],
-    "9752": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "unstable2507",
-        "is_direct": true
-      }
-    ],
     "10264": [
       {
         "runtime_version": "1.7.0",
@@ -50039,6 +50137,15 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9940,
+        "is_direct": true
+      }
+    ],
+    "9752": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
         "is_direct": true
       }
     ],
@@ -50103,6 +50210,17 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9354,
+        "is_direct": true
+      }
+    ],
+    "10277": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_backport": true,
+        "original_pr": 10268,
         "is_direct": true
       }
     ],
