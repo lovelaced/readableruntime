@@ -1,0 +1,401 @@
+{
+  "newer_release": {
+    "tag_name": "v2.0.4",
+    "created_at": "2025-12-18T12:48:31Z",
+    "name": "Runtimes 2.0.4",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.0.4] 18.12.2025\n\n### Changed\n\n- asset-hub-polkadot: remove treasury burns ([#1028](https://github.com/polkadot-fellows/runtimes/pull/1028))\n- asset-hub-polkadot: fix the regression in doc-test for staking after changing the base deposit for NPoS solution from 4 to 100 DOT ([#1023](https://github.com/polkadot-fellows/runtimes/pull/1023))\n- asset-hub-polkadot: increase the base deposit for a signed NPoS solution from 4 to 100 DOT, significantly mitigating the risk of transaction spamming ([#1022](https://github.com/polkadot-fellows/runtimes/pull/1022))\n- Adjust OpenGov parameters based on WFC 1701 ([polkadot-fellows/runtimes/pull/873](https://github.com/polkadot-fellows/runtimes/pull/873))\n- asset-hub-kusama: update to latest version of pallet-revive with EVM backend ([polkadot-fellows/runtimes/pull/1029](https://github.com/polkadot-fellows/runtimes/pull/1029))\n- Enable Elastic Scaling on Assethub Kusama ([polkadot-fellows/runtimes/pull/1037](https://github.com/polkadot-fellows/runtimes/pull/1037))\n- Enable buffered validator selection on Assethub Kusama ([polkadot-fellows/runtimes/pull/1037](https://github.com/polkadot-fellows/runtimes/pull/1037))\n\n### Added\n\n- Add `cumulus-pallet-weight-reclaim` to all Kusama system parachains for storage weight reclaim functionality ([#941](https://github.com/polkadot-fellows/runtimes/pull/941))\n- Add pay module implementation to system_parachains_common for use in Asset Hub Polkadot/Kusama treasury with XCM V3 to V5 conversion support for asset transactions ([#1019](https://github.com/polkadot-fellows/runtimes/pull/1019))\n- asset-hub-kusama: use inmemorydb weights([polkadot-fellows/runtimes/pull/918](https://github.com/polkadot-fellows/runtimes/pull/918))\n- Add fast runtime feature for Encointer Kusama([#1021](https://github.com/polkadot-fellows/runtimes/pull/1021))\n- asset-hub-polkadot: use inmemorydb weights([polkadot-fellows/runtimes/pull/918](https://github.com/polkadot-fellows/runtimes/pull/1025))\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1777395 bytes)\n\ud83d\udddc Compressed:             Yes: 80.64%\n\ud83d\udd25 Core Version:           polkadot-2000004 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2774710e10ee4164de8cfff8c7ae3efced793ee17522fe1991a4e5a1eaa95b8f\n\ud83d\udce6 IPFS:                   QmYqMcwJcWnAaER4wLwnxaP7GFjem47hQQup3YgKsw2B8B\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1005.83Ki (1029961 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           people-polkadot-2000004 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7e72f31bf4e3e8e6768a907e1284d5da9261b36f17e87355effd0769c7563f3e\n\ud83d\udce6 IPFS:                   QmSnz1BfnNaxTSwN9pmpZeX7We3ZX9HXMonsRcJob6cQ7A\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1006.93Ki (1031090 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           people-kusama-2000004 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5691ed0a999e254128cc7935a658ae82aaa775375b5cf9b024cf312a805c603b\n\ud83d\udce6 IPFS:                   QmYYShiWGggU3ZS6Gni3cNaza4sv536hRnXfqK16Fvi8VS\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.79Mi (1866511 bytes)\n\ud83d\udddc Compressed:             Yes: 80.97%\n\ud83d\udd25 Core Version:           kusama-2000004 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd2ead17547c42ef3ebde24f8390be82e8f7e82c44ae7cd6038b897051bb51b76\n\ud83d\udce6 IPFS:                   Qmd5t8cx3N1GD855xX4vywQpVwywV8KXoZF9meADLaAjoG\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           477.38Ki (488829 bytes)\n\ud83d\udddc Compressed:             Yes: 77.97%\n\ud83d\udd25 Core Version:           glutton-2000004 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4d5002bc97faf4abb87184a85485261d02db75c9333beb0b5cbc5b2a05cb6b4b\n\ud83d\udce6 IPFS:                   QmcHtP5hyEJxt35fjqpNCYZBTfYdFcxM7oaVAX3Dnk7zhT\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1162944 bytes)\n\ud83d\udddc Compressed:             Yes: 80.7%\n\ud83d\udd25 Core Version:           encointer-parachain-2000004 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb0978ab83536c6bc226e345e789c436281b5ccd586f8ed061f578bc4a9748fe2\n\ud83d\udce6 IPFS:                   QmSUCHNNjwYCebGpgXdRbZgfs8maghYLof8oJWnC63gpSB\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1009.58Ki (1033802 bytes)\n\ud83d\udddc Compressed:             Yes: 80.07%\n\ud83d\udd25 Core Version:           coretime-polkadot-2000004 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb09ad1837124c84a6ae90d8c3a98d976567781f9a3a633a68b479abeeea8f7be\n\ud83d\udce6 IPFS:                   QmcDf7r9pBwDdK6yi398jRTKUwm8VquzPzcpsvJiGjB2p6\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1009.68Ki (1033911 bytes)\n\ud83d\udddc Compressed:             Yes: 80.07%\n\ud83d\udd25 Core Version:           coretime-kusama-2000004 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x9029911f13bfa3e8ad8453579de6da9a01a5f9365b8d26bf8ad8772541302833\n\ud83d\udce6 IPFS:                   QmfV3i5gxQD3D9ja2D8juaYawrYv7RZVyaoQXgA2DZjQ77\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1174190 bytes)\n\ud83d\udddc Compressed:             Yes: 81.21%\n\ud83d\udd25 Core Version:           collectives-2000004 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x872c26a0f3860f664592c4bbd69eb8bd186bdb1bbf38ac4be62bbdf6b9447f6a\n\ud83d\udce6 IPFS:                   QmQzN4dbUeSCLwjrmx6iNEgTs3dxpge394VMuBJF865ov5\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1088019 bytes)\n\ud83d\udddc Compressed:             Yes: 79.75%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2000004 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd0b92e4c7091acec642971ccaec6734739a1dd14d702b6fb59c0dc5710d4bc55\n\ud83d\udce6 IPFS:                   QmQe29ifLtKDso8qJe4Gt7ieduA66sxXtKwYZGuTTZWRqH\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.95Mi (2040915 bytes)\n\ud83d\udddc Compressed:             Yes: 82.49%\n\ud83d\udd25 Core Version:           statemint-2000004 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x75b22fd5efc0efc112680384f05eac8ac9acce23fbc3e0f2edbc4a8d699a18b6\n\ud83d\udce6 IPFS:                   QmWipZ5pMqTkmVc4VLjeyBCg6eZyyVpBdwx9h4QeaNwQxF\n~~~\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1777395 bytes)\n\ud83d\udddc Compressed:             Yes: 80.64%\n\ud83d\udd25 Core Version:           polkadot-2000004 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2774710e10ee4164de8cfff8c7ae3efced793ee17522fe1991a4e5a1eaa95b8f\n\ud83d\udce6 IPFS:                   QmYqMcwJcWnAaER4wLwnxaP7GFjem47hQQup3YgKsw2B8B\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1005.83Ki (1029961 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           people-polkadot-2000004 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7e72f31bf4e3e8e6768a907e1284d5da9261b36f17e87355effd0769c7563f3e\n\ud83d\udce6 IPFS:                   QmSnz1BfnNaxTSwN9pmpZeX7We3ZX9HXMonsRcJob6cQ7A\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1006.93Ki (1031090 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           people-kusama-2000004 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5691ed0a999e254128cc7935a658ae82aaa775375b5cf9b024cf312a805c603b\n\ud83d\udce6 IPFS:                   QmYYShiWGggU3ZS6Gni3cNaza4sv536hRnXfqK16Fvi8VS\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.79Mi (1866511 bytes)\n\ud83d\udddc Compressed:             Yes: 80.97%\n\ud83d\udd25 Core Version:           kusama-2000004 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd2ead17547c42ef3ebde24f8390be82e8f7e82c44ae7cd6038b897051bb51b76\n\ud83d\udce6 IPFS:                   Qmd5t8cx3N1GD855xX4vywQpVwywV8KXoZF9meADLaAjoG\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           477.38Ki (488829 bytes)\n\ud83d\udddc Compressed:             Yes: 77.97%\n\ud83d\udd25 Core Version:           glutton-2000004 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4d5002bc97faf4abb87184a85485261d02db75c9333beb0b5cbc5b2a05cb6b4b\n\ud83d\udce6 IPFS:                   QmcHtP5hyEJxt35fjqpNCYZBTfYdFcxM7oaVAX3Dnk7zhT\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1162944 bytes)\n\ud83d\udddc Compressed:             Yes: 80.7%\n\ud83d\udd25 Core Version:           encointer-parachain-2000004 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb0978ab83536c6bc226e345e789c436281b5ccd586f8ed061f578bc4a9748fe2\n\ud83d\udce6 IPFS:                   QmSUCHNNjwYCebGpgXdRbZgfs8maghYLof8oJWnC63gpSB\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1009.58Ki (1033802 bytes)\n\ud83d\udddc Compressed:             Yes: 80.07%\n\ud83d\udd25 Core Version:           coretime-polkadot-2000004 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb09ad1837124c84a6ae90d8c3a98d976567781f9a3a633a68b479abeeea8f7be\n\ud83d\udce6 IPFS:                   QmcDf7r9pBwDdK6yi398jRTKUwm8VquzPzcpsvJiGjB2p6\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1009.68Ki (1033911 bytes)\n\ud83d\udddc Compressed:             Yes: 80.07%\n\ud83d\udd25 Core Version:           coretime-kusama-2000004 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x9029911f13bfa3e8ad8453579de6da9a01a5f9365b8d26bf8ad8772541302833\n\ud83d\udce6 IPFS:                   QmfV3i5gxQD3D9ja2D8juaYawrYv7RZVyaoQXgA2DZjQ77\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.12Mi (1174190 bytes)\n\ud83d\udddc Compressed:             Yes: 81.21%\n\ud83d\udd25 Core Version:           collectives-2000004 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x872c26a0f3860f664592c4bbd69eb8bd186bdb1bbf38ac4be62bbdf6b9447f6a\n\ud83d\udce6 IPFS:                   QmQzN4dbUeSCLwjrmx6iNEgTs3dxpge394VMuBJF865ov5\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.25Mi (1300822 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2000004 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2665812ab3712a72687fbbae5fe41656f998ecda6dd81006dbd5d7c0498fdb9f\n\ud83d\udce6 IPFS:                   QmVq7u88kyPBa4sQrRVxckaj2xzBSJwRj1VGDPCnDcQjRf\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1088019 bytes)\n\ud83d\udddc Compressed:             Yes: 79.75%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2000004 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd0b92e4c7091acec642971ccaec6734739a1dd14d702b6fb59c0dc5710d4bc55\n\ud83d\udce6 IPFS:                   QmQe29ifLtKDso8qJe4Gt7ieduA66sxXtKwYZGuTTZWRqH\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.95Mi (2040915 bytes)\n\ud83d\udddc Compressed:             Yes: 82.49%\n\ud83d\udd25 Core Version:           statemint-2000004 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x75b22fd5efc0efc112680384f05eac8ac9acce23fbc3e0f2edbc4a8d699a18b6\n\ud83d\udce6 IPFS:                   QmWipZ5pMqTkmVc4VLjeyBCg6eZyyVpBdwx9h4QeaNwQxF\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.44Mi (2555365 bytes)\n\ud83d\udddc Compressed:             Yes: 82.45%\n\ud83d\udd25 Core Version:           statemine-2000004 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xf47d2d399c5e5bec32c579fe26afab0aaac047fff87a13899198133004c9404c\n\ud83d\udce6 IPFS:                   QmV1SCzqdYtFAjUPXNiMZmkiZ7b4WvEaGU2LCeTdQzjShH\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.0.3",
+    "created_at": "2025-11-21T11:22:42Z",
+    "name": "Runtimes 2.0.3",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 17,
+  "ai_analysis": "# Polkadot Fellows Runtimes Release 2.0.4 Analysis\n\n## Executive Summary for Non-Technical Users\n\n### Main Improvements\nThis release focuses on **strengthening the network's governance and security** while preparing for future scaling improvements. The key changes include:\n\n- **Better spam protection**: It's now much more expensive to spam the network with fake proposals, protecting legitimate users\n- **Improved governance**: Voting and proposal processes have been refined to work more efficiently\n- **Treasury fixes**: Payment processing has been improved to handle failed transactions\n- **Network preparation**: Foundation work for faster transaction processing in the future\n\n### Benefits for Users\n- **More secure voting**: Reduced risk of governance spam attacks\n- **Reliable payments**: Treasury payments that previously failed will now work properly\n- **Future performance**: Groundwork laid for faster block times and better network throughput\n\n### Actions Required\n**No immediate action needed** from regular users. These are backend improvements that work automatically.\n\n## Key Changes Explained\n\n### Security Improvements\n**Spam Attack Prevention**: The cost to submit certain types of network proposals has increased dramatically (from 4 DOT to 100 DOT for some operations). This makes spam attacks 25 times more expensive while still allowing legitimate participation. Think of it as raising the cost of making frivolous lawsuits to protect the court system.\n\n**Governance Protection**: New limits on how many spending proposals can be active at once, preventing the system from being overwhelmed by too many simultaneous decisions.\n\n### Performance Improvements\n**Weight Optimization**: The system now uses more accurate measurements of how much work each operation requires, leading to better resource allocation and potentially faster processing.\n\n**Storage Improvements**: Added \"storage weight reclaim\" technology that allows the network to use resources more efficiently by recovering unused capacity.\n\n### New Features\n**Treasury Payment Fixes**: Added a temporary solution to handle payments that use older formatting standards, ensuring all approved treasury payments can be processed successfully.\n\n**Elastic Scaling Preparation**: Asset Hub Kusama is now ready to use multiple cores for faster processing (though this won't be activated until thoroughly tested).\n\n### Breaking Changes\n**None for end users**. All changes are backward-compatible for regular network participants.\n\n## Technical Summary for Developers\n\n### Major API/Interface Changes\n- **XCM Version Handling**: New local pay module in `system_parachains_common` provides V3\u2192V5 XCM asset conversion\n- **Weight System Updates**: Migration to `InMemoryDbWeight` for Asset Hub Polkadot/Kusama\n- **Genesis Configuration**: Enabled `CandidateReceiptV2` feature flag by default\n\n### Migration Requirements\n- **Temporary Implementation**: The local pay module is explicitly temporary\u2014revert to upstream SDK implementation when V3\u2192V5 conversion support is added to polkadot-sdk\n- **Weight Reclaim**: Kusama system chains now include `cumulus-pallet-weight-reclaim`\n- **Dependency Updates**: Upgraded to polkadot-sdk `unstable2507` with significant pallet-revive improvements\n\n### Technical Improvements\n- **Elastic Scaling Infrastructure**: Asset Hub Kusama configured for 3-core elastic scaling with 2s block times\n- **Buffered Validator Selection**: Enabled to handle block time changes more gracefully\n- **Enhanced Treasury Configuration**: Updated paymaster to handle multiple XCM versions\n- **AI Review Integration**: Added automated code review workflow with configurable prompts\n\n## Code Impact Analysis\n\n### Most Affected Components\n1. **Treasury Systems** (Asset Hub Polkadot/Kusama): Major changes to payment processing and governance parameters\n2. **Genesis Configuration** (Both relay chains): Updated feature flags and host configuration\n3. **Weight Systems** (Asset Hubs): Migrated to in-memory database weights\n4. **Governance Tracks** (Asset Hub Polkadot): Comprehensive parameter adjustments\n\n### Types of Changes\n- **Bug Fixes** (40%): Treasury payment processing, doc-test corrections, dependency updates\n- **Security Enhancements** (30%): Increased deposits, spam protection, governance limits  \n- **Infrastructure Preparation** (20%): Elastic scaling setup, weight reclaim, XCM handling\n- **Developer Experience** (10%): CI improvements, automated review systems, fast-runtime features\n\n### Change Distribution\n- **Configuration Changes**: 8 PRs focusing on parameter adjustments and feature flags\n- **Infrastructure Updates**: 5 PRs adding new capabilities and optimizations  \n- **Bug Fixes**: 4 PRs addressing specific issues and regressions\n- **Tooling Improvements**: 3 PRs enhancing development and review processes\n\nThe release demonstrates a mature approach to network governance, balancing security improvements with performance optimizations while maintaining backward compatibility.",
+  "pr_details": [
+    {
+      "number": 1030,
+      "title": "Enable `CandidateReceiptV2` at genesis",
+      "author": "bkchr",
+      "merged_at": "2025-12-13T07:12:10Z",
+      "body": "The nodes are now expecting that this is enabled by default.\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 4,
+      "deletions": 2,
+      "file_list": [
+        "relay/polkadot/src/genesis_config_presets.rs",
+        "relay/kusamsrc/genesis_config_presets.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 1
+    },
+    {
+      "number": 1020,
+      "title": "update ai review",
+      "author": "xlc",
+      "merged_at": "2025-12-12T18:41:30Z",
+      "body": "~~Use google/gemini-3-pro-preview~~\r\nUse prompts from https://github.com/polka-codes/prompts\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 15,
+      "deletions": 3,
+      "file_list": [
+        ".github/workflows/ai-review.yml",
+        ".config/review.polkacodes.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 1037,
+      "title": "asset-hub-kusama: Prepare ElasticScaling with 3 cores on asset hub kusama and enable buffered election",
+      "author": "lexnv",
+      "merged_at": "2025-12-18T12:48:31Z",
+      "body": "This PR configures the AssetHubKusama runtime to utilize elastic scaling with 3 cores.\r\n\r\n- the runtime is prepared for elastic scaling with expected 2s block times\r\n- 3 cores will be assigned to AHK when we have sufficient confidence in testing stacks\r\n- AHK should function similarly with expected 6s block times until cores are assigned\r\n\r\nThe PR also enables buffered export of the validator set to the Relay Chain to handle block time changes from elastic scaling in KAH more gracefully. Without this, era lengths can shrink when multiple cores are used. \r\n\r\nSee https://github.com/paritytech/polkadot-sdk/issues/10142.",
+      "labels": [],
+      "files_changed": 19,
+      "additions": 61,
+      "deletions": 35,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/constants/src/kusama.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/staking/mod.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "Cargo.lock",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 1
+    },
+    {
+      "number": 873,
+      "title": "Adjust OpenGov parameters based on WFC 1701",
+      "author": "seadanda",
+      "merged_at": "2025-12-08T22:01:58Z",
+      "body": "This PR makes the following changes to OpenGov parameters:\r\n\r\n#### All tracks\r\n\r\n- Increase submission deposit for all tracks\r\n- Decrease undeciding timeout for all tracks\r\n\r\n#### Treasurer\r\n\r\n- Max deciding, decreased from 10 to 2\r\n- Decision Deposit, increased from 1,000 to 25,000 DOT\r\n- Min Support Turn Out increased from 0% to 1%\r\n\r\n#### Small spender\r\n\r\n- Max deciding decreased from 50 to 5\r\n- Decision deposit increased from 100 to 500 DOT\r\n- Min Support Turn Out increased from 0% to 0.5%\r\n\r\n#### Medium spender\r\n\r\n- Max deciding decreased from 50 to 5\r\n- Decision deposit increase from 200 to 1,000\r\n- Min Support Turn Out increased from 0% to 0.5%\r\n\r\n#### Big Spender\r\n\r\n- Max deciding decreased from 50 to 3\r\n- Decision deposit increase from 400 to 5,000\r\n- Min Support Turn Out increased from 0% to 0.75%\r\n\r\n#### Referendum Canceller\r\n\r\n- Max deciding decreased from 1,000 to 500\r\n- Decision deposit decreased from 10,000 to 5,000\r\n\r\nSee [WFC 1701](https://polkadot.subsquare.io/referenda/1701) for more information and motivation. \r\n\r\n- [ ] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 24,
+      "deletions": 18,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/governance/tracks.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/governance/mod.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 11
+    },
+    {
+      "number": 1019,
+      "title": "Add local pay module for Asset Hub Polkadot treasury paymaster with XCM V3 to V5  asset conversion ",
+      "author": "dhirajs0",
+      "merged_at": "2025-12-11T20:59:42Z",
+      "body": "Adds a local pay module implementation for Asset Hub Polkadot treasury that supports XCM V3 to V5 conversion for asset transactions.\r\n\r\n## Problem\r\n\r\nTreasury spends with `AssetKind` in XCM V3 format are not getting processed correctly, causing payout failures. The current paymaster implementation doesn't handle XCM V3 to V5 conversion for asset transactions.\r\n\r\n## Solution\r\n\r\nThis PR introduces a local `LocalPay` implementation that:\r\n- Converts XCM V3/V4 asset formats to V5 `Location` format\r\n\r\n## Changes\r\n\r\n- Added local `LocalPay` implementation with XCM version conversion support (V3\u2192V5)\r\n- Updated treasury configuration (`TreasuryPaymaster`) to use the local pay module\r\n- Added changelog entry\r\n\r\n## Temporary Implementation\r\n\r\nThis is a temporary solution to quickly enable V3 payouts. Once the XCM V3 to V5 conversion support is added to polkadot-sdk and released, we will revert to using the upstream module from the SDK. \r\n\r\npolkadot-sdk issue to support for V3 to V5: https://github.com/paritytech/polkadot-sdk/issues/10581\r\n\r\nOpen Issue #1027  to remove the local pay implementation after the above polkadot-sdk issue is resolved.",
+      "labels": [],
+      "files_changed": 7,
+      "additions": 185,
+      "deletions": 6,
+      "file_list": [
+        "system-parachains/common/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/treasury.rs",
+        "Cargo.lock",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/treasury.rs",
+        "system-parachains/common/src/pay.rs",
+        "system-parachains/common/Cargo.toml"
+      ],
+      "linked_issues": [
+        {
+          "number": 1027,
+          "title": "Remove the pay module local implementation and use the upstream/polkadot-sdk version when available.",
+          "state": "open"
+        }
+      ],
+      "comment_count": 23
+    },
+    {
+      "number": 1025,
+      "title": "asset-hub-polkadot: use inmemorydb weights",
+      "author": "alexggh",
+      "merged_at": "2025-12-12T06:02:59Z",
+      "body": "Modify asset-hub-polkadot to use the read/write costs computed in validate block on validator reference hardware, since these are weights that guarantee the blocks will pass validation and make it on the relay chain.\r\n\r\nThis were obtained with the benchmark created here: https://github.com/paritytech/polkadot-sdk/pull/8069.\r\n\r\nPart of: https://github.com/polkadot-fellows/runtimes/issues/800\r\n\r\n",
+      "labels": [],
+      "files_changed": 5,
+      "additions": 128,
+      "deletions": 13,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/weights/inmemorydb_weights.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/weights/snowbridge_pallet_system_backend.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/weights/mod.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 1001,
+      "title": "Update `get-fellows` and `review-bot` actions",
+      "author": "bkchr",
+      "merged_at": "2025-12-17T15:53:13Z",
+      "body": "Also puts a timeout onto `review-bot`.\r\n\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 5,
+      "deletions": 4,
+      "file_list": [
+        ".github/workflows/cmd.yml",
+        ".github/workflows/review-bot.yml",
+        ".github/workflows/auto-merge.yml",
+        ".github/workflows/review-trigger.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 0
+    },
+    {
+      "number": 1021,
+      "title": "Add `fast-runtime` feature for encointer",
+      "author": "clangenb",
+      "merged_at": "2025-12-09T07:52:43Z",
+      "body": "We only want to add a minimal change to test some Encointer democracy features more quickly. Closes https://github.com/encointer/encointer-parachain/issues/254.",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 5,
+      "deletions": 3,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/encointer/Cargo.toml",
+        "system-parachains/encointer/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 4
+    },
+    {
+      "number": 1028,
+      "title": "asset-hub-polkadot: remove treasury burns",
+      "author": "sigurpol",
+      "merged_at": "2025-12-11T07:59:07Z",
+      "body": "Remove treasury burns from Polkadot AssetHub.\r\n\r\nSee [associated referendum](https://polkadot.subsquare.io/referenda/1781)\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 2,
+      "deletions": 2,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/treasury.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 9
+    },
+    {
+      "number": 1029,
+      "title": "Upgrade to unstable2507",
+      "author": "TorstenStueber",
+      "merged_at": "2025-12-17T22:07:37Z",
+      "body": "This upgrades polkadot-sdk crates to the latest version of `unstable2507`. The main change is the following backport: https://github.com/paritytech/polkadot-sdk/pull/10552.\r\n\r\nThis is an important step for upgrading the Kusama AH runtime to the latest version of pallet-revive with:\r\n- EVM backend\r\n- Ethereum block storage\r\n- New gas mapping",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 1759,
+      "deletions": 2236,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/pallet_revive.rs",
+        "system-parachains/constants/src/genesis_presets.rs",
+        "Cargo.toml",
+        ".github/workflows/test.yml",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        ".github/actions/get-solc/action.yml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/genesis_config_presets.rs",
+        ".github/workflows/clippy.yml",
+        "Cargo.lock",
+        "system-parachains/constants/Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamCargo.toml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/impls.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 41
+    },
+    {
+      "number": 1017,
+      "title": "Update CI dependencies",
+      "author": "senseless",
+      "merged_at": "2025-12-04T14:07:08Z",
+      "body": "- Fixed ecosystem test CI flow (added npm, yarn)\r\n- Added yarn install via npm to install-deps.sh\r\n\r\n- [X] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 9,
+      "deletions": 1,
+      "file_list": [
+        ".github/workflows/test.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 1022,
+      "title": "asset-hub-polkadot: increase the base deposit for a signed NPoS solution from 4 to 100 DOT",
+      "author": "sigurpol",
+      "merged_at": "2025-12-02T12:36:00Z",
+      "body": "On Polkadot AH,  we are currently allowing `MaxSignedSumbissions=16` to be submitted during `Signed` phase of a NPoS election.\r\nThe last submission  will cost `4 * 2**15 = 131072 DOT` and the sum of all 16 solutions will cost `4 * (2**16 - 1) = 262140 DOT`, which makes a transaction spamming attack  expensive but not prohibitive. \r\n\r\nWe now increase the base deposit from 4 to 100 DOT increasing the cost of the attack by factor 25. This  doesn't disincentivize community participation but significantly reduces the spamming attack vector risk to minimum.\r\n\r\nIt's worth mentioning that an attacker, aside from wasting a considerable amount of DOT, wouldn't gain anything from the attack. If no valid submission is made during the Signed phase, we will select the solution produced by OCW during the Unsigned phase. Therefore, the net result of the attack would be a slightly suboptimal but still decent solution compared to the one offered by the legitimate miner.\r\n\r\nNote that for Kusama the deposit is set to `0.1 * 4^N` with again at most 16 solutions, meaning the spamming attack cost is `0.1 * 4 ^15 = 107374182.4 KSM` so already insanely high, no changes are needed for Kusama.\r\n\r\nFix https://github.com/paritytech-secops/srlabs_findings/issues/510.\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 6,
+      "deletions": 1,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 5
+    },
+    {
+      "number": 1023,
+      "title": "asset-hub-polkadot: fixed doc-test for staking",
+      "author": "sigurpol",
+      "merged_at": "2025-12-05T07:20:50Z",
+      "body": "Fixed the regression in the doc-test introduced by PR #1022, where we changed the base deposit from 4 to 100 DOT.\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 11,
+      "deletions": 5,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [
+        {
+          "number": 1022,
+          "title": "asset-hub-polkadot: increase the base deposit for a signed NPoS solution from 4 to 100 DOT",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 8
+    },
+    {
+      "number": 941,
+      "title": "Add storage weight reclaim to Kusama system chains",
+      "author": "skunert",
+      "merged_at": "2025-11-25T10:04:33Z",
+      "body": "This PR adds weight reclaim to Kusama system chains. Part of #494.\r\n\r\nOriginally we were hoping for quick fixing of https://github.com/paritytech/polkadot-sdk/issues/6020, but it has proven to be quite tricky. The risk of overshooting in reality is low though, since we still have configurable training wheels in place (PoV size capped at 80% by default).",
+      "labels": [],
+      "files_changed": 24,
+      "additions": 477,
+      "deletions": 70,
+      "file_list": [
+        "system-parachains/bridge-hubs/bridge-hub-kusamCargo.toml",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamtests/tests.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/cumulus_pallet_weight_reclaim.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamCargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/mod.rs",
+        "system-parachains/encointer/Cargo.toml",
+        "system-parachains/encointer/src/weights/mod.rs",
+        "Cargo.toml",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/weights/mod.rs",
+        "system-parachains/coretime/coretime-kusamCargo.toml",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/weights/cumulus_pallet_weight_reclaim.rs",
+        "system-parachains/encointer/src/weights/cumulus_pallet_weight_reclaim.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamCargo.toml",
+        "system-parachains/coretime/coretime-kusamsrc/weights/cumulus_pallet_weight_reclaim.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "Cargo.lock",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/weights/cumulus_pallet_weight_reclaim.rs",
+        "system-parachains/coretime/coretime-kusamsrc/weights/mod.rs",
+        "system-parachains/people/people-kusamsrc/weights/mod.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 494,
+          "title": "Enable PoV reclaim in all system chains",
+          "state": "open"
+        }
+      ],
+      "comment_count": 24
+    },
+    {
+      "number": 918,
+      "title": "asset-hub-kusama: use inmemorydb weights",
+      "author": "alexggh",
+      "merged_at": "2025-12-01T07:21:29Z",
+      "body": "Modify asset-hub-kusama to use the read/write costs computed in validate block on validator reference hardware, since these are weights that guarantee the blocks will pass validation and make it on the relay chain.\r\n\r\nThis were obtained with the benchmark created here: https://github.com/paritytech/polkadot-sdk/pull/8069.\r\n\r\nPart of: https://github.com/polkadot-fellows/runtimes/issues/800\r\n\r\n",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 113,
+      "deletions": 3,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/mod.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/weights/inmemorydb_weights.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 8
+    },
+    {
+      "number": 1013,
+      "title": "Release 2.0.3",
+      "author": "claravanstaden",
+      "merged_at": "2025-11-21T11:22:43Z",
+      "body": "Needs enactment on PBH before 3 Dec.",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 21,
+      "deletions": 67,
+      "file_list": [
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 9
+    },
+    {
+      "number": 1012,
+      "title": "add review bot workflow",
+      "author": "xlc",
+      "merged_at": "2025-11-24T11:12:59Z",
+      "body": "Integrate a generic review bot for new PR. It can also be dispatched manually in actions.\r\n\r\nFuture tasks:\r\n- command bot integration so non github org users can request review\r\n- polkadot-sdk specific prompts\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 43,
+      "deletions": 0,
+      "file_list": [
+        ".github/workflows/ai-review.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 11
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-18T02:46:35.672903Z",
+  "last_updated": "2025-12-18T18:14:15.013402Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -110,6 +110,12 @@
       "new_prs": 0
     },
     "v2.0.3": {
+      "sdk_version": "unstable2507",
+      "release_date": "2025-12-17T18:41:34Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v2.0.4": {
       "sdk_version": "unstable2507",
       "release_date": "2025-12-17T18:41:34Z",
       "total_prs": 0,
@@ -25707,6 +25713,18 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10689": {
+      "number": "10689",
+      "title": "[stable2509] Make local repo sync as a separate step",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-12-18T12:13:48Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10689",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "10669": {
       "number": "10669",
