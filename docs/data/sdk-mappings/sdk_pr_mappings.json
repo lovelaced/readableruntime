@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-19T02:47:57.168415Z",
+  "last_updated": "2025-12-20T02:45:13.283317Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -24652,7 +24652,7 @@
     "8244": {
       "number": "8244",
       "title": "wasm-builder: Fix crate patching logic for the runtime blob",
-      "author": "aman4150",
+      "author": "ghost",
       "merged_at": "2025-04-29T12:22:31Z",
       "labels": [
         "R0-no-crate-publish-required"
@@ -30366,6 +30366,18 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "10695": {
+      "number": "10695",
+      "title": "[ stable2512] Post crates release chnages",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-12-19T14:07:21Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10695",
+      "branch": "stable2512",
+      "is_direct": true
     },
     "10665": {
       "number": "10665",
