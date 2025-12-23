@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-12-22T02:55:49.575563Z",
+  "last_updated": "2025-12-23T02:52:17.073456Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -27577,6 +27577,18 @@
       "is_backport": true,
       "original_pr": 9641
     },
+    "10676": {
+      "number": "10676",
+      "title": "Version bumps and prdocs reordering from stable2509-3",
+      "author": "BDevParity",
+      "merged_at": "2025-12-22T13:42:00Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10676",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "10339": {
       "number": "10339",
       "title": "Version bumps and prdocs reordering from stable2509-2",
@@ -30367,6 +30379,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "10365": {
+      "number": "10365",
+      "title": "frame-executive: Remove unused deprecated tag",
+      "author": "skunert",
+      "merged_at": "2025-11-20T14:11:14Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10365",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10706": {
+      "number": "10706",
+      "title": "[stable2512] Backport #10365",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2025-12-22T17:38:23Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10706",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10365
+    },
     "10695": {
       "number": "10695",
       "title": "[ stable2512] Post crates release chnages",
@@ -31028,6 +31068,18 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10351
+    },
+    "10705": {
+      "number": "10705",
+      "title": "Version bumps and prdocs reordering from stable2512",
+      "author": "EgorPopelyaev",
+      "merged_at": "2025-12-22T15:40:39Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10705",
+      "branch": "stable2512",
+      "is_direct": true
     },
     "10337": {
       "number": "10337",
@@ -52051,6 +52103,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10706": 10365,
     "10675": 10665,
     "10660": 10639,
     "10655": 10616,
@@ -53346,6 +53399,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10365": [
+      10706
     ],
     "10665": [
       10675
