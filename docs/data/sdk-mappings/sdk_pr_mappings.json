@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-14T02:57:16.272696Z",
+  "last_updated": "2026-01-15T02:52:53.169815Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -25764,6 +25764,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "10530": {
+      "number": "10530",
+      "title": "[Release|CI/CD] Handling RPM staging distribution as input for testing purposes",
+      "author": "BDevParity",
+      "merged_at": "2026-01-12T18:48:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10530",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10776": {
+      "number": "10776",
+      "title": "[stable2509] Backport #10530",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-14T09:38:10Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10776",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10530
+    },
     "10689": {
       "number": "10689",
       "title": "[stable2509] Make local repo sync as a separate step",
@@ -29053,7 +29083,7 @@
     "9125": {
       "number": "9125",
       "title": "[Xcm Precompile] Remove return value",
-      "author": "Brianspha",
+      "author": "sphamjoli",
       "merged_at": "2025-07-08T16:13:50Z",
       "labels": [
         "T6-XCM",
@@ -52347,6 +52377,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10776": 10530,
     "10659": 10639,
     "10626": 10592,
     "10607": 10551,
@@ -53566,6 +53597,9 @@
     ],
     "8820": [
       8822
+    ],
+    "10530": [
+      10776
     ],
     "10639": [
       10659,
