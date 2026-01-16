@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-15T02:52:53.169815Z",
+  "last_updated": "2026-01-16T02:53:23.667034Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -14159,6 +14159,16 @@
       "is_direct": false,
       "from_master": true
     },
+    "8269": {
+      "number": "8269",
+      "title": "Merge fixes for backport 7947 to stable2503",
+      "author": "alistair-singh",
+      "merged_at": "2025-04-18T10:18:30Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8269",
+      "branch": "stable2503",
+      "is_direct": true
+    },
     "8469": {
       "number": "8469",
       "title": "[Backport] Version bumps and prdocs reordering from the stable2503-2 release",
@@ -14172,16 +14182,6 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
-    },
-    "8269": {
-      "number": "8269",
-      "title": "Merge fixes for backport 7947 to stable2503",
-      "author": "alistair-singh",
-      "merged_at": "2025-04-18T10:18:30Z",
-      "labels": [],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8269",
-      "branch": "stable2503",
-      "is_direct": true
     },
     "8428": {
       "number": "8428",
@@ -25763,6 +25763,18 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10818": {
+      "number": "10818",
+      "title": "Post crates release activities for stable2509",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-01-15T17:15:03Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10818",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "10530": {
       "number": "10530",
