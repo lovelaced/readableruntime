@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-19T02:57:56.954439Z",
+  "last_updated": "2026-01-20T02:55:19.081248Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
-      "total_prs": 406,
-      "new_prs": 406
+      "release_date": "2026-01-19T17:00:47Z",
+      "total_prs": 408,
+      "new_prs": 408
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,61 +69,61 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.4": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.5": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-08T10:31:08Z",
+      "release_date": "2026-01-19T17:00:47Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -25764,6 +25764,37 @@
       "is_direct": false,
       "from_master": true
     },
+    "10802": {
+      "number": "10802",
+      "title": "benchmarking: fix timing leak from bulk setup operations",
+      "author": "sigurpol",
+      "merged_at": "2026-01-19T10:27:02Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T12-benchmarks",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10802",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10840": {
+      "number": "10840",
+      "title": "[stable2509] Backport #10802",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T13:14:08Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10840",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10802
+    },
     "10818": {
       "number": "10818",
       "title": "Post crates release activities for stable2509",
@@ -30485,6 +30516,91 @@
       "is_direct": false,
       "from_master": true
     },
+    "10837": {
+      "number": "10837",
+      "title": "[stable2512] Backport #10802",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T21:06:23Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10837",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10802
+    },
+    "10792": {
+      "number": "10792",
+      "title": "pallet-broker: Fix `force_reserve`",
+      "author": "bkchr",
+      "merged_at": "2026-01-14T13:02:10Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10792",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10809": {
+      "number": "10809",
+      "title": "[stable2512] Backport #10792",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T17:06:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10809",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10792
+    },
+    "10777": {
+      "number": "10777",
+      "title": "[stable2512] Backport #10530",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T13:02:08Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10777",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10530
+    },
+    "10576": {
+      "number": "10576",
+      "title": "Introduce the first version of  pallet-dap and collect staking slashes into a buffer on asset-hub-westend",
+      "author": "sigurpol",
+      "merged_at": "2026-01-09T16:27:20Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10576",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10764": {
+      "number": "10764",
+      "title": "[stable2512] Backport #10576",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T14:56:04Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10764",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10576
+    },
     "10740": {
       "number": "10740",
       "title": "Make BlockRatioFee no longer require pallet_revive",
@@ -30598,6 +30714,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10646
+    },
+    "10064": {
+      "number": "10064",
+      "title": "Add `pallet_multi_asset_bounties` to Westend Asset Hub testnet runtime.",
+      "author": "BigTava",
+      "merged_at": "2025-12-10T17:18:25Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10064",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10728": {
+      "number": "10728",
+      "title": "[stable2512] Backport #10064",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T11:48:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10728",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10064
     },
     "10711": {
       "number": "10711",
@@ -34447,6 +34591,20 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "10839": {
+      "number": "10839",
+      "title": "[unstable2507] Backport #10802",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-19T17:00:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10839",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10802
     },
     "10746": {
       "number": "10746",
@@ -49433,6 +49591,15 @@
         "from_master": true
       }
     ],
+    "10753": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "is_direct": true
+      }
+    ],
     "8708": [
       {
         "runtime_version": "1.7.0",
@@ -51920,6 +52087,15 @@
         "is_direct": true
       }
     ],
+    "10746": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9726": [
       {
         "runtime_version": "1.7.0",
@@ -52389,6 +52565,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10840": 10802,
     "10776": 10530,
     "10659": 10639,
     "10626": 10592,
@@ -52460,10 +52637,15 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10837": 10802,
+    "10809": 10792,
+    "10777": 10530,
+    "10764": 10576,
     "10745": 10740,
     "10743": 10657,
     "10737": 10476,
     "10734": 10646,
+    "10728": 10064,
     "10727": 10711,
     "10722": 10707,
     "10706": 10365,
@@ -52496,6 +52678,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "10839": 10802,
     "10744": 10740,
     "10736": 10476,
     "10683": 10680,
@@ -53610,8 +53793,14 @@
     "8820": [
       8822
     ],
+    "10802": [
+      10840,
+      10837,
+      10839
+    ],
     "10530": [
-      10776
+      10776,
+      10777
     ],
     "10639": [
       10659,
@@ -53773,6 +53962,12 @@
       9655,
       9654
     ],
+    "10792": [
+      10809
+    ],
+    "10576": [
+      10764
+    ],
     "10740": [
       10745,
       10744
@@ -53786,6 +53981,9 @@
     ],
     "10646": [
       10734
+    ],
+    "10064": [
+      10728
     ],
     "10711": [
       10727
