@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-20T02:55:19.081248Z",
+  "last_updated": "2026-01-21T02:52:40.563136Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30530,6 +30530,34 @@
       "is_backport": true,
       "original_pr": 10802
     },
+    "10502": {
+      "number": "10502",
+      "title": "[Staking] Allow nominators to be non-slashable and fast unbondable",
+      "author": "Ank4n",
+      "merged_at": "2026-01-14T22:19:00Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10502",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10810": {
+      "number": "10810",
+      "title": "[stable2512] Backport #10502",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-20T10:07:12Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10810",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10502
+    },
     "10792": {
       "number": "10792",
       "title": "pallet-broker: Fix `force_reserve`",
@@ -52638,6 +52666,7 @@
     "9655": 9632,
     "9653": 9641,
     "10837": 10802,
+    "10810": 10502,
     "10809": 10792,
     "10777": 10530,
     "10764": 10576,
@@ -53961,6 +53990,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10502": [
+      10810
     ],
     "10792": [
       10809
