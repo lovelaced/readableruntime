@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-21T02:52:40.563136Z",
+  "last_updated": "2026-01-22T02:58:02.744303Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11105,6 +11105,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "10803": {
+      "number": "10803",
+      "title": "[CI|Release] Improve post crates action",
+      "author": "BDevParity",
+      "merged_at": "2026-01-21T09:38:00Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10803",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10852": {
+      "number": "10852",
+      "title": "[stable2503] Backport #10803",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-21T12:55:01Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10852",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10803
+    },
     "10551": {
       "number": "10551",
       "title": "[Release|CI/CD] Fix Create polkadot-vX.YY.Z tag flow",
@@ -21343,6 +21375,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "10853": {
+      "number": "10853",
+      "title": "[stable2506] Backport #10803",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-21T12:51:10Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10853",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10803
+    },
     "10753": {
       "number": "10753",
       "title": "[stable2506] Post crates release activities",
@@ -25763,6 +25810,21 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "10854": {
+      "number": "10854",
+      "title": "[stable2509] Backport #10803",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-21T10:19:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10854",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10803
     },
     "10802": {
       "number": "10802",
@@ -30515,6 +30577,49 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "10312": {
+      "number": "10312",
+      "title": "fatxpool: metrics for unfiltered timings of inblock events",
+      "author": "michalkucharczyk",
+      "merged_at": "2025-12-10T13:49:19Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10312",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10857": {
+      "number": "10857",
+      "title": "[stable2512] Backport #10312",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-21T12:50:47Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10857",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10312
+    },
+    "10855": {
+      "number": "10855",
+      "title": "[stable2512] Backport #10803",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-21T10:13:45Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10855",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10803
     },
     "10837": {
       "number": "10837",
@@ -52397,6 +52502,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "10852": 10803,
     "10605": 10551,
     "10506": 10455,
     "10429": 10419,
@@ -52516,6 +52622,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "10853": 10803,
     "10624": 10592,
     "10606": 10551,
     "10545": 10379,
@@ -52593,6 +52700,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "10854": 10803,
     "10840": 10802,
     "10776": 10530,
     "10659": 10639,
@@ -52665,6 +52773,8 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10857": 10312,
+    "10855": 10803,
     "10837": 10802,
     "10810": 10502,
     "10809": 10792,
@@ -53427,6 +53537,12 @@
     "6304": [
       6470
     ],
+    "10803": [
+      10852,
+      10853,
+      10854,
+      10855
+    ],
     "10551": [
       10605,
       10606,
@@ -53990,6 +54106,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10312": [
+      10857
     ],
     "10502": [
       10810
