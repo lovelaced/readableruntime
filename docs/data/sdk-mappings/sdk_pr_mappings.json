@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-22T02:58:02.744303Z",
+  "last_updated": "2026-01-23T02:54:50.795830Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30578,6 +30578,74 @@
       "is_direct": false,
       "from_master": true
     },
+    "10881": {
+      "number": "10881",
+      "title": "[stable2512] Post crates release activities for stable2512-1",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-01-22T22:54:30Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10881",
+      "branch": "stable2512",
+      "is_direct": true
+    },
+    "10861": {
+      "number": "10861",
+      "title": "[pallet-revive] weight charge in `sr25519_verify` and `ecdsa_to_eth_address` precompiles",
+      "author": "xermicus",
+      "merged_at": "2026-01-22T14:36:29Z",
+      "labels": [
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10861",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10878": {
+      "number": "10878",
+      "title": "[stable2512] Backport #10861",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-22T15:11:47Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10878",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10861
+    },
+    "10859": {
+      "number": "10859",
+      "title": "Upgrade litep2p to v0.13.0",
+      "author": "dmitry-markin",
+      "merged_at": "2026-01-21T16:23:11Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10859",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10865": {
+      "number": "10865",
+      "title": "[stable2512] Backport #10859",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-22T10:38:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10865",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10859
+    },
     "10312": {
       "number": "10312",
       "title": "fatxpool: metrics for unfiltered timings of inblock events",
@@ -31795,7 +31863,8 @@
       "author": "sigurpol",
       "merged_at": "2025-11-13T17:57:48Z",
       "labels": [
-        "R0-no-crate-publish-required"
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10300",
       "branch": "stable2512",
@@ -52773,6 +52842,8 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10878": 10861,
+    "10865": 10859,
     "10857": 10312,
     "10855": 10803,
     "10837": 10802,
@@ -54106,6 +54177,12 @@
     "9632": [
       9655,
       9654
+    ],
+    "10861": [
+      10878
+    ],
+    "10859": [
+      10865
     ],
     "10312": [
       10857
