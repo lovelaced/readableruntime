@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-28T02:55:04.677129Z",
+  "generated_at": "2026-01-29T03:10:48.907828Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -1733,7 +1733,7 @@
         "stable2512-1-rc1"
       ],
       "created_date": "2025-11-18T13:32:56Z",
-      "pr_count": 346
+      "pr_count": 348
     },
     "stable2509": {
       "tags": [
@@ -1926,7 +1926,7 @@
   "statistics": {
     "total_sdk_tags": 139,
     "total_branches": 11,
-    "total_prs_tracked": 2618,
+    "total_prs_tracked": 2622,
     "runtime_releases_mapped": 21
   }
 }

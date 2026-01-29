@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-28T02:55:04.679537Z",
+  "last_updated": "2026-01-29T03:10:48.910981Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30578,6 +30578,62 @@
       "is_direct": false,
       "from_master": true
     },
+    "10880": {
+      "number": "10880",
+      "title": "Remove failing assertion related to VoterList count mismatch",
+      "author": "cirko33",
+      "merged_at": "2026-01-28T17:04:22Z",
+      "labels": [
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10880",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10929": {
+      "number": "10929",
+      "title": "[stable2512] Backport #10880",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-28T21:28:05Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10929",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10880
+    },
+    "10925": {
+      "number": "10925",
+      "title": "[Release| CI/CD] Add missing permissions to the docker publishing jobs",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-01-28T15:41:23Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10925",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10927": {
+      "number": "10927",
+      "title": "[stable2512] Backport #10925",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-28T16:52:48Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10927",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10925
+    },
     "10666": {
       "number": "10666",
       "title": "staking-async: allow  session keys handling on AssetHub",
@@ -52904,6 +52960,8 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10929": 10880,
+    "10927": 10925,
     "10898": 10666,
     "10878": 10861,
     "10865": 10859,
@@ -54240,6 +54298,12 @@
     "9632": [
       9655,
       9654
+    ],
+    "10880": [
+      10929
+    ],
+    "10925": [
+      10927
     ],
     "10666": [
       10898
