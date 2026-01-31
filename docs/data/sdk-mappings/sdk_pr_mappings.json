@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-01-30T03:09:56.611287Z",
+  "last_updated": "2026-01-31T03:06:16.939341Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30578,6 +30578,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "10934": {
+      "number": "10934",
+      "title": "[Release|CI/CD] Add `eth-rpc` binary to release draft artifacts",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-01-29T17:13:06Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10934",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10937": {
+      "number": "10937",
+      "title": "[stable2512] Backport #10934",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-30T09:26:33Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10937",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10934
+    },
     "10880": {
       "number": "10880",
       "title": "Remove failing assertion related to VoterList count mismatch",
@@ -52960,6 +52989,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "10937": 10934,
     "10929": 10880,
     "10927": 10925,
     "10898": 10666,
@@ -54298,6 +54328,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10934": [
+      10937
     ],
     "10880": [
       10929
