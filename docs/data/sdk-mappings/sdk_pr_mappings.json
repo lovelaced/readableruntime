@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-02T03:17:03.852066Z",
+  "last_updated": "2026-02-03T03:14:18.201662Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -51,13 +51,13 @@
     },
     "v1.7.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
-      "total_prs": 410,
-      "new_prs": 410
+      "release_date": "2026-02-02T13:21:49Z",
+      "total_prs": 411,
+      "new_prs": 411
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -69,61 +69,61 @@
     },
     "v1.9.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v1.9.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.0": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.1": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.2": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.3": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.4": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.0.5": {
       "sdk_version": "unstable2507",
-      "release_date": "2026-01-27T09:53:17Z",
+      "release_date": "2026-02-02T13:21:49Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -34907,6 +34907,33 @@
       "is_direct": false,
       "from_master": true
     },
+    "10950": {
+      "number": "10950",
+      "title": "fix(revive): handle transaction hash conflicts during re-org",
+      "author": "pgherveou",
+      "merged_at": "2026-01-30T22:22:26Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10950",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10951": {
+      "number": "10951",
+      "title": "fix(revive): handle transaction hash conflicts during re-org",
+      "author": "pgherveou",
+      "merged_at": "2026-02-02T13:21:49Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10951",
+      "branch": "unstable2507",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10950
+    },
     "10908": {
       "number": "10908",
       "title": "Pg/add eth rpc pub",
@@ -51914,6 +51941,15 @@
         "is_direct": true
       }
     ],
+    "10908": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "unstable2507",
+        "is_direct": true
+      }
+    ],
     "9376": [
       {
         "runtime_version": "1.7.0",
@@ -53039,6 +53075,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "10951": 10950,
     "10839": 10802,
     "10744": 10740,
     "10736": 10476,
@@ -54429,6 +54466,9 @@
     ],
     "9685": [
       10374
+    ],
+    "10950": [
+      10951
     ],
     "10680": [
       10683
