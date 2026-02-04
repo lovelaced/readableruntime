@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-03T03:14:18.201662Z",
+  "last_updated": "2026-02-04T03:11:22.053392Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30691,6 +30691,35 @@
       "is_backport": true,
       "original_pr": 10666
     },
+    "10885": {
+      "number": "10885",
+      "title": "[Release|CI/CD] Bump Zepter version in post crates action",
+      "author": "BDevParity",
+      "merged_at": "2026-01-23T13:10:31Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10885",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10890": {
+      "number": "10890",
+      "title": "[stable2512] Backport #10885",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-03T09:45:20Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10890",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10885
+    },
     "10881": {
       "number": "10881",
       "title": "[stable2512] Post crates release activities for stable2512-1",
@@ -53029,6 +53058,7 @@
     "10929": 10880,
     "10927": 10925,
     "10898": 10666,
+    "10890": 10885,
     "10878": 10861,
     "10865": 10859,
     "10857": 10312,
@@ -54377,6 +54407,9 @@
     ],
     "10666": [
       10898
+    ],
+    "10885": [
+      10890
     ],
     "10861": [
       10878
