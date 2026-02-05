@@ -1,0 +1,200 @@
+{
+  "newer_release": {
+    "tag_name": "v2.0.6",
+    "created_at": "2026-02-04T19:36:40Z",
+    "name": "Runtimes 2.0.6",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.0.6] 04.02.2026\n\n### Changed\n\n- Updates to latest polkadot-sdk\n\n# Runtime info\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1778169 bytes)\n\ud83d\udddc Compressed:             Yes: 80.63%\n\ud83d\udd25 Core Version:           polkadot-2000006 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x763725f38b64ed84ae844dfc5d468258d35ef2f090dde5485d5b1afcfc9bf568\n\ud83d\udce6 IPFS:                   QmXcnWw9xw586gNf3dBPp2LTJSEFzGp9WhzSSVC3yHE6sc\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1008.53Ki (1032728 bytes)\n\ud83d\udddc Compressed:             Yes: 80.08%\n\ud83d\udd25 Core Version:           people-polkadot-2000006 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x1228bf12eb4847568ba4b061b3b9f1b23206729612ba5cb8b15d1c8a9983c670\n\ud83d\udce6 IPFS:                   QmTknWNnnzS4sASZHSVd27xH8A9Qpeo8XMdeGntupYWhZz\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1007.04Ki (1031203 bytes)\n\ud83d\udddc Compressed:             Yes: 80.11%\n\ud83d\udd25 Core Version:           people-kusama-2000006 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x0afd2a1b362351ad2ad55a8df8be758b471772ff98325853260d65900173d901\n\ud83d\udce6 IPFS:                   QmYZVgie59Bx3wnZ5ikzLbDyqQYs8aEoMEdpJf1jJKmT27\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.79Mi (1866552 bytes)\n\ud83d\udddc Compressed:             Yes: 80.97%\n\ud83d\udd25 Core Version:           kusama-2000006 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x8550b3decc0fd495538dca99d6b2b658804544d1ee442f8306f9fd1e2ca51e80\n\ud83d\udce6 IPFS:                   QmWJdko97gHbKoViJ61VPXPGP1EohSRbp23E4zMb9ATajk\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           477.84Ki (489303 bytes)\n\ud83d\udddc Compressed:             Yes: 77.96%\n\ud83d\udd25 Core Version:           glutton-2000006 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xedd663591456abd37fc450f9771a1abcdd864fb30427100560cd63ba52795d56\n\ud83d\udce6 IPFS:                   QmSvHw4ZUTmzbWFVzU8b58DF5D4RzTMZFvfWqQz92Z8wfZ\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.11Mi (1163054 bytes)\n\ud83d\udddc Compressed:             Yes: 80.7%\n\ud83d\udd25 Core Version:           encointer-parachain-2000006 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb2618049f03fe66c4416a63be8d77fad7ca8c16e97c9e75d51026db6fc65a48c\n\ud83d\udce6 IPFS:                   QmRGrP3c7mqKnhF29k35j2dmZ3yoCmL7djb8TwrmSHMqPE\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1008.92Ki (1033125 bytes)\n\ud83d\udddc Compressed:             Yes: 80.09%\n\ud83d\udd25 Core Version:           coretime-polkadot-2000006 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x1775c7bec7ffd618e400f1ea3f619f4457851f6b4145c5d6ca2d7ea233728d52\n\ud83d\udce6 IPFS:                   QmNNGoWNzcrpseXAAUcGwtw6pWTY2QutRpqxv16XTwUSPT\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1009.84Ki (1034076 bytes)\n\ud83d\udddc Compressed:             Yes: 80.08%\n\ud83d\udd25 Core Version:           coretime-kusama-2000006 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x88378dc519c8716ae9895a05874250212d0fdde41cb151a28daa77607c3e202c\n\ud83d\udce6 IPFS:                   QmPgnbMnGMTuUsvPRhBuGFAAnsdVsEgmzu8MhSu9Doaa8b\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.13Mi (1175223 bytes)\n\ud83d\udddc Compressed:             Yes: 81.22%\n\ud83d\udd25 Core Version:           collectives-2000006 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xef68bf990d81bad67e5731ed08327bbc94bb354685424e07b8f2a36c70b4e6a7\n\ud83d\udce6 IPFS:                   QmVKB6Hq34qAHmnxT68vBAn6fe6tFjGqiAcSsyk1SGcidP\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.27Mi (1321752 bytes)\n\ud83d\udddc Compressed:             Yes: 80.17%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2000006 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x961ee265846db7a828f320f2b439edfb9a00ac81e34e9edaa975c31fc3a9e46a\n\ud83d\udce6 IPFS:                   QmeyhCeh262V9sp3BY4dEVQnuXgmv5BEwiq7VTDPnMadfF\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.06Mi (1108661 bytes)\n\ud83d\udddc Compressed:             Yes: 79.82%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2000006 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xccd5f6e104bd118353976e15890de35357f6a6b6c54853518ffbcced53677290\n\ud83d\udce6 IPFS:                   QmWeZdV5wJnz8yiKzdYCRuALQpfgJ6avr4k7XZ1gecUD6N\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.35Mi (2454593 bytes)\n\ud83d\udddc Compressed:             Yes: 82.09%\n\ud83d\udd25 Core Version:           statemint-2000006 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x459e6d0d0ce817a0332b56c9fa22a5b0e7b2fd0f7c59adb2d761cd9ff8441274\n\ud83d\udce6 IPFS:                   QmUemu5RLzVf6ATqhAVnnvSRMCcm13PTGq1rbuKVVzzXLS\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.45Mi (2558559 bytes)\n\ud83d\udddc Compressed:             Yes: 82.44%\n\ud83d\udd25 Core Version:           statemine-2000006 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x86a5f73cb990cd6fe31ffeba426cc4386f58976a62d4337e9709f08638e034a6\n\ud83d\udce6 IPFS:                   QmaKdpvs6fg485vXB6rgv8a4jnxpnktfGSMTGT5dVpMat7\n~~~\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.0.5",
+    "created_at": "2026-01-13T13:46:42Z",
+    "name": "Runtimes 2.0.5",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 8,
+  "ai_analysis": "# Polkadot Fellows Runtimes v2.0.6 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n### Main Improvements\nThis release focuses on **governance improvements**, **validator management enhancements**, and **infrastructure optimizations**. The changes primarily benefit validators, governance participants, and developers working with the Polkadot ecosystem.\n\n### Key Benefits Users Will See\n- **Better Spam Protection**: Kusama now requires higher deposits to submit governance proposals, reducing spam\n- **Improved Validator Operations**: New tools for separating stake management from validator operations\n- **Enhanced Asset Support**: HOLLAR token can now be used on Polkadot's People Chain for identity services\n- **Better Documentation**: Clearer guides for runtime upgrades\n\n### Actions Required\n- **Kusama Governance Participants**: Proposal submission now costs 333.3 KSM instead of 33.33 KSM\n- **Validators**: Can now use new \"StakingOperator\" proxy type for better operational security\n- **No action required** for regular users and token holders\n\n## 2. Key Changes Explained\n\n### Security Improvements\n- **Anti-Spam Measures**: Kusama governance submission deposits increased 10x (from ~33 KSM to ~333 KSM) to prevent spam proposals while keeping legitimate governance accessible\n- **Validator Security**: New StakingOperator proxy type allows validators to separate their staking funds from operational keys, reducing risk if operational systems are compromised\n\n### New Features\n- **StakingOperator Proxy**: Validators can now delegate operational tasks (session key management, validator actions) while keeping control over funds\n- **HOLLAR Token Support**: People Chain now supports HOLLAR token for paying identity service fees, expanding payment options\n\n### Performance Improvements\n- **Faster CI/CD**: Development infrastructure optimized to use appropriate computing resources more efficiently\n- **Better Testing**: Enhanced migration testing with daily snapshots instead of constant re-downloads\n\n## 3. Technical Summary for Developers\n\n### Major API/Interface Changes\n- **New Proxy Type**: `StakingOperator` proxy type added to both relay chains and Asset Hubs\n  - Relay Chain: Can manage `set_keys`, `purge_keys`\n  - Asset Hub: Can perform `validate`, `chill`, `kick` operations\n- **Proxy Hierarchy**: `Staking` proxy can now add/remove `StakingOperator` proxies\n\n### Migration Requirements\n- **Kusama Governance**: Applications submitting referenda must update deposit calculations (100x increase from QUID to 100*QUID)\n- **Asset Integration**: People Chain now includes `pallet-assets` for multi-asset support\n\n### Technical Improvements\n- **CI/CD Optimization**: Workflow reorganization using GitHub runners for lighter tasks, self-hosted for heavy compilation\n- **Testing Infrastructure**: Migration tests now use cached daily snapshots\n- **Integration Coverage**: Added Encointer to integration test matrix\n\n## 4. Code Impact Analysis\n\n### Most Affected System Components\n1. **Governance Module** (Kusama): Parameter changes for submission deposits\n2. **Proxy System** (All chains): New proxy type implementation with permission matrix\n3. **People Chain**: Major addition of assets pallet and XCM integration\n4. **CI/CD Infrastructure**: Comprehensive workflow optimization\n\n### Types of Changes Made\n- **Parameter Updates** (40%): Governance deposit adjustments, version bumps\n- **Feature Additions** (35%): StakingOperator proxy, HOLLAR support, assets pallet\n- **Infrastructure Improvements** (20%): CI/CD optimization, testing enhancements\n- **Documentation** (5%): Runtime upgrade guide improvements\n\n### Development Process Improvements\n- **Better Resource Management**: CI jobs now appropriately use GitHub vs self-hosted runners\n- **Enhanced Testing**: Daily snapshot caching reduces test setup time\n- **Improved Documentation**: Comprehensive runtime upgrade guide added\n\n---\n\n**Note**: This release maintains backward compatibility for regular users while introducing opt-in improvements for validators and governance participants. The changes reflect the ecosystem's maturation with better operational security and spam prevention measures.",
+  "pr_details": [
+    {
+      "number": 863,
+      "title": "Update Kusama submission deposit as per ref#558",
+      "author": "olanod",
+      "merged_at": "2026-01-27T14:13:39Z",
+      "body": "A recent [WFC](https://kusama.subsquare.io/referenda/558) passed to adjust submission deposit to prevent spams specially on the WFC track. \r\n\r\nA missing part of the WFC is to add a new extrinsic to the PolkadotSDK to \"collect submission deposits\", a permissionless extrinsic that would enable transferring the reserved deposit of failed or timed out referenda to a well-known account as the deposits are blocked forever in the user's account, kind of like a limbo state.",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 5,
+      "deletions": 1,
+      "file_list": [
+        "CHANGELOG.md",
+        "relay/kusamsrc/governance/mod.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1066,
+      "title": "Improve runtime upgrade docs",
+      "author": "skunert",
+      "merged_at": "2026-01-28T22:42:51Z",
+      "body": "In the README we already have the short overview of the steps to apply a runtime upgrade.\r\n\r\nIn addition, there is this nice [doc](https://hackmd.io/_VZG98ZgTCSllp4blnO-6w?view) by @seadanda floating around. It contains a bit more context and testing instructions. Instead of  sending the hackmd around, it should be part of the repo.\r\n\r\nMostly I left the contents as they were but with a few changes to make it more concise:\r\n- Added WASM blob upload step\r\n- Merged Kusama and Polkadot flow (with notes when different steps needed)\r\n\r\n\r\n- [x] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 179,
+      "deletions": 0,
+      "file_list": [
+        "README.md",
+        "docs/runtime-upgrade-guide.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 1
+    },
+    {
+      "number": 1053,
+      "title": "add encointer to the integration tests matrix",
+      "author": "clangenb",
+      "merged_at": "2026-01-15T12:56:20Z",
+      "body": "<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 4,
+      "deletions": 0,
+      "file_list": [
+        ".github/workflows/integration-tests-matrix.json"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1060,
+      "title": "Use GH runners for small jobs + disable ecosystem tests",
+      "author": "bkchr",
+      "merged_at": "2026-01-26T21:53:30Z",
+      "body": "This pull request changes the CI pipeline to use GH runners for small jobs to use the big machines for the heavier jobs. Also this disables the ecosystem tests because they are taking right now multiple hours. Alexanxdre will work on fixing them.\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 9,
+      "additions": 39,
+      "deletions": 51,
+      "file_list": [
+        ".github/workflows/changelog.yml",
+        ".github/workflows/review-trigger.yml",
+        ".github/workflows/check-migrations.yml",
+        ".github/workflows/test.yml",
+        ".github/workflows/up-to-date.yml",
+        ".github/workflows/cmd.yml",
+        ".github/workflows/auto-merge.yml",
+        ".github/workflows/review-bot.yml",
+        ".github/workflows/ai-review.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1033,
+      "title": "Add `StakingOperator` proxy type and allow `Staking` proxy to add/remove a `StakingOperator`",
+      "author": "sigurpol",
+      "merged_at": "2026-01-19T18:12:21Z",
+      "body": "## \ud83d\udcdd Summary\r\nIntroduce `StakingOperator` proxy type for Polkadot and Kusama AssetHub and RelayChain  to enable separation between stake providers and node operators: the `StakingOperator` proxy types  allows stake providers to delegate operational tasks while retaining control over bonding, unbonding, nominations, and reward destinations.\r\n\r\n##  StakingOperator\r\n\r\nAllowed operations:\r\n- Asset Hub: validate, chill, kick\r\n- Relay Chain: set_keys, purge_keys\r\n\r\n## Staking vs StakingOperator\r\n\r\n- The `Staking` proxy is a superset of `StakingOperator`. \r\n- Staking proxy can add / remove Staking Operator proxies\r\n  - ... but staking proxy can't add other kind of proxies.\r\n\r\n## Limitation: Pure proxy stashes are not supported\r\n\r\nA pure proxy stash cannot use `StakingOperator` because it has no private key to set up the required Relay Chain proxy relationship. This will be resolved once  session key management is available through Asset Hub (see https://github.com/paritytech/polkadot-sdk/issues/8806)\r\n                                                                                                                                                         \r\n## \u26a0\ufe0f NOTE\r\n\r\nThis approach results in a sub-optimal user experience because we are requiring the setup of proxy relationships on both AssetHub and RelayChain. This constraint arises from the necessity for validators to manage session keys directly on RelayChain. Once we enable them to manage keys solely through AssetHub, we can eliminate the StakingOperator proxy on RelayChain.\r\n\r\nRelated issue: https://github.com/paritytech/polkadot-sdk/issues/10483\r\n\r\n",
+      "labels": [],
+      "files_changed": 12,
+      "additions": 1007,
+      "deletions": 44,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/ah_migration/mod.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/tests/tests.rs",
+        "CHANGELOG.md",
+        "relay/kusamsrc/tests.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "relay/kusamconstants/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/ah_migration/mod.rs",
+        "relay/kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "relay/polkadot/constants/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamtests/tests.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 42
+    },
+    {
+      "number": 824,
+      "title": "check-migrations: Cache & Download snapshot only once per day",
+      "author": "bkchr",
+      "merged_at": "2026-01-23T10:42:04Z",
+      "body": "Before we always redownloaded the snapshot every time running the job. Now the snapshots are generated 1am every day and then used from there.\r\n\r\n<!-- Remember that you can run `/merge` to enable auto-merge in the PR -->\r\n\r\n<!-- Remember to modify the changelog. If you don't need to modify it, you can check the following box.\r\nInstead, if you have already modified it, simply delete the following line. -->\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 237,
+      "deletions": 32,
+      "file_list": [
+        ".github/workflows/test.yml",
+        ".github/workflows/check-migrations.yml",
+        ".github/workflows/runtimes-matrix.json"
+      ],
+      "linked_issues": [],
+      "comment_count": 15
+    },
+    {
+      "number": 1054,
+      "title": "Release `2.0.5`",
+      "author": "athei",
+      "merged_at": "2026-01-13T13:46:42Z",
+      "body": "We are targeting enactment on 27th of January.",
+      "labels": [],
+      "files_changed": 14,
+      "additions": 14,
+      "deletions": 14,
+      "file_list": [
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 962,
+      "title": "Allow HOLLAR to be reserved transferred to People Chain from Hydration",
+      "author": "franciscoaguirre",
+      "merged_at": "2026-01-16T21:35:52Z",
+      "body": "We want to use HOLLAR in People Chain. We need to get it from Hydration as a reserve.\r\n\r\n## TODO\r\n- [x] Add `(Hollar, Hydration)` to `IsReserve`\r\n- [x] Add assets pallet to hold HOLLAR\r\n- [x] Add asset transactor to be able to handle HOLLAR via XCM\r\n- [x] Allow ability to pay fees in HOLLAR\r\n- [x] Add tests\r\n- [x] Benchmark\r\n- [x] Modify CHANGELOG\r\n",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 2565,
+      "deletions": 1222,
+      "file_list": [
+        "system-parachains/people/people-polkadot/Cargo.toml",
+        "Cargo.lock",
+        "CHANGELOG.md",
+        "integration-tests/emulated/tests/people/people-polkadot/src/tests/mod.rs",
+        "integration-tests/emulated/chains/parachains/people/people-polkadot/src/lib.rs",
+        "Cargo.toml",
+        "integration-tests/emulated/tests/people/people-polkadot/Cargo.toml",
+        "system-parachains/people/people-polkadot/src/weights/pallet_asset_rate.rs",
+        "system-parachains/people/people-polkadot/src/tests.rs",
+        "integration-tests/emulated/tests/people/people-polkadot/src/tests/reserve_transfers.rs",
+        "system-parachains/people/people-polkadot/src/weights/xcm/pallet_xcm_benchmarks_fungible.rs",
+        "system-parachains/people/people-polkadot/src/xcm_config.rs",
+        "system-parachains/people/people-polkadot/src/weights/pallet_asset_tx_payment.rs",
+        "system-parachains/people/people-polkadot/src/weights/mod.rs",
+        "integration-tests/emulated/tests/people/people-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/weights/pallet_assets.rs",
+        "system-parachains/people/people-polkadot/src/assets.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 40
+    }
+  ]
+}
