@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-02-05T03:14:31.497139Z",
+  "generated_at": "2026-02-06T03:14:32.375687Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -385,6 +385,16 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2512-2-rc1": {
+      "commit": "a2cbc4df48120771a6cdaf5314735619ed82bae3",
+      "date": "2026-02-05T16:21:05Z",
+      "branch": "stable2512",
+      "package_versions": {
+        "polkadot-primitives": "22.0.0",
+        "sp-runtime": "45.0.0",
+        "frame-support": "45.1.0"
       }
     },
     "stable2512-1": {
@@ -1745,11 +1755,12 @@
         "stable2512-rc3",
         "stable2512-rc2",
         "stable2512-rc1",
+        "stable2512-2-rc1",
         "stable2512-1",
         "stable2512-1-rc1"
       ],
       "created_date": "2025-11-18T13:32:56Z",
-      "pr_count": 356
+      "pr_count": 357
     },
     "stable2509": {
       "tags": [
@@ -1940,9 +1951,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 139,
+    "total_sdk_tags": 140,
     "total_branches": 11,
-    "total_prs_tracked": 2646,
+    "total_prs_tracked": 2647,
     "runtime_releases_mapped": 22
   }
 }
