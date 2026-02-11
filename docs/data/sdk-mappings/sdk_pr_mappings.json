@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-10T03:16:52.240774Z",
+  "last_updated": "2026-02-11T03:18:12.041277Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30585,6 +30585,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "11031": {
+      "number": "11031",
+      "title": "xcm-emulator: advance relay block number by relay_blocks_per_para_block",
+      "author": "sigurpol",
+      "merged_at": "2026-02-10T13:54:00Z",
+      "labels": [
+        "T10-tests",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11031",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11036": {
+      "number": "11036",
+      "title": "[stable2512] Backport #11031",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-10T15:13:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11036",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11031
+    },
     "11002": {
       "number": "11002",
       "title": "[stable2512] Post crates release activities for stable2512-2",
@@ -55567,6 +55595,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11036": 11031,
     "10989": 10986,
     "10988": 10957,
     "10985": 10980,
@@ -56919,6 +56948,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "11031": [
+      11036
     ],
     "10986": [
       10989
