@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-11T03:18:12.041277Z",
+  "last_updated": "2026-02-12T03:16:01.180725Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11110,6 +11110,38 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "11028": {
+      "number": "11028",
+      "title": "Add `DecodeWithMemTracking` derive to `CompactProof`",
+      "author": "snowmead",
+      "merged_at": "2026-02-10T19:14:44Z",
+      "labels": [
+        "T17-primitives",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11028",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11039": {
+      "number": "11039",
+      "title": "[stable2503] Backport #11028",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-11T14:35:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11039",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11028
     },
     "10803": {
       "number": "10803",
@@ -30585,6 +30617,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "10810": {
+      "number": "10810",
+      "title": "[stable2512] Backport #10502",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-01-20T10:07:12Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10810",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10502
+    },
+    "11050": {
+      "number": "11050",
+      "title": "staking-aync: remove stale prune_era_total_stake",
+      "author": "sigurpol",
+      "merged_at": "2026-02-11T18:45:37Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11050",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10810
+    },
     "11031": {
       "number": "11031",
       "title": "xcm-emulator: advance relay block number by relay_blocks_per_para_block",
@@ -31075,20 +31135,6 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
-    },
-    "10810": {
-      "number": "10810",
-      "title": "[stable2512] Backport #10502",
-      "author": "paritytech-release-backport-bot[bot]",
-      "merged_at": "2026-01-20T10:07:12Z",
-      "labels": [
-        "A3-backport"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10810",
-      "branch": "stable2512",
-      "is_direct": true,
-      "is_backport": true,
-      "original_pr": 10502
     },
     "10792": {
       "number": "10792",
@@ -55324,6 +55370,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "11039": 11028,
     "10852": 10803,
     "10605": 10551,
     "10506": 10455,
@@ -55595,6 +55642,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11050": 10810,
     "11036": 11031,
     "10989": 10986,
     "10988": 10957,
@@ -56377,6 +56425,9 @@
     "6304": [
       6470
     ],
+    "11028": [
+      11039
+    ],
     "10803": [
       10852,
       10853,
@@ -56948,6 +56999,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10810": [
+      11050
     ],
     "11031": [
       11036
