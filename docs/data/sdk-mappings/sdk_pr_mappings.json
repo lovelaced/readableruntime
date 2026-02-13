@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T03:16:01.180725Z",
+  "last_updated": "2026-02-13T03:20:09.516547Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21413,6 +21413,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "11040": {
+      "number": "11040",
+      "title": "[stable2506] Backport #11028",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-12T08:05:38Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11040",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11028
+    },
     "10853": {
       "number": "10853",
       "title": "[stable2506] Backport #10803",
@@ -25848,6 +25863,33 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11060": {
+      "number": "11060",
+      "title": "[stable2509] Post crates release activities for stable2509-5",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-02-12T16:08:27Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11060",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "11041": {
+      "number": "11041",
+      "title": "[stable2509] Backport #11028",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-12T08:05:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11041",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11028
     },
     "10854": {
       "number": "10854",
@@ -30617,6 +30659,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "11055": {
+      "number": "11055",
+      "title": "staking-async/ah-client: emit event when session key update from AssettHub fails on relay chain",
+      "author": "sigurpol",
+      "merged_at": "2026-02-12T14:37:07Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11055",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11057": {
+      "number": "11057",
+      "title": "[stable2512] Backport #11055",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-12T16:26:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11057",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11055
+    },
     "10810": {
       "number": "10810",
       "title": "[stable2512] Backport #10502",
@@ -30644,6 +30715,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10810
+    },
+    "11042": {
+      "number": "11042",
+      "title": "[stable2512] Backport #11028",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-12T08:44:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11042",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11028
     },
     "11031": {
       "number": "11031",
@@ -55491,6 +55576,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11040": 11028,
     "10853": 10803,
     "10624": 10592,
     "10606": 10551,
@@ -55569,6 +55655,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11041": 11028,
     "10854": 10803,
     "10840": 10802,
     "10776": 10530,
@@ -55642,7 +55729,9 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11057": 11055,
     "11050": 10810,
+    "11042": 11028,
     "11036": 11031,
     "10989": 10986,
     "10988": 10957,
@@ -56426,7 +56515,10 @@
       6470
     ],
     "11028": [
-      11039
+      11039,
+      11040,
+      11041,
+      11042
     ],
     "10803": [
       10852,
@@ -56999,6 +57091,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "11055": [
+      11057
     ],
     "10810": [
       11050
