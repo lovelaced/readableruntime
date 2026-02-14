@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T03:20:09.516547Z",
+  "last_updated": "2026-02-14T03:13:22.229253Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -35286,6 +35286,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "11058": {
+      "number": "11058",
+      "title": "[stable2603] Backport #11055",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-13T15:27:09Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11058",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11055
+    },
     "11020": {
       "number": "11020",
       "title": "Block Response Handler: Take protocol overhead better into account",
@@ -55790,6 +55805,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11058": 11055,
     "10983": 10646,
     "10951": 10950,
     "10839": 10802,
@@ -57093,7 +57109,8 @@
       9654
     ],
     "11055": [
-      11057
+      11057,
+      11058
     ],
     "10810": [
       11050
