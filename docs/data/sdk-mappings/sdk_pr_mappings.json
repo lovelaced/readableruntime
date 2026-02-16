@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T03:16:50.656686Z",
+  "last_updated": "2026-02-16T18:16:02.151124Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -128,6 +128,12 @@
       "new_prs": 0
     },
     "v2.0.6": {
+      "sdk_version": "unstable2507",
+      "release_date": "2026-02-04T16:51:20Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v2.0.7": {
       "sdk_version": "unstable2507",
       "release_date": "2026-02-04T16:51:20Z",
       "total_prs": 0,
@@ -30659,6 +30665,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "10709": {
+      "number": "10709",
+      "title": "Introduce a \"jemalloc-shim\" crate",
+      "author": "bkchr",
+      "merged_at": "2026-01-08T22:02:37Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10709",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11077": {
+      "number": "11077",
+      "title": "[stable2512] Backport #10709",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T10:07:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11077",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10709
+    },
+    "11069": {
+      "number": "11069",
+      "title": "frame-omni-bencher: enable  jemalloc-allocator",
+      "author": "sigurpol",
+      "merged_at": "2026-02-16T00:11:00Z",
+      "labels": [
+        "T12-benchmarks",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11069",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11073": {
+      "number": "11073",
+      "title": "[stable2512] Backport #11069",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T13:52:53Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11073",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11069
+    },
     "11055": {
       "number": "11055",
       "title": "staking-async/ah-client: emit event when session key update from AssettHub fails on relay chain",
@@ -30715,6 +30778,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10810
+    },
+    "10955": {
+      "number": "10955",
+      "title": "Snowbridge: Remove unused proof fields",
+      "author": "yrong",
+      "merged_at": "2026-02-11T10:06:49Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10955",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11043": {
+      "number": "11043",
+      "title": "[stable2512] Backport #10955",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T09:16:54Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11043",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10955
     },
     "11042": {
       "number": "11042",
@@ -31192,6 +31283,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10803
+    },
+    "10808": {
+      "number": "10808",
+      "title": "Update retester CI to check expectations",
+      "author": "0xOmarA",
+      "merged_at": "2026-01-20T12:31:55Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10808",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10845": {
+      "number": "10845",
+      "title": "[stable2512] Backport #10808",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T14:43:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10845",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10808
     },
     "10837": {
       "number": "10837",
@@ -35286,6 +35405,48 @@
       "is_direct": false,
       "from_master": true
     },
+    "11074": {
+      "number": "11074",
+      "title": "[stable2603] Backport #11069",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T08:16:32Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11074",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11069
+    },
+    "10917": {
+      "number": "10917",
+      "title": "Implement persistent reputation database for collator protocol (#7751)",
+      "author": "AlexandruCihodaru",
+      "merged_at": "2026-02-13T11:42:32Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10917",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11067": {
+      "number": "11067",
+      "title": "[stable2603] Backport #10917",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T09:46:37Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11067",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10917
+    },
     "11058": {
       "number": "11058",
       "title": "[stable2603] Backport #11055",
@@ -35799,20 +35960,6 @@
       "is_direct": false,
       "from_master": true
     },
-    "10808": {
-      "number": "10808",
-      "title": "Update retester CI to check expectations",
-      "author": "0xOmarA",
-      "merged_at": "2026-01-20T12:31:55Z",
-      "labels": [
-        "T7-smart_contracts",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10808",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
     "10807": {
       "number": "10807",
       "title": "Omni-node: Move timestamps closer to now",
@@ -36177,19 +36324,6 @@
         "T18-zombienet_tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10710",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10709": {
-      "number": "10709",
-      "title": "Introduce a \"jemalloc-shim\" crate",
-      "author": "bkchr",
-      "merged_at": "2026-01-08T22:02:37Z",
-      "labels": [
-        "T8-polkadot"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10709",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -55744,8 +55878,11 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11077": 10709,
+    "11073": 11069,
     "11057": 11055,
     "11050": 10810,
+    "11043": 10955,
     "11042": 11028,
     "11036": 11031,
     "10989": 10986,
@@ -55763,6 +55900,7 @@
     "10865": 10859,
     "10857": 10312,
     "10855": 10803,
+    "10845": 10808,
     "10837": 10802,
     "10810": 10502,
     "10809": 10792,
@@ -55805,6 +55943,8 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11074": 11069,
+    "11067": 10917,
     "11058": 11055,
     "10983": 10646,
     "10951": 10950,
@@ -57108,12 +57248,22 @@
       9655,
       9654
     ],
+    "10709": [
+      11077
+    ],
+    "11069": [
+      11073,
+      11074
+    ],
     "11055": [
       11057,
       11058
     ],
     "10810": [
       11050
+    ],
+    "10955": [
+      11043
     ],
     "11031": [
       11036
@@ -57159,6 +57309,9 @@
     ],
     "10312": [
       10857
+    ],
+    "10808": [
+      10845
     ],
     "10502": [
       10810
@@ -57240,6 +57393,9 @@
     ],
     "9685": [
       10374
+    ],
+    "10917": [
+      11067
     ],
     "10950": [
       10951

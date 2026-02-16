@@ -1,0 +1,35 @@
+{
+  "newer_release": {
+    "tag_name": "v2.0.7",
+    "created_at": "2026-02-16T10:58:24Z",
+    "name": "Runtimes 2.0.7",
+    "body": "# Changelog\r\n\r\nChangelog for the runtimes governed by the Polkadot Fellowship.\r\n\r\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\r\n\r\n## [2.0.7] 16.02.2026\r\n\r\n### Added\r\n\r\n- Add hyperbridge to parachains header root ([#1073](https://github.com/polkadot-fellows/runtimes/pull/1073))\r\n\r\n# Runtime info\r\n*These runtimes were built with **rustc 1.88.0 (6b00bc388 2025-06-23)** using **[srtool v0.18.3](https://github.com/paritytech/srtool)***\r\n\r\nTo replicate the build, use the following command:\r\n```sh\r\nsrtool build\r\n       --root --profile production\r\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\r\n       --build-opts=\"\"\r\n```\r\n\r\n## Polkadot\r\n~~~\r\n\ud83c\udfcb\ufe0f Runtime Size:           1.70Mi (1779324 bytes)\r\n\ud83d\udddc Compressed:             Yes: 80.63%\r\n\ud83d\udd25 Core Version:           polkadot-2000007 parity-polkadot-0.tx26.au0\r\n\ud83c\udf81 Metadata version:       V14\r\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x382ec39407f38d8c01837b247c695522d5992f05dcc98a2616e8fa090f4918b8\r\n\ud83d\udce6 IPFS:                   QmeurnT5gmB5qqwUGPTuuiD7ymuu4SahxN7mdDDoGm7fMX\r\n~~~\r\n\r\n",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.0.6",
+    "created_at": "2026-02-04T19:36:40Z",
+    "name": "Runtimes 2.0.6",
+    "sdk_version": "polkadot-primitives-v20.0.0"
+  },
+  "pr_count": 1,
+  "ai_analysis": "# Polkadot Fellows Runtimes v2.0.7 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n### Main Improvements\nThis release contains a critical fix for the Hyperbridge cross-chain bridge system. Hyperbridge is a service that connects Polkadot to other blockchain networks, allowing users to move assets and data between different blockchains.\n\n### What Happened\nHyperbridge recently changed from being a full \"parachain\" (a permanent blockchain connected to Polkadot) to a \"parathread\" (a temporary, on-demand connection). This change broke the bridge's ability to verify transactions because the system was no longer automatically including Hyperbridge's data in security proofs.\n\n### Benefits Users Will See\n- **Restored Cross-Chain Functionality**: Users can continue using Hyperbridge to move assets between Polkadot and other blockchains\n- **Prevented Permanent Bridge Failure**: Without this fix, the bridge would have become permanently frozen within 21 days\n- **Maintained Network Connectivity**: The connection between Polkadot and other blockchain networks through Hyperbridge remains active\n\n### Actions Required\n**No action needed from users.** This is an infrastructure fix that works automatically in the background.\n\n## 2. Key Changes Explained\n\n### Critical Bug Fix\n- **Issue**: Hyperbridge's transition from parachain to parathread removed it from automatic security verification\n- **Solution**: Manually added Hyperbridge to a \"whitelist\" so it continues to be included in security proofs\n- **Impact**: Prevents permanent freezing of the cross-chain bridge\n\n### No Breaking Changes\nThis release contains no breaking changes - existing functionality continues to work as expected.\n\n### No New User-Facing Features\nThis is purely a maintenance fix to keep existing services working.\n\n## 3. Technical Summary for Developers\n\n### Major Changes\n- **BEEFY Protocol Update**: Modified the BEEFY (Bridge Efficiency Enabling Finality Yielder) data provider to include whitelisted parathreads\n- **New Constant**: Added `BEEFY_WHITELISTED_PARATHREADS` containing Hyperbridge's ParaId (3367)\n- **Data Structure Change**: Switched from `Vec` to `BTreeMap` for automatic sorting of parachain heads\n\n### API/Interface Changes\n- Modified `ParaHeadsRootProvider::extra_data()` method in `relay/polkadot/src/lib.rs`\n- No public API changes affecting external developers\n\n### Migration Requirements\n**None** - This is a runtime update that takes effect automatically upon deployment.\n\n### Technical Improvements\n- **Enhanced Merkle Tree Construction**: Parathread data is now properly included in the Merkle root calculation\n- **Better Data Handling**: Improved sorting and deduplication logic for parachain/parathread heads\n- **Future-Proofing**: Established a pattern for whitelisting additional parathreads if needed\n\n## 4. Code Impact Analysis\n\n### Most Affected Components\n- **Primary**: Polkadot relay chain runtime (`relay/polkadot/src/lib.rs`)\n- **Specific Function**: BEEFY data provider for parachain head roots\n- **Protocol**: BEEFY consensus mechanism for cross-chain verification\n\n### Types of Changes\n- **Critical Bug Fix**: 95% of the change\n- **Code Refactoring**: 5% (improved data structure usage)\n\n### Change Characteristics\n- **Minimal Code Impact**: Only 1 file changed with 11 additions and 4 deletions\n- **High Business Impact**: Prevents permanent bridge failure\n- **Time-Critical**: Had to be implemented within 21 days to prevent irreversible damage\n- **Conservative Approach**: Minimal changes to reduce risk while solving the immediate problem\n\nThis release represents a focused, emergency fix that addresses a critical infrastructure issue with minimal code changes, ensuring the continued operation of cross-chain bridge functionality.",
+  "pr_details": [
+    {
+      "number": 1073,
+      "title": "Add hyperbridge to parachains header root ",
+      "author": "Wizdave97",
+      "merged_at": "2026-02-16T10:56:59Z",
+      "body": "This PR manually adds hyperbridge to the parachains header root for the following reason.\r\n\r\nHyperbridge transitioned to a para thread recently since our lease period expired and our beefy consensus client on connected networks relies on Hyperbridge being part of the parachain heads root. The client can no longer be updated until this is fixed and it expires in 21 days after which it can no longer be updated permanently freezing the bridge.\r\n\r\nYou can find a Link to the thread on element chat here https://matrix.to/#/!bMWYTUFeSoYacMOlpS:matrix.parity.io/$heRddjL-qs_cRcJVjl-la19NibMYOQK5pvtGHnjVRmU?via=parity.io&via=matrix.org&via=matrix.parity.io\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 11,
+      "deletions": 4,
+      "file_list": [
+        "relay/polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 18
+    }
+  ]
+}
