@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T18:16:02.151124Z",
+  "last_updated": "2026-02-17T03:14:16.302468Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30849,6 +30849,33 @@
       "is_backport": true,
       "original_pr": 11031
     },
+    "10771": {
+      "number": "10771",
+      "title": "Snowbridge: Describe the token location with the length field included to avoid collisions",
+      "author": "yrong",
+      "merged_at": "2026-02-09T12:28:41Z",
+      "labels": [
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10771",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11021": {
+      "number": "11021",
+      "title": "[stable2512] Backport #10771",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-16T18:26:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11021",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10771
+    },
     "11002": {
       "number": "11002",
       "title": "[stable2512] Post crates release activities for stable2512-2",
@@ -36076,19 +36103,6 @@
         "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10779",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10771": {
-      "number": "10771",
-      "title": "Snowbridge: Describe the token location with the length field included to avoid collisions",
-      "author": "yrong",
-      "merged_at": "2026-02-09T12:28:41Z",
-      "labels": [
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10771",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -55885,6 +55899,7 @@
     "11043": 10955,
     "11042": 11028,
     "11036": 11031,
+    "11021": 10771,
     "10989": 10986,
     "10988": 10957,
     "10985": 10980,
@@ -57267,6 +57282,9 @@
     ],
     "11031": [
       11036
+    ],
+    "10771": [
+      11021
     ],
     "10986": [
       10989
