@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T03:14:16.302468Z",
+  "last_updated": "2026-02-18T03:16:04.094913Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11116,6 +11116,18 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "11089": {
+      "number": "11089",
+      "title": "chore: refactor",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-17T13:57:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11089",
+      "branch": "stable2503",
+      "is_direct": true
     },
     "11028": {
       "number": "11028",
@@ -30664,6 +30676,28 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "11088": {
+      "number": "11088",
+      "title": "[stable2512] Post crates release activities for stable2512-2",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-02-17T13:45:20Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11088",
+      "branch": "stable2512",
+      "is_direct": true
+    },
+    "11087": {
+      "number": "11087",
+      "title": "chore: refactor",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-17T13:20:15Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11087",
+      "branch": "stable2512",
+      "is_direct": true
     },
     "10709": {
       "number": "10709",
