@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T03:16:04.094913Z",
+  "last_updated": "2026-02-19T03:14:21.835546Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21431,6 +21431,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11103": {
+      "number": "11103",
+      "title": "chore: refactor",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-18T15:43:02Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11103",
+      "branch": "stable2506",
+      "is_direct": true
+    },
     "11040": {
       "number": "11040",
       "title": "[stable2506] Backport #11028",
@@ -25881,6 +25893,18 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11104": {
+      "number": "11104",
+      "title": "chore: refactor",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-18T15:53:46Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11104",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "11060": {
       "number": "11060",
