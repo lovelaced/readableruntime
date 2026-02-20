@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-19T03:14:21.835546Z",
+  "last_updated": "2026-02-20T03:15:12.663670Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30701,6 +30701,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11113": {
+      "number": "11113",
+      "title": "[stable2512] Post crates release activities for stable2512-2",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-02-19T22:31:44Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11113",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "11088": {
       "number": "11088",
       "title": "[stable2512] Post crates release activities for stable2512-2",
@@ -35489,6 +35501,35 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11114": {
+      "number": "11114",
+      "title": "Force the linker not to drop jemalloc shim on Linux",
+      "author": "sigurpol",
+      "merged_at": "2026-02-19T15:46:45Z",
+      "labels": [
+        "T12-benchmarks",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11114",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11119": {
+      "number": "11119",
+      "title": "[stable2603] Backport #11114",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-19T16:33:38Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11119",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11114
     },
     "11074": {
       "number": "11074",
@@ -56016,6 +56057,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11119": 11114,
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
@@ -57469,6 +57511,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11114": [
+      11119
     ],
     "10917": [
       11067
