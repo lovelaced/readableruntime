@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-20T03:15:12.663670Z",
+  "last_updated": "2026-02-21T03:06:44.500272Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11117,6 +11117,40 @@
       "is_direct": false,
       "from_master": true
     },
+    "11116": {
+      "number": "11116",
+      "title": "[Release|CI/CD] Replace direct use of inputs with ENVs",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-19T16:23:25Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11116",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11120": {
+      "number": "11120",
+      "title": "[stable2503] Backport #11116",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T11:27:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11120",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11116
+    },
     "11089": {
       "number": "11089",
       "title": "chore: refactor",
@@ -21431,6 +21465,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "11121": {
+      "number": "11121",
+      "title": "[stable2506] Backport #11116",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T10:42:50Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11121",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11116
+    },
     "11103": {
       "number": "11103",
       "title": "chore: refactor",
@@ -25893,6 +25942,21 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11123": {
+      "number": "11123",
+      "title": "[stable2509] Backport #11116",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T11:31:22Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11123",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11116
     },
     "11104": {
       "number": "11104",
@@ -30701,6 +30765,122 @@
       "is_direct": false,
       "from_master": true
     },
+    "11140": {
+      "number": "11140",
+      "title": "[stable2512] Post crates release activities for stable2512-2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-20T15:07:45Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11140",
+      "branch": "stable2512",
+      "is_direct": true
+    },
+    "11062": {
+      "number": "11062",
+      "title": "westend-coretime: Bump some max values",
+      "author": "bkchr",
+      "merged_at": "2026-02-15T23:45:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11062",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11132": {
+      "number": "11132",
+      "title": "[stable2512] Backport #11062",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T12:11:24Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11132",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11062
+    },
+    "11056": {
+      "number": "11056",
+      "title": "Improve crates publishing flow",
+      "author": "BDevParity",
+      "merged_at": "2026-02-18T13:36:06Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11056",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11126": {
+      "number": "11126",
+      "title": "[stable2512] Backport #11056",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T09:21:24Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11126",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11056
+    },
+    "11124": {
+      "number": "11124",
+      "title": "[stable2512] Backport #11116",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T10:22:58Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11124",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11116
+    },
+    "11114": {
+      "number": "11114",
+      "title": "Force the linker not to drop jemalloc shim on Linux",
+      "author": "sigurpol",
+      "merged_at": "2026-02-19T15:46:45Z",
+      "labels": [
+        "T12-benchmarks",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11114",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11118": {
+      "number": "11118",
+      "title": "[stable2512] Backport #11114",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T07:38:05Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11118",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11114
+    },
     "11113": {
       "number": "11113",
       "title": "[stable2512] Post crates release activities for stable2512-2",
@@ -35502,20 +35682,48 @@
       "is_direct": false,
       "from_master": true
     },
-    "11114": {
-      "number": "11114",
-      "title": "Force the linker not to drop jemalloc shim on Linux",
-      "author": "sigurpol",
-      "merged_at": "2026-02-19T15:46:45Z",
+    "11115": {
+      "number": "11115",
+      "title": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength",
+      "author": "cirko33",
+      "merged_at": "2026-02-19T22:41:01Z",
       "labels": [
-        "T12-benchmarks",
-        "A4-backport-stable2512",
+        "T2-pallets",
         "A4-backport-stable2603"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11114",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11115",
       "branch": "master",
       "is_direct": false,
       "from_master": true
+    },
+    "11130": {
+      "number": "11130",
+      "title": "[stable2603] Backport #11115",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T07:42:44Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11130",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11115
+    },
+    "11127": {
+      "number": "11127",
+      "title": "[stable2603] Backport #11056",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-20T10:26:22Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11127",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11056
     },
     "11119": {
       "number": "11119",
@@ -55717,6 +55925,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "11120": 11116,
     "11039": 11028,
     "10852": 10803,
     "10605": 10551,
@@ -55838,6 +56047,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11121": 11116,
     "11040": 11028,
     "10853": 10803,
     "10624": 10592,
@@ -55917,6 +56127,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11123": 11116,
     "11041": 11028,
     "10854": 10803,
     "10840": 10802,
@@ -55991,6 +56202,10 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11132": 11062,
+    "11126": 11056,
+    "11124": 11116,
+    "11118": 11114,
     "11077": 10709,
     "11073": 11069,
     "11057": 11055,
@@ -56057,6 +56272,8 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11130": 11115,
+    "11127": 11056,
     "11119": 11114,
     "11074": 11069,
     "11067": 10917,
@@ -56785,6 +57002,12 @@
     "6304": [
       6470
     ],
+    "11116": [
+      11120,
+      11121,
+      11123,
+      11124
+    ],
     "11028": [
       11039,
       11040,
@@ -57363,6 +57586,17 @@
       9655,
       9654
     ],
+    "11062": [
+      11132
+    ],
+    "11056": [
+      11126,
+      11127
+    ],
+    "11114": [
+      11118,
+      11119
+    ],
     "10709": [
       11077
     ],
@@ -57512,8 +57746,8 @@
     "9685": [
       10374
     ],
-    "11114": [
-      11119
+    "11115": [
+      11130
     ],
     "10917": [
       11067
