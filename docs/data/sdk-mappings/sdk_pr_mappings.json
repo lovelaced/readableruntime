@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T03:18:39.728006Z",
+  "last_updated": "2026-02-24T03:13:21.645168Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -40,8 +40,8 @@
     "v1.6.0": {
       "sdk_version": "stable2503-6",
       "release_date": "2025-06-05T16:38:10Z",
-      "total_prs": 727,
-      "new_prs": 727
+      "total_prs": 726,
+      "new_prs": 726
     },
     "v1.6.1": {
       "sdk_version": "stable2503-7-rc2",
@@ -16089,21 +16089,6 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/7579",
-      "branch": "stable2503-broken",
-      "is_direct": false,
-      "from_master": true
-    },
-    "7576": {
-      "number": "7576",
-      "title": "integration tests: add more emulated bridge tests",
-      "author": "acatangiu",
-      "merged_at": "2025-02-17T17:43:05Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "T10-tests",
-        "T15-bridges"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/7576",
       "branch": "stable2503-broken",
       "is_direct": false,
       "from_master": true
@@ -35682,6 +35667,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "11117": {
+      "number": "11117",
+      "title": "statement-store: do not populate recent on restart",
+      "author": "alexggh",
+      "merged_at": "2026-02-23T09:18:24Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11117",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11148": {
+      "number": "11148",
+      "title": "[stable2603] Backport #11117",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-23T13:11:32Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11148",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11117
+    },
     "11115": {
       "number": "11115",
       "title": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength",
@@ -49190,15 +49203,6 @@
         "from_master": true
       }
     ],
-    "7576": [
-      {
-        "runtime_version": "1.6.0",
-        "sdk_version": "stable2503-6",
-        "sdk_branch": "stable2503",
-        "source_branch": "stable2503",
-        "from_master": true
-      }
-    ],
     "7579": [
       {
         "runtime_version": "1.6.0",
@@ -56272,6 +56276,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11148": 11117,
     "11130": 11115,
     "11127": 11056,
     "11119": 11114,
@@ -57745,6 +57750,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11117": [
+      11148
     ],
     "11115": [
       11130
