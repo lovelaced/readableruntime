@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T03:13:21.645168Z",
+  "last_updated": "2026-02-25T03:17:27.795884Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -40,8 +40,8 @@
     "v1.6.0": {
       "sdk_version": "stable2503-6",
       "release_date": "2025-06-05T16:38:10Z",
-      "total_prs": 726,
-      "new_prs": 726
+      "total_prs": 727,
+      "new_prs": 727
     },
     "v1.6.1": {
       "sdk_version": "stable2503-7-rc2",
@@ -16093,6 +16093,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "7576": {
+      "number": "7576",
+      "title": "integration tests: add more emulated bridge tests",
+      "author": "acatangiu",
+      "merged_at": "2025-02-17T17:43:05Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T15-bridges"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7576",
+      "branch": "stable2503-broken",
+      "is_direct": false,
+      "from_master": true
+    },
     "7571": {
       "number": "7571",
       "title": "frame-benchmarking: Improve macro hygiene",
@@ -30750,6 +30765,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "9925": {
+      "number": "9925",
+      "title": "Staking-Async + EPMB: Migrate operations to `poll`",
+      "author": "kianenigma",
+      "merged_at": "2025-12-01T20:54:00Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9925",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11156": {
+      "number": "11156",
+      "title": "election-provider-multi-block: reduce overclaimed proof_size during Signed phase",
+      "author": "sigurpol",
+      "merged_at": "2026-02-24T16:06:33Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11156",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9925
+    },
     "11140": {
       "number": "11140",
       "title": "[stable2512] Post crates release activities for stable2512-2",
@@ -37841,22 +37886,6 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9947",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
-    "9925": {
-      "number": "9925",
-      "title": "Staking-Async + EPMB: Migrate operations to `poll`",
-      "author": "kianenigma",
-      "merged_at": "2025-12-01T20:54:00Z",
-      "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/9925",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -49203,6 +49232,15 @@
         "from_master": true
       }
     ],
+    "7576": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "from_master": true
+      }
+    ],
     "7579": [
       {
         "runtime_version": "1.6.0",
@@ -56206,6 +56244,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11156": 9925,
     "11132": 11062,
     "11126": 11056,
     "11124": 11116,
@@ -57590,6 +57629,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "9925": [
+      11156
     ],
     "11062": [
       11132
