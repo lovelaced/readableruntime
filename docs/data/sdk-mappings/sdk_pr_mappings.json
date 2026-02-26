@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-25T03:17:27.795884Z",
+  "last_updated": "2026-02-26T03:15:11.638851Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30765,6 +30765,47 @@
       "is_direct": false,
       "from_master": true
     },
+    "11181": {
+      "number": "11181",
+      "title": "[stable2512] Release crates from #11168  and #11156",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-25T16:28:17Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11181",
+      "branch": "stable2512",
+      "is_direct": true
+    },
+    "11168": {
+      "number": "11168",
+      "title": "Add MinSetKeysBond check in rc_client::set_keys",
+      "author": "sigurpol",
+      "merged_at": "2026-02-25T11:37:09Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11168",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11173": {
+      "number": "11173",
+      "title": "[stable2512] Backport #11168",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-25T14:31:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11173",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11168
+    },
     "9925": {
       "number": "9925",
       "title": "Staking-Async + EPMB: Migrate operations to `poll`",
@@ -32602,6 +32643,18 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10351
+    },
+    "11163": {
+      "number": "11163",
+      "title": "Version bumps stable2512-2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-25T07:42:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11163",
+      "branch": "stable2512",
+      "is_direct": true
     },
     "10705": {
       "number": "10705",
@@ -35711,6 +35764,104 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11174": {
+      "number": "11174",
+      "title": "[stable2603] Backport #11168",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-25T15:09:45Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11174",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11168
+    },
+    "11139": {
+      "number": "11139",
+      "title": "make subscription return statement event  instead of bytes",
+      "author": "alexggh",
+      "merged_at": "2026-02-24T13:01:57Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11139",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11166": {
+      "number": "11166",
+      "title": "[stable2603] Backport #11139",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-25T12:37:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11166",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11139
+    },
+    "11046": {
+      "number": "11046",
+      "title": "Collator protocol revamp: Change collation hold-off timing to start at leaf activation",
+      "author": "mchristou",
+      "merged_at": "2026-02-24T15:20:30Z",
+      "labels": [
+        "I9-optimisation",
+        "T8-polkadot",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11046",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11162": {
+      "number": "11162",
+      "title": "[stable2603] Backport #11046",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-25T13:10:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11162",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11046
+    },
+    "10982": {
+      "number": "10982",
+      "title": "Meta Transactions - Benchmarking update",
+      "author": "cirko33",
+      "merged_at": "2026-02-24T13:58:14Z",
+      "labels": [
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10982",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11159": {
+      "number": "11159",
+      "title": "[stable2603] Backport #10982",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-25T09:59:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11159",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10982
     },
     "11117": {
       "number": "11117",
@@ -56244,6 +56395,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11173": 11168,
     "11156": 9925,
     "11132": 11062,
     "11126": 11056,
@@ -56315,6 +56467,10 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11174": 11168,
+    "11166": 11139,
+    "11162": 11046,
+    "11159": 10982,
     "11148": 11117,
     "11130": 11115,
     "11127": 11056,
@@ -57630,6 +57786,10 @@
       9655,
       9654
     ],
+    "11168": [
+      11173,
+      11174
+    ],
     "9925": [
       11156
     ],
@@ -57792,6 +57952,15 @@
     ],
     "9685": [
       10374
+    ],
+    "11139": [
+      11166
+    ],
+    "11046": [
+      11162
+    ],
+    "10982": [
+      11159
     ],
     "11117": [
       11148
