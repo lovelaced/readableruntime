@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T03:15:11.638851Z",
+  "last_updated": "2026-02-27T03:15:12.011878Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11116,6 +11116,18 @@
       "branch": "stable2412-litep2p",
       "is_direct": false,
       "from_master": true
+    },
+    "11192": {
+      "number": "11192",
+      "title": "[stable2503] Post crates release stable2503-15",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-26T16:01:06Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11192",
+      "branch": "stable2503",
+      "is_direct": true
     },
     "11116": {
       "number": "11116",
@@ -35765,6 +35777,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "11172": {
+      "number": "11172",
+      "title": "Fix statement allowance storage key",
+      "author": "s0me0ne-unkn0wn",
+      "merged_at": "2026-02-25T13:06:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11172",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11175": {
+      "number": "11175",
+      "title": "[stable2603] Backport #11172",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-26T09:06:33Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11175",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11172
+    },
     "11174": {
       "number": "11174",
       "title": "[stable2603] Backport #11168",
@@ -47898,15 +47940,6 @@
         "from_master": true
       }
     ],
-    "7096": [
-      {
-        "runtime_version": "1.6.0",
-        "sdk_version": "stable2503-6",
-        "sdk_branch": "stable2503",
-        "source_branch": "stable2503",
-        "from_master": true
-      }
-    ],
     "7098": [
       {
         "runtime_version": "1.6.0",
@@ -47917,6 +47950,15 @@
       }
     ],
     "7099": [
+      {
+        "runtime_version": "1.6.0",
+        "sdk_version": "stable2503-6",
+        "sdk_branch": "stable2503",
+        "source_branch": "stable2503",
+        "from_master": true
+      }
+    ],
+    "7096": [
       {
         "runtime_version": "1.6.0",
         "sdk_version": "stable2503-6",
@@ -56467,6 +56509,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11175": 11172,
     "11174": 11168,
     "11166": 11139,
     "11162": 11046,
@@ -57952,6 +57995,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11172": [
+      11175
     ],
     "11139": [
       11166
