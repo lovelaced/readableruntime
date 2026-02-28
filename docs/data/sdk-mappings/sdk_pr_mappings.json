@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-27T03:15:12.011878Z",
+  "last_updated": "2026-02-28T03:02:12.533142Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30848,6 +30848,34 @@
       "is_backport": true,
       "original_pr": 9925
     },
+    "11078": {
+      "number": "11078",
+      "title": "net: Strip previous p2p prefix before concatenating addresses",
+      "author": "lexnv",
+      "merged_at": "2026-02-22T20:37:00Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11078",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11145": {
+      "number": "11145",
+      "title": "[stable2512] Backport #11078",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-27T11:54:28Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11145",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11078
+    },
     "11140": {
       "number": "11140",
       "title": "[stable2512] Post crates release activities for stable2512-2",
@@ -35777,6 +35805,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "11008": {
+      "number": "11008",
+      "title": "Collator protocol revamp - update `calculate_delay`",
+      "author": "tdimitrov",
+      "merged_at": "2026-02-27T10:03:27Z",
+      "labels": [
+        "T0-node",
+        "T8-polkadot",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11008",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11201": {
+      "number": "11201",
+      "title": "[stable2603] Backport #11008",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-27T14:09:44Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11201",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11008
+    },
     "11172": {
       "number": "11172",
       "title": "Fix statement allowance storage key",
@@ -35933,6 +35990,21 @@
       "is_backport": true,
       "original_pr": 11117
     },
+    "11133": {
+      "number": "11133",
+      "title": "[stable2603] Backport #11062",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-27T15:05:30Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11133",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11062
+    },
     "11115": {
       "number": "11115",
       "title": "Remove MaxSessionKeysLength and MaxSessionKeysProofLength",
@@ -35975,6 +36047,21 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11056
+    },
+    "11125": {
+      "number": "11125",
+      "title": "[stable2603] Backport #11116",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-27T07:04:48Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11125",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11116
     },
     "11119": {
       "number": "11119",
@@ -56439,6 +56526,7 @@
     "9653": 9641,
     "11173": 11168,
     "11156": 9925,
+    "11145": 11078,
     "11132": 11062,
     "11126": 11056,
     "11124": 11116,
@@ -56509,14 +56597,17 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11201": 11008,
     "11175": 11172,
     "11174": 11168,
     "11166": 11139,
     "11162": 11046,
     "11159": 10982,
     "11148": 11117,
+    "11133": 11062,
     "11130": 11115,
     "11127": 11056,
+    "11125": 11116,
     "11119": 11114,
     "11074": 11069,
     "11067": 10917,
@@ -57249,7 +57340,8 @@
       11120,
       11121,
       11123,
-      11124
+      11124,
+      11125
     ],
     "11028": [
       11039,
@@ -57836,8 +57928,12 @@
     "9925": [
       11156
     ],
+    "11078": [
+      11145
+    ],
     "11062": [
-      11132
+      11132,
+      11133
     ],
     "11056": [
       11126,
@@ -57995,6 +58091,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11008": [
+      11201
     ],
     "11172": [
       11175
