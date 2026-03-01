@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T03:02:12.533142Z",
+  "last_updated": "2026-03-01T03:20:00.900321Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30777,6 +30777,47 @@
       "is_direct": false,
       "from_master": true
     },
+    "11213": {
+      "number": "11213",
+      "title": "[stable2512] Release pallet-sessions crate",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-02-28T15:23:11Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11213",
+      "branch": "stable2512",
+      "is_direct": true
+    },
+    "11197": {
+      "number": "11197",
+      "title": "pallet-session: track consumer refs and release deposits for externally set keys",
+      "author": "sigurpol",
+      "merged_at": "2026-02-27T20:57:44Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11197",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11209": {
+      "number": "11209",
+      "title": "[stable2512] Backport #11197",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-28T12:21:00Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11209",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11197
+    },
     "11181": {
       "number": "11181",
       "title": "[stable2512] Release crates from #11168  and #11156",
@@ -35804,6 +35845,20 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11210": {
+      "number": "11210",
+      "title": "[stable2603] Backport #11197",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-02-28T13:21:17Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11210",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11197
     },
     "11008": {
       "number": "11008",
@@ -56524,6 +56579,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11209": 11197,
     "11173": 11168,
     "11156": 9925,
     "11145": 11078,
@@ -56597,6 +56653,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11210": 11197,
     "11201": 11008,
     "11175": 11172,
     "11174": 11168,
@@ -57920,6 +57977,10 @@
     "9632": [
       9655,
       9654
+    ],
+    "11197": [
+      11209,
+      11210
     ],
     "11168": [
       11173,
