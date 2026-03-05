@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T03:09:26.148589Z",
+  "last_updated": "2026-03-05T03:11:28.780080Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11117,6 +11117,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "10954": {
+      "number": "10954",
+      "title": "auth-discovery: Ensure DHT published addresses have ports",
+      "author": "lexnv",
+      "merged_at": "2026-02-03T22:36:00Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10954",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11248": {
+      "number": "11248",
+      "title": "[stable2503] Backport #10954",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-04T11:52:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11248",
+      "branch": "stable2503",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10954
+    },
     "11192": {
       "number": "11192",
       "title": "[stable2503] Post crates release stable2503-15",
@@ -21477,6 +21507,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "11249": {
+      "number": "11249",
+      "title": "[stable2506] Backport #10954",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-04T11:52:27Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11249",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10954
+    },
     "11121": {
       "number": "11121",
       "title": "[stable2506] Backport #11116",
@@ -25954,6 +25998,20 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11250": {
+      "number": "11250",
+      "title": "[stable2509] Backport #10954",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-04T11:52:03Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11250",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10954
     },
     "11123": {
       "number": "11123",
@@ -30777,6 +30835,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "1739": {
+      "number": "1739",
+      "title": "frame-session: Introduce a proper proof of key ownership",
+      "author": "bkchr",
+      "merged_at": "2025-12-19T15:51:50Z",
+      "labels": [
+        "T1-FRAME",
+        "T8-polkadot"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/1739",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11255": {
+      "number": "11255",
+      "title": "staking-async-rc-client: add proof parameter to set_keys ",
+      "author": "sigurpol",
+      "merged_at": "2026-03-04T14:09:20Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11255",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 1739
+    },
+    "11222": {
+      "number": "11222",
+      "title": "staking-async/rc-client: replace MinSetKeysBond with storage deposit",
+      "author": "sigurpol",
+      "merged_at": "2026-03-03T15:45:34Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11222",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11242": {
+      "number": "11242",
+      "title": "[stable2512] Backport #11222",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-04T06:09:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11242",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11222
+    },
     "11204": {
       "number": "11204",
       "title": "Upgrade litep2p v0.13.0 -> v0.13.2",
@@ -30786,7 +30901,8 @@
         "T0-node",
         "A4-backport-stable2506",
         "A4-backport-stable2509",
-        "A4-backport-stable2512"
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11204",
       "branch": "master",
@@ -35876,6 +35992,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "11261": {
+      "number": "11261",
+      "title": "[stable2603] Backport #11204",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-04T18:02:59Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11261",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11204
+    },
     "11210": {
       "number": "11210",
       "title": "[stable2603] Backport #11197",
@@ -36358,19 +36488,6 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10958",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10954": {
-      "number": "10954",
-      "title": "auth-discovery: Ensure DHT published addresses have ports",
-      "author": "lexnv",
-      "merged_at": "2026-02-03T22:36:00Z",
-      "labels": [
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10954",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38371,20 +38488,6 @@
         "T15-bridges"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8175",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
-    "1739": {
-      "number": "1739",
-      "title": "frame-session: Introduce a proper proof of key ownership",
-      "author": "bkchr",
-      "merged_at": "2025-12-19T15:51:50Z",
-      "labels": [
-        "T1-FRAME",
-        "T8-polkadot"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/1739",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -56332,6 +56435,7 @@
     "6478": 6323,
     "6473": 6323,
     "6470": 6304,
+    "11248": 10954,
     "11120": 11116,
     "11039": 11028,
     "10852": 10803,
@@ -56454,6 +56558,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11249": 10954,
     "11121": 11116,
     "11040": 11028,
     "10853": 10803,
@@ -56534,6 +56639,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11250": 10954,
     "11123": 11116,
     "11041": 11028,
     "10854": 10803,
@@ -56609,6 +56715,8 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11255": 1739,
+    "11242": 11222,
     "11230": 11204,
     "11209": 11197,
     "11173": 11168,
@@ -56684,6 +56792,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11261": 11204,
     "11210": 11197,
     "11201": 11008,
     "11175": 11172,
@@ -57424,6 +57533,11 @@
     "6304": [
       6470
     ],
+    "10954": [
+      11248,
+      11249,
+      11250
+    ],
     "11116": [
       11120,
       11121,
@@ -58009,8 +58123,15 @@
       9655,
       9654
     ],
+    "1739": [
+      11255
+    ],
+    "11222": [
+      11242
+    ],
     "11204": [
-      11230
+      11230,
+      11261
     ],
     "11197": [
       11209,
