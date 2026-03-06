@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T03:11:28.780080Z",
+  "last_updated": "2026-03-06T03:10:58.530972Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -30835,6 +30835,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "11154": {
+      "number": "11154",
+      "title": "Add kick_member to Society pallet",
+      "author": "laurogripa",
+      "merged_at": "2026-03-05T13:00:21Z",
+      "labels": [
+        "T1-FRAME",
+        "T2-pallets",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11154",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11280": {
+      "number": "11280",
+      "title": "[stable2512] Backport #11154",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-05T13:42:28Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11280",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11154
+    },
     "1739": {
       "number": "1739",
       "title": "frame-session: Introduce a proper proof of key ownership",
@@ -35992,6 +36022,48 @@
       "is_direct": false,
       "from_master": true
     },
+    "11281": {
+      "number": "11281",
+      "title": "[stable2603] Backport #11154",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-05T13:44:59Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11281",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11154
+    },
+    "11027": {
+      "number": "11027",
+      "title": "Add functions to control statement store per-account allowances",
+      "author": "s0me0ne-unkn0wn",
+      "merged_at": "2026-02-23T20:04:28Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11027",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11270": {
+      "number": "11270",
+      "title": "[stable2603] Backport #11027",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-05T20:46:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11270",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11027
+    },
     "11261": {
       "number": "11261",
       "title": "[stable2603] Backport #11204",
@@ -36005,6 +36077,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11204
+    },
+    "10976": {
+      "number": "10976",
+      "title": "statement-store: add prometheus metrics for observability",
+      "author": "DenzelPenzel",
+      "merged_at": "2026-02-19T15:11:21Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10976",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11238": {
+      "number": "11238",
+      "title": "[stable2603] Backport #10976",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-05T12:09:59Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11238",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10976
     },
     "11210": {
       "number": "11210",
@@ -36048,6 +36149,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11008
+    },
+    "10823": {
+      "number": "10823",
+      "title": "Enforce statement allowances",
+      "author": "s0me0ne-unkn0wn",
+      "merged_at": "2026-02-23T20:13:28Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10823",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11186": {
+      "number": "11186",
+      "title": "[stable2603] Backport #10823",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-05T12:49:04Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11186",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10823
     },
     "11172": {
       "number": "11172",
@@ -56715,6 +56844,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11280": 11154,
     "11255": 1739,
     "11242": 11222,
     "11230": 11204,
@@ -56792,9 +56922,13 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11281": 11154,
+    "11270": 11027,
     "11261": 11204,
+    "11238": 10976,
     "11210": 11197,
     "11201": 11008,
+    "11186": 10823,
     "11175": 11172,
     "11174": 11168,
     "11166": 11139,
@@ -58123,6 +58257,10 @@
       9655,
       9654
     ],
+    "11154": [
+      11280,
+      11281
+    ],
     "1739": [
       11255
     ],
@@ -58308,8 +58446,17 @@
     "9685": [
       10374
     ],
+    "11027": [
+      11270
+    ],
+    "10976": [
+      11238
+    ],
     "11008": [
       11201
+    ],
+    "10823": [
+      11186
     ],
     "11172": [
       11175
