@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T03:10:58.530972Z",
+  "last_updated": "2026-03-07T03:06:00.171752Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36022,6 +36022,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "11152": {
+      "number": "11152",
+      "title": "Warp sync: Warp proof block import should not mark as leaf",
+      "author": "skunert",
+      "merged_at": "2026-02-26T23:47:20Z",
+      "labels": [
+        "T0-node",
+        "A5-run-CI",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11152",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11298": {
+      "number": "11298",
+      "title": "[stable2603] Backport #11152",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-06T15:44:20Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11298",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11152
+    },
+    "10752": {
+      "number": "10752",
+      "title": "  Gap Sync: Skip Body Requests for Non-Archive Nodes",
+      "author": "lrubasze",
+      "merged_at": "2026-02-13T15:35:06Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10752",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11296": {
+      "number": "11296",
+      "title": "[stable2603] Backport #10752",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-06T13:57:38Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11296",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10752
+    },
     "11281": {
       "number": "11281",
       "title": "[stable2603] Backport #11154",
@@ -36063,6 +36120,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11027
+    },
+    "10373": {
+      "number": "10373",
+      "title": "Block import improvements",
+      "author": "lrubasze",
+      "merged_at": "2026-02-13T10:17:50Z",
+      "labels": [
+        "T0-node",
+        "A5-run-CI",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10373",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11267": {
+      "number": "11267",
+      "title": "[stable2603] Backport #10373",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-06T13:03:35Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11267",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10373
     },
     "11261": {
       "number": "11261",
@@ -56922,8 +57008,11 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11298": 11152,
+    "11296": 10752,
     "11281": 11154,
     "11270": 11027,
+    "11267": 10373,
     "11261": 11204,
     "11238": 10976,
     "11210": 11197,
@@ -58446,8 +58535,17 @@
     "9685": [
       10374
     ],
+    "11152": [
+      11298
+    ],
+    "10752": [
+      11296
+    ],
     "11027": [
       11270
+    ],
+    "10373": [
+      11267
     ],
     "10976": [
       11238
