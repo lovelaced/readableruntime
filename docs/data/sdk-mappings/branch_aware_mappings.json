@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-09T03:16:19.385131Z",
+  "generated_at": "2026-03-09T12:15:24.339576Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -131,7 +131,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -147,7 +147,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -178,7 +178,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -194,7 +194,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -210,7 +210,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -226,7 +226,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -242,7 +242,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -258,7 +258,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -274,7 +274,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -290,7 +290,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -306,7 +306,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -322,7 +322,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "44.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -338,7 +338,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "44.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -354,12 +354,27 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "44.0.0"
       },
-      "branch_pr_count": 426,
+      "branch_pr_count": 427,
       "included_branches": [
         "unstable2507",
         "stable2506"
       ],
       "actual_pr_count": 0
+    },
+    "v2.1.0": {
+      "sdk_tag": "stable2512-2",
+      "sdk_branch": "stable2512",
+      "sdk_date": "2026-02-20T15:07:44Z",
+      "package_versions": {
+        "frame-support": "45.1.0",
+        "polkadot-primitives": "22.0.0",
+        "sp-runtime": "45.0.0"
+      },
+      "branch_pr_count": 387,
+      "included_branches": [
+        "stable2512"
+      ],
+      "actual_pr_count": 372
     }
   },
   "sdk_tags": {
@@ -1824,8 +1839,8 @@
       }
     },
     "stable2603": {
-      "commit": "e28175c98a0333b094219da224e1653ec334263a",
-      "date": "2026-03-06T15:44:19Z",
+      "commit": "dbeef65841501cd1890c296650ee84db556856e8",
+      "date": "2026-03-09T10:17:39Z",
       "branch": "stable2603",
       "package_versions": {
         "polkadot-primitives": "7.0.0",
@@ -1851,7 +1866,7 @@
         "stable2603-rc1"
       ],
       "created_date": "2026-02-09T14:33:54Z",
-      "pr_count": 252
+      "pr_count": 253
     },
     "stable2512": {
       "tags": [
@@ -1866,7 +1881,7 @@
         "stable2512-1-rc1"
       ],
       "created_date": "2025-11-18T13:32:56Z",
-      "pr_count": 385
+      "pr_count": 387
     },
     "stable2509": {
       "tags": [
@@ -1920,7 +1935,7 @@
         "stable2506-1-rc1"
       ],
       "created_date": "2025-06-10T07:59:43Z",
-      "pr_count": 339
+      "pr_count": 340
     },
     "stable2503": {
       "tags": [
@@ -2062,7 +2077,7 @@
   "statistics": {
     "total_sdk_tags": 148,
     "total_branches": 12,
-    "total_prs_tracked": 2908,
-    "runtime_releases_mapped": 23
+    "total_prs_tracked": 2914,
+    "runtime_releases_mapped": 24
   }
 }
