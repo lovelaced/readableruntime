@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T12:15:24.342190Z",
+  "last_updated": "2026-03-10T03:10:32.666261Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11132,7 +11132,8 @@
         "T0-node",
         "A4-backport-stable2503",
         "A4-backport-stable2506",
-        "A4-backport-stable2509"
+        "A4-backport-stable2509",
+        "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10954",
       "branch": "stable2603",
@@ -21513,6 +21514,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "10464": {
+      "number": "10464",
+      "title": "collator-protocol: Readvertise collations after peer disconnects",
+      "author": "lexnv",
+      "merged_at": "2026-01-30T14:38:53Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2506"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10464",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11313": {
+      "number": "11313",
+      "title": "[stable2506] Backport #10464",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-09T17:16:29Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11313",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10464
+    },
+    "11078": {
+      "number": "11078",
+      "title": "net: Strip previous p2p prefix before concatenating addresses",
+      "author": "lexnv",
+      "merged_at": "2026-02-22T20:37:00Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11078",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11310": {
+      "number": "11310",
+      "title": "[stable2506] Backport #11078",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-09T16:24:15Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11310",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11078
+    },
     "11308": {
       "number": "11308",
       "title": "[stable2506] Fix flow",
@@ -30853,6 +30911,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11317": {
+      "number": "11317",
+      "title": "[stable2512]Post crates release",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-09T16:00:31Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11317",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "11018": {
       "number": "11018",
       "title": "[Pool] Claim trapped balance",
@@ -31123,20 +31193,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9925
-    },
-    "11078": {
-      "number": "11078",
-      "title": "net: Strip previous p2p prefix before concatenating addresses",
-      "author": "lexnv",
-      "merged_at": "2026-02-22T20:37:00Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11078",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "11145": {
       "number": "11145",
@@ -36081,6 +36137,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "11305": {
+      "number": "11305",
+      "title": "[stable2603] Backport #11018",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-09T14:36:42Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11305",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11018
+    },
     "11152": {
       "number": "11152",
       "title": "Warp sync: Warp proof block import should not mark as leaf",
@@ -36864,7 +36934,8 @@
       "author": "lexnv",
       "merged_at": "2026-01-30T11:49:24Z",
       "labels": [
-        "T0-node"
+        "T0-node",
+        "A4-backport-stable2506"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10906",
       "branch": "stable2603",
@@ -36916,7 +36987,8 @@
       "author": "lexnv",
       "merged_at": "2026-01-30T18:32:57Z",
       "labels": [
-        "T0-node"
+        "T0-node",
+        "A4-backport-stable2506"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10891",
       "branch": "stable2603",
@@ -38173,19 +38245,6 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10471",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10464": {
-      "number": "10464",
-      "title": "collator-protocol: Readvertise collations after peer disconnects",
-      "author": "lexnv",
-      "merged_at": "2026-01-30T14:38:53Z",
-      "labels": [
-        "T8-polkadot"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10464",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -60349,6 +60408,8 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11313": 10464,
+    "11310": 11078,
     "11249": 10954,
     "11121": 11116,
     "11040": 11028,
@@ -60585,6 +60646,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11305": 11018,
     "11298": 11152,
     "11296": 10752,
     "11281": 11154,
@@ -61608,6 +61670,13 @@
     "7670": [
       7675
     ],
+    "10464": [
+      11313
+    ],
+    "11078": [
+      11310,
+      11145
+    ],
     "10592": [
       10624,
       10626,
@@ -61925,7 +61994,8 @@
       9654
     ],
     "11018": [
-      11304
+      11304,
+      11305
     ],
     "11154": [
       11280,
@@ -61951,9 +62021,6 @@
     ],
     "9925": [
       11156
-    ],
-    "11078": [
-      11145
     ],
     "11062": [
       11132,
