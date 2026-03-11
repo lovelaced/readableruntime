@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T03:10:32.666261Z",
+  "last_updated": "2026-03-11T03:11:05.830092Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21514,6 +21514,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11315": {
+      "number": "11315",
+      "title": "[stable2506] Post crates release activities for stable2506-9",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-03-10T10:35:20Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11315",
+      "branch": "stable2506",
+      "is_direct": true
+    },
     "10464": {
       "number": "10464",
       "title": "collator-protocol: Readvertise collations after peer disconnects",
@@ -36137,6 +36149,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "11318": {
+      "number": "11318",
+      "title": "[stable2603] Backport #10954",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-10T13:08:20Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11318",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10954
+    },
     "11305": {
       "number": "11305",
       "title": "[stable2603] Backport #11018",
@@ -36292,6 +36318,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11204
+    },
+    "11243": {
+      "number": "11243",
+      "title": "[stable2603] Backport #11222",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-10T13:45:13Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11243",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11222
     },
     "10976": {
       "number": "10976",
@@ -60646,6 +60686,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11318": 10954,
     "11305": 11018,
     "11298": 11152,
     "11296": 10752,
@@ -60653,6 +60694,7 @@
     "11270": 11027,
     "11267": 10373,
     "11261": 11204,
+    "11243": 11222,
     "11238": 10976,
     "11210": 11197,
     "11201": 11008,
@@ -61399,7 +61441,8 @@
     "10954": [
       11248,
       11249,
-      11250
+      11250,
+      11318
     ],
     "11116": [
       11120,
@@ -62005,7 +62048,8 @@
       11255
     ],
     "11222": [
-      11242
+      11242,
+      11243
     ],
     "11204": [
       11230,
