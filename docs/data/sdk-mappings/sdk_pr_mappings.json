@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T03:13:57.323908Z",
+  "last_updated": "2026-03-13T03:15:11.561255Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -484,19 +484,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/7113",
       "branch": "stable2407",
       "is_direct": true
-    },
-    "7050": {
-      "number": "7050",
-      "title": "Avoid incomplete block import pipeline with full verifying import queue",
-      "author": "skunert",
-      "merged_at": "2025-01-06T13:41:17Z",
-      "labels": [
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/7050",
-      "branch": "stable2503-broken",
-      "is_direct": false,
-      "from_master": true
     },
     "7058": {
       "number": "7058",
@@ -2694,6 +2681,19 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 6855
+    },
+    "7050": {
+      "number": "7050",
+      "title": "Avoid incomplete block import pipeline with full verifying import queue",
+      "author": "skunert",
+      "merged_at": "2025-01-06T13:41:17Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7050",
+      "branch": "stable2503-broken",
+      "is_direct": false,
+      "from_master": true
     },
     "7059": {
       "number": "7059",
@@ -26087,6 +26087,82 @@
       "is_direct": false,
       "from_master": true
     },
+    "11367": {
+      "number": "11367",
+      "title": "[stable2509] Post crates release activities for stable2509-6",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-03-12T18:18:07Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11367",
+      "branch": "stable2509",
+      "is_direct": true
+    },
+    "11352": {
+      "number": "11352",
+      "title": "Post crates PR creation fix",
+      "author": "BDevParity",
+      "merged_at": "2026-03-12T16:43:09Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11352",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11363": {
+      "number": "11363",
+      "title": "[stable2509] Backport #11352",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T16:58:37Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11363",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11352
+    },
+    "11330": {
+      "number": "11330",
+      "title": "aura/import: Skip block execution when collators have no parent block state",
+      "author": "lexnv",
+      "merged_at": "2026-03-12T12:28:32Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11330",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11357": {
+      "number": "11357",
+      "title": "[stable2509] Backport #11330",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T14:34:29Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11357",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11330
+    },
     "11250": {
       "number": "11250",
       "title": "[stable2509] Backport #10954",
@@ -31006,6 +31082,37 @@
       "is_backport": true,
       "original_pr": 11154
     },
+    "11204": {
+      "number": "11204",
+      "title": "Upgrade litep2p v0.13.0 -> v0.13.2",
+      "author": "dmitry-markin",
+      "merged_at": "2026-03-02T15:00:00Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11204",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11260": {
+      "number": "11260",
+      "title": "[stable2512] Backport #11204",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T09:45:21Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11260",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11204
+    },
     "1739": {
       "number": "1739",
       "title": "frame-session: Introduce a proper proof of key ownership",
@@ -31062,23 +31169,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11222
-    },
-    "11204": {
-      "number": "11204",
-      "title": "Upgrade litep2p v0.13.0 -> v0.13.2",
-      "author": "dmitry-markin",
-      "merged_at": "2026-03-02T15:00:00Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11204",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "11230": {
       "number": "11230",
@@ -36148,6 +36238,108 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11359": {
+      "number": "11359",
+      "title": "[stable2603] Backport #11330",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T14:59:14Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11359",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11330
+    },
+    "11194": {
+      "number": "11194",
+      "title": "MBM: Add ForceUnstuck handler",
+      "author": "ggwpez",
+      "merged_at": "2026-03-12T12:02:59Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11194",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11353": {
+      "number": "11353",
+      "title": "[stable2603] Backport #11194",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T14:01:30Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11353",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11194
+    },
+    "11231": {
+      "number": "11231",
+      "title": "add max_relay_parent_session_age runtime api and config",
+      "author": "alindima",
+      "merged_at": "2026-03-10T10:56:11Z",
+      "labels": [
+        "T4-runtime_API",
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11231",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11326": {
+      "number": "11326",
+      "title": "[stable2603] Backport #11231",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T17:50:29Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11326",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11231
+    },
+    "11316": {
+      "number": "11316",
+      "title": "cargo: Update litep2p to v0.13.3",
+      "author": "lexnv",
+      "merged_at": "2026-03-10T10:06:42Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11316",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11325": {
+      "number": "11325",
+      "title": "[stable2603] Backport #11316",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-12T16:11:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11325",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11316
     },
     "11318": {
       "number": "11318",
@@ -60531,6 +60723,8 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11363": 11352,
+    "11357": 11330,
     "11250": 10954,
     "11123": 11116,
     "11041": 11028,
@@ -60609,6 +60803,7 @@
     "9653": 9641,
     "11304": 11018,
     "11280": 11154,
+    "11260": 11204,
     "11255": 1739,
     "11242": 11222,
     "11230": 11204,
@@ -60686,6 +60881,10 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11359": 11330,
+    "11353": 11194,
+    "11326": 11231,
+    "11325": 11316,
     "11318": 10954,
     "11305": 11018,
     "11298": 11152,
@@ -61866,6 +62065,13 @@
     "8820": [
       8822
     ],
+    "11352": [
+      11363
+    ],
+    "11330": [
+      11357,
+      11359
+    ],
     "10802": [
       10840,
       10837,
@@ -62044,16 +62250,17 @@
       11280,
       11281
     ],
+    "11204": [
+      11260,
+      11230,
+      11261
+    ],
     "1739": [
       11255
     ],
     "11222": [
       11242,
       11243
-    ],
-    "11204": [
-      11230,
-      11261
     ],
     "11197": [
       11209,
@@ -62226,6 +62433,15 @@
     ],
     "9685": [
       10374
+    ],
+    "11194": [
+      11353
+    ],
+    "11231": [
+      11326
+    ],
+    "11316": [
+      11325
     ],
     "11152": [
       11298

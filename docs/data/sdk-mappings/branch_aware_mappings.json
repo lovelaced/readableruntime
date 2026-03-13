@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T03:13:57.321808Z",
+  "generated_at": "2026-03-13T03:15:11.559386Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -370,7 +370,7 @@
         "polkadot-primitives": "22.0.0",
         "sp-runtime": "45.0.0"
       },
-      "branch_pr_count": 388,
+      "branch_pr_count": 389,
       "included_branches": [
         "stable2512"
       ],
@@ -546,6 +546,26 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2509-6": {
+      "commit": "1a6c36499c3ff5045b2fa6640576ad5589232c55",
+      "date": "2026-03-12T18:18:07Z",
+      "branch": "stable2509",
+      "package_versions": {
+        "polkadot-primitives": "21.0.0",
+        "sp-runtime": "44.0.0",
+        "frame-support": "43.0.1"
+      }
+    },
+    "stable2509-6-rc1": {
+      "commit": "1a6c36499c3ff5045b2fa6640576ad5589232c55",
+      "date": "2026-03-12T18:18:07Z",
+      "branch": "stable2509",
+      "package_versions": {
+        "polkadot-primitives": "21.0.0",
+        "sp-runtime": "44.0.0",
+        "frame-support": "43.0.1"
       }
     },
     "stable2509-5": {
@@ -1859,8 +1879,8 @@
       }
     },
     "stable2603": {
-      "commit": "f9adddf3041736b6e18b71baa87cbc37fa559d11",
-      "date": "2026-03-10T13:45:13Z",
+      "commit": "6565c653767ffa077aa54d5bec168a8d7d5687c0",
+      "date": "2026-03-12T17:50:29Z",
       "branch": "stable2603",
       "package_versions": {
         "polkadot-primitives": "7.0.0",
@@ -1886,7 +1906,7 @@
         "stable2603-rc1"
       ],
       "created_date": "2026-02-09T14:33:54Z",
-      "pr_count": 256
+      "pr_count": 260
     },
     "stable2512": {
       "tags": [
@@ -1901,7 +1921,7 @@
         "stable2512-1-rc1"
       ],
       "created_date": "2025-11-18T13:32:56Z",
-      "pr_count": 388
+      "pr_count": 389
     },
     "stable2509": {
       "tags": [
@@ -1911,6 +1931,8 @@
         "stable2509-rc3",
         "stable2509-rc2",
         "stable2509-rc1",
+        "stable2509-6",
+        "stable2509-6-rc1",
         "stable2509-5",
         "stable2509-5-rc1",
         "stable2509-4",
@@ -1925,7 +1947,7 @@
         "stable2509-1-rc1"
       ],
       "created_date": "2025-09-01T11:45:58Z",
-      "pr_count": 357
+      "pr_count": 360
     },
     "stable2506": {
       "tags": [
@@ -2097,9 +2119,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 150,
+    "total_sdk_tags": 152,
     "total_branches": 12,
-    "total_prs_tracked": 2921,
+    "total_prs_tracked": 2934,
     "runtime_releases_mapped": 24
   }
 }
