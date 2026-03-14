@@ -1,0 +1,219 @@
+{
+  "newer_release": {
+    "tag_name": "v2.1.1",
+    "created_at": "2026-03-13T16:47:19Z",
+    "name": "Runtimes 2.1.1",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.1.1] 13.03.2026\n\n### Added\n\n- Migration for claiming trapped funds in nomination pool in PAH [1104](https://github.com/polkadot-fellows/runtimes/pull/1104)\n- Kusama system parachains recognize authority of the Polkadot Technical Fellowship ([#1100](https://github.com/polkadot-fellows/runtimes/pull/1100))\n\n### Changed\n\n- Revert hard cap enactment block number back to [30_349_908](https://polkadot.subscan.io/block/30349908) ([#1103](https://github.com/polkadot-fellows/runtimes/pull/1103))\n\n# Runtime info\n*These runtimes were built with **rustc 1.93.0 (254b59607 2026-01-19)** using **[srtool v0.18.4](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.68Mi (1753757 bytes)\n\ud83d\udddc Compressed:             Yes: 80.29%\n\ud83d\udd25 Core Version:           polkadot-2001001 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xe29a1246273f74b2fbfde9ede985ccbe86b844be0a3537e34eb2bcd68c3b3358\n\ud83d\udce6 IPFS:                   QmeGF5MY34U5t8EShSJtXrJtdRGbBpBVYw3Uwf7rAWyNhT\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.02Mi (1062007 bytes)\n\ud83d\udddc Compressed:             Yes: 79.94%\n\ud83d\udd25 Core Version:           people-polkadot-2001001 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd7c36a7e033a490726c28d29ff83c192001ba8ade2e39d04940354cf15245a10\n\ud83d\udce6 IPFS:                   QmVwnCHiEeRZYyAHfJcAZXt8Y28tFAqj67yKcUAgH8SJG4\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           962.36Ki (985454 bytes)\n\ud83d\udddc Compressed:             Yes: 79.46%\n\ud83d\udd25 Core Version:           people-kusama-2001001 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc1426651abdf3b7c92c2f0000164c441d52255f02bbd29f0302494427aefa105\n\ud83d\udce6 IPFS:                   QmZE8KaLAWSuuXagQp6MJXhTYdF8MUjoGaG12u6nP5To1J\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.76Mi (1836774 bytes)\n\ud83d\udddc Compressed:             Yes: 80.66%\n\ud83d\udd25 Core Version:           kusama-2001001 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x46c35a3cbdf095ba5f351a55257353fb2020a68bccf2396b79852600ca947b1d\n\ud83d\udce6 IPFS:                   QmZoLrBbt2nqc4vQxcr3zuHMBZbfCcr1kFrN62huzm7oqX\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           450.31Ki (461109 bytes)\n\ud83d\udddc Compressed:             Yes: 78.05%\n\ud83d\udd25 Core Version:           glutton-2001001 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x32f3e3fad92a6f0b8cae41d79c0032656b51c7f2ae07ac5f8ffb296c2d904ecd\n\ud83d\udce6 IPFS:                   QmP9xHat2PVQJe7DBVk9PTyfqZv58k4zdQGBfrL36Noib1\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.16Mi (1207245 bytes)\n\ud83d\udddc Compressed:             Yes: 79.8%\n\ud83d\udd25 Core Version:           encointer-parachain-2001001 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3f49c68201a99ff2d8dc27cac670049db13a7bffe321c3e2c7aa77451d155e05\n\ud83d\udce6 IPFS:                   QmWhbuqHEtWxRxkwALxFuddzfPVWfz8AhAMewTv2woeS4T\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           964.91Ki (988061 bytes)\n\ud83d\udddc Compressed:             Yes: 79.43%\n\ud83d\udd25 Core Version:           coretime-polkadot-2001001 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc2a0aa874301bc3d24f452e771773874dceb0012a07a456883273a2596744ec7\n\ud83d\udce6 IPFS:                   QmXJG47Ac4xtyPvMCaDbFv7bmpy38ND3XNMzMTqy9JTuGc\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           964.66Ki (987806 bytes)\n\ud83d\udddc Compressed:             Yes: 79.43%\n\ud83d\udd25 Core Version:           coretime-kusama-2001001 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xec7a205c09e5ffe097148cec3f098284e769ba05dbd8f6b7d75fd8755a3745c9\n\ud83d\udce6 IPFS:                   QmQEXbFu9fWpWJfubQQZu8HqVbv7R5CQnxPoucYaEqa2go\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.07Mi (1118991 bytes)\n\ud83d\udddc Compressed:             Yes: 80.62%\n\ud83d\udd25 Core Version:           collectives-2001001 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x611713c36ff5ac5919ae59e0055a81b09bc3f45333dacc52406a56ec82744a75\n\ud83d\udce6 IPFS:                   QmdaYWpn4E37fMtMNRSX2WgpoKGAe8aBxHCZb6JocCfvWv\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.20Mi (1249052 bytes)\n\ud83d\udddc Compressed:             Yes: 79.54%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2001001 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4b662830ed418c805befeb8187b8e8a269b0dc81a00381878b4ae314aa7cd003\n\ud83d\udce6 IPFS:                   QmPZgra6y4m49am1MJQKv1BtnwQ4iipFbt1MrPfSJ6Tf5Q\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1014.35Ki (1038693 bytes)\n\ud83d\udddc Compressed:             Yes: 79.26%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2001001 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2ea4580281c4c17d5b41713ff1f46e94bba58c8fdcadda56147bae07817ec792\n\ud83d\udce6 IPFS:                   QmSiasUeFMxgcZ7Z3b5vk9nnDxD5ry1LEbApxN78nxYYKF\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.21Mi (2309292 bytes)\n\ud83d\udddc Compressed:             Yes: 81.51%\n\ud83d\udd25 Core Version:           statemint-2001001 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x04fa38c2fb117fbd73302c23b339ef18c4f3a200a0b487803208bf279161f1d7\n\ud83d\udce6 IPFS:                   QmbbXtAsF9bCbhmxubSJBgJN59NnL56M8NTKHYtjAwSBtv\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.28Mi (2387493 bytes)\n\ud83d\udddc Compressed:             Yes: 81.91%\n\ud83d\udd25 Core Version:           statemine-2001001 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7c26b0ec7fee9c3e2099499cb291c20e2fecd7c3c2bd0002b8caf58ea22b0f4a\n\ud83d\udce6 IPFS:                   QmSyfQV4NZc5Y6ovgkVaecw7QBVii8mW9uy2wP6uWwx1zX\n~~~\n",
+    "sdk_version": "polkadot-primitives-v22.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.1.0",
+    "created_at": "2026-03-09T09:18:44Z",
+    "name": "Runtimes 2.1.0",
+    "sdk_version": "polkadot-primitives-v22.0.0"
+  },
+  "pr_count": 8,
+  "ai_analysis": "# Polkadot Fellows Runtime Release v2.1.1 Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n**What's New:**\nThis is a patch release containing important fixes and improvements for the Polkadot and Kusama networks. The main changes focus on recovering trapped funds and improving cross-chain governance capabilities.\n\n**Key Benefits:**\n- **Fund Recovery**: One user with ~1,700 DOT trapped in a staking pool will have their funds automatically recovered\n- **Better Governance**: Kusama network chains can now accept governance decisions from Polkadot's Technical Fellowship, improving coordination between networks\n- **Enhanced Testing**: More comprehensive automated testing to prevent future issues\n- **Improved Development Tools**: Better AI-powered code review system\n\n**Actions Required:**\n- **For Regular Users**: No action needed - updates will be applied automatically through network upgrades\n- **For Validators/Node Operators**: Update to the new runtime when the governance proposal passes\n\n## 2. Key Changes Explained\n\n### **Fund Recovery (Non-Breaking)**\n- **What happened**: A user had DOT tokens stuck in a nomination pool due to a technical issue\n- **The fix**: Added an automatic migration that will restore access to these trapped funds\n- **Impact**: One user will regain access to ~1,700 DOT; no effect on other users\n\n### **Cross-Chain Governance Enhancement (Breaking Change for System Operations)**\n- **What changed**: Kusama's system chains (like Asset Hub) now recognize governance authority from both Kusama's Technical Fellowship AND Polkadot's Technical Fellowship\n- **Why this matters**: This creates a bridge for governance decisions between the two major networks\n- **Who's affected**: Mainly affects how system-level decisions are made; regular users won't notice day-to-day changes\n- **Security note**: Access has been narrowed to only \"Voice\" level decisions, making the system more secure\n\n### **Development Infrastructure Improvements (No User Impact)**\n- **AI Code Review**: Upgraded to GPT-5.4 for better automated code review\n- **Testing**: Added comprehensive tests that were missing, improving system reliability\n- **Workflow Improvements**: Better automation for code review processes\n\n### **Technical Corrections (Non-Breaking)**\n- **Block Number Revert**: Corrected a timing issue for when certain economic changes take effect\n- **Integration Tests**: Added missing test coverage to prevent future bugs\n\n## 3. Technical Summary for Developers\n\n### **Major Changes:**\n- **XCM Configuration Updates**: Modified `TechnicalFellowshipVoice` origin recognition across Kusama system parachains\n- **Migration Addition**: Implemented `MigratePoolMemberAccountId` for PAH (Polkadot Asset Hub)\n- **Origin Aliasing**: Updated `AllowExplicitUnpaidExecutionFrom` barrier configurations\n\n### **API/Interface Changes:**\n- **Breaking**: `FellowshipEntities` replaced with `IsFellowshipVoice` in XCM configurations\n  - Previously matched any `Plurality { id: Technical, .. }` \n  - Now only matches `BodyPart::Voice` and bridged Polkadot voice+rank forms\n- **Narrowed Access**: Fee waivers and `AllowExplicitUnpaidExecutionFrom` now have more restrictive matching\n\n### **Migration Requirements:**\n- **Automatic Migration**: `MigratePoolMemberAccountId` will run automatically during runtime upgrade\n- **No Manual Intervention**: All migrations are handled automatically by the runtime\n\n### **Dependencies Updated:**\n- `sp-staking`: Minor version bump\n- `pallet-nomination-pools`: Patch version bump  \n- `pallet-staking-async`: Minor version bump\n- `pallet-session`: Updated to v45.2.0 for consumer ref tracking\n\n## 4. Code Impact Analysis\n\n### **Most Affected Components:**\n1. **XCM Configuration Files** (24 files changed in PR #1100)\n   - System parachain XCM configurations across Kusama ecosystem\n   - Bridge hub configurations for cross-chain communication\n   - Origin recognition and fee waiver logic\n\n2. **Integration Testing** (30 files changed in PR #1105)\n   - Comprehensive test coverage additions\n   - 4,912 lines of new test code added\n   - Focus on XCM functionality and cross-chain operations\n\n3. **Migration System** (4 files changed in PR #1104)\n   - Addition of fund recovery migration\n   - Staking pallet dependency updates\n\n### **Types of Changes:**\n- **60% Bug Fixes/Recovery**: Fund recovery migration, block number corrections\n- **25% Feature Enhancement**: Cross-chain governance improvements\n- **10% Testing/Quality**: Integration test additions\n- **5% Infrastructure**: Development tool improvements\n\n### **Risk Assessment:**\n- **Low Risk**: Most changes are additive or corrective\n- **Medium Risk**: XCM configuration changes could affect cross-chain operations if misconfigured\n- **Mitigation**: Extensive integration testing added to validate functionality\n\nThe release represents a mature, well-tested patch that primarily addresses specific issues while enhancing the robustness of the multi-chain governance system.",
+  "pr_details": [
+    {
+      "number": 1108,
+      "title": "use ai review to use gpt-5.4",
+      "author": "xlc",
+      "merged_at": "2026-03-12T20:23:18Z",
+      "body": "upgrade to gpt-5.4\r\n\r\n- [x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 1,
+      "deletions": 1,
+      "file_list": [
+        ".github/workflows/ai-review.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 1100,
+      "title": "Kusama system parachains recognize authority of the Polkadot Technical Fellowship",
+      "author": "acatangiu",
+      "merged_at": "2026-03-12T16:09:02Z",
+      "body": "Change configuration of Kusama system parachains to recognize the Polkadot Technical Fellowship, alongside the already recognized Kusama Technical Fellowship, as the \"Technical Fellowship Voice\".\r\n\r\nUpdate `AllowExplicitUnpaidExecutionFrom` barrier configuration for all system chains to match the same origin aliasing rules as their `xcm-executor` respective configurations.\r\n\r\nBehavior change: FellowshipEntities previously matched any Plurality { id: Technical, .. } under parents=1 (any BodyPart), and now it is replaced by IsFellowshipVoice, which matches only BodyPart::Voice (and additionally the bridged Polkadot voice+rank form). This narrows who gets AllowExplicitUnpaidExecutionFrom and fee waivers. This is intended.\r\n\r\nAdd bridged fellowship whitelist integration test: Test that the Polkadot Collectives Fellowship can whitelist a call on Kusama Asset Hub over the bridge via `InitiateTransfer` with preserved origin. Validates that `EnsureXcm<TechnicalFellowshipVoice>` on AHK correctly accepts the bridged Fellows origin.\r\n\r\n--------\r\n\r\nOnce the fellowship tooling is also upgraded and we see we can easily and reliably use the Polkadot Technical Fellowship on Kusama, we will follow-up with another change to completely remove the deprecated Kusama Technical Fellowship.\r\n",
+      "labels": [],
+      "files_changed": 24,
+      "additions": 298,
+      "deletions": 122,
+      "file_list": [
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/xcm_config.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/xcm_config.rs",
+        "system-parachains/coretime/coretime-polkadot/src/xcm_config.rs",
+        "system-parachains/people/people-kusamsrc/xcm_config.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/mod.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/xcm_config.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "integration-tests/emulated/networks/kusama-polkadot-system/src/lib.rs",
+        "integration-tests/emulated/networks/kusama-polkadot-system/Cargo.toml",
+        "Cargo.lock",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/governance/mod.rs",
+        "system-parachains/collectives/collectives-polkadot/src/xcm_config.rs",
+        "integration-tests/emulated/tests/bridges/bridge-hub-polkadot/src/tests/bridged_fellowship.rs",
+        "system-parachains/encointer/src/xcm_config.rs",
+        "system-parachains/people/people-polkadot/src/xcm_config.rs",
+        "system-parachains/coretime/coretime-kusamsrc/xcm_config.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/xcm_config.rs",
+        "CHANGELOG.md",
+        "system-parachains/constants/src/kusama.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 15
+    },
+    {
+      "number": 1103,
+      "title": "Revert cap enactment block number",
+      "author": "ggwpez",
+      "merged_at": "2026-03-12T23:37:20Z",
+      "body": "Changes:\r\n- Revert \"Adjust hard cap enactment block number (#1076)\"\r\n\r\nWe should revert this since the original block is going to be reached in 4 days and we cannot get the Polkadot ref in before that.  \r\nWithout reverting, it would change the enactment number after it was already enacted and could mess with the issuance calculation.\r\n\r\nI dont think it would be a big issue, but also dont want to find out :D\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 9,
+      "deletions": 4,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/mod.rs",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [
+        {
+          "number": 1076,
+          "title": "Adjust hard cap enactment block number",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 21
+    },
+    {
+      "number": 1080,
+      "title": "Release 2.1.0",
+      "author": "ggwpez",
+      "merged_at": "2026-03-09T09:18:44Z",
+      "body": "Changes:\r\n- Bump specs to 2.1.0\r\n- Backport 2.0.6 CHANGELOG entry\r\n- Publish 2.1.0\r\n\r\nDepends on:\r\n- https://github.com/polkadot-fellows/runtimes/pull/1070\r\n- https://github.com/polkadot-fellows/runtimes/pull/1085\r\n- https://github.com/polkadot-fellows/runtimes/pull/1082\r\n- https://github.com/polkadot-fellows/runtimes/pull/1042\r\n- #1098\r\n- #1097\r\n- [x]\u00a0Resolve TODOs",
+      "labels": [],
+      "files_changed": 16,
+      "additions": 20,
+      "deletions": 20,
+      "file_list": [
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/assets.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "CHANGELOG.md",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/encointer/src/tests/mock.rs"
+      ],
+      "linked_issues": [
+        {
+          "number": 1098,
+          "title": "Recalibrate PriorityBoostPerMessage for bridge-hub-polkadot",
+          "state": "closed"
+        },
+        {
+          "number": 1097,
+          "title": "Bump pallet-session to 45.2.0",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 20
+    },
+    {
+      "number": 1107,
+      "title": "Trigger AI review on new PR commits",
+      "author": "bkontur",
+      "merged_at": "2026-03-12T08:16:43Z",
+      "body": "## Summary\r\nAdd `synchronize` and `reopened` events to the AI review workflow so it re-runs when new commits are pushed to a PR or it is reopened\r\n\r\n## Motivation\r\n  Previously the review bot only ran on `opened` and `ready_for_review`, so fixing review comments required manually re-triggering via `workflow_dispatch`. \r\n\r\n## TODO / Improvements\r\n\r\n- [ ] Resolve all bot threads before re-review\r\n- [ ] Only resolve threads on files that changed\r\n- [ ] Ask the bot to resolve its own comments \u2014 this would require changes to polka-codes/action itself https://github.com/polka-codes/action/issues/20\r\n- [X] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 1,
+      "additions": 1,
+      "deletions": 1,
+      "file_list": [
+        ".github/workflows/ai-review.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 5
+    },
+    {
+      "number": 1104,
+      "title": "Add migration for PAH pool member with trapped funds",
+      "author": "Ank4n",
+      "merged_at": "2026-03-10T13:08:18Z",
+      "body": "Adds a migration for 1 pool member who has ~1700 DOTs trapped in the pool.\r\nMore context: https://github.com/paritytech/polkadot-sdk/issues/10993\r\n\r\nAlso bumps up (minor or patch only) the following crates: sp-staking, pallet-nomination-pools, pallet-staking-async.",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 37,
+      "deletions": 19,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/migrations.rs",
+        "Cargo.toml",
+        "Cargo.lock",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1105,
+      "title": "Port missing emulated integration tests from Westend to Polkadot and Kusama",
+      "author": "acatangiu",
+      "merged_at": "2026-03-11T15:58:25Z",
+      "body": "Ports XCM emulated integration tests that exist in Westend (polkadot-sdk) but were missing in the Polkadot runtimes repo, improving test coverage for Polkadot and Kusama system chains.\r\n\r\nNew test files for asset-hubs:\r\n- exchange_asset.rs: ExchangeAsset XCM instruction scenarios (5 tests)\r\n- set_asset_claimer.rs: SetAssetClaimer within/between chains (2 tests)\r\n- transact.rs: Transact through parachains (3 tests)\r\n\r\nNew tests added to existing files:\r\n- reserve_transfer.rs: USDT transfers + untrusted reserve (3 tests)\r\n- teleport.rs: checking account tracking + untrusted chain (4 tests)\r\n- swap.rs: xcm_fee_querying_apis_work (1 test)\r\n- xcm_fee_estimation.rs: multi_hop_pay_fees_works (1 test)\r\n- send.rs: paying fees with sufficient asset (1 test)\r\n- collectives_salary.rs: pay_salary_secretary (1 test)\r\n\r\n[x] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 30,
+      "additions": 4912,
+      "deletions": 69,
+      "file_list": [
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/xcm_fee_estimation.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/Cargo.toml",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/teleport.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/transact.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/lib.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/transact.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/xcm_fee_estimation.rs",
+        "integration-tests/emulated/tests/collectives/collectives-polkadot/src/tests/collectives_salary.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/hybrid_transfers.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/hybrid_transfers.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/mod.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/send.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/exchange_asset.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/send.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/lib.rs",
+        "integration-tests/emulated/chains/parachains/assets/asset-hub-polkadot/src/genesis.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/set_asset_claimer.rs",
+        "integration-tests/emulated/chains/parachains/assets/asset-hub-kusamsrc/genesis.rs",
+        "integration-tests/emulated/chains/parachains/assets/asset-hub-kusamCargo.toml",
+        "Cargo.lock",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/mod.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/swap.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/teleport.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/exchange_asset.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamCargo.toml",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/set_asset_claimer.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/swap.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-polkadot/src/tests/reserve_transfer.rs",
+        "integration-tests/emulated/tests/assets/asset-hub-kusamsrc/tests/reserve_transfer.rs",
+        "integration-tests/emulated/chains/parachains/assets/asset-hub-polkadot/Cargo.toml"
+      ],
+      "linked_issues": [],
+      "comment_count": 10
+    }
+  ]
+}
