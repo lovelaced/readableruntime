@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-16T03:19:44.638690Z",
+  "last_updated": "2026-03-17T03:14:33.763067Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -31061,6 +31061,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11374": {
+      "number": "11374",
+      "title": "[stable2512] Add srtool tag",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-16T11:38:54Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11374",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "11364": {
       "number": "11364",
       "title": "[stable2512] Backport #11352",
@@ -36341,6 +36353,21 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11376",
       "branch": "stable2603",
       "is_direct": true
+    },
+    "11365": {
+      "number": "11365",
+      "title": "[stable2603] Backport #11352",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-16T11:08:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11365",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11352
     },
     "11359": {
       "number": "11359",
@@ -60989,6 +61016,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11365": 11352,
     "11359": 11330,
     "11353": 11194,
     "11326": 11231,
@@ -61749,7 +61777,8 @@
       11361,
       11362,
       11363,
-      11364
+      11364,
+      11365
     ],
     "10954": [
       11248,
