@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-17T03:14:33.763067Z",
+  "last_updated": "2026-03-18T03:18:41.009168Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -11143,7 +11143,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11352",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -11175,7 +11175,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10954",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -11220,7 +11220,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11116",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -11264,7 +11264,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11028",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -11296,7 +11296,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10803",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -11328,7 +11328,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10551",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -11360,7 +11360,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10455",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -11392,7 +11392,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10419",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -11424,7 +11424,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10232",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -11456,7 +11456,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10351",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -21581,7 +21581,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11330",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -21621,7 +21621,7 @@
         "A4-backport-stable2506"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10464",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -21650,7 +21650,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11078",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -21776,7 +21776,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10592",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -21834,7 +21834,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10379",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26172,6 +26172,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "11400": {
+      "number": "11400",
+      "title": "[CI/CD] Update pgpkms tool",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-17T17:57:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11400",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11404": {
+      "number": "11404",
+      "title": "[stable2509] Backport #11400",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-17T18:54:38Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11404",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11400
+    },
     "11375": {
       "number": "11375",
       "title": "[stable2509] Add srtool tag",
@@ -26321,7 +26354,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10802",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26362,7 +26395,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10530",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26428,7 +26461,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10639",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26501,7 +26534,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10541",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26531,7 +26564,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10525",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26605,7 +26638,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10311",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26674,7 +26707,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10418",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26705,7 +26738,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10362",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -26734,7 +26767,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10154",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -28267,7 +28300,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10676",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31061,6 +31094,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "11405": {
+      "number": "11405",
+      "title": "[stable2512] Backport #11400",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-17T18:45:15Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11405",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11400
+    },
     "11374": {
       "number": "11374",
       "title": "[stable2512] Add srtool tag",
@@ -31125,7 +31173,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11018",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31167,7 +31215,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11154",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31198,7 +31246,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11204",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31226,7 +31274,7 @@
         "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/1739",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31255,7 +31303,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11222",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31310,7 +31358,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11197",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31351,7 +31399,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11168",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31381,7 +31429,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9925",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31436,7 +31484,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11062",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31466,7 +31514,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11056",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31511,7 +31559,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11114",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31573,7 +31621,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10709",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31602,7 +31650,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11069",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31631,7 +31679,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11055",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31687,7 +31735,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10955",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31729,7 +31777,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11031",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -31756,7 +31804,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10771",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31796,7 +31844,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10986",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31824,7 +31872,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10957",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31852,7 +31900,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10980",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31881,7 +31929,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10972",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31910,7 +31958,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10947",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31938,7 +31986,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10934",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31966,7 +32014,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10880",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -31994,7 +32042,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10925",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32023,7 +32071,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10793",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32051,7 +32099,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10666",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32079,7 +32127,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10885",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32119,7 +32167,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10861",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32148,7 +32196,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10859",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32176,7 +32224,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10312",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32219,7 +32267,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10808",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32261,7 +32309,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10502",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32275,7 +32323,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10792",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32318,7 +32366,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10576",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32347,7 +32395,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10740",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32375,7 +32423,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10657",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32404,7 +32452,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10476",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32433,7 +32481,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10646",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32461,7 +32509,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10064",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32489,7 +32537,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10711",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32517,7 +32565,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10707",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32558,7 +32606,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10365",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32600,7 +32648,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10665",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32642,7 +32690,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10616",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32672,7 +32720,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9003",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32729,7 +32777,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10578",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32757,7 +32805,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10590",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32814,7 +32862,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10458",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32860,7 +32908,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10459",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32889,7 +32937,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10495",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32931,7 +32979,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10445",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32959,7 +33007,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10390",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -32987,7 +33035,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10503",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -33015,7 +33063,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10416",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -33058,7 +33106,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10446",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -33116,7 +33164,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10274",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -33188,7 +33236,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9685",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -33230,8 +33278,9 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11163",
-      "branch": "stable2512",
-      "is_direct": true
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
     },
     "10705": {
       "number": "10705",
@@ -33242,7 +33291,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10705",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -36342,6 +36391,33 @@
       "is_direct": false,
       "from_master": true
     },
+    "11406": {
+      "number": "11406",
+      "title": "[stable2603] Backport #11400",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-17T19:18:45Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11406",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11400
+    },
+    "11401": {
+      "number": "11401",
+      "title": "[stable2603] Bump spec_version",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-17T18:15:55Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11401",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "11376": {
       "number": "11376",
       "title": "[stable2603] Add srtool tag",
@@ -36393,7 +36469,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11194",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36423,7 +36499,7 @@
         "T20-low-latency"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11231",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36453,7 +36529,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11316",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36510,7 +36586,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11152",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36538,7 +36614,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10752",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36580,7 +36656,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11027",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36609,7 +36685,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10373",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36665,7 +36741,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10976",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36709,7 +36785,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11008",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36738,7 +36814,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10184",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36766,7 +36842,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10823",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36795,7 +36871,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11172",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36838,7 +36914,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11139",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36867,7 +36943,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11046",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36894,7 +36970,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10982",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36922,7 +36998,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11117",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -36965,7 +37041,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11115",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -37051,7 +37127,7 @@
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10917",
-      "branch": "master",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -37084,6 +37160,760 @@
       "is_backport": true,
       "original_pr": 11055
     },
+    "11392": {
+      "number": "11392",
+      "title": "Update signing key in readme and scritps",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-17T11:52:27Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11392",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11386": {
+      "number": "11386",
+      "title": "docs/elastic: Align unincluded with expected formula",
+      "author": "lexnv",
+      "merged_at": "2026-03-16T22:05:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11386",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11385": {
+      "number": "11385",
+      "title": "Sync .rustfmt.toml into parachain template",
+      "author": "0bmario",
+      "merged_at": "2026-03-17T12:36:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11385",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11384": {
+      "number": "11384",
+      "title": "Remove Bandersnatch SW form hostcalls",
+      "author": "davxy",
+      "merged_at": "2026-03-16T20:08:33Z",
+      "labels": [
+        "T5-host_functions",
+        "T17-primitives"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11384",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11371": {
+      "number": "11371",
+      "title": "Check runtime compatibility: Fix Westend check",
+      "author": "bkchr",
+      "merged_at": "2026-03-15T20:30:36Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11371",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11355": {
+      "number": "11355",
+      "title": "Zombienet functional test migration",
+      "author": "pepoviola",
+      "merged_at": "2026-03-17T10:00:34Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11355",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11328": {
+      "number": "11328",
+      "title": "runtime: allow older relay parents",
+      "author": "alindima",
+      "merged_at": "2026-03-12T09:24:59Z",
+      "labels": [
+        "T4-runtime_API",
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11328",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11322": {
+      "number": "11322",
+      "title": "[pallet-assets-precompiles] Idiomatic Rust cleanups",
+      "author": "0xRVE",
+      "merged_at": "2026-03-17T08:50:56Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A5-run-CI"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11322",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11314": {
+      "number": "11314",
+      "title": "statement-store: remove outdated benchmarks",
+      "author": "AndreiEres",
+      "merged_at": "2026-03-10T11:10:43Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11314",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11295": {
+      "number": "11295",
+      "title": "add  flag to collator",
+      "author": "pepoviola",
+      "merged_at": "2026-03-06T14:42:48Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11295",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11283": {
+      "number": "11283",
+      "title": "Implement retry in bridges equivocation loop",
+      "author": "serban300",
+      "merged_at": "2026-03-06T19:30:18Z",
+      "labels": [
+        "T15-bridges"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11283",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11282": {
+      "number": "11282",
+      "title": "[CI] Download resolc from GitHub release instead of artifact",
+      "author": "pgherveou",
+      "merged_at": "2026-03-09T10:50:04Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11282",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11277": {
+      "number": "11277",
+      "title": "Update ci-unified",
+      "author": "AndWeHaveAPlan",
+      "merged_at": "2026-03-05T19:45:20Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11277",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11276": {
+      "number": "11276",
+      "title": "pallet-revive: use u128 Balance in test config",
+      "author": "pgherveou",
+      "merged_at": "2026-03-05T14:15:43Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11276",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11273": {
+      "number": "11273",
+      "title": "grandpa: Ensure to send `Commit` message before rebuilding the voter",
+      "author": "bkchr",
+      "merged_at": "2026-03-05T13:54:28Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11273",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11268": {
+      "number": "11268",
+      "title": "Zombienet fix test `zombienet-cumulus-0015-parachain-runtime-upgrade`",
+      "author": "pepoviola",
+      "merged_at": "2026-03-05T20:37:27Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11268",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11263": {
+      "number": "11263",
+      "title": "XCMP: implement `ConcatenatedOpaqueVersionedXcm` negotiation",
+      "author": "serban300",
+      "merged_at": "2026-03-11T13:23:04Z",
+      "labels": [
+        "T6-XCM",
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11263",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11252": {
+      "number": "11252",
+      "title": "fix collators-basic-reputation-persistence-test, disable internal mon\u2026",
+      "author": "pepoviola",
+      "merged_at": "2026-03-04T15:33:22Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11252",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11251": {
+      "number": "11251",
+      "title": "people: Enable Elastic Scaling with 2 block times for people chain",
+      "author": "lexnv",
+      "merged_at": "2026-03-05T13:19:41Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11251",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11239": {
+      "number": "11239",
+      "title": "collator-protocol: check v3 candidate against last finished slot block",
+      "author": "iulianbarbu",
+      "merged_at": "2026-03-11T15:04:46Z",
+      "labels": [
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11239",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11234": {
+      "number": "11234",
+      "title": "statement-store. Add latency bench cli",
+      "author": "AndreiEres",
+      "merged_at": "2026-03-04T13:28:09Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T12-benchmarks"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11234",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11233": {
+      "number": "11233",
+      "title": "Updates PolkaVM to the latest version",
+      "author": "bkchr",
+      "merged_at": "2026-03-03T14:14:43Z",
+      "labels": [
+        "T17-primitives"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11233",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11232": {
+      "number": "11232",
+      "title": "fix: publish-check-compile.yml",
+      "author": "michalkucharczyk",
+      "merged_at": "2026-03-02T20:16:56Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11232",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11227": {
+      "number": "11227",
+      "title": "pallet-revive: add zero-value transfer/send stipend tests",
+      "author": "pgherveou",
+      "merged_at": "2026-03-03T10:55:32Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11227",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11224": {
+      "number": "11224",
+      "title": "Prometheus: Bind external address to IPv6",
+      "author": "bkchr",
+      "merged_at": "2026-03-02T17:02:01Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11224",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11223": {
+      "number": "11223",
+      "title": "check semver: Update parity-publish v0.10.6 -> v0.10.10",
+      "author": "dmitry-markin",
+      "merged_at": "2026-03-02T12:25:14Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11223",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11216": {
+      "number": "11216",
+      "title": "try state check for pallet babe",
+      "author": "dharjeezy",
+      "merged_at": "2026-03-12T09:55:39Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11216",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11214": {
+      "number": "11214",
+      "title": "Kanas/migrating async std to tokio",
+      "author": "Kanasjnr",
+      "merged_at": "2026-03-05T12:53:43Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "I5-enhancement",
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11214",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11203": {
+      "number": "11203",
+      "title": "asset-hub-westend: restrict StakingOperator proxy to explicit utility  batch calls",
+      "author": "sigurpol",
+      "merged_at": "2026-02-27T15:06:20Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11203",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11193": {
+      "number": "11193",
+      "title": "[eth-rpc]: cap block_number_to_hashes map size",
+      "author": "marian-radu",
+      "merged_at": "2026-02-27T17:06:14Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11193",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11191": {
+      "number": "11191",
+      "title": "Cumulus: Improve logging",
+      "author": "bkchr",
+      "merged_at": "2026-02-26T16:18:37Z",
+      "labels": [
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11191",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11184": {
+      "number": "11184",
+      "title": "Fix `burn` call weight in balances pallet",
+      "author": "ggwpez",
+      "merged_at": "2026-02-26T18:41:02Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11184",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11167": {
+      "number": "11167",
+      "title": "tiny fixes for staking weights",
+      "author": "kianenigma",
+      "merged_at": "2026-02-25T15:32:18Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11167",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11160": {
+      "number": "11160",
+      "title": "Grandpa `on_new_session()`: simplification + fix",
+      "author": "serban300",
+      "merged_at": "2026-02-25T09:22:19Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11160",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11158": {
+      "number": "11158",
+      "title": "Add timeout + people-westend to check-runtime CI ",
+      "author": "sigurpol",
+      "merged_at": "2026-02-24T20:05:26Z",
+      "labels": [
+        "T10-tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11158",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11157": {
+      "number": "11157",
+      "title": "Migrate zombienet polkadot smoke tests",
+      "author": "pepoviola",
+      "merged_at": "2026-03-03T22:09:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11157",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11151": {
+      "number": "11151",
+      "title": "[pallet-revive] Fix evm_sized and update call stipend",
+      "author": "mokita-j",
+      "merged_at": "2026-03-04T10:54:45Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11151",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11150": {
+      "number": "11150",
+      "title": "sp-crypto-ec-utils: Fix no_std",
+      "author": "davxy",
+      "merged_at": "2026-02-23T20:53:16Z",
+      "labels": [
+        "I2-bug"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11150",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11144": {
+      "number": "11144",
+      "title": "Snowbridge: receipt verification with alloy primitives",
+      "author": "yrong",
+      "merged_at": "2026-03-12T14:05:55Z",
+      "labels": [
+        "T15-bridges"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11144",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11108": {
+      "number": "11108",
+      "title": "polkadot-runtime-api-cache: Only cache validation code that exists",
+      "author": "bkchr",
+      "merged_at": "2026-02-19T11:12:34Z",
+      "labels": [
+        "T8-polkadot"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11108",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11102": {
+      "number": "11102",
+      "title": "polkadot-omni-node-lib: emit warnings for aura authority id type assumptions",
+      "author": "dotandev",
+      "merged_at": "2026-02-19T11:29:29Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11102",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11101": {
+      "number": "11101",
+      "title": "fix warp test",
+      "author": "pepoviola",
+      "merged_at": "2026-02-18T18:42:37Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T10-tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11101",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11096": {
+      "number": "11096",
+      "title": "pallet-revive: Remove warnings and use workspace dependencies",
+      "author": "bkchr",
+      "merged_at": "2026-02-26T17:02:42Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11096",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11095": {
+      "number": "11095",
+      "title": "`prefix_logs_with`: Ensure the macro works correctly for futures",
+      "author": "bkchr",
+      "merged_at": "2026-02-18T21:42:20Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11095",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11085": {
+      "number": "11085",
+      "title": "Sync: Gracefully handle blocks from an unknown fork",
+      "author": "bkchr",
+      "merged_at": "2026-02-20T23:31:12Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11085",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11076": {
+      "number": "11076",
+      "title": "build(deps): bump the ci_dependencies group across 1 directory with 10 updates",
+      "author": "dependabot[bot]",
+      "merged_at": "2026-02-17T22:02:08Z",
+      "labels": [
+        "A1-insubstantial",
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11076",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11070": {
+      "number": "11070",
+      "title": "statement-store: fix benchmark EMFILE by pooling RPC connections",
+      "author": "DenzelPenzel",
+      "merged_at": "2026-02-20T09:51:25Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11070",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11061": {
+      "number": "11061",
+      "title": "bump zombienet version and change deprecated methods",
+      "author": "pepoviola",
+      "merged_at": "2026-02-16T18:17:12Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11061",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11054": {
+      "number": "11054",
+      "title": "pallet-revive: minor cleanups and fixes",
+      "author": "pgherveou",
+      "merged_at": "2026-02-13T18:23:19Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11054",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11053": {
+      "number": "11053",
+      "title": "tracing-subscriber: Pin version to prevent ANSI colour code issues",
+      "author": "bkchr",
+      "merged_at": "2026-02-12T10:34:49Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11053",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11051": {
+      "number": "11051",
+      "title": "Add rate-limiter for statement networking",
+      "author": "AndreiEres",
+      "merged_at": "2026-02-24T13:41:46Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11051",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11049": {
+      "number": "11049",
+      "title": "Fix link-checker job: I am not giving up",
+      "author": "skunert",
+      "merged_at": "2026-02-12T09:56:40Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11049",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11044": {
+      "number": "11044",
+      "title": "[pallet-assets-precompiles] Add EIP-2612 permit support for gasless approvals",
+      "author": "0xRVE",
+      "merged_at": "2026-03-09T13:16:35Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11044",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11038": {
+      "number": "11038",
+      "title": "Fix link-checker CI job",
+      "author": "skunert",
+      "merged_at": "2026-02-10T20:45:02Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11038",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11037": {
+      "number": "11037",
+      "title": "Consolidate pallet-assets metadata benchmarks into single get_metadata benchmark",
+      "author": "0xRVE",
+      "merged_at": "2026-02-13T10:56:22Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11037",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11035": {
+      "number": "11035",
+      "title": "Add Pallas and Vesta curve host functions to sp-crypto-ec-utils",
+      "author": "coax1d",
+      "merged_at": "2026-03-16T16:44:39Z",
+      "labels": [
+        "T5-host_functions",
+        "T17-primitives"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11035",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
     "11020": {
       "number": "11020",
       "title": "Block Response Handler: Take protocol overhead better into account",
@@ -37093,7 +37923,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11020",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37106,7 +37936,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11009",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37119,7 +37949,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11007",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37132,6 +37962,32 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11006",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11004": {
+      "number": "11004",
+      "title": "Statementstore: Forward statements to light clients",
+      "author": "bkchr",
+      "merged_at": "2026-02-15T23:58:35Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11004",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10998": {
+      "number": "10998",
+      "title": "Cumulus: Simplify parent search for block-building",
+      "author": "skunert",
+      "merged_at": "2026-02-18T18:53:05Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10998",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37145,7 +38001,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10978",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37158,7 +38014,7 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10974",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37171,6 +38027,19 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10973",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10971": {
+      "number": "10971",
+      "title": "implement `IERC20Metadata` for pallet-assets-precompiles",
+      "author": "seunlanlege",
+      "merged_at": "2026-02-09T15:14:20Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10971",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37184,7 +38053,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10965",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37197,7 +38066,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10963",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37210,7 +38079,7 @@
         "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10960",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37223,7 +38092,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10958",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37236,7 +38105,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10950",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37249,7 +38118,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10939",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37262,6 +38131,97 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10928",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10924": {
+      "number": "10924",
+      "title": "revive: cap remaining_gas to u64::MAX in substrate_execution",
+      "author": "pgherveou",
+      "merged_at": "2026-03-09T12:46:42Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10924",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10923": {
+      "number": "10923",
+      "title": "[pallet-revive] Fix assertion message",
+      "author": "YichiZhang0613",
+      "merged_at": "2026-02-24T10:35:54Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10923",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10922": {
+      "number": "10922",
+      "title": "[pallet-revive] small improvements",
+      "author": "0xRVE",
+      "merged_at": "2026-02-09T14:57:28Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10922",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10920": {
+      "number": "10920",
+      "title": "[pallet-revive] Fix storage deposit refunds in nested contract calls",
+      "author": "0xRVE",
+      "merged_at": "2026-02-10T11:08:07Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10920",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10919": {
+      "number": "10919",
+      "title": "Add revive substrate runtime-api integration tests for call & instantiate",
+      "author": "pgherveou",
+      "merged_at": "2026-02-16T18:56:36Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10919",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10918": {
+      "number": "10918",
+      "title": "Fix delegatecall callTracer addresses",
+      "author": "pgherveou",
+      "merged_at": "2026-02-13T17:43:24Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10918",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10913": {
+      "number": "10913",
+      "title": "[Release|CI/CD] Automate publishing crates",
+      "author": "BDevParity",
+      "merged_at": "2026-02-11T18:17:45Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10913",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37275,7 +38235,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10911",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37286,7 +38246,7 @@
       "merged_at": "2026-01-29T15:05:15Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10907",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37300,7 +38260,7 @@
         "A4-backport-stable2506"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10906",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37313,7 +38273,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10905",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37326,7 +38286,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10904",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37339,6 +38299,19 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10902",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10893": {
+      "number": "10893",
+      "title": "Do not prune blocks with Grandpa justifications",
+      "author": "skunert",
+      "merged_at": "2026-02-18T10:50:56Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10893",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37353,7 +38326,7 @@
         "A4-backport-stable2506"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10891",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37367,6 +38340,19 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10886",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10884": {
+      "number": "10884",
+      "title": "[benchmarking-cli] Add `--keys-limit=Option<usize>` and `--random-seed=Option<u64>`",
+      "author": "arturgontijo",
+      "merged_at": "2026-02-25T22:58:46Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10884",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37380,6 +38366,20 @@
         "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10882",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10869": {
+      "number": "10869",
+      "title": "[pallet-assets] add ForeignAssetIdExtractor to assets precompile",
+      "author": "0xRVE",
+      "merged_at": "2026-02-27T03:24:42Z",
+      "labels": [
+        "T1-FRAME",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10869",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37394,7 +38394,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10866",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37407,6 +38407,32 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10863",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10856": {
+      "number": "10856",
+      "title": "[pallet-broker] add extrinsic to force transfer a region",
+      "author": "mertwole",
+      "merged_at": "2026-03-09T16:04:59Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10856",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10849": {
+      "number": "10849",
+      "title": "pallet-revive: Enable call_invalid_opcode test",
+      "author": "marian-radu",
+      "merged_at": "2026-03-03T11:53:43Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10849",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37420,7 +38446,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10848",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37433,7 +38459,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10847",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37446,7 +38472,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10846",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37460,7 +38486,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10843",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37473,7 +38499,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10842",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37486,7 +38512,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10838",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37500,7 +38526,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10835",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37513,7 +38539,7 @@
         "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10831",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37527,7 +38553,7 @@
         "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10830",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37540,7 +38566,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10828",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37553,7 +38579,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10827",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37567,6 +38593,19 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10826",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10816": {
+      "number": "10816",
+      "title": "Update to Rust 1.93",
+      "author": "athei",
+      "merged_at": "2026-02-23T13:13:32Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10816",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37580,7 +38619,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10807",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37594,7 +38633,7 @@
         "T11-documentation"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10805",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37607,7 +38646,7 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10804",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37620,6 +38659,20 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10796",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10794": {
+      "number": "10794",
+      "title": "[FRAME] Omni bencher run each benchmark at least 10 secs",
+      "author": "ggwpez",
+      "merged_at": "2026-02-11T15:52:51Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10794",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37634,7 +38687,7 @@
         "T4-runtime_API"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10787",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37647,7 +38700,7 @@
         "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10785",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37661,7 +38714,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10784",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37674,7 +38727,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10780",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37687,7 +38740,7 @@
         "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10779",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37698,7 +38751,7 @@
       "merged_at": "2026-01-13T09:18:57Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10770",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37709,7 +38762,7 @@
       "merged_at": "2026-01-13T22:43:14Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10767",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37722,7 +38775,7 @@
         "T15-bridges"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10763",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37735,6 +38788,20 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10761",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10760": {
+      "number": "10760",
+      "title": "subsystem-bench: adjust benchmark thresholds",
+      "author": "AndreiEres",
+      "merged_at": "2026-03-11T17:33:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T12-benchmarks"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10760",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -37748,7 +38815,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10755",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37761,7 +38828,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10749",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37774,7 +38841,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10739",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37787,7 +38854,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10735",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37802,7 +38869,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10732",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37815,7 +38882,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10729",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37829,7 +38896,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10725",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37842,7 +38909,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10723",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37856,7 +38923,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10721",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37869,7 +38936,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10718",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37882,7 +38949,7 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10716",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37895,7 +38962,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10713",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37908,7 +38975,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10712",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37922,7 +38989,7 @@
         "T18-zombienet_tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10710",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37936,7 +39003,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10703",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37949,7 +39016,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10698",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37962,7 +39029,7 @@
         "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10697",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37975,7 +39042,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10693",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -37988,7 +39055,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10692",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38001,7 +39068,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10690",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38014,7 +39081,7 @@
         "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10686",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38027,7 +39094,7 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10682",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38042,6 +39109,19 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10680",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10678": {
+      "number": "10678",
+      "title": "Feat: Add API and mechanism to retrieve additional top-level and child proofs via the relay state proof",
+      "author": "metricaez",
+      "merged_at": "2026-02-12T21:59:24Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10678",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38055,7 +39135,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10672",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38068,7 +39148,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10663",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38082,7 +39162,7 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10662",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38095,7 +39175,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10661",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38108,7 +39188,7 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10658",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38121,6 +39201,22 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10654",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10650": {
+      "number": "10650",
+      "title": "Prospective parachains cleanup",
+      "author": "eskimor",
+      "merged_at": "2026-02-25T13:26:39Z",
+      "labels": [
+        "T0-node",
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10650",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38134,7 +39230,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10649",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38149,7 +39245,7 @@
         "T14-system_parachains"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10648",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38163,7 +39259,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10645",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38176,7 +39272,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10638",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38189,7 +39285,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10635",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38202,7 +39298,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10634",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38215,7 +39311,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10632",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38226,7 +39322,7 @@
       "merged_at": "2025-12-11T20:47:27Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10623",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38237,7 +39333,7 @@
       "merged_at": "2026-01-23T11:56:58Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10617",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38250,7 +39346,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10612",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38264,7 +39360,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10595",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38277,7 +39373,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10594",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38290,7 +39386,7 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10593",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38304,7 +39400,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10588",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38318,7 +39414,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10586",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38331,7 +39427,7 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10582",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38344,7 +39440,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10580",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38357,7 +39453,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10573",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38370,7 +39466,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10570",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38384,7 +39480,7 @@
         "A4-backport-unstable2507"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10567",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38397,7 +39493,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10566",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38410,7 +39506,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10558",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38425,7 +39521,7 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10554",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38439,7 +39535,7 @@
         "T12-benchmarks"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10542",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38452,7 +39548,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10540",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38465,7 +39561,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10539",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38478,7 +39574,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10524",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38491,7 +39587,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10523",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38504,7 +39600,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10517",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38517,7 +39613,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10514",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38530,7 +39626,7 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10513",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38544,7 +39640,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10511",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38557,7 +39653,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10510",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38570,7 +39666,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10505",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38583,7 +39679,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10493",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38594,6 +39690,23 @@
       "merged_at": "2025-12-20T10:59:03Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10475",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10472": {
+      "number": "10472",
+      "title": " V3 Candidate Descriptor Support with Explicit Scheduling Parent + node feature",
+      "author": "eskimor",
+      "merged_at": "2026-03-05T09:47:50Z",
+      "labels": [
+        "T0-node",
+        "T8-polkadot",
+        "T18-zombienet_tests",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10472",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38607,7 +39720,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10471",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38620,7 +39733,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10462",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38633,7 +39746,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10460",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38646,7 +39759,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10454",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38659,7 +39772,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10451",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38672,7 +39785,7 @@
         "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10448",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38685,7 +39798,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10444",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38698,7 +39811,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10437",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38711,7 +39824,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10434",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38724,7 +39837,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10427",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38737,7 +39850,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10421",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38750,7 +39863,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10399",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38763,7 +39876,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10397",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38776,7 +39889,7 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10396",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38789,7 +39902,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10394",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38802,7 +39915,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10393",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38816,7 +39929,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10387",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38829,6 +39942,20 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10385",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10384": {
+      "number": "10384",
+      "title": "XCM executor keeps track and resolves all imbalances created by XCM operations",
+      "author": "acatangiu",
+      "merged_at": "2026-02-16T11:35:04Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10384",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38842,7 +39969,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10383",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38855,7 +39982,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10380",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38869,7 +39996,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10372",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38882,7 +40009,7 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10371",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38895,7 +40022,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10366",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38909,7 +40036,7 @@
         "T14-system_parachains"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10359",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38922,7 +40049,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10347",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38937,6 +40064,19 @@
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10340",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10328": {
+      "number": "10328",
+      "title": "pallet-revive: eth-rpc improve submit",
+      "author": "pgherveou",
+      "merged_at": "2026-02-23T16:01:33Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10328",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38950,6 +40090,19 @@
         "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10324",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10315": {
+      "number": "10315",
+      "title": "Introduce `MaxParachainBlockWeight` and related functionality",
+      "author": "bkchr",
+      "merged_at": "2026-03-14T22:42:52Z",
+      "labels": [
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10315",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -38963,7 +40116,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10309",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38976,7 +40129,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10302",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -38989,7 +40142,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10258",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39002,7 +40155,7 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10256",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39015,7 +40168,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10244",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39028,7 +40181,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10223",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39042,7 +40195,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10204",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39053,7 +40206,7 @@
       "merged_at": "2026-01-30T15:20:16Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10201",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39066,7 +40219,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10196",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39079,6 +40232,19 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10166",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10022": {
+      "number": "10022",
+      "title": "Feature/`slot_duration` migration",
+      "author": "iceseer",
+      "merged_at": "2026-02-25T20:38:57Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10022",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -39092,7 +40258,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9947",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39105,7 +40271,7 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9880",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39118,7 +40284,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9722",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39131,7 +40297,7 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9461",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39144,7 +40310,7 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9452",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39157,7 +40323,7 @@
         "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9184",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39171,7 +40337,7 @@
         "T18-zombienet_tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9086",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39185,7 +40351,7 @@
         "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8887",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39199,7 +40365,7 @@
         "T18-zombienet_tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8541",
-      "branch": "stable2603",
+      "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
     },
@@ -39212,6 +40378,36 @@
         "T15-bridges"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8175",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "7872": {
+      "number": "7872",
+      "title": "update SECURITY.md",
+      "author": "Gioyik",
+      "merged_at": "2026-02-26T09:04:39Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T11-documentation"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7872",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
+    },
+    "6029": {
+      "number": "6029",
+      "title": "Implementation of RFC-123",
+      "author": "ordian",
+      "merged_at": "2026-03-03T18:35:07Z",
+      "labels": [
+        "T2-pallets",
+        "T4-runtime_API",
+        "T8-polkadot",
+        "T9-cumulus"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/6029",
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
@@ -60856,6 +62052,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11404": 11400,
     "11363": 11352,
     "11357": 11330,
     "11250": 10954,
@@ -60934,6 +62131,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11405": 11400,
     "11364": 11352,
     "11358": 11330,
     "11304": 11018,
@@ -61016,6 +62214,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11406": 11400,
     "11365": 11352,
     "11359": 11330,
     "11353": 11194,
@@ -62213,6 +63412,11 @@
     ],
     "8820": [
       8822
+    ],
+    "11400": [
+      11404,
+      11405,
+      11406
     ],
     "10802": [
       10840,
