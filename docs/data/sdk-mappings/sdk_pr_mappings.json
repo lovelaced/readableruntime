@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-20T03:13:14.125576Z",
+  "last_updated": "2026-03-21T03:06:57.073578Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36587,6 +36587,37 @@
       "is_backport": true,
       "original_pr": 11389
     },
+    "11393": {
+      "number": "11393",
+      "title": "add relay parent to advertisement v3",
+      "author": "alindima",
+      "merged_at": "2026-03-18T17:11:01Z",
+      "labels": [
+        "T0-node",
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11393",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11421": {
+      "number": "11421",
+      "title": "[stable2603] Backport #11393",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-20T20:25:39Z",
+      "labels": [
+        "A3-backport",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11421",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11393
+    },
     "11406": {
       "number": "11406",
       "title": "[stable2603] Backport #11400",
@@ -62419,6 +62450,7 @@
     "10358": 10351,
     "11430": 11418,
     "11424": 11389,
+    "11421": 11393,
     "11406": 11400,
     "11365": 11352,
     "11359": 11330,
@@ -63999,6 +64031,9 @@
     ],
     "11389": [
       11424
+    ],
+    "11393": [
+      11421
     ],
     "11194": [
       11353
