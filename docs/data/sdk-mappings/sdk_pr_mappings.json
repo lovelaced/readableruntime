@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-24T03:15:17.524384Z",
+  "last_updated": "2026-03-25T03:16:54.544899Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -31220,6 +31220,32 @@
       "is_direct": false,
       "from_master": true
     },
+    "11482": {
+      "number": "11482",
+      "title": "[stable2512] Post crates release activities for stable2512-4",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-03-24T15:09:13Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11482",
+      "branch": "stable2512",
+      "is_direct": true
+    },
+    "11467": {
+      "number": "11467",
+      "title": "[stable2512] Backport #11467",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-24T12:54:55Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11467",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11467
+    },
     "11442": {
       "number": "11442",
       "title": "[stable2512] Post crates release activities for stable2512-3",
@@ -36544,6 +36570,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "11306": {
+      "number": "11306",
+      "title": "Add CandidateDescriptorV3 support to experimental validator",
+      "author": "AlexandruCihodaru",
+      "merged_at": "2026-03-24T11:12:32Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11306",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11478": {
+      "number": "11478",
+      "title": "[stable2603] Backport #11306",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-24T15:25:55Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11478",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11306
+    },
     "11463": {
       "number": "11463",
       "title": "Report back when candidate is rejected.",
@@ -36571,6 +36626,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11463
+    },
+    "11417": {
+      "number": "11417",
+      "title": "Decrease the log level for claim queue inconsistency in `ClaimQueueState`",
+      "author": "tdimitrov",
+      "merged_at": "2026-03-23T11:09:03Z",
+      "labels": [
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11417",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11466": {
+      "number": "11466",
+      "title": "[stable2603] Backport #11417",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-24T09:30:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11466",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11417
     },
     "11290": {
       "number": "11290",
@@ -36601,6 +36684,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11290
+    },
+    "11332": {
+      "number": "11332",
+      "title": "client/db: Close missing body gaps for non archive nodes",
+      "author": "lexnv",
+      "merged_at": "2026-03-19T16:12:59Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11332",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11452": {
+      "number": "11452",
+      "title": "[stable2603] Backport #11332",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-24T08:20:43Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11452",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11332
     },
     "11440": {
       "number": "11440",
@@ -62438,6 +62550,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11467": 11467,
     "11429": 11418,
     "11405": 11400,
     "11364": 11352,
@@ -62522,8 +62635,11 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11478": 11306,
     "11471": 11463,
+    "11466": 11417,
     "11454": 11290,
+    "11452": 11332,
     "11440": 11433,
     "11430": 11418,
     "11424": 11389,
@@ -63915,6 +64031,9 @@
       9655,
       9654
     ],
+    "11467": [
+      11467
+    ],
     "11018": [
       11304,
       11305
@@ -64107,11 +64226,20 @@
     "9685": [
       10374
     ],
+    "11306": [
+      11478
+    ],
     "11463": [
       11471
     ],
+    "11417": [
+      11466
+    ],
     "11290": [
       11454
+    ],
+    "11332": [
+      11452
     ],
     "11389": [
       11424
