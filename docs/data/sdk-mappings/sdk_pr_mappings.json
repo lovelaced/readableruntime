@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-26T03:18:41.871484Z",
+  "last_updated": "2026-03-27T03:21:31.319002Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36594,6 +36594,114 @@
       "is_direct": false,
       "from_master": true
     },
+    "11523": {
+      "number": "11523",
+      "title": "[stable2603] Move prdocs to release folder",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-26T17:28:43Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11523",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11520": {
+      "number": "11520",
+      "title": "[stable2603] Bump static_init to 1.0.4 and make umbrella major version bump aligned with stable",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-26T13:00:17Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11520",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11334": {
+      "number": "11334",
+      "title": "Expose ECC host functions",
+      "author": "ggwpez",
+      "merged_at": "2026-03-25T21:05:03Z",
+      "labels": [
+        "T5-host_functions",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11334",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11517": {
+      "number": "11517",
+      "title": "[stable2603] Backport #11334",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-26T09:47:13Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11517",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11334
+    },
+    "11468": {
+      "number": "11468",
+      "title": "Add a call to `.unvalidated()` for all eth-rpc interactions",
+      "author": "0xOmarA",
+      "merged_at": "2026-03-26T08:26:37Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11468",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11516": {
+      "number": "11516",
+      "title": "[stable2603] Backport #11468",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-26T17:23:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11516",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11468
+    },
+    "11496": {
+      "number": "11496",
+      "title": "Don't bubble up errors during collator score parsing in collator protocol",
+      "author": "tdimitrov",
+      "merged_at": "2026-03-25T13:55:14Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11496",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11501": {
+      "number": "11501",
+      "title": "[stable2603] Backport #11496",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-26T07:24:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11501",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11496
+    },
     "11407": {
       "number": "11407",
       "title": "Statement Store: Introduce new CLI args",
@@ -36621,6 +36729,63 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11407
+    },
+    "11457": {
+      "number": "11457",
+      "title": "eth-rpc: add support for the earliest block tag",
+      "author": "marian-radu",
+      "merged_at": "2026-03-24T08:19:13Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11457",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11490": {
+      "number": "11490",
+      "title": "[stable2603] Backport #11457",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-26T14:40:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11490",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11457
+    },
+    "11153": {
+      "number": "11153",
+      "title": "[eth-rpc]: add resumable block sync and improve CLI arguments",
+      "author": "marian-radu",
+      "merged_at": "2026-03-20T11:47:16Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2603",
+        "feature"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11153",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11489": {
+      "number": "11489",
+      "title": "[stable2603] Backport #11153",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-26T08:39:13Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11489",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11153
     },
     "11441": {
       "number": "11441",
@@ -62863,7 +63028,12 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11517": 11334,
+    "11516": 11468,
+    "11501": 11496,
     "11495": 11407,
+    "11490": 11457,
+    "11489": 11153,
     "11488": 11441,
     "11478": 11306,
     "11471": 11463,
@@ -64456,8 +64626,23 @@
     "9685": [
       10374
     ],
+    "11334": [
+      11517
+    ],
+    "11468": [
+      11516
+    ],
+    "11496": [
+      11501
+    ],
     "11407": [
       11495
+    ],
+    "11457": [
+      11490
+    ],
+    "11153": [
+      11489
     ],
     "11441": [
       11488
