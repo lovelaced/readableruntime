@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-27T03:21:31.319002Z",
+  "last_updated": "2026-03-28T03:14:41.733759Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36593,6 +36593,42 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11544": {
+      "number": "11544",
+      "title": "Move validate resume step after configure git",
+      "author": "BDevParity",
+      "merged_at": "2026-03-28T00:25:21Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11544",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11541": {
+      "number": "11541",
+      "title": "Add safe.directory in failure handler",
+      "author": "BDevParity",
+      "merged_at": "2026-03-27T19:30:48Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11541",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11533": {
+      "number": "11533",
+      "title": "Move validate resume step after checkout",
+      "author": "BDevParity",
+      "merged_at": "2026-03-27T15:43:15Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11533",
+      "branch": "stable2603",
+      "is_direct": true
     },
     "11523": {
       "number": "11523",
