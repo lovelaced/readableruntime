@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-28T03:14:41.733759Z",
+  "last_updated": "2026-03-29T03:22:06.221317Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36593,6 +36593,18 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11546": {
+      "number": "11546",
+      "title": "Bump parity-publish to 0.10.13",
+      "author": "BDevParity",
+      "merged_at": "2026-03-28T14:45:31Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11546",
+      "branch": "stable2603",
+      "is_direct": true
     },
     "11544": {
       "number": "11544",
