@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-30T03:19:31.783376Z",
+  "last_updated": "2026-03-31T03:19:59.702806Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36594,6 +36594,42 @@
       "is_direct": false,
       "from_master": true
     },
+    "11565": {
+      "number": "11565",
+      "title": "[stable2603] User proper llmv setup fro macos builds",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-30T14:50:31Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11565",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11562": {
+      "number": "11562",
+      "title": "[stable2603] Add fix for macos builds",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-30T13:05:35Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11562",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11549": {
+      "number": "11549",
+      "title": "[stable2603] Post crates release activities for stable2603",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-03-30T12:06:20Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11549",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "11546": {
       "number": "11546",
       "title": "Bump parity-publish to 0.10.13",
@@ -36641,6 +36677,33 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11533",
       "branch": "stable2603",
       "is_direct": true
+    },
+    "11485": {
+      "number": "11485",
+      "title": "Fix per-ancestor core assignment and add regression test",
+      "author": "AlexandruCihodaru",
+      "merged_at": "2026-03-27T11:26:32Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "T20-low-latency"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11485",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11530": {
+      "number": "11530",
+      "title": "[stable2603] Backport #11485",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-03-30T07:27:29Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11530",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11485
     },
     "11523": {
       "number": "11523",
@@ -63076,6 +63139,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11530": 11485,
     "11517": 11334,
     "11516": 11468,
     "11501": 11496,
@@ -64673,6 +64737,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11485": [
+      11530
     ],
     "11334": [
       11517
