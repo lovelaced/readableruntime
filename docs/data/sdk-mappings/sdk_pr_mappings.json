@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-31T03:19:59.702806Z",
+  "last_updated": "2026-04-01T03:18:46.940355Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -37929,6 +37929,18 @@
       "is_backport": true,
       "original_pr": 11055
     },
+    "11572": {
+      "number": "11572",
+      "title": "Version bumps and prdocs reoirdering from stable2603",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-31T13:18:41Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11572",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "11392": {
       "number": "11392",
       "title": "Update signing key in readme and scritps",
@@ -39594,7 +39606,10 @@
       "author": "0xRVE",
       "merged_at": "2026-01-08T18:50:22Z",
       "labels": [
-        "T7-smart_contracts"
+        "T7-smart_contracts",
+        "A4-backport-stable2503",
+        "A4-backport-stable2506",
+        "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10749",
       "branch": "stable2603-stale",
