@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05T03:19:05.593892Z",
+  "last_updated": "2026-04-06T03:21:00.376468Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -36534,6 +36534,33 @@
       "is_backport": true,
       "original_pr": 11576
     },
+    "11469": {
+      "number": "11469",
+      "title": "Westend: Support Meta Transactions",
+      "author": "cirko33",
+      "merged_at": "2026-04-01T09:51:55Z",
+      "labels": [
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11469",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11599": {
+      "number": "11599",
+      "title": "[stable2603] Backport #11469",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-05T10:35:06Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11599",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11469
+    },
     "11435": {
       "number": "11435",
       "title": "Raise offence queue eras bound limit",
@@ -63122,6 +63149,7 @@
     "10358": 10351,
     "11639": 11626,
     "11635": 11576,
+    "11599": 11469,
     "11584": 11435,
     "11530": 11485,
     "11517": 11334,
@@ -64727,6 +64755,9 @@
     ],
     "11576": [
       11635
+    ],
+    "11469": [
+      11599
     ],
     "11435": [
       11584
