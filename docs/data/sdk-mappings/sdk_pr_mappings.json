@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-07T03:18:41.052400Z",
+  "last_updated": "2026-04-08T03:18:46.276974Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21510,6 +21510,102 @@
       "is_direct": false,
       "from_master": true
     },
+    "11631": {
+      "number": "11631",
+      "title": "[Release|CI/CD] Trigger check-sync flow in callable flows only if they are triggered manually and not with the workflow_call trigger",
+      "author": "BDevParity",
+      "merged_at": "2026-04-07T11:28:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11631",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11669": {
+      "number": "11669",
+      "title": "[stable2506] Backport #11631",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-07T15:18:40Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11669",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11631
+    },
+    "11567": {
+      "number": "11567",
+      "title": "Align Tally::approval() with VoteTally trait semantics",
+      "author": "dhirajs0",
+      "merged_at": "2026-04-01T11:42:54Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11567",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11605": {
+      "number": "11605",
+      "title": "[stable2506] Backport #11567",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-07T10:44:22Z",
+      "labels": [
+        "A3-backport",
+        "T1-FRAME"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11605",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11567
+    },
+    "11461": {
+      "number": "11461",
+      "title": "[Release|CI] - Support releasing crates to staging.crates.io",
+      "author": "BDevParity",
+      "merged_at": "2026-03-29T11:48:26Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11461",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11550": {
+      "number": "11550",
+      "title": "[stable2506] Backport #11461",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-07T08:59:51Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11550",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11461
+    },
     "11437": {
       "number": "11437",
       "title": "[stable2506] Backport #11433",
@@ -21539,6 +21635,38 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11418
+    },
+    "11400": {
+      "number": "11400",
+      "title": "[CI/CD] Update pgpkms tool",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-03-17T17:57:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11400",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11403": {
+      "number": "11403",
+      "title": "[stable2506] Backport #11400",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-07T13:08:48Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11403",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11400
     },
     "11362": {
       "number": "11362",
@@ -21625,6 +21753,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10464
+    },
+    "10906": {
+      "number": "10906",
+      "title": "collator-protocol: Remove stale pending collations from the waiting queue",
+      "author": "lexnv",
+      "merged_at": "2026-01-30T11:49:24Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10906",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11312": {
+      "number": "11312",
+      "title": "[stable2506] Backport #10906",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-07T16:42:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11312",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10906
     },
     "11078": {
       "number": "11078",
@@ -26183,23 +26339,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11418
-    },
-    "11400": {
-      "number": "11400",
-      "title": "[CI/CD] Update pgpkms tool",
-      "author": "EgorPopelyaev",
-      "merged_at": "2026-03-17T17:57:42Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11400",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "11404": {
       "number": "11404",
@@ -39021,20 +39160,6 @@
       "merged_at": "2026-01-29T15:05:15Z",
       "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10907",
-      "branch": "stable2603-stale",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10906": {
-      "number": "10906",
-      "title": "collator-protocol: Remove stale pending collations from the waiting queue",
-      "author": "lexnv",
-      "merged_at": "2026-01-30T11:49:24Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2506"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10906",
       "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
@@ -62894,11 +63019,16 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11669": 11631,
+    "11605": 11567,
+    "11550": 11461,
     "11437": 11433,
     "11427": 11418,
+    "11403": 11400,
     "11362": 11352,
     "11356": 11330,
     "11313": 10464,
+    "11312": 10906,
     "11310": 11078,
     "11249": 10954,
     "11121": 11116,
@@ -64221,6 +64351,21 @@
     "7670": [
       7675
     ],
+    "11631": [
+      11669
+    ],
+    "11567": [
+      11605
+    ],
+    "11461": [
+      11550
+    ],
+    "11400": [
+      11403,
+      11404,
+      11405,
+      11406
+    ],
     "11330": [
       11356,
       11357,
@@ -64229,6 +64374,9 @@
     ],
     "10464": [
       11313
+    ],
+    "10906": [
+      11312
     ],
     "11078": [
       11310,
@@ -64379,11 +64527,6 @@
     ],
     "8820": [
       8822
-    ],
-    "11400": [
-      11404,
-      11405,
-      11406
     ],
     "10802": [
       10840,
