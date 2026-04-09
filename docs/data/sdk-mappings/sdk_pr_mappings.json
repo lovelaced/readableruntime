@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-08T03:18:46.276974Z",
+  "last_updated": "2026-04-09T03:21:48.343327Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21542,6 +21542,38 @@
       "is_backport": true,
       "original_pr": 11631
     },
+    "11652": {
+      "number": "11652",
+      "title": "[Release|CI/CD] Add `parity-publish restore` step to simplify post crates release activity",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-04-06T17:27:01Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11652",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11657": {
+      "number": "11657",
+      "title": "[stable2506] Backport #11652",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T07:50:49Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11657",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11652
+    },
     "11567": {
       "number": "11567",
       "title": "Align Tally::approval() with VoteTally trait semantics",
@@ -26309,6 +26341,97 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11632": {
+      "number": "11632",
+      "title": "[Release|CI/CD] Fix warnings in GH workflows or release pipeline",
+      "author": "BDevParity",
+      "merged_at": "2026-04-07T17:01:56Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11632",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11679": {
+      "number": "11679",
+      "title": "[stable2509] Backport #11632",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T18:42:06Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11679",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11632
+    },
+    "11670": {
+      "number": "11670",
+      "title": "[stable2509] Backport #11631",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T10:01:43Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11670",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11631
+    },
+    "11658": {
+      "number": "11658",
+      "title": "[stable2509] Backport #11652",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T16:44:48Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11658",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11652
+    },
+    "11606": {
+      "number": "11606",
+      "title": "[stable2509] Backport #11567",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T08:04:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11606",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11567
+    },
+    "11551": {
+      "number": "11551",
+      "title": "[stable2509] Backport #11461",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T14:53:22Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11551",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11461
     },
     "11438": {
       "number": "11438",
@@ -31242,6 +31365,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "11607": {
+      "number": "11607",
+      "title": "[stable2512] Backport #11567",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T13:23:41Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11607",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11567
+    },
+    "11552": {
+      "number": "11552",
+      "title": "[stable2512] Backport #11461",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T18:19:55Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11552",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11461
+    },
     "11482": {
       "number": "11482",
       "title": "[stable2512] Post crates release activities for stable2512-4",
@@ -31279,6 +31431,21 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11442",
       "branch": "stable2512",
       "is_direct": true
+    },
+    "11439": {
+      "number": "11439",
+      "title": "[stable2512] Backport #11433",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T15:58:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11439",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11433
     },
     "11429": {
       "number": "11429",
@@ -36615,6 +36782,118 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11667": {
+      "number": "11667",
+      "title": "statement-store: read allowance on best hash",
+      "author": "alexggh",
+      "merged_at": "2026-04-08T08:40:29Z",
+      "labels": [
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11667",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11687": {
+      "number": "11687",
+      "title": "[stable2603] Backport #11667",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T14:04:39Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11687",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11667
+    },
+    "11668": {
+      "number": "11668",
+      "title": "Remove Meta Tx from Westend RC",
+      "author": "cirko33",
+      "merged_at": "2026-04-07T23:29:35Z",
+      "labels": [
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11668",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11683": {
+      "number": "11683",
+      "title": "[stable2603] Backport #11668",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T21:45:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11683",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11668
+    },
+    "11621": {
+      "number": "11621",
+      "title": "Enforce current relay parent to be available",
+      "author": "eskimor",
+      "merged_at": "2026-04-07T21:44:43Z",
+      "labels": [
+        "T0-node",
+        "T9-cumulus",
+        "A4-backport-stable2506",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11621",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11682": {
+      "number": "11682",
+      "title": "[stable2603] Backport #11621",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T09:44:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11682",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11621
+    },
+    "11629": {
+      "number": "11629",
+      "title": "collator-protocol: Enhance visibility into para id of failed to fetch collations",
+      "author": "lexnv",
+      "merged_at": "2026-04-07T14:29:59Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11629",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11675": {
+      "number": "11675",
+      "title": "[stable2603] Backport #11629",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-08T11:01:56Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11675",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11629
     },
     "11626": {
       "number": "11626",
@@ -63020,6 +63299,7 @@
     "7675": 7670,
     "7648": 7640,
     "11669": 11631,
+    "11657": 11652,
     "11605": 11567,
     "11550": 11461,
     "11437": 11433,
@@ -63111,6 +63391,11 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11679": 11632,
+    "11670": 11631,
+    "11658": 11652,
+    "11606": 11567,
+    "11551": 11461,
     "11438": 11433,
     "11428": 11418,
     "11404": 11400,
@@ -63192,7 +63477,10 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11607": 11567,
+    "11552": 11461,
     "11467": 11467,
+    "11439": 11433,
     "11429": 11418,
     "11405": 11400,
     "11364": 11352,
@@ -63277,6 +63565,10 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11687": 11667,
+    "11683": 11668,
+    "11682": 11621,
+    "11675": 11629,
     "11639": 11626,
     "11635": 11576,
     "11599": 11469,
@@ -64060,6 +64352,7 @@
       11436,
       11437,
       11438,
+      11439,
       11440
     ],
     "11418": [
@@ -64352,13 +64645,22 @@
       7675
     ],
     "11631": [
-      11669
+      11669,
+      11670
+    ],
+    "11652": [
+      11657,
+      11658
     ],
     "11567": [
-      11605
+      11605,
+      11606,
+      11607
     ],
     "11461": [
-      11550
+      11550,
+      11551,
+      11552
     ],
     "11400": [
       11403,
@@ -64527,6 +64829,9 @@
     ],
     "8820": [
       8822
+    ],
+    "11632": [
+      11679
     ],
     "10802": [
       10840,
@@ -64892,6 +65197,18 @@
     ],
     "9685": [
       10374
+    ],
+    "11667": [
+      11687
+    ],
+    "11668": [
+      11683
+    ],
+    "11621": [
+      11682
+    ],
+    "11629": [
+      11675
     ],
     "11626": [
       11639
