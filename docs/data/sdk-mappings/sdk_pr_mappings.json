@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-09T03:21:48.343327Z",
+  "last_updated": "2026-04-10T03:23:46.686033Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21510,6 +21510,81 @@
       "is_direct": false,
       "from_master": true
     },
+    "11709": {
+      "number": "11709",
+      "title": "[stable2506] Post crates release activities for stable2506-10",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-04-09T20:41:36Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11709",
+      "branch": "stable2506",
+      "is_direct": true
+    },
+    "11693": {
+      "number": "11693",
+      "title": "Add disk cleanup option to publish crates workflow",
+      "author": "BDevParity",
+      "merged_at": "2026-04-08T18:57:03Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11693",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11696": {
+      "number": "11696",
+      "title": "[stable2506] Backport #11693",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-09T08:00:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11696",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11693
+    },
+    "11621": {
+      "number": "11621",
+      "title": "Enforce current relay parent to be available",
+      "author": "eskimor",
+      "merged_at": "2026-04-07T21:44:43Z",
+      "labels": [
+        "T0-node",
+        "T9-cumulus",
+        "A4-backport-stable2506",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11621",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11688": {
+      "number": "11688",
+      "title": "[stable2506] Backport #11621",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-09T12:24:32Z",
+      "labels": [
+        "A3-backport",
+        "T18-zombienet_tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11688",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11621
+    },
     "11631": {
       "number": "11631",
       "title": "[Release|CI/CD] Trigger check-sync flow in callable flows only if they are triggered manually and not with the workflow_call trigger",
@@ -26341,6 +26416,21 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11697": {
+      "number": "11697",
+      "title": "[stable2509] Backport #11693",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-09T08:10:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11697",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11693
     },
     "11632": {
       "number": "11632",
@@ -31365,6 +31455,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11707": {
+      "number": "11707",
+      "title": "[stable2512] Check benches against stable2512",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-04-09T15:21:52Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11707",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "11607": {
       "number": "11607",
       "title": "[stable2512] Backport #11567",
@@ -31378,6 +31480,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11567
+    },
+    "10749": {
+      "number": "10749",
+      "title": "[pallet-revive] fixtures compilation fix for rust 1.92.0",
+      "author": "0xRVE",
+      "merged_at": "2026-01-08T18:50:22Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2506",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10749",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11587": {
+      "number": "11587",
+      "title": "[stable2512] Backport #10749",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-09T09:16:56Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11587",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10749
     },
     "11552": {
       "number": "11552",
@@ -36783,6 +36914,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "11706": {
+      "number": "11706",
+      "title": "[stable2603] Update bumps to minor",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-04-09T15:22:58Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11706",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "11667": {
       "number": "11667",
       "title": "statement-store: read allowance on best hash",
@@ -36836,22 +36979,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11668
-    },
-    "11621": {
-      "number": "11621",
-      "title": "Enforce current relay parent to be available",
-      "author": "eskimor",
-      "merged_at": "2026-04-07T21:44:43Z",
-      "labels": [
-        "T0-node",
-        "T9-cumulus",
-        "A4-backport-stable2506",
-        "A4-backport-stable2603"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11621",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "11682": {
       "number": "11682",
@@ -37029,6 +37156,21 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11562",
       "branch": "stable2603",
       "is_direct": true
+    },
+    "11553": {
+      "number": "11553",
+      "title": "[stable2603] Backport #11461",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-09T12:04:58Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11553",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11461
     },
     "11549": {
       "number": "11549",
@@ -39994,21 +40136,6 @@
         "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10755",
-      "branch": "stable2603-stale",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10749": {
-      "number": "10749",
-      "title": "[pallet-revive] fixtures compilation fix for rust 1.92.0",
-      "author": "0xRVE",
-      "merged_at": "2026-01-08T18:50:22Z",
-      "labels": [
-        "T7-smart_contracts",
-        "A4-backport-stable2506",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10749",
       "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
@@ -63298,6 +63425,8 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11696": 11693,
+    "11688": 11621,
     "11669": 11631,
     "11657": 11652,
     "11605": 11567,
@@ -63391,6 +63520,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11697": 11693,
     "11679": 11632,
     "11670": 11631,
     "11658": 11652,
@@ -63478,6 +63608,7 @@
     "9655": 9632,
     "9653": 9641,
     "11607": 11567,
+    "11587": 10749,
     "11552": 11461,
     "11467": 11467,
     "11439": 11433,
@@ -63573,6 +63704,7 @@
     "11635": 11576,
     "11599": 11469,
     "11584": 11435,
+    "11553": 11461,
     "11530": 11485,
     "11517": 11334,
     "11516": 11468,
@@ -64644,6 +64776,14 @@
     "7670": [
       7675
     ],
+    "11693": [
+      11696,
+      11697
+    ],
+    "11621": [
+      11688,
+      11682
+    ],
     "11631": [
       11669,
       11670
@@ -64660,7 +64800,8 @@
     "11461": [
       11550,
       11551,
-      11552
+      11552,
+      11553
     ],
     "11400": [
       11403,
@@ -65003,6 +65144,9 @@
       9655,
       9654
     ],
+    "10749": [
+      11587
+    ],
     "11467": [
       11467
     ],
@@ -65203,9 +65347,6 @@
     ],
     "11668": [
       11683
-    ],
-    "11621": [
-      11682
     ],
     "11629": [
       11675
