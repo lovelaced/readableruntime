@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-13T03:24:27.211577Z",
+  "last_updated": "2026-04-14T03:19:42.814056Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21516,6 +21516,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "11723": {
+      "number": "11723",
+      "title": "[Release|CI/CD] Fix git push in Post Crates Activities flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-04-10T17:27:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11723",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11727": {
+      "number": "11727",
+      "title": "[stable2506] Backport #11723",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T11:52:08Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11727",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11723
+    },
     "11718": {
       "number": "11718",
       "title": "[stable2506] Bump static_init to 1.0.4",
@@ -26487,6 +26519,21 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11728": {
+      "number": "11728",
+      "title": "[stable2509] Backport #11723",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T12:00:07Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11728",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11723
     },
     "11720": {
       "number": "11720",
@@ -31538,6 +31585,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "11738": {
+      "number": "11738",
+      "title": "MMR: check `verify_ancestor()` output",
+      "author": "serban300",
+      "merged_at": "2026-04-13T16:30:35Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2506",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11738",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11743": {
+      "number": "11743",
+      "title": "[stable2512] Backport #11738",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T18:01:12Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11743",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11738
+    },
     "11721": {
       "number": "11721",
       "title": "[stable2512] Bump static_init to 1.0.4",
@@ -31561,6 +31640,51 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11707",
       "branch": "stable2512",
       "is_direct": true
+    },
+    "11698": {
+      "number": "11698",
+      "title": "[stable2512] Backport #11693",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T13:50:15Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11698",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11693
+    },
+    "11680": {
+      "number": "11680",
+      "title": "[stable2512] Backport #11632",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T12:40:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11680",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11632
+    },
+    "11671": {
+      "number": "11671",
+      "title": "[stable2512] Backport #11631",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T11:55:04Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11671",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11631
     },
     "11659": {
       "number": "11659",
@@ -37147,6 +37271,21 @@
       "is_backport": true,
       "original_pr": 11621
     },
+    "11681": {
+      "number": "11681",
+      "title": "[stable2603] Backport #11632",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T14:08:40Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11681",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11632
+    },
     "11629": {
       "number": "11629",
       "title": "collator-protocol: Enhance visibility into para id of failed to fetch collations",
@@ -37174,6 +37313,21 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11629
+    },
+    "11672": {
+      "number": "11672",
+      "title": "[stable2603] Backport #11631",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-13T12:25:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11672",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11631
     },
     "11660": {
       "number": "11660",
@@ -67502,6 +67656,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11727": 11723,
     "11696": 11693,
     "11688": 11621,
     "11669": 11631,
@@ -67598,6 +67753,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11728": 11723,
     "11697": 11693,
     "11679": 11632,
     "11670": 11631,
@@ -67685,6 +67841,10 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11743": 11738,
+    "11698": 11693,
+    "11680": 11632,
+    "11671": 11631,
     "11659": 11652,
     "11637": 11612,
     "11622": 11425,
@@ -67780,7 +67940,9 @@
     "11687": 11667,
     "11683": 11668,
     "11682": 11621,
+    "11681": 11632,
     "11675": 11629,
+    "11672": 11631,
     "11660": 11652,
     "11639": 11626,
     "11638": 11612,
@@ -68861,9 +69023,14 @@
     "7670": [
       7675
     ],
+    "11723": [
+      11727,
+      11728
+    ],
     "11693": [
       11696,
-      11697
+      11697,
+      11698
     ],
     "11621": [
       11688,
@@ -68871,7 +69038,9 @@
     ],
     "11631": [
       11669,
-      11670
+      11670,
+      11671,
+      11672
     ],
     "11652": [
       11657,
@@ -69064,7 +69233,9 @@
       8822
     ],
     "11632": [
-      11679
+      11679,
+      11680,
+      11681
     ],
     "10802": [
       10840,
@@ -69235,6 +69406,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "11738": [
+      11743
     ],
     "11612": [
       11637,
