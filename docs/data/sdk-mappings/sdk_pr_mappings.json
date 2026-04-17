@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-17T03:21:58.582559Z",
+  "last_updated": "2026-04-17T18:23:48.957689Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -156,6 +156,12 @@
       "release_date": "2026-04-08T14:04:39Z",
       "total_prs": 417,
       "new_prs": 417
+    },
+    "v2.2.1": {
+      "sdk_version": "stable2603-1-rc1",
+      "release_date": "2026-04-08T14:04:39Z",
+      "total_prs": 0,
+      "new_prs": 0
     }
   },
   "pr_details": {
@@ -35930,7 +35936,8 @@
       "merged_at": "2025-11-03T08:56:09Z",
       "labels": [
         "T0-node",
-        "T9-cumulus"
+        "T9-cumulus",
+        "A4-backport-stable2506"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9929",
       "branch": "stable2512",
@@ -37256,6 +37263,7 @@
       "merged_at": "2025-10-20T12:54:51Z",
       "labels": [
         "T0-node",
+        "A4-backport-stable2506",
         "A4-backport-stable2509"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9178",

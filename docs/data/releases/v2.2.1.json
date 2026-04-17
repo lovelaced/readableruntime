@@ -1,0 +1,225 @@
+{
+  "newer_release": {
+    "tag_name": "v2.2.1",
+    "created_at": "2026-04-17T14:18:34Z",
+    "name": "Runtimes 2.2.1",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.2.1] 16.04.2026\n\n### Added\n\n- [[#1143](https://github.com/polkadot-fellows/runtimes/pull/1143)] All runtimes now support the transaction extension `AuthorizeCall`.\n- Add Bulletin Polkadot live chain spec and genesis preset ([#1146](https://github.com/polkadot-fellows/runtimes/pull/1146)).\n\n### Changed\n\n- Polkadot and Kusama AH: reduce `DepositPerChildTrieItem` config of pallet-revive by factor of 10 ([1113](https://github.com/polkadot-fellows/runtimes/pull/1113))\n- Bump maximum number of reserved cores to 50 on Polkadot and Kusama Coretime chains ([#1147](https://github.com/polkadot-fellows/runtimes/pull/1147))\n- Update dependencies to stable2603-1 ([#1148](https://github.com/polkadot-fellows/runtimes/pull/1148)).\n- Bulletin Polkadot: switch to 24s Aura slot duration ([#1149](https://github.com/polkadot-fellows/runtimes/pull/1149))\n\n# Runtime info\n*These runtimes were built with **rustc 1.93.0 (254b59607 2026-01-19)** using **[srtool v0.18.4](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.59Mi (1659987 bytes)\n\ud83d\udddc Compressed:             Yes: 80.07%\n\ud83d\udd25 Core Version:           polkadot-2002001 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6e8df549e3c17a4aa26693347b7b9146ea5966e3a56f7ce9d0df4a37d6702778\n\ud83d\udce6 IPFS:                   QmRjEJXHVPJYSNKAUz8PCE2euXBhGZ87zfdUVRx2WYh4Rd\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1081918 bytes)\n\ud83d\udddc Compressed:             Yes: 79.91%\n\ud83d\udd25 Core Version:           people-polkadot-2002001 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x8616344be2cf52c6dbac455f00d37dd1e94e7b2792a026d01258425d5ca087e7\n\ud83d\udce6 IPFS:                   QmZxL4BKKmvky9hMR2dQYWmUBE3PwaKSSJgPJQZaXdVw4s\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           973.92Ki (997294 bytes)\n\ud83d\udddc Compressed:             Yes: 79.44%\n\ud83d\udd25 Core Version:           people-kusama-2002001 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x6de3af101b080167741fbf5f6053b42ccd6894bc07de054fef934a639eeb3dd5\n\ud83d\udce6 IPFS:                   QmVFRHLS4aP6eq8MZB1h2XESmgLTT39GjzwV2DtWfFGHUK\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.66Mi (1733015 bytes)\n\ud83d\udddc Compressed:             Yes: 80.38%\n\ud83d\udd25 Core Version:           kusama-2002001 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xaa69841fd642fbc00b00e33ccc750627e157c17946ab9af64c487cd1c4d30e18\n\ud83d\udce6 IPFS:                   Qmc6vAgaXhJpKYseDc2Shz6LT17588Wbn4pWPdXxACVe8t\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           459.43Ki (470455 bytes)\n\ud83d\udddc Compressed:             Yes: 77.96%\n\ud83d\udd25 Core Version:           glutton-2002001 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x52aa66db4d6e14c69752287e1d306399caa21e09d2d9f174eeff71671d927538\n\ud83d\udce6 IPFS:                   QmaanQo3yBQF4p9mdh91fEPib2MBS7cxAokpP3Hmi4GWXE\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.17Mi (1220006 bytes)\n\ud83d\udddc Compressed:             Yes: 79.78%\n\ud83d\udd25 Core Version:           encointer-parachain-2002001 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x642f232d10acacd69773c8557d5457f294be596fd748e405c4a4a66de4569a22\n\ud83d\udce6 IPFS:                   QmRxibt5HU6TBnXLxjV2CFxvqVSGQ5Wsh3wqi8sgPgMGPj\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           976.58Ki (1000010 bytes)\n\ud83d\udddc Compressed:             Yes: 79.43%\n\ud83d\udd25 Core Version:           coretime-polkadot-2002001 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x239547a0d1a01c279beb6bce2a5512d8c69be693d37f1fc6fb13b14385b0ccec\n\ud83d\udce6 IPFS:                   QmQ6uN1UBsoh7zDMVkLHse9zMJP4qUm2DvmoWL223BT62r\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           977.69Ki (1001148 bytes)\n\ud83d\udddc Compressed:             Yes: 79.41%\n\ud83d\udd25 Core Version:           coretime-kusama-2002001 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5234e8e4e6f3e256be923fef8fa3bfa002ea3abbbd60b48f1c04876c67a8cb69\n\ud83d\udce6 IPFS:                   QmcKJsFq9jfBTXRXrFjao9DLsEk4TNGmXSEKWGeyTHpdmc\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.08Mi (1130132 bytes)\n\ud83d\udddc Compressed:             Yes: 80.62%\n\ud83d\udd25 Core Version:           collectives-2002001 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xee8cd77687e33d5f970e49e9c8da5a2dc610c7e87669ae13c56f5fecf0eae63b\n\ud83d\udce6 IPFS:                   QmazLJwMcQ2srbRPFKaza6HkxV2GuBakGCKi6WYAVHeDC3\n~~~\n\n## Bulletin Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           899.17Ki (920746 bytes)\n\ud83d\udddc Compressed:             Yes: 79.13%\n\ud83d\udd25 Core Version:           bulletin-polkadot-2002001 bulletin-polkadot-1.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xad57082d2d342a06f487fd0d7f2d21e0e03b8a48432a2d9cc8b876fa27c43967\n\ud83d\udce6 IPFS:                   QmWGFZQvLJXsPxXRiMc6wSNQQ7P3aa4tWM8NUpCbPPmcWd\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.21Mi (1265899 bytes)\n\ud83d\udddc Compressed:             Yes: 79.49%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2002001 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x475470b3493efb077bd87bee5f3cc29ed8bb0fcda2118d7e3a7637bb9cc88591\n\ud83d\udce6 IPFS:                   QmUWHwunL1PUmNbUH2HREewDxSX3oExELnDxkaVFtqFGBc\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.01Mi (1050243 bytes)\n\ud83d\udddc Compressed:             Yes: 79.21%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2002001 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x7e19d43f8d3557708082affd20ef67d93247f9e41e62557c979a484855bb7817\n\ud83d\udce6 IPFS:                   QmQ61Z4EhNzEzMMW4Ffw1WqjpSTxa17idF5f4N5cHYkr1N\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.10Mi (2195686 bytes)\n\ud83d\udddc Compressed:             Yes: 81.5%\n\ud83d\udd25 Core Version:           statemint-2002001 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb160d880adc0954728ebd255ba4d8b28266fae3b564d82670a486c5c63028778\n\ud83d\udce6 IPFS:                   QmdJiJ5DkHwLDwSJPLwdDkgnmBxCgzeTgks9hagzyibyiB\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.16Mi (2259483 bytes)\n\ud83d\udddc Compressed:             Yes: 81.87%\n\ud83d\udd25 Core Version:           statemine-2002001 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xcd1d1062061474437875cbc368e759abae8ecde7ee590ecd8eebb8f1f97a403d\n\ud83d\udce6 IPFS:                   Qmd4xbUVF7RNqTadVVZFPE9frRSEtTwmBWsuX6kshchDEy\n~~~\n",
+    "sdk_version": "polkadot-primitives-v23.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.2.0",
+    "created_at": "2026-04-12T18:42:18Z",
+    "name": "Runtimes 2.2.0",
+    "sdk_version": "polkadot-primitives-v23.0.0"
+  },
+  "pr_count": 9,
+  "ai_analysis": "# Polkadot Fellows Runtimes v2.2.1 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\nThis is a minor patch release that primarily focuses on **improving blockchain scalability and smart contract affordability**. The changes are mostly internal optimizations that users will benefit from automatically.\n\n### Main Improvements:\n- **Better Performance**: The network can now handle more parallel operations (elastic scaling improvements)\n- **Cheaper Smart Contracts**: Storage costs for smart contracts on Polkadot and Kusama Asset Hubs reduced by 90%\n- **Enhanced Infrastructure**: Added support for the new Bulletin Chain (a specialized blockchain for announcements)\n- **Faster Development**: Improved development tools and testing infrastructure\n\n### User Benefits:\n- Smart contract developers will pay significantly less for data storage\n- Better network performance during high usage periods\n- No action required from regular users - improvements are automatic\n\n## 2. Key Changes Explained\n\n### Performance Improvements\n- **Elastic Scaling Enhancement**: Increased the maximum number of reserved cores from 10 to 50 on both Polkadot and Kusama Coretime chains. This allows the network to handle much more parallel processing during busy periods, similar to adding more lanes to a highway.\n\n### Cost Reductions\n- **Smart Contract Storage**: Reduced the `DepositPerChildTrieItem` parameter by 90% on Asset Hubs. This means developers storing data in smart contracts will pay roughly one-tenth of what they used to pay, making blockchain applications much more affordable.\n\n### New Infrastructure\n- **Bulletin Chain Support**: Added infrastructure for the new Bulletin Chain, which will be used for official announcements and communications within the Polkadot ecosystem.\n- **Enhanced Security Framework**: Added `AuthorizeCall` transaction extension across all runtimes, preparing for future security improvements.\n\n### Technical Optimizations\n- **Improved Block Times**: Bulletin Chain now uses 24-second slot durations for better performance\n- **Dependency Updates**: Updated various underlying components for better stability and security\n\n## 3. Technical Summary for Developers\n\n### API/Interface Changes\n- **New Transaction Extension**: All runtimes now include `AuthorizeCall` in their transaction extension tuple. This is backward compatible but developers should be aware of the new structure.\n- **Bulletin Chain Integration**: New chain spec generator support for bulletin-polkadot configuration.\n\n### Configuration Changes\n- **Broker Pallet**: `MaxReservedCores` increased from `ConstU32<10>` to `ConstU32<50>` on both Polkadot and Kusama coretime chains\n- **Revive Pallet**: `DepositPerChildTrieItem` reduced by factor of 10 on Asset Hubs:\n  - Old: `system_para_deposit(1, 0) / 10`\n  - New: `system_para_deposit(1, 0) / 100`\n\n### Migration Requirements\n- **No Breaking Changes**: All changes are backward compatible\n- **Runtime Upgrades**: Standard runtime upgrade process applies\n- **Smart Contract Developers**: Automatic benefit from reduced storage costs\n\n### Development Infrastructure\n- **CI/CD Improvements**: Optimized continuous integration workflows, reducing test times for non-release branches\n- **Chain Spec Generation**: Enhanced tooling for generating chain specifications\n\n## 4. Code Impact Analysis\n\n### Most Affected Components\n1. **Coretime Pallets** (Polkadot & Kusama): Core scaling parameter adjustments\n2. **Asset Hub Runtimes**: Smart contract cost configuration changes  \n3. **Transaction Extensions**: All runtime files updated to include new security extension\n4. **Bulletin Chain**: Complete integration into the runtime ecosystem\n5. **CI/CD Pipeline**: Significant workflow optimizations\n\n### Types of Changes Made\n- **Configuration Updates** (60%): Parameter tuning for better performance and cost efficiency\n- **Infrastructure Addition** (25%): New Bulletin Chain support and tooling\n- **Development Experience** (10%): CI improvements and dependency updates\n- **Security Preparation** (5%): AuthorizeCall extension for future security enhancements\n\n### Code Quality Indicators\n- **Small, Focused Changes**: Most PRs had minimal file changes (3-6 files average)\n- **Good Documentation**: All changes include changelog entries\n- **Backward Compatibility**: No breaking changes introduced\n- **Incremental Improvement**: Changes build upon existing functionality rather than replacing it\n\nThis release demonstrates a mature development approach with careful, incremental improvements that enhance user experience without disrupting existing functionality.",
+  "pr_details": [
+    {
+      "number": 1147,
+      "title": "Bump maximum number of reserved cores to 50 on Polkadot and Kusama Coretime chains",
+      "author": "seadanda",
+      "merged_at": "2026-04-14T17:28:29Z",
+      "body": "In the world of elastic scaling the original limits are too low.\r\n\r\n- [ ] Does not require a CHANGELOG entry\r\n",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 8,
+      "deletions": 2,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/coretime/coretime-polkadot/src/coretime.rs",
+        "system-parachains/coretime/coretime-kusamsrc/coretime.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 0
+    },
+    {
+      "number": 1146,
+      "title": "feat: add bulletin chain spec to generator",
+      "author": "franciscoaguirre",
+      "merged_at": "2026-04-15T20:45:01Z",
+      "body": "Part of: https://github.com/polkadot-fellows/runtimes/issues/1119\r\n\r\nI added the Bulletin Chain live genesis preset and used it in the chain spec generator\r\n",
+      "labels": [],
+      "files_changed": 6,
+      "additions": 76,
+      "deletions": 1,
+      "file_list": [
+        "Cargo.lock",
+        "system-parachains/bulletin/bulletin-polkadot/src/genesis_config_presets.rs",
+        "system-parachains/bulletin/bulletin-polkadot/Cargo.toml",
+        "CHANGELOG.md",
+        "chain-spec-generator/src/system_parachains_specs.rs",
+        "chain-spec-generator/src/main.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1143,
+      "title": "Add `AuthorizeCall` transaction extension to all runtimes",
+      "author": "gui1117",
+      "merged_at": "2026-04-15T05:44:51Z",
+      "body": "This transaction extension is barely used for now, but we may use it in the future we should support it, better than expecting it and having it missed, and there is no downside to have it.",
+      "labels": [],
+      "files_changed": 15,
+      "additions": 21,
+      "deletions": 0,
+      "file_list": [
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/tests/tests.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/tests/snowbridge.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/bridge-hubs/bridge-hub-kusamtests/tests.rs",
+        "relay/polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 1131,
+      "title": "Release 2.2.0",
+      "author": "ggwpez",
+      "merged_at": "2026-04-12T18:42:18Z",
+      "body": "Changes:\r\n- **Bump specs to 2.2.0**\r\n- **CHANGELOG**\r\n- Enable preimages pallet on Polkadot Relay so that we can register bulletin chain\r\n\r\nTODO:\r\n- https://github.com/polkadot-fellows/runtimes/pull/1141\r\n",
+      "labels": [],
+      "files_changed": 15,
+      "additions": 16,
+      "deletions": 20,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 12
+    },
+    {
+      "number": 1150,
+      "title": "Release 2.2.1",
+      "author": "ggwpez",
+      "merged_at": "2026-04-17T14:18:34Z",
+      "body": "Changes:\r\n- Bump specs to 2.2.1\r\n- Fix CI",
+      "labels": [],
+      "files_changed": 19,
+      "additions": 79,
+      "deletions": 45,
+      "file_list": [
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        ".github/workflows/check-migrations.yml",
+        ".github/workflows/changelog.yml",
+        "integration-tests/emulated/tests/coretime/coretime-polkadot/src/tests/coretime_interface.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        ".github/workflows/test.yml",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/people/people-kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 12
+    },
+    {
+      "number": 1113,
+      "title": "Reduce DepositPerChildTrieItem by factor of 10",
+      "author": "TorstenStueber",
+      "merged_at": "2026-04-15T01:27:37Z",
+      "body": "This PR reduces the configuration parameter `DepositPerChildTrieItem` of pallet-revive in Polkadot AH and Kusama AH by a factor of 10.\r\n\r\nThe reasoning is that the deposit cost of storing a new value in the storage of a smart contract is currently about ten times as high as the equivalent gas cost in Ethereum (taking the current gas cost and Ethereum price into account) and even more so if compared with other Ethereum-compatible chains.\r\n\r\nThis hinders adoption. All smart contract storage is stored in child tries instead of in the main trie and therefore there is no good reason to keep the deposit price as this high level.",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 3,
+      "deletions": 3,
+      "file_list": [
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 0
+    },
+    {
+      "number": 1148,
+      "title": "Update stable2603-1 deps",
+      "author": "ggwpez",
+      "merged_at": "2026-04-15T13:17:28Z",
+      "body": "Update `pallet-assets`, `pallet-mmr` and `snowbridge-verification-primitives`.\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 24,
+      "deletions": 23,
+      "file_list": [
+        "CHANGELOG.md",
+        "Cargo.lock"
+      ],
+      "linked_issues": [],
+      "comment_count": 3
+    },
+    {
+      "number": 1145,
+      "title": "Disable some CI checks on non-release",
+      "author": "ggwpez",
+      "merged_at": "2026-04-15T17:00:56Z",
+      "body": "Speed up CI.  \r\n- [x] Does not require a CHANGELOG entry\r\n\r\nChanges:\r\n- **Only run PET tests on release MR or Release branch push**\r\n- **microoptimize fmt**\r\n- **forbid warnings**\r\n- **quiet benchmark logging**\r\n- **Only run zombienet tests on releases as well**\r\n- **skip slow checks for drafts**\r\n",
+      "labels": [],
+      "files_changed": 6,
+      "additions": 59,
+      "deletions": 21,
+      "file_list": [
+        ".github/workflows/test.yml",
+        ".github/workflows/check-migrations.yml",
+        ".github/workflows/changelog.yml",
+        ".github/workflows/check-features.yml",
+        ".github/workflows/clippy.yml",
+        ".github/workflows/fmt.yml"
+      ],
+      "linked_issues": [],
+      "comment_count": 18
+    },
+    {
+      "number": 1149,
+      "title": "bulletin-chain: switch to 24s aura slots",
+      "author": "sandreim",
+      "merged_at": "2026-04-15T23:07:21Z",
+      "body": "We missed this during initial review. Longer AURA slots improve elastic scaling tput and censorship resistance.\r\n",
+      "labels": [],
+      "files_changed": 2,
+      "additions": 5,
+      "deletions": 5,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    }
+  ]
+}
