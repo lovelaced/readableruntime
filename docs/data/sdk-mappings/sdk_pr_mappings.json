@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-18T03:21:44.503360Z",
+  "last_updated": "2026-04-19T03:22:40.025779Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -19466,7 +19466,7 @@
     "6738": {
       "number": "6738",
       "title": "Migrate `pallet-insecure-randomness-collective-flip` to umbrella crate",
-      "author": "feremousiopi",
+      "author": "tennyson-adeniyi",
       "merged_at": "2025-01-22T18:48:21Z",
       "labels": [
         "R0-no-crate-publish-required",
@@ -36301,7 +36301,7 @@
     "9826": {
       "number": "9826",
       "title": "Update `pallet-asset-rewards` to use BlockNumberProvider",
-      "author": "feremousiopi",
+      "author": "tennyson-adeniyi",
       "merged_at": "2025-09-29T10:47:37Z",
       "labels": [
         "T2-pallets"
