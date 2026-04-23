@@ -1,0 +1,83 @@
+{
+  "newer_release": {
+    "tag_name": "v2.2.2",
+    "created_at": "2026-04-23T10:55:13Z",
+    "name": "Runtimes 2.2.2",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.2.2] 23.04.2026\n\n### Changed\n\n- people-polkadot: Allow multiple blocks per slot ([#1154](https://github.com/polkadot-fellows/runtimes/pull/1154))\n\n# Runtime info\n*These runtimes were built with **rustc 1.93.0 (254b59607 2026-01-19)** using **[srtool v0.18.4](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.59Mi (1659992 bytes)\n\ud83d\udddc Compressed:             Yes: 80.07%\n\ud83d\udd25 Core Version:           polkadot-2002002 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x2c09bc6527596a7608e162ee76f61caadb9952bb96309bef6edebf09fe7ee46e\n\ud83d\udce6 IPFS:                   QmUGo9rmviF6ZKDSkdn64NvAR6chvAsmfh3QEsme4RVysC\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1081920 bytes)\n\ud83d\udddc Compressed:             Yes: 79.91%\n\ud83d\udd25 Core Version:           people-polkadot-2002002 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3f0652ba1159157eff567b8e0e5987c8fc67a614f0909ce0f65f0d8a2b532864\n\ud83d\udce6 IPFS:                   Qmb4tAsKnVHAmnNYsQMjPAwPvypXGUbwQY2VPit9NnBbLA\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           973.90Ki (997267 bytes)\n\ud83d\udddc Compressed:             Yes: 79.44%\n\ud83d\udd25 Core Version:           people-kusama-2002002 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4a5ed5644b90105859303a8a701e1e75b379f6b948a3610b5c9133b3f5d9bc25\n\ud83d\udce6 IPFS:                   QmcxUcUPhi22moGMwSahHvTabLXA1K5dGVT2TRgRexEq7Q\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.66Mi (1733016 bytes)\n\ud83d\udddc Compressed:             Yes: 80.38%\n\ud83d\udd25 Core Version:           kusama-2002002 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x5f49be01df703a1a4cf78f33befca55182b50474c962f7edbcce1b401e25e02d\n\ud83d\udce6 IPFS:                   QmPK2U7kbvbNDefyR26UkaPrgcfHMarNdAmYRVgB79rbq2\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           459.43Ki (470448 bytes)\n\ud83d\udddc Compressed:             Yes: 77.96%\n\ud83d\udd25 Core Version:           glutton-2002002 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb49471615805d54d6fc85a99658b9332fde5e56f11fd47dede119926220a55e7\n\ud83d\udce6 IPFS:                   QmXWhbSfmekGJybUi9VnKzx2NHKrqJz2JVXcVyWzpdjhff\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.17Mi (1220142 bytes)\n\ud83d\udddc Compressed:             Yes: 79.77%\n\ud83d\udd25 Core Version:           encointer-parachain-2002002 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc668d17d7f106a020a9e02fe17851bb2afa533069f38d81a281410ac568e24d6\n\ud83d\udce6 IPFS:                   QmeetUKmLFttXqGxE3k5Fi7TxSXHjex7nW6VxxJZLBJ174\n~~~\n\n## Coretime Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           976.54Ki (999967 bytes)\n\ud83d\udddc Compressed:             Yes: 79.43%\n\ud83d\udd25 Core Version:           coretime-polkadot-2002002 coretime-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xc10ee68341a40f4710c191b594f784084221f54c7d0ab5b2981e334b1b0edcd4\n\ud83d\udce6 IPFS:                   QmTpeBPUr31D12xk5oGBYZScfc198Q4EAJq85t9wBjPR2Y\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           977.73Ki (1001191 bytes)\n\ud83d\udddc Compressed:             Yes: 79.41%\n\ud83d\udd25 Core Version:           coretime-kusama-2002002 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x8860d18e3b0423af1a1573b187a809ad8ca103af474197c46578688651f41c11\n\ud83d\udce6 IPFS:                   Qmd18bRWg71tLS1Sdp3HxKaeb6LpgnhF4wA4m8Py23i6nQ\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.08Mi (1130183 bytes)\n\ud83d\udddc Compressed:             Yes: 80.62%\n\ud83d\udd25 Core Version:           collectives-2002002 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x82de03958205336fd12108d6c050294bd42e005b979bfd07ff97362fff0fc773\n\ud83d\udce6 IPFS:                   QmZ2q72G7qVviit6kL3BYNt45MXJMgXmviS2STVVR37jZt\n~~~\n\n## Bulletin Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           899.19Ki (920761 bytes)\n\ud83d\udddc Compressed:             Yes: 79.13%\n\ud83d\udd25 Core Version:           bulletin-polkadot-2002002 bulletin-polkadot-1.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xada6a60afb666e23e2371fcf77dbbc62afd32e2395e6ed806fc8759c78d659ca\n\ud83d\udce6 IPFS:                   QmYU4xsyh973WRJmfdsqYFP624Aos9d8mGj6fRuLh78xdd\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.21Mi (1265899 bytes)\n\ud83d\udddc Compressed:             Yes: 79.49%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2002002 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xf74dabf007bbeada42a51d0c8596137321d09fc17bfed3eabdeae71ebac100f4\n\ud83d\udce6 IPFS:                   QmQQyQtWHWQdtiqCL36ciHs9oUP5PTRzS7updyN1cM9fEx\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.01Mi (1050218 bytes)\n\ud83d\udddc Compressed:             Yes: 79.21%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2002002 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd846437dfddf1a5647408070eee8d0265c252b99c5b0e2dd6f3398cf4eed15de\n\ud83d\udce6 IPFS:                   QmezUvySaVP62Q6TTg8euqTcoHoWSHGT8QbPWRtZLkUUjK\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.10Mi (2195697 bytes)\n\ud83d\udddc Compressed:             Yes: 81.5%\n\ud83d\udd25 Core Version:           statemint-2002002 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x4c2045ab8f94a99eccfe5906a5c29418fee14f2922e4669bb6837e615dd58cc7\n\ud83d\udce6 IPFS:                   QmaDQPYsnLawxN13WkGBERT5tAz3oRVYvGVkEqHREPgmpW\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.16Mi (2259543 bytes)\n\ud83d\udddc Compressed:             Yes: 81.87%\n\ud83d\udd25 Core Version:           statemine-2002002 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xe8303ab896ab27c24448732e0c4dd760cd57c75db8b8376745e5ee9dfdcf583c\n\ud83d\udce6 IPFS:                   QmNpfSiw1BfiY6yMFDh9hpoH3KyhCP48yLgSaBGhq6Pgfy\n~~~\n",
+    "sdk_version": "polkadot-primitives-v23.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.2.1",
+    "created_at": "2026-04-17T14:18:34Z",
+    "name": "Runtimes 2.2.1",
+    "sdk_version": "polkadot-primitives-v23.0.0"
+  },
+  "pr_count": 2,
+  "ai_analysis": "# Polkadot Fellows Runtimes v2.2.2 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n### What Changed\nThis release primarily fixes a technical issue affecting the \"People\" parachain on Polkadot. The main problem was that the chain wasn't producing blocks frequently enough, causing delays and reduced performance.\n\n### Main Improvements\n- **Better Block Production**: Fixed an issue where the People parachain would skip creating blocks too often, leading to better network performance and faster transaction processing\n- **CI System Fixes**: Improved the automated testing and release systems (behind-the-scenes improvements)\n\n### Benefits Users Will See\n- **Faster Transactions**: Users interacting with identity services on Polkadot should experience more consistent performance\n- **More Reliable Network**: Fewer interruptions in block production means a more stable experience\n\n### Actions Required\n- **No user action needed**: This is a network-level upgrade that will be deployed automatically\n- Node operators may need to update their software when available\n\n## 2. Key Changes Explained\n\n### Performance Improvements\n- **Multiple Blocks Per Slot**: The People parachain can now create multiple blocks within the same time slot when needed, preventing the \"Slot must increase\" errors that were causing missed block production opportunities\n\n### Bug Fixes\n- **CI Pipeline Fixes**: Resolved issues with the continuous integration system that were causing problems with automated testing and releases\n- **Quote Character Fixes**: Fixed syntax errors in automation scripts that used incorrect quotation marks\n\n### No Breaking Changes\n- This release maintains full compatibility with existing applications and wallets\n- No API changes that would affect developers or users\n\n## 3. Technical Summary for Developers\n\n### Major Changes\n- **Consensus Configuration**: Modified the People parachain's block production parameters to allow multiple blocks per slot\n- **Runtime Version Bumps**: All runtime specs updated from 2.2.1 to 2.2.2\n\n### No API Changes\n- No breaking changes to runtime APIs\n- No migration requirements for existing applications\n- Existing integrations will continue to work without modification\n\n### Technical Improvements\n- **GitHub Actions Fixes**: \n  - Fixed typographic quotes in shell conditionals\n  - Improved release branch detection logic\n  - Better handling of changelog validation for different event types\n\n## 4. Code Impact Analysis\n\n### Most Affected Systems\n1. **People Parachain**: Core block production logic modified\n2. **CI/CD Pipeline**: Multiple workflow files updated for better automation\n3. **Version Management**: All runtime version numbers incremented across the ecosystem\n\n### Types of Changes Made\n\n**Configuration Changes (70%)**:\n- Runtime version bumps across all parachains\n- Block production parameter adjustments\n- Changelog updates\n\n**Bug Fixes (25%)**:\n- GitHub Actions workflow corrections\n- Shell script syntax fixes\n- Conditional logic improvements\n\n**Process Improvements (5%)**:\n- Better release detection\n- Enhanced CI pipeline reliability\n\n### Files Modified\n- **15 files** in the main fix (PR #1154)\n- **19 files** in the release preparation (PR #1150)\n- Primary focus on runtime library files (`lib.rs`) and CI configuration\n\n### Change Scope\nThis was a **minor release** focusing on:\n- Operational improvements rather than feature additions\n- Bug fixes for existing functionality\n- Infrastructure and tooling enhancements\n\nThe changes were well-tested using Zombienet (a network simulation tool) to ensure block production worked correctly before release.",
+  "pr_details": [
+    {
+      "number": 1150,
+      "title": "Release 2.2.1",
+      "author": "ggwpez",
+      "merged_at": "2026-04-17T14:18:34Z",
+      "body": "Changes:\r\n- Bump specs to 2.2.1\r\n- Fix CI",
+      "labels": [],
+      "files_changed": 19,
+      "additions": 79,
+      "deletions": 45,
+      "file_list": [
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        ".github/workflows/changelog.yml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        ".github/workflows/test.yml",
+        "relay/kusamsrc/lib.rs",
+        ".github/workflows/check-migrations.yml",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "integration-tests/emulated/tests/coretime/coretime-polkadot/src/tests/coretime_interface.rs",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs",
+        "CHANGELOG.md"
+      ],
+      "linked_issues": [],
+      "comment_count": 12
+    },
+    {
+      "number": 1154,
+      "title": "people-polkadot: Allow multiple blocks per slot + Release 2.2.2",
+      "author": "skunert",
+      "merged_at": "2026-04-23T10:55:13Z",
+      "body": "We are seeing in various collator logs `Slot must increase` and only infrequent block building. With ES, we need to allow multiple blocks per slot.",
+      "labels": [],
+      "files_changed": 15,
+      "additions": 22,
+      "deletions": 16,
+      "file_list": [
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "relay/polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 12
+    }
+  ]
+}
