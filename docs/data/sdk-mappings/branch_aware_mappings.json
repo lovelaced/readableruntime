@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T03:25:47.926035Z",
+  "generated_at": "2026-04-25T03:22:35.496124Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -370,7 +370,7 @@
         "polkadot-primitives": "22.0.0",
         "sp-runtime": "45.0.0"
       },
-      "branch_pr_count": 417,
+      "branch_pr_count": 418,
       "included_branches": [
         "stable2512"
       ],
@@ -385,7 +385,7 @@
         "polkadot-primitives": "22.0.0",
         "sp-runtime": "45.0.0"
       },
-      "branch_pr_count": 417,
+      "branch_pr_count": 418,
       "included_branches": [
         "stable2512"
       ],
@@ -2139,7 +2139,7 @@
         "stable2512-1-rc1"
       ],
       "created_date": "2025-11-18T13:32:56Z",
-      "pr_count": 417
+      "pr_count": 418
     },
     "stable2509": {
       "tags": [
@@ -2355,7 +2355,7 @@
   "statistics": {
     "total_sdk_tags": 167,
     "total_branches": 14,
-    "total_prs_tracked": 3179,
+    "total_prs_tracked": 3180,
     "runtime_releases_mapped": 28
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-24T03:25:47.928174Z",
+  "last_updated": "2026-04-25T03:22:35.498236Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -31734,6 +31734,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "10712": {
+      "number": "10712",
+      "title": "[pallet-revive] remove code related to stable and unstable_hostfn",
+      "author": "0xRVE",
+      "merged_at": "2026-01-07T20:16:35Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10712",
+      "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11874": {
+      "number": "11874",
+      "title": "[stable2512] Backport #10712",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-24T09:19:03Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11874",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10712
+    },
     "10780": {
       "number": "10780",
       "title": "Fix pallet-revive-fixtures",
@@ -40962,20 +40991,6 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10713",
-      "branch": "stable2603-stale",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10712": {
-      "number": "10712",
-      "title": "[pallet-revive] remove code related to stable and unstable_hostfn",
-      "author": "0xRVE",
-      "merged_at": "2026-01-07T20:16:35Z",
-      "labels": [
-        "T7-smart_contracts",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10712",
       "branch": "stable2603-stale",
       "is_direct": false,
       "from_master": true
@@ -68175,6 +68190,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11874": 10712,
     "11873": 10780,
     "11785": 11703,
     "11781": 11773,
@@ -69768,6 +69784,9 @@
     "9632": [
       9655,
       9654
+    ],
+    "10712": [
+      11874
     ],
     "10780": [
       11873
