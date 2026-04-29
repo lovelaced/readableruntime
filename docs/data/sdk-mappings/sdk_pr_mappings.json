@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-28T03:25:24.389504Z",
+  "last_updated": "2026-04-29T03:24:50.592488Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -23214,6 +23214,64 @@
       "branch": "stable2603",
       "is_direct": true
     },
+    "11762": {
+      "number": "11762",
+      "title": "Bump collation `in_peers` to 300 for the experimental collator protocol",
+      "author": "tdimitrov",
+      "merged_at": "2026-04-17T08:49:27Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11762",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11808": {
+      "number": "11808",
+      "title": "[stable2603] Backport #11762",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-28T12:36:08Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11808",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11762
+    },
+    "11786": {
+      "number": "11786",
+      "title": "[stable2603] Backport #11703",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-28T10:44:30Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11786",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11703
+    },
+    "11782": {
+      "number": "11782",
+      "title": "[stable2603] Backport #11773",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-04-28T07:10:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11782",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11773
+    },
     "11768": {
       "number": "11768",
       "title": "[stable2603] Post crates release activities",
@@ -43474,6 +43532,9 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11808": 11762,
+    "11786": 11703,
+    "11782": 11773,
     "11759": 11750,
     "11751": 11739,
     "11744": 11738,
@@ -44193,7 +44254,8 @@
     "11703": [
       11783,
       11784,
-      11785
+      11785,
+      11786
     ],
     "11738": [
       11740,
@@ -44407,7 +44469,8 @@
     ],
     "11773": [
       11780,
-      11781
+      11781,
+      11782
     ],
     "11632": [
       11679,
@@ -44747,6 +44810,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11762": [
+      11808
     ],
     "11750": [
       11759
