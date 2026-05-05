@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-04T03:27:34.638689Z",
+  "last_updated": "2026-05-05T03:24:56.764806Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21560,6 +21560,38 @@
       "is_backport": true,
       "original_pr": 11703
     },
+    "11773": {
+      "number": "11773",
+      "title": "[Release|CI/CD] Run workspace check only for parallel publishing",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-04-15T18:50:28Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11773",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11779": {
+      "number": "11779",
+      "title": "[stable2506] Backport #11773",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-04T16:52:57Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11779",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11773
+    },
     "11738": {
       "number": "11738",
       "title": "MMR: check `verify_ancestor()` output",
@@ -26622,23 +26654,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11703
-    },
-    "11773": {
-      "number": "11773",
-      "title": "[Release|CI/CD] Run workspace check only for parallel publishing",
-      "author": "EgorPopelyaev",
-      "merged_at": "2026-04-15T18:50:28Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11773",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "11780": {
       "number": "11780",
@@ -39374,6 +39389,18 @@
       "is_backport": true,
       "original_pr": 11055
     },
+    "11977": {
+      "number": "11977",
+      "title": "Version bumps and prdocs reordering after stable2603-1",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-04T14:52:34Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11977",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "11754": {
       "number": "11754",
       "title": "Backport 11739 to stable2603 fixes",
@@ -43778,6 +43805,56 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "11969": {
+      "number": "11969",
+      "title": "[unstable2604] Post crates release activities for unstable2604",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-05-04T13:13:19Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11969",
+      "branch": "unstable2604",
+      "is_direct": true
+    },
+    "11962": {
+      "number": "11962",
+      "title": "client/db, sp-transaction-storage-proof: preserve `MultiRenew` submit order",
+      "author": "karolk91",
+      "merged_at": "2026-05-04T10:29:31Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11962",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11968": {
+      "number": "11968",
+      "title": "[unstable2604] Backport #11962",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-04T10:49:18Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11968",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11962
+    },
+    "11966": {
+      "number": "11966",
+      "title": "[unstable2604] Post crates release activities for unstable2604",
+      "author": "github-actions[bot]",
+      "merged_at": "2026-05-04T06:34:54Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11966",
+      "branch": "unstable2604",
+      "is_direct": true
     }
   },
   "pr_to_releases": {
@@ -68168,6 +68245,7 @@
     "7675": 7670,
     "7648": 7640,
     "11783": 11703,
+    "11779": 11773,
     "11740": 11738,
     "11727": 11723,
     "11696": 11693,
@@ -68597,7 +68675,8 @@
     "9270": 9176,
     "9242": 9139,
     "9240": 9202,
-    "9237": 9127
+    "9237": 9127,
+    "11968": 11962
   },
   "original_to_backports": {
     "8173": [
@@ -69562,6 +69641,12 @@
       11785,
       11786
     ],
+    "11773": [
+      11779,
+      11780,
+      11781,
+      11782
+    ],
     "11738": [
       11740,
       11742,
@@ -69779,11 +69864,6 @@
     ],
     "8820": [
       8822
-    ],
-    "11773": [
-      11780,
-      11781,
-      11782
     ],
     "11632": [
       11679,
@@ -70358,6 +70438,9 @@
     ],
     "9176": [
       9270
+    ],
+    "11962": [
+      11968
     ]
   }
 }
