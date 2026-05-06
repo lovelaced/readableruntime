@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-05T03:24:56.764806Z",
+  "last_updated": "2026-05-06T03:24:59.095886Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21528,6 +21528,67 @@
       "is_direct": false,
       "from_master": true
     },
+    "11964": {
+      "number": "11964",
+      "title": "Fix recursive XCM decoding",
+      "author": "ggwpez",
+      "merged_at": "2026-05-04T08:45:40Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11964",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11970": {
+      "number": "11970",
+      "title": "[stable2506] Backport #11964",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T16:08:35Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11970",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11964
+    },
+    "9178": {
+      "number": "9178",
+      "title": "collator-protocol: cleanup connecting to backing group",
+      "author": "alexggh",
+      "merged_at": "2025-10-20T12:54:51Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/9178",
+      "branch": "stable2512",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11813": {
+      "number": "11813",
+      "title": "[stable2506] Backport #9178: collator-protocol: cleanup connecting to backing group",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T15:03:26Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11813",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 9178
+    },
     "11703": {
       "number": "11703",
       "title": "[CI] Fix random job cancellations in combined publish workflows",
@@ -26627,6 +26688,20 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "11972": {
+      "number": "11972",
+      "title": "[stable2509] Backport #11964",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T15:39:59Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11972",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11964
     },
     "11800": {
       "number": "11800",
@@ -37363,21 +37438,6 @@
       "is_direct": false,
       "from_master": true
     },
-    "9178": {
-      "number": "9178",
-      "title": "collator-protocol: cleanup connecting to backing group",
-      "author": "alexggh",
-      "merged_at": "2025-10-20T12:54:51Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/9178",
-      "branch": "stable2512",
-      "is_direct": false,
-      "from_master": true
-    },
     "9173": {
       "number": "9173",
       "title": "Add abstraction for remotely executing asset transfers on another chain via XCM V5",
@@ -37469,6 +37529,49 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11856": {
+      "number": "11856",
+      "title": "Snowbridge: Halt message verifier when Ethereum client is Halted   ",
+      "author": "claravanstaden",
+      "merged_at": "2026-05-05T12:02:12Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11856",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11981": {
+      "number": "11981",
+      "title": "[stable2603] Backport #11856",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T14:41:28Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11981",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11856
+    },
+    "11974": {
+      "number": "11974",
+      "title": "[stable2603] Backport #11964",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T11:18:13Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11974",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11964
     },
     "11951": {
       "number": "11951",
@@ -43805,6 +43908,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "11982": {
+      "number": "11982",
+      "title": "[unstable2604] Backport #11856",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T13:53:43Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11982",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11856
+    },
+    "11975": {
+      "number": "11975",
+      "title": "[unstable2604] Backport #11964",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-05T12:08:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11975",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11964
     },
     "11969": {
       "number": "11969",
@@ -68244,6 +68375,8 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11970": 11964,
+    "11813": 9178,
     "11783": 11703,
     "11779": 11773,
     "11740": 11738,
@@ -68344,6 +68477,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11972": 11964,
     "11784": 11703,
     "11780": 11773,
     "11742": 11738,
@@ -68537,6 +68671,8 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11981": 11856,
+    "11974": 11964,
     "11915": 11906,
     "11862": 11772,
     "11836": 11487,
@@ -68676,6 +68812,8 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "11982": 11856,
+    "11975": 11964,
     "11968": 11962
   },
   "original_to_backports": {
@@ -69635,6 +69773,15 @@
     "7670": [
       7675
     ],
+    "11964": [
+      11970,
+      11972,
+      11974,
+      11975
+    ],
+    "9178": [
+      11813
+    ],
     "11703": [
       11783,
       11784,
@@ -70252,6 +70399,10 @@
     ],
     "9685": [
       10374
+    ],
+    "11856": [
+      11981,
+      11982
     ],
     "11906": [
       11915
