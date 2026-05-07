@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-06T03:24:59.095886Z",
+  "last_updated": "2026-05-07T03:28:43.062840Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21528,6 +21528,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "11987": {
+      "number": "11987",
+      "title": "Use app token to create post crates release PR ",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-06T07:30:28Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11987",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11993": {
+      "number": "11993",
+      "title": "[stable2506] Backport #11987",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-06T08:39:15Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11993",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11987
+    },
     "11964": {
       "number": "11964",
       "title": "Fix recursive XCM decoding",
@@ -26689,6 +26722,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "11994": {
+      "number": "11994",
+      "title": "[stable2509] Backport #11987",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-06T12:46:35Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11994",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11987
+    },
     "11972": {
       "number": "11972",
       "title": "[stable2509] Backport #11964",
@@ -31823,6 +31871,21 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "11995": {
+      "number": "11995",
+      "title": "[stable2512] Backport #11987",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-06T12:52:32Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11995",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11987
     },
     "10712": {
       "number": "10712",
@@ -37529,6 +37592,21 @@
       "branch": "stable2512",
       "is_direct": false,
       "from_master": true
+    },
+    "11996": {
+      "number": "11996",
+      "title": "[stable2603] Backport #11987",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-06T12:57:26Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11996",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11987
     },
     "11856": {
       "number": "11856",
@@ -43908,6 +43986,49 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "11997": {
+      "number": "11997",
+      "title": "[unstable2604] Backport #11987",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-06T13:11:53Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11997",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11987
+    },
+    "10952": {
+      "number": "10952",
+      "title": "Fix `claim_rewards_to` benchmark to enable Snowbridge reward claims",
+      "author": "claravanstaden",
+      "merged_at": "2026-05-05T12:55:09Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10952",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "11984": {
+      "number": "11984",
+      "title": "[unstable2604] Backport #10952",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-06T14:15:43Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11984",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 10952
     },
     "11982": {
       "number": "11982",
@@ -68375,6 +68496,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "11993": 11987,
     "11970": 11964,
     "11813": 9178,
     "11783": 11703,
@@ -68477,6 +68599,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "11994": 11987,
     "11972": 11964,
     "11784": 11703,
     "11780": 11773,
@@ -68569,6 +68692,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "11995": 11987,
     "11874": 10712,
     "11873": 10780,
     "11785": 11703,
@@ -68671,6 +68795,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "11996": 11987,
     "11981": 11856,
     "11974": 11964,
     "11915": 11906,
@@ -68812,6 +68937,8 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "11997": 11987,
+    "11984": 10952,
     "11982": 11856,
     "11975": 11964,
     "11968": 11962
@@ -69773,6 +69900,13 @@
     "7670": [
       7675
     ],
+    "11987": [
+      11993,
+      11994,
+      11995,
+      11996,
+      11997
+    ],
     "11964": [
       11970,
       11972,
@@ -70589,6 +70723,9 @@
     ],
     "9176": [
       9270
+    ],
+    "10952": [
+      11984
     ],
     "11962": [
       11968
