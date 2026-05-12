@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-11T03:27:33.735068Z",
+  "last_updated": "2026-05-12T03:24:09.830754Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44100,6 +44100,47 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "12042": {
+      "number": "12042",
+      "title": "[unstable2604] Fix regex in Publish draft flow to parse unstable branch name",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-11T12:43:19Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12042",
+      "branch": "unstable2604",
+      "is_direct": true
+    },
+    "12035": {
+      "number": "12035",
+      "title": "omni-bencher: expose BLS host functions",
+      "author": "ggwpez",
+      "merged_at": "2026-05-11T09:24:27Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12035",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12041": {
+      "number": "12041",
+      "title": "[unstable2604] Backport #12035",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-11T13:40:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12041",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12035
+    },
     "12005": {
       "number": "12005",
       "title": "Update `TargetBlockRate` impl to match configured runtime block processing velocity on all test chains",
@@ -44142,6 +44183,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12017
+    },
+    "11999": {
+      "number": "11999",
+      "title": "[Staking] Use offence era for proportional slash distribution",
+      "author": "Ank4n",
+      "merged_at": "2026-05-08T07:24:25Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11999",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12018": {
+      "number": "12018",
+      "title": "[unstable2604] Backport #11999",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-11T11:21:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12018",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11999
     },
     "11997": {
       "number": "11997",
@@ -69339,8 +69408,10 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12041": 12035,
     "12026": 12005,
     "12025": 12017,
+    "12018": 11999,
     "11997": 11987,
     "11984": 10952,
     "11982": 11856,
@@ -71136,8 +71207,14 @@
     "9176": [
       9270
     ],
+    "12035": [
+      12041
+    ],
     "12005": [
       12026
+    ],
+    "11999": [
+      12018
     ],
     "10952": [
       11984
