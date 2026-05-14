@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-13T03:27:42.543896Z",
+  "last_updated": "2026-05-14T03:26:02.219900Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -37666,6 +37666,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "11919": {
+      "number": "11919",
+      "title": "Snowbridge: Set default asset claimer to local network",
+      "author": "claravanstaden",
+      "merged_at": "2026-05-08T15:04:44Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11919",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12032": {
+      "number": "12032",
+      "title": "[stable2603] Backport #11919",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-13T10:02:52Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12032",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11919
+    },
     "12031": {
       "number": "12031",
       "title": "[stable2603] Post crates release activities for stable2603-2",
@@ -69264,6 +69293,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12032": 11919,
     "12024": 12017,
     "11996": 11987,
     "11981": 11856,
@@ -71016,6 +71046,9 @@
     ],
     "9685": [
       10374
+    ],
+    "11919": [
+      12032
     ],
     "11856": [
       11981,
