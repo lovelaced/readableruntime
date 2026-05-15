@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-14T03:26:02.219900Z",
+  "last_updated": "2026-05-15T03:25:03.695195Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44129,6 +44129,35 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "12003": {
+      "number": "12003",
+      "title": "emulated integration tests cleanup",
+      "author": "clangenb",
+      "merged_at": "2026-05-14T07:51:00Z",
+      "labels": [
+        "T10-tests",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12003",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12074": {
+      "number": "12074",
+      "title": "[unstable2604] Backport #12003",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-14T11:38:41Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12074",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12003
+    },
     "12042": {
       "number": "12042",
       "title": "[unstable2604] Fix regex in Publish draft flow to parse unstable branch name",
@@ -69438,6 +69467,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12074": 12003,
     "12041": 12035,
     "12026": 12005,
     "12025": 12017,
@@ -71239,6 +71269,9 @@
     ],
     "9176": [
       9270
+    ],
+    "12003": [
+      12074
     ],
     "12035": [
       12041
