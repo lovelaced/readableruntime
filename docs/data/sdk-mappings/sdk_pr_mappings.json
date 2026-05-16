@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-15T03:25:03.695195Z",
+  "last_updated": "2026-05-16T03:21:56.102579Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -26767,6 +26767,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12078": {
+      "number": "12078",
+      "title": "[stable2509] Post crates release activities for stable2509-8",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-15T09:15:12Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12078",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "12022": {
       "number": "12022",
       "title": "[stable2509] Backport #12017",
@@ -44198,6 +44210,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12035
+    },
+    "12033": {
+      "number": "12033",
+      "title": "[unstable2604] Backport #11919",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-15T10:36:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12033",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11919
     },
     "12005": {
       "number": "12005",
@@ -69469,6 +69495,7 @@
     "9237": 9127,
     "12074": 12003,
     "12041": 12035,
+    "12033": 11919,
     "12026": 12005,
     "12025": 12017,
     "12018": 11999,
@@ -71078,7 +71105,8 @@
       10374
     ],
     "11919": [
-      12032
+      12032,
+      12033
     ],
     "11856": [
       11981,
