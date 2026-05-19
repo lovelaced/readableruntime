@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-18T03:29:58.341482Z",
+  "last_updated": "2026-05-19T03:28:07.226599Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -31943,6 +31943,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12098": {
+      "number": "12098",
+      "title": "[stable2512] Fix failing tests job in pipeline",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-18T17:03:03Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12098",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "12023": {
       "number": "12023",
       "title": "[stable2512] Backport #12017",
@@ -59770,7 +59782,7 @@
         "from_master": true
       }
     ],
-    "10050": [
+    "10051": [
       {
         "runtime_version": "2.1.0",
         "sdk_version": "stable2512-2",
@@ -59779,7 +59791,7 @@
         "from_master": true
       }
     ],
-    "10051": [
+    "10050": [
       {
         "runtime_version": "2.1.0",
         "sdk_version": "stable2512-2",
