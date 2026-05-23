@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-22T03:29:43.609480Z",
+  "last_updated": "2026-05-23T03:25:13.041467Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -37888,6 +37888,35 @@
       "is_backport": true,
       "original_pr": 11574
     },
+    "12035": {
+      "number": "12035",
+      "title": "omni-bencher: expose BLS host functions",
+      "author": "ggwpez",
+      "merged_at": "2026-05-11T09:24:27Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12035",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12040": {
+      "number": "12040",
+      "title": "[stable2603] Backport #12035",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-22T11:28:12Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12040",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12035
+    },
     "11919": {
       "number": "11919",
       "title": "Snowbridge: Set default asset claimer to local network",
@@ -44351,6 +44380,47 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "11967": {
+      "number": "11967",
+      "title": "Rotation bug fix + simplification",
+      "author": "eskimor",
+      "merged_at": "2026-05-22T12:19:27Z",
+      "labels": [
+        "T0-node",
+        "T8-polkadot",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11967",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12166": {
+      "number": "12166",
+      "title": "[unstable2604] Backport #11967",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-22T13:39:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12166",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11967
+    },
+    "12160": {
+      "number": "12160",
+      "title": "[unstable2604] Post crates release activities for unstable2604",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-22T06:38:20Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12160",
+      "branch": "unstable2604",
+      "is_direct": true
+    },
     "12075": {
       "number": "12075",
       "title": "frame-benchmarking: allow 2-point slope fits in `min_squares_iqr`",
@@ -44491,21 +44561,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12042",
       "branch": "unstable2604",
       "is_direct": true
-    },
-    "12035": {
-      "number": "12035",
-      "title": "omni-bencher: expose BLS host functions",
-      "author": "ggwpez",
-      "merged_at": "2026-05-11T09:24:27Z",
-      "labels": [
-        "T1-FRAME",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12035",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "12041": {
       "number": "12041",
@@ -69665,6 +69720,7 @@
     "10358": 10351,
     "12121": 12109,
     "12108": 11574,
+    "12040": 12035,
     "12032": 11919,
     "12024": 12017,
     "11996": 11987,
@@ -69810,6 +69866,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12166": 11967,
     "12141": 12075,
     "12138": 12135,
     "12136": 12123,
@@ -71439,6 +71496,10 @@
     "11574": [
       12108
     ],
+    "12035": [
+      12040,
+      12041
+    ],
     "11919": [
       12032,
       12033
@@ -71633,6 +71694,9 @@
     "9176": [
       9270
     ],
+    "11967": [
+      12166
+    ],
     "12075": [
       12141
     ],
@@ -71644,9 +71708,6 @@
     ],
     "12003": [
       12074
-    ],
-    "12035": [
-      12041
     ],
     "12005": [
       12026
