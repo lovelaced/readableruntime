@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-25T03:28:23.100311Z",
+  "last_updated": "2026-05-26T03:26:24.998160Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -37833,6 +37833,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "12168": {
+      "number": "12168",
+      "title": "[Release|CI/CD] Add handling of the cancelation case and message to release eng room to the Publish crates flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-25T13:34:02Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12168",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12184": {
+      "number": "12184",
+      "title": "[stable2603] Backport #12168",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-25T15:39:43Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12184",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12168
+    },
     "12121": {
       "number": "12121",
       "title": "[stable2603] Backport #12109",
@@ -39948,6 +39981,18 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11055
+    },
+    "12167": {
+      "number": "12167",
+      "title": "Version bumps and prdocs reordering after stable2603-2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-25T12:23:45Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12167",
+      "branch": "stable2603",
+      "is_direct": true
     },
     "11977": {
       "number": "11977",
@@ -44379,6 +44424,21 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "12186": {
+      "number": "12186",
+      "title": "[unstable2604] Backport #12168",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-25T16:26:50Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12186",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12168
     },
     "11967": {
       "number": "11967",
@@ -69718,6 +69778,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12184": 12168,
     "12121": 12109,
     "12108": 11574,
     "12040": 12035,
@@ -69866,6 +69927,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12186": 12168,
     "12166": 11967,
     "12141": 12075,
     "12138": 12135,
@@ -71492,6 +71554,10 @@
     ],
     "9685": [
       10374
+    ],
+    "12168": [
+      12184,
+      12186
     ],
     "11574": [
       12108
