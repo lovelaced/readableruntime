@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-27T03:26:13.085401Z",
+  "last_updated": "2026-05-28T03:27:42.832041Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21528,6 +21528,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12198": {
+      "number": "12198",
+      "title": "[stable2506] Fix failing tests job",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-27T16:45:29Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12198",
+      "branch": "stable2506",
+      "is_direct": true
+    },
     "12109": {
       "number": "12109",
       "title": "Update DOCKER_IMAGES_VERSION with timestamp",
@@ -26799,6 +26811,18 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
+    },
+    "12197": {
+      "number": "12197",
+      "title": "[stable2509] Fix failing test job",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-05-27T16:54:21Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12197",
+      "branch": "stable2509",
+      "is_direct": true
     },
     "12119": {
       "number": "12119",
@@ -67905,7 +67929,7 @@
         "from_master": true
       }
     ],
-    "8102": [
+    "8103": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
@@ -67914,7 +67938,7 @@
         "from_master": true
       }
     ],
-    "8103": [
+    "8102": [
       {
         "runtime_version": "1.7.0",
         "sdk_version": "unstable2507",
