@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-31T03:27:35.780126Z",
+  "last_updated": "2026-06-01T03:29:06.472235Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -37920,6 +37920,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "12214": {
+      "number": "12214",
+      "title": "pallet-beefy-mmr: align ECDSA\u2192ETH failure sentinel between converter and consumer",
+      "author": "acatangiu",
+      "merged_at": "2026-05-29T15:37:25Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12214",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12234": {
+      "number": "12234",
+      "title": "[stable2603] Backport #12214",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-31T12:19:25Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12234",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12214
+    },
     "12223": {
       "number": "12223",
       "title": "[stable2603] Post crates release activities for stable2603-3",
@@ -44561,6 +44590,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "12235": {
+      "number": "12235",
+      "title": "[unstable2604] Backport #12214",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-05-31T11:30:54Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12235",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12214
     },
     "12207": {
       "number": "12207",
@@ -70030,6 +70073,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12234": 12214,
     "12184": 12168,
     "12121": 12109,
     "12108": 11574,
@@ -70181,6 +70225,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12235": 12214,
     "12218": 12207,
     "12213": 12144,
     "12201": 12080,
@@ -71819,6 +71864,10 @@
     ],
     "9685": [
       10374
+    ],
+    "12214": [
+      12234,
+      12235
     ],
     "11574": [
       12108
