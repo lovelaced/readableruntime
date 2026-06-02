@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-01T03:29:06.472235Z",
+  "last_updated": "2026-06-02T03:28:36.557220Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44591,6 +44591,34 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "12125": {
+      "number": "12125",
+      "title": "Bandersnatch ec-utils: handle TE z = 0 results via non-subgroup fallbacks",
+      "author": "davxy",
+      "merged_at": "2026-06-01T20:16:03Z",
+      "labels": [
+        "T5-host_functions",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12125",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12248": {
+      "number": "12248",
+      "title": "[unstable2604] Backport #12125",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-01T21:34:30Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12248",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12125
+    },
     "12235": {
       "number": "12235",
       "title": "[unstable2604] Backport #12214",
@@ -70225,6 +70253,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12248": 12125,
     "12235": 12214,
     "12218": 12207,
     "12213": 12144,
@@ -72075,6 +72104,9 @@
     ],
     "9176": [
       9270
+    ],
+    "12125": [
+      12248
     ],
     "12207": [
       12218
