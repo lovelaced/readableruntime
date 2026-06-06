@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-05T03:26:26.136661Z",
+  "last_updated": "2026-06-06T00:41:51.043935Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -168,6 +168,12 @@
       "release_date": "2026-04-08T14:04:39Z",
       "total_prs": 0,
       "new_prs": 0
+    },
+    "v2.3.0": {
+      "sdk_version": "unstable2604",
+      "release_date": "2026-06-02T19:36:10Z",
+      "total_prs": 27,
+      "new_prs": 27
     }
   },
   "pr_details": {
@@ -72591,6 +72597,295 @@
         "source_branch": "unstable2507",
         "is_backport": true,
         "original_pr": 9721,
+        "is_direct": true
+      }
+    ],
+    "12160": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12033": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11919,
+        "is_direct": true
+      }
+    ],
+    "12166": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11967,
+        "is_direct": true
+      }
+    ],
+    "12041": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12035,
+        "is_direct": true
+      }
+    ],
+    "12042": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12186": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12168,
+        "is_direct": true
+      }
+    ],
+    "12187": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12179,
+        "is_direct": true
+      }
+    ],
+    "12201": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12080,
+        "is_direct": true
+      }
+    ],
+    "12074": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12003,
+        "is_direct": true
+      }
+    ],
+    "12213": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12144,
+        "is_direct": true
+      }
+    ],
+    "12218": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12207,
+        "is_direct": true
+      }
+    ],
+    "11966": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "11968": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11962,
+        "is_direct": true
+      }
+    ],
+    "11969": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "11975": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11964,
+        "is_direct": true
+      }
+    ],
+    "12235": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12214,
+        "is_direct": true
+      }
+    ],
+    "11982": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11856,
+        "is_direct": true
+      }
+    ],
+    "11984": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 10952,
+        "is_direct": true
+      }
+    ],
+    "12248": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12125,
+        "is_direct": true
+      }
+    ],
+    "12122": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12109,
+        "is_direct": true
+      }
+    ],
+    "11997": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11987,
+        "is_direct": true
+      }
+    ],
+    "12136": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12123,
+        "is_direct": true
+      }
+    ],
+    "12138": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12135,
+        "is_direct": true
+      }
+    ],
+    "12141": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12075,
+        "is_direct": true
+      }
+    ],
+    "12018": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11999,
+        "is_direct": true
+      }
+    ],
+    "12025": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12017,
+        "is_direct": true
+      }
+    ],
+    "12026": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12005,
         "is_direct": true
       }
     ]
