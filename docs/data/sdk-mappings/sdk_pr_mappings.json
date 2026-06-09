@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T03:28:32.571865Z",
+  "last_updated": "2026-06-09T03:29:28.049764Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43615,7 +43615,8 @@
         "A4-backport-stable2506",
         "A4-backport-stable2509",
         "A4-backport-stable2512",
-        "A4-backport-stable2603"
+        "A4-backport-stable2603",
+        "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12176",
       "branch": "stable2606",
