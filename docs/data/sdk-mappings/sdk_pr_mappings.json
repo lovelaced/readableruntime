@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T03:29:28.049764Z",
+  "last_updated": "2026-06-10T03:25:33.746854Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21534,6 +21534,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "12176": {
+      "number": "12176",
+      "title": "xcmp-queue: Store the bytes in the channel status",
+      "author": "bkchr",
+      "merged_at": "2026-05-28T16:06:44Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2506",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12176",
+      "branch": "stable2606",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12273": {
+      "number": "12273",
+      "title": "[stable2506] Backport #12176",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-09T15:07:25Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12273",
+      "branch": "stable2506",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12176
+    },
     "12198": {
       "number": "12198",
       "title": "[stable2506] Fix failing tests job",
@@ -26851,6 +26883,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "12274": {
+      "number": "12274",
+      "title": "[stable2509] Backport #12176",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-09T14:25:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12274",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12176
+    },
     "12197": {
       "number": "12197",
       "title": "[stable2509] Fix failing test job",
@@ -32097,6 +32143,20 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "12270": {
+      "number": "12270",
+      "title": "[stable2512] Backport #12176",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-09T15:10:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12270",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12176
     },
     "12183": {
       "number": "12183",
@@ -37927,6 +37987,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "12271": {
+      "number": "12271",
+      "title": "[stable2603] Backport #12176",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-09T17:55:30Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12271",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12176
+    },
     "12214": {
       "number": "12214",
       "title": "pallet-beefy-mmr: align ECDSA\u2192ETH failure sentinel between converter and consumer",
@@ -43601,24 +43675,6 @@
         "A4-backport-unstable2604"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12179",
-      "branch": "stable2606",
-      "is_direct": false,
-      "from_master": true
-    },
-    "12176": {
-      "number": "12176",
-      "title": "xcmp-queue: Store the bytes in the channel status",
-      "author": "bkchr",
-      "merged_at": "2026-05-28T16:06:44Z",
-      "labels": [
-        "T2-pallets",
-        "A4-backport-stable2506",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12176",
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
@@ -71627,15 +71683,6 @@
         "from_master": true
       }
     ],
-    "8179": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "stable2506",
-        "from_master": true
-      }
-    ],
     "10228": [
       {
         "runtime_version": "1.7.0",
@@ -71645,6 +71692,15 @@
         "is_backport": true,
         "original_pr": 10180,
         "is_direct": true
+      }
+    ],
+    "8179": [
+      {
+        "runtime_version": "1.7.0",
+        "sdk_version": "unstable2507",
+        "sdk_branch": "unstable2507",
+        "source_branch": "stable2506",
+        "from_master": true
       }
     ],
     "10230": [
@@ -73278,6 +73334,7 @@
     "7681": 7075,
     "7675": 7670,
     "7648": 7640,
+    "12273": 12176,
     "12180": 12168,
     "12118": 12109,
     "12020": 12017,
@@ -73384,6 +73441,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "12274": 12176,
     "12182": 12168,
     "12119": 12109,
     "12110": 12101,
@@ -73481,6 +73539,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "12270": 12176,
     "12183": 12168,
     "12120": 12109,
     "12023": 12017,
@@ -73588,6 +73647,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12271": 12176,
     "12234": 12214,
     "12184": 12168,
     "12121": 12109,
@@ -74720,6 +74780,12 @@
     ],
     "7670": [
       7675
+    ],
+    "12176": [
+      12273,
+      12274,
+      12270,
+      12271
     ],
     "12168": [
       12180,
