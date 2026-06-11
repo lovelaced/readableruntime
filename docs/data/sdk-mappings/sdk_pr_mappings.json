@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T03:25:33.746854Z",
+  "last_updated": "2026-06-11T03:24:42.194134Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -21533,6 +21533,18 @@
       "branch": "stable2503-broken",
       "is_direct": false,
       "from_master": true
+    },
+    "12324": {
+      "number": "12324",
+      "title": "[stable2506] Post crates release activities for stable2506-12",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-10T13:13:13Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12324",
+      "branch": "stable2506",
+      "is_direct": true
     },
     "12176": {
       "number": "12176",

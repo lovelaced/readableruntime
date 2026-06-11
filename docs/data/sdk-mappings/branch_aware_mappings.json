@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T03:25:33.742967Z",
+  "generated_at": "2026-06-11T03:24:42.191127Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -131,7 +131,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -147,7 +147,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -178,7 +178,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -194,7 +194,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -210,7 +210,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -226,7 +226,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -242,7 +242,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -258,7 +258,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -274,7 +274,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -290,7 +290,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -306,7 +306,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "43.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -322,7 +322,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "44.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -338,7 +338,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "44.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -354,7 +354,7 @@
         "polkadot-primitives": "20.0.0",
         "sp-runtime": "44.0.0"
       },
-      "branch_pr_count": 462,
+      "branch_pr_count": 463,
       "included_branches": [
         "unstable2507",
         "stable2506"
@@ -454,6 +454,16 @@
     }
   },
   "sdk_tags": {
+    "stable2606-rc1": {
+      "commit": "c6fc157a558f370d6ad4acee19d74f4089a1f2fc",
+      "date": "2026-06-02T16:31:42Z",
+      "branch": "stable2606",
+      "package_versions": {
+        "polkadot-primitives": "7.0.0",
+        "sp-runtime": "31.0.1",
+        "frame-support": "28.0.0"
+      }
+    },
     "stable2603": {
       "commit": "2e4dd0bc22366a5af820492528869a493b5a5208",
       "date": "2026-03-30T14:50:31Z",
@@ -1042,6 +1052,26 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2506-12": {
+      "commit": "d5c449d85ffa66b9bf59fdf83e5d4c23d4f7c4ee",
+      "date": "2026-06-10T13:13:13Z",
+      "branch": "stable2506",
+      "package_versions": {
+        "polkadot-primitives": "19.0.0",
+        "sp-runtime": "42.0.0",
+        "frame-support": "41.0.2"
+      }
+    },
+    "stable2506-12-rc1": {
+      "commit": "d5c449d85ffa66b9bf59fdf83e5d4c23d4f7c4ee",
+      "date": "2026-06-10T13:13:13Z",
+      "branch": "stable2506",
+      "package_versions": {
+        "polkadot-primitives": "19.0.0",
+        "sp-runtime": "42.0.0",
+        "frame-support": "41.0.2"
       }
     },
     "stable2506-11": {
@@ -2266,6 +2296,13 @@
     }
   },
   "branch_info": {
+    "stable2606": {
+      "tags": [
+        "stable2606-rc1"
+      ],
+      "created_date": "2026-06-02T07:18:53Z",
+      "pr_count": 309
+    },
     "stable2603": {
       "tags": [
         "stable2603",
@@ -2345,6 +2382,8 @@
         "stable2506-rc3",
         "stable2506-rc2",
         "stable2506-rc1",
+        "stable2506-12",
+        "stable2506-12-rc1",
         "stable2506-11",
         "stable2506-11-rc1",
         "stable2506-10",
@@ -2371,7 +2410,7 @@
         "stable2506-1-rc1"
       ],
       "created_date": "2025-06-10T07:59:43Z",
-      "pr_count": 373
+      "pr_count": 374
     },
     "stable2503": {
       "tags": [
@@ -2514,11 +2553,6 @@
       "created_date": "2026-02-09T14:33:54Z",
       "pr_count": 228
     },
-    "stable2606": {
-      "tags": [],
-      "created_date": "2026-06-02T07:18:53Z",
-      "pr_count": 309
-    },
     "unstable2507": {
       "tags": [],
       "created_date": "2025-07-06T09:32:11Z",
@@ -2531,9 +2565,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 181,
+    "total_sdk_tags": 184,
     "total_branches": 16,
-    "total_prs_tracked": 3530,
+    "total_prs_tracked": 3531,
     "runtime_releases_mapped": 29
   }
 }
