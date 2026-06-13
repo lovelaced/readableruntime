@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-12T03:30:28.547784Z",
+  "last_updated": "2026-06-13T03:25:43.875147Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43514,6 +43514,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "12314": {
+      "number": "12314",
+      "title": "approval-voting: cleanup coalescing logic",
+      "author": "alexggh",
+      "merged_at": "2026-06-11T08:40:18Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12314",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12337": {
+      "number": "12337",
+      "title": "[stable2606] Backport #12314",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-12T12:00:35Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12337",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12314
+    },
     "12332": {
       "number": "12332",
       "title": "[stable2606] Add complete changelog as file",
@@ -43993,7 +44022,8 @@
       "author": "bkchr",
       "merged_at": "2026-05-21T15:27:16Z",
       "labels": [
-        "T0-node"
+        "T0-node",
+        "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12113",
       "branch": "stable2606",
@@ -73773,6 +73803,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12337": 12314,
     "12021": 12017,
     "10983": 10646,
     "10951": 10950,
@@ -75642,6 +75673,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12314": [
+      12337
     ],
     "10950": [
       10951
