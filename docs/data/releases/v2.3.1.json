@@ -1,0 +1,125 @@
+{
+  "newer_release": {
+    "tag_name": "v2.3.1",
+    "created_at": "2026-06-15T07:23:12Z",
+    "name": "Runtimes 2.3.1",
+    "body": "# Changelog\n\nChangelog for the runtimes governed by the Polkadot Fellowship.\n\nThe format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).\n\n## [2.3.1] 12.06.2026\n\n### Fixed\n\n- PAH: pin the nomination-pools `TotalUnbondingPools` bound at its historical maximum (32) so lowering the nominator bonding duration via the `AreNominatorsSlashable` fast-unbond flip cannot shrink the bound (32 -> 6) and make oversized `SubPools::with_era` maps undecodable ([#1201](https://github.com/polkadot-fellows/runtimes/pull/1201))\n\n# Runtime info\n*These runtimes were built with **rustc 1.93.0 (254b59607 2026-01-19)** using **[srtool v0.18.4](https://github.com/paritytech/srtool)***\n\nTo replicate the build, use the following command:\n```sh\nsrtool build\n       --root --profile production\n       --package CRATE_NAME --runtime-dir PATH_TO_CRATE\n       --build-opts=\"\"\n```\n\n## Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.60Mi (1667421 bytes)\n\ud83d\udddc Compressed:             Yes: 80.06%\n\ud83d\udd25 Core Version:           polkadot-2003001 parity-polkadot-0.tx26.au0\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x0487c36517c01744550d007d655cbc19b28c08183612839009f6e207b91276af\n\ud83d\udce6 IPFS:                   QmSJdm6nSyZ1diaSYy9sBwLXz61ubqPDy4vagGqgxtYcVf\n~~~\n\n## People Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.04Mi (1088170 bytes)\n\ud83d\udddc Compressed:             Yes: 79.9%\n\ud83d\udd25 Core Version:           people-polkadot-2003001 people-polkadot-0.tx0.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xa515a539781555a49630a486fa5148c110895085d139fd00cc9564b1714d18c1\n\ud83d\udce6 IPFS:                   QmXpUJZxysTf6drwJBJthNyTpHeCzwLrEag2zuARZ5cvmp\n~~~\n\n## People Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           982.11Ki (1005673 bytes)\n\ud83d\udddc Compressed:             Yes: 79.4%\n\ud83d\udd25 Core Version:           people-kusama-2003001 people-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3d978cff72e41b1ab076a9a1a64ed29a5c1459066b9eca6fa81a067759bedabe\n\ud83d\udce6 IPFS:                   QmascfmTF6FVduWog8P5pm7hSiB7o5EYwptzgu99QhYC2o\n~~~\n\n## Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.65Mi (1724380 bytes)\n\ud83d\udddc Compressed:             Yes: 80.36%\n\ud83d\udd25 Core Version:           kusama-2003001 parity-kusama-0.tx26.au2\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3498773e48a21949e4a8f7e07c063e18b77c0695f94ee858384d668bcc935dbb\n\ud83d\udce6 IPFS:                   Qmd1AWNVUpjLXmnzvF5svRBPUCmoQG7Kj5QSHTWUVq7GnP\n~~~\n\n## Glutton\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           464.65Ki (475797 bytes)\n\ud83d\udddc Compressed:             Yes: 78.05%\n\ud83d\udd25 Core Version:           glutton-2003001 glutton-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x96c305789021005b38e06c25a66bf551a6922b3d680e80f575287e5a7f67e1c8\n\ud83d\udce6 IPFS:                   QmeSdF3JiTLPT3FTD6ETZbN6FSwoiuwguqyRRMesVb4M7R\n~~~\n\n## Encointer Parachain\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.17Mi (1225813 bytes)\n\ud83d\udddc Compressed:             Yes: 79.8%\n\ud83d\udd25 Core Version:           encointer-parachain-2003001 encointer-parachain-1.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x8da85536f13ddc4ab4df15e0beaeee1aea55c5e2ba1cc70faa6c6c04320cdf54\n\ud83d\udce6 IPFS:                   QmeDsbzMmdk4qfdptx8PczCXjFJifwj1ygMNDYbhxU1z66\n~~~\n\n## Coretime Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           982.57Ki (1006149 bytes)\n\ud83d\udddc Compressed:             Yes: 79.44%\n\ud83d\udd25 Core Version:           coretime-kusama-2003001 coretime-kusama-0.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x871e1bea50f64b5f7ab792932f75a0c8d3911ac4fb6bb68c1cf6594203112cd6\n\ud83d\udce6 IPFS:                   QmRGhWPA3dcTWN5ANJ7Nt7YDD3337uXixEsKRjtr4yCMyK\n~~~\n\n## Collectives\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.09Mi (1142087 bytes)\n\ud83d\udddc Compressed:             Yes: 80.66%\n\ud83d\udd25 Core Version:           collectives-2003001 collectives-0.tx7.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x3fdcc094877edf85377c7175b091739377de51edfe0cf34de9310ddb8eabd165\n\ud83d\udce6 IPFS:                   QmX9mA8vZfSb1v3dFQBiRt3M9tGF7hHoW7K4ZrzQDPAt8J\n~~~\n\n## Bulletin Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           902.59Ki (924242 bytes)\n\ud83d\udddc Compressed:             Yes: 79.17%\n\ud83d\udd25 Core Version:           bulletin-polkadot-2003001 bulletin-polkadot-1.tx1.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x77dcc577bc02ce6a08719bc942ef5d948230b5669205a3491ef14f45ca1b0f9d\n\ud83d\udce6 IPFS:                   QmQz9xZtHnBU1QS2wi1dai1r6Mr59BN7V4eeu4f4iEGwdA\n~~~\n\n## Bridge Hub Polkadot\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.22Mi (1272164 bytes)\n\ud83d\udddc Compressed:             Yes: 79.49%\n\ud83d\udd25 Core Version:           bridge-hub-polkadot-2003001 bridge-hub-polkadot-0.tx4.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x35d27a02095d2ba66f465c0bef494477b3038c552b9a4b257db4b0b1d4190856\n\ud83d\udce6 IPFS:                   QmSV7vcxRf1Ra4okyJt7pXRjhEWXuwKXKvw821Rf8ethnZ\n~~~\n\n## Bridge Hub Kusama\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           1.01Mi (1057204 bytes)\n\ud83d\udddc Compressed:             Yes: 79.2%\n\ud83d\udd25 Core Version:           bridge-hub-kusama-2003001 bridge-hub-kusama-0.tx5.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0x08c626043e3f0499b4ff4c1572142a5697ff8e431618670e71e83db8387aa931\n\ud83d\udce6 IPFS:                   QmXyRPpycsR8MfgWb5uXZpBD1tjRGSWBkN9dbwtwM4bP25\n~~~\n\n## Asset Hub Polkadot (previously Statemint)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.15Mi (2248253 bytes)\n\ud83d\udddc Compressed:             Yes: 81.47%\n\ud83d\udd25 Core Version:           statemint-2003001 statemint-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xd8c8c132cd1f51504af2cd45c8dd7c5565dff0a4e9d7fde72daa8975c58ef961\n\ud83d\udce6 IPFS:                   QmW85nr7qSW16wBvcoqfoHw8oz2xuoRMdWaGFn5ZE7hBk1\n~~~\n\n## Asset Hub Kusama (previously Statemine)\n~~~\n\ud83c\udfcb\ufe0f Runtime Size:           2.21Mi (2313562 bytes)\n\ud83d\udddc Compressed:             Yes: 81.79%\n\ud83d\udd25 Core Version:           statemine-2003001 statemine-0.tx15.au1\n\ud83c\udf81 Metadata version:       V14\n\ud83d\uddf3\ufe0f Blake2-256 hash:        0xb2cea8c2ec9abc562fb407f5d9a49e71930a183c9758a14d2c48d80573b1c577\n\ud83d\udce6 IPFS:                   QmbRgQ2Xeo6KsRvB8fB7mpeGiUUyYSJhjP7y4qyDAuHvu9\n~~~\n",
+    "sdk_version": "polkadot-primitives-v24.0.0"
+  },
+  "older_release": {
+    "tag_name": "v2.3.0",
+    "created_at": "2026-06-05T17:58:37Z",
+    "name": "Runtimes 2.3.0",
+    "sdk_version": "polkadot-primitives-v24.0.0"
+  },
+  "pr_count": 4,
+  "ai_analysis": "# Polkadot Fellows Runtimes v2.3.1 Release Analysis\n\n## 1. Executive Summary for Non-Technical Users\n\n### Main Improvements\nThis is a small but important bug-fix release that addresses a critical issue with the staking system on Asset Hub Polkadot. The release also improves the development workflow to prevent future problems.\n\n**Key Changes:**\n- **Fixed a staking bug** that could cause users to lose track of their unbonding (withdrawing) funds when certain network settings change\n- **Added safety checks** to prevent releasing software that's too large and might cause network issues\n- **Updated version numbers** across all network components to v2.3.1\n\n### Benefits for Users\n- **Better reliability**: Staking operations will work correctly even when network parameters change\n- **No data loss**: Users won't lose their unbonding fund records due to technical glitches\n- **Improved stability**: Better testing prevents problematic releases from reaching users\n\n### Actions Required\n**No action needed** - This is an automatic network upgrade that will be applied seamlessly.\n\n## 2. Key Changes Explained\n\n### Security Improvements\n**Staking Data Protection**: Fixed a bug where changing network staking parameters could accidentally delete users' unbonding records. This protects users' funds and ensures proper accounting of staking operations.\n\n### Performance Improvements\n**Release Quality Control**: Added automated checks to ensure runtime code doesn't become too large, which could slow down the network or cause issues.\n\n### Bug Fixes\n**Nomination Pools Fix**: Resolved an issue where the system's memory limits for tracking unbonding periods could shrink unexpectedly, causing data corruption. The fix keeps these limits stable regardless of other network setting changes.\n\n## 3. Technical Summary for Developers\n\n### Major API/Interface Changes\n- **No breaking API changes** - This is a patch release focused on internal fixes\n\n### Technical Improvements\n- **PostUnbondingPoolsWindow Configuration**: Modified the nomination pools configuration on Asset Hub Polkadot to use a dynamic `Get` implementation that maintains a constant `TotalUnbondingPools` bound of 32, regardless of the `AreNominatorsSlashable` flag state\n- **Runtime Size Validation**: Implemented automated WASM size checking in the release pipeline with warning thresholds at 80% and blocking thresholds at 95% of configured limits\n- **CI Timeout Adjustments**: Increased test timeouts from 10 to 25 minutes and from 120 to 360 seconds for runtime compatibility checks\n\n### Migration Requirements\n**No migration required** - Changes are backward compatible and handle the transition automatically.\n\n## 4. Code Impact Analysis\n\n### Most Affected Systems\n1. **Asset Hub Polkadot Nomination Pools** (Primary focus)\n   - Modified staking configuration to prevent data loss\n   - Added test coverage for the unbonding bounds issue\n   \n2. **Release Infrastructure** (Secondary)\n   - Enhanced CI/CD pipeline with size validation\n   - Improved release quality gates\n\n3. **All Runtime Specifications** (Routine)\n   - Version bump from 2.3.0 to 2.3.1 across all chains\n\n### Types of Changes Made\n\n**Bug Fixes (75% of changes):**\n- Critical fix for nomination pools unbonding accounting\n- Prevents data corruption when network parameters change\n\n**Infrastructure Improvements (20% of changes):**\n- Automated runtime size validation\n- Enhanced release process safety\n\n**Maintenance (5% of changes):**\n- Version number updates\n- Changelog updates\n- CI timeout adjustments\n\n### Change Scope\n- **4 files changed** for the main bug fix\n- **15 files changed** for version updates\n- **3 files changed** for infrastructure improvements\n- **Focused impact**: Changes are surgical and targeted, minimizing risk while addressing critical issues\n\nThis release demonstrates good software maintenance practices with a quick response to a critical issue, improved quality controls, and careful version management across a complex multi-chain system.",
+  "pr_details": [
+    {
+      "number": 1205,
+      "title": "Release 2.3.1",
+      "author": "sigurpol",
+      "merged_at": "2026-06-15T07:23:13Z",
+      "body": "Changes:\r\n- AHP: pin nomination-pools unbonding bound across the fast-unbond flip\r\n- bump specs to 2.3.1\r\n",
+      "labels": [],
+      "files_changed": 15,
+      "additions": 15,
+      "deletions": 15,
+      "file_list": [
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 2
+    },
+    {
+      "number": 1201,
+      "title": "AHP: pin nomination-pools unbonding bound across the fast-unbond flip",
+      "author": "sigurpol",
+      "merged_at": "2026-06-12T15:33:02Z",
+      "body": "`SubPools::with_era` is bounded by `TotalUnbondingPools = bonding_duration() + PostUnbondingPoolsWindow`. Setting `AreNominatorsSlashable = false` drops the nominator bonding duration 28 -> 2, shrinking the bound 32 -> 6: oversized historical maps then fail to decode and the next `unbond` overwrites them with an empty default, destroying per-era unbonding accounting.\r\n\r\nMake `PostUnbondingPoolsWindow` a `Get` returning `MAX - nominator_bonding_duration()`, keeping the bound pinned at 32 regardless of the flag (subtracting the same value the pallet adds). Post-flip the effective merge window widens to 30 eras, covering deferred pre-flip slashes (SlashDeferDuration = 27).\r\nAHP only, AHK is unaffected.\r\n\r\nInterim runtime fix ahead of the in-pallet decoupling in polkadot-sdk.\r\n\r\n",
+      "labels": [],
+      "files_changed": 4,
+      "additions": 87,
+      "deletions": 5,
+      "file_list": [
+        "CHANGELOG.md",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/staking/nom_pools.rs",
+        ".github/workflows/test.yml",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs"
+      ],
+      "linked_issues": [],
+      "comment_count": 10
+    },
+    {
+      "number": 1195,
+      "title": "Release 2.3.0",
+      "author": "ggwpez",
+      "merged_at": "2026-06-05T17:58:37Z",
+      "body": "Changes:\r\n- Extend CHANGELOG validation script to catch duplicate or wrong sections\r\n- Update to unstable2604-rc4\r\n- Bump all specs to 2.3.0\r\n",
+      "labels": [],
+      "files_changed": 18,
+      "additions": 140,
+      "deletions": 135,
+      "file_list": [
+        "system-parachains/gluttons/glutton-kusamsrc/lib.rs",
+        "Cargo.lock",
+        "system-parachains/asset-hubs/asset-hub-polkadot/src/lib.rs",
+        "system-parachains/collectives/collectives-polkadot/src/lib.rs",
+        "CHANGELOG.md",
+        "system-parachains/people/people-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-kusamsrc/lib.rs",
+        "system-parachains/bridge-hubs/bridge-hub-polkadot/src/lib.rs",
+        "system-parachains/bulletin/bulletin-polkadot/src/lib.rs",
+        "relay/kusamsrc/lib.rs",
+        "system-parachains/coretime/coretime-polkadot/src/lib.rs",
+        "system-parachains/people/people-polkadot/src/lib.rs",
+        "system-parachains/coretime/coretime-kusamsrc/lib.rs",
+        "relay/polkadot/src/lib.rs",
+        "Cargo.toml",
+        "system-parachains/asset-hubs/asset-hub-kusamsrc/lib.rs",
+        "system-parachains/encointer/src/lib.rs",
+        ".github/changelog-processor.py"
+      ],
+      "linked_issues": [],
+      "comment_count": 7
+    },
+    {
+      "number": 1177,
+      "title": "release: verify runtime WASM size against thresholds",
+      "author": "Nathy-bajo",
+      "merged_at": "2026-06-08T20:52:21Z",
+      "body": "Adds a release-workflow gate that warns at 80% and blocks publication at 95% of each runtime's configured compressed-WASM size limit, opening a tracking issue summarizing any breaches; closes #940 \r\n\r\n[x] Does not require a CHANGELOG entry",
+      "labels": [],
+      "files_changed": 3,
+      "additions": 49,
+      "deletions": 1,
+      "file_list": [
+        ".github/workflows/runtimes-matrix.json",
+        ".github/scripts/check-runtime-size.sh",
+        ".github/workflows/release.yml"
+      ],
+      "linked_issues": [
+        {
+          "number": 940,
+          "title": "improve runtime release automation to verify wasm size is not too big",
+          "state": "closed"
+        }
+      ],
+      "comment_count": 17
+    }
+  ]
+}
