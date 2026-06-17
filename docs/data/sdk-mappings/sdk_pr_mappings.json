@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T03:26:51.724831Z",
+  "last_updated": "2026-06-17T03:26:55.584554Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,13 +171,13 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-06-02T19:36:10Z",
-      "total_prs": 27,
-      "new_prs": 27
+      "release_date": "2026-06-16T10:15:00Z",
+      "total_prs": 28,
+      "new_prs": 28
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-06-02T19:36:10Z",
+      "release_date": "2026-06-16T10:15:00Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -48105,6 +48105,36 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "12357": {
+      "number": "12357",
+      "title": "statement-store: log account when statements get rejected",
+      "author": "alexggh",
+      "merged_at": "2026-06-12T19:24:02Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12357",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12359": {
+      "number": "12359",
+      "title": "[unstable2604] Backport #12357",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-16T10:15:01Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12359",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12357
+    },
     "12265": {
       "number": "12265",
       "title": "[unstable2604] Post crates release activities for unstable2604",
@@ -72963,6 +72993,15 @@
         "is_direct": true
       }
     ],
+    "12265": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
     "12138": [
       {
         "runtime_version": "2.3.0",
@@ -73873,6 +73912,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12359": 12357,
     "12248": 12125,
     "12235": 12214,
     "12218": 12207,
@@ -75733,6 +75773,9 @@
     ],
     "9176": [
       9270
+    ],
+    "12357": [
+      12359
     ],
     "12125": [
       12248
