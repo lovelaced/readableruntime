@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-17T03:26:55.584554Z",
+  "last_updated": "2026-06-18T03:31:10.561171Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32174,6 +32174,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12400": {
+      "number": "12400",
+      "title": "[stable2512] Post crates release activities for stable2512-6",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-17T10:46:40Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12400",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "12270": {
       "number": "12270",
       "title": "[stable2512] Backport #12176",
@@ -38017,6 +38029,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "12113": {
+      "number": "12113",
+      "title": "Aura: Fetch slot duration at parent and not best block",
+      "author": "bkchr",
+      "merged_at": "2026-05-21T15:27:16Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12113",
+      "branch": "stable2606",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12353": {
+      "number": "12353",
+      "title": "[stable2603] Backport #12113",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-17T13:59:56Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12353",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12113
+    },
     "12271": {
       "number": "12271",
       "title": "[stable2603] Backport #12176",
@@ -43520,6 +43560,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "12282": {
+      "number": "12282",
+      "title": "Logging improvements for the collator revamp",
+      "author": "tdimitrov",
+      "merged_at": "2026-06-15T13:48:22Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12282",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12377": {
+      "number": "12377",
+      "title": "[stable2606] Backport #12282",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-17T13:01:02Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12377",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12282
+    },
     "12314": {
       "number": "12314",
       "title": "approval-voting: cleanup coalescing logic",
@@ -44018,20 +44087,6 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12115",
-      "branch": "stable2606",
-      "is_direct": false,
-      "from_master": true
-    },
-    "12113": {
-      "number": "12113",
-      "title": "Aura: Fetch slot duration at parent and not best block",
-      "author": "bkchr",
-      "merged_at": "2026-05-21T15:27:16Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2603"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12113",
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
@@ -73758,6 +73813,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12353": 12113,
     "12271": 12176,
     "12234": 12214,
     "12184": 12168,
@@ -73848,6 +73904,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12377": 12282,
     "12337": 12314,
     "12021": 12017,
     "10983": 10646,
@@ -75560,6 +75617,9 @@
     "9685": [
       10374
     ],
+    "12113": [
+      12353
+    ],
     "12214": [
       12234,
       12235
@@ -75719,6 +75779,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12282": [
+      12377
     ],
     "12314": [
       12337
