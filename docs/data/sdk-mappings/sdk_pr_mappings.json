@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T03:31:59.363817Z",
+  "last_updated": "2026-06-23T03:28:26.979861Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43560,6 +43560,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "12358": {
+      "number": "12358",
+      "title": "Bump litep2p to 0.14.2",
+      "author": "skunert",
+      "merged_at": "2026-06-12T21:14:38Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12358",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12431": {
+      "number": "12431",
+      "title": "[stable2606] Backport #12358",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-22T13:06:10Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12431",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12358
+    },
     "12282": {
       "number": "12282",
       "title": "Logging improvements for the collator revamp",
@@ -43588,6 +43616,36 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12282
+    },
+    "12357": {
+      "number": "12357",
+      "title": "statement-store: log account when statements get rejected",
+      "author": "alexggh",
+      "merged_at": "2026-06-12T19:24:02Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12357",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12360": {
+      "number": "12360",
+      "title": "[stable2606] Backport #12357",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-22T07:17:31Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12360",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12357
     },
     "12314": {
       "number": "12314",
@@ -48159,21 +48217,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
-    },
-    "12357": {
-      "number": "12357",
-      "title": "statement-store: log account when statements get rejected",
-      "author": "alexggh",
-      "merged_at": "2026-06-12T19:24:02Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12357",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "12359": {
       "number": "12359",
@@ -73904,7 +73947,9 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12431": 12358,
     "12377": 12282,
+    "12360": 12357,
     "12337": 12314,
     "12021": 12017,
     "10983": 10646,
@@ -75780,8 +75825,15 @@
     "10917": [
       11067
     ],
+    "12358": [
+      12431
+    ],
     "12282": [
       12377
+    ],
+    "12357": [
+      12360,
+      12359
     ],
     "12314": [
       12337
@@ -75836,9 +75888,6 @@
     ],
     "9176": [
       9270
-    ],
-    "12357": [
-      12359
     ],
     "12125": [
       12248
