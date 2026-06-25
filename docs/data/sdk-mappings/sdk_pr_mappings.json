@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T03:26:37.903888Z",
+  "last_updated": "2026-06-25T03:25:29.108045Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43560,6 +43560,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "12297": {
+      "number": "12297",
+      "title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
+      "author": "rossbulat",
+      "merged_at": "2026-06-08T16:27:58Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12297",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12448": {
+      "number": "12448",
+      "title": "[stable2606] Backport #12297",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-24T07:41:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12448",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12297
+    },
     "12358": {
       "number": "12358",
       "title": "Bump litep2p to 0.14.2",
@@ -73947,6 +73975,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12448": 12297,
     "12431": 12358,
     "12377": 12282,
     "12360": 12357,
@@ -75824,6 +75853,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12297": [
+      12448
     ],
     "12358": [
       12431

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T03:26:37.901517Z",
+  "generated_at": "2026-06-25T03:25:29.104708Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -2321,8 +2321,8 @@
       }
     },
     "stable2606": {
-      "commit": "cbeabb61dfe05d83ea165768ecff2d1de7712bbd",
-      "date": "2026-06-22T13:06:10Z",
+      "commit": "f3bd25a2246301c5fa1fa979acfe972393d37597",
+      "date": "2026-06-24T07:41:21Z",
       "branch": "stable2606",
       "package_versions": {
         "polkadot-primitives": "7.0.0",
@@ -2357,7 +2357,7 @@
         "stable2606-rc1"
       ],
       "created_date": "2026-06-02T07:18:53Z",
-      "pr_count": 314
+      "pr_count": 315
     },
     "stable2603": {
       "tags": [
@@ -2627,7 +2627,7 @@
   "statistics": {
     "total_sdk_tags": 188,
     "total_branches": 16,
-    "total_prs_tracked": 3544,
+    "total_prs_tracked": 3546,
     "runtime_releases_mapped": 30
   }
 }
