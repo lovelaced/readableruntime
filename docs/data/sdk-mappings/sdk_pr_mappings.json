@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T03:25:29.108045Z",
+  "last_updated": "2026-06-26T03:26:23.078035Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38029,6 +38029,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12473": {
+      "number": "12473",
+      "title": "[stable2603] Post crates release activities for stable2603-4",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-25T11:42:04Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12473",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "12113": {
       "number": "12113",
       "title": "Aura: Fetch slot duration at parent and not best block",
@@ -43560,6 +43572,33 @@
       "is_direct": false,
       "from_master": true
     },
+    "12453": {
+      "number": "12453",
+      "title": "Fix duplicate statement notifications for multi-topic MatchAll subscriptions",
+      "author": "alexggh",
+      "merged_at": "2026-06-25T12:16:05Z",
+      "labels": [
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12453",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12478": {
+      "number": "12478",
+      "title": "[stable2606] Backport #12453",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-25T14:17:45Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12478",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12453
+    },
     "12297": {
       "number": "12297",
       "title": "fix(nomination-pools): allow permissionless full unbond of depositor in destroying state",
@@ -43587,6 +43626,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12297
+    },
+    "12402": {
+      "number": "12402",
+      "title": "nomination-pools: benchmark against staking-async, enable on Asset Hub Westend",
+      "author": "sigurpol",
+      "merged_at": "2026-06-23T12:35:25Z",
+      "labels": [
+        "T2-pallets",
+        "T12-benchmarks",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12402",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12442": {
+      "number": "12442",
+      "title": "[stable2606] Backport #12402",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-25T11:48:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12442",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12402
     },
     "12358": {
       "number": "12358",
@@ -73975,7 +74043,9 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12478": 12453,
     "12448": 12297,
+    "12442": 12402,
     "12431": 12358,
     "12377": 12282,
     "12360": 12357,
@@ -75854,8 +75924,14 @@
     "10917": [
       11067
     ],
+    "12453": [
+      12478
+    ],
     "12297": [
       12448
+    ],
+    "12402": [
+      12442
     ],
     "12358": [
       12431
