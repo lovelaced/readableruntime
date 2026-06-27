@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T03:26:23.078035Z",
+  "last_updated": "2026-06-27T03:28:30.809077Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38029,6 +38029,59 @@
       "is_direct": false,
       "from_master": true
     },
+    "12487": {
+      "number": "12487",
+      "title": "[stable2603] Post crates release activities for stable2603-4",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-26T09:49:41Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12487",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "12481": {
+      "number": "12481",
+      "title": "[stable2603] Skip \"Stop all workflows if failed\" step in check-migrations flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-06-26T05:52:29Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12481",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "11910": {
+      "number": "11910",
+      "title": "XCM hardening - fix some regressions",
+      "author": "acatangiu",
+      "merged_at": "2026-06-25T11:20:26Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11910",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12476": {
+      "number": "12476",
+      "title": "[stable2603] Backport #11910",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-26T07:24:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12476",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11910
+    },
     "12473": {
       "number": "12473",
       "title": "[stable2603] Post crates release activities for stable2603-4",
@@ -43572,6 +43625,30 @@
       "is_direct": false,
       "from_master": true
     },
+    "12495": {
+      "number": "12495",
+      "title": "[stable2606] Bump spec_version to 1_024_001",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-06-26T17:03:42Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12495",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "12491": {
+      "number": "12491",
+      "title": "[stable2606] Move prdocs to release folder, update changelog, add changelog files to the build artifacts",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-06-26T16:02:19Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12491",
+      "branch": "stable2606",
+      "is_direct": true
+    },
     "12453": {
       "number": "12453",
       "title": "Fix duplicate statement notifications for multi-topic MatchAll subscriptions",
@@ -43655,6 +43732,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12402
+    },
+    "12432": {
+      "number": "12432",
+      "title": "cargo: Bump litep2p to 0.14.3",
+      "author": "lexnv",
+      "merged_at": "2026-06-23T07:14:21Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12432",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12436": {
+      "number": "12436",
+      "title": "[stable2606] Backport #12432",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-26T10:10:49Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12436",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12432
     },
     "12358": {
       "number": "12358",
@@ -73952,6 +74057,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12476": 11910,
     "12353": 12113,
     "12271": 12176,
     "12234": 12214,
@@ -74046,6 +74152,7 @@
     "12478": 12453,
     "12448": 12297,
     "12442": 12402,
+    "12436": 12432,
     "12431": 12358,
     "12377": 12282,
     "12360": 12357,
@@ -75761,6 +75868,9 @@
     "9685": [
       10374
     ],
+    "11910": [
+      12476
+    ],
     "12113": [
       12353
     ],
@@ -75932,6 +76042,9 @@
     ],
     "12402": [
       12442
+    ],
+    "12432": [
+      12436
     ],
     "12358": [
       12431
