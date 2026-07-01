@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-30T03:25:26.433944Z",
+  "last_updated": "2026-07-01T03:31:25.077315Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43625,6 +43625,47 @@
       "is_direct": false,
       "from_master": true
     },
+    "12520": {
+      "number": "12520",
+      "title": "[stable2606] Move prdocs to release folder and generate changelog",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-06-30T10:26:36Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12520",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "8964": {
+      "number": "8964",
+      "title": "Make BEEFY aware of duplicated authorities",
+      "author": "Klapeyron",
+      "merged_at": "2026-06-04T11:30:59Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8964",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12516": {
+      "number": "12516",
+      "title": "[stable2606] Backport #8964",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-06-30T10:14:04Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12516",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 8964
+    },
     "12495": {
       "number": "12495",
       "title": "[stable2606] Bump spec_version to 1_024_001",
@@ -74149,6 +74190,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12516": 8964,
     "12478": 12453,
     "12448": 12297,
     "12442": 12402,
@@ -76033,6 +76075,9 @@
     ],
     "10917": [
       11067
+    ],
+    "8964": [
+      12516
     ],
     "12453": [
       12478
