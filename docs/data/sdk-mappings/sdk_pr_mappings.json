@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T03:27:59.735554Z",
+  "last_updated": "2026-07-03T06:06:48.579914Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43625,6 +43625,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "12526": {
+      "number": "12526",
+      "title": "[Release|CI/CD] Publish release draft as empty when body length exceeds github requirements",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-07-01T13:39:16Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12526",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12527": {
+      "number": "12527",
+      "title": "[stable2606] Backport #12526",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-02T09:25:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12527",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12526
+    },
     "12520": {
       "number": "12520",
       "title": "[stable2606] Move prdocs to release folder and generate changelog",
@@ -74190,6 +74219,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12527": 12526,
     "12516": 8964,
     "12478": 12453,
     "12448": 12297,
@@ -76075,6 +76105,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12526": [
+      12527
     ],
     "8964": [
       12516
