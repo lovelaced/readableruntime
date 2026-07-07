@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-06T06:50:27.725355Z",
+  "generated_at": "2026-07-07T06:24:37.605169Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -470,6 +470,16 @@
     }
   },
   "sdk_tags": {
+    "stable2606": {
+      "commit": "660acefe66599a3e54363797007befcb01bd610b",
+      "date": "2026-07-03T08:57:30Z",
+      "branch": "stable2606",
+      "package_versions": {
+        "polkadot-primitives": "25.0.0",
+        "sp-runtime": "48.0.0",
+        "frame-support": "48.0.0"
+      }
+    },
     "stable2606-rc4": {
       "commit": "660acefe66599a3e54363797007befcb01bd610b",
       "date": "2026-07-03T08:57:30Z",
@@ -2380,16 +2390,6 @@
         "frame-support": "28.0.0"
       }
     },
-    "stable2606": {
-      "commit": "660acefe66599a3e54363797007befcb01bd610b",
-      "date": "2026-07-03T08:57:30Z",
-      "branch": "stable2606",
-      "package_versions": {
-        "polkadot-primitives": "25.0.0",
-        "sp-runtime": "48.0.0",
-        "frame-support": "48.0.0"
-      }
-    },
     "unstable2507": {
       "commit": "e99dfb4ab44878d300af0caffa2fd8feddf9dd0c",
       "date": "2026-05-08T08:34:26Z",
@@ -2414,6 +2414,7 @@
   "branch_info": {
     "stable2606": {
       "tags": [
+        "stable2606",
         "stable2606-rc4",
         "stable2606-rc3",
         "stable2606-rc2",
