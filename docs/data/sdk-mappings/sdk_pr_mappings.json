@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T05:36:32.986925Z",
+  "last_updated": "2026-07-09T06:21:31.426883Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -52,8 +52,8 @@
     "v1.7.0": {
       "sdk_version": "unstable2507",
       "release_date": "2026-05-08T08:34:26Z",
-      "total_prs": 452,
-      "new_prs": 452
+      "total_prs": 451,
+      "new_prs": 451
     },
     "v1.7.1": {
       "sdk_version": "unstable2507",
@@ -25725,19 +25725,6 @@
       "is_direct": false,
       "from_master": true
     },
-    "8244": {
-      "number": "8244",
-      "title": "wasm-builder: Fix crate patching logic for the runtime blob",
-      "author": "ghost",
-      "merged_at": "2025-04-29T12:22:31Z",
-      "labels": [
-        "R0-no-crate-publish-required"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8244",
-      "branch": "stable2506",
-      "is_direct": false,
-      "from_master": true
-    },
     "8243": {
       "number": "8243",
       "title": "slot-based-collator: Do not skip slots",
@@ -43597,6 +43584,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12388
+    },
+    "12534": {
+      "number": "12534",
+      "title": "pallet-utility: fix dispatch class of empty batch/batch_all/force_batch",
+      "author": "josepot",
+      "merged_at": "2026-07-03T08:32:10Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12534",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12540": {
+      "number": "12540",
+      "title": "[stable2606] Backport #12534",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-08T09:20:37Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12540",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12534
     },
     "12539": {
       "number": "12539",
@@ -68900,15 +68915,6 @@
         "from_master": true
       }
     ],
-    "8244": [
-      {
-        "runtime_version": "1.7.0",
-        "sdk_version": "unstable2507",
-        "sdk_branch": "unstable2507",
-        "source_branch": "stable2506",
-        "from_master": true
-      }
-    ],
     "10294": [
       {
         "runtime_version": "1.7.0",
@@ -74220,6 +74226,7 @@
     "11067": 10917,
     "11058": 11055,
     "12575": 12388,
+    "12540": 12534,
     "12527": 12526,
     "12516": 8964,
     "12478": 12453,
@@ -76114,6 +76121,9 @@
     ],
     "12388": [
       12575
+    ],
+    "12534": [
+      12540
     ],
     "12526": [
       12527
