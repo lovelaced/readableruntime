@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T06:22:31.879423Z",
+  "last_updated": "2026-07-11T05:26:48.656561Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -10676,7 +10676,7 @@
     "5381": {
       "number": "5381",
       "title": "Update Templates Readme - Github Repo links",
-      "author": "DrW3RK",
+      "author": "profradha",
       "merged_at": "2024-09-06T09:25:21Z",
       "labels": [
         "R0-no-crate-publish-required"
@@ -14811,7 +14811,7 @@
     "7930": {
       "number": "7930",
       "title": "Update README.md for Cumulus",
-      "author": "DrW3RK",
+      "author": "profradha",
       "merged_at": "2025-03-17T20:08:54Z",
       "labels": [
         "R0-no-crate-publish-required"
@@ -37945,6 +37945,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "12388": {
+      "number": "12388",
+      "title": "collator-protocol revamp:  Send RC PeerId with ApprovedPeer UMP signal",
+      "author": "tdimitrov",
+      "merged_at": "2026-07-07T06:23:18Z",
+      "labels": [
+        "T9-cumulus",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12388",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12573": {
+      "number": "12573",
+      "title": "[stable2603] Backport #12388",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-10T13:27:23Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12573",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12388
+    },
     "12572": {
       "number": "12572",
       "title": "[stable2603] Backport #12567",
@@ -43555,21 +43585,35 @@
       "is_direct": false,
       "from_master": true
     },
-    "12388": {
-      "number": "12388",
-      "title": "collator-protocol revamp:  Send RC PeerId with ApprovedPeer UMP signal",
+    "12260": {
+      "number": "12260",
+      "title": "collator-protocol revamp: Increase channel size used by the background writer of `PersistentDb`",
       "author": "tdimitrov",
-      "merged_at": "2026-07-07T06:23:18Z",
+      "merged_at": "2026-07-09T16:58:49Z",
       "labels": [
-        "T9-cumulus",
+        "T8-polkadot",
         "A4-backport-stable2603",
         "A4-backport-unstable2604",
         "A4-backport-stable2606"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12388",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12260",
       "branch": "master",
       "is_direct": false,
       "from_master": true
+    },
+    "12620": {
+      "number": "12620",
+      "title": "[stable2606] Backport #12260",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-10T13:08:34Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12620",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12260
     },
     "12575": {
       "number": "12575",
@@ -74132,6 +74176,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12573": 12388,
     "12572": 12567,
     "12476": 11910,
     "12353": 12113,
@@ -74225,6 +74270,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12620": 12260,
     "12575": 12388,
     "12540": 12534,
     "12527": 12526,
@@ -75953,6 +75999,10 @@
     "9685": [
       10374
     ],
+    "12388": [
+      12573,
+      12575
+    ],
     "11910": [
       12476
     ],
@@ -76119,8 +76169,8 @@
     "10917": [
       11067
     ],
-    "12388": [
-      12575
+    "12260": [
+      12620
     ],
     "12534": [
       12540
