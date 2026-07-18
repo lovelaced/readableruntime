@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T05:28:20.101823Z",
+  "last_updated": "2026-07-18T05:02:50.079727Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,13 +171,13 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-06-16T10:15:00Z",
-      "total_prs": 28,
-      "new_prs": 28
+      "release_date": "2026-07-17T10:24:45Z",
+      "total_prs": 29,
+      "new_prs": 29
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-06-16T10:15:00Z",
+      "release_date": "2026-07-17T10:24:45Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -48545,6 +48545,36 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "12409": {
+      "number": "12409",
+      "title": "Add increase_value call to pallet-multi-asset-bounties",
+      "author": "dhirajs0",
+      "merged_at": "2026-07-12T04:58:48Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12409",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12628": {
+      "number": "12628",
+      "title": "[unstable2604] Backport #12409",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-17T10:24:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12628",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12409
+    },
     "12359": {
       "number": "12359",
       "title": "[unstable2604] Backport #12357",
@@ -73321,6 +73351,17 @@
         "is_direct": true
       }
     ],
+    "12359": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12357,
+        "is_direct": true
+      }
+    ],
     "11975": [
       {
         "runtime_version": "2.3.0",
@@ -74346,6 +74387,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12628": 12409,
     "12359": 12357,
     "12248": 12125,
     "12235": 12214,
@@ -76256,6 +76298,9 @@
     ],
     "9176": [
       9270
+    ],
+    "12409": [
+      12628
     ],
     "12125": [
       12248
