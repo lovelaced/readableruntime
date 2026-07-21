@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T05:54:44.151428Z",
+  "last_updated": "2026-07-21T05:38:46.061199Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,13 +171,13 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-07-17T10:24:45Z",
-      "total_prs": 29,
-      "new_prs": 29
+      "release_date": "2026-07-20T10:41:22Z",
+      "total_prs": 30,
+      "new_prs": 30
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-07-17T10:24:45Z",
+      "release_date": "2026-07-20T10:41:22Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -48545,6 +48545,18 @@
       "is_backport": true,
       "original_pr": 9127
     },
+    "12680": {
+      "number": "12680",
+      "title": "[unstable2604] Post crates release activities for unstable2604",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-20T10:41:22Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12680",
+      "branch": "unstable2604",
+      "is_direct": true
+    },
     "12409": {
       "number": "12409",
       "title": "Add increase_value call to pallet-multi-asset-bounties",
@@ -73403,6 +73415,17 @@
         "source_branch": "unstable2604",
         "is_backport": true,
         "original_pr": 10952,
+        "is_direct": true
+      }
+    ],
+    "12628": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12409,
         "is_direct": true
       }
     ],
