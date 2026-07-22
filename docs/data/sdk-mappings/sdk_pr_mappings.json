@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T05:38:46.061199Z",
+  "last_updated": "2026-07-22T05:35:31.531527Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43585,6 +43585,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "12106": {
+      "number": "12106",
+      "title": "sp-database: aggregate same-key refcount ops within a transaction",
+      "author": "karolk91",
+      "merged_at": "2026-07-17T17:13:17Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12106",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12678": {
+      "number": "12678",
+      "title": "[stable2606] Backport #12106",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-21T12:51:33Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12678",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12106
+    },
     "12260": {
       "number": "12260",
       "title": "collator-protocol revamp: Increase channel size used by the background writer of `PersistentDb`",
@@ -74334,6 +74362,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12678": 12106,
     "12620": 12260,
     "12575": 12388,
     "12540": 12534,
@@ -76233,6 +76262,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12106": [
+      12678
     ],
     "12260": [
       12620
