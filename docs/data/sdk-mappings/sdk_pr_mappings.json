@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T05:38:34.275247Z",
+  "last_updated": "2026-07-24T05:37:45.078321Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -176,6 +176,12 @@
       "new_prs": 30
     },
     "v2.3.1": {
+      "sdk_version": "unstable2604",
+      "release_date": "2026-07-20T10:41:22Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v2.3.2": {
       "sdk_version": "unstable2604",
       "release_date": "2026-07-20T10:41:22Z",
       "total_prs": 0,
@@ -37945,6 +37951,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "12260": {
+      "number": "12260",
+      "title": "collator-protocol revamp: Increase channel size used by the background writer of `PersistentDb`",
+      "author": "tdimitrov",
+      "merged_at": "2026-07-09T16:58:49Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12260",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12618": {
+      "number": "12618",
+      "title": "[stable2603] Backport #12260",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-23T16:50:37Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12618",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12260
+    },
     "12388": {
       "number": "12388",
       "title": "collator-protocol revamp:  Send RC PeerId with ApprovedPeer UMP signal",
@@ -43612,22 +43648,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12106
-    },
-    "12260": {
-      "number": "12260",
-      "title": "collator-protocol revamp: Increase channel size used by the background writer of `PersistentDb`",
-      "author": "tdimitrov",
-      "merged_at": "2026-07-09T16:58:49Z",
-      "labels": [
-        "T8-polkadot",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12260",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "12620": {
       "number": "12620",
@@ -74268,6 +74288,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12618": 12260,
     "12573": 12388,
     "12572": 12567,
     "12476": 11910,
@@ -76093,6 +76114,10 @@
     "9685": [
       10374
     ],
+    "12260": [
+      12618,
+      12620
+    ],
     "12388": [
       12573,
       12575
@@ -76265,9 +76290,6 @@
     ],
     "12106": [
       12678
-    ],
-    "12260": [
-      12620
     ],
     "12534": [
       12540
