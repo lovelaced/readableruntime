@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-30T05:26:10.101601Z",
+  "last_updated": "2026-07-31T05:48:26.905226Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -37951,6 +37951,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12757": {
+      "number": "12757",
+      "title": "[stable2603] Post crates release activities for stable2603-5",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-30T12:48:43Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12757",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "12260": {
       "number": "12260",
       "title": "collator-protocol revamp: Increase channel size used by the background writer of `PersistentDb`",
@@ -66188,15 +66200,6 @@
         "from_master": true
       }
     ],
-    "10709": [
-      {
-        "runtime_version": "2.2.0",
-        "sdk_version": "stable2603-1-rc1",
-        "sdk_branch": "stable2603",
-        "source_branch": "stable2603",
-        "from_master": true
-      }
-    ],
     "10710": [
       {
         "runtime_version": "2.2.0",
@@ -66225,6 +66228,15 @@
       }
     ],
     "10713": [
+      {
+        "runtime_version": "2.2.0",
+        "sdk_version": "stable2603-1-rc1",
+        "sdk_branch": "stable2603",
+        "source_branch": "stable2603",
+        "from_master": true
+      }
+    ],
+    "10709": [
       {
         "runtime_version": "2.2.0",
         "sdk_version": "stable2603-1-rc1",
