@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T05:48:26.905226Z",
+  "last_updated": "2026-08-01T05:45:44.280873Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43690,6 +43690,36 @@
       "is_backport": true,
       "original_pr": 12106
     },
+    "12409": {
+      "number": "12409",
+      "title": "Add increase_value call to pallet-multi-asset-bounties",
+      "author": "dhirajs0",
+      "merged_at": "2026-07-12T04:58:48Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12409",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12629": {
+      "number": "12629",
+      "title": "[stable2606] Backport #12409",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-07-31T09:29:29Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12629",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12409
+    },
     "12620": {
       "number": "12620",
       "title": "[stable2606] Backport #12260",
@@ -48645,22 +48675,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12680",
       "branch": "unstable2604",
       "is_direct": true
-    },
-    "12409": {
-      "number": "12409",
-      "title": "Add increase_value call to pallet-multi-asset-bounties",
-      "author": "dhirajs0",
-      "merged_at": "2026-07-12T04:58:48Z",
-      "labels": [
-        "T1-FRAME",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12409",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "12628": {
       "number": "12628",
@@ -74426,6 +74440,7 @@
     "11058": 11055,
     "12737": 12733,
     "12678": 12106,
+    "12629": 12409,
     "12620": 12260,
     "12575": 12388,
     "12540": 12534,
@@ -76336,6 +76351,10 @@
     "12106": [
       12678
     ],
+    "12409": [
+      12629,
+      12628
+    ],
     "12534": [
       12540
     ],
@@ -76420,9 +76439,6 @@
     ],
     "9176": [
       9270
-    ],
-    "12409": [
-      12628
     ],
     "12125": [
       12248
