@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-06T05:30:19.544465Z",
+  "last_updated": "2026-08-07T04:37:59.849858Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32083,6 +32083,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "12767": {
+      "number": "12767",
+      "title": "grandpa: Revert memory changes synced with db",
+      "author": "lexnv",
+      "merged_at": "2026-08-03T10:44:16Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12767",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12790": {
+      "number": "12790",
+      "title": "[stable2512] Backport #12767",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-06T10:16:00Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12790",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12767
+    },
     "12571": {
       "number": "12571",
       "title": "[stable2512] Backport #12567",
@@ -37951,25 +37984,6 @@
       "is_direct": false,
       "from_master": true
     },
-    "12767": {
-      "number": "12767",
-      "title": "grandpa: Revert memory changes synced with db",
-      "author": "lexnv",
-      "merged_at": "2026-08-03T10:44:16Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12767",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
-    },
     "12791": {
       "number": "12791",
       "title": "[stable2603] Backport #12767",
@@ -43665,6 +43679,18 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "12825": {
+      "number": "12825",
+      "title": "[stable2606] Post crates release activities for stable2606-1",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-06T13:09:58Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12825",
+      "branch": "stable2606",
+      "is_direct": true
     },
     "12793": {
       "number": "12793",
@@ -74304,6 +74330,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "12790": 12767,
     "12571": 12567,
     "12270": 12176,
     "12183": 12168,
@@ -76031,6 +76058,12 @@
       9655,
       9654
     ],
+    "12767": [
+      12790,
+      12791,
+      12793,
+      12792
+    ],
     "10712": [
       11874
     ],
@@ -76243,11 +76276,6 @@
     ],
     "9685": [
       10374
-    ],
-    "12767": [
-      12791,
-      12793,
-      12792
     ],
     "12260": [
       12618,
