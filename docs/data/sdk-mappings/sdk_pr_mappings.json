@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T04:20:13.783087Z",
+  "last_updated": "2026-08-13T04:27:09.923217Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -33355,20 +33355,6 @@
       "is_backport": true,
       "original_pr": 10810
     },
-    "10955": {
-      "number": "10955",
-      "title": "Snowbridge: Remove unused proof fields",
-      "author": "yrong",
-      "merged_at": "2026-02-11T10:06:49Z",
-      "labels": [
-        "T15-bridges",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10955",
-      "branch": "stable2603",
-      "is_direct": false,
-      "from_master": true
-    },
     "11043": {
       "number": "11043",
       "title": "[stable2512] Backport #10955",
@@ -41477,6 +41463,20 @@
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10958",
       "branch": "stable2603-stale",
+      "is_direct": false,
+      "from_master": true
+    },
+    "10955": {
+      "number": "10955",
+      "title": "Snowbridge: Remove unused proof fields",
+      "author": "yrong",
+      "merged_at": "2026-02-11T10:06:49Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10955",
+      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
