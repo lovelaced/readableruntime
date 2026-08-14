@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T04:27:09.923217Z",
+  "last_updated": "2026-08-14T04:26:17.134094Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -26782,6 +26782,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "12881": {
+      "number": "12881",
+      "title": "[stable2509] Post crates release activities for stable2509-11",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-13T16:37:25Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12881",
+      "branch": "stable2509",
+      "is_direct": true
+    },
     "12819": {
       "number": "12819",
       "title": "[CI/CD] Bump parity-publish version to 0.10.17",
@@ -26814,6 +26826,39 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12819
+    },
+    "12767": {
+      "number": "12767",
+      "title": "grandpa: Revert memory changes synced with db",
+      "author": "lexnv",
+      "merged_at": "2026-08-03T10:44:16Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-unstable2507",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12767",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12789": {
+      "number": "12789",
+      "title": "[stable2509] Backport #12767",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-13T12:55:21Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12789",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12767
     },
     "12567": {
       "number": "12567",
@@ -32131,25 +32176,6 @@
       "is_backport": true,
       "original_pr": 12819
     },
-    "12767": {
-      "number": "12767",
-      "title": "grandpa: Revert memory changes synced with db",
-      "author": "lexnv",
-      "merged_at": "2026-08-03T10:44:16Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12767",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
-    },
     "12790": {
       "number": "12790",
       "title": "[stable2512] Backport #12767",
@@ -33354,6 +33380,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 10810
+    },
+    "10955": {
+      "number": "10955",
+      "title": "Snowbridge: Remove unused proof fields",
+      "author": "yrong",
+      "merged_at": "2026-02-11T10:06:49Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2512"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/10955",
+      "branch": "stable2603",
+      "is_direct": false,
+      "from_master": true
     },
     "11043": {
       "number": "11043",
@@ -41463,20 +41503,6 @@
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10958",
       "branch": "stable2603-stale",
-      "is_direct": false,
-      "from_master": true
-    },
-    "10955": {
-      "number": "10955",
-      "title": "Snowbridge: Remove unused proof fields",
-      "author": "yrong",
-      "merged_at": "2026-02-11T10:06:49Z",
-      "labels": [
-        "T15-bridges",
-        "A4-backport-stable2512"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/10955",
-      "branch": "stable2603",
       "is_direct": false,
       "from_master": true
     },
@@ -74336,6 +74362,7 @@
     "8822": 8820,
     "8815": 8755,
     "12826": 12819,
+    "12789": 12767,
     "12570": 12567,
     "12274": 12176,
     "12182": 12168,
@@ -75991,6 +76018,13 @@
       12830,
       12829
     ],
+    "12767": [
+      12789,
+      12790,
+      12791,
+      12793,
+      12792
+    ],
     "12567": [
       12570,
       12571,
@@ -76173,12 +76207,6 @@
     "9632": [
       9655,
       9654
-    ],
-    "12767": [
-      12790,
-      12791,
-      12793,
-      12792
     ],
     "10712": [
       11874
