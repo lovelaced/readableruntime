@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T04:26:17.134094Z",
+  "last_updated": "2026-08-15T03:03:56.757279Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32161,6 +32161,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "12812": {
+      "number": "12812",
+      "title": "beefy: lower peer reputation for bad responses",
+      "author": "acatangiu",
+      "merged_at": "2026-08-14T12:17:00Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12812",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12892": {
+      "number": "12892",
+      "title": "[stable2512] Backport #12812",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-14T14:31:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12892",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12812
+    },
     "12827": {
       "number": "12827",
       "title": "[stable2512] Backport #12819",
@@ -38058,6 +38088,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "12893": {
+      "number": "12893",
+      "title": "[stable2603] Backport #12812",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-14T14:01:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12893",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12812
+    },
     "12828": {
       "number": "12828",
       "title": "[stable2603] Backport #12819",
@@ -43768,6 +43812,48 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "12894": {
+      "number": "12894",
+      "title": "[stable2606] Backport #12812",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-14T15:07:04Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12894",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12812
+    },
+    "12844": {
+      "number": "12844",
+      "title": "paras: skip undersized parachain heads in sorted_para_heads",
+      "author": "yrong",
+      "merged_at": "2026-08-13T08:15:30Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12844",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12891": {
+      "number": "12891",
+      "title": "[stable2606] Backport #12844",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-14T13:59:53Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12891",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12844
     },
     "12830": {
       "number": "12830",
@@ -74462,6 +74548,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "12892": 12812,
     "12827": 12819,
     "12790": 12767,
     "12571": 12567,
@@ -74573,6 +74660,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "12893": 12812,
     "12828": 12819,
     "12791": 12767,
     "12618": 12260,
@@ -74670,6 +74758,8 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12894": 12812,
+    "12891": 12844,
     "12830": 12819,
     "12793": 12767,
     "12737": 12733,
@@ -76208,6 +76298,11 @@
       9655,
       9654
     ],
+    "12812": [
+      12892,
+      12893,
+      12894
+    ],
     "10712": [
       11874
     ],
@@ -76594,6 +76689,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12844": [
+      12891
     ],
     "12733": [
       12737
