@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-17T03:12:44.551953Z",
+  "last_updated": "2026-08-18T03:13:02.491051Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,19 +171,19 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-08-07T09:18:08Z",
-      "total_prs": 32,
-      "new_prs": 32
+      "release_date": "2026-08-17T13:47:43Z",
+      "total_prs": 33,
+      "new_prs": 33
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-08-07T09:18:08Z",
+      "release_date": "2026-08-17T13:47:43Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.3.2": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-08-07T09:18:08Z",
+      "release_date": "2026-08-17T13:47:43Z",
       "total_prs": 0,
       "new_prs": 0
     }
@@ -32170,6 +32170,7 @@
         "T0-node",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
+        "A4-backport-unstable2604",
         "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12812",
@@ -48926,6 +48927,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "12918": {
+      "number": "12918",
+      "title": "[unstable2604 Backport #12812] beefy: lower peer reputation for bad responses",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-17T13:47:44Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12918",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12812
     },
     "12829": {
       "number": "12829",
@@ -73694,6 +73709,17 @@
         "is_direct": true
       }
     ],
+    "12829": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12819,
+        "is_direct": true
+      }
+    ],
     "12201": [
       {
         "runtime_version": "2.3.0",
@@ -74841,6 +74867,7 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "12918": 12812,
     "12829": 12819,
     "12792": 12767,
     "12628": 12409,
@@ -76301,7 +76328,8 @@
     "12812": [
       12892,
       12893,
-      12894
+      12894,
+      12918
     ],
     "10712": [
       11874
