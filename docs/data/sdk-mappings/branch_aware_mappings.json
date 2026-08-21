@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T03:09:50.174344Z",
+  "generated_at": "2026-08-21T03:16:20.816983Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -370,7 +370,7 @@
         "polkadot-primitives": "22.0.0",
         "sp-runtime": "45.0.0"
       },
-      "branch_pr_count": 433,
+      "branch_pr_count": 434,
       "included_branches": [
         "stable2512"
       ],
@@ -385,7 +385,7 @@
         "polkadot-primitives": "22.0.0",
         "sp-runtime": "45.0.0"
       },
-      "branch_pr_count": 433,
+      "branch_pr_count": 434,
       "included_branches": [
         "stable2512"
       ],
@@ -439,29 +439,29 @@
     "v2.3.0": {
       "sdk_tag": "unstable2604",
       "sdk_branch": "unstable2604",
-      "sdk_date": "2026-08-17T13:47:43Z",
+      "sdk_date": "2026-08-20T11:47:24Z",
       "package_versions": {
         "frame-support": "47.0.0",
         "polkadot-primitives": "24.0.0",
         "sp-runtime": "47.0.0"
       },
-      "branch_pr_count": 262,
+      "branch_pr_count": 264,
       "included_branches": [
         "unstable2604",
         "stable2603-stale"
       ],
-      "actual_pr_count": 33
+      "actual_pr_count": 35
     },
     "v2.3.1": {
       "sdk_tag": "unstable2604",
       "sdk_branch": "unstable2604",
-      "sdk_date": "2026-08-17T13:47:43Z",
+      "sdk_date": "2026-08-20T11:47:24Z",
       "package_versions": {
         "frame-support": "47.0.0",
         "polkadot-primitives": "24.0.0",
         "sp-runtime": "47.0.0"
       },
-      "branch_pr_count": 262,
+      "branch_pr_count": 264,
       "included_branches": [
         "unstable2604",
         "stable2603-stale"
@@ -471,13 +471,13 @@
     "v2.3.2": {
       "sdk_tag": "unstable2604",
       "sdk_branch": "unstable2604",
-      "sdk_date": "2026-08-17T13:47:43Z",
+      "sdk_date": "2026-08-20T11:47:24Z",
       "package_versions": {
         "frame-support": "47.0.0",
         "polkadot-primitives": "24.0.0",
         "sp-runtime": "47.0.0"
       },
-      "branch_pr_count": 262,
+      "branch_pr_count": 264,
       "included_branches": [
         "unstable2604",
         "stable2603-stale"
@@ -784,6 +784,26 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2512-8": {
+      "commit": "e1f0f7a3eabaf4bbfcdb6bf8de98de799bd192b8",
+      "date": "2026-08-20T11:09:51Z",
+      "branch": "stable2512",
+      "package_versions": {
+        "polkadot-primitives": "22.0.0",
+        "sp-runtime": "45.0.0",
+        "frame-support": "45.1.3"
+      }
+    },
+    "stable2512-8-rc1": {
+      "commit": "e1f0f7a3eabaf4bbfcdb6bf8de98de799bd192b8",
+      "date": "2026-08-20T11:09:51Z",
+      "branch": "stable2512",
+      "package_versions": {
+        "polkadot-primitives": "22.0.0",
+        "sp-runtime": "45.0.0",
+        "frame-support": "45.1.3"
       }
     },
     "stable2512-6": {
@@ -2477,8 +2497,8 @@
       }
     },
     "unstable2604": {
-      "commit": "fae1e76c0c738823d6bef2500414a2fb7c3dabaf",
-      "date": "2026-08-17T13:47:43Z",
+      "commit": "e83b4ddeb1bf38ce3977ae59a9c1809e4411d148",
+      "date": "2026-08-20T11:47:24Z",
       "branch": "unstable2604",
       "package_versions": {
         "polkadot-primitives": "24.0.0",
@@ -2532,6 +2552,8 @@
         "stable2512-rc3",
         "stable2512-rc2",
         "stable2512-rc1",
+        "stable2512-8",
+        "stable2512-8-rc1",
         "stable2512-6",
         "stable2512-6-rc1",
         "stable2512-5",
@@ -2545,7 +2567,7 @@
         "stable2512-1-rc1"
       ],
       "created_date": "2025-11-18T13:32:56Z",
-      "pr_count": 433
+      "pr_count": 434
     },
     "stable2509": {
       "tags": [
@@ -2579,7 +2601,7 @@
         "stable2509-1-rc1"
       ],
       "created_date": "2025-09-01T11:45:58Z",
-      "pr_count": 390
+      "pr_count": 391
     },
     "stable2506": {
       "tags": [
@@ -2770,13 +2792,13 @@
     "unstable2604": {
       "tags": [],
       "created_date": "2026-05-02T10:43:06Z",
-      "pr_count": 34
+      "pr_count": 36
     }
   },
   "statistics": {
-    "total_sdk_tags": 200,
+    "total_sdk_tags": 202,
     "total_branches": 16,
-    "total_prs_tracked": 3607,
+    "total_prs_tracked": 3612,
     "runtime_releases_mapped": 31
   }
 }
