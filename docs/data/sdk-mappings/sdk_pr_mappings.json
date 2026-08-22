@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-21T03:16:20.819806Z",
+  "last_updated": "2026-08-22T03:06:36.258641Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43838,6 +43838,92 @@
       "is_direct": false,
       "from_master": true
     },
+    "12832": {
+      "number": "12832",
+      "title": "XCM hardening",
+      "author": "franciscoaguirre",
+      "merged_at": "2026-08-20T18:45:02Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12832",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12956": {
+      "number": "12956",
+      "title": "[stable2606 Backport #12832] XCM hardening",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-21T18:58:29Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12956",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12832
+    },
+    "12245": {
+      "number": "12245",
+      "title": "Multi instance PSM",
+      "author": "Szegoo",
+      "merged_at": "2026-07-28T14:40:23Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12245",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12952": {
+      "number": "12952",
+      "title": "[stable2606] Backport #12245 & #12811 - Multi-instance PSM",
+      "author": "Szegoo",
+      "merged_at": "2026-08-21T22:37:22Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12952",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12245
+    },
+    "12440": {
+      "number": "12440",
+      "title": "Fix for `rust-lld` regression",
+      "author": "s0me0ne-unkn0wn",
+      "merged_at": "2026-06-23T18:12:19Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T5-host_functions",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12440",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12928": {
+      "number": "12928",
+      "title": "[stable2606 Backport #12440] Fix for `rust-lld` regression",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-21T17:56:08Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12928",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12440
+    },
     "12894": {
       "number": "12894",
       "title": "[stable2606] Backport #12812",
@@ -43879,6 +43965,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12844
+    },
+    "12582": {
+      "number": "12582",
+      "title": "collator-protocol-revamp: additional metrics",
+      "author": "tdimitrov",
+      "merged_at": "2026-08-14T08:27:51Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12582",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12885": {
+      "number": "12885",
+      "title": "[stable2606] Backport #12582",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-21T16:43:04Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12885",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12582
     },
     "12830": {
       "number": "12830",
@@ -48971,7 +49086,8 @@
       "merged_at": "2026-08-17T13:02:34Z",
       "labels": [
         "T7-smart_contracts",
-        "A4-backport-unstable2604"
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12281",
       "branch": "master",
@@ -74870,8 +74986,12 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12956": 12832,
+    "12952": 12245,
+    "12928": 12440,
     "12894": 12812,
     "12891": 12844,
+    "12885": 12582,
     "12830": 12819,
     "12793": 12767,
     "12737": 12733,
@@ -76805,8 +76925,20 @@
     "10917": [
       11067
     ],
+    "12832": [
+      12956
+    ],
+    "12245": [
+      12952
+    ],
+    "12440": [
+      12928
+    ],
     "12844": [
       12891
+    ],
+    "12582": [
+      12885
     ],
     "12733": [
       12737
