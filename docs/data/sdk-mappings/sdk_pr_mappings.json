@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-24T03:19:27.481876Z",
+  "last_updated": "2026-08-25T03:12:20.084936Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -7458,7 +7458,7 @@
     "6212": {
       "number": "6212",
       "title": "Added Trusted Query API implementation for Westend and Rococo relay chains",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2024-10-24T13:12:14Z",
       "labels": [
         "T6-XCM"
@@ -7706,7 +7706,7 @@
     "6130": {
       "number": "6130",
       "title": "Added .scale metadata-files to gitignore",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2024-10-18T22:53:30Z",
       "labels": [
         "R0-no-crate-publish-required"
@@ -7719,7 +7719,7 @@
     "6129": {
       "number": "6129",
       "title": "Improved TrustedQueryAPI signatures",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2024-10-21T14:45:08Z",
       "labels": [
         "T6-XCM"
@@ -7732,7 +7732,7 @@
     "6124": {
       "number": "6124",
       "title": "Removed .scale files",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2024-10-18T20:25:33Z",
       "labels": [
         "A1-insubstantial",
@@ -8046,7 +8046,7 @@
     "6039": {
       "number": "6039",
       "title": "Added Trusted Query API calls",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2024-10-17T19:57:47Z",
       "labels": [
         "T6-XCM"
@@ -9492,7 +9492,7 @@
     "5765": {
       "number": "5765",
       "title": "Added foreign locations to local accounts converter to all the parachains",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2024-10-02T14:52:44Z",
       "labels": [
         "T6-XCM"
@@ -15232,7 +15232,7 @@
     "7809": {
       "number": "7809",
       "title": "[XCM] Add generic location to account converter that also works with external ecosystems for bridge hubs",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2025-03-06T18:17:48Z",
       "labels": [
         "T6-XCM"
@@ -25222,7 +25222,7 @@
     "8376": {
       "number": "8376",
       "title": "Remove TakeFirstAssetTrader from AH Westend and Rococo",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2025-05-02T17:38:11Z",
       "labels": [
         "T6-XCM"
@@ -34767,7 +34767,7 @@
     "10416": {
       "number": "10416",
       "title": "Added CID filtering to Bitswap server",
-      "author": "x3c41a",
+      "author": "dr333ws",
       "merged_at": "2025-12-02T16:00:04Z",
       "labels": [
         "T0-node",
@@ -43837,6 +43837,30 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "12987": {
+      "number": "12987",
+      "title": "[stable2606] Rename changelog.md file for the stable2606 release so that it does not intersect with the future ones",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-08-24T10:30:07Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12987",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "12982": {
+      "number": "12982",
+      "title": "[stable2606] Post crates release activities for stable2606-2",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-24T08:38:25Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12982",
+      "branch": "stable2606",
+      "is_direct": true
     },
     "12832": {
       "number": "12832",
