@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-25T03:12:20.084936Z",
+  "last_updated": "2026-08-26T03:22:47.112130Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43838,6 +43838,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "12726": {
+      "number": "12726",
+      "title": "Probe cargo for -Z json-target-spec support instead of guessing from the version",
+      "author": "athei",
+      "merged_at": "2026-08-14T15:18:05Z",
+      "labels": [
+        "T0-node",
+        "T7-smart_contracts",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12726",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "12997": {
+      "number": "12997",
+      "title": "[stable2606 Backport #12726] Probe cargo for -Z json-target-spec support instead of guessing from the version",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-25T17:46:16Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12997",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12726
+    },
     "12987": {
       "number": "12987",
       "title": "[stable2606] Rename changelog.md file for the stable2606 release so that it does not intersect with the future ones",
@@ -75010,6 +75040,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "12997": 12726,
     "12956": 12832,
     "12952": 12245,
     "12928": 12440,
@@ -76948,6 +76979,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12726": [
+      12997
     ],
     "12832": [
       12956
