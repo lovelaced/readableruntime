@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-27T12:51:09.299782Z",
+  "last_updated": "2026-08-28T14:23:59.549724Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38119,6 +38119,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13014": {
+      "number": "13014",
+      "title": "[stable2603] Post crates release activities for stable2603-6",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-27T13:34:47Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13014",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "12893": {
       "number": "12893",
       "title": "[stable2603] Backport #12812",
@@ -43843,6 +43855,47 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "11979": {
+      "number": "11979",
+      "title": "Scale validator self-stake incentive by era-points performance",
+      "author": "cirko33",
+      "merged_at": "2026-06-25T11:20:26Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11979",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13023": {
+      "number": "13023",
+      "title": "[stable2606 Backport #11979] Scale validator self-stake incentive by era-points performance",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-28T14:19:09Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13023",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11979
+    },
+    "13012": {
+      "number": "13012",
+      "title": "[stable2606] Post crates release activities for stable2606-2",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-27T13:15:53Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13012",
+      "branch": "stable2606",
+      "is_direct": true
     },
     "12726": {
       "number": "12726",
@@ -78101,6 +78154,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13023": 11979,
     "12997": 12726,
     "12959": 12281,
     "12956": 12832,
@@ -80042,6 +80096,9 @@
     ],
     "10917": [
       11067
+    ],
+    "11979": [
+      13023
     ],
     "12726": [
       12997
