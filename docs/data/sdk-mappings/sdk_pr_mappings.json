@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30T08:17:08.513825Z",
+  "last_updated": "2026-08-31T08:38:37.689489Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43885,6 +43885,34 @@
       "is_backport": true,
       "original_pr": 11979
     },
+    "12315": {
+      "number": "12315",
+      "title": "feat(webrtc): add experimental WebRTC transport to litep2p backend",
+      "author": "gab8i",
+      "merged_at": "2026-06-23T17:23:53Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12315",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13021": {
+      "number": "13021",
+      "title": "[stable2606 Backport #12315] feat(webrtc): add experimental WebRTC transport to litep2p backend",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-08-31T08:22:18Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13021",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12315
+    },
     "13012": {
       "number": "13012",
       "title": "[stable2606] Post crates release activities for stable2606-2",
@@ -78155,6 +78183,7 @@
     "11067": 10917,
     "11058": 11055,
     "13023": 11979,
+    "13021": 12315,
     "12997": 12726,
     "12959": 12281,
     "12956": 12832,
@@ -80099,6 +80128,9 @@
     ],
     "11979": [
       13023
+    ],
+    "12315": [
+      13021
     ],
     "12726": [
       12997
