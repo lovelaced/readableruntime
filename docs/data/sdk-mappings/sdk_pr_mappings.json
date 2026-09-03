@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02T07:08:36.255556Z",
+  "last_updated": "2026-09-03T07:13:17.739594Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43857,6 +43857,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "13059": {
+      "number": "13059",
+      "title": "Add sufficiency method in `fungibles`",
+      "author": "georgepisaltu",
+      "merged_at": "2026-09-02T18:22:25Z",
+      "labels": [
+        "I5-enhancement",
+        "T1-FRAME",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13059",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13072": {
+      "number": "13072",
+      "title": "[stable2606 Backport #13059] Add sufficiency method in `fungibles`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-03T06:49:14Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13072",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13059
+    },
     "13041": {
       "number": "13041",
       "title": "[stable2606] Post crates release activities for stable2606-2",
@@ -48137,6 +48166,37 @@
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
+    },
+    "13045": {
+      "number": "13045",
+      "title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "author": "dr333ws",
+      "merged_at": "2026-09-01T17:18:59Z",
+      "labels": [
+        "T0-node",
+        "I2-bug",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13045",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13055": {
+      "number": "13055",
+      "title": "[stable2609 Backport #13045] sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-02T18:09:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13055",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13045
     },
     "13018": {
       "number": "13018",
@@ -80844,6 +80904,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13072": 13059,
     "13033": 12693,
     "13023": 11979,
     "13021": 12315,
@@ -80875,6 +80936,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13055": 13045,
     "12021": 12017,
     "10983": 10646,
     "10951": 10950,
@@ -82790,6 +82852,9 @@
     "10917": [
       11067
     ],
+    "13059": [
+      13072
+    ],
     "12693": [
       13033
     ],
@@ -82870,6 +82935,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13045": [
+      13055
     ],
     "10950": [
       10951
