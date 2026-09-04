@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-03T07:13:17.739594Z",
+  "last_updated": "2026-09-04T07:18:59.985100Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43857,6 +43857,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "13089": {
+      "number": "13089",
+      "title": "[stable2606] Fix parachains-common version in crates_list",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-03T16:04:16Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13089",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "13086": {
+      "number": "13086",
+      "title": "[stable2606] Post crates release activities for stable2606-2",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-03T13:48:02Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13086",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "13037": {
+      "number": "13037",
+      "title": "[Release] Changelog refactoring",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-03T09:37:25Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13037",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13081": {
+      "number": "13081",
+      "title": "[stable2606 Backport #13037] [Release] Changelog refactoring",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-03T11:29:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13081",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13037
+    },
     "13059": {
       "number": "13059",
       "title": "Add sufficiency method in `fungibles`",
@@ -43885,6 +43942,33 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13059
+    },
+    "12378": {
+      "number": "12378",
+      "title": "`pallet-assets`: Allow `force_create` set an arbitrary asset id when auto-increment is enabled",
+      "author": "PSYKYODAI",
+      "merged_at": "2026-07-26T13:09:24Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12378",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13067": {
+      "number": "13067",
+      "title": "[stable2606 Backport #12378] `pallet-assets`: Allow `force_create` set an arbitrary asset id when auto-increment is enabled",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-03T08:36:08Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13067",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12378
     },
     "13041": {
       "number": "13041",
@@ -48167,6 +48251,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "13083": {
+      "number": "13083",
+      "title": "[stable2609 Backport #13037] [Release] Changelog refactoring",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-03T15:48:35Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13083",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13037
+    },
     "13045": {
       "number": "13045",
       "title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
@@ -49861,19 +49960,6 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12381",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
-    },
-    "12378": {
-      "number": "12378",
-      "title": "`pallet-assets`: Allow `force_create` set an arbitrary asset id when auto-increment is enabled",
-      "author": "PSYKYODAI",
-      "merged_at": "2026-07-26T13:09:24Z",
-      "labels": [
-        "T2-pallets"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12378",
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
@@ -80904,7 +80990,9 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13081": 13037,
     "13072": 13059,
+    "13067": 12378,
     "13033": 12693,
     "13023": 11979,
     "13021": 12315,
@@ -80936,6 +81024,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13083": 13037,
     "13055": 13045,
     "12021": 12017,
     "10983": 10646,
@@ -82852,8 +82941,15 @@
     "10917": [
       11067
     ],
+    "13037": [
+      13081,
+      13083
+    ],
     "13059": [
       13072
+    ],
+    "12378": [
+      13067
     ],
     "12693": [
       13033
