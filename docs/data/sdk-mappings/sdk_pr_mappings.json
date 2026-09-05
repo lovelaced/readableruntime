@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-04T07:18:59.985100Z",
+  "last_updated": "2026-09-05T07:00:43.054102Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -26788,6 +26788,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "13037": {
+      "number": "13037",
+      "title": "[Release] Changelog refactoring",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-03T09:37:25Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13037",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13078": {
+      "number": "13078",
+      "title": "[stable2509 Backport #13037] [Release] Changelog refactoring",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-04T17:44:44Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13078",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13037
+    },
     "12938": {
       "number": "12938",
       "title": "[stable2509] Fix brocken publish deb flow",
@@ -38119,6 +38152,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "13080": {
+      "number": "13080",
+      "title": "[stable2603 Backport #13037] [Release] Changelog refactoring",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-04T14:03:37Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13080",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13037
+    },
     "13014": {
       "number": "13014",
       "title": "[stable2603] Post crates release activities for stable2603-6",
@@ -43880,24 +43928,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13086",
       "branch": "stable2606",
       "is_direct": true
-    },
-    "13037": {
-      "number": "13037",
-      "title": "[Release] Changelog refactoring",
-      "author": "EgorPopelyaev",
-      "merged_at": "2026-09-03T09:37:25Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13037",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13081": {
       "number": "13081",
@@ -80679,6 +80709,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "13078": 13037,
     "12826": 12819,
     "12789": 12767,
     "12570": 12567,
@@ -80892,6 +80923,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13080": 13037,
     "12893": 12812,
     "12828": 12819,
     "12791": 12767,
@@ -82351,6 +82383,12 @@
     "8820": [
       8822
     ],
+    "13037": [
+      13078,
+      13080,
+      13081,
+      13083
+    ],
     "12819": [
       12826,
       12827,
@@ -82940,10 +82978,6 @@
     ],
     "10917": [
       11067
-    ],
-    "13037": [
-      13081,
-      13083
     ],
     "13059": [
       13072
