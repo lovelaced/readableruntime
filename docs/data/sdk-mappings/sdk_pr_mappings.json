@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-07T07:20:28.832999Z",
+  "last_updated": "2026-09-08T07:20:30.849325Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43911,6 +43911,77 @@
       "is_direct": false,
       "from_master": true
     },
+    "13062": {
+      "number": "13062",
+      "title": "pallet-psm: use recorded decimals when minting",
+      "author": "xlc",
+      "merged_at": "2026-09-07T04:32:23Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13062",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13111": {
+      "number": "13111",
+      "title": "[stable2606 Backport #13062] pallet-psm: use recorded decimals when minting",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-07T14:52:17Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13111",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13062
+    },
+    "13092": {
+      "number": "13092",
+      "title": "Re-export WeightInfo from the assets and vesting precompile crates",
+      "author": "sigurpol",
+      "merged_at": "2026-09-05T12:30:40Z",
+      "labels": [
+        "T2-pallets",
+        "T12-benchmarks",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13092",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13099": {
+      "number": "13099",
+      "title": "[stable2606 Backport #13092] Re-export WeightInfo from the assets and vesting precompile crates",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-07T08:17:05Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13099",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13092
+    },
+    "13098": {
+      "number": "13098",
+      "title": "[stable2606] security: Bump litep2p to fix panic in WebRTC",
+      "author": "dmitry-markin",
+      "merged_at": "2026-09-07T13:31:39Z",
+      "labels": [
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13098",
+      "branch": "stable2606",
+      "is_direct": true
+    },
     "13089": {
       "number": "13089",
       "title": "[stable2606] Fix parachains-common version in crates_list",
@@ -48286,6 +48357,48 @@
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
+    },
+    "13125": {
+      "number": "13125",
+      "title": "[stable2609 Backport #13062] pallet-psm: use recorded decimals when minting",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-07T15:33:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13125",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13062
+    },
+    "12877": {
+      "number": "12877",
+      "title": "[EPMB] bound the tx-fee refund of a signed submission",
+      "author": "sigurpol",
+      "merged_at": "2026-09-03T21:05:19Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12877",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13093": {
+      "number": "13093",
+      "title": "[stable2609 Backport #12877] [EPMB] bound the tx-fee refund of a signed submission",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-07T13:20:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13093",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12877
     },
     "13083": {
       "number": "13083",
@@ -81028,6 +81141,8 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13111": 13062,
+    "13099": 13092,
     "13081": 13037,
     "13072": 13059,
     "13067": 12378,
@@ -81062,6 +81177,8 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13125": 13062,
+    "13093": 12877,
     "13083": 13037,
     "13055": 13045,
     "12021": 12017,
@@ -82985,6 +83102,13 @@
     "10917": [
       11067
     ],
+    "13062": [
+      13111,
+      13125
+    ],
+    "13092": [
+      13099
+    ],
     "13059": [
       13072
     ],
@@ -83071,6 +83195,9 @@
     ],
     "12314": [
       12337
+    ],
+    "12877": [
+      13093
     ],
     "13045": [
       13055
