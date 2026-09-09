@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-08T07:20:30.849325Z",
+  "last_updated": "2026-09-09T07:24:50.778444Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32217,6 +32217,21 @@
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
+    },
+    "13079": {
+      "number": "13079",
+      "title": "[stable2512 Backport #13037] [Release] Changelog refactoring",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-08T10:34:54Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13079",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13037
     },
     "12940": {
       "number": "12940",
@@ -80930,6 +80945,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "13079": 13037,
     "12892": 12812,
     "12827": 12819,
     "12790": 12767,
@@ -82508,6 +82524,7 @@
     ],
     "13037": [
       13078,
+      13079,
       13080,
       13081,
       13083
