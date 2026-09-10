@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09T07:24:50.778444Z",
+  "last_updated": "2026-09-10T07:21:03.077967Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38173,6 +38173,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "13130": {
+      "number": "13130",
+      "title": "Update ci-unified image to `bullseye-1.93.0-2026-01-27-v202609081126`",
+      "author": "AndWeHaveAPlan",
+      "merged_at": "2026-09-08T15:24:40Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "R0-silent",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13130",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13132": {
+      "number": "13132",
+      "title": "[stable2603 Backport #13130] Update ci-unified image to `bullseye-1.93.0-2026-01-27-v202609081126`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-09T08:50:14Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13132",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13130
+    },
     "13080": {
       "number": "13080",
       "title": "[stable2603 Backport #13037] [Release] Changelog refactoring",
@@ -48373,6 +48405,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "13134": {
+      "number": "13134",
+      "title": "[stable2609 Backport #13130] Update ci-unified image to `bullseye-1.93.0-2026-01-27-v202609081126`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-09T08:57:12Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13134",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13130
+    },
     "13125": {
       "number": "13125",
       "title": "[stable2609 Backport #13062] pallet-psm: use recorded decimals when minting",
@@ -48386,6 +48433,49 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13062
+    },
+    "12750": {
+      "number": "12750",
+      "title": "Fix auto-renewal charging tasks for foreign workloads",
+      "author": "Szegoo",
+      "merged_at": "2026-09-07T10:13:27Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12750",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13119": {
+      "number": "13119",
+      "title": "[stable2609 Backport #12750] Fix auto-renewal charging tasks for foreign workloads",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-09T10:27:45Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13119",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12750
+    },
+    "13100": {
+      "number": "13100",
+      "title": "[stable2609 Backport #13092] Re-export WeightInfo from the assets and vesting precompile crates",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-09T13:26:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13100",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13092
     },
     "12877": {
       "number": "12877",
@@ -81058,6 +81148,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13132": 13130,
     "13080": 13037,
     "12893": 12812,
     "12828": 12819,
@@ -81193,7 +81284,10 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13134": 13130,
     "13125": 13062,
+    "13119": 12750,
+    "13100": 13092,
     "13093": 12877,
     "13083": 13037,
     "13055": 13045,
@@ -82945,6 +83039,10 @@
     "9685": [
       10374
     ],
+    "13130": [
+      13132,
+      13134
+    ],
     "12260": [
       12618,
       12620
@@ -83124,7 +83222,8 @@
       13125
     ],
     "13092": [
-      13099
+      13099,
+      13100
     ],
     "13059": [
       13072
@@ -83212,6 +83311,9 @@
     ],
     "12314": [
       12337
+    ],
+    "12750": [
+      13119
     ],
     "12877": [
       13093
