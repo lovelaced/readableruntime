@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10T07:21:03.077967Z",
+  "last_updated": "2026-09-11T07:19:53.667655Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43958,6 +43958,112 @@
       "is_direct": false,
       "from_master": true
     },
+    "13153": {
+      "number": "13153",
+      "title": "pallet-accumulate-and-forward: measure the transfer period from the last forward",
+      "author": "Stephenlawrence00",
+      "merged_at": "2026-09-10T09:36:43Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13153",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13169": {
+      "number": "13169",
+      "title": "[stable2606 Backport #13153] pallet-accumulate-and-forward: measure the transfer period from the last forward",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T22:55:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13169",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13153
+    },
+    "13094": {
+      "number": "13094",
+      "title": "[Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-09T13:42:35Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13094",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13158": {
+      "number": "13158",
+      "title": "[stable2606 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T13:24:56Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13158",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13094
+    },
+    "13133": {
+      "number": "13133",
+      "title": "[stable2606 Backport #13130] Update ci-unified image to `bullseye-1.93.0-2026-01-27-v202609081126`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T07:26:55Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13133",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13130
+    },
+    "12750": {
+      "number": "12750",
+      "title": "Fix auto-renewal charging tasks for foreign workloads",
+      "author": "Szegoo",
+      "merged_at": "2026-09-07T10:13:27Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12750",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13118": {
+      "number": "13118",
+      "title": "[stable2606 Backport #12750] Fix auto-renewal charging tasks for foreign workloads",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T14:38:37Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13118",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12750
+    },
     "13062": {
       "number": "13062",
       "title": "pallet-psm: use recorded decimals when minting",
@@ -44123,6 +44229,37 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12378
+    },
+    "13045": {
+      "number": "13045",
+      "title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "author": "dr333ws",
+      "merged_at": "2026-09-01T17:18:59Z",
+      "labels": [
+        "T0-node",
+        "I2-bug",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13045",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13054": {
+      "number": "13054",
+      "title": "[stable2606 Backport #13045] sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T10:22:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13054",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13045
     },
     "13041": {
       "number": "13041",
@@ -48405,6 +48542,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "13161": {
+      "number": "13161",
+      "title": "Remove `pallet-scarcity`",
+      "author": "shawntabrizi",
+      "merged_at": "2026-09-10T17:34:33Z",
+      "labels": [
+        "T1-FRAME",
+        "T2-pallets",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13161",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13186": {
+      "number": "13186",
+      "title": "[stable2609 Backport #13161] Remove `pallet-scarcity`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T19:38:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13186",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13161
+    },
+    "12843": {
+      "number": "12843",
+      "title": "[EPMB] Add configurable reward source and slash destination to signed phase",
+      "author": "Stephenlawrence00",
+      "merged_at": "2026-09-09T20:53:53Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12843",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13164": {
+      "number": "13164",
+      "title": "[stable2609 Backport #12843] [EPMB] Add configurable reward source and slash destination to signed phase",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-10T13:06:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13164",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12843
+    },
     "13134": {
       "number": "13134",
       "title": "[stable2609 Backport #13130] Update ci-unified image to `bullseye-1.93.0-2026-01-27-v202609081126`",
@@ -48433,21 +48627,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13062
-    },
-    "12750": {
-      "number": "12750",
-      "title": "Fix auto-renewal charging tasks for foreign workloads",
-      "author": "Szegoo",
-      "merged_at": "2026-09-07T10:13:27Z",
-      "labels": [
-        "T2-pallets",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12750",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13119": {
       "number": "13119",
@@ -48519,23 +48698,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13037
-    },
-    "13045": {
-      "number": "13045",
-      "title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
-      "author": "dr333ws",
-      "merged_at": "2026-09-01T17:18:59Z",
-      "labels": [
-        "T0-node",
-        "I2-bug",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13045",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13055": {
       "number": "13055",
@@ -81248,11 +81410,16 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13169": 13153,
+    "13158": 13094,
+    "13133": 13130,
+    "13118": 12750,
     "13111": 13062,
     "13099": 13092,
     "13081": 13037,
     "13072": 13059,
     "13067": 12378,
+    "13054": 13045,
     "13033": 12693,
     "13023": 11979,
     "13021": 12315,
@@ -81284,6 +81451,8 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13186": 13161,
+    "13164": 12843,
     "13134": 13130,
     "13125": 13062,
     "13119": 12750,
@@ -83041,6 +83210,7 @@
     ],
     "13130": [
       13132,
+      13133,
       13134
     ],
     "12260": [
@@ -83217,6 +83387,16 @@
     "10917": [
       11067
     ],
+    "13153": [
+      13169
+    ],
+    "13094": [
+      13158
+    ],
+    "12750": [
+      13118,
+      13119
+    ],
     "13062": [
       13111,
       13125
@@ -83230,6 +83410,10 @@
     ],
     "12378": [
       13067
+    ],
+    "13045": [
+      13054,
+      13055
     ],
     "12693": [
       13033
@@ -83312,14 +83496,14 @@
     "12314": [
       12337
     ],
-    "12750": [
-      13119
+    "13161": [
+      13186
+    ],
+    "12843": [
+      13164
     ],
     "12877": [
       13093
-    ],
-    "13045": [
-      13055
     ],
     "10950": [
       10951
