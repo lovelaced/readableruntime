@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:28:11.846839Z",
+  "generated_at": "2026-09-14T07:57:50.689898Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -493,26 +493,26 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 364,
+      "branch_pr_count": 365,
       "included_branches": [
         "stable2606"
       ],
       "actual_pr_count": 331
     },
     "v2.5.0": {
-      "sdk_tag": "stable2606-1",
+      "sdk_tag": "stable2606-2-rc1",
       "sdk_branch": "stable2606",
-      "sdk_date": "2026-08-06T13:09:57Z",
+      "sdk_date": "2026-09-13T16:39:48Z",
       "package_versions": {
         "frame-support": "48.1.0",
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 364,
+      "branch_pr_count": 365,
       "included_branches": [
         "stable2606"
       ],
-      "actual_pr_count": 0
+      "actual_pr_count": 32
     }
   },
   "sdk_tags": {
@@ -574,6 +574,16 @@
         "polkadot-primitives": "7.0.0",
         "sp-runtime": "31.0.1",
         "frame-support": "28.0.0"
+      }
+    },
+    "stable2606-2-rc1": {
+      "commit": "72284b37a234f8a1565f2043ddbf8280a69fcf29",
+      "date": "2026-09-13T16:39:48Z",
+      "branch": "stable2606",
+      "package_versions": {
+        "polkadot-primitives": "25.0.0",
+        "sp-runtime": "48.0.0",
+        "frame-support": "48.1.0"
       }
     },
     "stable2606-1": {
@@ -2592,11 +2602,12 @@
         "stable2606-rc3",
         "stable2606-rc2",
         "stable2606-rc1",
+        "stable2606-2-rc1",
         "stable2606-1",
         "stable2606-1-rc1"
       ],
       "created_date": "2026-06-02T07:18:53Z",
-      "pr_count": 364
+      "pr_count": 365
     },
     "stable2603": {
       "tags": [
@@ -2875,9 +2886,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 206,
+    "total_sdk_tags": 207,
     "total_branches": 17,
-    "total_prs_tracked": 3871,
+    "total_prs_tracked": 3872,
     "runtime_releases_mapped": 33
   }
 }

@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13T07:28:11.851314Z",
+  "last_updated": "2026-09-14T07:57:50.693940Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -194,10 +194,10 @@
       "new_prs": 331
     },
     "v2.5.0": {
-      "sdk_version": "stable2606-1",
-      "release_date": "2026-08-06T13:09:57Z",
-      "total_prs": 0,
-      "new_prs": 0
+      "sdk_version": "stable2606-2-rc1",
+      "release_date": "2026-09-13T16:39:48Z",
+      "total_prs": 32,
+      "new_prs": 32
     }
   },
   "pr_details": {
@@ -43958,6 +43958,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13205": {
+      "number": "13205",
+      "title": "[stable2606] Post crates release activities for stable2606-2",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-13T16:39:49Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13205",
+      "branch": "stable2606",
+      "is_direct": true
+    },
     "13153": {
       "number": "13153",
       "title": "pallet-accumulate-and-forward: measure the transfer period from the last forward",
@@ -80597,6 +80609,342 @@
         "source_branch": "unstable2604",
         "is_backport": true,
         "original_pr": 12281,
+        "is_direct": true
+      }
+    ],
+    "12825": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "12830": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12819,
+        "is_direct": true
+      }
+    ],
+    "12885": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12582,
+        "is_direct": true
+      }
+    ],
+    "12889": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12662,
+        "is_direct": true
+      }
+    ],
+    "12891": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12844,
+        "is_direct": true
+      }
+    ],
+    "12894": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12812,
+        "is_direct": true
+      }
+    ],
+    "12928": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12440,
+        "is_direct": true
+      }
+    ],
+    "12952": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12245,
+        "is_direct": true
+      }
+    ],
+    "12956": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12832,
+        "is_direct": true
+      }
+    ],
+    "12959": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12281,
+        "is_direct": true
+      }
+    ],
+    "12982": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "12987": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "12997": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12726,
+        "is_direct": true
+      }
+    ],
+    "13012": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13020": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12870,
+        "is_direct": true
+      }
+    ],
+    "13021": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12315,
+        "is_direct": true
+      }
+    ],
+    "13023": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 11979,
+        "is_direct": true
+      }
+    ],
+    "13033": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12693,
+        "is_direct": true
+      }
+    ],
+    "13041": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13054": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13045,
+        "is_direct": true
+      }
+    ],
+    "13067": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12378,
+        "is_direct": true
+      }
+    ],
+    "13072": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13059,
+        "is_direct": true
+      }
+    ],
+    "13081": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13037,
+        "is_direct": true
+      }
+    ],
+    "13086": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13089": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13098": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13099": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13092,
+        "is_direct": true
+      }
+    ],
+    "13111": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13062,
+        "is_direct": true
+      }
+    ],
+    "13118": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12750,
+        "is_direct": true
+      }
+    ],
+    "13133": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13130,
+        "is_direct": true
+      }
+    ],
+    "13158": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13094,
+        "is_direct": true
+      }
+    ],
+    "13169": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-2-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13153,
         "is_direct": true
       }
     ]
