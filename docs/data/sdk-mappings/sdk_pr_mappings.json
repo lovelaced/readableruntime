@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-14T07:57:50.693940Z",
+  "last_updated": "2026-09-15T07:42:31.819171Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -48554,6 +48554,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "13061": {
+      "number": "13061",
+      "title": "feat(sc-consensus-babe): expose build_verifier like Aura",
+      "author": "Klapeyron",
+      "merged_at": "2026-09-06T21:57:52Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13061",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13192": {
+      "number": "13192",
+      "title": "[stable2609 Backport #13061] feat(sc-consensus-babe): expose build_verifier like Aura",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-14T08:36:14Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13192",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13061
+    },
     "13161": {
       "number": "13161",
       "title": "Remove `pallet-scarcity`",
@@ -81799,6 +81827,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13192": 13061,
     "13186": 13161,
     "13164": 12843,
     "13134": 13130,
@@ -83843,6 +83872,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13061": [
+      13192
     ],
     "13161": [
       13186
