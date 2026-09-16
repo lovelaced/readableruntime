@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-15T07:42:31.819171Z",
+  "last_updated": "2026-09-16T07:37:46.388374Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -26794,6 +26794,39 @@
       "is_direct": false,
       "from_master": true
     },
+    "13094": {
+      "number": "13094",
+      "title": "[Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-09T13:42:35Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13094",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13155": {
+      "number": "13155",
+      "title": "[stable2509 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-15T10:22:13Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13155",
+      "branch": "stable2509",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13094
+    },
     "13037": {
       "number": "13037",
       "title": "[Release] Changelog refactoring",
@@ -43999,24 +44032,6 @@
       "is_backport": true,
       "original_pr": 13153
     },
-    "13094": {
-      "number": "13094",
-      "title": "[Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
-      "author": "EgorPopelyaev",
-      "merged_at": "2026-09-09T13:42:35Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13094",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
-    },
     "13158": {
       "number": "13158",
       "title": "[stable2606 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
@@ -48554,6 +48569,40 @@
       "is_direct": false,
       "from_master": true
     },
+    "13221": {
+      "number": "13221",
+      "title": "ci: rm oldlinux runners",
+      "author": "alvicsam",
+      "merged_at": "2026-09-15T11:05:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13221",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13227": {
+      "number": "13227",
+      "title": "[stable2609 Backport #13221] ci: rm oldlinux runners",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-15T14:23:56Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13227",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13221
+    },
     "13061": {
       "number": "13061",
       "title": "feat(sc-consensus-babe): expose build_verifier like Aura",
@@ -48611,6 +48660,34 @@
       "is_backport": true,
       "original_pr": 13161
     },
+    "13131": {
+      "number": "13131",
+      "title": "Gap-sync: Reset duplicate request counter after some time",
+      "author": "skunert",
+      "merged_at": "2026-09-10T11:00:12Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13131",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13176": {
+      "number": "13176",
+      "title": "[stable2609 Backport #13131] Gap-sync: Reset duplicate request counter after some time",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-15T18:12:15Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13176",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13131
+    },
     "12843": {
       "number": "12843",
       "title": "[EPMB] Add configurable reward source and slash destination to signed phase",
@@ -48638,6 +48715,21 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12843
+    },
+    "13159": {
+      "number": "13159",
+      "title": "[stable2609 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-15T16:54:52Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13159",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13094
     },
     "13134": {
       "number": "13134",
@@ -81471,6 +81563,7 @@
     "8826": 8816,
     "8822": 8820,
     "8815": 8755,
+    "13155": 13094,
     "13078": 13037,
     "12826": 12819,
     "12789": 12767,
@@ -81827,9 +81920,12 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13227": 13221,
     "13192": 13061,
     "13186": 13161,
+    "13176": 13131,
     "13164": 12843,
+    "13159": 13094,
     "13134": 13130,
     "13125": 13062,
     "13119": 12750,
@@ -83162,6 +83258,11 @@
     "8820": [
       8822
     ],
+    "13094": [
+      13155,
+      13158,
+      13159
+    ],
     "13037": [
       13078,
       13079,
@@ -83767,9 +83868,6 @@
     "13153": [
       13169
     ],
-    "13094": [
-      13158
-    ],
     "12750": [
       13118,
       13119
@@ -83873,11 +83971,17 @@
     "12314": [
       12337
     ],
+    "13221": [
+      13227
+    ],
     "13061": [
       13192
     ],
     "13161": [
       13186
+    ],
+    "13131": [
+      13176
     ],
     "12843": [
       13164
