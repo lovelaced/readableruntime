@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-16T07:37:46.388374Z",
+  "last_updated": "2026-09-17T07:38:14.077308Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43991,6 +43991,40 @@
       "is_direct": false,
       "from_master": true
     },
+    "13221": {
+      "number": "13221",
+      "title": "ci: rm oldlinux runners",
+      "author": "alvicsam",
+      "merged_at": "2026-09-15T11:05:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13221",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13226": {
+      "number": "13226",
+      "title": "[stable2606 Backport #13221] ci: rm oldlinux runners",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-16T12:37:40Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13226",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13221
+    },
     "13205": {
       "number": "13205",
       "title": "[stable2606] Post crates release activities for stable2606-2",
@@ -45220,6 +45254,18 @@
         "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12332",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "13228": {
+      "number": "13228",
+      "title": "Version bumps  and prdocs reordering from release stable2606-2",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-16T12:02:27Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13228",
       "branch": "stable2606",
       "is_direct": true
     },
@@ -48569,24 +48615,17 @@
       "is_direct": false,
       "from_master": true
     },
-    "13221": {
-      "number": "13221",
-      "title": "ci: rm oldlinux runners",
-      "author": "alvicsam",
-      "merged_at": "2026-09-15T11:05:42Z",
+    "13242": {
+      "number": "13242",
+      "title": "[stable2609] Reorder prdocs",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-16T12:25:57Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
+        "R0-no-crate-publish-required"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13221",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13242",
+      "branch": "stable2609",
+      "is_direct": true
     },
     "13227": {
       "number": "13227",
@@ -48630,6 +48669,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13061
+    },
+    "13126": {
+      "number": "13126",
+      "title": "Gap-sync: Fix stall when tip sync causes `AncestorSearch` switch.",
+      "author": "skunert",
+      "merged_at": "2026-09-10T19:30:53Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13126",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13187": {
+      "number": "13187",
+      "title": "[stable2609 Backport #13126] Gap-sync: Fix stall when tip sync causes `AncestorSearch` switch.",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-16T08:40:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13187",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13126
     },
     "13161": {
       "number": "13161",
@@ -48687,6 +48754,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13131
+    },
+    "13170": {
+      "number": "13170",
+      "title": "[stable2609 Backport #13153] pallet-accumulate-and-forward: measure the transfer period from the last forward",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-16T11:58:15Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13170",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13153
     },
     "12843": {
       "number": "12843",
@@ -81879,6 +81960,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13226": 13221,
     "13169": 13153,
     "13158": 13094,
     "13133": 13130,
@@ -81922,8 +82004,10 @@
     "12337": 12314,
     "13227": 13221,
     "13192": 13061,
+    "13187": 13126,
     "13186": 13161,
     "13176": 13131,
+    "13170": 13153,
     "13164": 12843,
     "13159": 13094,
     "13134": 13130,
@@ -83865,8 +83949,13 @@
     "10917": [
       11067
     ],
+    "13221": [
+      13226,
+      13227
+    ],
     "13153": [
-      13169
+      13169,
+      13170
     ],
     "12750": [
       13118,
@@ -83971,11 +84060,11 @@
     "12314": [
       12337
     ],
-    "13221": [
-      13227
-    ],
     "13061": [
       13192
+    ],
+    "13126": [
+      13187
     ],
     "13161": [
       13186

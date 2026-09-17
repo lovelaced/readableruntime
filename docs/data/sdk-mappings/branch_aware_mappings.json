@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T07:37:46.385965Z",
+  "generated_at": "2026-09-17T07:38:14.073843Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -493,7 +493,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 365,
+      "branch_pr_count": 367,
       "included_branches": [
         "stable2606"
       ],
@@ -508,7 +508,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 365,
+      "branch_pr_count": 367,
       "included_branches": [
         "stable2606"
       ],
@@ -516,6 +516,16 @@
     }
   },
   "sdk_tags": {
+    "stable2609-rc2": {
+      "commit": "f2dc2a73f96b76f7755453e6d409ab75ddc55ea9",
+      "date": "2026-09-16T12:25:56Z",
+      "branch": "stable2609",
+      "package_versions": {
+        "polkadot-primitives": "7.0.0",
+        "sp-runtime": "31.0.1",
+        "frame-support": "28.0.0"
+      }
+    },
     "stable2609-rc1": {
       "commit": "9c2323b3b3429764ffce37ce37be93f1182d53c5",
       "date": "2026-09-02T21:03:52Z",
@@ -2567,8 +2577,8 @@
       }
     },
     "stable2609": {
-      "commit": "f5104b3253df2bff1f249852061bcff61791c8c4",
-      "date": "2026-09-15T18:12:14Z",
+      "commit": "f2dc2a73f96b76f7755453e6d409ab75ddc55ea9",
+      "date": "2026-09-16T12:25:56Z",
       "branch": "stable2609",
       "package_versions": {
         "polkadot-primitives": "7.0.0",
@@ -2600,10 +2610,11 @@
   "branch_info": {
     "stable2609": {
       "tags": [
+        "stable2609-rc2",
         "stable2609-rc1"
       ],
       "created_date": "2026-08-30T04:45:44Z",
-      "pr_count": 243
+      "pr_count": 246
     },
     "stable2606": {
       "tags": [
@@ -2618,7 +2629,7 @@
         "stable2606-1-rc1"
       ],
       "created_date": "2026-06-02T07:18:53Z",
-      "pr_count": 365
+      "pr_count": 367
     },
     "stable2603": {
       "tags": [
@@ -2897,9 +2908,9 @@
     }
   },
   "statistics": {
-    "total_sdk_tags": 208,
+    "total_sdk_tags": 209,
     "total_branches": 17,
-    "total_prs_tracked": 3880,
+    "total_prs_tracked": 3886,
     "runtime_releases_mapped": 33
   }
 }
