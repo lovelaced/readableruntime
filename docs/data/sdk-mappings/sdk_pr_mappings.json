@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17T07:38:14.077308Z",
+  "last_updated": "2026-09-18T07:22:26.268480Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -48614,6 +48614,18 @@
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
+    },
+    "13254": {
+      "number": "13254",
+      "title": "[stable2609] Bump spec_version to 1_025_001",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-09-17T13:31:44Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13254",
+      "branch": "stable2609",
+      "is_direct": true
     },
     "13242": {
       "number": "13242",
