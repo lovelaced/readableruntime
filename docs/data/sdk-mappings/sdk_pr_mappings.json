@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22T07:42:26.668724Z",
+  "last_updated": "2026-09-23T07:45:35.643432Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -23975,20 +23975,6 @@
       "is_backport": true,
       "original_pr": 8973
     },
-    "8923": {
-      "number": "8923",
-      "title": "`fatxpool`: fix: remove invalid txs from the dropped stream controller",
-      "author": "michalkucharczyk",
-      "merged_at": "2025-06-25T07:14:24Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8923",
-      "branch": "stable2509",
-      "is_direct": false,
-      "from_master": true
-    },
     "8971": {
       "number": "8971",
       "title": "[stable2506] Backport #8923",
@@ -24043,19 +24029,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 8948
-    },
-    "8925": {
-      "number": "8925",
-      "title": "Multisig::as_multi_threshold_1: Send `MultisigExecuted` event",
-      "author": "bkchr",
-      "merged_at": "2025-06-23T07:57:36Z",
-      "labels": [
-        "T2-pallets"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8925",
-      "branch": "stable2509",
-      "is_direct": false,
-      "from_master": true
     },
     "8934": {
       "number": "8934",
@@ -31432,6 +31405,33 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8935",
+      "branch": "stable2509",
+      "is_direct": false,
+      "from_master": true
+    },
+    "8925": {
+      "number": "8925",
+      "title": "Multisig::as_multi_threshold_1: Send `MultisigExecuted` event",
+      "author": "bkchr",
+      "merged_at": "2025-06-23T07:57:36Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8925",
+      "branch": "stable2509",
+      "is_direct": false,
+      "from_master": true
+    },
+    "8923": {
+      "number": "8923",
+      "title": "`fatxpool`: fix: remove invalid txs from the dropped stream controller",
+      "author": "michalkucharczyk",
+      "merged_at": "2025-06-25T07:14:24Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8923",
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
