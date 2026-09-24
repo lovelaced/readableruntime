@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23T07:45:35.643432Z",
+  "last_updated": "2026-09-24T07:36:46.456709Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -23975,6 +23975,20 @@
       "is_backport": true,
       "original_pr": 8973
     },
+    "8923": {
+      "number": "8923",
+      "title": "`fatxpool`: fix: remove invalid txs from the dropped stream controller",
+      "author": "michalkucharczyk",
+      "merged_at": "2025-06-25T07:14:24Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "T0-node"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8923",
+      "branch": "stable2509",
+      "is_direct": false,
+      "from_master": true
+    },
     "8971": {
       "number": "8971",
       "title": "[stable2506] Backport #8923",
@@ -24029,6 +24043,19 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 8948
+    },
+    "8925": {
+      "number": "8925",
+      "title": "Multisig::as_multi_threshold_1: Send `MultisigExecuted` event",
+      "author": "bkchr",
+      "merged_at": "2025-06-23T07:57:36Z",
+      "labels": [
+        "T2-pallets"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8925",
+      "branch": "stable2509",
+      "is_direct": false,
+      "from_master": true
     },
     "8934": {
       "number": "8934",
@@ -31405,33 +31432,6 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8935",
-      "branch": "stable2509",
-      "is_direct": false,
-      "from_master": true
-    },
-    "8925": {
-      "number": "8925",
-      "title": "Multisig::as_multi_threshold_1: Send `MultisigExecuted` event",
-      "author": "bkchr",
-      "merged_at": "2025-06-23T07:57:36Z",
-      "labels": [
-        "T2-pallets"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8925",
-      "branch": "stable2509",
-      "is_direct": false,
-      "from_master": true
-    },
-    "8923": {
-      "number": "8923",
-      "title": "`fatxpool`: fix: remove invalid txs from the dropped stream controller",
-      "author": "michalkucharczyk",
-      "merged_at": "2025-06-25T07:14:24Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8923",
       "branch": "stable2509",
       "is_direct": false,
       "from_master": true
@@ -43991,6 +43991,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "12663": {
+      "number": "12663",
+      "title": "[AHMv2] Scaffold HRMP And Registrar User Interface Pallets",
+      "author": "ggwpez",
+      "merged_at": "2026-07-30T10:59:30Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12663",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13283": {
+      "number": "13283",
+      "title": "[stable2606 Backport #12663] [AHMv2] Scaffold HRMP And Registrar User Interface Pallets",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-23T09:10:55Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13283",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12663
+    },
     "13221": {
       "number": "13221",
       "title": "ci: rm oldlinux runners",
@@ -49860,21 +49890,6 @@
         "T13-deprecation"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12664",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
-    },
-    "12663": {
-      "number": "12663",
-      "title": "[AHMv2] Scaffold HRMP And Registrar User Interface Pallets",
-      "author": "ggwpez",
-      "merged_at": "2026-07-30T10:59:30Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12663",
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
@@ -81974,6 +81989,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13283": 12663,
     "13226": 13221,
     "13169": 13153,
     "13158": 13094,
@@ -83962,6 +83978,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12663": [
+      13283
     ],
     "13221": [
       13226,
