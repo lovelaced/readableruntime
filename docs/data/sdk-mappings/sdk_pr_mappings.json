@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25T07:33:45.428039Z",
+  "last_updated": "2026-09-26T07:30:10.979962Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -48645,6 +48645,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "13282": {
+      "number": "13282",
+      "title": "[AHMv2] Migrator dependencies",
+      "author": "Ank4n",
+      "merged_at": "2026-09-24T21:15:39Z",
+      "labels": [
+        "T17-primitives",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13282",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13314": {
+      "number": "13314",
+      "title": "[stable2609 Backport #13282] [AHMv2] Migrator dependencies",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-25T10:09:19Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13314",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13282
+    },
     "13254": {
       "number": "13254",
       "title": "[stable2609] Bump spec_version to 1_025_001",
@@ -82032,6 +82061,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13314": 13282,
     "13227": 13221,
     "13192": 13061,
     "13187": 13126,
@@ -84092,6 +84122,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13282": [
+      13314
     ],
     "13061": [
       13192
