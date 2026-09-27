@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-26T07:30:10.979962Z",
+  "last_updated": "2026-09-27T08:03:45.395226Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43991,6 +43991,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "13282": {
+      "number": "13282",
+      "title": "[AHMv2] Migrator dependencies",
+      "author": "Ank4n",
+      "merged_at": "2026-09-24T21:15:39Z",
+      "labels": [
+        "T17-primitives",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13282",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13313": {
+      "number": "13313",
+      "title": "[stable2606 Backport #13282] [AHMv2] Migrator dependencies",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-27T00:01:04Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13313",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13282
+    },
     "12663": {
       "number": "12663",
       "title": "[AHMv2] Scaffold HRMP And Registrar User Interface Pallets",
@@ -48642,21 +48671,6 @@
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/3520",
       "branch": "stable2606",
-      "is_direct": false,
-      "from_master": true
-    },
-    "13282": {
-      "number": "13282",
-      "title": "[AHMv2] Migrator dependencies",
-      "author": "Ank4n",
-      "merged_at": "2026-09-24T21:15:39Z",
-      "labels": [
-        "T17-primitives",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13282",
-      "branch": "master",
       "is_direct": false,
       "from_master": true
     },
@@ -82018,6 +82032,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13313": 13282,
     "13283": 12663,
     "13226": 13221,
     "13169": 13153,
@@ -84009,6 +84024,10 @@
     "10917": [
       11067
     ],
+    "13282": [
+      13313,
+      13314
+    ],
     "12663": [
       13283
     ],
@@ -84122,9 +84141,6 @@
     ],
     "12314": [
       12337
-    ],
-    "13282": [
-      13314
     ],
     "13061": [
       13192
