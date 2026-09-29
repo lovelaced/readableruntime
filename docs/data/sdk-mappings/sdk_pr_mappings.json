@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T08:39:18.995738Z",
+  "last_updated": "2026-09-29T08:23:16.466555Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -43991,6 +43991,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "13337": {
+      "number": "13337",
+      "title": "session: fix benchmarks with non-zero KeyDeposit",
+      "author": "sigurpol",
+      "merged_at": "2026-09-28T13:48:28Z",
+      "labels": [
+        "T2-pallets",
+        "T12-benchmarks",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13337",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13344": {
+      "number": "13344",
+      "title": "[stable2606 Backport #13337] session: fix benchmarks with non-zero KeyDeposit",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-28T16:31:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13344",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13337
+    },
     "13282": {
       "number": "13282",
       "title": "[AHMv2] Migrator dependencies",
@@ -48673,6 +48703,20 @@
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
+    },
+    "13345": {
+      "number": "13345",
+      "title": "[stable2609 Backport #13337] session: fix benchmarks with non-zero KeyDeposit",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-28T15:29:21Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13345",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13337
     },
     "13314": {
       "number": "13314",
@@ -82032,6 +82076,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13344": 13337,
     "13313": 13282,
     "13283": 12663,
     "13226": 13221,
@@ -82076,6 +82121,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13345": 13337,
     "13314": 13282,
     "13227": 13221,
     "13192": 13061,
@@ -84023,6 +84069,10 @@
     ],
     "10917": [
       11067
+    ],
+    "13337": [
+      13344,
+      13345
     ],
     "13282": [
       13313,
