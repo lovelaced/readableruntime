@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T08:30:39.526721Z",
+  "generated_at": "2026-10-01T08:46:48.239776Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -400,7 +400,7 @@
         "polkadot-primitives": "23.0.0",
         "sp-runtime": "46.0.0"
       },
-      "branch_pr_count": 477,
+      "branch_pr_count": 478,
       "included_branches": [
         "stable2603"
       ],
@@ -415,7 +415,7 @@
         "polkadot-primitives": "23.0.0",
         "sp-runtime": "46.0.0"
       },
-      "branch_pr_count": 477,
+      "branch_pr_count": 478,
       "included_branches": [
         "stable2603"
       ],
@@ -430,7 +430,7 @@
         "polkadot-primitives": "23.0.0",
         "sp-runtime": "46.0.0"
       },
-      "branch_pr_count": 477,
+      "branch_pr_count": 478,
       "included_branches": [
         "stable2603"
       ],
@@ -2577,8 +2577,8 @@
       }
     },
     "stable2609": {
-      "commit": "0f0eb83497361ea156a5337fdc08ce2349f5c3b3",
-      "date": "2026-09-28T15:29:20Z",
+      "commit": "afab8666246c929c514216716aec9de2079ce5d4",
+      "date": "2026-10-01T07:57:32Z",
       "branch": "stable2609",
       "package_versions": {
         "polkadot-primitives": "7.0.0",
@@ -2614,7 +2614,7 @@
         "stable2609-rc1"
       ],
       "created_date": "2026-08-30T04:45:44Z",
-      "pr_count": 249
+      "pr_count": 252
     },
     "stable2606": {
       "tags": [
@@ -2656,7 +2656,7 @@
         "stable2603-1-rc1"
       ],
       "created_date": "2026-03-17T14:28:29Z",
-      "pr_count": 477
+      "pr_count": 478
     },
     "stable2512": {
       "tags": [
@@ -2910,7 +2910,7 @@
   "statistics": {
     "total_sdk_tags": 209,
     "total_branches": 17,
-    "total_prs_tracked": 3894,
+    "total_prs_tracked": 3901,
     "runtime_releases_mapped": 33
   }
 }

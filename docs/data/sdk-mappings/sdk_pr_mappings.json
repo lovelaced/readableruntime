@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T08:30:39.530373Z",
+  "last_updated": "2026-10-01T08:46:48.242717Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38206,6 +38206,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "13157": {
+      "number": "13157",
+      "title": "[stable2603 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-30T14:24:10Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13157",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13094
+    },
     "13130": {
       "number": "13130",
       "title": "Update ci-unified image to `bullseye-1.93.0-2026-01-27-v202609081126`",
@@ -48704,6 +48719,64 @@
       "is_direct": false,
       "from_master": true
     },
+    "13318": {
+      "number": "13318",
+      "title": "grandpa: gossip commits to light clients in rotating groups",
+      "author": "lrubasze",
+      "merged_at": "2026-09-30T17:47:38Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13318",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13382": {
+      "number": "13382",
+      "title": "[stable2609 Backport #13318] grandpa: gossip commits to light clients in rotating groups",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T07:57:32Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13382",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13318
+    },
+    "13366": {
+      "number": "13366",
+      "title": "Bump litep2p to 0.15.3",
+      "author": "bkchr",
+      "merged_at": "2026-09-30T09:07:46Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13366",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13375": {
+      "number": "13375",
+      "title": "[stable2609 Backport #13366] Bump litep2p to 0.15.3",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-30T17:15:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13375",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13366
+    },
     "13345": {
       "number": "13345",
       "title": "[stable2609 Backport #13337] session: fix benchmarks with non-zero KeyDeposit",
@@ -48717,6 +48790,36 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13337
+    },
+    "13009": {
+      "number": "13009",
+      "title": "Move on-demand coretime orders to the Coretime chain",
+      "author": "fizyk20",
+      "merged_at": "2026-09-28T11:56:56Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13009",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13341": {
+      "number": "13341",
+      "title": "[stable2609 Backport #13009] Move on-demand coretime orders to the Coretime chain",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-09-30T15:55:40Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13341",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13009
     },
     "13314": {
       "number": "13314",
@@ -81976,6 +82079,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13157": 13094,
     "13132": 13130,
     "13080": 13037,
     "12893": 12812,
@@ -82121,7 +82225,10 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13382": 13318,
+    "13375": 13366,
     "13345": 13337,
+    "13341": 13009,
     "13314": 13282,
     "13227": 13221,
     "13192": 13061,
@@ -83465,6 +83572,7 @@
     ],
     "13094": [
       13155,
+      13157,
       13158,
       13159
     ],
@@ -84191,6 +84299,15 @@
     ],
     "12314": [
       12337
+    ],
+    "13318": [
+      13382
+    ],
+    "13366": [
+      13375
+    ],
+    "13009": [
+      13341
     ],
     "13061": [
       13192
