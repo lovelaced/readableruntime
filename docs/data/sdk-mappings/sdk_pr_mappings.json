@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T08:46:48.242717Z",
+  "last_updated": "2026-10-02T08:27:04.754239Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32251,6 +32251,40 @@
       "is_direct": false,
       "from_master": true
     },
+    "13221": {
+      "number": "13221",
+      "title": "ci: rm oldlinux runners",
+      "author": "alvicsam",
+      "merged_at": "2026-09-15T11:05:42Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2509",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13221",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13223": {
+      "number": "13223",
+      "title": "[stable2512 Backport #13221] ci: rm oldlinux runners",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T12:38:38Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13223",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13221
+    },
     "13079": {
       "number": "13079",
       "title": "[stable2512 Backport #13037] [Release] Changelog refactoring",
@@ -38206,6 +38240,33 @@
       "is_direct": false,
       "from_master": true
     },
+    "13389": {
+      "number": "13389",
+      "title": "[stable2603] Post crates release activities for stable2603-7",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T14:41:43Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13389",
+      "branch": "stable2603",
+      "is_direct": true
+    },
+    "13224": {
+      "number": "13224",
+      "title": "[stable2603 Backport #13221] ci: rm oldlinux runners",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T10:11:33Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13224",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13221
+    },
     "13157": {
       "number": "13157",
       "title": "[stable2603 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
@@ -38267,6 +38328,37 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13037
+    },
+    "13045": {
+      "number": "13045",
+      "title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "author": "dr333ws",
+      "merged_at": "2026-09-01T17:18:59Z",
+      "labels": [
+        "T0-node",
+        "I2-bug",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13045",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13053": {
+      "number": "13053",
+      "title": "[stable2603 Backport #13045] sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T11:50:56Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13053",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13045
     },
     "13014": {
       "number": "13014",
@@ -44006,6 +44098,95 @@
       "is_direct": false,
       "from_master": true
     },
+    "13320": {
+      "number": "13320",
+      "title": "Update RC peer ids of Polkadot AH invulnerable collators",
+      "author": "tdimitrov",
+      "merged_at": "2026-10-01T07:58:51Z",
+      "labels": [
+        "T8-polkadot",
+        "A4-backport-stable2606",
+        "R0-silent",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13320",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13386": {
+      "number": "13386",
+      "title": "[stable2606 Backport #13320] Update RC peer ids of Polkadot AH invulnerable collators",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T12:17:08Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13386",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13320
+    },
+    "13318": {
+      "number": "13318",
+      "title": "grandpa: gossip commits to light clients in rotating groups",
+      "author": "lrubasze",
+      "merged_at": "2026-09-30T17:47:38Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13318",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13381": {
+      "number": "13381",
+      "title": "[stable2606 Backport #13318] grandpa: gossip commits to light clients in rotating groups",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T09:09:27Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13381",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13318
+    },
+    "13366": {
+      "number": "13366",
+      "title": "Bump litep2p to 0.15.3",
+      "author": "bkchr",
+      "merged_at": "2026-09-30T09:07:46Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13366",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13374": {
+      "number": "13374",
+      "title": "[stable2606 Backport #13366] Bump litep2p to 0.15.3",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T11:22:07Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13374",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13366
+    },
     "13337": {
       "number": "13337",
       "title": "session: fix benchmarks with non-zero KeyDeposit",
@@ -44094,25 +44275,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12663
-    },
-    "13221": {
-      "number": "13221",
-      "title": "ci: rm oldlinux runners",
-      "author": "alvicsam",
-      "merged_at": "2026-09-15T11:05:42Z",
-      "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
-        "A4-backport-stable2512",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13221",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13226": {
       "number": "13226",
@@ -44394,23 +44556,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12378
-    },
-    "13045": {
-      "number": "13045",
-      "title": "sc-rpc-server: bound the cardinality of the RPC metrics `method` label",
-      "author": "dr333ws",
-      "merged_at": "2026-09-01T17:18:59Z",
-      "labels": [
-        "T0-node",
-        "I2-bug",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13045",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13054": {
       "number": "13054",
@@ -48719,20 +48864,20 @@
       "is_direct": false,
       "from_master": true
     },
-    "13318": {
-      "number": "13318",
-      "title": "grandpa: gossip commits to light clients in rotating groups",
-      "author": "lrubasze",
-      "merged_at": "2026-09-30T17:47:38Z",
+    "13387": {
+      "number": "13387",
+      "title": "[stable2609 Backport #13320] Update RC peer ids of Polkadot AH invulnerable collators",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T13:15:56Z",
       "labels": [
-        "T0-node",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
+        "R0-no-crate-publish-required",
+        "A3-backport"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13318",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13387",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13320
     },
     "13382": {
       "number": "13382",
@@ -48748,21 +48893,6 @@
       "is_backport": true,
       "original_pr": 13318
     },
-    "13366": {
-      "number": "13366",
-      "title": "Bump litep2p to 0.15.3",
-      "author": "bkchr",
-      "merged_at": "2026-09-30T09:07:46Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13366",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
-    },
     "13375": {
       "number": "13375",
       "title": "[stable2609 Backport #13366] Bump litep2p to 0.15.3",
@@ -48776,6 +48906,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13366
+    },
+    "12396": {
+      "number": "12396",
+      "title": "Collator protocol V4 validator side logic",
+      "author": "AlexandruCihodaru",
+      "merged_at": "2026-09-24T12:02:14Z",
+      "labels": [
+        "T20-low-latency",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12396",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13373": {
+      "number": "13373",
+      "title": "[stable2609 Backport #12396] Collator protocol V4 validator side logic",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-01T11:19:27Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13373",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12396
     },
     "13345": {
       "number": "13345",
@@ -78139,7 +78297,7 @@
         "from_master": true
       }
     ],
-    "11333": [
+    "11334": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -78148,7 +78306,7 @@
         "from_master": true
       }
     ],
-    "11334": [
+    "11333": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -81966,6 +82124,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "13223": 13221,
     "13079": 13037,
     "12892": 12812,
     "12827": 12819,
@@ -82079,9 +82238,11 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13224": 13221,
     "13157": 13094,
     "13132": 13130,
     "13080": 13037,
+    "13053": 13045,
     "12893": 12812,
     "12828": 12819,
     "12791": 12767,
@@ -82180,6 +82341,9 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13386": 13320,
+    "13381": 13318,
+    "13374": 13366,
     "13344": 13337,
     "13313": 13282,
     "13283": 12663,
@@ -82225,8 +82389,10 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13387": 13320,
     "13382": 13318,
     "13375": 13366,
+    "13373": 12396,
     "13345": 13337,
     "13341": 13009,
     "13314": 13282,
@@ -83780,6 +83946,12 @@
       9655,
       9654
     ],
+    "13221": [
+      13223,
+      13224,
+      13226,
+      13227
+    ],
     "12812": [
       12892,
       12893,
@@ -84004,6 +84176,11 @@
       13133,
       13134
     ],
+    "13045": [
+      13053,
+      13054,
+      13055
+    ],
     "12260": [
       12618,
       12620
@@ -84178,6 +84355,18 @@
     "10917": [
       11067
     ],
+    "13320": [
+      13386,
+      13387
+    ],
+    "13318": [
+      13381,
+      13382
+    ],
+    "13366": [
+      13374,
+      13375
+    ],
     "13337": [
       13344,
       13345
@@ -84188,10 +84377,6 @@
     ],
     "12663": [
       13283
-    ],
-    "13221": [
-      13226,
-      13227
     ],
     "13153": [
       13169,
@@ -84214,10 +84399,6 @@
     ],
     "12378": [
       13067
-    ],
-    "13045": [
-      13054,
-      13055
     ],
     "12693": [
       13033
@@ -84300,11 +84481,8 @@
     "12314": [
       12337
     ],
-    "13318": [
-      13382
-    ],
-    "13366": [
-      13375
+    "12396": [
+      13373
     ],
     "13009": [
       13341
