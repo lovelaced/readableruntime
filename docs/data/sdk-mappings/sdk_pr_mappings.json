@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T08:34:35.188320Z",
+  "last_updated": "2026-10-08T08:50:39.988065Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44098,6 +44098,90 @@
       "is_direct": false,
       "from_master": true
     },
+    "11731": {
+      "number": "11731",
+      "title": "fatxpool: unban viewless transactions after mempool revalidation",
+      "author": "michalkucharczyk",
+      "merged_at": "2026-06-26T07:05:27Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11731",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13443": {
+      "number": "13443",
+      "title": "[stable2606 Backport #11731] fatxpool: unban viewless transactions after mempool revalidation",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-08T07:16:51Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13443",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11731
+    },
+    "11733": {
+      "number": "11733",
+      "title": "fatxpool: invalid inblock event fixed",
+      "author": "michalkucharczyk",
+      "merged_at": "2026-06-25T12:58:10Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11733",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13442": {
+      "number": "13442",
+      "title": "[stable2606 Backport #11733] fatxpool: invalid inblock event fixed",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-08T07:13:30Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13442",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11733
+    },
+    "12362": {
+      "number": "12362",
+      "title": "fatxpool: preserve order of same-priority transactions on re-orgs",
+      "author": "michalkucharczyk",
+      "merged_at": "2026-06-17T11:47:35Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12362",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13441": {
+      "number": "13441",
+      "title": "[stable2606 Backport #12362] fatxpool: preserve order of same-priority transactions on re-orgs",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-08T07:11:16Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13441",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12362
+    },
     "13320": {
       "number": "13320",
       "title": "Update RC peer ids of Polkadot AH invulnerable collators",
@@ -48864,6 +48948,46 @@
       "is_direct": false,
       "from_master": true
     },
+    "13434": {
+      "number": "13434",
+      "title": "[stable2609] Move prdocs to release folder",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-07T14:09:20Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13434",
+      "branch": "stable2609",
+      "is_direct": true
+    },
+    "13400": {
+      "number": "13400",
+      "title": "Benchmarking some EVM arithmetic opcodes",
+      "author": "0xOmarA",
+      "merged_at": "2026-10-07T02:49:50Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13400",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13425": {
+      "number": "13425",
+      "title": "[stable2609 Backport #13400] Benchmarking some EVM arithmetic opcodes",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-07T13:20:05Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13425",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13400
+    },
     "13415": {
       "number": "13415",
       "title": "[stable2609] Set publish false to polkadot-parachain-bin",
@@ -50867,7 +50991,8 @@
       "author": "michalkucharczyk",
       "merged_at": "2026-06-29T15:18:04Z",
       "labels": [
-        "T0-node"
+        "T0-node",
+        "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12433",
       "branch": "stable2609",
@@ -51046,19 +51171,6 @@
         "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12365",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
-    },
-    "12362": {
-      "number": "12362",
-      "title": "fatxpool: preserve order of same-priority transactions on re-orgs",
-      "author": "michalkucharczyk",
-      "merged_at": "2026-06-17T11:47:35Z",
-      "labels": [
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12362",
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
@@ -51689,32 +51801,6 @@
         "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11810",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
-    },
-    "11733": {
-      "number": "11733",
-      "title": "fatxpool: invalid inblock event fixed",
-      "author": "michalkucharczyk",
-      "merged_at": "2026-06-25T12:58:10Z",
-      "labels": [
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11733",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
-    },
-    "11731": {
-      "number": "11731",
-      "title": "fatxpool: unban viewless transactions after mempool revalidation",
-      "author": "michalkucharczyk",
-      "merged_at": "2026-06-26T07:05:27Z",
-      "labels": [
-        "T0-node"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11731",
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
@@ -78363,7 +78449,7 @@
         "from_master": true
       }
     ],
-    "11393": [
+    "11395": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -78381,7 +78467,7 @@
         "from_master": true
       }
     ],
-    "11395": [
+    "11398": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -78390,7 +78476,7 @@
         "from_master": true
       }
     ],
-    "11398": [
+    "11393": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -82353,6 +82439,9 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13443": 11731,
+    "13442": 11733,
+    "13441": 12362,
     "13386": 13320,
     "13381": 13318,
     "13374": 13366,
@@ -82401,6 +82490,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13425": 13400,
     "13387": 13320,
     "13382": 13318,
     "13375": 13366,
@@ -84367,6 +84457,15 @@
     "10917": [
       11067
     ],
+    "11731": [
+      13443
+    ],
+    "11733": [
+      13442
+    ],
+    "12362": [
+      13441
+    ],
     "13320": [
       13386,
       13387
@@ -84492,6 +84591,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13400": [
+      13425
     ],
     "12396": [
       13373
