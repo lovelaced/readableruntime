@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T08:50:39.988065Z",
+  "last_updated": "2026-10-09T08:52:49.058001Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -194,10 +194,10 @@
       "new_prs": 331
     },
     "v2.5.0": {
-      "sdk_version": "stable2606-2-rc1",
-      "release_date": "2026-09-13T16:39:48Z",
-      "total_prs": 32,
-      "new_prs": 32
+      "sdk_version": "stable2606-3-rc1",
+      "release_date": "2026-10-08T12:09:10Z",
+      "total_prs": 45,
+      "new_prs": 45
     }
   },
   "pr_details": {
@@ -44098,6 +44098,59 @@
       "is_direct": false,
       "from_master": true
     },
+    "13451": {
+      "number": "13451",
+      "title": "[stable2606] Post crates publis pallet-revive-eth-rpc",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-09T06:59:03Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13451",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "13449": {
+      "number": "13449",
+      "title": "[stable2606] Post crates release stable2606-3",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-08T12:09:11Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13449",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "12433": {
+      "number": "12433",
+      "title": "txpool: maintain on all blocks",
+      "author": "michalkucharczyk",
+      "merged_at": "2026-06-29T15:18:04Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12433",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13444": {
+      "number": "13444",
+      "title": "[stable2606 Backport #12433] txpool: maintain on all blocks",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-08T09:19:01Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13444",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12433
+    },
     "11731": {
       "number": "11731",
       "title": "fatxpool: unban viewless transactions after mempool revalidation",
@@ -48948,6 +49001,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13447": {
+      "number": "13447",
+      "title": "[stable2609] Post crates release activities for stable2609",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-08T11:57:28Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13447",
+      "branch": "stable2609",
+      "is_direct": true
+    },
     "13434": {
       "number": "13434",
       "title": "[stable2609] Move prdocs to release folder",
@@ -50981,20 +51046,6 @@
         "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12434",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
-    },
-    "12433": {
-      "number": "12433",
-      "title": "txpool: maintain on all blocks",
-      "author": "michalkucharczyk",
-      "merged_at": "2026-06-29T15:18:04Z",
-      "labels": [
-        "T0-node",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12433",
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
@@ -78458,15 +78509,6 @@
         "from_master": true
       }
     ],
-    "11394": [
-      {
-        "runtime_version": "2.4.0",
-        "sdk_version": "stable2606-1",
-        "sdk_branch": "stable2606",
-        "source_branch": "stable2606",
-        "from_master": true
-      }
-    ],
     "11398": [
       {
         "runtime_version": "2.4.0",
@@ -78476,7 +78518,7 @@
         "from_master": true
       }
     ],
-    "11393": [
+    "11394": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -78486,6 +78528,15 @@
       }
     ],
     "11400": [
+      {
+        "runtime_version": "2.4.0",
+        "sdk_version": "stable2606-1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "from_master": true
+      }
+    ],
+    "11393": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -81291,7 +81342,7 @@
     "12825": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81300,7 +81351,7 @@
     "12830": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81311,7 +81362,7 @@
     "12885": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81322,7 +81373,7 @@
     "12889": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81333,7 +81384,7 @@
     "12891": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81344,7 +81395,7 @@
     "12894": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81355,7 +81406,7 @@
     "12928": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81366,7 +81417,7 @@
     "12952": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81377,7 +81428,7 @@
     "12956": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81388,7 +81439,7 @@
     "12959": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81399,7 +81450,7 @@
     "12982": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81408,7 +81459,7 @@
     "12987": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81417,7 +81468,7 @@
     "12997": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81428,7 +81479,7 @@
     "13012": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81437,7 +81488,7 @@
     "13020": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81448,7 +81499,7 @@
     "13021": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81459,7 +81510,7 @@
     "13023": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81470,7 +81521,7 @@
     "13033": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81481,7 +81532,7 @@
     "13041": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81490,7 +81541,7 @@
     "13054": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81501,7 +81552,7 @@
     "13067": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81512,7 +81563,7 @@
     "13072": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81523,7 +81574,7 @@
     "13081": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81534,7 +81585,7 @@
     "13086": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81543,7 +81594,7 @@
     "13089": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81552,7 +81603,7 @@
     "13098": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_direct": true
@@ -81561,7 +81612,7 @@
     "13099": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81572,7 +81623,7 @@
     "13111": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81583,7 +81634,7 @@
     "13118": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81594,7 +81645,7 @@
     "13133": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81605,7 +81656,7 @@
     "13158": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
@@ -81616,11 +81667,150 @@
     "13169": [
       {
         "runtime_version": "2.5.0",
-        "sdk_version": "stable2606-2-rc1",
+        "sdk_version": "stable2606-3-rc1",
         "sdk_branch": "stable2606",
         "source_branch": "stable2606",
         "is_backport": true,
         "original_pr": 13153,
+        "is_direct": true
+      }
+    ],
+    "13205": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13226": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13221,
+        "is_direct": true
+      }
+    ],
+    "13228": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_direct": true
+      }
+    ],
+    "13283": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12663,
+        "is_direct": true
+      }
+    ],
+    "13313": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13282,
+        "is_direct": true
+      }
+    ],
+    "13344": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13337,
+        "is_direct": true
+      }
+    ],
+    "13374": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13366,
+        "is_direct": true
+      }
+    ],
+    "13381": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13318,
+        "is_direct": true
+      }
+    ],
+    "13386": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 13320,
+        "is_direct": true
+      }
+    ],
+    "13441": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12362,
+        "is_direct": true
+      }
+    ],
+    "13442": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 11733,
+        "is_direct": true
+      }
+    ],
+    "13443": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 11731,
+        "is_direct": true
+      }
+    ],
+    "13444": [
+      {
+        "runtime_version": "2.5.0",
+        "sdk_version": "stable2606-3-rc1",
+        "sdk_branch": "stable2606",
+        "source_branch": "stable2606",
+        "is_backport": true,
+        "original_pr": 12433,
         "is_direct": true
       }
     ]
@@ -82439,6 +82629,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13444": 12433,
     "13443": 11731,
     "13442": 11733,
     "13441": 12362,
@@ -84456,6 +84647,9 @@
     ],
     "10917": [
       11067
+    ],
+    "12433": [
+      13444
     ],
     "11731": [
       13443
