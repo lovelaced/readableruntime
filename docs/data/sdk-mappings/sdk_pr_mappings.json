@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-09T08:52:49.058001Z",
+  "last_updated": "2026-10-10T08:26:00.055082Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44354,6 +44354,35 @@
       "is_backport": true,
       "original_pr": 13337
     },
+    "13009": {
+      "number": "13009",
+      "title": "Move on-demand coretime orders to the Coretime chain",
+      "author": "fizyk20",
+      "merged_at": "2026-09-28T11:56:56Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13009",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13340": {
+      "number": "13340",
+      "title": "[stable2606 Backport #13009] Move on-demand coretime orders to the Coretime chain",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-09T12:40:14Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13340",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13009
+    },
     "13282": {
       "number": "13282",
       "title": "[AHMv2] Migrator dependencies",
@@ -49149,21 +49178,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13337
-    },
-    "13009": {
-      "number": "13009",
-      "title": "Move on-demand coretime orders to the Coretime chain",
-      "author": "fizyk20",
-      "merged_at": "2026-09-28T11:56:56Z",
-      "labels": [
-        "T2-pallets",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13009",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13341": {
       "number": "13341",
@@ -82637,6 +82651,7 @@
     "13381": 13318,
     "13374": 13366,
     "13344": 13337,
+    "13340": 13009,
     "13313": 13282,
     "13283": 12663,
     "13226": 13221,
@@ -84676,6 +84691,10 @@
       13344,
       13345
     ],
+    "13009": [
+      13340,
+      13341
+    ],
     "13282": [
       13313,
       13314
@@ -84791,9 +84810,6 @@
     ],
     "12396": [
       13373
-    ],
-    "13009": [
-      13341
     ],
     "13061": [
       13192
