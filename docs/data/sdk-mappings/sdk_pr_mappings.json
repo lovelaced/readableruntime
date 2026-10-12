@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T08:43:24.145179Z",
+  "last_updated": "2026-10-12T09:03:44.358054Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -49042,6 +49042,34 @@
       "branch": "stable2609",
       "is_direct": true
     },
+    "13421": {
+      "number": "13421",
+      "title": "frame-support: make `#[stored]` work in crates without a direct `derive-where` dependency'",
+      "author": "sigurpol",
+      "merged_at": "2026-10-07T13:51:03Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13421",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13435": {
+      "number": "13435",
+      "title": "[stable2609 Backport #13421] frame-support: make `#[stored]` work in crates without a direct `derive-where` dependency'",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-12T08:58:02Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13435",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13421
+    },
     "13434": {
       "number": "13434",
       "title": "[stable2609] Move prdocs to release folder",
@@ -82696,6 +82724,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13435": 13421,
     "13425": 13400,
     "13387": 13320,
     "13382": 13318,
@@ -84804,6 +84833,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13421": [
+      13435
     ],
     "13400": [
       13425
