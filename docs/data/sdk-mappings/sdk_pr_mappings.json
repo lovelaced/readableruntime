@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T09:03:44.358054Z",
+  "last_updated": "2026-10-13T09:20:00.021086Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -49030,6 +49030,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "13437": {
+      "number": "13437",
+      "title": "statement-store: enforce allowance against best and finalized blocks",
+      "author": "DenzelPenzel",
+      "merged_at": "2026-10-08T15:19:36Z",
+      "labels": [
+        "T0-node",
+        "I2-bug",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13437",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13470": {
+      "number": "13470",
+      "title": "[stable2609 Backport #13437] statement-store: enforce allowance against best and finalized blocks",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-13T09:17:08Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13470",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13437
+    },
     "13447": {
       "number": "13447",
       "title": "[stable2609] Post crates release activities for stable2609",
@@ -51193,7 +51222,9 @@
       "author": "mertwole",
       "merged_at": "2026-06-26T16:47:28Z",
       "labels": [
-        "T2-pallets"
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12381",
       "branch": "stable2609",
@@ -82724,6 +82755,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13470": 13437,
     "13435": 13421,
     "13425": 13400,
     "13387": 13320,
@@ -84833,6 +84865,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13437": [
+      13470
     ],
     "13421": [
       13435
