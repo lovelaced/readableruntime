@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-13T09:20:00.021086Z",
+  "last_updated": "2026-10-14T07:28:18.374837Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44097,6 +44097,18 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "13473": {
+      "number": "13473",
+      "title": "[satble2606] Publish false registrar-primitives",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-13T13:44:03Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13473",
+      "branch": "stable2606",
+      "is_direct": true
     },
     "13451": {
       "number": "13451",
