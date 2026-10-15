@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-14T07:28:18.374837Z",
+  "last_updated": "2026-10-15T07:22:12.789310Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32285,6 +32285,21 @@
       "is_backport": true,
       "original_pr": 13221
     },
+    "13156": {
+      "number": "13156",
+      "title": "[stable2512 Backport #13094] [Release|CI/CD] Fix runtimes publishing in the Create Draft flow",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-14T08:18:26Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13156",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13094
+    },
     "13079": {
       "number": "13079",
       "title": "[stable2512 Backport #13037] [Release] Changelog refactoring",
@@ -49599,6 +49614,19 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13045
+    },
+    "13468": {
+      "number": "13468",
+      "title": "Backport version bumps and prdocs reordering from stable2609",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-14T09:25:01Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "R0-silent"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13468",
+      "branch": "stable2609",
+      "is_direct": true
     },
     "13018": {
       "number": "13018",
@@ -82498,6 +82526,7 @@
     "9655": 9632,
     "9653": 9641,
     "13223": 13221,
+    "13156": 13094,
     "13079": 13037,
     "12892": 12812,
     "12827": 12819,
@@ -84119,6 +84148,7 @@
     ],
     "13094": [
       13155,
+      13156,
       13157,
       13158,
       13159
