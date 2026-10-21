@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20T07:30:40.125357Z",
+  "last_updated": "2026-10-21T07:28:38.499707Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -13247,19 +13247,6 @@
       "is_backport": true,
       "original_pr": 8294
     },
-    "8162": {
-      "number": "8162",
-      "title": "tx/broadcast: Use client info for fetching the best block",
-      "author": "lexnv",
-      "merged_at": "2025-04-10T16:54:17Z",
-      "labels": [
-        "T3-RPC_API"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8162",
-      "branch": "stable2506",
-      "is_direct": false,
-      "from_master": true
-    },
     "8295": {
       "number": "8295",
       "title": "[stable2503] Backport #8162",
@@ -25988,6 +25975,19 @@
       "is_direct": false,
       "from_master": true
     },
+    "8162": {
+      "number": "8162",
+      "title": "tx/broadcast: Use client info for fetching the best block",
+      "author": "lexnv",
+      "merged_at": "2025-04-10T16:54:17Z",
+      "labels": [
+        "T3-RPC_API"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8162",
+      "branch": "stable2506",
+      "is_direct": false,
+      "from_master": true
+    },
     "8161": {
       "number": "8161",
       "title": "Cleanup unused deps",
@@ -38549,7 +38549,7 @@
       "labels": [
         "T6-XCM",
         "A4-backport-stable2603",
-        "A4-backport-unstable2604"
+        "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11910",
       "branch": "stable2609",
@@ -47568,7 +47568,7 @@
     },
     "11755": {
       "number": "11755",
-      "title": "Bump ark-vrf version",
+      "title": "Bump ark-vrf version to 0.5.0",
       "author": "davxy",
       "merged_at": "2026-04-28T16:45:06Z",
       "labels": [
