@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-21T07:28:38.499707Z",
+  "last_updated": "2026-10-22T07:30:13.785445Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,19 +171,19 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-08-20T11:47:24Z",
-      "total_prs": 35,
-      "new_prs": 35
+      "release_date": "2026-10-21T17:10:22Z",
+      "total_prs": 37,
+      "new_prs": 37
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-08-20T11:47:24Z",
+      "release_date": "2026-10-21T17:10:22Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.3.2": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-08-20T11:47:24Z",
+      "release_date": "2026-10-21T17:10:22Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -13247,6 +13247,19 @@
       "is_backport": true,
       "original_pr": 8294
     },
+    "8162": {
+      "number": "8162",
+      "title": "tx/broadcast: Use client info for fetching the best block",
+      "author": "lexnv",
+      "merged_at": "2025-04-10T16:54:17Z",
+      "labels": [
+        "T3-RPC_API"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8162",
+      "branch": "stable2506",
+      "is_direct": false,
+      "from_master": true
+    },
     "8295": {
       "number": "8295",
       "title": "[stable2503] Backport #8162",
@@ -25975,19 +25988,6 @@
       "is_direct": false,
       "from_master": true
     },
-    "8162": {
-      "number": "8162",
-      "title": "tx/broadcast: Use client info for fetching the best block",
-      "author": "lexnv",
-      "merged_at": "2025-04-10T16:54:17Z",
-      "labels": [
-        "T3-RPC_API"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8162",
-      "branch": "stable2506",
-      "is_direct": false,
-      "from_master": true
-    },
     "8161": {
       "number": "8161",
       "title": "Cleanup unused deps",
@@ -38255,6 +38255,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13542": {
+      "number": "13542",
+      "title": "[stable2603] Disable forklift and switch bullseye version",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-22T06:46:24Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13542",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "13389": {
       "number": "13389",
       "title": "[stable2603] Post crates release activities for stable2603-7",
@@ -38549,6 +38561,7 @@
       "labels": [
         "T6-XCM",
         "A4-backport-stable2603",
+        "A4-backport-unstable2604",
         "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11910",
@@ -44113,6 +44126,33 @@
       "is_direct": false,
       "from_master": true
     },
+    "13543": {
+      "number": "13543",
+      "title": "[stable2606] Disable forklift and switch bullseye version",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-21T18:33:56Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13543",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "13531": {
+      "number": "13531",
+      "title": "[stable2606 Backport #11910] XCM hardening - fix some regressions",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-22T06:35:12Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13531",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11910
+    },
     "13473": {
       "number": "13473",
       "title": "[satble2606] Publish false registrar-primitives",
@@ -49057,6 +49097,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13545": {
+      "number": "13545",
+      "title": "[stable2609] Disable forklift and switch bullseye version",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-22T06:39:08Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13545",
+      "branch": "stable2609",
+      "is_direct": true
+    },
     "13437": {
       "number": "13437",
       "title": "statement-store: enforce allowance against best and finalized blocks",
@@ -53340,6 +53392,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "13535": {
+      "number": "13535",
+      "title": "[unstable2604 Backport #11910] XCM hardening - fix some regressions",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-21T15:15:42Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13535",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11910
+    },
+    "13225": {
+      "number": "13225",
+      "title": "[unstable2604 Backport #13221] ci: rm oldlinux runners",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-21T17:10:23Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13225",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13221
     },
     "12941": {
       "number": "12941",
@@ -81079,379 +81160,6 @@
         "from_master": true
       }
     ],
-    "12160": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_direct": true
-      }
-    ],
-    "12033": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11919,
-        "is_direct": true
-      }
-    ],
-    "12166": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11967,
-        "is_direct": true
-      }
-    ],
-    "12680": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_direct": true
-      }
-    ],
-    "12041": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12035,
-        "is_direct": true
-      }
-    ],
-    "12042": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_direct": true
-      }
-    ],
-    "12186": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12168,
-        "is_direct": true
-      }
-    ],
-    "12187": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12179,
-        "is_direct": true
-      }
-    ],
-    "12829": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12819,
-        "is_direct": true
-      }
-    ],
-    "12201": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12080,
-        "is_direct": true
-      }
-    ],
-    "12074": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12003,
-        "is_direct": true
-      }
-    ],
-    "12213": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12144,
-        "is_direct": true
-      }
-    ],
-    "12218": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12207,
-        "is_direct": true
-      }
-    ],
-    "11966": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_direct": true
-      }
-    ],
-    "11968": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11962,
-        "is_direct": true
-      }
-    ],
-    "11969": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_direct": true
-      }
-    ],
-    "12359": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12357,
-        "is_direct": true
-      }
-    ],
-    "11975": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11964,
-        "is_direct": true
-      }
-    ],
-    "12235": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12214,
-        "is_direct": true
-      }
-    ],
-    "11982": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11856,
-        "is_direct": true
-      }
-    ],
-    "11984": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 10952,
-        "is_direct": true
-      }
-    ],
-    "12628": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12409,
-        "is_direct": true
-      }
-    ],
-    "12248": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12125,
-        "is_direct": true
-      }
-    ],
-    "12122": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12109,
-        "is_direct": true
-      }
-    ],
-    "11997": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11987,
-        "is_direct": true
-      }
-    ],
-    "12136": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12123,
-        "is_direct": true
-      }
-    ],
-    "12265": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_direct": true
-      }
-    ],
-    "12138": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12135,
-        "is_direct": true
-      }
-    ],
-    "12141": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12075,
-        "is_direct": true
-      }
-    ],
-    "12018": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 11999,
-        "is_direct": true
-      }
-    ],
-    "12918": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12812,
-        "is_direct": true
-      }
-    ],
-    "12792": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12767,
-        "is_direct": true
-      }
-    ],
-    "12025": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12017,
-        "is_direct": true
-      }
-    ],
-    "12026": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12005,
-        "is_direct": true
-      }
-    ],
-    "12923": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12281,
-        "is_direct": true
-      }
-    ],
     "12825": [
       {
         "runtime_version": "2.5.0",
@@ -81924,6 +81632,399 @@
         "source_branch": "stable2606",
         "is_backport": true,
         "original_pr": 12433,
+        "is_direct": true
+      }
+    ],
+    "12160": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12033": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11919,
+        "is_direct": true
+      }
+    ],
+    "12166": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11967,
+        "is_direct": true
+      }
+    ],
+    "12680": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12041": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12035,
+        "is_direct": true
+      }
+    ],
+    "12042": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12941": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12186": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12168,
+        "is_direct": true
+      }
+    ],
+    "12187": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12179,
+        "is_direct": true
+      }
+    ],
+    "12829": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12819,
+        "is_direct": true
+      }
+    ],
+    "12201": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12080,
+        "is_direct": true
+      }
+    ],
+    "12074": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12003,
+        "is_direct": true
+      }
+    ],
+    "12213": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12144,
+        "is_direct": true
+      }
+    ],
+    "12218": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12207,
+        "is_direct": true
+      }
+    ],
+    "11966": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "11968": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11962,
+        "is_direct": true
+      }
+    ],
+    "11969": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12359": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12357,
+        "is_direct": true
+      }
+    ],
+    "11975": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11964,
+        "is_direct": true
+      }
+    ],
+    "12235": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12214,
+        "is_direct": true
+      }
+    ],
+    "11982": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11856,
+        "is_direct": true
+      }
+    ],
+    "11984": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 10952,
+        "is_direct": true
+      }
+    ],
+    "12628": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12409,
+        "is_direct": true
+      }
+    ],
+    "12248": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12125,
+        "is_direct": true
+      }
+    ],
+    "12122": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12109,
+        "is_direct": true
+      }
+    ],
+    "11997": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11987,
+        "is_direct": true
+      }
+    ],
+    "13535": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11910,
+        "is_direct": true
+      }
+    ],
+    "12136": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12123,
+        "is_direct": true
+      }
+    ],
+    "12265": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
+    "12138": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12135,
+        "is_direct": true
+      }
+    ],
+    "12141": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12075,
+        "is_direct": true
+      }
+    ],
+    "12018": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 11999,
+        "is_direct": true
+      }
+    ],
+    "12918": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12812,
+        "is_direct": true
+      }
+    ],
+    "12792": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12767,
+        "is_direct": true
+      }
+    ],
+    "12025": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12017,
+        "is_direct": true
+      }
+    ],
+    "12026": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12005,
+        "is_direct": true
+      }
+    ],
+    "12923": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12281,
         "is_direct": true
       }
     ]
@@ -82743,6 +82844,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13531": 11910,
     "13444": 12433,
     "13443": 11731,
     "13442": 11733,
@@ -82884,6 +82986,8 @@
     "9242": 9139,
     "9240": 9202,
     "9237": 9127,
+    "13535": 11910,
+    "13225": 13221,
     "12923": 12281,
     "12918": 12812,
     "12829": 12819,
@@ -84361,7 +84465,8 @@
       13223,
       13224,
       13226,
-      13227
+      13227,
+      13225
     ],
     "12812": [
       12892,
@@ -84601,7 +84706,9 @@
       12575
     ],
     "11910": [
-      12476
+      12476,
+      13531,
+      13535
     ],
     "12113": [
       12353
