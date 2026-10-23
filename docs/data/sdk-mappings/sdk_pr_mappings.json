@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-22T07:30:13.785445Z",
+  "last_updated": "2026-10-23T07:26:15.304219Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,19 +171,19 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-10-21T17:10:22Z",
-      "total_prs": 37,
-      "new_prs": 37
+      "release_date": "2026-10-22T15:29:00Z",
+      "total_prs": 38,
+      "new_prs": 38
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-10-21T17:10:22Z",
+      "release_date": "2026-10-22T15:29:00Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.3.2": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-10-21T17:10:22Z",
+      "release_date": "2026-10-22T15:29:00Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -6601,6 +6601,16 @@
       "is_backport": true,
       "original_pr": 6304
     },
+    "7140": {
+      "number": "7140",
+      "title": "Backport 6855 to stable2412: Remove duplicate PR doc",
+      "author": "alistair-singh",
+      "merged_at": "2025-01-14T07:33:42Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/7140",
+      "branch": "stable2412",
+      "is_direct": true
+    },
     "8270": {
       "number": "8270",
       "title": "Merge fixes for backport 7947 to stable2412",
@@ -6640,16 +6650,6 @@
       "branch": "stable2503-broken",
       "is_direct": false,
       "from_master": true
-    },
-    "7140": {
-      "number": "7140",
-      "title": "Backport 6855 to stable2412: Remove duplicate PR doc",
-      "author": "alistair-singh",
-      "merged_at": "2025-01-14T07:33:42Z",
-      "labels": [],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/7140",
-      "branch": "stable2412",
-      "is_direct": true
     },
     "6666": {
       "number": "6666",
@@ -14319,6 +14319,16 @@
       "branch": "stable2503",
       "is_direct": true
     },
+    "8269": {
+      "number": "8269",
+      "title": "Merge fixes for backport 7947 to stable2503",
+      "author": "alistair-singh",
+      "merged_at": "2025-04-18T10:18:30Z",
+      "labels": [],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/8269",
+      "branch": "stable2503",
+      "is_direct": true
+    },
     "8706": {
       "number": "8706",
       "title": "[Backport] Version bumps and prdocs reordering from the stable2503-4 and stable2503-5 releases",
@@ -14332,16 +14342,6 @@
       "branch": "stable2506",
       "is_direct": false,
       "from_master": true
-    },
-    "8269": {
-      "number": "8269",
-      "title": "Merge fixes for backport 7947 to stable2503",
-      "author": "alistair-singh",
-      "merged_at": "2025-04-18T10:18:30Z",
-      "labels": [],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/8269",
-      "branch": "stable2503",
-      "is_direct": true
     },
     "8469": {
       "number": "8469",
@@ -32251,6 +32251,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13540": {
+      "number": "13540",
+      "title": " [stable2512] Temporarily turn off forklift",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-22T14:45:15Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13540",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "13221": {
       "number": "13221",
       "title": "ci: rm oldlinux runners",
@@ -38267,6 +38279,36 @@
       "branch": "stable2603",
       "is_direct": true
     },
+    "11910": {
+      "number": "11910",
+      "title": "XCM hardening - fix some regressions",
+      "author": "acatangiu",
+      "merged_at": "2026-06-25T11:20:26Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/11910",
+      "branch": "stable2609",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13534": {
+      "number": "13534",
+      "title": "[stable2603 Backport #11910] XCM hardening - fix some regressions",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-22T07:49:54Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13534",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 11910
+    },
     "13389": {
       "number": "13389",
       "title": "[stable2603] Post crates release activities for stable2603-7",
@@ -38552,22 +38594,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12481",
       "branch": "stable2603",
       "is_direct": true
-    },
-    "11910": {
-      "number": "11910",
-      "title": "XCM hardening - fix some regressions",
-      "author": "acatangiu",
-      "merged_at": "2026-06-25T11:20:26Z",
-      "labels": [
-        "T6-XCM",
-        "A4-backport-stable2603",
-        "A4-backport-unstable2604",
-        "A4-backport-stable2606"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/11910",
-      "branch": "stable2609",
-      "is_direct": false,
-      "from_master": true
     },
     "12476": {
       "number": "12476",
@@ -44125,6 +44151,18 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "13556": {
+      "number": "13556",
+      "title": "[stable2606] Post crates release activities for stable2606-4",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-10-22T14:13:30Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13556",
+      "branch": "stable2606",
+      "is_direct": true
     },
     "13543": {
       "number": "13543",
@@ -53392,6 +53430,18 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 9127
+    },
+    "13544": {
+      "number": "13544",
+      "title": "[unstable2604] Post crates release activities for unstable2604",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-22T15:29:01Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13544",
+      "branch": "unstable2604",
+      "is_direct": true
     },
     "13535": {
       "number": "13535",
@@ -81737,6 +81787,17 @@
         "is_direct": true
       }
     ],
+    "13225": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 13221,
+        "is_direct": true
+      }
+    ],
     "12201": [
       {
         "runtime_version": "2.3.0",
@@ -81920,17 +81981,6 @@
         "is_direct": true
       }
     ],
-    "12136": [
-      {
-        "runtime_version": "2.3.0",
-        "sdk_version": "unstable2604",
-        "sdk_branch": "unstable2604",
-        "source_branch": "unstable2604",
-        "is_backport": true,
-        "original_pr": 12123,
-        "is_direct": true
-      }
-    ],
     "12265": [
       {
         "runtime_version": "2.3.0",
@@ -81948,6 +81998,17 @@
         "source_branch": "unstable2604",
         "is_backport": true,
         "original_pr": 12135,
+        "is_direct": true
+      }
+    ],
+    "12136": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_backport": true,
+        "original_pr": 12123,
         "is_direct": true
       }
     ],
@@ -82741,6 +82802,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13534": 11910,
     "13224": 13221,
     "13157": 13094,
     "13132": 13130,
@@ -84687,6 +84749,12 @@
     "9685": [
       10374
     ],
+    "11910": [
+      13534,
+      12476,
+      13531,
+      13535
+    ],
     "13130": [
       13132,
       13133,
@@ -84704,11 +84772,6 @@
     "12388": [
       12573,
       12575
-    ],
-    "11910": [
-      12476,
-      13531,
-      13535
     ],
     "12113": [
       12353
