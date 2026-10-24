@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-23T07:26:15.304219Z",
+  "last_updated": "2026-10-24T07:11:38.580393Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32251,6 +32251,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13564": {
+      "number": "13564",
+      "title": "[stable2512] Fix forklift cache for bullseye 2512",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-23T16:01:14Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13564",
+      "branch": "stable2512",
+      "is_direct": true
+    },
     "13540": {
       "number": "13540",
       "title": " [stable2512] Temporarily turn off forklift",
@@ -49135,6 +49147,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "13541": {
+      "number": "13541",
+      "title": "[Release|CI/CD] Add eth-rpc image mention to release notes",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-22T16:42:36Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "R0-silent",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13541",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13559": {
+      "number": "13559",
+      "title": "[stable2609 Backport #13541] [Release|CI/CD] Add eth-rpc image mention to release notes",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-23T07:33:59Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13559",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13541
+    },
     "13545": {
       "number": "13545",
       "title": "[stable2609] Disable forklift and switch bullseye version",
@@ -49146,6 +49188,34 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13545",
       "branch": "stable2609",
       "is_direct": true
+    },
+    "13043": {
+      "number": "13043",
+      "title": "Slot based: Ensure we do not build two blocks on the same relay parent",
+      "author": "bkchr",
+      "merged_at": "2026-09-10T14:10:27Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13043",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13503": {
+      "number": "13503",
+      "title": "[stable2609 Backport #13043] Slot based: Ensure we do not build two blocks on the same relay parent",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-23T13:50:17Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13503",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13043
     },
     "13437": {
       "number": "13437",
@@ -82960,6 +83030,8 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13559": 13541,
+    "13503": 13043,
     "13470": 13437,
     "13435": 13421,
     "13425": 13400,
@@ -85077,6 +85149,12 @@
     ],
     "12314": [
       12337
+    ],
+    "13541": [
+      13559
+    ],
+    "13043": [
+      13503
     ],
     "13437": [
       13470
