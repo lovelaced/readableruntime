@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:11:38.575564Z",
+  "generated_at": "2026-10-25T07:34:35.829835Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -513,6 +513,21 @@
         "stable2606"
       ],
       "actual_pr_count": 45
+    },
+    "v2.5.1": {
+      "sdk_tag": "stable2606-3",
+      "sdk_branch": "stable2606",
+      "sdk_date": "2026-10-08T12:09:10Z",
+      "package_versions": {
+        "frame-support": "48.1.0",
+        "polkadot-primitives": "25.0.0",
+        "sp-runtime": "48.0.0"
+      },
+      "branch_pr_count": 384,
+      "included_branches": [
+        "stable2606"
+      ],
+      "actual_pr_count": 0
     }
   },
   "sdk_tags": {
@@ -2994,6 +3009,6 @@
     "total_sdk_tags": 216,
     "total_branches": 18,
     "total_prs_tracked": 3946,
-    "runtime_releases_mapped": 33
+    "runtime_releases_mapped": 34
   }
 }
