@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-26T07:49:49.827660Z",
+  "last_updated": "2026-10-27T07:44:30.082733Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -1829,9 +1829,7 @@
       "author": "Doordashcon",
       "merged_at": "2025-09-15T09:11:18Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9731",
       "branch": "stable2512",
@@ -1858,8 +1856,7 @@
       "author": "franciscoaguirre",
       "merged_at": "2025-08-28T22:12:34Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9544",
       "branch": "stable2509",
@@ -1886,8 +1883,7 @@
       "author": "karolk91",
       "merged_at": "2025-07-30T06:30:39Z",
       "labels": [
-        "T12-benchmarks",
-        "A4-backport-unstable2507"
+        "T12-benchmarks"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9354",
       "branch": "stable2509",
@@ -1914,8 +1910,7 @@
       "author": "gui1117",
       "merged_at": "2025-07-29T13:08:38Z",
       "labels": [
-        "T17-primitives",
-        "A4-backport-unstable2507"
+        "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9355",
       "branch": "stable2509",
@@ -1943,8 +1938,7 @@
       "author": "karolk91",
       "merged_at": "2025-07-24T06:29:42Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9179",
       "branch": "stable2509",
@@ -1971,8 +1965,7 @@
       "author": "franciscoaguirre",
       "merged_at": "2025-07-14T20:04:21Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9137",
       "branch": "stable2509",
@@ -1999,8 +1992,7 @@
       "author": "bkontur",
       "merged_at": "2025-07-09T13:04:21Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9139",
       "branch": "stable2509",
@@ -3881,8 +3873,7 @@
       "author": "alexggh",
       "merged_at": "2025-10-22T10:36:40Z",
       "labels": [
-        "T8-polkadot",
-        "A4-backport-stable2509"
+        "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10082",
       "branch": "stable2512",
@@ -3959,8 +3950,7 @@
       "author": "karolk91",
       "merged_at": "2025-07-31T11:31:40Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9195",
       "branch": "stable2509",
@@ -11138,7 +11128,6 @@
       "merged_at": "2026-03-19T11:53:49Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -11169,7 +11158,6 @@
       "merged_at": "2026-03-18T22:28:20Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -11200,7 +11188,6 @@
       "merged_at": "2026-03-12T16:43:09Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -11231,7 +11218,6 @@
       "merged_at": "2026-02-03T22:36:00Z",
       "labels": [
         "T0-node",
-        "A4-backport-stable2509",
         "A4-backport-stable2603"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10954",
@@ -11272,8 +11258,6 @@
       "merged_at": "2026-02-19T16:23:25Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -11316,7 +11300,6 @@
       "merged_at": "2026-02-10T19:14:44Z",
       "labels": [
         "T17-primitives",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/11028",
@@ -11346,7 +11329,6 @@
       "merged_at": "2026-01-21T09:38:00Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10803",
@@ -11376,7 +11358,6 @@
       "merged_at": "2025-12-10T15:26:06Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10551",
@@ -11406,7 +11387,6 @@
       "merged_at": "2025-12-02T15:04:26Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10455",
@@ -11436,7 +11416,6 @@
       "merged_at": "2025-11-26T07:42:21Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10419",
@@ -11466,7 +11445,6 @@
       "merged_at": "2025-11-20T13:38:39Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10232",
@@ -11496,7 +11474,6 @@
       "merged_at": "2025-11-18T17:04:46Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10351",
@@ -11525,9 +11502,7 @@
       "author": "alvicsam",
       "merged_at": "2025-11-10T17:49:55Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10268",
       "branch": "stable2512",
@@ -11556,9 +11531,7 @@
       "merged_at": "2025-10-06T12:05:45Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A5-run-CI",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "A5-run-CI"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9940",
       "branch": "stable2512",
@@ -11650,8 +11623,7 @@
       "author": "sandreim",
       "merged_at": "2025-08-27T20:28:54Z",
       "labels": [
-        "T8-polkadot",
-        "A4-backport-unstable2507"
+        "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9564",
       "branch": "stable2509",
@@ -11691,8 +11663,7 @@
       "merged_at": "2025-08-07T20:05:34Z",
       "labels": [
         "T6-XCM",
-        "T12-benchmarks",
-        "A4-backport-unstable2507"
+        "T12-benchmarks"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9445",
       "branch": "stable2509",
@@ -11818,8 +11789,7 @@
       "author": "lexnv",
       "merged_at": "2025-07-25T10:27:07Z",
       "labels": [
-        "T0-node",
-        "A4-backport-unstable2507"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9281",
       "branch": "stable2509",
@@ -21534,7 +21504,6 @@
       "merged_at": "2026-05-28T16:06:44Z",
       "labels": [
         "T2-pallets",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-stable2606"
@@ -21577,7 +21546,6 @@
       "merged_at": "2026-05-25T13:34:02Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604"
@@ -21609,7 +21577,6 @@
       "merged_at": "2026-05-19T22:01:33Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604"
@@ -21641,8 +21608,6 @@
       "merged_at": "2026-05-08T08:13:38Z",
       "labels": [
         "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604"
@@ -21685,7 +21650,6 @@
       "merged_at": "2026-05-06T07:30:28Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604"
@@ -21717,7 +21681,6 @@
       "merged_at": "2026-05-04T08:45:40Z",
       "labels": [
         "T6-XCM",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604"
@@ -21747,8 +21710,7 @@
       "author": "alexggh",
       "merged_at": "2025-10-20T12:54:51Z",
       "labels": [
-        "T0-node",
-        "A4-backport-stable2509"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9178",
       "branch": "stable2512",
@@ -21776,7 +21738,6 @@
       "merged_at": "2026-04-15T19:14:10Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -21807,7 +21768,6 @@
       "merged_at": "2026-04-15T18:50:28Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -21838,8 +21798,6 @@
       "merged_at": "2026-04-13T16:30:35Z",
       "labels": [
         "T15-bridges",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -21869,7 +21827,6 @@
       "merged_at": "2026-04-10T17:27:14Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -21948,7 +21905,6 @@
       "merged_at": "2026-04-08T18:57:03Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22009,7 +21965,6 @@
       "merged_at": "2026-04-07T11:28:42Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22040,7 +21995,6 @@
       "merged_at": "2026-04-06T17:27:01Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22071,7 +22025,6 @@
       "merged_at": "2026-04-01T11:42:54Z",
       "labels": [
         "T1-FRAME",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22130,7 +22083,6 @@
       "merged_at": "2026-03-29T11:48:26Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22191,7 +22143,6 @@
       "merged_at": "2026-03-17T17:57:42Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22237,7 +22188,6 @@
       "merged_at": "2026-03-12T12:28:32Z",
       "labels": [
         "T0-node",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -22456,8 +22406,6 @@
       "merged_at": "2025-12-11T21:41:07Z",
       "labels": [
         "T17-primitives",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10592",
@@ -22514,7 +22462,6 @@
       "merged_at": "2025-11-25T14:13:49Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10379",
@@ -22615,8 +22562,7 @@
       "author": "bkchr",
       "merged_at": "2025-11-11T21:49:40Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10280",
       "branch": "stable2512",
@@ -22670,8 +22616,7 @@
       "author": "bkchr",
       "merged_at": "2025-11-10T14:14:13Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-stable2509"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10235",
       "branch": "stable2512",
@@ -22698,8 +22643,7 @@
       "author": "bkchr",
       "merged_at": "2025-10-30T18:23:22Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10149",
       "branch": "stable2512",
@@ -22726,8 +22670,7 @@
       "author": "bkchr",
       "merged_at": "2025-11-06T14:26:14Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-stable2509"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10180",
       "branch": "stable2512",
@@ -22822,9 +22765,7 @@
       "author": "AndreiEres",
       "merged_at": "2025-10-22T02:00:38Z",
       "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9965",
       "branch": "stable2512",
@@ -22851,9 +22792,7 @@
       "author": "AndreiEres",
       "merged_at": "2025-10-16T16:18:11Z",
       "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9912",
       "branch": "stable2512",
@@ -22880,9 +22819,7 @@
       "author": "gui1117",
       "merged_at": "2025-10-01T08:10:31Z",
       "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9894",
       "branch": "stable2512",
@@ -22935,9 +22872,7 @@
       "author": "AndreiEres",
       "merged_at": "2025-09-30T22:59:51Z",
       "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9868",
       "branch": "stable2512",
@@ -22966,9 +22901,7 @@
       "labels": [
         "T0-node",
         "T5-host_functions",
-        "T17-primitives",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T17-primitives"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9836",
       "branch": "stable2512",
@@ -22995,9 +22928,7 @@
       "author": "serban300",
       "merged_at": "2025-09-22T12:09:50Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9781",
       "branch": "stable2512",
@@ -23038,9 +22969,7 @@
       "author": "serban300",
       "merged_at": "2025-09-04T13:46:23Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9641",
       "branch": "stable2512",
@@ -23105,9 +23034,7 @@
       "title": "Call SingleBlockMigrations from frame_system::Config on try_on_runtime_upgrade",
       "author": "RomarQ",
       "merged_at": "2025-09-02T11:24:28Z",
-      "labels": [
-        "A4-backport-unstable2507"
-      ],
+      "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9451",
       "branch": "stable2512",
       "is_direct": false,
@@ -23161,8 +23088,7 @@
       "author": "bkontur",
       "merged_at": "2025-08-19T16:24:10Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-unstable2507"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9514",
       "branch": "stable2509",
@@ -23189,8 +23115,7 @@
       "author": "bkontur",
       "merged_at": "2025-08-19T16:13:33Z",
       "labels": [
-        "T12-benchmarks",
-        "A4-backport-unstable2507"
+        "T12-benchmarks"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9516",
       "branch": "stable2509",
@@ -23241,8 +23166,7 @@
       "author": "raymondkfcheung",
       "merged_at": "2025-08-15T07:10:18Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9489",
       "branch": "stable2509",
@@ -23392,8 +23316,7 @@
       "author": "ggwpez",
       "merged_at": "2025-07-30T15:03:42Z",
       "labels": [
-        "T12-benchmarks",
-        "A4-backport-unstable2507"
+        "T12-benchmarks"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8857",
       "branch": "stable2509",
@@ -23464,8 +23387,7 @@
       "author": "acatangiu",
       "merged_at": "2025-07-29T12:40:37Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9250",
       "branch": "stable2509",
@@ -23601,8 +23523,7 @@
       "author": "bkchr",
       "merged_at": "2025-07-15T12:20:50Z",
       "labels": [
-        "T8-polkadot",
-        "A4-backport-unstable2507"
+        "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9202",
       "branch": "stable2509",
@@ -23673,8 +23594,7 @@
       "author": "alexggh",
       "merged_at": "2025-07-11T16:20:53Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-unstable2507"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9127",
       "branch": "stable2509",
@@ -26807,7 +26727,6 @@
       "merged_at": "2026-09-09T13:42:35Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-stable2606",
@@ -26840,7 +26759,6 @@
       "merged_at": "2026-09-03T09:37:25Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-stable2606",
@@ -26897,7 +26815,6 @@
       "merged_at": "2026-08-06T13:47:35Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604",
@@ -26930,8 +26847,6 @@
       "merged_at": "2026-08-03T10:44:16Z",
       "labels": [
         "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604",
@@ -26963,7 +26878,6 @@
       "merged_at": "2026-07-06T13:39:12Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -27061,8 +26975,7 @@
       "author": "alvicsam",
       "merged_at": "2026-05-19T14:27:52Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/12101",
       "branch": "stable2606",
@@ -27244,8 +27157,6 @@
       "merged_at": "2026-04-07T17:01:56Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -27517,8 +27428,6 @@
       "labels": [
         "R0-no-crate-publish-required",
         "T12-benchmarks",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10802",
@@ -27559,7 +27468,6 @@
       "merged_at": "2026-01-12T18:48:53Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10530",
@@ -27625,7 +27533,6 @@
       "merged_at": "2025-12-16T11:03:49Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10639",
@@ -27697,8 +27604,6 @@
       "labels": [
         "T0-node",
         "T10-tests",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10541",
@@ -27728,7 +27633,6 @@
       "labels": [
         "T0-node",
         "I2-bug",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10525",
@@ -27771,8 +27675,7 @@
       "author": "bkchr",
       "merged_at": "2025-09-21T20:52:35Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9791",
       "branch": "stable2512",
@@ -27801,8 +27704,6 @@
       "merged_at": "2025-12-03T17:28:16Z",
       "labels": [
         "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10311",
@@ -27871,7 +27772,6 @@
       "merged_at": "2025-11-25T17:06:25Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10418",
@@ -27902,7 +27802,6 @@
       "labels": [
         "T0-node",
         "I9-optimisation",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10362",
@@ -27931,7 +27830,6 @@
       "merged_at": "2025-11-19T15:20:44Z",
       "labels": [
         "T0-node",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10154",
@@ -27989,8 +27887,7 @@
       "author": "EgorPopelyaev",
       "merged_at": "2025-11-18T10:02:44Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10343",
       "branch": "stable2512",
@@ -28018,8 +27915,7 @@
       "author": "EgorPopelyaev",
       "merged_at": "2025-11-14T15:01:41Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10323",
       "branch": "stable2512",
@@ -28071,8 +27967,7 @@
       "author": "BDevParity",
       "merged_at": "2025-11-11T23:23:54Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10287",
       "branch": "stable2512",
@@ -28100,8 +27995,7 @@
       "author": "BDevParity",
       "merged_at": "2025-11-10T20:19:09Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10206",
       "branch": "stable2512",
@@ -28143,9 +28037,7 @@
       "author": "kianenigma",
       "merged_at": "2025-11-11T15:34:57Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10248",
       "branch": "stable2512",
@@ -28258,8 +28150,7 @@
       "author": "dharjeezy",
       "merged_at": "2025-11-05T10:34:16Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10073",
       "branch": "stable2512",
@@ -28301,8 +28192,7 @@
       "merged_at": "2025-10-30T12:49:19Z",
       "labels": [
         "T0-node",
-        "T8-polkadot",
-        "A4-backport-stable2509"
+        "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10163",
       "branch": "stable2512",
@@ -28329,8 +28219,7 @@
       "author": "EgorPopelyaev",
       "merged_at": "2025-10-27T11:35:26Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10122",
       "branch": "stable2512",
@@ -28382,8 +28271,7 @@
       "author": "sistemd",
       "merged_at": "2025-10-22T13:17:33Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10072",
       "branch": "stable2512",
@@ -28438,9 +28326,7 @@
       "author": "gui1117",
       "merged_at": "2025-10-21T14:34:23Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/7456",
       "branch": "stable2512",
@@ -28466,10 +28352,7 @@
       "title": "[AHM/Staking] Allow own stake to be collected in all pages",
       "author": "kianenigma",
       "merged_at": "2025-10-20T19:47:37Z",
-      "labels": [
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
-      ],
+      "labels": [],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10051",
       "branch": "stable2512",
       "is_direct": false,
@@ -28523,8 +28406,7 @@
       "author": "EgorPopelyaev",
       "merged_at": "2025-10-15T10:08:55Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9975",
       "branch": "stable2512",
@@ -28566,8 +28448,7 @@
       "author": "sigurpol",
       "merged_at": "2025-10-10T16:21:59Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9725",
       "branch": "stable2512",
@@ -28594,9 +28475,7 @@
       "author": "kianenigma",
       "merged_at": "2025-10-08T19:04:05Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9926",
       "branch": "stable2512",
@@ -28623,9 +28502,7 @@
       "author": "claravanstaden",
       "merged_at": "2025-10-07T09:22:21Z",
       "labels": [
-        "T15-bridges",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T15-bridges"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9938",
       "branch": "stable2512",
@@ -28664,8 +28541,7 @@
       "author": "tdimitrov",
       "merged_at": "2025-10-06T14:34:20Z",
       "labels": [
-        "T8-polkadot",
-        "A4-backport-stable2509"
+        "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9936",
       "branch": "stable2512",
@@ -28705,8 +28581,7 @@
       "merged_at": "2025-10-02T10:05:26Z",
       "labels": [
         "T0-node",
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9906",
       "branch": "stable2512",
@@ -28745,9 +28620,7 @@
       "author": "AndreiEres",
       "merged_at": "2025-10-01T08:32:39Z",
       "labels": [
-        "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T0-node"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9319",
       "branch": "stable2512",
@@ -28788,8 +28661,7 @@
       "author": "dastansam",
       "merged_at": "2025-09-30T09:47:00Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9796",
       "branch": "stable2512",
@@ -28866,8 +28738,7 @@
       "author": "tdimitrov",
       "merged_at": "2025-09-26T06:14:17Z",
       "labels": [
-        "T8-polkadot",
-        "A4-backport-stable2509"
+        "T8-polkadot"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9458",
       "branch": "stable2512",
@@ -28894,8 +28765,7 @@
       "author": "skunert",
       "merged_at": "2025-09-25T10:23:26Z",
       "labels": [
-        "T11-documentation",
-        "A4-backport-stable2509"
+        "T11-documentation"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9713",
       "branch": "stable2512",
@@ -28922,9 +28792,7 @@
       "author": "bkchr",
       "merged_at": "2025-09-23T18:01:53Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9756",
       "branch": "stable2512",
@@ -28951,9 +28819,7 @@
       "author": "claravanstaden",
       "merged_at": "2025-09-23T13:56:09Z",
       "labels": [
-        "T15-bridges",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T15-bridges"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9746",
       "branch": "stable2512",
@@ -28981,9 +28847,7 @@
       "merged_at": "2025-09-22T19:11:01Z",
       "labels": [
         "T2-pallets",
-        "T12-benchmarks",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T12-benchmarks"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9787",
       "branch": "stable2512",
@@ -29010,8 +28874,7 @@
       "author": "sigurpol",
       "merged_at": "2025-09-22T12:56:32Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9799",
       "branch": "stable2512",
@@ -29052,9 +28915,7 @@
       "author": "RomarQ",
       "merged_at": "2025-09-19T13:02:28Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/8108",
       "branch": "stable2512",
@@ -29081,9 +28942,7 @@
       "author": "sigurpol",
       "merged_at": "2025-09-18T16:38:51Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9772",
       "branch": "stable2512",
@@ -29110,8 +28969,7 @@
       "author": "s0me0ne-unkn0wn",
       "merged_at": "2025-09-17T11:26:55Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9753",
       "branch": "stable2512",
@@ -29138,9 +28996,7 @@
       "author": "sigurpol",
       "merged_at": "2025-09-16T12:42:31Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9747",
       "branch": "stable2512",
@@ -29168,9 +29024,7 @@
       "merged_at": "2025-09-12T09:47:26Z",
       "labels": [
         "T2-pallets",
-        "T10-tests",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9721",
       "branch": "stable2512",
@@ -29197,8 +29051,7 @@
       "author": "alvicsam",
       "merged_at": "2025-09-09T13:51:52Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9684",
       "branch": "stable2512",
@@ -29238,8 +29091,7 @@
       "author": "sandreim",
       "merged_at": "2025-09-10T19:55:31Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9703",
       "branch": "stable2512",
@@ -29266,8 +29118,7 @@
       "author": "sandreim",
       "merged_at": "2025-09-10T17:31:13Z",
       "labels": [
-        "T11-documentation",
-        "A4-backport-stable2509"
+        "T11-documentation"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9677",
       "branch": "stable2512",
@@ -29294,8 +29145,7 @@
       "author": "EgorPopelyaev",
       "merged_at": "2025-09-10T14:20:13Z",
       "labels": [
-        "R0-no-crate-publish-required",
-        "A4-backport-stable2509"
+        "R0-no-crate-publish-required"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9700",
       "branch": "stable2512",
@@ -29323,9 +29173,7 @@
       "author": "kianenigma",
       "merged_at": "2025-09-10T07:57:14Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9619",
       "branch": "stable2512",
@@ -29364,9 +29212,7 @@
       "author": "sigurpol",
       "merged_at": "2025-09-07T06:57:25Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9659",
       "branch": "stable2512",
@@ -29394,8 +29240,7 @@
       "merged_at": "2025-09-05T16:05:32Z",
       "labels": [
         "T0-node",
-        "T9-cumulus",
-        "A4-backport-stable2509"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9002",
       "branch": "stable2512",
@@ -29422,9 +29267,7 @@
       "author": "sigurpol",
       "merged_at": "2025-09-05T09:10:58Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9632",
       "branch": "stable2512",
@@ -29517,8 +29360,7 @@
       "author": "muharem",
       "merged_at": "2025-08-29T14:00:33Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-unstable2507"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9604",
       "branch": "stable2509",
@@ -29532,8 +29374,7 @@
       "merged_at": "2025-08-29T15:10:59Z",
       "labels": [
         "T6-XCM",
-        "T18-zombienet_tests",
-        "A4-backport-unstable2507"
+        "T18-zombienet_tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9602",
       "branch": "stable2509",
@@ -29614,8 +29455,7 @@
       "author": "kianenigma",
       "merged_at": "2025-08-21T09:02:41Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9511",
       "branch": "stable2509",
@@ -29628,8 +29468,7 @@
       "author": "kianenigma",
       "merged_at": "2025-08-20T09:18:05Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9504",
       "branch": "stable2509",
@@ -29655,8 +29494,7 @@
       "author": "muharem",
       "merged_at": "2025-08-25T11:51:48Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-unstable2507"
+        "T1-FRAME"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9497",
       "branch": "stable2509",
@@ -29709,8 +29547,7 @@
       "merged_at": "2025-08-14T09:34:53Z",
       "labels": [
         "T0-node",
-        "D0-easy",
-        "A4-backport-unstable2507"
+        "D0-easy"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9479",
       "branch": "stable2509",
@@ -29762,8 +29599,7 @@
       "author": "claravanstaden",
       "merged_at": "2025-08-12T07:43:44Z",
       "labels": [
-        "T10-tests",
-        "A4-backport-unstable2507"
+        "T10-tests"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9463",
       "branch": "stable2509",
@@ -29791,8 +29627,7 @@
       "author": "cmichi",
       "merged_at": "2025-08-18T10:03:01Z",
       "labels": [
-        "T7-smart_contracts",
-        "A4-backport-unstable2507"
+        "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9455",
       "branch": "stable2509",
@@ -29805,8 +29640,7 @@
       "author": "cmichi",
       "merged_at": "2025-08-18T19:17:43Z",
       "labels": [
-        "T7-smart_contracts",
-        "A4-backport-unstable2507"
+        "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9454",
       "branch": "stable2509",
@@ -29979,9 +29813,7 @@
       "author": "kianenigma",
       "merged_at": "2025-08-08T10:17:13Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9415",
       "branch": "stable2509",
@@ -30063,8 +29895,7 @@
       "merged_at": "2025-07-31T14:15:40Z",
       "labels": [
         "T1-FRAME",
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9384",
       "branch": "stable2509",
@@ -30091,8 +29922,7 @@
       "author": "kianenigma",
       "merged_at": "2025-07-30T15:36:50Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9380",
       "branch": "stable2509",
@@ -30183,8 +30013,7 @@
       "author": "serban300",
       "merged_at": "2025-07-28T15:48:18Z",
       "labels": [
-        "T9-cumulus",
-        "A4-backport-unstable2507"
+        "T9-cumulus"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9326",
       "branch": "stable2509",
@@ -30556,8 +30385,7 @@
       "author": "iulianbarbu",
       "merged_at": "2025-08-22T13:40:16Z",
       "labels": [
-        "I5-enhancement",
-        "A4-backport-unstable2507"
+        "I5-enhancement"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9201",
       "branch": "stable2509",
@@ -30585,8 +30413,7 @@
       "author": "Ank4n",
       "merged_at": "2025-07-30T14:57:29Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9187",
       "branch": "stable2509",
@@ -30599,8 +30426,7 @@
       "author": "Ank4n",
       "merged_at": "2025-07-23T08:36:32Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9186",
       "branch": "stable2509",
@@ -30640,8 +30466,7 @@
       "author": "kianenigma",
       "merged_at": "2025-07-20T09:27:06Z",
       "labels": [
-        "T2-pallets",
-        "A4-backport-unstable2507"
+        "T2-pallets"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9176",
       "branch": "stable2509",
@@ -30872,8 +30697,7 @@
       "author": "sphamjoli",
       "merged_at": "2025-07-08T16:13:50Z",
       "labels": [
-        "T6-XCM",
-        "A4-backport-unstable2507"
+        "T6-XCM"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9125",
       "branch": "stable2509",
@@ -30978,8 +30802,7 @@
       "merged_at": "2025-07-28T13:27:19Z",
       "labels": [
         "T2-pallets",
-        "R1-breaking_change",
-        "A4-backport-unstable2507"
+        "R1-breaking_change"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9079",
       "branch": "stable2509",
@@ -32288,7 +32111,6 @@
       "merged_at": "2026-09-15T11:05:42Z",
       "labels": [
         "R0-no-crate-publish-required",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603",
         "A4-backport-unstable2604",
@@ -33124,7 +32946,6 @@
       "merged_at": "2026-03-02T15:00:00Z",
       "labels": [
         "T0-node",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -33307,8 +33128,6 @@
       "merged_at": "2025-12-01T20:54:00Z",
       "labels": [
         "T2-pallets",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/9925",
@@ -34075,7 +33894,6 @@
       "merged_at": "2026-01-21T16:23:11Z",
       "labels": [
         "T0-node",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10859",
@@ -34274,7 +34092,6 @@
       "merged_at": "2026-01-07T14:45:51Z",
       "labels": [
         "T7-smart_contracts",
-        "A4-backport-unstable2507",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10740",
@@ -34331,7 +34148,6 @@
       "merged_at": "2026-01-07T05:13:05Z",
       "labels": [
         "T7-smart_contracts",
-        "A4-backport-unstable2507",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10476",
@@ -34360,7 +34176,6 @@
       "merged_at": "2026-01-06T10:32:47Z",
       "labels": [
         "T1-FRAME",
-        "A4-backport-unstable2507",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10646",
@@ -34526,8 +34341,6 @@
       "merged_at": "2025-12-17T09:28:37Z",
       "labels": [
         "T0-node",
-        "A4-backport-unstable2507",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10665",
@@ -40285,7 +40098,6 @@
       "merged_at": "2026-03-10T10:06:42Z",
       "labels": [
         "T0-node",
-        "A4-backport-stable2509",
         "A4-backport-stable2512",
         "A4-backport-stable2603"
       ],
@@ -42647,7 +42459,6 @@
       "merged_at": "2026-01-12T15:19:51Z",
       "labels": [
         "T7-smart_contracts",
-        "A4-backport-unstable2507",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10732",
@@ -42874,7 +42685,6 @@
       "merged_at": "2025-12-17T15:52:41Z",
       "labels": [
         "T7-smart_contracts",
-        "A4-backport-unstable2507",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10680",
@@ -43246,8 +43056,7 @@
       "author": "TorstenStueber",
       "merged_at": "2025-12-10T12:14:59Z",
       "labels": [
-        "T7-smart_contracts",
-        "A4-backport-unstable2507"
+        "T7-smart_contracts"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10567",
       "branch": "stable2603-stale",
@@ -43287,7 +43096,6 @@
       "merged_at": "2025-12-06T00:23:58Z",
       "labels": [
         "T7-smart_contracts",
-        "A4-backport-stable2509",
         "A4-backport-stable2512"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/10554",
@@ -44181,6 +43989,18 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "13586": {
+      "number": "13586",
+      "title": "[stable2606] fix forklift cache for bullseye image",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-26T11:31:04Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13586",
+      "branch": "stable2606",
+      "is_direct": true
     },
     "13556": {
       "number": "13556",
@@ -49164,6 +48984,45 @@
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
+    },
+    "13587": {
+      "number": "13587",
+      "title": "[stable2609] fix forklift cache for bullseye image",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-10-26T13:44:47Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13587",
+      "branch": "stable2609",
+      "is_direct": true
+    },
+    "13562": {
+      "number": "13562",
+      "title": "collator-discovery: keep a reserved peer whose address set changed",
+      "author": "alexggh",
+      "merged_at": "2026-10-25T22:52:31Z",
+      "labels": [
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13562",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13572": {
+      "number": "13572",
+      "title": "[stable2609 Backport #13562] collator-discovery: keep a reserved peer whose address set changed",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-26T10:31:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13572",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13562
     },
     "13541": {
       "number": "13541",
@@ -83048,6 +82907,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13572": 13562,
     "13559": 13541,
     "13503": 13043,
     "13470": 13437,
@@ -85167,6 +85027,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13562": [
+      13572
     ],
     "13541": [
       13559
