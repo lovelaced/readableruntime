@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-27T07:44:30.082733Z",
+  "last_updated": "2026-10-28T08:15:15.205918Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -48985,6 +48985,37 @@
       "is_direct": false,
       "from_master": true
     },
+    "13601": {
+      "number": "13601",
+      "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "author": "Szegoo",
+      "merged_at": "2026-10-27T17:40:03Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13601",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13606": {
+      "number": "13606",
+      "title": "[stable2609 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-28T07:42:47Z",
+      "labels": [
+        "T6-XCM",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13606",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13601
+    },
     "13587": {
       "number": "13587",
       "title": "[stable2609] fix forklift cache for bullseye image",
@@ -49023,6 +49054,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13562
+    },
+    "13525": {
+      "number": "13525",
+      "title": "relay-chain-rpc: go back to prefered connection",
+      "author": "alexggh",
+      "merged_at": "2026-10-25T11:13:57Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13525",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13569": {
+      "number": "13569",
+      "title": "[stable2609 Backport #13525] relay-chain-rpc: go back to prefered connection",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-27T10:25:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13569",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13525
     },
     "13541": {
       "number": "13541",
@@ -82907,7 +82966,9 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13606": 13601,
     "13572": 13562,
+    "13569": 13525,
     "13559": 13541,
     "13503": 13043,
     "13470": 13437,
@@ -85028,8 +85089,14 @@
     "12314": [
       12337
     ],
+    "13601": [
+      13606
+    ],
     "13562": [
       13572
+    ],
+    "13525": [
+      13569
     ],
     "13541": [
       13559
