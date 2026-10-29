@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-28T08:15:15.205918Z",
+  "last_updated": "2026-10-29T08:23:38.132087Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -200,6 +200,12 @@
       "new_prs": 45
     },
     "v2.5.1": {
+      "sdk_version": "stable2606-3",
+      "release_date": "2026-10-08T12:09:10Z",
+      "total_prs": 0,
+      "new_prs": 0
+    },
+    "v2.5.2": {
       "sdk_version": "stable2606-3",
       "release_date": "2026-10-08T12:09:10Z",
       "total_prs": 0,
@@ -38098,6 +38104,37 @@
       "is_direct": false,
       "from_master": true
     },
+    "13601": {
+      "number": "13601",
+      "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "author": "Szegoo",
+      "merged_at": "2026-10-27T17:40:03Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13601",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13604": {
+      "number": "13604",
+      "title": "[stable2603 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-28T10:55:22Z",
+      "labels": [
+        "T6-XCM",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13604",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13601
+    },
     "13565": {
       "number": "13565",
       "title": "[stable2603] Fix forklift cache for bullseye",
@@ -43990,6 +44027,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "13605": {
+      "number": "13605",
+      "title": "[stable2606 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-28T11:19:30Z",
+      "labels": [
+        "T6-XCM",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13605",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13601
+    },
     "13586": {
       "number": "13586",
       "title": "[stable2606] fix forklift cache for bullseye image",
@@ -48982,22 +49034,6 @@
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/3520",
       "branch": "stable2606",
-      "is_direct": false,
-      "from_master": true
-    },
-    "13601": {
-      "number": "13601",
-      "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
-      "author": "Szegoo",
-      "merged_at": "2026-10-27T17:40:03Z",
-      "labels": [
-        "T6-XCM",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13601",
-      "branch": "master",
       "is_direct": false,
       "from_master": true
     },
@@ -82808,6 +82844,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13604": 13601,
     "13534": 11910,
     "13224": 13221,
     "13157": 13094,
@@ -82912,6 +82949,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13605": 13601,
     "13531": 11910,
     "13444": 12433,
     "13443": 11731,
@@ -84760,6 +84798,11 @@
     "9685": [
       10374
     ],
+    "13601": [
+      13604,
+      13605,
+      13606
+    ],
     "11910": [
       13534,
       12476,
@@ -85088,9 +85131,6 @@
     ],
     "12314": [
       12337
-    ],
-    "13601": [
-      13606
     ],
     "13562": [
       13572
