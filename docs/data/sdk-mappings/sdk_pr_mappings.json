@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29T08:23:38.132087Z",
+  "last_updated": "2026-10-30T08:32:08.402184Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -171,19 +171,19 @@
     },
     "v2.3.0": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-10-22T15:29:00Z",
-      "total_prs": 38,
-      "new_prs": 38
+      "release_date": "2026-10-29T17:59:52Z",
+      "total_prs": 39,
+      "new_prs": 39
     },
     "v2.3.1": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-10-22T15:29:00Z",
+      "release_date": "2026-10-29T17:59:52Z",
       "total_prs": 0,
       "new_prs": 0
     },
     "v2.3.2": {
       "sdk_version": "unstable2604",
-      "release_date": "2026-10-22T15:29:00Z",
+      "release_date": "2026-10-29T17:59:52Z",
       "total_prs": 0,
       "new_prs": 0
     },
@@ -38104,6 +38104,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13636": {
+      "number": "13636",
+      "title": "[stable2603] Post crates release activities for stable2603-8",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-10-29T14:35:18Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13636",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "13601": {
       "number": "13601",
       "title": "Fix user losing remainder of swapped funds when pool liquidity goes below ED",
@@ -44027,6 +44039,63 @@
       "is_direct": false,
       "from_master": true
     },
+    "12318": {
+      "number": "12318",
+      "title": "pallet-balances: Clean up empty reserves & do not send the same event twice",
+      "author": "bkchr",
+      "merged_at": "2026-10-29T00:08:56Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12318",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13632": {
+      "number": "13632",
+      "title": "[stable2606 Backport #12318] pallet-balances: Clean up empty reserves & do not send the same event twice",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-29T10:39:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13632",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12318
+    },
+    "13085": {
+      "number": "13085",
+      "title": "pallet-revive: System.terminate deletes the contract despite locks, freezes and holds",
+      "author": "dimartiro",
+      "merged_at": "2026-10-22T03:56:40Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13085",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13615": {
+      "number": "13615",
+      "title": "[stable2606] Backport #13085, #13039 & #12267 - pallet-revive storage deposit and terminate fixes",
+      "author": "athei",
+      "merged_at": "2026-10-29T08:55:38Z",
+      "labels": [
+        "A3-backport",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13615",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13085
+    },
     "13605": {
       "number": "13605",
       "title": "[stable2606 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
@@ -49037,6 +49106,47 @@
       "is_direct": false,
       "from_master": true
     },
+    "13641": {
+      "number": "13641",
+      "title": "[stable2609] Post crates release activities for stable2609-1",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-10-29T17:22:31Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13641",
+      "branch": "stable2609",
+      "is_direct": true
+    },
+    "13633": {
+      "number": "13633",
+      "title": "[stable2609 Backport #12318] pallet-balances: Clean up empty reserves & do not send the same event twice",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-29T10:39:44Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13633",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12318
+    },
+    "13616": {
+      "number": "13616",
+      "title": "[stable2609] Backport #13085 & #13039 - pallet-revive storage deposit and terminate fixes",
+      "author": "athei",
+      "merged_at": "2026-10-29T08:58:58Z",
+      "labels": [
+        "A3-backport",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13616",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13085
+    },
     "13606": {
       "number": "13606",
       "title": "[stable2609 Backport #13601] Fix user losing remainder of swapped funds when pool liquidity goes below ED",
@@ -49188,6 +49298,37 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13043
+    },
+    "12569": {
+      "number": "12569",
+      "title": "Preserve Snowbridge v1 inbound liveness when the Asset Hub sovereign is empty",
+      "author": "alistair-singh",
+      "merged_at": "2026-09-23T12:00:00Z",
+      "labels": [
+        "I2-bug",
+        "T15-bridges",
+        "D2-substantial",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12569",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13494": {
+      "number": "13494",
+      "title": "[stable2609 Backport #12569] Preserve Snowbridge v1 inbound liveness when the Asset Hub sovereign is empty",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-29T21:23:21Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13494",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12569
     },
     "13437": {
       "number": "13437",
@@ -53513,6 +53654,20 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13221
+    },
+    "12955": {
+      "number": "12955",
+      "title": "[unstable2604 Backport #12832] XCM hardening",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-29T17:59:53Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12955",
+      "branch": "unstable2604",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12832
     },
     "12941": {
       "number": "12941",
@@ -82023,6 +82178,15 @@
         "is_direct": true
       }
     ],
+    "13544": [
+      {
+        "runtime_version": "2.3.0",
+        "sdk_version": "unstable2604",
+        "sdk_branch": "unstable2604",
+        "source_branch": "unstable2604",
+        "is_direct": true
+      }
+    ],
     "12265": [
       {
         "runtime_version": "2.3.0",
@@ -82949,6 +83113,8 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13632": 12318,
+    "13615": 13085,
     "13605": 13601,
     "13531": 11910,
     "13444": 12433,
@@ -83004,11 +83170,14 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13633": 12318,
+    "13616": 13085,
     "13606": 13601,
     "13572": 13562,
     "13569": 13525,
     "13559": 13541,
     "13503": 13043,
+    "13494": 12569,
     "13470": 13437,
     "13435": 13421,
     "13425": 13400,
@@ -83099,6 +83268,7 @@
     "9237": 9127,
     "13535": 11910,
     "13225": 13221,
+    "12955": 12832,
     "12923": 12281,
     "12918": 12812,
     "12829": 12819,
@@ -84990,6 +85160,14 @@
     "10917": [
       11067
     ],
+    "12318": [
+      13632,
+      13633
+    ],
+    "13085": [
+      13615,
+      13616
+    ],
     "12433": [
       13444
     ],
@@ -85071,7 +85249,8 @@
       12923
     ],
     "12832": [
-      12956
+      12956,
+      12955
     ],
     "12245": [
       12952
@@ -85143,6 +85322,9 @@
     ],
     "13043": [
       13503
+    ],
+    "12569": [
+      13494
     ],
     "13437": [
       13470
