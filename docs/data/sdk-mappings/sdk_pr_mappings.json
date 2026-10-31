@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30T08:32:08.402184Z",
+  "last_updated": "2026-10-31T08:24:39.654968Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44039,6 +44039,64 @@
       "is_direct": false,
       "from_master": true
     },
+    "12674": {
+      "number": "12674",
+      "title": "[FRAME] Small Balance Fixes",
+      "author": "ggwpez",
+      "merged_at": "2026-10-30T16:25:09Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12674",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13653": {
+      "number": "13653",
+      "title": "[stable2606 Backport #12674] [FRAME] Small Balance Fixes",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-30T20:42:35Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13653",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12674
+    },
+    "13640": {
+      "number": "13640",
+      "title": "Snowbridge: restore unchecked sync committee key parsing",
+      "author": "alistair-singh",
+      "merged_at": "2026-10-29T21:27:53Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13640",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13646": {
+      "number": "13646",
+      "title": "[stable2606 Backport #13640] Snowbridge: restore unchecked sync committee key parsing",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-30T10:01:23Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13646",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13640
+    },
     "12318": {
       "number": "12318",
       "title": "pallet-balances: Clean up empty reserves & do not send the same event twice",
@@ -44161,6 +44219,37 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11910
+    },
+    "12569": {
+      "number": "12569",
+      "title": "Preserve Snowbridge v1 inbound liveness when the Asset Hub sovereign is empty",
+      "author": "alistair-singh",
+      "merged_at": "2026-09-23T12:00:00Z",
+      "labels": [
+        "I2-bug",
+        "T15-bridges",
+        "D2-substantial",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/12569",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13493": {
+      "number": "13493",
+      "title": "[stable2606 Backport #12569] Preserve Snowbridge v1 inbound liveness when the Asset Hub sovereign is empty",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-30T08:59:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13493",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12569
     },
     "13473": {
       "number": "13473",
@@ -49106,6 +49195,74 @@
       "is_direct": false,
       "from_master": true
     },
+    "13654": {
+      "number": "13654",
+      "title": "[stable2609 Backport #12674] [FRAME] Small Balance Fixes",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-30T20:47:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13654",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 12674
+    },
+    "13652": {
+      "number": "13652",
+      "title": "[stable2609] Post crates release activities for stable2609-1",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-10-30T16:35:23Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13652",
+      "branch": "stable2609",
+      "is_direct": true
+    },
+    "13647": {
+      "number": "13647",
+      "title": "[stable2609 Backport #13640] Snowbridge: restore unchecked sync committee key parsing",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-30T09:10:43Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13647",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13640
+    },
+    "13637": {
+      "number": "13637",
+      "title": "Check the validation data",
+      "author": "bkchr",
+      "merged_at": "2026-10-29T17:53:02Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13637",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13643": {
+      "number": "13643",
+      "title": "[stable2609 Backport #13637] Check the validation data",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-10-30T10:52:52Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13643",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13637
+    },
     "13641": {
       "number": "13641",
       "title": "[stable2609] Post crates release activities for stable2609-1",
@@ -49298,23 +49455,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13043
-    },
-    "12569": {
-      "number": "12569",
-      "title": "Preserve Snowbridge v1 inbound liveness when the Asset Hub sovereign is empty",
-      "author": "alistair-singh",
-      "merged_at": "2026-09-23T12:00:00Z",
-      "labels": [
-        "I2-bug",
-        "T15-bridges",
-        "D2-substantial",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/12569",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13494": {
       "number": "13494",
@@ -83113,10 +83253,13 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13653": 12674,
+    "13646": 13640,
     "13632": 12318,
     "13615": 13085,
     "13605": 13601,
     "13531": 11910,
+    "13493": 12569,
     "13444": 12433,
     "13443": 11731,
     "13442": 11733,
@@ -83170,6 +83313,9 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13654": 12674,
+    "13647": 13640,
+    "13643": 13637,
     "13633": 12318,
     "13616": 13085,
     "13606": 13601,
@@ -85160,6 +85306,14 @@
     "10917": [
       11067
     ],
+    "12674": [
+      13653,
+      13654
+    ],
+    "13640": [
+      13646,
+      13647
+    ],
     "12318": [
       13632,
       13633
@@ -85167,6 +85321,10 @@
     "13085": [
       13615,
       13616
+    ],
+    "12569": [
+      13493,
+      13494
     ],
     "12433": [
       13444
@@ -85311,6 +85469,9 @@
     "12314": [
       12337
     ],
+    "13637": [
+      13643
+    ],
     "13562": [
       13572
     ],
@@ -85322,9 +85483,6 @@
     ],
     "13043": [
       13503
-    ],
-    "12569": [
-      13494
     ],
     "13437": [
       13470
