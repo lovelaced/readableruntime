@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-01T09:08:21.898506Z",
+  "last_updated": "2026-11-02T09:17:28.045087Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -49195,6 +49195,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13667": {
+      "number": "13667",
+      "title": "[stable2609] Post crates release activities for stable2609-1",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-11-01T21:28:11Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13667",
+      "branch": "stable2609",
+      "is_direct": true
+    },
     "13654": {
       "number": "13654",
       "title": "[stable2609 Backport #12674] [FRAME] Small Balance Fixes",
@@ -49220,6 +49232,35 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13652",
       "branch": "stable2609",
       "is_direct": true
+    },
+    "13627": {
+      "number": "13627",
+      "title": "pallet-psm: reduce debt by the amount actually burned on redeem",
+      "author": "bkchr",
+      "merged_at": "2026-10-30T10:57:29Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13627",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13651": {
+      "number": "13651",
+      "title": "[stable2609 Backport #13627] pallet-psm: reduce debt by the amount actually burned on redeem",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-01T12:22:58Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13651",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13627
     },
     "13647": {
       "number": "13647",
@@ -49274,6 +49315,64 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13641",
       "branch": "stable2609",
       "is_direct": true
+    },
+    "13413": {
+      "number": "13413",
+      "title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
+      "author": "re-gius",
+      "merged_at": "2026-10-07T16:14:44Z",
+      "labels": [
+        "I2-bug",
+        "T7-smart_contracts",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13413",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13639": {
+      "number": "13639",
+      "title": "[stable2609 Backport #13413] pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-01T15:29:41Z",
+      "labels": [
+        "A3-backport",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13639",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13413
+    },
+    "13598": {
+      "number": "13598",
+      "title": "asset-conversion: treat frozen or blocked pools as unusable",
+      "author": "Szegoo",
+      "merged_at": "2026-10-29T14:37:40Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13598",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13638": {
+      "number": "13638",
+      "title": "[stable2609 Backport #13598] asset-conversion: treat frozen or blocked pools as unusable",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-01T14:24:02Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13638",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13598
     },
     "13633": {
       "number": "13633",
@@ -49469,6 +49568,34 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 12569
+    },
+    "13419": {
+      "number": "13419",
+      "title": "Fix `eth_subscribe(\"newHeads\")` in the ETH RPC",
+      "author": "0xOmarA",
+      "merged_at": "2026-10-14T06:54:21Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13419",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13480": {
+      "number": "13480",
+      "title": "[stable2609 Backport #13419] Fix `eth_subscribe(\"newHeads\")` in the ETH RPC",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-01T13:31:41Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13480",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13419
     },
     "13437": {
       "number": "13437",
@@ -83314,8 +83441,11 @@
     "12360": 12357,
     "12337": 12314,
     "13654": 12674,
+    "13651": 13627,
     "13647": 13640,
     "13643": 13637,
+    "13639": 13413,
+    "13638": 13598,
     "13633": 12318,
     "13616": 13085,
     "13606": 13601,
@@ -83324,6 +83454,7 @@
     "13559": 13541,
     "13503": 13043,
     "13494": 12569,
+    "13480": 13419,
     "13470": 13437,
     "13435": 13421,
     "13425": 13400,
@@ -85469,8 +85600,17 @@
     "12314": [
       12337
     ],
+    "13627": [
+      13651
+    ],
     "13637": [
       13643
+    ],
+    "13413": [
+      13639
+    ],
+    "13598": [
+      13638
     ],
     "13562": [
       13572
@@ -85483,6 +85623,9 @@
     ],
     "13043": [
       13503
+    ],
+    "13419": [
+      13480
     ],
     "13437": [
       13470
