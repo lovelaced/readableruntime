@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-02T09:17:28.045087Z",
+  "last_updated": "2026-11-03T09:25:41.527189Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44039,6 +44039,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "13617": {
+      "number": "13617",
+      "title": "[pallet-revive] Bound per-transaction receipt size",
+      "author": "athei",
+      "merged_at": "2026-11-03T01:17:04Z",
+      "labels": [
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13617",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13687": {
+      "number": "13687",
+      "title": "[stable2606] Backport #13617: bound per-transaction receipt size",
+      "author": "athei",
+      "merged_at": "2026-11-03T08:36:40Z",
+      "labels": [
+        "A3-backport",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13687",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13617
+    },
     "12674": {
       "number": "12674",
       "title": "[FRAME] Small Balance Fixes",
@@ -50154,6 +50182,19 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13045
+    },
+    "13672": {
+      "number": "13672",
+      "title": "Version bumps and prdocs reordering from stable2609-1",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-11-02T12:41:40Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "R0-silent"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13672",
+      "branch": "stable2609",
+      "is_direct": true
     },
     "13468": {
       "number": "13468",
@@ -83380,6 +83421,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13687": 13617,
     "13653": 12674,
     "13646": 13640,
     "13632": 12318,
@@ -85436,6 +85478,9 @@
     ],
     "10917": [
       11067
+    ],
+    "13617": [
+      13687
     ],
     "12674": [
       13653,
