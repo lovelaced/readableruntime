@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-04T09:01:18.649003Z",
+  "last_updated": "2026-11-05T09:24:46.507151Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44039,6 +44039,59 @@
       "is_direct": false,
       "from_master": true
     },
+    "13731": {
+      "number": "13731",
+      "title": "[stable2606] Post crates release activities for stable2606-5",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-11-05T08:58:59Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13731",
+      "branch": "stable2606",
+      "is_direct": true
+    },
+    "13689": {
+      "number": "13689",
+      "title": "[pallet-revive] align terminate precompile with opcodes",
+      "author": "xermicus",
+      "merged_at": "2026-11-04T16:31:42Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13689",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13718": {
+      "number": "13718",
+      "title": "[stable2606 Backport #13689] [pallet-revive] align terminate precompile with opcodes",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-04T19:16:46Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13718",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13689
+    },
+    "13715": {
+      "number": "13715",
+      "title": "[stable2606] Post crates release activities for stable2606-4",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-11-04T16:48:58Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13715",
+      "branch": "stable2606",
+      "is_direct": true
+    },
     "13690": {
       "number": "13690",
       "title": "`pallet-staking-async`: Only move spendable funds out of expired era pots",
@@ -44067,6 +44120,36 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13690
+    },
+    "13256": {
+      "number": "13256",
+      "title": "pallet-psm: reject the `None` origin as a PSM admin",
+      "author": "Szegoo",
+      "merged_at": "2026-09-17T18:15:39Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13256",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13696": {
+      "number": "13696",
+      "title": "[stable2606 Backport #13256] pallet-psm: reject the `None` origin as a PSM admin",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-04T10:06:33Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13696",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13256
     },
     "13626": {
       "number": "13626",
@@ -80171,7 +80254,7 @@
         "from_master": true
       }
     ],
-    "11667": [
+    "11668": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -80180,7 +80263,7 @@
         "from_master": true
       }
     ],
-    "11668": [
+    "11667": [
       {
         "runtime_version": "2.4.0",
         "sdk_version": "stable2606-1",
@@ -83551,7 +83634,9 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13718": 13689,
     "13701": 13690,
+    "13696": 13256,
     "13691": 13626,
     "13687": 13617,
     "13681": 13678,
@@ -85615,9 +85700,15 @@
     "10917": [
       11067
     ],
+    "13689": [
+      13718
+    ],
     "13690": [
       13701,
       13702
+    ],
+    "13256": [
+      13696
     ],
     "13626": [
       13691
