@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-05T09:24:46.507151Z",
+  "last_updated": "2026-11-06T09:19:49.871665Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -49437,6 +49437,21 @@
       "is_backport": true,
       "original_pr": 13690
     },
+    "13686": {
+      "number": "13686",
+      "title": "[stable2609] Backport #13617: bound per-transaction receipt size",
+      "author": "athei",
+      "merged_at": "2026-11-05T14:22:16Z",
+      "labels": [
+        "A3-backport",
+        "T7-smart_contracts"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13686",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13617
+    },
     "13682": {
       "number": "13682",
       "title": "[stable2609 Backport #13678] [pallet-revive] PVM performance: early return on mem read",
@@ -83702,6 +83717,7 @@
     "12360": 12357,
     "12337": 12314,
     "13702": 13690,
+    "13686": 13617,
     "13682": 13678,
     "13654": 12674,
     "13651": 13627,
@@ -85714,7 +85730,8 @@
       13691
     ],
     "13617": [
-      13687
+      13687,
+      13686
     ],
     "13678": [
       13681,
