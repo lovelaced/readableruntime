@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T09:19:49.867832Z",
+  "generated_at": "2026-11-07T08:43:59.754047Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -493,7 +493,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 400,
+      "branch_pr_count": 401,
       "included_branches": [
         "stable2606"
       ],
@@ -508,7 +508,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 400,
+      "branch_pr_count": 401,
       "included_branches": [
         "stable2606"
       ],
@@ -523,7 +523,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 400,
+      "branch_pr_count": 401,
       "included_branches": [
         "stable2606"
       ],
@@ -538,11 +538,26 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 400,
+      "branch_pr_count": 401,
       "included_branches": [
         "stable2606"
       ],
       "actual_pr_count": 0
+    },
+    "v2.5.3": {
+      "sdk_tag": "stable2606-5",
+      "sdk_branch": "stable2606",
+      "sdk_date": "2026-11-05T08:58:58Z",
+      "package_versions": {
+        "frame-support": "48.1.1",
+        "polkadot-primitives": "25.0.0",
+        "sp-runtime": "48.0.0"
+      },
+      "branch_pr_count": 401,
+      "included_branches": [
+        "stable2606"
+      ],
+      "actual_pr_count": 22
     }
   },
   "sdk_tags": {
@@ -2827,7 +2842,7 @@
         "stable2609-1-rc1"
       ],
       "created_date": "2026-08-30T04:45:44Z",
-      "pr_count": 285
+      "pr_count": 286
     },
     "stable2606": {
       "tags": [
@@ -2848,7 +2863,7 @@
         "stable2606-1-rc1"
       ],
       "created_date": "2026-06-02T07:18:53Z",
-      "pr_count": 400
+      "pr_count": 401
     },
     "stable2603": {
       "tags": [
@@ -3133,7 +3148,7 @@
   "statistics": {
     "total_sdk_tags": 226,
     "total_branches": 18,
-    "total_prs_tracked": 4006,
-    "runtime_releases_mapped": 35
+    "total_prs_tracked": 4009,
+    "runtime_releases_mapped": 36
   }
 }
