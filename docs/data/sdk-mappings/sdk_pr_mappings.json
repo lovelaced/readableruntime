@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-07T08:43:59.756211Z",
+  "last_updated": "2026-11-08T08:59:20.239690Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -49476,6 +49476,20 @@
       "is_backport": true,
       "original_pr": 13748
     },
+    "13719": {
+      "number": "13719",
+      "title": "[stable2609 Backport #13689] [pallet-revive] align terminate precompile with opcodes",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-07T12:16:21Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13719",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13689
+    },
     "13702": {
       "number": "13702",
       "title": "[stable2609 Backport #13690] `pallet-staking-async`: Only move spendable funds out of expired era pots",
@@ -49489,6 +49503,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13690
+    },
+    "13697": {
+      "number": "13697",
+      "title": "[stable2609 Backport #13256] pallet-psm: reject the `None` origin as a PSM admin",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-07T19:18:31Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13697",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13256
+    },
+    "13692": {
+      "number": "13692",
+      "title": "[stable2609 Backport #13626] pallet-psm: simplify PSM account handling",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-07T18:15:57Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13692",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13626
     },
     "13686": {
       "number": "13686",
@@ -83999,7 +84042,10 @@
     "12360": 12357,
     "12337": 12314,
     "13763": 13748,
+    "13719": 13689,
     "13702": 13690,
+    "13697": 13256,
+    "13692": 13626,
     "13686": 13617,
     "13682": 13678,
     "13654": 12674,
@@ -86004,17 +86050,20 @@
       13763
     ],
     "13689": [
-      13718
+      13718,
+      13719
     ],
     "13690": [
       13701,
       13702
     ],
     "13256": [
-      13696
+      13696,
+      13697
     ],
     "13626": [
-      13691
+      13691,
+      13692
     ],
     "13617": [
       13687,
