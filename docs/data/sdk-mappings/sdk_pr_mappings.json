@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-09T09:35:51.341609Z",
+  "last_updated": "2026-11-10T09:40:30.953915Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44045,6 +44045,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "13704": {
+      "number": "13704",
+      "title": "More XCM rollback hardening",
+      "author": "acatangiu",
+      "merged_at": "2026-11-09T14:31:31Z",
+      "labels": [
+        "T6-XCM",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13704",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13773": {
+      "number": "13773",
+      "title": "[stable2606 Backport #13704] More XCM rollback hardening",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-09T16:19:22Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13773",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13704
+    },
     "13748": {
       "number": "13748",
       "title": "check-runtime-migration: skip on stable and unstable branches",
@@ -49461,6 +49490,20 @@
       "is_direct": false,
       "from_master": true
     },
+    "13774": {
+      "number": "13774",
+      "title": "[stable2609 Backport #13704] More XCM rollback hardening",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-09T16:28:15Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13774",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13704
+    },
     "13763": {
       "number": "13763",
       "title": "[stable2609 Backport #13748] check-runtime-migration: skip on stable and unstable branches",
@@ -49475,6 +49518,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13748
+    },
+    "13621": {
+      "number": "13621",
+      "title": "pallet-revive: bound storage deposit refunds by the held deposit",
+      "author": "athei",
+      "merged_at": "2026-11-06T13:57:58Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13621",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13758": {
+      "number": "13758",
+      "title": "[stable2609 Backport #13621] pallet-revive: bound storage deposit refunds by the held deposit",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-10T09:08:05Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13758",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13621
     },
     "13719": {
       "number": "13719",
@@ -83973,6 +84045,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13773": 13704,
     "13762": 13748,
     "13718": 13689,
     "13701": 13690,
@@ -84041,7 +84114,9 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13774": 13704,
     "13763": 13748,
+    "13758": 13621,
     "13719": 13689,
     "13702": 13690,
     "13697": 13256,
@@ -86045,6 +86120,10 @@
     "10917": [
       11067
     ],
+    "13704": [
+      13773,
+      13774
+    ],
     "13748": [
       13762,
       13763
@@ -86239,6 +86318,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13621": [
+      13758
     ],
     "13637": [
       13643
