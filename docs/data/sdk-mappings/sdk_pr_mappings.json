@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-10T09:40:30.953915Z",
+  "last_updated": "2026-11-11T09:18:08.404288Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44105,6 +44105,35 @@
       "is_backport": true,
       "original_pr": 13748
     },
+    "13621": {
+      "number": "13621",
+      "title": "pallet-revive: bound storage deposit refunds by the held deposit",
+      "author": "athei",
+      "merged_at": "2026-11-06T13:57:58Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13621",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13757": {
+      "number": "13757",
+      "title": "[stable2606 Backport #13621] pallet-revive: bound storage deposit refunds by the held deposit",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-10T09:53:16Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13757",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13621
+    },
     "13731": {
       "number": "13731",
       "title": "[stable2606] Post crates release activities for stable2606-5",
@@ -49490,6 +49519,62 @@
       "is_direct": false,
       "from_master": true
     },
+    "13720": {
+      "number": "13720",
+      "title": "Fix weights accuracy",
+      "author": "franciscoaguirre",
+      "merged_at": "2026-11-10T12:55:37Z",
+      "labels": [
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13720",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13792": {
+      "number": "13792",
+      "title": "[stable2609 Backport #13720] Fix weights accuracy",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-11T08:50:55Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13792",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13720
+    },
+    "13736": {
+      "number": "13736",
+      "title": "Make the collator protocol revamp the default implementation (on Polkadot)",
+      "author": "tdimitrov",
+      "merged_at": "2026-11-10T08:32:11Z",
+      "labels": [
+        "T0-node",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13736",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13779": {
+      "number": "13779",
+      "title": "[stable2609 Backport #13736] Make the collator protocol revamp the default implementation (on Polkadot)",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-10T13:27:23Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13779",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13736
+    },
     "13774": {
       "number": "13774",
       "title": "[stable2609 Backport #13704] More XCM rollback hardening",
@@ -49503,6 +49588,63 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13704
+    },
+    "13390": {
+      "number": "13390",
+      "title": "benchmarking-cli: drop constant components from per-prefix proof-size analysis",
+      "author": "Zebedeusz",
+      "merged_at": "2026-10-22T22:25:03Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13390",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13771": {
+      "number": "13771",
+      "title": "[stable2609 Backport #13390] benchmarking-cli: drop constant components from per-prefix proof-size analysis",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-10T19:01:23Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13771",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13390
+    },
+    "13722": {
+      "number": "13722",
+      "title": "EPMB: determine the signed base deposit at registration",
+      "author": "sigurpol",
+      "merged_at": "2026-11-06T19:09:26Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13722",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13766": {
+      "number": "13766",
+      "title": "[stable2609 Backport #13722] EPMB: determine the signed base deposit at registration",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-10T10:09:10Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13766",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13722
     },
     "13763": {
       "number": "13763",
@@ -49519,20 +49661,34 @@
       "is_backport": true,
       "original_pr": 13748
     },
-    "13621": {
-      "number": "13621",
-      "title": "pallet-revive: bound storage deposit refunds by the held deposit",
-      "author": "athei",
-      "merged_at": "2026-11-06T13:57:58Z",
+    "13742": {
+      "number": "13742",
+      "title": "Uniques/NFTs: make ownership transafer fail if deposit cannot be moved",
+      "author": "kianenigma",
+      "merged_at": "2026-11-06T18:14:34Z",
       "labels": [
-        "T7-smart_contracts",
+        "T2-pallets",
         "A4-backport-stable2606",
         "A4-backport-stable2609"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13621",
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13742",
       "branch": "master",
       "is_direct": false,
       "from_master": true
+    },
+    "13761": {
+      "number": "13761",
+      "title": "[stable2609 Backport #13742] Uniques/NFTs: make ownership transafer fail if deposit cannot be moved",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-10T11:45:40Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13761",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13742
     },
     "13758": {
       "number": "13758",
@@ -49547,6 +49703,36 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13621
+    },
+    "13230": {
+      "number": "13230",
+      "title": "Dust accounting in fungibles transfers and approvals",
+      "author": "0xRVE",
+      "merged_at": "2026-10-20T19:22:04Z",
+      "labels": [
+        "T1-FRAME",
+        "A5-run-CI",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13230",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13744": {
+      "number": "13744",
+      "title": "[stable2609 Backport #13230] Dust accounting in fungibles transfers and approvals",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-11T06:28:18Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13744",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13230
     },
     "13719": {
       "number": "13719",
@@ -49748,6 +49934,7 @@
       "labels": [
         "I2-bug",
         "T7-smart_contracts",
+        "A4-backport-stable2606",
         "A4-backport-stable2609"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13413",
@@ -49762,7 +49949,8 @@
       "merged_at": "2026-11-01T15:29:41Z",
       "labels": [
         "A3-backport",
-        "T7-smart_contracts"
+        "T7-smart_contracts",
+        "A4-backport-stable2606"
       ],
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13639",
       "branch": "stable2609",
@@ -84047,6 +84235,7 @@
     "11058": 11055,
     "13773": 13704,
     "13762": 13748,
+    "13757": 13621,
     "13718": 13689,
     "13701": 13690,
     "13696": 13256,
@@ -84114,9 +84303,15 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13792": 13720,
+    "13779": 13736,
     "13774": 13704,
+    "13771": 13390,
+    "13766": 13722,
     "13763": 13748,
+    "13761": 13742,
     "13758": 13621,
+    "13744": 13230,
     "13719": 13689,
     "13702": 13690,
     "13697": 13256,
@@ -86128,6 +86323,10 @@
       13762,
       13763
     ],
+    "13621": [
+      13757,
+      13758
+    ],
     "13689": [
       13718,
       13719
@@ -86319,8 +86518,23 @@
     "12314": [
       12337
     ],
-    "13621": [
-      13758
+    "13720": [
+      13792
+    ],
+    "13736": [
+      13779
+    ],
+    "13390": [
+      13771
+    ],
+    "13722": [
+      13766
+    ],
+    "13742": [
+      13761
+    ],
+    "13230": [
+      13744
     ],
     "13637": [
       13643
