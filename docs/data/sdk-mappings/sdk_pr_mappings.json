@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11T09:18:08.404288Z",
+  "last_updated": "2026-11-12T09:44:04.463897Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44045,6 +44045,37 @@
       "is_direct": false,
       "from_master": true
     },
+    "13413": {
+      "number": "13413",
+      "title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
+      "author": "re-gius",
+      "merged_at": "2026-10-07T16:14:44Z",
+      "labels": [
+        "I2-bug",
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13413",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13781": {
+      "number": "13781",
+      "title": "[stable2606 Backport #13413] pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-11T09:26:11Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13781",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13413
+    },
     "13704": {
       "number": "13704",
       "title": "More XCM rollback hardening",
@@ -49519,6 +49550,47 @@
       "is_direct": false,
       "from_master": true
     },
+    "13814": {
+      "number": "13814",
+      "title": "[stable2609] Post crates release activities for stable2609-2",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-11-11T16:42:14Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13814",
+      "branch": "stable2609",
+      "is_direct": true
+    },
+    "13673": {
+      "number": "13673",
+      "title": "`pallet-bounties`: Pay out only spendable funds",
+      "author": "Szegoo",
+      "merged_at": "2026-11-10T14:07:13Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13673",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13795": {
+      "number": "13795",
+      "title": "[stable2609 Backport #13673] `pallet-bounties`: Pay out only spendable funds",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-11T09:57:27Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13795",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13673
+    },
     "13720": {
       "number": "13720",
       "title": "Fix weights accuracy",
@@ -49925,22 +49997,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13641",
       "branch": "stable2609",
       "is_direct": true
-    },
-    "13413": {
-      "number": "13413",
-      "title": "pallet-revive: fix callerIsRoot and callerIsOrigin across delegate calls",
-      "author": "re-gius",
-      "merged_at": "2026-10-07T16:14:44Z",
-      "labels": [
-        "I2-bug",
-        "T7-smart_contracts",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13413",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13639": {
       "number": "13639",
@@ -84233,6 +84289,7 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13781": 13413,
     "13773": 13704,
     "13762": 13748,
     "13757": 13621,
@@ -84303,6 +84360,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13795": 13673,
     "13792": 13720,
     "13779": 13736,
     "13774": 13704,
@@ -86315,6 +86373,10 @@
     "10917": [
       11067
     ],
+    "13413": [
+      13781,
+      13639
+    ],
     "13704": [
       13773,
       13774
@@ -86518,6 +86580,9 @@
     "12314": [
       12337
     ],
+    "13673": [
+      13795
+    ],
     "13720": [
       13792
     ],
@@ -86538,9 +86603,6 @@
     ],
     "13637": [
       13643
-    ],
-    "13413": [
-      13639
     ],
     "13598": [
       13638
