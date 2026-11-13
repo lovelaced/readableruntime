@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T09:44:04.461017Z",
+  "generated_at": "2026-11-13T09:29:39.695726Z",
   "methodology": "branch-aware-comprehensive",
   "runtime_mappings": {
     "v1.4.0": {
@@ -493,7 +493,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 404,
+      "branch_pr_count": 407,
       "included_branches": [
         "stable2606"
       ],
@@ -508,7 +508,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 404,
+      "branch_pr_count": 407,
       "included_branches": [
         "stable2606"
       ],
@@ -523,7 +523,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 404,
+      "branch_pr_count": 407,
       "included_branches": [
         "stable2606"
       ],
@@ -538,7 +538,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 404,
+      "branch_pr_count": 407,
       "included_branches": [
         "stable2606"
       ],
@@ -553,7 +553,7 @@
         "polkadot-primitives": "25.0.0",
         "sp-runtime": "48.0.0"
       },
-      "branch_pr_count": 404,
+      "branch_pr_count": 407,
       "included_branches": [
         "stable2606"
       ],
@@ -2864,7 +2864,7 @@
         "stable2609-1-rc1"
       ],
       "created_date": "2026-08-30T04:45:44Z",
-      "pr_count": 299
+      "pr_count": 300
     },
     "stable2606": {
       "tags": [
@@ -2885,7 +2885,7 @@
         "stable2606-1-rc1"
       ],
       "created_date": "2026-06-02T07:18:53Z",
-      "pr_count": 404
+      "pr_count": 407
     },
     "stable2603": {
       "tags": [
@@ -3170,7 +3170,7 @@
   "statistics": {
     "total_sdk_tags": 228,
     "total_branches": 18,
-    "total_prs_tracked": 4034,
+    "total_prs_tracked": 4038,
     "runtime_releases_mapped": 36
   }
 }
