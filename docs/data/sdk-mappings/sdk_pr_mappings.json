@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17T10:38:28.308471Z",
+  "last_updated": "2026-11-18T10:08:02.091551Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -32092,6 +32092,38 @@
       "is_direct": false,
       "from_master": true
     },
+    "13827": {
+      "number": "13827",
+      "title": "[CI/CD] Add a fallback the gpg key servers if they are not reachable",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-11-12T13:10:08Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A4-backport-stable2512",
+        "A4-backport-stable2603",
+        "A4-backport-unstable2604",
+        "A4-backport-stable2606"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13827",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13831": {
+      "number": "13831",
+      "title": "[stable2512 Backport #13827] [CI/CD] Add a fallback the gpg key servers if they are not reachable",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T12:59:30Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13831",
+      "branch": "stable2512",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13827
+    },
     "13564": {
       "number": "13564",
       "title": "[stable2512] Fix forklift cache for bullseye 2512",
@@ -38110,6 +38142,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "13832": {
+      "number": "13832",
+      "title": "[stable2603 Backport #13827] [CI/CD] Add a fallback the gpg key servers if they are not reachable",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T13:16:28Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13832",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13827
+    },
     "13636": {
       "number": "13636",
       "title": "[stable2603] Post crates release activities for stable2603-8",
@@ -44045,6 +44092,79 @@
       "is_direct": false,
       "from_master": true
     },
+    "13258": {
+      "number": "13258",
+      "title": "pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+      "author": "dhirajs0",
+      "merged_at": "2026-10-13T12:14:23Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13258",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13888": {
+      "number": "13888",
+      "title": "[stable2606 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T13:28:42Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13888",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13258
+    },
+    "13613": {
+      "number": "13613",
+      "title": "pallet-revive: keep native deposit records of a re-created contract",
+      "author": "athei",
+      "merged_at": "2026-11-12T20:34:39Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13613",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13837": {
+      "number": "13837",
+      "title": "[stable2606 Backport #13613] pallet-revive: keep native deposit records of a re-created contract",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-18T08:42:09Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13837",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13613
+    },
+    "13834": {
+      "number": "13834",
+      "title": "[stable2606 Backport #13827] [CI/CD] Add a fallback the gpg key servers if they are not reachable",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T17:51:30Z",
+      "labels": [
+        "R0-no-crate-publish-required",
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13834",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13827
+    },
     "13673": {
       "number": "13673",
       "title": "`pallet-bounties`: Pay out only spendable funds",
@@ -44162,6 +44282,35 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13704
+    },
+    "13722": {
+      "number": "13722",
+      "title": "EPMB: determine the signed base deposit at registration",
+      "author": "sigurpol",
+      "merged_at": "2026-11-06T19:09:26Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13722",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13765": {
+      "number": "13765",
+      "title": "[stable2606 Backport #13722] EPMB: determine the signed base deposit at registration",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T14:23:19Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13765",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13722
     },
     "13748": {
       "number": "13748",
@@ -49638,6 +49787,77 @@
       "is_direct": false,
       "from_master": true
     },
+    "13364": {
+      "number": "13364",
+      "title": "frame-system: refund authorize weight when AuthorizeCall skips it",
+      "author": "dhirajs0",
+      "merged_at": "2026-11-11T11:30:45Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13364",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13885": {
+      "number": "13885",
+      "title": "[stable2609 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T14:33:42Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13885",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13364
+    },
+    "13878": {
+      "number": "13878",
+      "title": "pallet-bounties: fix `reclaim_bounty_funds` benchmark",
+      "author": "Szegoo",
+      "merged_at": "2026-11-16T20:41:48Z",
+      "labels": [
+        "T2-pallets",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13878",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13881": {
+      "number": "13881",
+      "title": "[stable2609 Backport #13878] pallet-bounties: fix `reclaim_bounty_funds` benchmark",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T13:31:54Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13881",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13878
+    },
+    "13838": {
+      "number": "13838",
+      "title": "[stable2609 Backport #13613] pallet-revive: keep native deposit records of a re-created contract",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-17T17:46:24Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13838",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13613
+    },
     "13814": {
       "number": "13814",
       "title": "[stable2609] Post crates release activities for stable2609-2",
@@ -49747,21 +49967,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13390
-    },
-    "13722": {
-      "number": "13722",
-      "title": "EPMB: determine the signed base deposit at registration",
-      "author": "sigurpol",
-      "merged_at": "2026-11-06T19:09:26Z",
-      "labels": [
-        "T2-pallets",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13722",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13766": {
       "number": "13766",
@@ -84124,6 +84329,7 @@
     "9661": 9002,
     "9655": 9632,
     "9653": 9641,
+    "13831": 13827,
     "13223": 13221,
     "13156": 13094,
     "13079": 13037,
@@ -84239,6 +84445,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13832": 13827,
     "13604": 13601,
     "13534": 11910,
     "13224": 13221,
@@ -84344,10 +84551,14 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13888": 13258,
+    "13837": 13613,
+    "13834": 13827,
     "13794": 13673,
     "13791": 13720,
     "13781": 13413,
     "13773": 13704,
+    "13765": 13722,
     "13762": 13748,
     "13757": 13621,
     "13743": 13230,
@@ -84418,6 +84629,9 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13885": 13364,
+    "13881": 13878,
+    "13838": 13613,
     "13795": 13673,
     "13792": 13720,
     "13779": 13736,
@@ -86013,6 +86227,11 @@
       9655,
       9654
     ],
+    "13827": [
+      13831,
+      13832,
+      13834
+    ],
     "13221": [
       13223,
       13224,
@@ -86431,6 +86650,13 @@
     "10917": [
       11067
     ],
+    "13258": [
+      13888
+    ],
+    "13613": [
+      13837,
+      13838
+    ],
     "13673": [
       13794,
       13795
@@ -86446,6 +86672,10 @@
     "13704": [
       13773,
       13774
+    ],
+    "13722": [
+      13765,
+      13766
     ],
     "13748": [
       13762,
@@ -86650,14 +86880,17 @@
     "12314": [
       12337
     ],
+    "13364": [
+      13885
+    ],
+    "13878": [
+      13881
+    ],
     "13736": [
       13779
     ],
     "13390": [
       13771
-    ],
-    "13722": [
-      13766
     ],
     "13742": [
       13761
