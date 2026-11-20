@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-19T10:12:23.638706Z",
+  "last_updated": "2026-11-20T10:03:38.832624Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -44127,6 +44127,64 @@
       "is_backport": true,
       "original_pr": 13258
     },
+    "13364": {
+      "number": "13364",
+      "title": "frame-system: refund authorize weight when AuthorizeCall skips it",
+      "author": "dhirajs0",
+      "merged_at": "2026-11-11T11:30:45Z",
+      "labels": [
+        "T1-FRAME",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13364",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13884": {
+      "number": "13884",
+      "title": "[stable2606 Backport #13364] frame-system: refund authorize weight when AuthorizeCall skips it",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-19T12:49:00Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13884",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13364
+    },
+    "13620": {
+      "number": "13620",
+      "title": "pallet-revive: derive child trie ids from the deletion queue counter",
+      "author": "athei",
+      "merged_at": "2026-11-13T16:32:38Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13620",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13853": {
+      "number": "13853",
+      "title": "[stable2606 Backport #13620] pallet-revive: derive child trie ids from the deletion queue counter",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-19T11:05:48Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13853",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13620
+    },
     "13613": {
       "number": "13613",
       "title": "pallet-revive: keep native deposit records of a re-created contract",
@@ -49793,20 +49851,19 @@
       "is_direct": false,
       "from_master": true
     },
-    "13364": {
-      "number": "13364",
-      "title": "frame-system: refund authorize weight when AuthorizeCall skips it",
-      "author": "dhirajs0",
-      "merged_at": "2026-11-11T11:30:45Z",
+    "13889": {
+      "number": "13889",
+      "title": "[stable2609 Backport #13258] pallet-multi-asset-bounties: refund parent bounty net of paid-out child-bounty value on close",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-20T09:47:09Z",
       "labels": [
-        "T1-FRAME",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
+        "A3-backport"
       ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13364",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13889",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13258
     },
     "13885": {
       "number": "13885",
@@ -49849,6 +49906,49 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13878
+    },
+    "13854": {
+      "number": "13854",
+      "title": "[stable2609 Backport #13620] pallet-revive: derive child trie ids from the deletion queue counter",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-19T18:20:25Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13854",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13620
+    },
+    "13624": {
+      "number": "13624",
+      "title": "pallet-revive: bump PolkaVM to 0.38 and meter interpreter compilation",
+      "author": "athei",
+      "merged_at": "2026-11-13T14:11:41Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13624",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13846": {
+      "number": "13846",
+      "title": "[stable2609 Backport #13624] pallet-revive: bump PolkaVM to 0.38 and meter interpreter compilation",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-19T11:22:27Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13846",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13624
     },
     "13838": {
       "number": "13838",
@@ -87343,6 +87443,8 @@
     "11067": 10917,
     "11058": 11055,
     "13888": 13258,
+    "13884": 13364,
+    "13853": 13620,
     "13837": 13613,
     "13834": 13827,
     "13794": 13673,
@@ -87420,8 +87522,11 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13889": 13258,
     "13885": 13364,
     "13881": 13878,
+    "13854": 13620,
+    "13846": 13624,
     "13838": 13613,
     "13795": 13673,
     "13792": 13720,
@@ -89442,7 +89547,16 @@
       11067
     ],
     "13258": [
-      13888
+      13888,
+      13889
+    ],
+    "13364": [
+      13884,
+      13885
+    ],
+    "13620": [
+      13853,
+      13854
     ],
     "13613": [
       13837,
@@ -89671,11 +89785,11 @@
     "12314": [
       12337
     ],
-    "13364": [
-      13885
-    ],
     "13878": [
       13881
+    ],
+    "13624": [
+      13846
     ],
     "13736": [
       13779
