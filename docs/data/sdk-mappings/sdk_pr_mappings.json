@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-23T10:43:36.422753Z",
+  "last_updated": "2026-11-24T12:22:56.400402Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38148,6 +38148,37 @@
       "is_direct": false,
       "from_master": true
     },
+    "13816": {
+      "number": "13816",
+      "title": "fix(xcmp-queue): respect byte capacity for opaque notifications",
+      "author": "llblab",
+      "merged_at": "2026-11-23T16:39:07Z",
+      "labels": [
+        "T6-XCM",
+        "T9-cumulus",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13816",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13956": {
+      "number": "13956",
+      "title": "[stable2603 Backport #13816] fix(xcmp-queue): respect byte capacity for opaque notifications",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-23T18:22:39Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13956",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13816
+    },
     "13832": {
       "number": "13832",
       "title": "[stable2603 Backport #13827] [CI/CD] Add a fallback the gpg key servers if they are not reachable",
@@ -40840,6 +40871,36 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11055
+    },
+    "13909": {
+      "number": "13909",
+      "title": "Beefy ancestry prof: additional check",
+      "author": "serban300",
+      "merged_at": "2026-11-23T17:13:38Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13909",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13959": {
+      "number": "13959",
+      "title": "[stable2603 Backport #13909] Beefy ancestry prof: additional check",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-24T12:20:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13959",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13909
     },
     "12230": {
       "number": "12230",
@@ -44097,6 +44158,20 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "13957": {
+      "number": "13957",
+      "title": "[stable2606 Backport #13816] fix(xcmp-queue): respect byte capacity for opaque notifications",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-24T07:01:11Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13957",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13816
     },
     "13258": {
       "number": "13258",
@@ -49850,6 +49925,20 @@
       "branch": "stable2606",
       "is_direct": false,
       "from_master": true
+    },
+    "13958": {
+      "number": "13958",
+      "title": "[stable2609 Backport #13816] fix(xcmp-queue): respect byte capacity for opaque notifications",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-24T07:01:06Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13958",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13816
     },
     "13780": {
       "number": "13780",
@@ -87391,6 +87480,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13956": 13816,
     "13832": 13827,
     "13604": 13601,
     "13534": 11910,
@@ -87497,6 +87587,8 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
+    "13959": 13909,
+    "13957": 13816,
     "13888": 13258,
     "13884": 13364,
     "13853": 13620,
@@ -87577,6 +87669,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13958": 13816,
     "13933": 13780,
     "13926": 13610,
     "13889": 13258,
@@ -89411,6 +89504,11 @@
     "9685": [
       10374
     ],
+    "13816": [
+      13956,
+      13957,
+      13958
+    ],
     "13601": [
       13604,
       13605,
@@ -89602,6 +89700,9 @@
     ],
     "10917": [
       11067
+    ],
+    "13909": [
+      13959
     ],
     "13258": [
       13888,
