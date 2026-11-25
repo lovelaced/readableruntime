@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-24T12:22:56.400402Z",
+  "last_updated": "2026-11-25T11:16:52.866950Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38148,6 +38148,36 @@
       "is_direct": false,
       "from_master": true
     },
+    "13909": {
+      "number": "13909",
+      "title": "Beefy ancestry prof: additional check",
+      "author": "serban300",
+      "merged_at": "2026-11-23T17:13:38Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2603",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13909",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13959": {
+      "number": "13959",
+      "title": "[stable2603 Backport #13909] Beefy ancestry prof: additional check",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-24T12:20:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13959",
+      "branch": "stable2603",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13909
+    },
     "13816": {
       "number": "13816",
       "title": "fix(xcmp-queue): respect byte capacity for opaque notifications",
@@ -40871,36 +40901,6 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 11055
-    },
-    "13909": {
-      "number": "13909",
-      "title": "Beefy ancestry prof: additional check",
-      "author": "serban300",
-      "merged_at": "2026-11-23T17:13:38Z",
-      "labels": [
-        "T15-bridges",
-        "A4-backport-stable2603",
-        "A4-backport-stable2606",
-        "A4-backport-stable2609"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13909",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
-    },
-    "13959": {
-      "number": "13959",
-      "title": "[stable2603 Backport #13909] Beefy ancestry prof: additional check",
-      "author": "paritytech-release-backport-bot[bot]",
-      "merged_at": "2026-11-24T12:20:50Z",
-      "labels": [
-        "A3-backport"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13959",
-      "branch": "stable2603",
-      "is_direct": true,
-      "is_backport": true,
-      "original_pr": 13909
     },
     "12230": {
       "number": "12230",
@@ -44158,6 +44158,50 @@
       "branch": "stable2603",
       "is_direct": false,
       "from_master": true
+    },
+    "13963": {
+      "number": "13963",
+      "title": "Upgrade `polkadot-ckb-merkle-mountain-range` to 0.8.4",
+      "author": "serban300",
+      "merged_at": "2026-11-24T20:19:29Z",
+      "labels": [
+        "T15-bridges",
+        "A4-backport-stable2606",
+        "A4-backport-stable2609",
+        "A4-backport-stable2611"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13963",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13972": {
+      "number": "13972",
+      "title": "[stable2606 Backport #13963] Upgrade `polkadot-ckb-merkle-mountain-range` to 0.8.4",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-25T10:20:36Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13972",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13963
+    },
+    "13960": {
+      "number": "13960",
+      "title": "[stable2606 Backport #13909] Beefy ancestry prof: additional check",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-24T13:09:55Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13960",
+      "branch": "stable2606",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13909
     },
     "13957": {
       "number": "13957",
@@ -49926,6 +49970,34 @@
       "is_direct": false,
       "from_master": true
     },
+    "13973": {
+      "number": "13973",
+      "title": "[stable2609 Backport #13963] Upgrade `polkadot-ckb-merkle-mountain-range` to 0.8.4",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-25T10:21:00Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13973",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13963
+    },
+    "13961": {
+      "number": "13961",
+      "title": "[stable2609 Backport #13909] Beefy ancestry prof: additional check",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-24T12:44:19Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13961",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13909
+    },
     "13958": {
       "number": "13958",
       "title": "[stable2609 Backport #13816] fix(xcmp-queue): respect byte capacity for opaque notifications",
@@ -53874,6 +53946,49 @@
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
+    },
+    "13947": {
+      "number": "13947",
+      "title": "pallet-revive: align eth tx decoding and reuse decoded call in dry runs",
+      "author": "xermicus",
+      "merged_at": "2026-11-25T09:24:53Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2609",
+        "A4-backport-stable2611"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13947",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13978": {
+      "number": "13978",
+      "title": "[stable2611 Backport #13947] pallet-revive: align eth tx decoding and reuse decoded call in dry runs",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-25T10:36:57Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13978",
+      "branch": "stable2611",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13947
+    },
+    "13974": {
+      "number": "13974",
+      "title": "[stable2611 Backport #13963] Upgrade `polkadot-ckb-merkle-mountain-range` to 0.8.4",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-25T06:46:11Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13974",
+      "branch": "stable2611",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13963
     },
     "12021": {
       "number": "12021",
@@ -87480,6 +87595,7 @@
     "10378": 10232,
     "10374": 9685,
     "10358": 10351,
+    "13959": 13909,
     "13956": 13816,
     "13832": 13827,
     "13604": 13601,
@@ -87587,7 +87703,8 @@
     "11074": 11069,
     "11067": 10917,
     "11058": 11055,
-    "13959": 13909,
+    "13972": 13963,
+    "13960": 13909,
     "13957": 13816,
     "13888": 13258,
     "13884": 13364,
@@ -87669,6 +87786,8 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13973": 13963,
+    "13961": 13909,
     "13958": 13816,
     "13933": 13780,
     "13926": 13610,
@@ -87734,6 +87853,8 @@
     "13093": 12877,
     "13083": 13037,
     "13055": 13045,
+    "13978": 13947,
+    "13974": 13963,
     "12021": 12017,
     "10983": 10646,
     "10951": 10950,
@@ -89504,6 +89625,11 @@
     "9685": [
       10374
     ],
+    "13909": [
+      13959,
+      13960,
+      13961
+    ],
     "13816": [
       13956,
       13957,
@@ -89701,8 +89827,10 @@
     "10917": [
       11067
     ],
-    "13909": [
-      13959
+    "13963": [
+      13972,
+      13973,
+      13974
     ],
     "13258": [
       13888,
@@ -90014,6 +90142,9 @@
     ],
     "12877": [
       13093
+    ],
+    "13947": [
+      13978
     ],
     "10950": [
       10951
