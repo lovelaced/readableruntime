@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T11:16:52.866950Z",
+  "last_updated": "2026-11-26T10:50:05.750873Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -50012,6 +50012,33 @@
       "is_backport": true,
       "original_pr": 13816
     },
+    "13937": {
+      "number": "13937",
+      "title": "Check CID length before acceptance on `bitswap_v1_get`",
+      "author": "skunert",
+      "merged_at": "2026-11-23T14:19:47Z",
+      "labels": [
+        "A4-backport-stable2609"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13937",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13953": {
+      "number": "13953",
+      "title": "[stable2609 Backport #13937] Check CID length before acceptance on `bitswap_v1_get`",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-25T15:16:50Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13953",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13937
+    },
     "13780": {
       "number": "13780",
       "title": "Fix validations failing for a session after a restart near a session change",
@@ -53946,6 +53973,18 @@
       "branch": "stable2609",
       "is_direct": false,
       "from_master": true
+    },
+    "13993": {
+      "number": "13993",
+      "title": "[stable2611] Post crates release activities for stable2611",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-11-26T10:17:08Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13993",
+      "branch": "stable2611",
+      "is_direct": true
     },
     "13947": {
       "number": "13947",
@@ -87789,6 +87828,7 @@
     "13973": 13963,
     "13961": 13909,
     "13958": 13816,
+    "13953": 13937,
     "13933": 13780,
     "13926": 13610,
     "13889": 13258,
@@ -90070,6 +90110,9 @@
     ],
     "12314": [
       12337
+    ],
+    "13937": [
+      13953
     ],
     "13780": [
       13933
