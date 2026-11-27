@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-26T10:50:05.750873Z",
+  "last_updated": "2026-11-27T10:52:57.912961Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -38148,6 +38148,18 @@
       "is_direct": false,
       "from_master": true
     },
+    "13996": {
+      "number": "13996",
+      "title": "[stable2603] Post crates release activities for stable2603-9",
+      "author": "ptech-polkadotsdk-release-writer[bot]",
+      "merged_at": "2026-11-26T11:18:49Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13996",
+      "branch": "stable2603",
+      "is_direct": true
+    },
     "13909": {
       "number": "13909",
       "title": "Beefy ancestry prof: additional check",
@@ -49970,6 +49982,35 @@
       "is_direct": false,
       "from_master": true
     },
+    "13947": {
+      "number": "13947",
+      "title": "pallet-revive: align eth tx decoding and reuse decoded call in dry runs",
+      "author": "xermicus",
+      "merged_at": "2026-11-25T09:24:53Z",
+      "labels": [
+        "T7-smart_contracts",
+        "A4-backport-stable2609",
+        "A4-backport-stable2611"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13947",
+      "branch": "master",
+      "is_direct": false,
+      "from_master": true
+    },
+    "13977": {
+      "number": "13977",
+      "title": "[stable2609 Backport #13947] pallet-revive: align eth tx decoding and reuse decoded call in dry runs",
+      "author": "paritytech-release-backport-bot[bot]",
+      "merged_at": "2026-11-27T09:02:38Z",
+      "labels": [
+        "A3-backport"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/13977",
+      "branch": "stable2609",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 13947
+    },
     "13973": {
       "number": "13973",
       "title": "[stable2609 Backport #13963] Upgrade `polkadot-ckb-merkle-mountain-range` to 0.8.4",
@@ -53985,21 +54026,6 @@
       "url": "https://github.com/paritytech/polkadot-sdk/pull/13993",
       "branch": "stable2611",
       "is_direct": true
-    },
-    "13947": {
-      "number": "13947",
-      "title": "pallet-revive: align eth tx decoding and reuse decoded call in dry runs",
-      "author": "xermicus",
-      "merged_at": "2026-11-25T09:24:53Z",
-      "labels": [
-        "T7-smart_contracts",
-        "A4-backport-stable2609",
-        "A4-backport-stable2611"
-      ],
-      "url": "https://github.com/paritytech/polkadot-sdk/pull/13947",
-      "branch": "master",
-      "is_direct": false,
-      "from_master": true
     },
     "13978": {
       "number": "13978",
@@ -87825,6 +87851,7 @@
     "12377": 12282,
     "12360": 12357,
     "12337": 12314,
+    "13977": 13947,
     "13973": 13963,
     "13961": 13909,
     "13958": 13816,
@@ -90111,6 +90138,10 @@
     "12314": [
       12337
     ],
+    "13947": [
+      13977,
+      13978
+    ],
     "13937": [
       13953
     ],
@@ -90185,9 +90216,6 @@
     ],
     "12877": [
       13093
-    ],
-    "13947": [
-      13978
     ],
     "10950": [
       10951
