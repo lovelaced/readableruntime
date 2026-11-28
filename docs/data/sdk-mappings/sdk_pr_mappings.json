@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-27T10:52:57.912961Z",
+  "last_updated": "2026-11-28T10:10:42.955443Z",
   "runtime_sdk_versions": {
     "v1.4.0": {
       "sdk_version": "stable2409-4",
@@ -54015,6 +54015,21 @@
       "is_direct": false,
       "from_master": true
     },
+    "14029": {
+      "number": "14029",
+      "title": "pallet-recovery: fix try_state check 5b for zero security deposit",
+      "author": "rockbmb",
+      "merged_at": "2026-11-27T17:17:05Z",
+      "labels": [
+        "T2-pallets",
+        "T10-tests"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/14029",
+      "branch": "stable2611",
+      "is_direct": true,
+      "is_backport": true,
+      "original_pr": 14024
+    },
     "13993": {
       "number": "13993",
       "title": "[stable2611] Post crates release activities for stable2611",
@@ -54054,6 +54069,18 @@
       "is_direct": true,
       "is_backport": true,
       "original_pr": 13963
+    },
+    "14011": {
+      "number": "14011",
+      "title": "Version bumps and prdocs reordering from stable2611",
+      "author": "EgorPopelyaev",
+      "merged_at": "2026-11-27T16:58:48Z",
+      "labels": [
+        "R0-no-crate-publish-required"
+      ],
+      "url": "https://github.com/paritytech/polkadot-sdk/pull/14011",
+      "branch": "stable2611",
+      "is_direct": true
     },
     "12021": {
       "number": "12021",
@@ -87920,6 +87947,7 @@
     "13093": 12877,
     "13083": 13037,
     "13055": 13045,
+    "14029": 14024,
     "13978": 13947,
     "13974": 13963,
     "12021": 12017,
@@ -90216,6 +90244,9 @@
     ],
     "12877": [
       13093
+    ],
+    "14024": [
+      14029
     ],
     "10950": [
       10951
